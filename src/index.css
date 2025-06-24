@@ -1,7 +1,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
+  --primary-color: #841D2E;
+  --secondary-color: #000000;
+
+  --font-family: "Montserrat", sans-serif;
+
+  --primary-heading-larg-screen-font-size: 48px;
+  --primary-heading-larg-screen-font-weight: 600;
+  --primary-heading-larg-screen-line-height: 125%;
+
+  --primary-heading-small-screen-font-size: 24px;
+  --primary-heading-small-screen-font-weight: 600;
+  --primary-heading-small-screen-line-height: 125%;
+
+  --primary-paragraph-font-size: 20px;
+  --primary-paragraph-font-weight: 600;
+  --primary-paragraph-line-height: 150%;
+
   --secondray-font-size: 20px;
   --secondray-font-weight: 400;
   --secondray-line-height: 150%;
@@ -15,36 +33,45 @@
   box-sizing: border-box;
 }
 
-.secondary-para-tag {
-  font-size: var(--secondray-font-size);
-  font-weight: var(--secondray-font-weight);
-  line-height: var(--secondray-line-height);
-  color: var(--secondray-text-color);
-  font-family: var(--secondray-font-fam);
+.primary-paragraph {
+  color: var(--primary-color);
+  font-family: var(--font-family);
+  font-size: var(--primary-paragraph-font-size);
+  font-weight: var(--primary-paragraph-font-weight);
+  line-height: var(--primary-paragraph-line-height);
+  padding: var(--h-padding, --v-padding)
 }
 
- 
-/* Extra small devices (phones, 600px and down)  */
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-} 
+  .primary-heading {
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+    font-size: var(--primary-heading-small-screen-font-size);
+    font-weight: var(--primary-heading-font-weight);
+    line-height: var(--primary-heading-line-height);
+  }
+
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) { 
-
-}
+@media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-}
+@media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
+  .primary-heading {
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+    font-size: var(--primary-heading-larg-screen-font-size);
+    font-weight: var(--primary-heading-larg-screen-font-weight);
+    line-height: var(--primary-heading-larg-screen-line-height);
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-} 
+@media only screen and (min-width: 1200px) {}
