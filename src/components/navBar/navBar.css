@@ -1,21 +1,54 @@
-
-.navTitle {
-    @apply primary-paragraph
-    color: var(--primary-color);
-    
-}
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .nav-main {
+    padding: 10px 5%;
+  }
 
+  .child-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
+  .fees-text {
+    display: none;
+  }
 }
 
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+  .nav-main {
+    padding: 12px 5%;
+  }
+
+  .child-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+  .nav-main {
+    padding: 12px 5%;
+  }
+
+  .child-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -27,7 +60,43 @@
     font-weight: var(--primary-heading-larg-screen-font-weight);
     line-height: var(--primary-heading-larg-screen-line-height);
   }
+
+  .nav-main {
+    padding: 12px 5%;
+  }
+
+  .child-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+  .primary-heading {
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+    font-size: var(--primary-heading-xl-screen-font-size);
+    font-weight: var(--primary-heading-xl-screen-font-weight);
+    line-height: var(--primary-heading-xl-screen-line-height);
+  }
+
+  .nav-main {
+    padding: 15px 5%;
+  }
+
+  .child-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+
+}

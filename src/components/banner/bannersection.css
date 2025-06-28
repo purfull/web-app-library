@@ -1,0 +1,95 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .banner-container {
+    display: grid;
+    height: 656px;
+  }
+  .empty {
+    height: 110px;
+    background-color: white;
+  }
+  .primary-heading.white {
+    color: white;
+  }
+  .graduate.png{
+    background-color: white;
+  }
+  .secondary-paragraph.white {
+    color: white;
+  }
+  .coloured-bg {
+    background-color: #841d2e;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    height: 546px;
+    position: relative;
+  }
+  .left {
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+  }
+
+  .right {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100%; /* ensures the .right fills .coloured-bg */
+    padding-bottom: 0; /* you can adjust this if needed */
+    position: relative;
+  }
+
+  .right img {
+    height: 656px;
+    position: absolute;
+  }
+  .shades {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+  }
+
+  .shades img {
+    position: absolute;
+    object-fit: contain;
+  }
+
+  .shades img:nth-child(1) {
+    width: 450px;
+    right: 5px;
+    bottom: 10px;
+  }
+
+  /* .shades img:nth-child(2) {
+    width: 250px;
+    right: 40px;
+    bottom: 20px;
+  }
+
+  .shades img:nth-child(3) {
+    width: 200px;
+    right: 40px;
+    bottom: 40px;
+  } */
+}

@@ -1,40 +1,59 @@
-:root {
-  --sub-heading-xl-font-size: 20px;
-  --sub-heading-xl-font-weight: 600;
-  --sub-heading-xl-line-height: 150%;
-  --sub-heading-font-color: #841d2e;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-  --sub-heading-xs-font-size: 20px;
-  --sub-heading-xs-font-weight: 600;
+:root {
+  --sub-heading-xl-font-size: 17px;
+  --sub-heading-xl-font-weight: 400;
+  --sub-heading-xl-line-height: 150%;
+  --sub-heading-font-color: #F3E8EA;
+
+  --sub-heading-xs-font-size: 17px;
+  --sub-heading-xs-font-weight: 500;
   --sub-heading-xs-line-height: 150%;
 
   --primary-heading-xl-font-weight: 600;
   --primary-heading-xl-font-size: 48px;
   --primary-heading-xl-line-height: 125%;
+  --primary-heading-lg-font-weight: 600;
+  --primary-heading-lg-font-size: 40px;
+  --primary-heading-lg-line-height: 125%;
+  --primary-heading-md-font-weight: 600;
+  --primary-heading-md-font-size: 32px;
+  --primary-heading-md-line-height: 125%;
+  --primary-heading-sm-font-weight: 600;
+  --primary-heading-sm-font-size: 20px;
+  --primary-heading-sm-line-height: 125%;
   --primary-heading-xs-font-weight: 600;
-  --primary-heading-xs-font-size: 48px;
+  --primary-heading-xs-font-size: 30px;
   --primary-heading-xs-line-height: 125%;
-  --primary-heading-font-color: #000000;
+  --primary-font-family: "Montserrat", sans-serif;
+  --primary-heading-font-color: #ffffff;
+  --primary-background-color: #841D2E;
+
+
 
   --secondary-paragraph-xl-font-size: 20px;
   --secondary-paragraph-xl-font-weight: 400;
-  --primary-paragraph-font-color: #000000;
+  
+
+  --secondary-paragraph-xs-font-size: 15px;
+  --secondary-paragraph-xs-font-weight: 400;
+  --primary-paragraph-font-color: #ffffff;
   ---primary-bold-heading-xl-font-weight: 600;
 
-  --button-xl-width: 228px;
-  --button-xl-height: 48px;
+  /* --button-xl-width: 228px;
+  --button-xl-height: 48px; */
   --button-xl-font-size: 16px;
   --button-xl-border-bg-color: #f0f0f0;
   --button-xl-border-radius: 30px;
   --button-xl-bg-color: #ffffff;
   --button-xl-font-weight: 600;
-  --button-xl-horizontal-padding: 20px;
+  --button-xl-horizontal-padding: 10px;
   --button-xl-vertical-padding: 10px;
-
-  --button-xs-width: 117px;
-  --button-xs-height: 36px;
-  --button-xs-horizontal-padding: 10px;
-  --button-xs-vertical-padding: 6px;
+  /* 
+ --button-xs-width: 117px;
+  --button-xs-height: 36px;  */
+  --button-xs-horizontal-padding: 22px;
+  --button-xs-vertical-padding: 10px;
   --button-xs-font-size: 12px;
   --button-xs-font-weight: 500;
   --button-xs-border-radius: 30px;
@@ -47,18 +66,19 @@
 }
 
 .arrow-style {
-  width: 24px;
-  height: 24px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   background-color: #841d2e;
   align-items: center;
   justify-content: center;
-  padding: 5px;
+  /* padding: 3px; */
   gap: 10px;
+  margin-left: 12px;
 }
 
 .secondary-paragraph {
-  font-size: var(  --secondary-paragraph-xs-font-size);
+  font-size: var(--secondary-paragraph-xs-font-size);
   font-weight: var(--secondary-paragraph-xs-font-weight);
   line-height: var(--primary-paragraph-line-height);
   color: var(--primary-paragraph-font-color);
@@ -70,50 +90,6 @@
   color: var(--primary-paragraph-font-color);
 }
 
-/* Extra xl devices (xl laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .button-styles {
-    font-size: var(--button-xl-font-size);
-    border-color: var(--button-xl-border-bg-color);
-    border-radius: var(--button-xl-border-radius);
-    background-color: var(--button-xl-bg-color);
-    font-weight: var(--button-xl-font-weight);
-    padding: var(--button-xl-vertical-padding)
-      var(--button-xl-horizontal-padding);
-  }
-  .sub-heading {
-    font-size: var(--sub-heading-xl-font-size);
-    font-weight: var(--sub-heading-xl-font-weight);
-    line-height: var(--sub-heading-xl-line-height);
-    color: var(--sub-heading-font-color);
-  }
-  .primary-heading {
-    font-weight: var(--primary-heading-xl-font-weight);
-    font-size: var(--primary-heading-xl-font-size);
-    line-height: var(--primary-heading-xl-line-height);
-    color: var(--primary-heading-font-color);
-  }
-  .secondary-paragraph {
-    font-size: var(  --secondary-paragraph-xl-font-size);
-    font-weight: var(--secondary-paragraph-xl-font-weight);
-    line-height: var(--primary-paragraph-line-height);
-    color: var(--primary-paragraph-font-color);
-    font-family: var(--primary-font-family);
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-}
-
-/* Small devices (portrait tablets and xl phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-}
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .button-styles {
@@ -122,24 +98,103 @@
     border-radius: var(--button-xs-border-radius);
     background-color: var(--button-xl-bg-color);
     font-weight: var(--button-xs-font-weight);
-    padding: var(--button-xs-vertical-padding)
-      var(--button-xs-horizontal-padding);
+    padding: var(--button-xs-vertical-padding) var(--button-xs-horizontal-padding);
   }
+
   .primary-heading {
     font-weight: var(--primary-heading-xs-font-weight);
     font-size: var(--primary-heading-xs-font-size);
     line-height: var(--primary-heading-xs-line-height);
     color: var(--primary-heading-font-color);
   }
+
   .sub-heading {
     font-size: var(--sub-heading-xs-font-size);
     font-weight: var(--sub-heading-xs-font-weight);
     line-height: var(--sub-heading-xs-line-height);
     color: var(--sub-heading-font-color);
   }
+
   .secondary-paragraph {
-    font-size: var(  --secondary-paragraph-xs-font-size);
+    font-size: var(--secondary-paragraph-xs-font-size);
     font-weight: var(--secondary-paragraph-xs-font-weight);
+    line-height: var(--primary-paragraph-line-height);
+    color: var(--primary-paragraph-font-color);
+    font-family: var(--primary-font-family);
+  }
+}
+
+/* Small devices (portrait tablets and xl phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .primary-heading {
+    font-weight: var(--primary-heading-sm-font-weight);
+    font-size: var(--primary-heading-sm-font-size);
+    line-height: var(--primary-heading-sm-line-height);
+    color: var(--primary-heading-font-color);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .primary-heading {
+    font-weight: var(--primary-heading-md-font-weight);
+    font-size: var(--primary-heading-md-font-size);
+    line-height: var(--primary-heading-md-line-height);
+    color: var(--primary-heading-font-color);
+  }
+   .button-styles {
+    font-size: var(--button-xs-font-size);
+    border-color: var(--button-xs-border-bg-color);
+    border-radius: var(--button-xs-border-radius);
+    font-weight: var(--button-xs-font-weight);
+    padding: var(--button-xs-vertical-padding) var(--button-xs-horizontal-padding);
+  }
+  
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .primary-heading {
+    font-weight: var(--primary-heading-lg-font-weight);
+    font-size: var(--primary-heading-lg-font-size);
+    line-height: var(--primary-heading-lg-line-height);
+    color: var(--primary-heading-font-color);
+  }
+}
+
+/* Extra xl devices (xl laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .button-styles {
+    font-size: var(--button-xl-font-size);
+    border-color: var(--button-xl-border-bg-color);
+    border-radius: var(--button-xl-border-radius);
+    background-color: var(--button-xl-bg-color);
+    font-weight: var(--button-xl-font-weight);
+    padding: var(--button-xl-vertical-padding) var(--button-xl-horizontal-padding);
+  }
+
+  .sub-heading {
+    font-size: var(--sub-heading-xl-font-size);
+    font-weight: var(--sub-heading-xl-font-weight);
+    line-height: var(--sub-heading-xl-line-height);
+    color: var(--sub-heading-font-color);
+    font-family: var(--primary-font-family);
+
+  }
+
+  .primary-heading {
+    font-weight: var(--primary-heading-xl-font-weight);
+    font-size: var(--primary-heading-xl-font-size);
+    line-height: var(--primary-heading-xl-line-height);
+    color: var(--primary-heading-font-color);
+    font-family: var(--primary-font-family);
+
+  }
+
+  .secondary-paragraph {
+    font-size: var(--secondary-paragraph-xl-font-size);
+    font-weight: var(--secondary-paragraph-xl-font-weight);
     line-height: var(--primary-paragraph-line-height);
     color: var(--primary-paragraph-font-color);
     font-family: var(--primary-font-family);
