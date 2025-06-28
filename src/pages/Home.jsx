@@ -7,12 +7,12 @@ import BannerSection from "../components/banner/BannerSection";
 const HomePage = () => {
     return (
         <div className="">
-            {/* <NavBar />
+             <NavBar />
             <HeroSection />
             <InfiniteSection />
             <FeedBackSection />
-            <Footer /> */}
             <BannerSection/>
+            <Footer /> 
 
 
 
