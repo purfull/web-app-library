@@ -1,23 +1,35 @@
 import NavBar from "../components/navBar/Navbar";
-import HeroSection from "../components/heroSection/HeroSection"
-import Footer from "../components/footer/Footer";
-import InfiniteSection from "../components/infiniteSection/InfiniteCompo";
-import FeedBackSection from "../components/feedback/FeedBackSection";
+
+import ContentPage from "../components/content/Content";
+import RednavBar from "../components/rednavBar/RedNavbar";
+import Course from "../components/courses/Courses";
+import Faq from "../components/faq/Faq";
 import BannerSection from "../components/banner/BannerSection";
+
 const HomePage = () => {
-    return (
-        <div className="">
-             <NavBar />
-            <HeroSection />
-            <InfiniteSection />
-            <FeedBackSection />
-            <BannerSection/>
-            <Footer /> 
+  return (
+    <div className="">
+      <NavBar />
+      <HeroSection />
+      <InfiniteSection />
+      <FeedBackSection />
+      return (
+      <div className="">
+        <BannerSection />
+        <RednavBar />
+        <NavBar />
+        <ContentPage />
+        <Course />
+        <Faq />
+      </div>
+      );
+
+      <Footer />
 
 
 
-        </div>
-    );
+    </div>
+  );
 }
 
 export default HomePage;
