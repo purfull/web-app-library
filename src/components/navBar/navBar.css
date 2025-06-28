@@ -1,3 +1,4 @@
+
 /* .navTitle {
     @apply primary-paragraph
     color: var(--primary-color);
@@ -50,11 +51,14 @@
     justify-content: center;
     align-items: center;
     /* transition: all 0.3s ease; */
+
   }
 }
 
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
   .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -101,11 +105,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+
   .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -186,10 +192,26 @@
   .fee-text {
     display: block;
   }
+
+  .nav-main {
+    padding: 12px 5%;
+  }
+
+  .child-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+
   .nav-bar {
     display: flex;
     justify-content: space-between;

@@ -1,3 +1,4 @@
+
 import "./navBar.css";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { CiSearch } from "react-icons/ci";
