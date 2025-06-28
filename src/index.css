@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap");
+
 :root {
+  --primary-font-family: "Montserrat", sans-serif;
   --sub-heading-xl-font-size: 20px;
   --sub-heading-xl-font-weight: 600;
   --sub-heading-xl-line-height: 150%;
@@ -9,17 +12,29 @@
   --sub-heading-xs-line-height: 150%;
 
   --primary-heading-xl-font-weight: 600;
-  --primary-heading-xl-font-size: 48px;
+  --primary-heading-xl-font-size: 40px;
   --primary-heading-xl-line-height: 125%;
+  --primary-heading-lg-font-weight: 600;
+  --primary-heading-lg-font-size: 40px;
+  --primary-heading-lg-line-height: 125%;
+  --primary-heading-md-font-weight: 600;
+  --primary-heading-md-font-size: 32px;
+  --primary-heading-md-line-height: 125%;
+  --primary-heading-sm-font-weight: 600;
+  --primary-heading-sm-font-size: 24px;
+  --primary-heading-sm-line-height: 125%;
   --primary-heading-xs-font-weight: 600;
-  --primary-heading-xs-font-size: 48px;
+  --primary-heading-xs-font-size: 24px;
   --primary-heading-xs-line-height: 125%;
   --primary-heading-font-color: #000000;
 
   --secondary-paragraph-xl-font-size: 20px;
   --secondary-paragraph-xl-font-weight: 400;
   --primary-paragraph-font-color: #000000;
+  --secondary-paragraph-xl-line-height: 150%;
   ---primary-bold-heading-xl-font-weight: 600;
+  --secondary-paragraph-xs-font-size: 12px;
+  --secondary-paragraph-xs-font-weight: 500;
 
   --button-xl-width: 228px;
   --button-xl-height: 48px;
@@ -38,6 +53,118 @@
   --button-xs-font-size: 12px;
   --button-xs-font-weight: 500;
   --button-xs-border-radius: 30px;
+
+  --secondary-button-xl-bg-color: #841d2e;
+  --secondary-button-xl-color: #f0f0f0;
+  --secondary-button-xl-horizontal-padding: 10px;
+  --secondary-button-xl-vertical-padding: 6px;
+  --secondary-button-xl-font-size: 16px;
+  --secondary-button-xl-font-weight: 500;
+  --secondary-button-xl-border: 1px;
+  --secondary-button-xl-gap: 10px;
+  --secondary-button-xl-border-radius: 30px;
+
+  --secondary-button-lg-horizontal-padding: 10px;
+  --secondary-button-lg-vertical-padding: 6px;
+  --secondary-button-lg-font-size: 16px;
+  --secondary-button-lg-font-weight: 500;
+  --secondary-button-lg-border: 1px;
+  --secondary-button-lg-gap: 10px;
+  --secondary-button-lg-border-radius: 30px;
+
+  --secondary-button-md-horizontal-padding: 10px;
+  --secondary-button-md-vertical-padding: 6px;
+  --secondary-button-md-font-size: 16px;
+  --secondary-button-md-font-weight: 500;
+  --secondary-button-md-border: 1px;
+  --secondary-button-md-gap: 10px;
+  --secondary-button-md-border-radius: 30px;
+
+  --secondary-button-xs-horizontal-padding: 10px;
+  --secondary-button-xs-vertical-padding: 6px;
+  --secondary-button-xs-font-size: 12px;
+  --secondary-button-xs-font-weight: 500;
+  --secondary-button-xs-border: 1px;
+  --secondary-button-xs-gap: 10px;
+  --secondary-button-xs-border-radius: 30px;
+
+  --secondary-button-s-width: 189px;
+  --secondary-button-s-height: 40px;
+  --secondary-button-s-horizontal-padding: 10px;
+  --secondary-button-s-vertical-padding: 6px;
+  --secondary-button-s-font-size: 12px;
+  --secondary-button-s-font-weight: 500;
+  --secondary-button-s-border: 1px;
+  --secondary-button-s-gap: 10px;
+  --secondary-button-s-border-radius: 30px;
+
+  --tertiary-button-xl-bg-color: #ffffff;
+  --tertiary-button-xl-gap: 8px;
+  --tertiary-button-xl-border: 1px;
+  --tertiary-button-xl-border-radius: 30px;
+  --tertiary-button-xl-padding: 10px;
+  --tertiary-button-xl-font-size: 16px;
+  --tertiary-button-xl-font-weight: 500;
+  --tertiary-button-color: #841d26;
+  --tertiary-button-xl-width: 231px;
+  --tertiary-button-xl-height: 48px;
+  --tertiary-button-xl-line-height: 17.6px;
+
+  --tertiary-button-xs-bg-color: #ffffff;
+  --tertiary-button-xs-gap: 8px;
+  --tertiary-button-xs-border: 1px;
+  --tertiary-button-xs-border-radius: 30px;
+  --tertiary-button-xs-padding: 10px;
+  --tertiary-button-xs-font-size: 12px;
+  --tertiary-button-color: #841d26;
+  --tertiary-button-xs-width: 180px;
+  --tertiary-button-xs-height: 40px;
+  --tertiary-button-xs-line-height: 17.6px;
+  --tertiary-button-xs-font-weight: 500;
+
+  --fourth-button-xl-bg-color: #841d26;
+  --fourth-button-xl-gap: 10px;
+  --fourth-button-xl-border: 1px;
+  --fourth-button-xl-border-radius: 30px;
+  --fourth-button-xl-padding: 10px 100px;
+  --fourth-button-xl-font-size: 14px;
+  --fourth-button-color: #ffffff;
+  /* --fourth-button-xl-width: 339px;
+  --fourth-button-xl-height: 38px; */
+  --fourth-button-lg-padding: 10px 60px;
+  --fourth-button-md-padding: 10px 40px;
+  --fourth-button-sm-padding: 10px 30px;
+
+  --fourth-button-xs-bg-color: #841d26;
+  --fourth-button-xs-gap: 10px;
+  --fourth-button-xs-border: 1px;
+  --fourth-button-xs-border-radius: 30px;
+  --fourth-button-xs-padding: 10px 40px;
+  --fourth-button-xs-font-size: 14px;
+  --fourth-button-color: #ffffff;
+  /* --fourth-button-xs-width: 279px;
+  --fourth-button-xs-height: 38px; */
+
+  --search-button-xl-border: 1px solid #e5e5e5;
+  --search-button-xl-border-radius: 30px;
+  --search-button-xl-font-size: 12px;
+  --search-button-xl-font-weight: 400;
+  --search-button-xl-font-color: #575757;
+  --search-button-xl-line-height: 17.6px;
+  --search-button-bg-color: transparent;
+  --search-button-xl-padding: 10px 50px;
+  --search-button-lg-padding: 10px 50px;
+  --search-button-md-padding: 10px 30px;
+  --search-button-sm-padding: 5px 10px;
+
+  --search-button-xs-border: 1px solid #e5e5e5;
+  --search-button-xs-border-radius: 30px;
+  --search-button-xs-font-size: 12px;
+  --search-button-xs-font-weight: 400;
+  --search-button-xs-font-color: #575757;
+  --search-button-xs-line-height: 17.6px;
+  --search-button-bg-color: transparent;
+  --search-button-xs-padding: 5px 10px;
 }
 
 * {
@@ -57,61 +184,9 @@
   gap: 10px;
 }
 
-.secondary-paragraph {
-  font-size: var(  --secondary-paragraph-xs-font-size);
-  font-weight: var(--secondary-paragraph-xs-font-weight);
-  line-height: var(--primary-paragraph-line-height);
-  color: var(--primary-paragraph-font-color);
-  font-family: var(--primary-font-family);
-}
-
 .bold-heading {
   font-weight: var(---primary-bold-heading-xl-font-weight);
   color: var(--primary-paragraph-font-color);
-}
-
-/* Extra xl devices (xl laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .button-styles {
-    font-size: var(--button-xl-font-size);
-    border-color: var(--button-xl-border-bg-color);
-    border-radius: var(--button-xl-border-radius);
-    background-color: var(--button-xl-bg-color);
-    font-weight: var(--button-xl-font-weight);
-    padding: var(--button-xl-vertical-padding)
-      var(--button-xl-horizontal-padding);
-  }
-  .sub-heading {
-    font-size: var(--sub-heading-xl-font-size);
-    font-weight: var(--sub-heading-xl-font-weight);
-    line-height: var(--sub-heading-xl-line-height);
-    color: var(--sub-heading-font-color);
-  }
-  .primary-heading {
-    font-weight: var(--primary-heading-xl-font-weight);
-    font-size: var(--primary-heading-xl-font-size);
-    line-height: var(--primary-heading-xl-line-height);
-    color: var(--primary-heading-font-color);
-  }
-  .secondary-paragraph {
-    font-size: var(  --secondary-paragraph-xl-font-size);
-    font-weight: var(--secondary-paragraph-xl-font-weight);
-    line-height: var(--primary-paragraph-line-height);
-    color: var(--primary-paragraph-font-color);
-    font-family: var(--primary-font-family);
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-}
-
-/* Small devices (portrait tablets and xl phones, 600px and up) */
-@media only screen and (min-width: 600px) {
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -130,6 +205,7 @@
     font-size: var(--primary-heading-xs-font-size);
     line-height: var(--primary-heading-xs-line-height);
     color: var(--primary-heading-font-color);
+    font-family: var(--primary-font-family);
   }
   .sub-heading {
     font-size: var(--sub-heading-xs-font-size);
@@ -138,10 +214,332 @@
     color: var(--sub-heading-font-color);
   }
   .secondary-paragraph {
-    font-size: var(  --secondary-paragraph-xs-font-size);
+    font-size: var(--secondary-paragraph-xs-font-size);
     font-weight: var(--secondary-paragraph-xs-font-weight);
-    line-height: var(--primary-paragraph-line-height);
+    line-height: var(--secondary-paragraph-xl-line-height);
     color: var(--primary-paragraph-font-color);
     font-family: var(--primary-font-family);
+  }
+  .secondary-button {
+    width: var(--secondary-button-sm-width);
+    height: var(--secondary-button-sm-height);
+    background-color: var(--secondary-button-xl-bg-color);
+    color: var(--secondary-button-xl-color);
+    padding: var(--secondary-button-sm-horizontal-padding)
+      var(--secondary-button-sm-vertical-padding);
+    font-size: var(--secondary-button-sm-font-size);
+    font-weight: var(--secondary-button-sm-font-weight);
+    border: var(--secondary-button-sm-border);
+    gap: var(--secondary-button-sm-gap);
+    border-radius: var(--secondary-button-sm-border-radius);
+  }
+  .fourth-button {
+    background-color: var(--fourth-button-xs-bg-color);
+    gap: var(--fourth-button-xs-gap);
+    border: var(--fourth-button-xs-border);
+    border-radius: var(--fourth-button-xs-border-radius);
+    padding: var(--fourth-button-sm-padding);
+    font-size: var(--fourth-button-xs-font-size);
+    color: var(--fourth-button-color);
+  }
+  .tertiary-button {
+    background-color: var(--tertiary-button-xs-bg-color);
+    gap: var(--tertiary-button-xs-gap);
+    border: var(--tertiary-button-xs-border);
+    border-radius: var(--tertiary-button-xs-border-radius);
+    padding: var(--tertiary-button-xs-padding);
+    font-size: var(--tertiary-button-xs-font-size);
+    color: var(--tertiary-button-color);
+    width: var(--tertiary-button-xs-width);
+    height: var(--tertiary-button-xs-height);
+    font-weight: var(--tertiary-button-xs-font-weight);
+    line-height: var(--tertiary-button-xs-line-height);
+  }
+  .search-button {
+    border: var(--search-button-xs-border);
+    border-radius: var(--search-button-xs-border-radius);
+    font-size: var(--search-button-xs-font-size);
+    font-weight: var(--search-button-xs-font-weight);
+    color: var(--search-button-xs-font-color);
+    line-height: var(--search-button-xs-line-height);
+    background-color: var(--search-button-bg-color);
+    justify-content: space-between;
+    padding: var(--search-button-xs-padding);
+  }
+}
+
+/* Small devices (portrait tablets and xl phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .primary-heading {
+    font-weight: var(--primary-heading-sm-font-weight);
+    font-size: var(--primary-heading-sm-font-size);
+    line-height: var(--primary-heading-sm-line-height);
+    color: var(--primary-heading-font-color);
+    font-family: var(--primary-font-family);
+  }
+  .secondary-button {
+    width: var(--secondary-button-xs-width);
+    height: var(--secondary-button-xs-height);
+    background-color: var(--secondary-button-xl-bg-color);
+    color: var(--secondary-button-xl-color);
+    padding: var(--secondary-button-xs-horizontal-padding)
+      var(--secondary-button-xs-vertical-padding);
+    font-size: var(--secondary-button-xs-font-size);
+    font-weight: var(--secondary-button-xs-font-weight);
+    border: var(--secondary-button-xs-border);
+    gap: var(--secondary-button-xs-gap);
+    border-radius: var(--secondary-button-xs-border-radius);
+  }
+  .secondary-paragraph {
+    font-size: var(--secondary-paragraph-xs-font-size);
+    font-weight: var(--secondary-paragraph-xs-font-weight);
+    line-height: var(--secondary-paragraph-xl-line-height);
+    color: var(--primary-paragraph-font-color);
+    font-family: var(--primary-font-family);
+  }
+  .fourth-button {
+    background-color: var(--fourth-button-xs-bg-color);
+    gap: var(--fourth-button-xs-gap);
+    border: var(--fourth-button-xs-border);
+    border-radius: var(--fourth-button-xs-border-radius);
+    padding: var(--fourth-button-md-padding);
+    font-size: var(--fourth-button-xs-font-size);
+    color: var(--fourth-button-color);
+    /* width: var(--fourth-button-xs-width);
+    height: var(--fourth-button-xs-height); */
+  }
+  .tertiary-button {
+    background-color: var(--tertiary-button-xs-bg-color);
+    gap: var(--tertiary-button-xs-gap);
+    border: var(--tertiary-button-xs-border);
+    border-radius: var(--tertiary-button-xs-border-radius);
+    padding: var(--tertiary-button-xs-padding);
+    font-size: var(--tertiary-button-xs-font-size);
+    color: var(--tertiary-button-color);
+    width: var(--tertiary-button-xs-width);
+    height: var(--tertiary-button-xs-height);
+    font-weight: var(--tertiary-button-xs-font-weight);
+    line-height: var(--tertiary-button-xs-line-height);
+  }
+  .search-button {
+    border: var(--search-button-xs-border);
+    border-radius: var(--search-button-xs-border-radius);
+    font-size: var(--search-button-xs-font-size);
+    font-weight: var(--search-button-xs-font-weight);
+    color: var(--search-button-xs-font-color);
+    line-height: var(--search-button-xs-line-height);
+    background-color: var(--search-button-bg-color);
+    justify-content: space-between;
+    padding: var(--search-button-sm-padding);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .primary-heading {
+    font-weight: var(--primary-heading-md-font-weight);
+    font-size: var(--primary-heading-md-font-size);
+    line-height: var(--primary-heading-md-line-height);
+    color: var(--primary-heading-font-color);
+    font-family: var(--primary-font-family);
+  }
+  .secondary-button {
+    width: var(--secondary-button-md-width);
+    height: var(--secondary-button-md-height);
+    background-color: var(--secondary-button-xl-bg-color);
+    color: var(--secondary-button-xl-color);
+    padding: var(--secondary-button-md-horizontal-padding)
+      var(--secondary-button-md-vertical-padding);
+    font-size: var(--secondary-button-md-font-size);
+    font-weight: var(--secondary-button-md-font-weight);
+    border: var(--secondary-button-md-border);
+    gap: var(--secondary-button-md-gap);
+    border-radius: var(--secondary-button-md-border-radius);
+  }
+  .secondary-paragraph {
+    font-size: var(--secondary-paragraph-xl-font-size);
+    font-weight: var(--secondary-paragraph-xl-font-weight);
+    line-height: var(--secondary-paragraph-xl-line-height);
+    color: var(--primary-paragraph-font-color);
+    font-family: var(--primary-font-family);
+  }
+  .fourth-button {
+    background-color: var(--fourth-button-xl-bg-color);
+    gap: var(--fourth-button-xl-gap);
+    border: var(--fourth-button-xl-border);
+    border-radius: var(--fourth-button-xl-border-radius);
+    padding: var(--fourth-button-md-padding);
+    font-size: var(--fourth-button-xl-font-size);
+    color: var(--fourth-button-color);
+    /* width: var(--fourth-button-xl-width);
+    height: var(--fourth-button-xl-height); */
+  }
+  .tertiary-button {
+    background-color: var(--tertiary-button-xl-bg-color);
+    gap: var(--tertiary-button-xl-gap);
+    border: var(--tertiary-button-xl-border);
+    border-radius: var(--tertiary-button-xl-border-radius);
+    padding: var(--tertiary-button-xl-padding);
+    font-size: var(--tertiary-button-xl-font-size);
+    color: var(--tertiary-button-color);
+    width: var(--tertiary-button-xl-width);
+    height: var(--tertiary-button-xl-height);
+    font-weight: var(--tertiary-button-xl-font-weight);
+    line-height: var(--tertiary-button-xl-line-height);
+  }
+  .search-button {
+    border: var(--search-button-xl-border);
+    border-radius: var(--search-button-xl-border-radius);
+    font-size: var(--search-button-xl-font-size);
+    font-weight: var(--search-button-xl-font-weight);
+    color: var(--search-button-xl-font-color);
+    line-height: var(--search-button-xl-line-height);
+    background-color: var(--search-button-bg-color);
+    /* width: var(--search-button-width);
+    height: var(--search-button-height); */
+    justify-content: space-between;
+    padding: var(--search-button-md-padding);
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .primary-heading {
+    font-weight: var(--primary-heading-lg-font-weight);
+    font-size: var(--primary-heading-lg-font-size);
+    line-height: var(--primary-heading-lg-line-height);
+    color: var(--primary-heading-font-color);
+    font-family: var(--primary-font-family);
+  }
+  .secondary-button {
+    width: var(--secondary-button-lg-width);
+    height: var(--secondary-button-lg-height);
+    background-color: var(--secondary-button-xl-bg-color);
+    color: var(--secondary-button-xl-color);
+    padding: var(--secondary-button-lg-horizontal-padding)
+      var(--secondary-button-lg-vertical-padding);
+    font-size: var(--secondary-button-lg-font-size);
+    font-weight: var(--secondary-button-lg-font-weight);
+    border: var(--secondary-button-lg-border);
+    gap: var(--secondary-button-lg-gap);
+    border-radius: var(--secondary-button-lg-border-radius);
+  }
+  .secondary-paragraph {
+    font-size: var(--secondary-paragraph-xl-font-size);
+    font-weight: var(--secondary-paragraph-xl-font-weight);
+    line-height: var(--secondary-paragraph-xl-line-height);
+    color: var(--primary-paragraph-font-color);
+    font-family: var(--primary-font-family);
+  }
+  .fourth-button {
+    background-color: var(--fourth-button-xl-bg-color);
+    gap: var(--fourth-button-xl-gap);
+    border: var(--fourth-button-xl-border);
+    border-radius: var(--fourth-button-xl-border-radius);
+    padding: var(--fourth-button-lg-padding);
+    font-size: var(--fourth-button-xl-font-size);
+    color: var(--fourth-button-color);
+    /* width: var(--fourth-button-xl-width);
+    height: var(--fourth-button-xl-height); */
+  }
+  .tertiary-button {
+    background-color: var(--tertiary-button-xl-bg-color);
+    gap: var(--tertiary-button-xl-gap);
+    border: var(--tertiary-button-xl-border);
+    border-radius: var(--tertiary-button-xl-border-radius);
+    padding: var(--tertiary-button-xl-padding);
+    font-size: var(--tertiary-button-xl-font-size);
+    color: var(--tertiary-button-color);
+    width: var(--tertiary-button-xl-width);
+    height: var(--tertiary-button-xl-height);
+    font-weight: var(--tertiary-button-xl-font-weight);
+    line-height: var(--tertiary-button-xl-line-height);
+  }
+  .search-button {
+    border: var(--search-button-xl-border);
+    border-radius: var(--search-button-xl-border-radius);
+    font-size: var(--search-button-xl-font-size);
+    font-weight: var(--search-button-xl-font-weight);
+    color: var(--search-button-xl-font-color);
+    line-height: var(--search-button-xl-line-height);
+    background-color: var(--search-button-bg-color);
+    /* width: var(--search-button-width);
+    height: var(--search-button-height); */
+    justify-content: space-between;
+    padding: var(--search-button-lg-padding);
+  }
+}
+
+/* Extra xl devices (xl laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .sub-heading {
+    font-size: var(--sub-heading-xl-font-size);
+    font-weight: var(--sub-heading-xl-font-weight);
+    line-height: var(--sub-heading-xl-line-height);
+    color: var(--sub-heading-font-color);
+  }
+  .primary-heading {
+    font-weight: var(--primary-heading-xl-font-weight);
+    font-size: var(--primary-heading-xl-font-size);
+    line-height: var(--primary-heading-xl-line-height);
+    color: var(--primary-heading-font-color);
+    font-family: var(--primary-font-family);
+  }
+  .secondary-paragraph {
+    font-size: var(--secondary-paragraph-xl-font-size);
+    font-weight: var(--secondary-paragraph-xl-font-weight);
+    line-height: var(--secondary-paragraph-xl-line-height);
+    color: var(--primary-paragraph-font-color);
+    font-family: var(--primary-font-family);
+  }
+  .secondary-button {
+    width: var(--secondary-button-xl-width);
+    height: var(--secondary-button-xl-height);
+    background-color: var(--secondary-button-xl-bg-color);
+    color: var(--secondary-button-xl-color);
+    padding: var(--secondary-button-xl-horizontal-padding)
+      var(--secondary-button-xl-vertical-padding);
+    font-size: var(--secondary-button-xl-font-size);
+    font-weight: var(--secondary-button-xl-font-weight);
+    border: var(--secondary-button-xl-border);
+    gap: var(--secondary-button-xl-gap);
+    border-radius: var(--secondary-button-xl-border-radius);
+  }
+  .fourth-button {
+    background-color: var(--fourth-button-xl-bg-color);
+    gap: var(--fourth-button-xl-gap);
+    border: var(--fourth-button-xl-border);
+    border-radius: var(--fourth-button-xl-border-radius);
+    padding: var(--fourth-button-xl-padding);
+    font-size: var(--fourth-button-xl-font-size);
+    color: var(--fourth-button-color);
+    width: var(--fourth-button-xl-width);
+    height: var(--fourth-button-xl-height);
+  }
+  .tertiary-button {
+    background-color: var(--tertiary-button-xl-bg-color);
+    gap: var(--tertiary-button-xl-gap);
+    border: var(--tertiary-button-xl-border);
+    border-radius: var(--tertiary-button-xl-border-radius);
+    padding: var(--tertiary-button-xl-padding);
+    font-size: var(--tertiary-button-xl-font-size);
+    color: var(--tertiary-button-color);
+    width: var(--tertiary-button-xl-width);
+    height: var(--tertiary-button-xl-height);
+    font-weight: var(--tertiary-button-xl-font-weight);
+    line-height: var(--tertiary-button-xl-line-height);
+  }
+  .search-button {
+    border: var(--search-button-xl-border);
+    border-radius: var(--search-button-xl-border-radius);
+    font-size: var(--search-button-xl-font-size);
+    font-weight: var(--search-button-xl-font-weight);
+    color: var(--search-button-xl-font-color);
+    line-height: var(--search-button-xl-line-height);
+    background-color: var(--search-button-bg-color);
+    /* width: var(--search-button-width);
+    height: var(--search-button-height); */
+    justify-content: space-between;
+    padding: var(--search-button-xl-padding);
   }
 }
