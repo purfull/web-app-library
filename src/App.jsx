@@ -8,6 +8,9 @@ function App() {
       
       {/* <div className="primary-heading">Empower Your Future with Botho University Online</div> */}
       <HomePage />
+      <div className="">
+        
+      </div>
       
     </>
   );

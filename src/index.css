@@ -3,182 +3,9 @@
 
 :root {
   --primary-font-family: "Montserrat", sans-serif;
-  --sub-heading-xl-font-size: 20px;
-  --sub-heading-xl-font-weight: 600;
+  --primary-color: #841D2E;
+  --secondary-color: #000000;
 
-  --sub-heading-xl-line-height: 150%;
-  --sub-heading-font-color: #F3E8EA;
-
-  --sub-heading-xs-font-size: 17px;
-  --sub-heading-xs-font-weight: 500;
-  --sub-heading-xs-line-height: 150%;
-
-  --primary-heading-xl-font-weight: 600;
-  --primary-heading-xl-font-size: 40px;
-  --primary-heading-xl-line-height: 125%;
-  --primary-heading-lg-font-weight: 600;
-  --primary-heading-lg-font-size: 40px;
-  --primary-heading-lg-line-height: 125%;
-  --primary-heading-md-font-weight: 600;
-  --primary-heading-md-font-size: 32px;
-  --primary-heading-md-line-height: 125%;
-  --primary-heading-sm-font-weight: 600;
-
-  --primary-heading-sm-font-size: 24px;
-  --primary-heading-sm-line-height: 125%;
-  --primary-heading-xs-font-weight: 600;
-  --primary-heading-xs-font-size: 24px;
-
-  --primary-heading-xs-line-height: 125%;
-  --primary-font-family: "Montserrat", sans-serif;
-  --primary-heading-font-color: #ffffff;
-  --primary-background-color: #841D2E;
-
-
-
-  --secondary-paragraph-xl-font-size: 20px;
-  --secondary-paragraph-xl-font-weight: 400;
-
-  
-
-  --secondary-paragraph-xs-font-size: 15px;
-  --secondary-paragraph-xs-font-weight: 400;
-  --primary-paragraph-font-color: #ffffff;
-  --secondary-paragraph-xl-line-height: 150%;
-
-  ---primary-bold-heading-xl-font-weight: 600;
-  --secondary-paragraph-xs-font-size: 12px;
-  --secondary-paragraph-xs-font-weight: 500;
-
-  /* --button-xl-width: 228px;
-  --button-xl-height: 48px; */
-  --button-xl-font-size: 16px;
-  --button-xl-border-bg-color: #f0f0f0;
-  --button-xl-border-radius: 30px;
-  --button-xl-bg-color: #ffffff;
-  --button-xl-font-weight: 600;
-  --button-xl-horizontal-padding: 10px;
-  --button-xl-vertical-padding: 10px;
-  /* 
- --button-xs-width: 117px;
-  --button-xs-height: 36px;  */
-  --button-xs-horizontal-padding: 22px;
-  --button-xs-vertical-padding: 10px;
-  --button-xs-font-size: 12px;
-  --button-xs-font-weight: 500;
-  --button-xs-border-radius: 30px;
-
-  --secondary-button-xl-bg-color: #841d2e;
-  --secondary-button-xl-color: #f0f0f0;
-  --secondary-button-xl-horizontal-padding: 10px;
-  --secondary-button-xl-vertical-padding: 6px;
-  --secondary-button-xl-font-size: 16px;
-  --secondary-button-xl-font-weight: 500;
-  --secondary-button-xl-border: 1px;
-  --secondary-button-xl-gap: 10px;
-  --secondary-button-xl-border-radius: 30px;
-
-  --secondary-button-lg-horizontal-padding: 10px;
-  --secondary-button-lg-vertical-padding: 6px;
-  --secondary-button-lg-font-size: 16px;
-  --secondary-button-lg-font-weight: 500;
-  --secondary-button-lg-border: 1px;
-  --secondary-button-lg-gap: 10px;
-  --secondary-button-lg-border-radius: 30px;
-
-  --secondary-button-md-horizontal-padding: 10px;
-  --secondary-button-md-vertical-padding: 6px;
-  --secondary-button-md-font-size: 16px;
-  --secondary-button-md-font-weight: 500;
-  --secondary-button-md-border: 1px;
-  --secondary-button-md-gap: 10px;
-  --secondary-button-md-border-radius: 30px;
-
-  --secondary-button-xs-horizontal-padding: 10px;
-  --secondary-button-xs-vertical-padding: 6px;
-  --secondary-button-xs-font-size: 12px;
-  --secondary-button-xs-font-weight: 500;
-  --secondary-button-xs-border: 1px;
-  --secondary-button-xs-gap: 10px;
-  --secondary-button-xs-border-radius: 30px;
-
-  --secondary-button-s-width: 189px;
-  --secondary-button-s-height: 40px;
-  --secondary-button-s-horizontal-padding: 10px;
-  --secondary-button-s-vertical-padding: 6px;
-  --secondary-button-s-font-size: 12px;
-  --secondary-button-s-font-weight: 500;
-  --secondary-button-s-border: 1px;
-  --secondary-button-s-gap: 10px;
-  --secondary-button-s-border-radius: 30px;
-
-  --tertiary-button-xl-bg-color: #ffffff;
-  --tertiary-button-xl-gap: 8px;
-  --tertiary-button-xl-border: 1px;
-  --tertiary-button-xl-border-radius: 30px;
-  --tertiary-button-xl-padding: 10px;
-  --tertiary-button-xl-font-size: 16px;
-  --tertiary-button-xl-font-weight: 500;
-  --tertiary-button-color: #841d26;
-  --tertiary-button-xl-width: 231px;
-  --tertiary-button-xl-height: 48px;
-  --tertiary-button-xl-line-height: 17.6px;
-
-  --tertiary-button-xs-bg-color: #ffffff;
-  --tertiary-button-xs-gap: 8px;
-  --tertiary-button-xs-border: 1px;
-  --tertiary-button-xs-border-radius: 30px;
-  --tertiary-button-xs-padding: 10px;
-  --tertiary-button-xs-font-size: 12px;
-  --tertiary-button-color: #841d26;
-  --tertiary-button-xs-width: 180px;
-  --tertiary-button-xs-height: 40px;
-  --tertiary-button-xs-line-height: 17.6px;
-  --tertiary-button-xs-font-weight: 500;
-
-  --fourth-button-xl-bg-color: #841d26;
-  --fourth-button-xl-gap: 10px;
-  --fourth-button-xl-border: 1px;
-  --fourth-button-xl-border-radius: 30px;
-  --fourth-button-xl-padding: 10px 100px;
-  --fourth-button-xl-font-size: 14px;
-  --fourth-button-color: #ffffff;
-  /* --fourth-button-xl-width: 339px;
-  --fourth-button-xl-height: 38px; */
-  --fourth-button-lg-padding: 10px 60px;
-  --fourth-button-md-padding: 10px 40px;
-  --fourth-button-sm-padding: 10px 30px;
-
-  --fourth-button-xs-bg-color: #841d26;
-  --fourth-button-xs-gap: 10px;
-  --fourth-button-xs-border: 1px;
-  --fourth-button-xs-border-radius: 30px;
-  --fourth-button-xs-padding: 10px 40px;
-  --fourth-button-xs-font-size: 14px;
-  --fourth-button-color: #ffffff;
-  /* --fourth-button-xs-width: 279px;
-  --fourth-button-xs-height: 38px; */
-
-  --search-button-xl-border: 1px solid #e5e5e5;
-  --search-button-xl-border-radius: 30px;
-  --search-button-xl-font-size: 12px;
-  --search-button-xl-font-weight: 400;
-  --search-button-xl-font-color: #575757;
-  --search-button-xl-line-height: 17.6px;
-  --search-button-bg-color: transparent;
-  --search-button-xl-padding: 10px 50px;
-  --search-button-lg-padding: 10px 50px;
-  --search-button-md-padding: 10px 30px;
-  --search-button-sm-padding: 5px 10px;
-
-  --search-button-xs-border: 1px solid #e5e5e5;
-  --search-button-xs-border-radius: 30px;
-  --search-button-xs-font-size: 12px;
-  --search-button-xs-font-weight: 400;
-  --search-button-xs-font-color: #575757;
-  --search-button-xs-line-height: 17.6px;
-  --search-button-bg-color: transparent;
-  --search-button-xs-padding: 5px 10px;
 }
 
 * {
@@ -186,6 +13,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
 
 .arrow-style {
   width: 15px;
@@ -225,12 +54,10 @@
   }
 
   .primary-heading {
-    font-weight: var(--primary-heading-xs-font-weight);
-    font-size: var(--primary-heading-xs-font-size);
-    line-height: var(--primary-heading-xs-line-height);
-
-    padding: var(--button-xs-vertical-padding)
-      var(--button-xs-horizontal-padding);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 125%;
+    padding: 10px 16px;
   }
   .primary-heading {
     font-weight: var(--primary-heading-xs-font-weight);
@@ -410,8 +237,6 @@
   
    
 
-    font-family: var(--primary-font-family);
-  }
   .secondary-button {
     width: var(--secondary-button-md-width);
     height: var(--secondary-button-md-height);
@@ -495,8 +320,7 @@
   }
 
 
-    font-family: var(--primary-font-family);
-  }
+  
   .secondary-button {
     width: var(--secondary-button-lg-width);
     height: var(--secondary-button-lg-height);
@@ -585,7 +409,7 @@
     color: var(--primary-paragraph-font-color);
     font-family: var(--primary-font-family);
   }
-}
+
   .primary-heading {
     font-weight: var(--primary-heading-xl-font-weight);
     font-size: var(--primary-heading-xl-font-size);
