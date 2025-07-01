@@ -51,11 +51,11 @@ const Courses = () => {
     <div className="course-container">
       <div className="titleBar">
         <div>
-          <span className="primary-heading">
+          <span className="secondary-heading">
             Explore Our Online <br className="hidden sm:block" /> Programmes
           </span>
           <button className="search-button">
-            <span className="search-button-text">Search by Programmes</span>
+            <span className="search-button-text">Search by Programmes...</span>
             <img
               src="/icon/Vector.png"
               alt="arrow"

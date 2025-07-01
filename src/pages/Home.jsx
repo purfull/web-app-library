@@ -21,7 +21,7 @@ const HomePage = () => {
       <Course />
       <FeedBackSection />
       <Faq />
-            <BannerSection/>
+      <BannerSection />
       <Footer />
     </div>
   );

@@ -8,10 +8,11 @@
 
   .content-part1 {
     padding: 20px;
+    position: relative;
   }
   .content-part2 {
     padding: 20px;
-    overflow-y: auto;
+    /* overflow-y: auto; */
     /* max-height: 100vh; */
   }
 
@@ -78,10 +79,11 @@
 
   .content-part1 {
     padding: 20px;
+    position: relative;
   }
   .content-part2 {
     padding: 20px;
-    overflow-y: auto;
+    /* overflow-y: auto; */
     /* max-height: 100vh; */
   }
   .secondary-arrow-styles {
@@ -152,10 +154,11 @@
   }
   .content-part1 {
     padding: 20px;
+    position: relative;
   }
   .content-part2 {
     padding: 20px;
-    overflow-y: auto;
+    /* overflow-y: auto; */
     /* max-height: 100vh; */
   }
   .button {
@@ -225,10 +228,11 @@
   }
   .content-part1 {
     padding: 20px;
+    position: relative;
   }
   .content-part2 {
     padding: 20px;
-    overflow-y: auto;
+    /* overflow-y: auto; */
     /* max-height: 100vh; */
   }
   .button {
@@ -241,9 +245,6 @@
     font-family: "Montserrat", sans-serif;
   }
 
-  .primary-heading {
-    font-size: 40px;
-  }
   .secondary-arrow-styles {
     width: 24px;
     height: 24px;
@@ -301,10 +302,11 @@
   }
   .content-part1 {
     padding: 20px;
+    position: relative;
   }
   .content-part2 {
     padding: 20px;
-    overflow-y: auto;
+    /* overflow-y: auto; */
     /* max-height: 100vh; */
   }
   .button {
@@ -317,9 +319,6 @@
     font-family: "Montserrat", sans-serif;
   }
 
-  .primary-heading {
-    font-size: 40px;
-  }
   .secondary-arrow-styles {
     width: 24px;
     height: 24px;

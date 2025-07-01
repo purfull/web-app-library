@@ -8,7 +8,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const Content = () => {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState([]);
 
   const contentPart2Ref = useRef(null);
 
@@ -64,13 +64,18 @@ const Content = () => {
   ];
 
   const toggleFaq = (index) => {
-    setOpenIndex(openIndex === index ? null : index);
+    // setOpenIndex(openIndex === index ? null : index);
+    if (openIndex.includes(index)) {
+      setOpenIndex(openIndex.filter((i) => i !== index));
+    } else {
+      setOpenIndex([...openIndex, index]);
+    }
   };
 
   return (
     <div className="content-container">
       <div className="content-part1">
-        <span className="primary-heading">Why Botho University Online?</span>
+        <span className="secondary-heading">Why Botho University Online?</span>
         <div className="button">
           <button className="secondary-button">
             <span className="button-text">Discover More Benefits </span>
@@ -104,14 +109,14 @@ const Content = () => {
                 onKeyDown={(e) => e.key === "Enter" && toggleFaq(index)}
               >
                 <span className="question-text">{item.question}</span>
-                {openIndex === index ? (
+                {openIndex.includes(index) ? (
                   <MinusOutlined style={{ fontSize: 15 }} />
                 ) : (
                   <PlusOutlined style={{ fontSize: 15 }} />
                 )}
               </div>
 
-              {openIndex === index && (
+              {openIndex.includes(index) && (
                 <div className="content-answer">
                   {item.answer.split("\n\n").map((paragraph, i) => (
                     <p key={i} className="answer-paragraph">
