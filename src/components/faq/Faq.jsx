@@ -64,7 +64,7 @@ const Faq = () => {
   return (
     <div className="faq-container">
       <div className="faq-leftpart">
-        <span className="primary-heading faq-heading">
+        <span className="secondary-heading faq-heading">
           Frequently Asked Questions
         </span>
       </div>
