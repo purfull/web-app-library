@@ -1,12 +1,12 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .main{
+
+  .main {
     width: 90%;
   }
   .banner-container {
     display: grid;
     width: 100;
-
   }
 
   .empty {
@@ -17,7 +17,6 @@
   .primary-heading.white {
     color: white;
     padding: 10px 0;
-
   }
 
   .graduate.png {
@@ -52,7 +51,6 @@
     justify-content: center;
     color: white;
     gap: 30px;
-
   }
 
   .right {
@@ -66,7 +64,6 @@
     height: 276px;
     position: relative;
     right: 20px;
-
   }
 
   .shades {
@@ -95,7 +92,6 @@
     padding: 1px;
     border-radius: 50%;
     background-color: var(--primary-background-color);
-
   }
 }
 
@@ -198,10 +194,10 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
- .banner-container {
+
+  .banner-container {
     display: grid;
     height: 656px;
-
   }
 
   .empty {
@@ -212,7 +208,6 @@
   .primary-heading.white {
     color: white;
     padding: 10px 0;
-
   }
 
   .graduate.png {
@@ -244,7 +239,6 @@
     justify-content: center;
     color: white;
     gap: 30px;
-
   }
 
   .right {
@@ -290,7 +284,6 @@
     padding: 3px;
     border-radius: 50%;
     background-color: var(--primary-background-color);
-
   }
 }
 
@@ -299,7 +292,6 @@
   .banner-container {
     display: grid;
     height: 656px;
-
   }
 
   .empty {
@@ -310,7 +302,6 @@
   .primary-heading.white {
     color: white;
     padding: 10px 0;
-
   }
 
   .graduate.png {
@@ -342,7 +333,6 @@
     justify-content: center;
     color: white;
     gap: 30px;
-
   }
 
   .right {
@@ -387,7 +377,6 @@
     padding: 3px;
     border-radius: 50%;
     background-color: var(--primary-background-color);
-
   }
 }
 
@@ -397,7 +386,6 @@
     display: grid;
     height: 656px;
     background-color: red;
-
   }
 
   .empty {
@@ -408,7 +396,6 @@
   .primary-heading.white {
     color: white;
     padding: 10px 0;
-
   }
 
   .graduate.png {
@@ -440,7 +427,6 @@
     justify-content: center;
     color: white;
     gap: 30px;
-
   }
 
   .right {
@@ -486,7 +472,6 @@
     padding: 3px;
     border-radius: 50%;
     background-color: var(--primary-background-color);
-
   }
 
   /* .shades img:nth-child(2) {

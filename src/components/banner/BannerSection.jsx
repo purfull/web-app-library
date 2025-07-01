@@ -1,5 +1,5 @@
-import React from 'react'
-import "./bannersection.css"
+import React from "react";
+import "./bannersection.css";
 
 const BannerSection = () => {
     return (
@@ -37,5 +37,5 @@ const BannerSection = () => {
     
 }
 
-export default BannerSection
 
+export default BannerSection;
