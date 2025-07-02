@@ -62,11 +62,11 @@ const Courses = () => {
               style={{
                 borderRadius: "50%",
                 padding: "8px",
-                border: "1px ",
+                // border: "1px ",
                 backgroundColor: "#841d26",
-                width: "32px",
-                height: "32px",
-                objectFit: "contain",
+                // width: "32px",
+                // height: "32px",
+                // objectFit: "contain",
               }}
             />
           </button>

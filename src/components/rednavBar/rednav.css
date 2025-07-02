@@ -1,3 +1,8 @@
+*{
+      font-family: "Montserrat", sans-serif;
+
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .red-head {
@@ -38,6 +43,9 @@
   .white-text {
     color: #ffffff;
     padding-left: 6px;
+        font-family: "Montserrat", sans-serif;
+
+
   }
   .details {
     padding-left: 3rem;

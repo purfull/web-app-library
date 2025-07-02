@@ -36,7 +36,7 @@ const FeedBackSection = () => {
           </div>
         </div>
         <div className="second-main">
-          <p className="secondary-paragraph-second">
+          <p className="secondary-paragraph">
             Our expert teachers make learning simple, flexible, and practical.
             Students love the support they get and how easy it is to study from
             anywhere.

@@ -9,7 +9,7 @@ const RedNavbar = () => {
           <span className="white-text"> BOTHO UNIVERSITY</span>
         </span>
         <div className="details">
-          <span>onlineadmissions@bothouniversity.ac.bw</span>
+          <span>@ onlineadmissions@bothouniversity.ac.bw</span>
           <img src="/icon/whatsapp.png" alt="whatsapp" />
           <span>+267 77 017 160</span>
         </div>

@@ -1,7 +1,6 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
-  .main {
+  main {
     width: 90%;
   }
   .banner-container {
@@ -14,13 +13,21 @@
     background-color: white;
   }
 
-  .primary-heading.white {
+  .primary-heading.wh {
     color: white;
-    padding: 10px 0;
+    padding: 15px 0;
+  }
+  .primary-button {
+    width: 70%;
   }
 
   .graduate.png {
     background-color: white;
+  }
+.arrow-icon-banner {
+    background-color: #841d2e;
+    padding: 3px;
+    border-radius: 50%;
   }
 
   .secondary-paragraph.white {
@@ -44,7 +51,7 @@
   }
 
   .left {
-    padding: 0px 29px;
+    padding: 15px 29px;
     margin: 15px;
     display: flex;
     flex-direction: column;
@@ -54,14 +61,16 @@
   }
 
   .right {
+    height: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-end;
   }
 
   .right img {
-    height: 276px;
+    height: 300px;
     position: relative;
     right: 20px;
   }
@@ -93,222 +102,126 @@
     border-radius: 50%;
     background-color: var(--primary-background-color);
   }
+
+
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .banner-container {
-    display: grid;
-    height: 656px;
 
+/* //// */
+
+/* Small devices (portrait tablets, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+  .banner-container {
+    height: auto;
+    display: grid;
   }
 
   .empty {
-    height: 110px;
-    background-color: white;
+    height: 80px;
   }
 
   .primary-heading.white {
-    color: white;
-    padding: 10px 0;
-
+    font-size: 1.6rem;
+    padding: 8px 0;
   }
 
-  .graduate.png {
-    background-color: white;
+  .primary-button {
+    width: 90%;
   }
 
-  .secondary-paragraph.white {
-    color: white;
-    line-height: 150%;
-    letter-spacing: 1px;
+  .arrow-icon-banner {
+    padding: 2px;
+  }
+
+  .secondary-paragraph {
+    font-size: 1rem;
+    line-height: 1.4;
   }
 
   .coloured-bg {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
     background-color: #841d2e;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 0px;
-    height: 546px;
-    /* position: relative; */
   }
 
   .left {
-    padding: 0px 25px;
-    margin: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 10px;
     color: white;
-    gap: 30px;
-
+    gap: 20px;
   }
 
   .right {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    height: 100%;
-    /* ensures the .right fills .coloured-bg */
-    padding-bottom: 0;
-    /* you can adjust this if needed */
-    position: relative;
+    justify-content: center;
+    align-items: center;
   }
 
   .right img {
-    height: 656px;
-    position: absolute;
-  }
-
-  .shades {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: 0;
-  }
-
-  .shades img {
-    position: absolute;
-    object-fit: contain;
-  }
-
-  .shades img:nth-child(1) {
-    width: 450px;
-    right: 5px;
-    bottom: 10px;
-  }
-
-  .button-styles {
-    width: 35%;
-  }
-
-  .arrow-icon {
-    padding: 3px;
-    border-radius: 50%;
-    background-color: var(--primary-background-color);
-
+    width: 100%;
+    height: auto;
+    position: relative;
   }
 }
+
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
+/* @media only screen and (min-width: 768px) {
   .banner-container {
-    display: grid;
-    height: 656px;
-  }
-
-  .empty {
-    height: 110px;
-    background-color: white;
+    height: 520px;
   }
 
   .primary-heading.white {
-    color: white;
-    padding: 10px 0;
+    font-size: 2rem;
   }
 
-  .graduate.png {
-    background-color: white;
-  }
-
-  .secondary-paragraph.white {
-    color: white;
-    line-height: 150%;
-    letter-spacing: 1px;
-  }
-
-  .coloured-bg {
-    background-color: #841d2e;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 0px;
-    height: 506px;
-    position: relative;
-  }
-
-  .left {
-    padding: 0px 30px;
-    margin: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    gap: 30px;
-  }
-
-  .right {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    height: 100%;
-    /* ensures the .right fills .coloured-bg */
-    padding-bottom: 0;
-    /* you can adjust this if needed */
-    position: relative;
-  }
-
-  .right img {
-    height: 596px;
-    position: absolute;
-    right: -0px;
-  }
-
-  .shades {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: 0;
-  }
-
-  .shades img {
-    position: absolute;
-    object-fit: contain;
-  }
-
-  .shades img:nth-child(1) {
-    width: 450px;
-    right: 5px;
-    bottom: 10px;
-  }
-
-  .button-styles {
+  .primary-button {
     width: 70%;
   }
 
-  .arrow-icon {
-    padding: 3px;
-    border-radius: 50%;
-    background-color: var(--primary-background-color);
+  .coloured-bg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 500px;
   }
-}
+
+  .left {
+    padding-left: 60px;
+    gap: 30px;
+  }
+
+  .right img {
+    height: 500px;
+  }
+} */
+
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
   .banner-container {
-    display: grid;
     height: 656px;
   }
 
   .empty {
     height: 110px;
-    background-color: white;
   }
 
   .primary-heading.white {
-    color: white;
+    font-size: 2.5rem;
     padding: 10px 0;
   }
 
-  .graduate.png {
-    background-color: white;
+  .primary-button {
+    width: 50%;
   }
 
-  .secondary-paragraph.white {
+  .arrow-icon-banner {
+    background-color: #841d2e;
+    padding: 3px;
+    border-radius: 50%;
+  }
+
+  .secondary-paragraph {
     color: white;
     line-height: 150%;
     letter-spacing: 1px;
@@ -318,74 +231,41 @@
     background-color: #841d2e;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
     grid-column-gap: 10px;
-    grid-row-gap: 0px;
-    height: 506px;
+    height: 546px;
     position: relative;
   }
 
   .left {
-    padding: 0px 30px;
+    padding-left: 100px;
     margin: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: white;
-    gap: 30px;
+    gap: 40px;
   }
 
   .right {
     display: flex;
     align-items: flex-end;
-    justify-content: flex-end;
+    justify-content: space-around;
     height: 100%;
-    /* ensures the .right fills .coloured-bg */
-    padding-bottom: 0;
-    /* you can adjust this if needed */
-    position: relative;
   }
 
   .right img {
-    height: 596px;
+    height: 656px;
     position: absolute;
   }
+} */
+ 
 
-  .shades {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: 0;
-  }
-
-  .shades img {
-    position: absolute;
-    object-fit: contain;
-  }
-
-  .shades img:nth-child(1) {
-    width: 450px;
-    right: 5px;
-    bottom: 10px;
-  }
-
-  .button-styles {
-    width: 70%;
-  }
-
-  .arrow-icon {
-    padding: 3px;
-    border-radius: 50%;
-    background-color: var(--primary-background-color);
-  }
-}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .banner-container {
     display: grid;
     height: 656px;
-    background-color: red;
   }
 
   .empty {
@@ -398,11 +278,18 @@
     padding: 10px 0;
   }
 
-  .graduate.png {
-    background-color: white;
+  .primary-button {
+    width: 50%;
   }
 
-  .secondary-paragraph.white {
+  .arrow-icon-banner {
+    background-color: #841d2e;
+    padding: 3px;
+    border-radius: 50%;
+  }
+
+
+  .secondary-paragraph{
     color: white;
     line-height: 150%;
     letter-spacing: 1px;
@@ -420,24 +307,20 @@
   }
 
   .left {
-    padding: 0px 25px;
+    padding-left: 100px;
     margin: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: white;
-    gap: 30px;
+    gap: 40px;
   }
 
   .right {
     display: flex;
     align-items: flex-end;
-    justify-content: flex-end;
+    justify-content: space-around;
     height: 100%;
-    /* ensures the .right fills .coloured-bg */
-    padding-bottom: 0;
-    /* you can adjust this if needed */
-    position: relative;
   }
 
   .right img {
@@ -445,13 +328,13 @@
     position: absolute;
   }
 
-  .shades {
+  /* .shades {
     position: absolute;
     bottom: 0;
     right: 0;
     z-index: 0;
-  }
-
+  } */
+/* 
   .shades img {
     position: absolute;
     object-fit: contain;
@@ -461,19 +344,9 @@
     width: 450px;
     right: 5px;
     bottom: 10px;
-  }
+  } */
 
-  .button-styles {
-    width: 50%;
-    /* padding: 0 20px ; */
-  }
-
-  .arrow-icon {
-    padding: 3px;
-    border-radius: 50%;
-    background-color: var(--primary-background-color);
-  }
-
+ 
   /* .shades img:nth-child(2) {
     width: 250px;
     right: 40px;
