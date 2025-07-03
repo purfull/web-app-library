@@ -2,6 +2,7 @@ import React from "react";
 import "./feedBackSection.css";
 import Item from "antd/es/list/Item";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import { Carousel } from "antd";
 
 const studentdeatils = [
   {
@@ -52,28 +53,36 @@ const FeedBackSection = () => {
         </div>
       </div>
 
+    
       <div className="feedback-cards">
-        {studentdeatils.map((item, index) => (
-          <div key={index} className="card-1">
-            <div className="student-card">
-              <div className="student-images">
-                {item.imgs.map((img, imgIndex) => (
-                  <img
-                    className="icon-img"
-                    key={imgIndex}
-                    src={img}
-                    alt={`img-${imgIndex}`}
-                  />
-                ))}
+        <Carousel
+          className="carosel-inner"
+          dotPosition="false"
+          slidesToShow={2}
+          arrows={true}
+        >
+          {studentdeatils.map((item, index) => (
+            <div key={index} className="card-1">
+              <div className="student-card">
+                <div className="student-images">
+                  {item.imgs.map((img, imgIndex) => (
+                    <img
+                      className="icon-img"
+                      key={imgIndex}
+                      src={img}
+                      alt={`img-${imgIndex}`}
+                    />
+                  ))}
+                </div>
+                <p className="secondary-paragraph black">{item.studentsdata}</p>
+                <div className="divider"> </div>
+                <p className="secondary-paragraph black">
+                  {item.studentname} .., {item.year}
+                </p>
               </div>
-              <p className="secondary-paragraph black">{item.studentsdata}</p>
-              <div className="divider"> </div>
-              <p className="secondary-paragraph black">
-                {item.studentname} .., {item.year}
-              </p>
             </div>
-          </div>
-        ))}
+          ))}
+        </Carousel>
       </div>
     </div>
   );
