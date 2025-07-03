@@ -1,18 +1,17 @@
-import { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/navBar/Navbar";
 import HomePage from "./pages/Home";
+import PageTwo from "./pages/PageTwo";
 
 function App() {
   return (
-    <>
-      
-      {/* <div className="primary-heading">Empower Your Future with Botho University Online</div> */}
-      <HomePage />
-      <div className="">
-        
-      </div>
-      
-    </>
+    <Router>
+      {/* <NavBar /> */}
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/page-two" element={<PageTwo />} />
+      </Routes>
+    </Router>
   );
 }
 
