@@ -9,20 +9,24 @@ import Footer from "../components/footer/Footer";
 import InfiniteSection from "../components/infiniteSection/InfiniteCompo";
 import HeroSection from "../components/heroSection/HeroSection";
 import FeedBackSection from "../components/feedback/FeedBackSection";
+import StaticHome from "../components/staticHome/statichome";
+import TimerHome from "../components/timerHome/TimerHome";
 
 const HomePage = () => {
   return (
     <div className="">
       <RednavBar />
       <NavBar />
-      <HeroSection />
+      {/* <HeroSection />
       <ContentPage />
       <InfiniteSection />
       <Course />
       <FeedBackSection />
       <Faq />
       <BannerSection />
-      <Footer />
+      <Footer /> */}
+      <StaticHome />
+      <TimerHome />
     </div>
   );
 };

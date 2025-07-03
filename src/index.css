@@ -54,7 +54,7 @@
     font-size: 12px;
     font-weight: 500;
     line-height: var(--secondary-paragraph-line-height);
-    color: var(--secondary-colour);
+    color: var(--primary-heading-colour);
     font-family: var(--primary-font-family);
   }
   .secondary-heading {
@@ -113,7 +113,7 @@
     font-size: 12px;
     font-weight: 500;
     line-height: var(--secondary-paragraph-line-height);
-    color: var(--secondary-colour);
+    color: var(--primary-heading-colour);
     font-family: var(--primary-font-family);
   }
   .secondary-heading {
@@ -172,7 +172,7 @@
     font-size: 20px;
     font-weight: 400;
     line-height: var(--secondary-paragraph-line-height);
-    color: var(--secondary-colour);
+    color: var(--primary-heading-colour);
     font-family: var(--primary-font-family);
   }
   .secondary-heading {
@@ -232,7 +232,7 @@
     font-size: 20px;
     font-weight: 400;
     line-height: var(--secondary-paragraph-line-height);
-    color: var(--secondary-colour);
+    color: var(--primary-heading-colour);
     font-family: var(--primary-font-family);
   }
   .secondary-heading {
@@ -292,7 +292,7 @@
     font-size: 20px;
     font-weight: 400;
     line-height: var(--secondary-paragraph-line-height);
-    color: var(--secondary-colour);
+    color: var(--primary-heading-colour);
     font-family: var(--primary-font-family);
   }
   .secondary-heading {
