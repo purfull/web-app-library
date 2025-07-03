@@ -46,7 +46,7 @@
     height: auto;
     border-radius: 4px;
     display: block;
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
   }
 
   .countdown-box {
@@ -540,7 +540,7 @@
     flex-direction: row;
     padding: 70px;
     background-color: #f3e8ea;
-    gap: 40px;
+    /* gap: 40px; */
   }
   .right {
     /* height: 80vh; */
@@ -598,13 +598,13 @@
 
   .countdown-box {
     position: absolute;
-    top: 25rem; /* Adjust vertical placement */
-    left: 60%; /* Center horizontally */
-    transform: translateX(-50%);
+    top: 29rem; /* Adjust vertical placement */
+    left: 80%; /* Center horizontally */
+    /* transform: translateX(-50%); */
     background-color: #841d2e;
     border-radius: 12px;
     padding: 24px;
-    width: 80%; /* or a fixed width like 571px */
+    width: 30%; 
     color: white;
     display: flex;
     flex-direction: column;

@@ -6,14 +6,14 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 const studentdeatils = [
   {
     studentsdata:
-      "My name is Goitseone Thembe, and my journey at Botho University has been truly transformative. From the moment I enrolled, I was welcomed into a dynamic and supportive learning environment that fostered both academic and personal growth. The university’s unwavering commitment to delivering high-quality education is reflected in the well-structured academic programmes and abundant learning resources. Faculty members are not only highly knowledgeable but also deeply invested in students’ success, offering mentorship, guidance, and encouragement throughout my studies. I particularly valued the emphasis on practical experience through internships and real-world exposure, which bridged the gap between theory and application and equipped me with essential, career-ready skills.",
+      "Studying online with Botho University has been a rewarding journey so far. The flexible learning model makes it easier to manage my studies alongside other commitments, and the academic support has been excellent. I’m gaining advanced skills in Information System Management that I know will strengthen my career in tech and digital forensics.",
     imgs: ["/icon/Icon2.png", "/icon/Icon.png"],
     studentname: "suthan",
     year: "2023",
   },
   {
     studentsdata:
-      "My name is Goitseone Thembe, and my journey at Botho University has been truly transformative. From the moment I enrolled, I was welcomed into a dynamic and supportive learning environment that fostered both academic and personal growth. The university’s unwavering commitment to delivering high-quality education is reflected in the well-structured academic programmes and abundant learning resources. Faculty members are not only highly knowledgeable but also deeply invested in students’ success, offering mentorship, guidance, and encouragement throughout my studies. I particularly valued the emphasis on practical experience through internships and real-world exposure, which bridged the gap between theory and application and equipped me with essential, career-ready skills.",
+      "Studying online with Botho University has been a rewarding journey so far. The flexible learning model makes it easier to manage my studies alongside other commitments, and the academic support has been excellent. I’m gaining advanced skills in Information System Management that I know will strengthen my career in tech and digital forensics.",
     imgs: ["/icon/Icon2.png", "/icon/Icon.png"],
     studentname: "suthan",
     year: "2023",
@@ -36,7 +36,7 @@ const FeedBackSection = () => {
           </div>
         </div>
         <div className="second-main">
-          <p className="secondary-paragraph">
+          <p className="secondary-paragraph black">
             Our expert teachers make learning simple, flexible, and practical.
             Students love the support they get and how easy it is to study from
             anywhere.
@@ -66,9 +66,9 @@ const FeedBackSection = () => {
                   />
                 ))}
               </div>
-              <p className="secondary-paragraph">{item.studentsdata}</p>
+              <p className="secondary-paragraph black">{item.studentsdata}</p>
               <div className="divider"> </div>
-              <p className="secondary-paragraph">
+              <p className="secondary-paragraph black">
                 {item.studentname} .., {item.year}
               </p>
             </div>

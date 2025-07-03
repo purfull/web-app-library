@@ -297,11 +297,11 @@
 
   .coloured-bg {
     background-color: #841d2e;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 0px;
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* grid-template-rows: 1fr; */
+    /* grid-column-gap: 10px;
+    grid-row-gap: 0px; */
     height: 546px;
     position: relative;
   }
@@ -309,6 +309,7 @@
   .left {
     padding-left: 100px;
     margin: 15px;
+    width: 50% !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -321,10 +322,11 @@
     align-items: flex-end;
     justify-content: space-around;
     height: 100%;
+    width: 50%;
   }
 
   .right img {
-    height: 656px;
+    height: 606px;
     position: absolute;
   }
 

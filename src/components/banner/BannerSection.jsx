@@ -17,7 +17,7 @@ const BannerSection = () => {
                             Join thousands of students building their future with Botho
                             University Online. Flexible. Affordable. Recognized.
                         </p>
-                        <button className='primary-button'>Explore Programmes <img src="/icon/arrow_forward.png" alt="" className='arrow-icon-banner' /></button>
+                        <button className='primary-button'>Enquire Now <img src="/icon/arrow_forward.png" alt="" className='arrow-icon-banner' /></button>
                     </div>
 
                     <div className="right">
