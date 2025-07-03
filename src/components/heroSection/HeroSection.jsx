@@ -65,7 +65,7 @@ const HeroSection = () => {
     <>
       <Carousel
         className="carosal-inner"
-        autoplay
+        // autoplay
         // dotPosition="bottom"
         dots={false}
       >
@@ -105,7 +105,7 @@ const HeroSection = () => {
                       />
                     ))}
                   </div>
-                  <div className="sub-heading">{item.calledtoAction}</div>
+                  <div className="secondary-paragraph-pec">{item.calledtoAction}</div>
                 </div>
               </div>
             </div>

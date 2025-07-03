@@ -82,7 +82,7 @@
         border-top: 1px solid #9c9c9c;
 
         .terms-cond {
-            width: 100%;
+            width: 70%;
             display: flex;
             align-items: start;
             justify-content: start;
@@ -99,7 +99,7 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .footer-main {
-        height: 100vh;
+        /* height: 100vh; */
         width: 100%;
         padding: 2rem;
         display: flex;
@@ -190,12 +190,111 @@
     }
 }
 
-
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+     .footer-main {
+        width: 100%;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        
+
+    }
+
+    .footer-content-section {
+
+        height: 70%;
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .footer-logo {
+            height: 100%;
+            width: 35%;
+
+
+        }
+
+        .footer-logo-img {
+            width: auto;
+        }
+
+        .footer-text-section {
+            height: 100%;
+            width: 52%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+
+        .secondary-paragraph {
+            color: #111111 !important;
+        }
+
+       
+        .grid-contents {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 44px;
+            grid-row-gap: 44px;
+
+        }
+
+        .heading {
+            font-size: var(--secondary-paragraph-xl-font-size);
+            line-height: var(--primary-paragraph-line-height);
+            font-family: var(--primary-font-family);
+            color: #111111;
+            font-weight: 500;
+            padding-bottom: 12px;
+        }
+
+        .heading-contact {
+            font-size: var(--secondary-paragraph-xl-font-size);
+            line-height: var(--primary-paragraph-line-height);
+            font-family: var(--primary-font-family);
+            color: #111111;
+            font-weight: 500;
+            padding-bottom: 35px;
+
+        }
+
+
+    }
+
+    .footer-copy-rights-section {
+        /* height: 15%; */
+
+        width: 90%;
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        border-top: 1px solid #9c9c9c;
+
+        .terms-cond {
+            margin-top: 10px;
+            display: flex;
+            align-items: end;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
     .footer-main {
-        height: 700px;
+        height: 730px;
         width: 100%;
         padding: 2rem;
         display: flex;
@@ -207,7 +306,7 @@
 
     .footer-content-section {
 
-        height: 85%;
+        height: 70%;
         width: 95%;
         display: flex;
         align-items: center;
@@ -217,110 +316,20 @@
             height: 100%;
             width: 35%;
 
-        }
-
-        .footer-text-section {
-            height: 100%;
-            width: 52%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-evenly;
 
         }
 
-        .secondary-paragraph {
-            color: #111111 !important;
-        }
-
-
-        .grid-contents {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-            grid-column-gap: 44px;
-            grid-row-gap: 44px;
-
-        }
-
-        .heading {
-            font-size: var(--secondary-paragraph-xl-font-size);
-            line-height: var(--primary-paragraph-line-height);
-            font-family: var(--primary-font-family);
-            color: #111111;
-            font-weight: 500;
-            padding-bottom: 12px;
-        }
-
-        .heading-contact {
-            font-size: var(--secondary-paragraph-xl-font-size);
-            line-height: var(--primary-paragraph-line-height);
-            font-family: var(--primary-font-family);
-            color: #111111;
-            font-weight: 500;
-            padding-bottom: 30px;
-
-        }
-
-
-    }
-
-    .footer-copy-rights-section {
-        height: 10%;
-        width: 100%;
-        display: flex;
-        align-items: end;
-        justify-content: space-between;
-        border-top: 1px solid #9c9c9c;
-
-        .terms-cond {
-            display: flex;
-            align-items: end;
-            gap: 10px;
-            justify-content: space-between;
-        }
-
-
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-    .footer-main {
-        height: 750px;
-        width: 100%;
-        padding: 2rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-
-    }
-
-    .footer-content-section {
-        height: 75%;
-
-        width: 95%;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-
-        .footer-logo {
-            height: 100%;
-            width: 35%;
-
-        }
         .footer-logo-img {
-            width: 50%;
+            width: auto;
         }
+
         .footer-text-section {
-            height: 90%;
+            height: 100%;
             width: 52%;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: space-between;
+            justify-content: space-around;
 
         }
 
@@ -328,7 +337,7 @@
             color: #111111 !important;
         }
 
-
+       
         .grid-contents {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -353,7 +362,7 @@
             font-family: var(--primary-font-family);
             color: #111111;
             font-weight: 500;
-            padding-bottom: 30px;
+            padding-bottom: 35px;
 
         }
 
@@ -377,6 +386,7 @@
 
 
     }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

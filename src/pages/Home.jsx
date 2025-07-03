@@ -11,11 +11,12 @@ import HeroSection from "../components/heroSection/HeroSection";
 import FeedBackSection from "../components/feedback/FeedBackSection";
 import StaticHome from "../components/staticHome/statichome";
 import TimerHome from "../components/timerHome/TimerHome";
+import CourseStruture from "../components/coursestrutureSection/coursestrutureSection";
 
 const HomePage = () => {
   return (
     <div className="">
-      <RednavBar />
+      {/* <RednavBar />
       <NavBar />
       {/* <HeroSection />
       <ContentPage />
@@ -27,6 +28,9 @@ const HomePage = () => {
       <Footer /> */}
       <StaticHome />
       <TimerHome />
+      <CourseStruture />
+
+
     </div>
   );
 };
