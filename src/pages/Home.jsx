@@ -9,11 +9,12 @@ import Footer from "../components/footer/Footer";
 import InfiniteSection from "../components/infiniteSection/InfiniteCompo";
 import HeroSection from "../components/heroSection/HeroSection";
 import FeedBackSection from "../components/feedback/FeedBackSection";
+import CourseStruture from "../components/coursestrutureSection/coursestrutureSection";
 
 const HomePage = () => {
   return (
     <div className="">
-      <RednavBar />
+      {/* <RednavBar />
       <NavBar />
       <HeroSection />
       <ContentPage />
@@ -22,7 +23,10 @@ const HomePage = () => {
       <FeedBackSection />
       <Faq />
       <BannerSection />
-      <Footer />
+      <Footer /> */}
+      <CourseStruture />
+
+
     </div>
   );
 };

@@ -61,6 +61,7 @@ const Content = () => {
       answer:
         "Botho University's core values of vibrance, innovation, and impact drive its mission to produce well-rounded, entrepreneurial, and globally employable graduates. The university's innovative teaching approaches integrate academic learning with real-world experience, preparing students to meet the demands of the modern workforce.",
     },
+    
   ];
 
   const toggleFaq = (index) => {
@@ -100,9 +101,8 @@ const Content = () => {
           {contentData.map((item, index) => (
             <div key={index} className="content-item">
               <div
-                className={`content-question ${
-                  openIndex === index ? "open" : ""
-                }`}
+                className={`content-question ${openIndex === index ? "open" : ""
+                  }`}
                 onClick={() => toggleFaq(index)}
                 role="button"
                 tabIndex={0}
