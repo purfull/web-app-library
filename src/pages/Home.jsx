@@ -9,6 +9,8 @@ import Footer from "../components/footer/Footer";
 import InfiniteSection from "../components/infiniteSection/InfiniteCompo";
 import HeroSection from "../components/heroSection/HeroSection";
 import FeedBackSection from "../components/feedback/FeedBackSection";
+import StaticHome from "../components/staticHome/statichome";
+import TimerHome from "../components/timerHome/TimerHome";
 import CourseStruture from "../components/coursestrutureSection/coursestrutureSection";
 
 const HomePage = () => {
@@ -16,7 +18,7 @@ const HomePage = () => {
     <div className="">
       {/* <RednavBar />
       <NavBar />
-      <HeroSection />
+      {/* <HeroSection />
       <ContentPage />
       <InfiniteSection />
       <Course />
@@ -24,6 +26,8 @@ const HomePage = () => {
       <Faq />
       <BannerSection />
       <Footer /> */}
+      <StaticHome />
+      <TimerHome />
       <CourseStruture />
 
 

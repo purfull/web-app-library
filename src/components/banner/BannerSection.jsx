@@ -2,6 +2,7 @@ import React from "react";
 import "./bannersection.css";
 
 const BannerSection = () => {
+
     return (
         <div className="main">
             <div className="banner-container">
