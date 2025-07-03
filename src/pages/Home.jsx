@@ -16,19 +16,19 @@ import CourseStruture from "../components/coursestrutureSection/coursestrutureSe
 const HomePage = () => {
   return (
     <div className="">
-      {/* <RednavBar />
+      <RednavBar />
       <NavBar />
-      {/* <HeroSection />
+      <HeroSection />
       <ContentPage />
       <InfiniteSection />
       <Course />
       <FeedBackSection />
       <Faq />
       <BannerSection />
-      <Footer /> */}
-      <StaticHome />
+      <Footer />
+      {/* <StaticHome />
       <TimerHome />
-      <CourseStruture />
+      <CourseStruture /> */}
 
 
     </div>
