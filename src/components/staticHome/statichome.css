@@ -630,7 +630,8 @@
 
   .banner-main {
     height: 40%;
-    width: 100%;
+    width: 90%;
+    margin: auto;
     display: flex;
     align-items: start;
     justify-content: center;

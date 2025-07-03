@@ -5,7 +5,7 @@ const RedNavbar = () => {
     <div className="red-container">
       <div className="red-head">
         <span className="welcome">
-          Welcome to our
+          Welcome to
           <span className="white-text"> BOTHO UNIVERSITY</span>
         </span>
         <div className="details">

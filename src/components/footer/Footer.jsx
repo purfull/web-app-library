@@ -19,7 +19,7 @@ const Footer = () => {
                         <div className='grid-contents'>
                             <div className='grid-content-one'>
                                 <div className='heading'>Physical Address:</div>
-                                <span className='secondary-paragraph'>Botho Education Park, Kgale, Gaborone, Botswana</span>
+                                <span className='secondary-paragraph'>Botho Education Park, Kgale, PO Box 501564, Gaborone, Botswana</span>
                             </div>
                             <div className='grid-content-one'>
                                 <div className='heading'>Postel Address:</div>
@@ -27,7 +27,7 @@ const Footer = () => {
                             </div>
                             <div className='grid-content-one'>
                                 <div className='heading'>Telephone</div>
-                                <span className='secondary-paragraph'>+267 363 5421 / 363 5422 /363 5446</span>
+                                <span className='secondary-paragraph'>+267 363 5421, 363 5422, 363 5446</span>
                             </div>
                             <div className='grid-content-one'>
                                 <div className='heading'>Fax:</div>
@@ -39,11 +39,11 @@ const Footer = () => {
             </div>
 
             <div className='footer-copy-rights-section'>
-                <div><p className='secondary-paragraph' style={{ color: "#111111" }}>© Copyright 2025, All Rights Reserved by Botho University</p></div>
+                <div><p className='secondary-paragraph black' style={{ color: "#000" }}>© Copyright 2025, All Rights Reserved by Botho University</p></div>
 
                 <div className='terms-cond'>
-                    <p className='secondary-paragraph' style={{ color: "#111111" }}>Terms & Condition</p>
-                    <p className='secondary-paragraph' style={{ color: "#111111" }}>Privacy Policy</p>
+                    <p className='secondary-paragraph black' style={{ color: "#000" }}>Terms & Conditions</p>
+                    <p className='secondary-paragraph black' style={{ color: "#000" }}>Privacy Policy</p>
                 </div>
             </div>
         </div>

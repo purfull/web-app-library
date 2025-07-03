@@ -49,7 +49,7 @@ const herobanner = [
     arrowIcon: "../../../public/icon/arrow_forward.png",
     backgroundImg: "../../../public/images/herobanner.png",
     calledtoAction:
-      "98% of our graduates will recommend us to others (Source: 2025 Graduate Tracer Study)",
+      "98% of our graduates will recommend us to others </br> (Source: Based on number of respondents to the 2025 Graduate Tracer Survey)",
 
     dynamicimg: [
       "../../../public/images/Ellipse 21.png",
@@ -65,7 +65,7 @@ const HeroSection = () => {
     <>
       <Carousel
         className="carosal-inner"
-        // autoplay
+        autoplay
         // dotPosition="bottom"
         dots={false}
       >
@@ -105,7 +105,7 @@ const HeroSection = () => {
                       />
                     ))}
                   </div>
-                  <div className="secondary-paragraph-pec">{item.calledtoAction}</div>
+                  <div className="secondary-paragraph-pec" dangerouslySetInnerHTML={{__html: item?.calledtoAction}}></div>
                 </div>
               </div>
             </div>
