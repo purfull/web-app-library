@@ -1,6 +1,5 @@
 
 import "./navBar.css";
-import { RxHamburgerMenu } from "react-icons/rx";
 import { CiSearch } from "react-icons/ci";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { useState } from "react";
@@ -19,8 +18,9 @@ const NavBar = () => {
         <img src="../logo/BothoLogo.png" alt="logo" />
 
         <div className="nav-bar2">
-          <div className="search">
-            <CiSearch />{" "}
+          <div className="search-wrapper">
+          <div className="search-icon-text" onClick={handleSearchClick}>
+            <CiSearch className="clickable-icon" />
             <span className="nav-text">
               Botho University Online Programmes
               <RiArrowDropDownLine />
@@ -36,7 +36,8 @@ const NavBar = () => {
               onChange={(e) => setSearchText(e.target.value)}
             />
           )}
-
+        </div>
+        
           <div className="text">Why Botho University Online?</div>
 
           {!showSearchInput && (

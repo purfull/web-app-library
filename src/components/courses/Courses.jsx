@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Courses.css";
-import arrow from '/icon/arrow_forward.png'
+import vector from "/icon/Vector.png";
+import arrow from "/icon/arrow_forward.png";
+
 // import aa from "/icon/Vector.png"
 import { Card } from "antd";
 
 const Courses = () => {
+  const [searchText, setSearchText] = useState("");
+
   const cardData = [
     {
       cover: "/images/Rectangle 1.png",
@@ -49,6 +53,11 @@ const Courses = () => {
         "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
     },
   ];
+
+  const filteredData = cardData.filter((item) =>
+    item.title.toLowerCase().includes(searchText.toLowerCase())
+  );
+
   return (
     <div className="course-container" style={{ paddingTop: "12vh" }}>
       <div className="titleBar">
@@ -56,10 +65,18 @@ const Courses = () => {
           <span className="secondary-heading">
             Explore Our Online <br className="hidden sm:block" /> Programmes
           </span>
+
           <button className="search-button">
-            <span className="search-button-text">Search</span>
+            {/* <span className="search-button-text">Search</span> */}
+            <input
+              type="text"
+              placeholder="Search Programmes..."
+              className="search-button-text"
+              value={searchText}
+              onChange={(e) => setSearchText(e.target.value)}
+            />
             <img
-              src={arrow}
+              src={vector}
               // alt="arrow"
               style={{
                 borderRadius: "50%",
@@ -73,7 +90,10 @@ const Courses = () => {
             />
           </button>
         </div>
-        <div className="secondary-paragraph mobile-topheading black" style={{color: "#000"}}>
+        <div
+          className="secondary-paragraph mobile-topheading black"
+          style={{ color: "#000" }}
+        >
           Advance your career with flexible, accredited online degrees from
           <br />
           Botho University.
