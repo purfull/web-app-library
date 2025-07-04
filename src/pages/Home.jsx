@@ -14,34 +14,78 @@ import TimerHome from "../components/timerHome/TimerHome";
 import CourseStruture from "../components/coursestrutureSection/coursestrutureSection";
 
 const HomePage = () => {
-    const faqData = [
-      {
-        question: "Do I need prior financial knowledge to join this course?",
-        answer:
-          "Botho University’s digital roots as a computer training institute have helped to grow a strong online learning platform powered by Blackboard, offering ebooks, video lectures, discussion forums, and interactive faq - accessible anytime, anywhere - to support flexible, engaging education for today’s mobile and connected learners.",
-      },
-  
-      {
-        question: "Do I need prior financial knowledge to join this course?",
-        answer:
-          "No, the course is designed for beginners as well as those with some experience.",
-      },
-      {
-        question: "Do I need prior financial knowledge to join this course?",
-        answer:
-          "Botho University offers accredited online programmes across key disciplines, with exemption options for experienced professionals. Both undergraduate and postgraduate pathways provide flexibility, while the university’s BOS ISO 9001:2015 certification reflects its commitment to internationally recognised quality and academic excellence.",
-      },
-      {
-        question: "Do I need prior financial knowledge to join this course?",
-        answer:
-          "Botho University enhances online learning with bi-weekly live classes via Zoom and Blackboard, offering real-time interaction, peer collaboration, and instant feedback. This dynamic, engaging experience mirrors the quality of on-campus study while providing the flexibility of fully online education.",
-      },
-      {
-        question: "Do I need prior financial knowledge to join this course?",
-        answer:
-          "Online learners at Botho University enjoy unlimited access to an extensive e-library, featuring leading journal databases such as Emerald, ProQuest, and JSTOR. This vast repository of academic resources supports research and learning, ensuring that students have the necessary tools to excel in their studies.",
-      },
-    ];
+  const cardData = [
+    {
+      cover: "/images/Rectangle 1.png",
+      courseName: "Undergraduate Programme",
+      title: "Bachelor of Commerce in Accountancy",
+      description:
+        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
+    },
+    {
+      cover: "/images/Rectangle 2.png",
+      courseName: "Undergraduate Programme",
+      title: "Bachelor of Commerce in Accountancy",
+      description:
+        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
+    },
+    {
+      cover: "/images/Rectangle 3.png",
+      courseName: "Undergraduate Programme",
+      title: "Bachelor of Commerce in Accountancy",
+      description:
+        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
+    },
+    {
+      cover: "/images/Rectangle 4.png",
+      courseName: "Undergraduate Programme",
+      title: "Bachelor of Commerce in Accountancy",
+      description:
+        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
+    },
+    {
+      cover: "/images/Rectangle 5.png",
+      courseName: "Undergraduate Programme",
+      title: "Bachelor of Commerce in Accountancy",
+      description:
+        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
+    },
+    {
+      cover: "/images/Rectangle 6.png",
+      courseName: "Undergraduate Programme",
+      title: "Bachelor of Commerce in Statistics",
+      description:
+        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
+    },
+  ];
+  const faqData = [
+    {
+      question: "Do I need prior financial knowledge to join this course?",
+      answer:
+        "Botho University’s digital roots as a computer training institute have helped to grow a strong online learning platform powered by Blackboard, offering ebooks, video lectures, discussion forums, and interactive faq - accessible anytime, anywhere - to support flexible, engaging education for today’s mobile and connected learners.",
+    },
+
+    {
+      question: "Do I need prior financial knowledge to join this course?",
+      answer:
+        "No, the course is designed for beginners as well as those with some experience.",
+    },
+    {
+      question: "Do I need prior financial knowledge to join this course?",
+      answer:
+        "Botho University offers accredited online programmes across key disciplines, with exemption options for experienced professionals. Both undergraduate and postgraduate pathways provide flexibility, while the university’s BOS ISO 9001:2015 certification reflects its commitment to internationally recognised quality and academic excellence.",
+    },
+    {
+      question: "Do I need prior financial knowledge to join this course?",
+      answer:
+        "Botho University enhances online learning with bi-weekly live classes via Zoom and Blackboard, offering real-time interaction, peer collaboration, and instant feedback. This dynamic, engaging experience mirrors the quality of on-campus study while providing the flexibility of fully online education.",
+    },
+    {
+      question: "Do I need prior financial knowledge to join this course?",
+      answer:
+        "Online learners at Botho University enjoy unlimited access to an extensive e-library, featuring leading journal databases such as Emerald, ProQuest, and JSTOR. This vast repository of academic resources supports research and learning, ensuring that students have the necessary tools to excel in their studies.",
+    },
+  ];
   return (
     <div className="">
       <RednavBar />
@@ -49,16 +93,14 @@ const HomePage = () => {
       <HeroSection />
       <ContentPage />
       <InfiniteSection />
-      <Course />
+      <Course cardData={cardData} />
       <FeedBackSection />
-      <Faq faqData={faqData}/>
+      <Faq faqData={faqData} />
       <BannerSection />
       <Footer />
       {/* <StaticHome />
       <TimerHome />
       <CourseStruture /> */}
-
-
     </div>
   );
 };

@@ -1,4 +1,3 @@
-
 import "./navBar.css";
 import { CiSearch } from "react-icons/ci";
 import { RiArrowDropDownLine } from "react-icons/ri";
@@ -18,37 +17,56 @@ const NavBar = () => {
         <img src="../logo/BothoLogo.png" alt="logo" />
 
         <div className="nav-bar2">
-          <div className="search-wrapper">
-          <div className="search-icon-text" onClick={handleSearchClick}>
-            <CiSearch className="clickable-icon" />
-            <span className="nav-text">
-              Botho University Online Programmes
-              <RiArrowDropDownLine />
-            </span>
+          <div className="button-search-wrapper">
+            <div className="search-icon-text" onClick={handleSearchClick}>
+              <CiSearch className="clickable-icon" />
+              <span className="nav-text">
+                Botho University Online Programmes
+                <RiArrowDropDownLine />
+              </span>
+            </div>
+
+            {showSearchInput && (
+              <input
+                type="text"
+                className="search-input"
+                placeholder="Search programmes..."
+                value={searchText}
+                onChange={(e) => setSearchText(e.target.value)}
+              />
+            )}
           </div>
 
-          {showSearchInput && (
+          <div className="text">Why Botho University Online?</div>
+          <p className="fee-text">Fees</p>
+
+          {/* {!showSearchInput && ( */}
+          {/* <div className="mobile-search-group"> */}
+          <div className="mobile-text">
+            Why BU Online?
+            <CiSearch className="mobile-search" onClick={handleSearchClick} />
+          </div>
+          {/* )} */}
+
+          {/* <div className="fee-text">Fees</div> */}
+        </div>
+        {showSearchInput && (
+          <div className="mobile-search-input-wrapper">
             <input
               type="text"
-              className="search-input"
+              className="mobile-search-input"
               placeholder="Search programmes..."
               value={searchText}
               onChange={(e) => setSearchText(e.target.value)}
             />
-          )}
-        </div>
-        
-          <div className="text">Why Botho University Online?</div>
-
-          {!showSearchInput && (
-            <div className="mobile-text">
-              Why BU Online?
-              <CiSearch className="mobile-search" onClick={handleSearchClick} />
-            </div>
-          )}
-
-          <div className="fee-text">Fees</div>
-        </div>
+            {/* {searchText && (
+              <span className="close-icon" onClick={() => setSearchText("")}>
+                ×
+              </span>
+            )} */}
+          </div>
+        )}
+        {/* </div> */}
       </div>
     </div>
   );

@@ -2,59 +2,22 @@ import React, { useState } from "react";
 import "./Courses.css";
 import vector from "/icon/Vector.png";
 import arrow from "/icon/arrow_forward.png";
-
-// import aa from "/icon/Vector.png"
 import { Card } from "antd";
 
-const Courses = () => {
+const Courses = ({ cardData }) => {
   const [searchText, setSearchText] = useState("");
+  const [showSuggestions, setShowSuggestions] = useState(false);
 
-  const cardData = [
-    {
-      cover: "/images/Rectangle 1.png",
-      courseName: "Undergraduate Programme",
-      title: "Bachelor of Commerce in Accountancy",
-      description:
-        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
-    },
-    {
-      cover: "/images/Rectangle 2.png",
-      courseName: "Undergraduate Programme",
-      title: "Bachelor of Commerce in Accountancy",
-      description:
-        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
-    },
-    {
-      cover: "/images/Rectangle 3.png",
-      courseName: "Undergraduate Programme",
-      title: "Bachelor of Commerce in Accountancy",
-      description:
-        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
-    },
-    {
-      cover: "/images/Rectangle 4.png",
-      courseName: "Undergraduate Programme",
-      title: "Bachelor of Commerce in Accountancy",
-      description:
-        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
-    },
-    {
-      cover: "/images/Rectangle 5.png",
-      courseName: "Undergraduate Programme",
-      title: "Bachelor of Commerce in Accountancy",
-      description:
-        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
-    },
-    {
-      cover: "/images/Rectangle 6.png",
-      courseName: "Undergraduate Programme",
-      title: "Bachelor of Commerce in Accountancy",
-      description:
-        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
-    },
-  ];
+  const filteredSuggestions = cardData.filter((item) =>
+    item.title.toLowerCase().includes(searchText.toLowerCase())
+  );
 
-  const filteredData = cardData.filter((item) =>
+  const handleSuggestionClick = (title) => {
+    setSearchText(title);
+    setShowSuggestions(false);
+  };
+
+  const filteredCards = cardData.filter((item) =>
     item.title.toLowerCase().includes(searchText.toLowerCase())
   );
 
@@ -66,29 +29,50 @@ const Courses = () => {
             Explore Our Online <br className="hidden sm:block" /> Programmes
           </span>
 
-          <button className="search-button">
-            {/* <span className="search-button-text">Search</span> */}
-            <input
-              type="text"
-              placeholder="Search Programmes..."
-              className="search-button-text"
-              value={searchText}
-              onChange={(e) => setSearchText(e.target.value)}
-            />
-            <img
-              src={vector}
-              // alt="arrow"
-              style={{
-                borderRadius: "50%",
-                padding: "8px",
-                // border: "1px ",
-                backgroundColor: "#841d26",
-                // width: "32px",
-                // height: "32px",
-                // objectFit: "contain",
-              }}
-            />
-          </button>
+          <div className="search-wrapper">
+            <div className="search-button">
+              <input
+                type="text"
+                placeholder="Search Programmes..."
+                className="search-button-text"
+                value={searchText}
+                onChange={(e) => {
+                  setSearchText(e.target.value);
+                  setShowSuggestions(true);
+                }}
+                onBlur={() => setTimeout(() => setShowSuggestions(false), 150)} // Allow time to click
+                onFocus={() => setShowSuggestions(true)}
+              />
+              <img
+                src={vector}
+                style={{
+                  borderRadius: "50%",
+                  padding: "8px",
+                  // border: "1px ",
+                  backgroundColor: "#841d26",
+                }}
+              />
+            </div>
+
+            {/* 🔽 Auto Suggestions Dropdown */}
+            {showSuggestions && searchText && (
+              <ul className="suggestions-list">
+                {filteredSuggestions.length > 0 ? (
+                  filteredSuggestions.map((item, index) => (
+                    <li
+                      key={index}
+                      onClick={() => handleSuggestionClick(item.title)}
+                      className="suggestion-item"
+                    >
+                      {item.title}
+                    </li>
+                  ))
+                ) : (
+                  <li className="no-match">No matching programmes</li>
+                )}
+              </ul>
+            )}
+          </div>
         </div>
         <div
           className="secondary-paragraph mobile-topheading black"
@@ -101,7 +85,7 @@ const Courses = () => {
       </div>
 
       <div className="card-container">
-        {cardData.map((item, index) => (
+        {filteredCards.map((item, index) => (
           <Card
             key={index}
             // title={item.title}
@@ -121,6 +105,7 @@ const Courses = () => {
           </Card>
         ))}
       </div>
+
       <div className="bottom-button">
         <button className="transparent-button">
           <span className="button-text">Explore All Programmes</span>
