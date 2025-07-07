@@ -1,5 +1,4 @@
 import NavBar from "../components/navBar/Navbar";
-
 import ContentPage from "../components/content/Content";
 import RednavBar from "../components/rednavBar/RedNavbar";
 import Course from "../components/courses/Courses";
@@ -12,8 +11,11 @@ import FeedBackSection from "../components/feedback/FeedBackSection";
 import StaticHome from "../components/staticHome/statichome";
 import TimerHome from "../components/timerHome/TimerHome";
 import CourseStruture from "../components/coursestrutureSection/coursestrutureSection";
+import FeeHome from "../components/feehoemsection/feehome";
+import EnquireSection from "../components/EnquireSection/EnquireSection";
 
 const HomePage = () => {
+
   const cardData = [
     {
       cover: "/images/Rectangle 1.png",
@@ -86,7 +88,6 @@ const HomePage = () => {
         "Online learners at Botho University enjoy unlimited access to an extensive e-library, featuring leading journal databases such as Emerald, ProQuest, and JSTOR. This vast repository of academic resources supports research and learning, ensuring that students have the necessary tools to excel in their studies.",
     },
   ];
-
   return (
     <div className="">
       <RednavBar />

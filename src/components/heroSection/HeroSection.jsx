@@ -49,7 +49,9 @@ const herobanner = [
     arrowIcon: "../../../public/icon/arrow_forward.png",
     backgroundImg: "../../../public/images/herobanner.png",
     calledtoAction:
+
       "98% of our graduates will recommend us to others  (Source: Based on number of respondents to the 2025 Graduate Tracer Survey)",
+
 
     dynamicimg: [
       "../../../public/images/Ellipse 21.png",
@@ -81,7 +83,7 @@ const HeroSection = () => {
                   className="primary-heading"
                   dangerouslySetInnerHTML={{ __html: item.Primarytittle }}
                 ></h1>
-                <p className="secondary-paragraph white">{item.subtittle}</p>
+                <p className="secondary-paragraph subtitle-white">{item.subtittle}</p>
 
                 <div className="">
                   <button className="primary-button">
@@ -105,10 +107,12 @@ const HeroSection = () => {
                       />
                     ))}
                   </div>
+
                   <div
                     className="secondary-paragraph-pec"
                     dangerouslySetInnerHTML={{ __html: item?.calledtoAction }}
                   ></div>
+
                 </div>
               </div>
             </div>
