@@ -22,6 +22,7 @@
     flex: 2;
     height: 200vh;
     justify-content: center;
+    padding-top: 80px;
   }
 
   .library {
@@ -52,7 +53,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 40px 0; /* Add padding for spacing */
+    /* padding: 40px 0;  */
+    padding-top: 80px;
   }
 
   .banner-main {
@@ -305,6 +307,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: "60vh";
   }
 
   .banner-main {
@@ -465,6 +468,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: "60vh";
   }
 
   .banner-main {
@@ -626,6 +630,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 438px;
+    background-position: bottom;
   }
 
   .banner-main {

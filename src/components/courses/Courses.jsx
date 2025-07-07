@@ -1,87 +1,106 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Courses.css";
-import arrow from '/icon/arrow_forward.png'
-// import aa from "/icon/Vector.png"
+import vector from "/icon/Vector.png";
+import arrow from "/icon/arrow_forward.png";
 import { Card } from "antd";
 
-const Courses = () => {
-  const cardData = [
-    {
-      cover: "/images/Rectangle 1.png",
-      courseName: "Undergraduate Programme",
-      title: "Bachelor of Commerce in Accountancy",
-      description:
-        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
-    },
-    {
-      cover: "/images/Rectangle 2.png",
-      courseName: "Undergraduate Programme",
-      title: "Bachelor of Commerce in Accountancy",
-      description:
-        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
-    },
-    {
-      cover: "/images/Rectangle 3.png",
-      courseName: "Undergraduate Programme",
-      title: "Bachelor of Commerce in Accountancy",
-      description:
-        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
-    },
-    {
-      cover: "/images/Rectangle 4.png",
-      courseName: "Undergraduate Programme",
-      title: "Bachelor of Commerce in Accountancy",
-      description:
-        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
-    },
-    {
-      cover: "/images/Rectangle 5.png",
-      courseName: "Undergraduate Programme",
-      title: "Bachelor of Commerce in Accountancy",
-      description:
-        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
-    },
-    {
-      cover: "/images/Rectangle 6.png",
-      courseName: "Undergraduate Programme",
-      title: "Bachelor of Commerce in Accountancy",
-      description:
-        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
-    },
-  ];
+const Courses = ({
+  cardData,
+  secondaryHeading,
+  secondaryParagraph,
+  courseName,
+}) => {
+  const [searchText, setSearchText] = useState("");
+  const [showSuggestions, setShowSuggestions] = useState(false);
+
+  const filteredSuggestions = cardData.filter((item) =>
+    item.title.toLowerCase().includes(searchText.toLowerCase())
+  );
+
+  const handleSuggestionClick = (title) => {
+    setSearchText(title);
+    setShowSuggestions(false);
+  };
+
+  // const filteredCards = cardData.filter((item) =>
+  //   item.title.toLowerCase().includes(searchText.toLowerCase())
+  // );
+  const filteredCards = cardData; // show all cards regardless of search
+
+
   return (
     <div className="course-container" style={{ paddingTop: "12vh" }}>
       <div className="titleBar">
         <div>
           <span className="secondary-heading">
-            Explore Our Online <br className="hidden sm:block" /> Programmes
+            {secondaryHeading || (
+              <>
+                Explore Our Online <br className="hidden sm:block" /> Programmes
+              </>
+            )}
           </span>
-          <button className="search-button">
-            <span className="search-button-text">Search</span>
-            <img
-              src={arrow}
-              // alt="arrow"
-              style={{
-                borderRadius: "50%",
-                padding: "8px",
-                // border: "1px ",
-                backgroundColor: "#841d26",
-                // width: "32px",
-                // height: "32px",
-                // objectFit: "contain",
-              }}
-            />
-          </button>
+
+          <div className="search-wrapper">
+            <div className="search-button">
+              <input
+                type="text"
+                placeholder="Search Programmes..."
+                className="search-button-text"
+                value={searchText}
+                onChange={(e) => {
+                  setSearchText(e.target.value);
+                  setShowSuggestions(true);
+                }}
+                onBlur={() => setTimeout(() => setShowSuggestions(false), 150)} // Allow time to click
+                onFocus={() => setShowSuggestions(true)}
+              />
+              <img
+                src={vector}
+                style={{
+                  borderRadius: "50%",
+                  padding: "8px",
+                  // border: "1px ",
+                  backgroundColor: "#841d26",
+                }}
+              />
+            </div>
+
+            {/* 🔽 Auto Suggestions Dropdown */}
+            {showSuggestions && searchText && (
+              <ul className="suggestions-list">
+                {filteredSuggestions.length > 0 ? (
+                  filteredSuggestions.map((item, index) => (
+                    <li
+                      key={index}
+                      onClick={() => handleSuggestionClick(item.title)}
+                      className="suggestion-item"
+                    >
+                      {item.title}
+                    </li>
+                  ))
+                ) : (
+                  <li className="no-match">No matching programmes</li>
+                )}
+              </ul>
+            )}
+          </div>
         </div>
-        <div className="secondary-paragraph mobile-topheading black" style={{color: "#000"}}>
-          Advance your career with flexible, accredited online degrees from
-          <br />
-          Botho University.
+        <div
+          className="secondary-paragraph mobile-topheading black"
+          style={{ color: "#000" }}
+        >
+          {secondaryParagraph || (
+            <>
+              Advance your career with flexible, accredited online degrees from
+              <br />
+              Botho University.
+            </>
+          )}
         </div>
       </div>
 
       <div className="card-container">
-        {cardData.map((item, index) => (
+        {filteredCards.map((item, index) => (
           <Card
             key={index}
             // title={item.title}
@@ -94,13 +113,14 @@ const Courses = () => {
             className="course-card"
           >
             {/* <img  alt="cover" src={item.cover} /> */}
-            <p className="course-tag">{item.courseName}</p>
+            <p className="course-tag">{courseName || item.courseName}</p>
             <p className="course-title">{item.title}</p>
             <p className="course-desc">{item.description}</p>
             <button className="fourth-button read">Explore Programme</button>
           </Card>
         ))}
       </div>
+
       <div className="bottom-button">
         <button className="transparent-button">
           <span className="button-text">Explore All Programmes</span>

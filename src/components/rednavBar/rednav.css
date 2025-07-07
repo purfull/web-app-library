@@ -1,6 +1,5 @@
-*{
-      font-family: "Montserrat", sans-serif;
-
+* {
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -22,7 +21,7 @@
     background-color: #841d2e;
   }
   .red-head {
-    padding: 10px 30px;
+    padding: 10px 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,17 +34,15 @@
     font-size: 16px;
     line-height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     text-align: center;
-    width: 40%;
+    /* width: 40%; */
     color: #c6979f;
   }
   .white-text {
     color: #ffffff;
     padding-left: 6px;
-        font-family: "Montserrat", sans-serif;
-
-
+    font-family: "Montserrat", sans-serif;
   }
   .details {
     padding-left: 3rem;
@@ -55,8 +52,9 @@
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    width: 60%;
+    /* width: 60%; */
     color: #f3e8ea;
+    justify-content: end;
   }
   .details img {
     width: 16px;
@@ -84,7 +82,7 @@
     font-size: 16px;
     line-height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     text-align: center;
     width: 30%;
     color: #c6979f;
@@ -100,8 +98,9 @@
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    width: 50%;
+    /* width: 50%; */
     color: #f3e8ea;
+    justify-content: end;
   }
   .details img {
     width: 16px;
@@ -114,7 +113,7 @@
     background-color: #841d2e;
   }
   .red-head {
-    padding: 10px 30px;
+    padding: 10px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -127,9 +126,9 @@
     font-size: 16px;
     line-height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     text-align: center;
-    width: 30%;
+    width: 20%;
     color: #c6979f;
   }
   .white-text {
@@ -143,8 +142,9 @@
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    width: 40%;
+    /* width: 40%; */
     color: #f3e8ea;
+    justify-content: end;
   }
   .details img {
     width: 16px;
