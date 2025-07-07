@@ -88,10 +88,27 @@ const PageTwo = () => {
       <RednavBar />
       <NavBar />
       <StaticHome />
-      <Course cardData={cardData} />
+      <Course
+        cardData={cardData}
+        secondaryHeading="Postgraduate Programmes"
+        secondaryParagraph="Take your expertise to the next level with advanced qualifications designed for leadership and impact."
+        courseName="Postgraduate Programmes"
+      />
+      <Course
+        cardData={cardData}
+        secondaryHeading="Undergraduate Programmes"
+        secondaryParagraph="Start strong with a flexible, accredited degree that builds your foundation for a successful career."
+      />
       <FeedBackSection />
       <Faq faqData={faqData} />
-      <BannerSection />
+      <BannerSection
+        bannerImage="/images/happy-student-girl.png"
+        headingText="Begin Your"
+        highlightedText="Online Degree"
+        trailingText="With Confidence"
+        paragraphText="Join thousands of students building their future with Botho University Online. Flexible. Affordable. Recognized."
+        backgroundColor="#F3E8EA"
+      />
       <Footer />
     </div>
   );

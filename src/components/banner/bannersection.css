@@ -24,7 +24,7 @@
   .graduate.png {
     background-color: white;
   }
-.arrow-icon-banner {
+  .arrow-icon-banner {
     background-color: #841d2e;
     padding: 3px;
     border-radius: 50%;
@@ -102,10 +102,7 @@
     border-radius: 50%;
     background-color: var(--primary-background-color);
   }
-
-
 }
-
 
 /* //// */
 
@@ -195,7 +192,6 @@
   }
 } */
 
-
 /* Large devices (laptops/desktops, 992px and up) */
 /* @media only screen and (min-width: 992px) {
   .banner-container {
@@ -258,8 +254,6 @@
     position: absolute;
   }
 } */
- 
-
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -288,8 +282,7 @@
     border-radius: 50%;
   }
 
-
-  .secondary-paragraph{
+  .secondary-paragraph {
     color: white;
     line-height: 150%;
     letter-spacing: 1px;
@@ -326,7 +319,7 @@
   }
 
   .right img {
-    height: 606px;
+    height: 665px;
     position: absolute;
   }
 
@@ -336,7 +329,7 @@
     right: 0;
     z-index: 0;
   } */
-/* 
+  /* 
   .shades img {
     position: absolute;
     object-fit: contain;
@@ -348,7 +341,6 @@
     bottom: 10px;
   } */
 
- 
   /* .shades img:nth-child(2) {
     width: 250px;
     right: 40px;

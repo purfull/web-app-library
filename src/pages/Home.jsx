@@ -86,6 +86,7 @@ const HomePage = () => {
         "Online learners at Botho University enjoy unlimited access to an extensive e-library, featuring leading journal databases such as Emerald, ProQuest, and JSTOR. This vast repository of academic resources supports research and learning, ensuring that students have the necessary tools to excel in their studies.",
     },
   ];
+
   return (
     <div className="">
       <RednavBar />
@@ -93,10 +94,20 @@ const HomePage = () => {
       <HeroSection />
       <ContentPage />
       <InfiniteSection />
-      <Course cardData={cardData} />
+      <Course
+        cardData={cardData}
+        secondaryHeading="Explore Our Online Programme"
+      />
       <FeedBackSection />
       <Faq faqData={faqData} />
-      <BannerSection />
+      <BannerSection
+        bannerImage="/images/graduate.png"
+        headingText="Are You Ready To Take The"
+        highlightedText="Next Step?"
+        trailingText=""
+        paragraphText="Join thousands of students building their future with Botho University Online. Flexible. Affordable. Recognized."
+        backgroundColor="#841d2e"
+      />
       <Footer />
       {/* <StaticHome />
       <TimerHome />

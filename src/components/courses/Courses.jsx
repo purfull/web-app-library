@@ -4,7 +4,12 @@ import vector from "/icon/Vector.png";
 import arrow from "/icon/arrow_forward.png";
 import { Card } from "antd";
 
-const Courses = ({ cardData }) => {
+const Courses = ({
+  cardData,
+  secondaryHeading,
+  secondaryParagraph,
+  courseName,
+}) => {
   const [searchText, setSearchText] = useState("");
   const [showSuggestions, setShowSuggestions] = useState(false);
 
@@ -17,16 +22,22 @@ const Courses = ({ cardData }) => {
     setShowSuggestions(false);
   };
 
-  const filteredCards = cardData.filter((item) =>
-    item.title.toLowerCase().includes(searchText.toLowerCase())
-  );
+  // const filteredCards = cardData.filter((item) =>
+  //   item.title.toLowerCase().includes(searchText.toLowerCase())
+  // );
+  const filteredCards = cardData; // show all cards regardless of search
+
 
   return (
     <div className="course-container" style={{ paddingTop: "12vh" }}>
       <div className="titleBar">
         <div>
           <span className="secondary-heading">
-            Explore Our Online <br className="hidden sm:block" /> Programmes
+            {secondaryHeading || (
+              <>
+                Explore Our Online <br className="hidden sm:block" /> Programmes
+              </>
+            )}
           </span>
 
           <div className="search-wrapper">
@@ -78,9 +89,13 @@ const Courses = ({ cardData }) => {
           className="secondary-paragraph mobile-topheading black"
           style={{ color: "#000" }}
         >
-          Advance your career with flexible, accredited online degrees from
-          <br />
-          Botho University.
+          {secondaryParagraph || (
+            <>
+              Advance your career with flexible, accredited online degrees from
+              <br />
+              Botho University.
+            </>
+          )}
         </div>
       </div>
 
@@ -98,7 +113,7 @@ const Courses = ({ cardData }) => {
             className="course-card"
           >
             {/* <img  alt="cover" src={item.cover} /> */}
-            <p className="course-tag">{item.courseName}</p>
+            <p className="course-tag">{courseName || item.courseName}</p>
             <p className="course-title">{item.title}</p>
             <p className="course-desc">{item.description}</p>
             <button className="fourth-button read">Explore Programme</button>

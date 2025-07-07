@@ -76,19 +76,7 @@
   .cover-image {
     border-radius: 8px;
   }
-  /* .search-button {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    gap: 15px; 
-    cursor: pointer;
-    margin-top: 10px;
-  }
-  .search-button-text {
-    padding-right: 3rem;
-    justify-content: center;
-    display: flex;
-  } */
+
   .fourth-button.read {
     width: 100%;
   }
@@ -110,6 +98,10 @@
     padding-right: 6rem;
     justify-content: center;
     display: flex;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 16px;
   }
   .transparent-button img {
     display: inline-block;
@@ -131,7 +123,7 @@
     max-height: 200px;
     overflow-y: auto;
     background: white;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     z-index: 10;
     border-radius: 4px;
     list-style: none;
@@ -254,6 +246,10 @@
     padding-right: 6rem;
     justify-content: center;
     display: flex;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 16px;
   }
   .transparent-button img {
     display: inline-block;
@@ -275,7 +271,7 @@
     max-height: 200px;
     overflow-y: auto;
     background: white;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     z-index: 10;
     border-radius: 4px;
     list-style: none;
@@ -399,6 +395,10 @@
     padding-right: 6rem;
     justify-content: center;
     display: flex;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 16px;
   }
   .transparent-button img {
     display: inline-block;
@@ -420,7 +420,7 @@
     max-height: 200px;
     overflow-y: auto;
     background: white;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     z-index: 10;
     border-radius: 4px;
     list-style: none;
@@ -544,6 +544,10 @@
     padding-right: 6rem;
     justify-content: center;
     display: flex;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 16px;
   }
   .transparent-button img {
     display: inline-block;
@@ -565,7 +569,7 @@
     max-height: 200px;
     overflow-y: auto;
     background: white;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     z-index: 10;
     border-radius: 4px;
     list-style: none;
@@ -689,6 +693,10 @@
     padding-right: 6rem;
     justify-content: center;
     display: flex;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 16px;
   }
   .transparent-button img {
     display: inline-block;
@@ -710,7 +718,7 @@
     max-height: 200px;
     overflow-y: auto;
     background: white;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     z-index: 10;
     border-radius: 4px;
     list-style: none;
