@@ -71,12 +71,12 @@ const FeeHome = () => {
             >
                 {herobanner.map((item, index) => (
                     <div className="">
-                        <div 
+                        <div
                             key={index}
                             className="hero-slide"
-                            style={{ backgroundImage: ` linear-gradient( rgba(237, 199, 199, 0.91),rgba(237, 199, 199, 0.91)) ,url(${item.backgroundImg})`,}}
+                            style={{ backgroundImage: ` linear-gradient( rgba(237, 199, 199, 0.91),rgba(237, 199, 199, 0.91)) ,url(${item.backgroundImg})`, }}
                         >
-                            <div className="hero-silde-content-session ">
+                            <div className="hero-silde-session ">
                                 <h1
                                     className="primary-heading black-text-primary"
                                     dangerouslySetInnerHTML={{ __html: item.Primarytittle }}
@@ -84,10 +84,10 @@ const FeeHome = () => {
                                 <p className="secondary-paragraph black-text">{item.subtittle}</p>
 
                                 <div className="">
-                                    <button className="primary-button">
+                                    <button className="primary-button fee-primary-button">
                                         {item.button}{" "}
                                         <img
-                                            className="arrow-icon-img"
+                                            className="fee-arrow-icon-img"
                                             src={item.arrowIcon}
                                             alt=""
                                             srcset=""

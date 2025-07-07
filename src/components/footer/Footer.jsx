@@ -56,7 +56,7 @@ import React from 'react'
 import "./footer.css"
 
 const Footer = () => {
-    return (  
+    return (
         <div className='footer-main'>
             <div className='footer-content-section'>
                 <div className='footer-logo'>
@@ -67,9 +67,10 @@ const Footer = () => {
                     <p className='secondary-paragraph foot'>
                         Botho University is a leading multi-disciplinary institution founded in Botswana in 1997, now operating across 4 African countries and online. It offers accredited, industry-focused programmes from Certificate to Master’s level, driven by innovation and impact.
                     </p>
+                    <div className='heading-contact'><p>Contact Us</p></div>
+
 
                     <div className='contact-section'>
-                        <div className='heading-contact'><p>Contact Us</p></div>
                         <div className='grid-contents'>
                             <div className='grid-content-one'>
                                 <div className='heading'>Physical Address:</div>

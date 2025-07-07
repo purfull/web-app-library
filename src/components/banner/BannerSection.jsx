@@ -8,7 +8,7 @@ const BannerSection = () => {
             <div className="banner-container">
                 <div className="empty"></div>
                 <div className="coloured-bg">
-                    <div className="left">
+                    <div className="left-banner " style={{width: "50%"}}>
                         <span className="primary-heading white">
                             Are You Ready to Take the  <span className="primary-heading" style={{ backgroundColor: "white", color: "#841d2e" ,padding:"2px"}}>Next Step?</span>
                         </span>
@@ -20,7 +20,7 @@ const BannerSection = () => {
                         <button className='primary-button'>Enquire Now <img src="/icon/arrow_forward.png" alt="" className='arrow-icon-banner' /></button>
                     </div>
 
-                    <div className="right">
+                    <div className="right-banner">
                         <div className="shades">
                             {/* <img src="/images/Ellipse 20.png" alt="ellipse20" /> */}
                             {/* <img src="/images/Ellipse 19.png" alt="ellipse19" /> */}

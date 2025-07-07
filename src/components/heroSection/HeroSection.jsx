@@ -40,7 +40,7 @@ const herobanner = [
       "../../../public/images/Ellipse 24.png",
     ],
   },
- {
+  {
     Primarytittle:
       "Empower Your Future with <span style='background-color: #841D2E'>Botho University </span> Online",
     subtittle:
@@ -81,7 +81,7 @@ const HeroSection = () => {
                   className="primary-heading"
                   dangerouslySetInnerHTML={{ __html: item.Primarytittle }}
                 ></h1>
-                <p className="secondary-paragraph white">{item.subtittle}</p>
+                <p className="secondary-paragraph subtitle-white">{item.subtittle}</p>
 
                 <div className="">
                   <button className="primary-button">
@@ -105,7 +105,7 @@ const HeroSection = () => {
                       />
                     ))}
                   </div>
-                  <div className="secondary-paragraph-pec" dangerouslySetInnerHTML={{__html: item?.calledtoAction}}></div>
+                  <div className="secondary-paragraph-pec" dangerouslySetInnerHTML={{ __html: item?.calledtoAction }}></div>
                 </div>
               </div>
             </div>

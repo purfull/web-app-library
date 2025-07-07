@@ -55,19 +55,9 @@ const HomePage = () => {
       <FeedBackSection />
       <BannerSection />
       <Footer />
-      {/* {/* <StaticHome />
-      // <TimerHome />
-      <CourseStruture /> */}
-      {/* <FeedBackSection /> */}
-      {/* <BannerSection /> */}
-      {/* <RednavBar />
-      <NavBar /> */}
-      {/* <Course />  */}
-      <EnquireSection />
+      {/* <FeeHome />
+      <TimerHome /> */}
 
-
-
-      <FeeHome />
 
 
 

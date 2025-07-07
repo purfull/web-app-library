@@ -474,9 +474,9 @@
 }  */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) { */
+ @media only screen and (min-width: 1200px) { 
 
-/* .feedback-main {
+.feedback-main {
         width: 100%;
         background-color: #F3E8EA;
         display: flex;
@@ -522,9 +522,9 @@
         align-items: center;
         justify-content: space-evenly;
     }
-    .card-1 { */
-/* width: 43%; */
-/* background-color: #ffffff;
+    .card-1 { 
+width: 43%;
+ background-color: #ffffff;
         border-radius: 5px;
         margin-right: 20px !important;
     }
@@ -587,9 +587,9 @@
 
     .student-images {
         display: flex;
-    } */
-/* .feedback-main {
-        width: 100%;
+    } 
+.feedback-main {
+         width: 100%;
         background-color: #F3E8EA;
         display: flex;
         flex-direction: row;
@@ -704,20 +704,252 @@
         display: flex;
     }
 
-} */
+} 
 
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+         .feedback-main {
+        width: 100%;
+        background-color: #F3E8EA;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 55px;
+        padding-bottom: 5%;
+
+    }
+
+    .feeback-headers {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 3%;
+    }
+
+    .second-main {
+        width: 45%;
+    }
+
+    .feedback-cards {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: white;
+        margin-left: 10px;
+    }
+    .carosel-inner {
+        display: grid;
+        height: 100% !important;
+        width: 80vw !important;
+        gap: 30px !important;
+
+    }
+
+    .student-images {
+        display: flex;
+    }
+
+    .secondary-paragraph {
+
+        padding: 20px;
+    }
+
+    .divider {
+        width: 95%;
+        margin-left: 2.5%;
+        border-bottom: 2px dashed #575757;
+    }
+
+    .icon-img {
+        margin-right: -45px;
+        padding: 20px 15px 0px 15px;
+    }
+
+    .arrow-button-feedback {
+        display: flex;
+        padding: 20px 0;
+    }
+
+    .next-button,.pri-button{
+        padding: 10px;
+        margin: 10px;
+        border-radius: 50%;
+        background-color: #841d2e;
+        color: white;
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+        border: none;
+    }
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+         .feedback-main {
+        width: 100%;
+        background-color: #F3E8EA;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 55px;
+        padding-bottom: 5%;
+
+    }
+
+    .feeback-headers {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 3%;
+    }
+
+    .second-main {
+        width: 45%;
+    }
+
+    .feedback-cards {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: white;
+        margin-left: 10px;
+    }
+    .carosel-inner {
+        display: grid;
+        height: 100% !important;
+        width: 80vw !important;
+        gap: 30px !important;
+
+    }
+
+    .student-images {
+        display: flex;
+    }
+
+    .secondary-paragraph {
+
+        padding: 20px;
+    }
+
+    .divider {
+        width: 95%;
+        margin-left: 2.5%;
+        border-bottom: 2px dashed #575757;
+    }
+
+    .icon-img {
+        margin-right: -45px;
+        padding: 20px 15px 0px 15px;
+    }
+
+    .arrow-button-feedback {
+        display: flex;
+        padding: 20px 0;
+    }
+
+    .next-button,.pri-button{
+        padding: 10px;
+        margin: 10px;
+        border-radius: 50%;
+        background-color: #841d2e;
+        color: white;
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+        border: none;
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+      .feedback-main {
+        width: 100%;
+        background-color: #F3E8EA;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 55px;
+        padding-bottom: 5%;
+
+    }
+
+    .feeback-headers {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 3%;
+    }
+
+    .second-main {
+        width: 45%;
+    }
+
+    .feedback-cards {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: white;
+        margin-left: 10px;
+    }
+    .carosel-inner {
+        display: grid;
+        height: 100% !important;
+        width: 80vw !important;
+        gap: 30px !important;
+
+    }
+
+    .student-images {
+        display: flex;
+    }
+
+    .secondary-paragraph {
+
+        padding: 20px;
+    }
+
+    .divider {
+        width: 95%;
+        margin-left: 2.5%;
+        border-bottom: 2px dashed #575757;
+    }
+
+    .icon-img {
+        margin-right: -45px;
+        padding: 20px 15px 0px 15px;
+    }
+
+    .arrow-button-feedback {
+        display: flex;
+        padding: 20px 0;
+    }
+
+    .next-button,.pri-button{
+        padding: 10px;
+        margin: 10px;
+        border-radius: 50%;
+        background-color: #841d2e;
+        color: white;
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+        border: none;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
