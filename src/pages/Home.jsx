@@ -1,5 +1,4 @@
 import NavBar from "../components/navBar/Navbar";
-
 import ContentPage from "../components/content/Content";
 import RednavBar from "../components/rednavBar/RedNavbar";
 import Course from "../components/courses/Courses";
@@ -12,6 +11,8 @@ import FeedBackSection from "../components/feedback/FeedBackSection";
 import StaticHome from "../components/staticHome/statichome";
 import TimerHome from "../components/timerHome/TimerHome";
 import CourseStruture from "../components/coursestrutureSection/coursestrutureSection";
+import FeeHome from "../components/feehoemsection/feehome";
+import EnquireSection from "../components/EnquireSection/EnquireSection";
 
 const HomePage = () => {
   const faqData = [
@@ -50,15 +51,23 @@ const HomePage = () => {
       <ContentPage />
       <InfiniteSection />
       <Course />
-      <Faq faqData={faqData}/>
+      <Faq faqData={faqData} />
       <FeedBackSection />
       <BannerSection />
-      <Footer /> 
+      <Footer />
       {/* {/* <StaticHome />
-      <TimerHome />
+      // <TimerHome />
       <CourseStruture /> */}
       {/* <FeedBackSection /> */}
-            {/* <BannerSection /> */}
+      {/* <BannerSection /> */}
+      {/* <RednavBar />
+      <NavBar /> */}
+      {/* <Course />  */}
+      <EnquireSection />
+
+
+
+      <FeeHome />
 
 
 

@@ -40,7 +40,7 @@ const herobanner = [
       "../../../public/images/Ellipse 24.png",
     ],
   },
-  {
+ {
     Primarytittle:
       "Empower Your Future with <span style='background-color: #841D2E'>Botho University </span> Online",
     subtittle:
@@ -49,7 +49,7 @@ const herobanner = [
     arrowIcon: "../../../public/icon/arrow_forward.png",
     backgroundImg: "../../../public/images/herobanner.png",
     calledtoAction:
-      "98% of our graduates will recommend us to others </br> (Source: Based on number of respondents to the 2025 Graduate Tracer Survey)",
+      "98% of our graduates will recommend us to others (Source: 2025 Graduate Tracer Study)",
 
     dynamicimg: [
       "../../../public/images/Ellipse 21.png",

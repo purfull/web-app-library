@@ -10,7 +10,7 @@ const BannerSection = () => {
                 <div className="coloured-bg">
                     <div className="left">
                         <span className="primary-heading white">
-                            Are You Ready to Take the  <span className="primary-heading" style={{ backgroundColor: "white", color: "#841d2e", marginTop: "10px " }}>Next Step?</span>
+                            Are You Ready to Take the  <span className="primary-heading" style={{ backgroundColor: "white", color: "#841d2e" ,padding:"2px"}}>Next Step?</span>
                         </span>
 
                         <p className="secondary-paragraph white">

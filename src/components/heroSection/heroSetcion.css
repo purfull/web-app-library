@@ -288,7 +288,7 @@
 
   .hero-silde-content-session {
     /* display: grid; */
-    width: 45%;
+    width: 45% !important;
     padding: 15px;
     margin-left: 5%;
     gap: 20px;

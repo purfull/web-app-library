@@ -462,7 +462,7 @@
             font-family: var(--primary-font-family);
             color: #111111;
             font-weight: 500;
-            padding-bottom: 35px;
+            padding-bottom: 40px;
 
         }
 
@@ -484,6 +484,10 @@
             justify-content: space-between;
         }
 
+
+    }
+    .foot{
+        padding: 0% !important;
 
     }
 
