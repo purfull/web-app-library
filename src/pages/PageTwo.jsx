@@ -108,6 +108,13 @@ const PageTwo = () => {
         trailingText="With Confidence"
         paragraphText="Join thousands of students building their future with Botho University Online. Flexible. Affordable. Recognized."
         backgroundColor="#F3E8EA"
+        headingColor="#000000"
+        paragraphColor="#000000"
+        highlightBgColor="#841d2e"
+        highlightTextColor="#ffffff"
+        buttonBgColor="#841d2e"
+        buttonTextColor="#ffffff"
+        arrows="/icon/maroon-arrow.png"
       />
       <Footer />
     </div>

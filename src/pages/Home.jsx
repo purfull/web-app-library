@@ -107,6 +107,13 @@ const HomePage = () => {
         trailingText=""
         paragraphText="Join thousands of students building their future with Botho University Online. Flexible. Affordable. Recognized."
         backgroundColor="#841d2e"
+        headingColor="white"
+        paragraphColor="white"
+        highlightBgColor="#ffffff"
+        highlightTextColor="#841d2e"
+        buttonBgColor="#ffffff"
+        buttonTextColor="#000000"
+        arrows="/icon/arrow_forward.png"
       />
       <Footer />
       {/* <StaticHome />

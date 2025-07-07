@@ -95,7 +95,7 @@
     margin-top: 20px;
   }
   .search-button-text {
-    padding-right: 6rem;
+    /* padding-right: 6rem; */
     justify-content: center;
     display: flex;
     outline: none;
@@ -243,7 +243,7 @@
     margin-top: 20px;
   }
   .search-button-text {
-    padding-right: 6rem;
+    /* padding-right: 6rem; */
     justify-content: center;
     display: flex;
     outline: none;
@@ -392,7 +392,7 @@
     margin-top: 20px;
   }
   .search-button-text {
-    padding-right: 6rem;
+    /* padding-right: 6rem; */
     justify-content: center;
     display: flex;
     outline: none;

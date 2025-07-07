@@ -8,6 +8,13 @@ const BannerSection = ({
   paragraphText,
   trailingText,
   backgroundColor,
+  headingColor,
+  paragraphColor,
+  highlightBgColor,
+  highlightTextColor,
+  buttonBgColor,
+  buttonTextColor,
+  arrows,
 }) => {
   return (
     <div className="main">
@@ -18,13 +25,13 @@ const BannerSection = ({
           style={{ backgroundColor: backgroundColor }}
         >
           <div className="left">
-            <span className="primary-heading white">
+            <span className="primary-heading" style={{ color: headingColor }}>
               {headingText}{" "}
               <span
                 className="primary-heading"
                 style={{
-                  backgroundColor: "white",
-                  color: "#841d2e",
+                  backgroundColor: highlightBgColor,
+                  color: highlightTextColor,
                   marginTop: "10px ",
                 }}
               >
@@ -33,13 +40,24 @@ const BannerSection = ({
               {trailingText}
             </span>
 
-            <p className="secondary-paragraph white">{paragraphText}</p>
-            <button className="primary-button">
+            <p
+              className="secondary-paragraph black"
+              style={{ color: `${paragraphColor} !important` }}
+            >
+              {paragraphText}
+            </p>
+            <button
+              className="primary-button"
+              style={{
+                backgroundColor: buttonBgColor,
+                color: buttonTextColor,
+              }}
+            >
               Enquire Now{" "}
               <img
-                src="/icon/arrow_forward.png"
-                alt=""
-                className="arrow-icon-banner"
+                src={arrows}
+                alt="arrows"
+                className="arrow-icon-banner bannerTwo"
               />
             </button>
           </div>
