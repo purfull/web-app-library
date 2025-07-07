@@ -6,7 +6,6 @@ const BannerSection = () => {
     return (
         <div className="main">
             <div className="banner-container">
-                <div className="empty"></div>
                 <div className="coloured-bg">
                     <div className="left-banner " style={{width: "50%"}}>
                         <span className="primary-heading white">

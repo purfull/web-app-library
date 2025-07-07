@@ -3,7 +3,7 @@
 @media screen and (max-width:600px) {
    .banner-container {
     display: grid;
-    height: 656px;
+    /* height: 656px; */
   }
 
   .empty {
@@ -63,7 +63,7 @@
     flex-direction: column;
     justify-content: center;
     color: white;
-    gap: 20px;
+    gap: 5px;
   }
 
   .right-banner {
@@ -120,7 +120,6 @@
   .banner-container {
     height: auto;
     display: grid;
-    height: 656px;
   }
 
   .bannerTwo {
@@ -158,12 +157,13 @@
   .coloured-bg {
     background-color: #841d2e;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: start;
     /* grid-template-columns: repeat(2, 1fr); */
     /* grid-template-rows: 1fr; */
     /* grid-column-gap: 10px;
     grid-row-gap: 0px; */
-    height: 600px;
+    height: 500px;
     width: 100%;
     position: relative;
   }
@@ -176,7 +176,7 @@
     flex-direction: column;
     justify-content: center;
     color: white;
-    gap: 40px;
+    gap: 20px;
   }
 
   .right-banner {
@@ -188,7 +188,7 @@
   }
 
   .right-banner img {
-    height: 550px;
+    height: 100%;
     position: absolute;
   }
   
@@ -250,12 +250,12 @@
   .left-banner{
     /* /* padding-left: 100px; */
     margin: 15px;
-    width: 40% !important;
+    width: 45% !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: white;
-    gap: 40px;
+    gap: 20px;
   }
 
   .right-banner {
@@ -278,7 +278,6 @@
 @media only screen and (min-width: 992px) {
   .banner-container {
     display: grid;
-    height: 656px;
   }
 
   .bannerTwo {
@@ -360,7 +359,6 @@
 @media only screen and (min-width: 1200px) {
   .banner-container {
     display: grid;
-    height: 656px;
   }
 
   .empty {
@@ -460,4 +458,5 @@
     right: 40px;
     bottom: 40px;
   } */
+}
 }
