@@ -33,7 +33,7 @@ const iconData = [
 
 const staticHome = () => {
   return (
-    <div className="home-container" style={{marginBottom: "50vh"}}>
+    <div className="home-container" style={{ marginBottom: "50vh" }}>
       <div className="top-sections-main">
         <div className="top-sections">
           <div className="portion-1">
@@ -87,8 +87,8 @@ const staticHome = () => {
             backgroundSize: "cover", // ensures the image covers the whole div
             backgroundPosition: "center", // centers the image
             backgroundRepeat: "no-repeat", // prevents tiling
-            height: "60vh", // set a height (or use CSS class)
-            width: "75%",
+
+            // width: "75%",
           }}
         >
           <div className="icons">

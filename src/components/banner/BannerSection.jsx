@@ -1,7 +1,44 @@
 import React from "react";
 import "./bannersection.css";
 
-const BannerSection = () => {
+const BannerSection = ({
+  bannerImage,
+  headingText,
+  highlightedText,
+  paragraphText,
+  trailingText,
+  backgroundColor,
+  headingColor,
+  paragraphColor,
+  highlightBgColor,
+  highlightTextColor,
+  buttonBgColor,
+  buttonTextColor,
+  arrows,
+}) => {
+  return (
+    <div className="main">
+      <div className="banner-container">
+        <div className="empty"></div>
+        <div
+          className="coloured-bg"
+          style={{ backgroundColor: backgroundColor }}
+        >
+          <div className="left">
+            <span className="primary-heading" style={{ color: headingColor }}>
+              {headingText}{" "}
+              <span
+                className="primary-heading"
+                style={{
+                  backgroundColor: highlightBgColor,
+                  color: highlightTextColor,
+                  marginTop: "10px ",
+                }}
+              >
+                {highlightedText}
+              </span>{" "}
+              {trailingText}
+            </span>
 
     return (
         <div className="main">
@@ -29,11 +66,14 @@ const BannerSection = () => {
                         <img src="/images/graduate.png" alt="graduates_image" />
                     </div>
                 </div>
+
             </div>
+            <img src={bannerImage} alt="graduates_image" />
+          </div>
         </div>
-    );
-
-}
-
+      </div>
+    </div>
+  );
+};
 
 export default BannerSection;

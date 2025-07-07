@@ -15,6 +15,51 @@ import FeeHome from "../components/feehoemsection/feehome";
 import EnquireSection from "../components/EnquireSection/EnquireSection";
 
 const HomePage = () => {
+
+  const cardData = [
+    {
+      cover: "/images/Rectangle 1.png",
+      courseName: "Undergraduate Programme",
+      title: "Bachelor of Commerce in Accountancy",
+      description:
+        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
+    },
+    {
+      cover: "/images/Rectangle 2.png",
+      courseName: "Undergraduate Programme",
+      title: "Bachelor of Commerce in Accountancy",
+      description:
+        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
+    },
+    {
+      cover: "/images/Rectangle 3.png",
+      courseName: "Undergraduate Programme",
+      title: "Bachelor of Commerce in Accountancy",
+      description:
+        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
+    },
+    {
+      cover: "/images/Rectangle 4.png",
+      courseName: "Undergraduate Programme",
+      title: "Bachelor of Commerce in Accountancy",
+      description:
+        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
+    },
+    {
+      cover: "/images/Rectangle 5.png",
+      courseName: "Undergraduate Programme",
+      title: "Bachelor of Commerce in Accountancy",
+      description:
+        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
+    },
+    {
+      cover: "/images/Rectangle 6.png",
+      courseName: "Undergraduate Programme",
+      title: "Bachelor of Commerce in Statistics",
+      description:
+        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
+    },
+  ];
   const faqData = [
     {
       question: "Do I need prior financial knowledge to join this course?",
@@ -50,18 +95,31 @@ const HomePage = () => {
       <HeroSection />
       <ContentPage />
       <InfiniteSection />
-      <Course />
-      <Faq faqData={faqData} />
+      <Course
+        cardData={cardData}
+        secondaryHeading="Explore Our Online Programme"
+      />
       <FeedBackSection />
-      <BannerSection />
+      <Faq faqData={faqData} />
+      <BannerSection
+        bannerImage="/images/graduate.png"
+        headingText="Are You Ready To Take The"
+        highlightedText="Next Step?"
+        trailingText=""
+        paragraphText="Join thousands of students building their future with Botho University Online. Flexible. Affordable. Recognized."
+        backgroundColor="#841d2e"
+        headingColor="white"
+        paragraphColor="white"
+        highlightBgColor="#ffffff"
+        highlightTextColor="#841d2e"
+        buttonBgColor="#ffffff"
+        buttonTextColor="#000000"
+        arrows="/icon/arrow_forward.png"
+      />
       <Footer />
-      {/* <FeeHome />
-      <TimerHome /> */}
-
-
-
-
-
+      {/* <StaticHome />
+      <TimerHome />
+      <CourseStruture /> */}
     </div>
   );
 };

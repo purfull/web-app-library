@@ -19,7 +19,7 @@
 
   .course-card {
     border-radius: 16px;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 16px;
   }
 
@@ -76,21 +76,73 @@
   .cover-image {
     border-radius: 8px;
   }
+
+  .fourth-button.read {
+    width: 100%;
+  }
+  .search-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    /* border: 2px solid red; */
+  }
   .search-button {
     display: flex;
     align-items: center;
     justify-content: space-between; /* space between text and arrow */
-    gap: 15px; /* optional spacing */
+    gap: 12px; /* optional spacing */
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .search-button-text {
-    padding-right: 3rem;
+    /* padding-right: 6rem; */
     justify-content: center;
     display: flex;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+  }
+  .transparent-button img {
+    display: inline-block;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    background-color: #841d26;
+    object-fit: contain;
   }
   .fourth-button.read {
     width: 100%;
+  }
+  .suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    background: white;
+    /* border: 1px solid #ccc; */
+    z-index: 10;
+    border-radius: 4px;
+    list-style: none;
+    padding: 0;
+    margin-top: 4px;
+  }
+
+  .suggestion-item {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+
+  .suggestion-item:hover {
+    background-color: #f0f0f0;
+  }
+
+  .no-match {
+    padding: 8px 12px;
+    color: gray;
   }
 }
 
@@ -115,7 +167,7 @@
 
   .course-card {
     border-radius: 16px;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 16px;
   }
 
@@ -172,28 +224,80 @@
   .cover-image {
     border-radius: 8px;
   }
+
+  .fourth-button.read {
+    width: 100%;
+  }
+  .search-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    /* border: 2px solid red; */
+  }
   .search-button {
     display: flex;
     align-items: center;
     justify-content: space-between; /* space between text and arrow */
     gap: 12px; /* optional spacing */
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .search-button-text {
-    padding-right: 3rem;
+    /* padding-right: 6rem; */
     justify-content: center;
     display: flex;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+  }
+  .transparent-button img {
+    display: inline-block;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    background-color: #841d26;
+    object-fit: contain;
   }
   .fourth-button.read {
     width: 100%;
+  }
+  .suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    background: white;
+    /* border: 1px solid #ccc; */
+    z-index: 10;
+    border-radius: 4px;
+    list-style: none;
+    padding: 0;
+    margin-top: 4px;
+  }
+
+  .suggestion-item {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+
+  .suggestion-item:hover {
+    background-color: #f0f0f0;
+  }
+
+  .no-match {
+    padding: 8px 12px;
+    color: gray;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .course-container {
-    padding: 40px 70px;
+    padding: 40px;
   }
 
   .titleBar {
@@ -213,7 +317,7 @@
 
   .course-card {
     border-radius: 16px;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 16px;
   }
 
@@ -270,6 +374,15 @@
   .cover-image {
     border-radius: 8px;
   }
+
+  .fourth-button.read {
+    width: 100%;
+  }
+  .search-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
   .search-button {
     display: flex;
     align-items: center;
@@ -279,12 +392,54 @@
     margin-top: 20px;
   }
   .search-button-text {
-    padding-right: 3rem;
+    /* padding-right: 6rem; */
     justify-content: center;
     display: flex;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+  }
+  .transparent-button img {
+    display: inline-block;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    background-color: #841d26;
+    object-fit: contain;
   }
   .fourth-button.read {
     width: 100%;
+  }
+  .suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    background: white;
+    /* border: 1px solid #ccc; */
+    z-index: 10;
+    border-radius: 4px;
+    list-style: none;
+    padding: 0;
+    margin-top: 4px;
+  }
+
+  .suggestion-item {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+
+  .suggestion-item:hover {
+    background-color: #f0f0f0;
+  }
+
+  .no-match {
+    padding: 8px 12px;
+    color: gray;
   }
 }
 
@@ -311,7 +466,7 @@
 
   .course-card {
     border-radius: 16px;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 16px;
   }
 
@@ -368,6 +523,15 @@
   .cover-image {
     border-radius: 8px;
   }
+
+  .fourth-button.read {
+    width: 100%;
+  }
+  .search-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
   .search-button {
     display: flex;
     align-items: center;
@@ -377,12 +541,54 @@
     margin-top: 20px;
   }
   .search-button-text {
-    padding-right: 3rem;
+    padding-right: 6rem;
     justify-content: center;
     display: flex;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+  }
+  .transparent-button img {
+    display: inline-block;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    background-color: #841d26;
+    object-fit: contain;
   }
   .fourth-button.read {
     width: 100%;
+  }
+  .suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    background: white;
+    /* border: 1px solid #ccc; */
+    z-index: 10;
+    border-radius: 4px;
+    list-style: none;
+    padding: 0;
+    margin-top: 4px;
+  }
+
+  .suggestion-item {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+
+  .suggestion-item:hover {
+    background-color: #f0f0f0;
+  }
+
+  .no-match {
+    padding: 8px 12px;
+    color: gray;
   }
 }
 
@@ -409,7 +615,7 @@
 
   .course-card {
     border-radius: 16px;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 16px;
   }
 
@@ -469,6 +675,12 @@
     justify-content: center;
     cursor: pointer;
   }
+
+  .search-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
   .search-button {
     display: flex;
     align-items: center;
@@ -481,6 +693,10 @@
     padding-right: 6rem;
     justify-content: center;
     display: flex;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 16px;
   }
   .transparent-button img {
     display: inline-block;
@@ -493,5 +709,34 @@
   }
   .fourth-button.read {
     width: 100%;
+  }
+  .suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    background: white;
+    /* border: 1px solid #ccc; */
+    z-index: 10;
+    border-radius: 4px;
+    list-style: none;
+    padding: 0;
+    margin-top: 4px;
+  }
+
+  .suggestion-item {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+
+  .suggestion-item:hover {
+    background-color: #f0f0f0;
+  }
+
+  .no-match {
+    padding: 8px 12px;
+    color: gray;
   }
 }

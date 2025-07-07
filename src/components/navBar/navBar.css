@@ -1,9 +1,3 @@
-/* .navTitle {
-    @apply primary-paragraph
-    color: var(--primary-color);
-    
-} */
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .nav-bar {
@@ -11,8 +5,8 @@
     justify-content: center;
     /* padding: 10px; */
   }
-
-  .search,
+  .button-search-wrapper,
+  .search-icon-text,
   .fee-text,
   .nav-text,
   .text {
@@ -20,7 +14,7 @@
   }
 
   .nav-head {
-    padding: 12px 5%;
+    padding: 5px 1%;
     font-family: "Montserrat", sans-serif;
   }
 
@@ -41,8 +35,17 @@
   .mobile-text {
     display: flex;
     align-items: center;
+    /* justify-content: space-between; */
     /* gap: 4px; */
   }
+  /* 
+  .button-search-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: static; 
+    width: 100%;
+  } */
 
   .search-input {
     margin-top: 10px;
@@ -56,21 +59,34 @@
     justify-content: center;
     align-items: center;
     /* transition: all 0.3s ease; */
-
+  }
+  .mobile-search-input-wrapper {
+    padding: 10px;
+    /* width: 100%; */
+  }
+  .mobile-search-input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+  .mobile-search-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 }
 
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
   .nav-bar {
     display: flex;
     justify-content: space-between;
-    /* padding: 10px; */
+    padding: 10px;
   }
-
-  .search,
+  .button-search-wrapper,
+  .search-icon-text,
   .fee-text,
   .nav-text,
   .text {
@@ -78,7 +94,7 @@
   }
 
   .nav-head {
-    padding: 12px 5%;
+    padding: 5px 1%;
     font-family: "Montserrat", sans-serif;
   }
 
@@ -88,12 +104,13 @@
     justify-content: space-between;
     gap: 5px;
     align-items: center;
-    padding: 10px;
+    /* padding: 10px; */
   }
 
   .mobile-text {
     display: flex;
     align-items: center;
+    /* justify-content: space-between; */
     gap: 4px;
   }
 
@@ -102,6 +119,14 @@
     align-items: center;
     gap: 4px;
   }
+  /* 
+  .button-search-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: static;
+    width: 100%;
+  } */
 
   .search-input {
     margin-top: 10px;
@@ -115,25 +140,37 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+  }
+  .mobile-search-input-wrapper {
+    padding: 10px;
+    /* width: 50%; */
+    display: flex;
+  }
+  .mobile-search-input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-size: 14px;
+    justify-content: flex-end;
+  }
+  .mobile-search-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
   .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    /* padding: 10px; */
   }
 
-  /* .hamburger-icon {
-    display: none;
-  } */
-
   .nav-head {
-    padding: 12px 5%;
+    padding: 5px 3%;
     font-family: "Montserrat", sans-serif;
   }
 
@@ -142,13 +179,31 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    /* padding: 10px; */
   }
 
-  .search {
+  .button-search-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: relative;
+  }
+
+  .search-icon-text {
     display: flex;
     align-items: center;
     gap: 6px;
+    cursor: pointer;
+  }
+  .search-input {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+    padding: 6px 10px;
+    width: 250px;
+    transition: all 0.3s ease-in-out;
   }
 
   .nav-text {
@@ -157,7 +212,8 @@
     gap: 4px;
   }
 
-  .mobile-text {
+  .mobile-text,
+  .mobile-search-input-wrapper {
     display: none;
   }
 
@@ -173,7 +229,7 @@
   .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    /* padding: 10px; */
   }
 
   /* .hamburger-icon {
@@ -181,7 +237,7 @@
   } */
 
   .nav-head {
-    padding: 12px 5%;
+    padding: 5px 3%;
     font-family: "Montserrat", sans-serif;
   }
 
@@ -190,13 +246,31 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    /* padding: 10px; */
   }
 
-  .search {
+  .button-search-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: relative;
+  }
+
+  .search-icon-text {
     display: flex;
     align-items: center;
     gap: 6px;
+    cursor: pointer;
+  }
+  .search-input {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+    padding: 6px 10px;
+    width: 250px;
+    transition: all 0.3s ease-in-out;
   }
 
   .nav-text {
@@ -205,7 +279,8 @@
     gap: 4px;
   }
 
-  .mobile-text {
+  .mobile-text,
+  .mobile-search-input-wrapper  {
     display: none;
   }
 
@@ -223,29 +298,19 @@
     align-items: center;
     justify-content: space-between;
   }
-
-  .hamburger-icon {
-    display: none;
-  }
-
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
   .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 8px 10px;
+    padding: 8px 0;
     align-items: center;
   }
 
-  /* .hamburger-icon {
-    display: none;
-  } */
-
   .nav-head {
-    padding: 10px 7%;
+    padding: 5px 3%;
     font-family: "Montserrat", sans-serif;
   }
 
@@ -255,13 +320,32 @@
     justify-content: space-between;
     gap: 15px;
     align-items: center;
-    padding: 10px;
+    /* padding: 10px; */
   }
 
-  .search {
+  .button-search-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: relative;
+    gap: 10px;
+  }
+
+  .search-icon-text {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 6px;
+    cursor: pointer;
+  }
+  .search-input {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+    padding: 6px 10px;
+    width: 250px;
+    transition: all 0.3s ease-in-out;
   }
 
   .nav-text {
@@ -270,7 +354,8 @@
     gap: 4px;
   }
 
-  .mobile-text {
+  .mobile-text,
+  .mobile-search-input-wrapper {
     display: none;
   }
 
