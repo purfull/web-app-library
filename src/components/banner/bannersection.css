@@ -1,13 +1,11 @@
-
 /* Extra small devices (phones, 600px and down) */
 
-
-@media screen and (max-width:600px) {
-   .banner-container {
+@media screen and (max-width: 600px) {
+  .banner-container {
     display: grid;
     height: 656px;
   }
- .main {
+  .main {
     width: 100%;
   }
   .empty {
@@ -17,7 +15,7 @@
 
   .primary-heading.white {
     color: white;
-    padding: 20px ;
+    padding: 20px;
   }
   /* .primary-heading.wh {
     color: white;
@@ -37,8 +35,7 @@
     border-radius: 50%;
   }
 
-
-  .secondary-paragraph{
+  .secondary-paragraph {
     color: white;
     line-height: 150%;
     letter-spacing: 1px;
@@ -48,7 +45,7 @@
     background-color: #841d2e;
     display: flex;
     flex-direction: column;
-    
+
     justify-content: space-between;
     /* grid-template-columns: repeat(2, 1fr); */
     /* grid-template-rows: 1fr; */
@@ -59,7 +56,7 @@
     position: relative;
   }
 
-  .left-banner{
+  .left-banner {
     /* /* padding-left: 100px; */
     margin: 15px;
     padding: 10px;
@@ -90,7 +87,7 @@
     right: 0;
     z-index: 0;
   } */
-/* 
+  /* 
   .shades img {
     position: absolute;
     object-fit: contain;
@@ -102,7 +99,6 @@
     bottom: 10px;
   } */
 
- 
   /* .shades img:nth-child(2) {
     width: 250px;
     right: 40px;
@@ -114,14 +110,10 @@
     right: 40px;
     bottom: 40px;
   } */
-
-  
 }
 
-
-
 /* Small devices (portrait tablets, 600px and up) */
-/* @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
   .banner-container {
     height: auto;
     display: grid;
@@ -153,8 +145,7 @@
     border-radius: 50%;
   }
 
-
-  .secondary-paragraph{
+  .secondary-paragraph {
     color: white;
     line-height: 150%;
     letter-spacing: 1px;
@@ -173,7 +164,7 @@
     position: relative;
   }
 
-  .left-banner{
+  .left-banner {
     /* /* padding-left: 100px; */
     margin: 15px;
     width: 50% !important;
@@ -196,9 +187,6 @@
     height: 550px;
     position: absolute;
   }
-  
- 
-  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -234,7 +222,7 @@
     letter-spacing: 1px;
   } */
 
-   .banner-container {
+  .banner-container {
     display: grid;
     height: 656px;
   }
@@ -251,7 +239,7 @@
     position: relative;
   }
 
-  .left-banner{
+  .left-banner {
     /* /* padding-left: 100px; */
     margin: 15px;
     width: 40% !important;
@@ -273,8 +261,8 @@
     background-color: #f0f0f0;
     padding: 6px;
     border-radius: 50%;
-  } */
-  .banner-container {
+  }
+  */ .banner-container {
     display: grid;
     height: 656px;
   }
@@ -348,15 +336,13 @@
     height: 564px;
     position: absolute;
   }
-  
 }
-
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-/*
+  /* 
     height: 656px;
-  }
+  } */
 
   .bannerTwo {
     background-color: #f0f0f0;
@@ -383,8 +369,7 @@
     border-radius: 50%;
   }
 
-
-  .secondary-paragraph{
+  .secondary-paragraph {
     color: white;
     line-height: 150%;
     letter-spacing: 1px;
@@ -403,7 +388,7 @@
     position: relative;
   }
 
-  .left-banner{
+  .left-banner {
     /* /* padding-left: 100px; */
     margin: 15px;
     width: 50% !important;
@@ -430,9 +415,8 @@
     background-color: #f0f0f0;
     padding: 6px;
     border-radius: 50%;
-  } */
-
-  .banner-container {
+  }
+  */ .banner-container {
     display: grid;
     height: 656px;
   }
@@ -481,7 +465,7 @@
     position: relative;
   }
 
-  .left-banner{
+  .left-banner {
     /* /* padding-left: 100px; */
     margin: 15px;
     width: 50% !important;
