@@ -10,24 +10,24 @@ gsap.registerPlugin(ScrollTrigger);
 const Content = () => {
   const [openIndex, setOpenIndex] = useState([]);
 
-  const contentPart2Ref = useRef(null);
+  // const contentPart2Ref = useRef(null);
 
-  useEffect(() => {
-    const mm = window.matchMedia("(min-width: 768px)");
-    if (mm.matches && contentPart2Ref.current) {
-      ScrollTrigger.create({
-        trigger: contentPart2Ref.current,
-        start: "top top",
-        end: "bottom bottom",
-        pin: true,
-        scrub: 1,
-        markers: false, // set to true to debug
-      });
-    }
-    return () => {
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-    };
-  }, []);
+  // useEffect(() => {
+  //   const mm = window.matchMedia("(min-width: 768px)");
+  //   if (mm.matches && contentPart2Ref.current) {
+  //     ScrollTrigger.create({
+  //       trigger: contentPart2Ref.current,
+  //       start: "top top",
+  //       end: "bottom bottom",
+  //       pin: true,
+  //       scrub: 1,
+  //       markers: false, // set to true to debug
+  //     });
+  //   }
+  //   return () => {
+  //     ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+  //   };
+  // }, []);
 
   const contentData = [
     {
@@ -61,7 +61,6 @@ const Content = () => {
       answer:
         "Botho University's core values of vibrance, innovation, and impact drive its mission to produce well-rounded, entrepreneurial, and globally employable graduates. The university's innovative teaching approaches integrate academic learning with real-world experience, preparing students to meet the demands of the modern workforce.",
     },
-    
   ];
 
   const toggleFaq = (index) => {
@@ -88,21 +87,23 @@ const Content = () => {
           </button> */}
         </div>
       </div>
-      <div className="content-part2" ref={contentPart2Ref}>
-        <span className="secondary-paragraph black">
+      <div className="content-part2">
+        <span className="secondary-paragraph coloured-padding black">
           Choosing the right institution for online learning is crucial for
           academic success and career advancement. Botho University stands out
           as a premier choice for online learners, offering a blend of
           technological innovation, comprehensive support, and a commitment to
-          excellence. <br /><br /> Here's why Botho University should be your top pick for
-          online education:
+          excellence. <br />
+          <br /> Here's why Botho University should be your top pick for online
+          education:
         </span>
-        <div className="content-portion" style={{paddingTop: "5vh"}}>
+        <div className="content-portion" style={{ paddingTop: "5vh" }}>
           {contentData.map((item, index) => (
             <div key={index} className="content-item">
               <div
-                className={`content-question ${openIndex === index ? "open" : ""
-                  }`}
+                className={`content-question ${
+                  openIndex === index ? "open" : ""
+                }`}
                 onClick={() => toggleFaq(index)}
                 role="button"
                 tabIndex={0}
