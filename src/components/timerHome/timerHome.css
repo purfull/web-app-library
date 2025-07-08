@@ -11,9 +11,11 @@
   .left {
     flex: 1;
   }
+
   .TimerImage {
     flex: 2;
   }
+
   .col-grid {
     display: grid;
     grid-template-rows: repeat(3, auto);
@@ -26,9 +28,11 @@
     /* background-color: #ffffff; */
     border-radius: 4px;
   }
+
   .image-portion {
     padding-top: 20px;
   }
+
   .sub-heading {
     font-weight: 500;
     font-size: 15px;
@@ -36,11 +40,13 @@
     font-family: "Montserrat", sans-serif;
     padding-left: 25px;
   }
+
   .TimerImage {
     width: 100%;
     height: auto;
     position: relative;
   }
+
   .TimerImage .img {
     width: 100%;
     height: auto;
@@ -54,7 +60,8 @@
     background-color: #841d2e;
     border-radius: 12px;
     padding: 24px;
-    width: 70%; /* or a fixed width like 571px */
+    width: 70%;
+    /* or a fixed width like 571px */
     color: white;
     display: flex;
     flex-direction: column;
@@ -62,6 +69,7 @@
     margin-top: 2rem;
     font-family: "Montserrat", sans-serif;
   }
+
   .timer-row {
     /* display: flex; */
     justify-content: space-between;
@@ -91,11 +99,13 @@
     align-items: center;
     gap: 8px;
   }
+
   .primary-heading.black,
   .sub-heading,
   .col-grid {
     color: black;
   }
+
   .forButton {
     display: flex;
     flex-direction: column;
@@ -103,6 +113,7 @@
     font-family: "Montserrat", sans-serif;
     gap: 1rem;
   }
+
   .download-button {
     display: flex;
     align-items: center;
@@ -113,6 +124,7 @@
     background-color: #ffffff;
     gap: 12px;
   }
+
   .download-button img {
     display: inline-block;
     border-radius: 50%;
@@ -137,9 +149,11 @@
   .left {
     flex: 1;
   }
+
   .TimerImage {
     flex: 2;
   }
+
   .col-grid {
     display: grid;
     grid-template-rows: repeat(3, auto);
@@ -152,9 +166,11 @@
     /* background-color: #ffffff; */
     border-radius: 4px;
   }
+
   .image-portion {
     padding-top: 20px;
   }
+
   .sub-heading {
     font-weight: 500;
     font-size: 15px;
@@ -162,11 +178,13 @@
     font-family: "Montserrat", sans-serif;
     padding-left: 25px;
   }
+
   .TimerImage {
     width: 90%;
     height: auto;
     position: relative;
   }
+
   .TimerImage .img {
     /* width: 90%;
     height: auto; */
@@ -180,7 +198,8 @@
     background-color: #841d2e;
     border-radius: 12px;
     padding: 24px;
-    width: 70%; /* or a fixed width like 571px */
+    width: 70%;
+    /* or a fixed width like 571px */
     color: white;
     display: flex;
     flex-direction: column;
@@ -188,6 +207,7 @@
     margin-top: 2rem;
     font-family: "Montserrat", sans-serif;
   }
+
   .timer-row {
     /* display: flex; */
     justify-content: space-between;
@@ -217,11 +237,13 @@
     align-items: center;
     gap: 8px;
   }
+
   .primary-heading.black,
   .sub-heading,
   .col-grid {
     color: black;
   }
+
   .forButton {
     display: flex;
     flex-direction: column;
@@ -229,6 +251,7 @@
     font-family: "Montserrat", sans-serif;
     gap: 1rem;
   }
+
   .download-button {
     display: flex;
     align-items: center;
@@ -239,6 +262,7 @@
     background-color: #ffffff;
     gap: 12px;
   }
+
   .download-button img {
     display: inline-block;
     border-radius: 50%;
@@ -259,6 +283,7 @@
     background-color: #f3e8ea;
     gap: 40px;
   }
+
   .right {
     /* height: 80vh; */
     width: 40%;
@@ -266,10 +291,12 @@
     display: flex;
     flex-direction: row;
   }
+
   .left {
     display: flex;
     width: 50%;
   }
+
   /* .row-grid {
     display: grid;
 
@@ -293,6 +320,7 @@
   .image-portion {
     padding-top: 20px;
   }
+
   .sub-heading {
     font-weight: 500;
     font-size: 15px;
@@ -300,28 +328,34 @@
     font-family: "Montserrat", sans-serif;
     padding-left: 25px;
   }
+
   .TimerImage {
     width: 100%;
     height: auto;
     position: relative;
   }
+
   .TimerImage .img {
     width: 100%;
     height: auto;
-    object-fit: cover; /* or contain if you want full visibility */
+    object-fit: cover;
+    /* or contain if you want full visibility */
     border-radius: 4px;
     display: block;
   }
 
   .countdown-box {
     position: absolute;
-    top: 25rem; /* Adjust vertical placement */
-    left: 70%; /* Center horizontally */
+    top: 25rem;
+    /* Adjust vertical placement */
+    left: 70%;
+    /* Center horizontally */
     transform: translateX(-50%);
     background-color: #841d2e;
     border-radius: 12px;
     padding: 24px;
-    width: 70%; /* or a fixed width like 571px */
+    width: 70%;
+    /* or a fixed width like 571px */
     color: white;
     display: flex;
     flex-direction: column;
@@ -330,6 +364,7 @@
     /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
     z-index: 10;
   }
+
   .timer-row {
     display: flex;
     justify-content: space-between;
@@ -359,11 +394,13 @@
     align-items: center;
     gap: 8px;
   }
+
   .primary-heading.black,
   .sub-heading,
   .col-grid {
     color: black;
   }
+
   .forButton {
     display: flex;
     flex-direction: row;
@@ -371,6 +408,7 @@
     font-family: "Montserrat", sans-serif;
     gap: 1rem;
   }
+
   .download-button {
     display: flex;
     align-items: center;
@@ -381,6 +419,7 @@
     background-color: #ffffff;
     gap: 12px;
   }
+
   .download-button img {
     display: inline-block;
     border-radius: 50%;
@@ -401,6 +440,7 @@
     background-color: #f3e8ea;
     gap: 40px;
   }
+
   .right {
     /* height: 80vh; */
     width: 40%;
@@ -408,10 +448,12 @@
     display: flex;
     flex-direction: row;
   }
+
   .left {
     display: flex;
     width: 50%;
   }
+
   /* .row-grid {
     display: grid;
 
@@ -435,6 +477,7 @@
   .image-portion {
     padding-top: 20px;
   }
+
   .sub-heading {
     font-weight: 500;
     font-size: 15px;
@@ -442,28 +485,34 @@
     font-family: "Montserrat", sans-serif;
     padding-left: 25px;
   }
+
   .TimerImage {
     width: 100%;
     height: auto;
     position: relative;
   }
+
   .TimerImage .img {
     width: 100%;
     height: auto;
-    object-fit: cover; /* or contain if you want full visibility */
+    object-fit: cover;
+    /* or contain if you want full visibility */
     border-radius: 4px;
     display: block;
   }
 
   .countdown-box {
     position: absolute;
-    top: 25rem; /* Adjust vertical placement */
-    left: 70%; /* Center horizontally */
+    top: 25rem;
+    /* Adjust vertical placement */
+    left: 70%;
+    /* Center horizontally */
     transform: translateX(-50%);
     background-color: #841d2e;
     border-radius: 12px;
     padding: 24px;
-    width: 70%; /* or a fixed width like 571px */
+    width: 70%;
+    /* or a fixed width like 571px */
     color: white;
     display: flex;
     flex-direction: column;
@@ -472,6 +521,7 @@
     /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
     z-index: 10;
   }
+
   .timer-row {
     display: flex;
     justify-content: space-between;
@@ -501,11 +551,13 @@
     align-items: center;
     gap: 8px;
   }
+
   .primary-heading.black,
   .sub-heading,
   .col-grid {
     color: black;
   }
+
   .forButton {
     display: flex;
     flex-direction: row;
@@ -513,6 +565,7 @@
     font-family: "Montserrat", sans-serif;
     gap: 1rem;
   }
+
   .download-button {
     display: flex;
     align-items: center;
@@ -523,6 +576,7 @@
     background-color: #ffffff;
     gap: 12px;
   }
+
   .download-button img {
     display: inline-block;
     border-radius: 50%;
@@ -542,6 +596,7 @@
     background-color: #f3e8ea;
     /* gap: 40px; */
   }
+
   .right {
     /* height: 80vh; */
     width: 40%;
@@ -549,10 +604,13 @@
     display: flex;
     flex-direction: row;
   }
+
   .left {
     display: flex;
+    flex-direction: column;
     width: 50%;
   }
+
   /* .row-grid {
     display: grid;
 
@@ -575,7 +633,14 @@
 
   .image-portion {
     padding-top: 20px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+   
+
   }
+
   .sub-heading {
     font-weight: 500;
     font-size: 15px;
@@ -583,28 +648,33 @@
     font-family: "Montserrat", sans-serif;
     padding-left: 25px;
   }
+
   .TimerImage {
     width: 100%;
     height: auto;
     position: relative;
   }
+
   .TimerImage .img {
     width: 100%;
     height: auto;
-    object-fit: cover; /* or contain if you want full visibility */
+    object-fit: cover;
+    /* or contain if you want full visibility */
     border-radius: 4px;
     display: block;
   }
 
   .countdown-box {
     position: absolute;
-    top: 29rem; /* Adjust vertical placement */
-    left: 80%; /* Center horizontally */
+    top: 29rem;
+    /* Adjust vertical placement */
+    left: 80%;
+    /* Center horizontally */
     /* transform: translateX(-50%); */
     background-color: #841d2e;
     border-radius: 12px;
     padding: 24px;
-    width: 30%; 
+    width: 30%;
     color: white;
     display: flex;
     flex-direction: column;
@@ -613,6 +683,7 @@
     /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
     z-index: 10;
   }
+
   .timer-row {
     display: flex;
     justify-content: space-between;
@@ -642,11 +713,13 @@
     align-items: center;
     gap: 8px;
   }
+
   .primary-heading.black,
   .sub-heading,
   .col-grid {
     color: black;
   }
+
   .forButton {
     display: flex;
     flex-direction: row;
@@ -654,6 +727,7 @@
     font-family: "Montserrat", sans-serif;
     gap: 1rem;
   }
+
   .download-button {
     display: flex;
     align-items: center;
@@ -664,6 +738,7 @@
     background-color: #ffffff;
     gap: 12px;
   }
+
   .download-button img {
     display: inline-block;
     border-radius: 50%;
