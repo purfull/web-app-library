@@ -1018,7 +1018,7 @@ width: 43%;
         padding: 20px 0;
     }
 
-    .next-button,.pri-button{
+    .next-button,.prev-button{
         padding: 10px;
         margin: 10px;
         border-radius: 50%;
@@ -1029,6 +1029,22 @@ width: 43%;
         height: 40px;
         object-fit: contain;
         border: none;
+        position: absolute;
     }
+    .next-button{
+        left: 5%;
+        top: -25%;
+    }
+    .prev-button {
+        top: -25%;
+        left: -2.5%;
+    }
+    .feedback-cards {
+        gap: 20px !important;
+        background-color: #F3E8EA;
+    }
+    /* .card-1 {
+        width: 100px;
+    } */
 
 }
