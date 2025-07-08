@@ -12,11 +12,11 @@ const BannerSection = () => {
                             Are You Ready to Take the  <span className="primary-heading" style={{ backgroundColor: "white", color: "#841d2e" ,padding:"2px"}}>Next Step?</span>
                         </span>
 
-                        <p className="secondary-paragraph white">
+                        <p className="secondary-paragraph white sub-secondary">
                             Join thousands of students building their future with Botho
                             University Online. Flexible. Affordable. Recognized.
                         </p>
-                        <button className='primary-button'>Enquire Now <img src="/icon/arrow_forward.png" alt="" className='arrow-icon-banner' /></button>
+                        <button className='primary-button enquire-now-button'>Enquire Now <img src="/icon/arrow_forward.png" alt="" className='arrow-icon-banner' /></button>
                     </div>
 
                     <div className="right-banner">

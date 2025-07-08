@@ -27,7 +27,6 @@ const Courses = ({
   // );
   const filteredCards = cardData; // show all cards regardless of search
 
-
   return (
     <div className="course-container" style={{ paddingTop: "12vh" }}>
       <div className="titleBar">

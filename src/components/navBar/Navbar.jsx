@@ -16,6 +16,17 @@ const NavBar = () => {
       <div className="nav-bar">
         <img src="../logo/BothoLogo.png" alt="logo" />
 
+        <div className="">
+          {showSearchInput && (
+            <input
+              type="text"
+              className="search-input"
+              placeholder="Search programmes..."
+              value={searchText}
+              onChange={(e) => setSearchText(e.target.value)}
+            />
+          )}
+        </div>
         <div className="nav-bar2">
           <div className="button-search-wrapper">
             <div className="search-icon-text" onClick={handleSearchClick}>
@@ -26,15 +37,6 @@ const NavBar = () => {
               </span>
             </div>
 
-            {showSearchInput && (
-              <input
-                type="text"
-                className="search-input"
-                placeholder="Search programmes..."
-                value={searchText}
-                onChange={(e) => setSearchText(e.target.value)}
-              />
-            )}
           </div>
 
           <div className="text">Why Botho University Online?</div>
