@@ -48,7 +48,7 @@ const FeedBackSection = () => {
   const CustomPrevArrow = (props) => {
   const { className, style, onClick } = props;
   return (
-    <button className="next-button" onClick={onClick} style={{ ...style, zIndex: 1 }}>
+    <button className="prev-button" onClick={onClick} style={{ ...style, zIndex: 1 }}>
       <IoIosArrowBack size={24} color="white" />
     </button>
   );
@@ -57,7 +57,7 @@ const FeedBackSection = () => {
 const CustomNextArrow = (props) => {
   const { className, style, onClick } = props;
   return (
-    <button className="pri-button" onClick={onClick} style={{ ...style, zIndex: 1 }}>
+    <button className="next-button" onClick={onClick} style={{ ...style, zIndex: 1 }}>
       <IoIosArrowForward size={24} color="white" />
     </button>
   );
@@ -93,14 +93,14 @@ const CustomNextArrow = (props) => {
 
       <div className="feedback-cards">
   
-        <Slider
+        {/* <Slider
         className="carosel-inner"
           slidesToShow={slidesToShow}
-          // arrows={true}
-          prevArrow={<CustomPrevArrow className ="next-button" />}
+          arrows={true}
+          prevArrow={<CustomPrevArrow className ="prev-button" />}
           nextArrow={<CustomNextArrow className="next-button" />}
           
-        >
+        > */}
           {studentdeatils.map((item, index) => (
             <div key={index} className="card-1">
               <div className="student-card">
@@ -122,7 +122,7 @@ const CustomNextArrow = (props) => {
               </div>
             </div>
           ))}
-        </Slider>
+        {/* </Slider> */}
       </div>
     </div>
   );
