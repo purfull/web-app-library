@@ -35,7 +35,7 @@ const Faq = ({faqData}) => {
   };
 
   return (
-    <div className="faq-container">
+    <div className="faq-container page-gap">
       <div className="faq-leftpart">
         <span className="secondary-heading faq-heading">
           Frequently Asked Questions
@@ -63,8 +63,8 @@ const Faq = ({faqData}) => {
               {openIndex === index && (
                 <div className="faq-answer">
                   {item.answer.split("\n\n").map((paragraph, i) => (
-                    <p key={i} className="answer-paragraph">
-                      {paragraph}
+                    <p key={i} className="answer-paragraph" dangerouslySetInnerHTML={{__html: paragraph}}>
+                      
                     </p>
                   ))}
                 </div>

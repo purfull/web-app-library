@@ -1,12 +1,13 @@
 import React from "react";
 import "./bannersection.css";
+import bgImage from '../../../public/images/cta-bg.jpg'
 
 const BannerSection = () => {
 
     return (
-        <div className="main">
+        <div className="main page-gap" >
             <div className="banner-container">
-                <div className="coloured-bg">
+                <div className="coloured-bg" style={{ backgroundImage: `url('/images/cta-bg.svg')` }}>
                     <div className="left-banner " style={{width: "50%"}}>
                         <span className="primary-heading white">
                             Are You Ready to Take the  <span className="primary-heading" style={{ backgroundColor: "white", color: "#841d2e" ,padding:"2px"}}>Next Step?</span>

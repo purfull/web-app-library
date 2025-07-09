@@ -9,7 +9,7 @@ const images = [
 
 const InfiniteSection = () => {
   return (
-    <div className="carousel-container">
+    <div className="carousel-container page-gap">
       <div className="carousel-track">
         {/* First group */}
         <div className="group">

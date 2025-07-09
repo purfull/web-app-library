@@ -2,6 +2,7 @@ import "./heroSetcion.css";
 import { Carousel } from "antd";
 
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 
 const herobanner = [
   {
@@ -13,7 +14,7 @@ const herobanner = [
     arrowIcon: "../../../public/icon/arrow_forward.png",
     backgroundImg: "../../../public/images/herobanner.png",
     calledtoAction:
-      "98% of our graduates will recommend us to others (Source: 2025 Graduate Tracer Study)",
+      "98% of our graduates will recommend us to others </br> (Source: 2025 Graduate Tracer Study)",
 
     dynamicimg: [
       "../../../public/images/Ellipse 21.png",
@@ -62,12 +63,20 @@ const herobanner = [
   },
 ];
 
+
 const HeroSection = () => {
+  
+  const navigate = useNavigate();
+
+  const handleAllCourse = () => {
+      navigate('/all-courses');
+  window.scrollTo(0, 0);
+  }
   return (
     <>
       <Carousel
         className="carosal-inner"
-        autoplay
+        // autoplay
         // dotPosition="bottom"
         dots={false}
       >
@@ -86,7 +95,7 @@ const HeroSection = () => {
                 <p className="secondary-paragraph subtitle-white">{item.subtittle}</p>
 
                 <div className="">
-                  <button className="primary-button">
+                  <button className="primary-button" onClick={handleAllCourse} style={{cursor: "pointer"}}>
                     {item.button}{" "}
                     <img
                       className="arrow-icon-img"

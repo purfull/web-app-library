@@ -137,27 +137,28 @@ const EnquireSection = () => {
 
             <div className="title-logo-main">
               <p className="course-title">{item.title}</p>
-              <p>logo</p>
+              {/* <p>logo</p> */}
+              <img src="/icon/More.png"/>
             </div>
 
             <div className="main-fee-deatils">
 
               <div className="sub-amount-deatils">
-                <p>Total Fees</p>
-                <p>{item.amountdetails?.fees}</p>
+                <p >Total Fees</p>
+                <p className="enquire-heading">{item.amountdetails?.fees}</p>
               </div>
               <div className="sub-amount-deatils">
                 <p>Total Credits</p>
-                <p>{item.amountdetails?.credits}</p>
+                <p className="enquire-heading">{item.amountdetails?.credits}</p>
               </div>
               <div className="sub-amount-deatils" >
                 <p>Total  Modules</p>
-                <p>{item.amountdetails?.module}</p>
+                <p className="enquire-heading">{item.amountdetails?.module}</p>
               </div>
-
-
-
             </div>
+
+            <div className="divider-enquire"></div>
+
             <div className="course-desc">
               <p>{item.description.one}</p>
               <p>{item.description.two}</p>
@@ -165,8 +166,8 @@ const EnquireSection = () => {
               <p>{item.description.four}</p>
             </div>
             <div className="view-enquire-button">
-              <button>View More </button>
-              <button>Enquire Now</button></div>
+              <button className="search-button view-more">View More </button>
+              <button className="fourth-button enq-button">Enquire Now</button></div>
           </Card>
         ))}
       </div>

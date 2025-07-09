@@ -535,9 +535,12 @@
 @media only screen and (min-width: 1200px) {
   .banner-container {
     display: grid;
+    height: auto;
   }
   .main{
     width: 100%;
+    background-image: url('../../../public/images/cta-bg.jpg') !important;
+    background-size: cover;
   }
 
   .empty {
@@ -550,9 +553,7 @@
     padding: 10px 0;
   }
 
-  .primary-button {
-    width: 50%;
-  }
+  
 
   .arrow-icon-banner {
     background-color: #841d2e;
@@ -593,7 +594,7 @@
     flex-direction: column;
     justify-content: center;
     color: white;
-    gap: 40px;
+    gap: 24px;
   }
 
   .right-banner {
@@ -640,9 +641,15 @@
   } */
    
   .enquire-now-button {
-    width: 50% !important;
+    width: 30% !important;
     padding: 10px 5px !important;
     gap: 0px;
+    margin-left: 0;
+
+  }
+  .secondary-paragraph {
+    padding: 0 !important;
+    margin: 0;
   }
 }
 
