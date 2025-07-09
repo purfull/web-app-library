@@ -3,6 +3,8 @@ import "./Courses.css";
 import vector from "/icon/Vector.png";
 import arrow from "/icon/arrow_forward.png";
 import { Card } from "antd";
+import { useNavigate } from 'react-router-dom';
+
 
 const Courses = ({
   cardData,
@@ -12,6 +14,7 @@ const Courses = ({
 }) => {
   const [searchText, setSearchText] = useState("");
   const [showSuggestions, setShowSuggestions] = useState(false);
+  const navigate = useNavigate();
 
   const filteredSuggestions = cardData.filter((item) =>
     item.title.toLowerCase().includes(searchText.toLowerCase())
@@ -22,6 +25,10 @@ const Courses = ({
     setShowSuggestions(false);
   };
 
+  const handleAllCourse = () => {
+      navigate('/courses');
+  window.scrollTo(0, 0);
+  }
   // const filteredCards = cardData.filter((item) =>
   //   item.title.toLowerCase().includes(searchText.toLowerCase())
   // );
@@ -121,7 +128,7 @@ const Courses = ({
       </div>
 
       <div className="bottom-button">
-        <button className="transparent-button">
+        <button className="transparent-button" onClick={handleAllCourse}>
           <span className="button-text">Explore All Programmes</span>
           <img src={arrow} alt="arrow" />
         </button>
