@@ -13,14 +13,14 @@ const studentdeatils = [
   {
     studentsdata:
       "Studying online with Botho University has been a rewarding journey so far. The flexible learning model makes it easier to manage my studies alongside other commitments, and the academic support has been excellent. I’m gaining advanced skills in Information System Management that I know will strengthen my career in tech and digital forensics.",
-    imgs: ["/icon/Icon2.png", "/icon/Icon.png"],
+    imgs: ["/icon/Icon.png"],
     studentname: "Purfull",
     year: "2023",
   },
   {
     studentsdata:
       "Studying online with Botho University has been a rewarding journey so far. The flexible learning model makes it easier to manage my studies alongside other commitments, and the academic support has been excellent. I’m gaining advanced skills in Information System Management that I know will strengthen my career in tech and digital forensics.",
-    imgs: ["/icon/Icon2.png", "/icon/Icon.png"],
+    imgs: ["/icon/Icon.png"],
     studentname: "Purfull",
     year: "2083",
   },
@@ -65,7 +65,7 @@ const CustomNextArrow = (props) => {
 
 
   return (
-         <div className="feedback-main">
+         <div className="feedback-main page-gap">
          <div className="feeback-headers">
         <div className="primary-heading-and-button">
           <p className="secondary-heading">What Our Students Say</p>
@@ -93,14 +93,14 @@ const CustomNextArrow = (props) => {
 
       <div className="feedback-cards">
   
-        {/* <Slider
+        <Slider
         className="carosel-inner"
           slidesToShow={slidesToShow}
           arrows={true}
           prevArrow={<CustomPrevArrow className ="prev-button" />}
           nextArrow={<CustomNextArrow className="next-button" />}
           
-        > */}
+        >
           {studentdeatils.map((item, index) => (
             <div key={index} className="card-1">
               <div className="student-card">
@@ -122,7 +122,7 @@ const CustomNextArrow = (props) => {
               </div>
             </div>
           ))}
-        {/* </Slider> */}
+        </Slider>
       </div>
     </div>
   );

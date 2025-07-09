@@ -24,6 +24,11 @@
   box-sizing: border-box;
 }
 
+.page-gap {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 120px;
+}
 .arrow-style {
   width: 15px;
   height: 15px;
@@ -291,6 +296,7 @@
     font-size: 48px;
     font-weight: 600;
     line-height: 125%;
+            width: 100%;
     color: var(--primary-heading-colour);
     font-family: var(--primary-font-family);
   }

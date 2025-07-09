@@ -386,9 +386,8 @@
   } */
 /* }  */
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .course-container {
+@media screen and (min-width :992px) {
+  /* .course-container {
     padding: 40px 70px;
   }
 
@@ -401,9 +400,9 @@
   .card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
-    gap: 20px;
+    grid-template-rows: repeat(2, 1fr); */
+  /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+  /* gap: 20px;
     column-gap: 32px;
     margin-top: 30px;
   }
@@ -423,17 +422,17 @@
     font-weight: 400;
   }
 
-  .course-desc {
-    /* color: #111111;
+  .course-desc { */
+  /* color: #111111;
     font-size: 14px;
     font-weight: 400;
     line-height: 150%;
     padding-bottom: 20px; */
-    /* display: flex;
+  /* display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; */
-    padding: 15px;
+  /* padding: 15px;
   }
 
   .course-title {
@@ -487,11 +486,11 @@
     align-items: center;
     justify-content: space-between;
     /* space between text and arrow */
-    gap: 12px;
-    /* optional spacing */
-    cursor: pointer;
-    margin-top: 20px;
-  }
+  /* gap: 12px; */
+  /* optional spacing */
+  /* cursor: pointer;
+    margin-top: 20px; */
+  /* }
 
   .search-button-text {
     padding-right: 6rem;
@@ -512,7 +511,8 @@
   .fourth-button.read {
     width: 100%;
   }
-  .heading{
+
+  .heading {
     width: 50%;
   }
 
@@ -525,6 +525,7 @@
 
   .title-logo-main {
     align-items: start;
+    padding: 10px;
   }
 
   .sub-amount-deatils {
@@ -533,6 +534,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     font-size: 14px;
   }
 
@@ -543,7 +545,180 @@
     gap: 20px;
 
   }
-  .black{
+
+  .black {
     color: black !important;
+  }
+
+  .course-desc {
+    display: grid;
+    gap: 20px;
+  }
+
+  .divider-enquire {
+    border: 1px black;
+  }
+
+  .main-fee-deatils {
+    width: 100%;
+    gap: 35px;
+    padding: 10px 0px;
+
+  }
+  .enquire-heading{
+    font-weight: 600;
+  }
+  .view-enquire-button{
+  
+
+  } */
+
+
+  @media screen and (max-width :600px) {
+    .main-fee-deatils {
+      width: 90%;
+      gap: 35px;
+      padding: 10px 0px;
+      background-color: red;
+
+    }
+
+
+
+
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .course-container {
+    padding: 40px 70px;
+  }
+
+  .titleBar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    column-gap: 32px;
+    margin-top: 30px;
+  }
+
+  .course-card {
+    border-radius: 16px;
+    border: 1px solid #DBDBDB;
+    overflow: hidden;
+    padding: 16px;
+  }
+
+  .course-tag {
+    font-weight: bold;
+    color: #575757;
+    margin-bottom: 8px;
+    line-height: 125%;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .course-desc {
+
+    padding: 15px;
+  }
+
+  .course-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 125%;
+    padding-bottom: 10px;
+  }
+
+
+  .enquire-heading {
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+
+
+  .ant-card-body {
+    border: 1px solid #000000 25%;
+    padding: 12px 0 !important;
+  }
+
+  .heading {
+    width: 50%;
+  }
+
+  .main-fee-deatils,
+  .title-logo-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .title-logo-main {
+    align-items: start;
+    padding: 10px;
+  }
+
+  .sub-amount-deatils {
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+
+  .view-enquire-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+  }
+
+  .black {
+    color: black !important;
+  }
+
+  .course-desc {
+    font-size: 14px;
+    display: grid;
+    gap: 20px;
+  }
+
+  .main-fee-deatils {
+    width: 100%;
+    gap: 35px;
+    padding: 10px 0px;
+
+  }
+
+  .view-more {
+    margin: 0% !important;
+    width: 45% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border: 1px solid var(--primary-color) !important;
+    color: var(--primary-color) !important;
+  }
+
+  .enq-button {
+    width: 45%;
+
+  }
+
+  .view-enquire-button {
+    padding: 10px 0px;
   }
 }

@@ -39,6 +39,7 @@ const staticHome = () => {
           <div className="portion-1">
             <div className="primary-heading">
               Discover Online Learning at{" "}
+              <br />
               <span style={{ backgroundColor: "#ffffff", color: "#841d2e" }}>
                 Botho University
               </span>
@@ -62,7 +63,7 @@ const staticHome = () => {
           </div>
           <div className="portion-2">
             <div className="bold-text">Your Ambition. Our Platform.</div>
-            <div className="secondary-paragraph">
+            <div className="secondary-paragraph no-padding" >
               Shape your future with flexible, career-driven programmes designed
               for modern life. Study fully online with the freedom to learn on
               your schedule - without putting your life on hold. With multiple

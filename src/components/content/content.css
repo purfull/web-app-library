@@ -304,18 +304,18 @@
   .content-container {
     background-color: #fff;
     display: grid;
-    padding: 40px 70px;
+    padding: 0px 70px;
     /* padding: 20px 40px; */
     grid-template-columns: 1fr 1.5fr;
     gap: 20px;
     overflow: hidden;
   }
   .content-part1 {
-    padding: 20px;
+    padding: 0px 20px;
     position: relative;
   }
   .content-part2 {
-    padding: 20px;
+    padding: 0px 20px;
   }
   .button {
     display: flex;
@@ -355,8 +355,11 @@
     cursor: pointer;
   }
   .content-answer {
-    padding: 10px 0 20px;
+    padding: 10px 44px 0px 0px !important;
     font-size: 20px;
+    color: #111;
+    line-height: 150%;
+    text-align: justify;
     font-weight: 400;
   }
   .secondary-button {
@@ -370,6 +373,7 @@
     border-radius: 30px;
   }
   .secondary-paragraph.coloured-padding {
-    padding: 0px;
+    padding: 0px !important;
+    text-align: justify !important;
   }
 }

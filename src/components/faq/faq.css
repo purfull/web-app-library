@@ -5,7 +5,7 @@
     padding: 30px;
     /* grid-template-columns: 1fr 1.5fr; */
     gap: 30px;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   .faq-heading {
     font-size: 24px;
@@ -28,9 +28,11 @@
     cursor: pointer;
   }
   .faq-answer {
-    padding: 10px 0 20px;
+    padding: 10px 44px 0px 0px !important;
     font-size: 16px;
     font-weight: 400;
+    text-align: justify;
+    line-height: 150%;
   }
 }
 
@@ -41,7 +43,7 @@
     padding: 30px;
     /* grid-template-columns: 1fr 1.5fr; */
     gap: 30px;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   .faq-heading {
     font-size: 24px;
@@ -77,7 +79,7 @@
     padding: 40px 70px;
     grid-template-columns: 1fr 1.5fr;
     gap: 30px;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   .faq-heading {
     font-size: 40px;
@@ -113,7 +115,7 @@
     padding: 40px 70px;
     grid-template-columns: 1fr 1.5fr;
     gap: 30px;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   .faq-heading {
     font-size: 40px;
@@ -149,7 +151,7 @@
     padding: 40px 70px;
     grid-template-columns: 1fr 1.5fr;
     gap: 30px;
-    overflow: hidden;
+    overflow: visible;
   }
   .faq-heading {
     font-size: 40px;
@@ -172,8 +174,18 @@
     cursor: pointer;
   }
   .faq-answer {
-    padding: 10px 0 20px;
+    padding: 10px 44px 0px 0px !important;
     font-size: 20px;
     font-weight: 400;
+    text-align: justify;
+    line-height: 150%;
   }
 }
+
+ .faq-container {
+    /* display: grid;
+    padding: 40px 70px;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 30px; */
+    overflow: visible !important;
+  }

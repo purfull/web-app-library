@@ -73,19 +73,23 @@ const Content = () => {
   };
 
   return (
-    <div className="content-container">
+    <div className="content-container page-gap">
       <div className="content-part1">
-        <span className="secondary-heading">Why Botho University Online?</span>
-        <div className="button">
-          {/* <button className="secondary-button">
+        <span className="secondary-heading margin-bottom"  >Why Botho University Online?</span><br /><br />
+        <span className="secondary-paragraph coloured-padding black"  >
+          Here's why Botho University should be your top pick for online
+          education
+        </span>
+        {/*<div className="button">
+           <button className="secondary-button">
             <span className="button-text">Discover More Benefits </span>
             <img
               className="secondary-arrow-styles"
               src="/icon/maroon-arrow.png"
               alt="arrow-forward"
             />
-          </button> */}
-        </div>
+          </button> 
+        </div>*/}
       </div>
       <div className="content-part2">
         <span className="secondary-paragraph coloured-padding black">
@@ -93,9 +97,7 @@ const Content = () => {
           academic success and career advancement. Botho University stands out
           as a premier choice for online learners, offering a blend of
           technological innovation, comprehensive support, and a commitment to
-          excellence. <br />
-          <br /> Here's why Botho University should be your top pick for online
-          education:
+          excellence.
         </span>
         <div className="content-portion" style={{ paddingTop: "5vh" }}>
           {contentData.map((item, index) => (

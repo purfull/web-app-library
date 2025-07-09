@@ -961,7 +961,7 @@ width: 43%;
         align-items: center;
         justify-content: space-evenly;
         gap: 55px;
-        padding-bottom: 5%;
+        padding-bottom: 5% !important;
 
     }
 
@@ -999,7 +999,7 @@ width: 43%;
 
     .secondary-paragraph {
 
-        padding: 20px;
+        padding: 20px !important;
     }
 
     .divider {
@@ -1032,12 +1032,12 @@ width: 43%;
         position: absolute;
     }
     .next-button{
-        left: 5%;
+        left: 8%;
         top: -25%;
     }
     .prev-button {
         top: -25%;
-        left: -2.5%;
+        left: 2.5%;
     }
     .feedback-cards {
         gap: 20px !important;
@@ -1046,5 +1046,14 @@ width: 43%;
     /* .card-1 {
         width: 100px;
     } */
+     .feedback-cards .slick-track {
+        display: flex !important;
+        background-color: #F3E8EA !important;
+        gap: 50px;
+     }
+     .feedback-cards .slick-slider {
+        width: 100% !important;
+
+     }
 
 }

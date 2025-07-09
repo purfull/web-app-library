@@ -374,16 +374,17 @@
     width: 50% !important;
     padding: 10px;
     margin-left: 5%;
-    gap: 25px;
+    gap: 16px !important;
   }
 
   .primary-button {
-    /* width: 42% !important; */
+    width: 39% ;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 12px 20px;
-    gap: 18px;
+    padding: 12px 8px;
+    gap: 2px;
+    /* margin-top: 12px; */
   }
   .subtitle-white{
     padding: 10px 0px !important;
@@ -392,7 +393,8 @@
   .arrow-icon-img {
     border-radius: 50%;
     background-color: #841d2e;
-    padding: 1px;
+    padding: 6px;
+    /* width: 20px; */
   }
 
   .sub-heading-main {
@@ -401,7 +403,7 @@
     align-items: center;
     justify-content: space-evenly;
     gap: 18px;
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   .secondary-paragraph-pec {
