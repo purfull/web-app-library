@@ -70,7 +70,7 @@ const CustomNextArrow = (props) => {
         <div className="primary-heading-and-button">
           <p className="secondary-heading">What Our Students Say</p>
           <div className="arrow-button-feedback">
-      
+          {/* <img src="icon/button" alt="" /> */}  
           </div>
         </div>
         <div className="second-main">
@@ -80,14 +80,15 @@ const CustomNextArrow = (props) => {
             anywhere.
           </p>
         </div>
-        {/* <div className="arrow-button-feedback-mobile">
-          <button className="next-button-mobile">
+        {/* <div className="arrow-button-feedback-mobile"> */}
+          {/* <button className="next-button-mobile">
             <IoIosArrowBack />{" "}
           </button>
           <button className="next-button-mobile">
             <IoIosArrowForward />
-          </button>
-        </div> */}
+          </button> */}
+          {/* <img src="/icon/Button-Next" alt="" /> */}
+        {/* </div> */}
       </div>
 
 

@@ -331,10 +331,12 @@
 @media only screen and (min-width: 1200px) {
     .content-container {
         background-color: #fff;
-        display: grid;
+        display: flex;
+        flex-direction: column;
         padding: 40px 70px;
         /* padding: 20px 40px; */
         grid-template-columns: 1fr 1.5fr;
+        
         gap: 20px;
         overflow: hidden;
     }
@@ -350,16 +352,21 @@
         /* max-height: 100vh; */
     }
 
-    .semester-list {
+    .semester-title{
         list-style: none;
         padding: 15px 0px 0px 0px;
         margin: 0;
+        text-align: center;
+        font-weight: 600;
+        font-size: var(--);
+        
     }
 
     .semester-list li {
         padding: 15px 0;
-        border-bottom: 1px solid #eee;
         font-size: 1rem;
+        font-size: 24px;
+        color: #575757;
     }
 
 
@@ -412,5 +419,22 @@
         border: none;
         cursor: pointer;
         border-radius: 30px;
+    }
+    .sem-acc {
+        display: flex;
+        justify-content: space-between;
+     
+    }
+    .sub-answer-paragraph{
+        width: 50%;
+        padding: 12px 0px;
+        display: grid;
+        gap: 10px;
+
+    }
+    .answer-paragraph{
+        width: 50%;
+                padding: 12px 0px;
+
     }
 }
