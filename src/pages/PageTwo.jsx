@@ -90,6 +90,7 @@ const PageTwo = () => {
       <StaticHome />
       <Course
         cardData={cardData}
+        moreButton={false}
         secondaryHeading="Postgraduate Programmes"
         secondaryParagraph="Take your expertise to the next level with advanced qualifications designed for leadership and impact."
         courseName="Postgraduate Programmes"

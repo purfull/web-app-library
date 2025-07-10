@@ -9,6 +9,7 @@ import { useNavigate } from 'react-router-dom';
 const Courses = ({
   cardData,
   secondaryHeading,
+  moreButton,
   secondaryParagraph,
   courseName,
 }) => {
@@ -25,8 +26,14 @@ const Courses = ({
     setShowSuggestions(false);
   };
 
+  const handleCourse = () => {
+      navigate('/course');
+  window.scrollTo(0, 0);
+
+  }
+
   const handleAllCourse = () => {
-      navigate('/courses');
+      navigate('/all-courses');
   window.scrollTo(0, 0);
   }
   // const filteredCards = cardData.filter((item) =>
@@ -35,7 +42,7 @@ const Courses = ({
   const filteredCards = cardData; // show all cards regardless of search
 
   return (
-    <div className="course-container" style={{ paddingTop: "12vh" }}>
+    <div className="course-container page-gap" >
       <div className="titleBar">
         <div>
           <span className="secondary-heading">
@@ -97,9 +104,7 @@ const Courses = ({
         >
           {secondaryParagraph || (
             <>
-              Advance your career with flexible, accredited online degrees from
-              <br />
-              Botho University.
+              Advance your career with flexible, accredited online degrees from Botho University.
             </>
           )}
         </div>
@@ -122,17 +127,17 @@ const Courses = ({
             <p className="course-tag">{courseName || item.courseName}</p>
             <p className="course-title">{item.title}</p>
             <p className="course-desc">{item.description}</p>
-            <button className="fourth-button read">Explore Programme</button>
+            <button className="fourth-button read" onClick={handleCourse} style={{cursor: "pointer"}}>Explore Programme</button>
           </Card>
         ))}
       </div>
 
-      <div className="bottom-button">
-        <button className="transparent-button" onClick={handleAllCourse}>
+      {moreButton && <div className="bottom-button">
+        <button className="transparent-button" onClick={handleAllCourse} style={{cursor: "pointer"}}> 
           <span className="button-text">Explore All Programmes</span>
           <img src={arrow} alt="arrow" />
         </button>
-      </div>
+      </div>}
     </div>
   );
 };

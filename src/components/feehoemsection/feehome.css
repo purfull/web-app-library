@@ -316,7 +316,7 @@
   }
 
   .fee-primary-button {
-    /* width: 42% !important; */
+    width: 62% !important;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
