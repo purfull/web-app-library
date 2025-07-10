@@ -6,27 +6,27 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
-const Faq = ({faqData}) => {
+const Faq = ({faqData, title}) => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const faqPart2Ref = useRef(null);
 
-  useEffect(() => {
-    const mm = window.matchMedia("(min-width: 768px)");
-    if (mm.matches && faqPart2Ref.current) {
-      ScrollTrigger.create({
-        trigger: faqPart2Ref.current,
-        start: "top top",
-        end: "bottom bottom",
-        pin: true,
-        scrub: 1,
-        markers: false, // set to true to debug
-      });
-    }
-    return () => {
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-    };
-  }, []);
+  // useEffect(() => {
+  //   const mm = window.matchMedia("(min-width: 768px)");
+  //   if (mm.matches && faqPart2Ref.current) {
+  //     ScrollTrigger.create({
+  //       trigger: faqPart2Ref.current,
+  //       start: "top top",
+  //       end: "bottom bottom",
+  //       pin: true,
+  //       scrub: 1,
+  //       markers: false, // set to true to debug
+  //     });
+  //   }
+  //   return () => {
+  //     ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+  //   };
+  // }, []);
 
 
 
@@ -38,7 +38,7 @@ const Faq = ({faqData}) => {
     <div className="faq-container page-gap">
       <div className="faq-leftpart">
         <span className="secondary-heading faq-heading">
-          Frequently Asked Questions
+          {title || "Frequently Asked Questions"}
         </span>
       </div>
       <div className="faq-rightpart">

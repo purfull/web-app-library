@@ -140,7 +140,7 @@
     font-weight: 400;
     text-align: right;
     display: flex;
-    gap: 10px;
+    /* gap: 10px; */
     flex-wrap: wrap;
     /* width: 40%; */
     color: #f3e8ea;

@@ -151,7 +151,7 @@
     padding: 40px 70px;
     grid-template-columns: 1fr 1.5fr;
     gap: 30px;
-    overflow: visible;
+    /* overflow: visible; */
   }
   .faq-heading {
     font-size: 40px;
@@ -181,11 +181,3 @@
     line-height: 150%;
   }
 }
-
- .faq-container {
-    /* display: grid;
-    padding: 40px 70px;
-    grid-template-columns: 1fr 1.5fr;
-    gap: 30px; */
-    overflow: visible !important;
-  }

@@ -10,6 +10,8 @@ const imageList = [img1, img2, img3, img4];
 
 const TimerHome = () => {
   return (
+    <>
+      
     <div className="timer-home-container">
       <div className="left">
         <div className="row-grid">
@@ -28,7 +30,7 @@ const TimerHome = () => {
               ))}
 
               <div className="sub-heading">
-                98% of our graduates will recommend us to others (Source: 2025
+                98% of our graduates will recommend us to others <br /> (Source: 2025
                 Graduate Tracer Study)
               </div>
             </div>
@@ -108,6 +110,16 @@ const TimerHome = () => {
         </div>
       </div>
     </div>
+    <div className="titleBar wraper" >
+        <div className="heading" >
+          <span className="secondary-heading">
+            Programme Overview
+          </span>
+        </div>
+        <div className="secondary-paragraph black" style={{ padding: " 10px", width: "70vw" }}><p> Want to become a data expert? Our four-year BSc in Data Science equips you to extract meaningful insights from vast datasets. This programme integrates statistics, machine learning, computer science, and data analytics. You'll develop expertise in Data Processing, Analytics, and Visualisation, mastering Machine Learning, Data Mining, and Big Data Technologies. <br></br><br></br>
+          With hands-on experience in AI and cloud computing, plus a Capstone Project and industrial attachment, you'll gain practical, industry-relevant skills. Graduates are well-prepared for dynamic careers as Data Scientists, Business Analysts, or AI Engineers in finance, healthcare, and technology.</p></div>
+      </div>
+    </>
   );
 };
 

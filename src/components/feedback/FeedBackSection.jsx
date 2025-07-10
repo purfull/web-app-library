@@ -7,8 +7,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-
-
 const studentdeatils = [
   {
     studentsdata:
@@ -27,50 +25,56 @@ const studentdeatils = [
 ];
 
 const FeedBackSection = () => {
-
   const [slidesToShow, setSlidesToShow] = useState(1);
 
   useEffect(() => {
     const updatesildes = () => {
-
       const width = window.innerWidth;
-      setSlidesToShow(width < 600 ? 1 : (width > 500 && width > 1200) ? 2 : 2)
-    }
+      setSlidesToShow(width < 600 ? 1 : width > 500 && width > 1200 ? 2 : 2);
+    };
 
     updatesildes();
 
-    window.addEventListener('resize', updatesildes);
+    window.addEventListener("resize", updatesildes);
 
-    return () => window.removeEventListener('resize', updatesildes)
-
-  }, [])
+    return () => window.removeEventListener("resize", updatesildes);
+  }, []);
 
   const CustomPrevArrow = (props) => {
-  const { className, style, onClick } = props;
-  return (
-    <button className="prev-button" onClick={onClick} style={{ ...style, zIndex: 1 }}>
-      <IoIosArrowBack size={24} color="white" />
-    </button>
-  );
-};
+    const { className, style, onClick } = props;
+    return (
+      <button
+        className="prev-button"
+        onClick={onClick}
+        style={{ ...style, zIndex: 1 }}
+      >
+        <IoIosArrowBack size={24} color="white" />
+      </button>
+    );
+  };
 
-const CustomNextArrow = (props) => {
-  const { className, style, onClick } = props;
-  return (
-    <button className="next-button" onClick={onClick} style={{ ...style, zIndex: 1 }}>
-      <IoIosArrowForward size={24} color="white" />
-    </button>
-  );
-};
+  const CustomNextArrow = (props) => {
+    const { className, style, onClick } = props;
+    return (
+      <button
+        className="next-button"
+        onClick={onClick}
+        style={{ ...style, zIndex: 1 }}
+      >
+        <IoIosArrowForward size={24} color="white" />
+      </button>
+    );
+  };
 
-
   return (
-         <div className="feedback-main page-gap">
-         <div className="feeback-headers">
+    <div className="feedback-main page-gap">
+      <div className="feeback-headers">
         <div className="primary-heading-and-button">
-          <p className="secondary-heading with-padding">What Our Students Say</p>
+          <p className="secondary-heading with-padding">
+            What Our Students Say
+          </p>
           <div className="arrow-button-feedback">
-          {/* <img src="icon/button" alt="" /> */}  
+            {/* <img src="icon/button" alt="" /> */}
           </div>
         </div>
         <div className="second-main">
@@ -81,26 +85,23 @@ const CustomNextArrow = (props) => {
           </p>
         </div>
         {/* <div className="arrow-button-feedback-mobile"> */}
-          {/* <button className="next-button-mobile">
+        {/* <button className="next-button-mobile">
             <IoIosArrowBack />{" "}
           </button>
           <button className="next-button-mobile">
             <IoIosArrowForward />
           </button> */}
-          {/* <img src="/icon/Button-Next" alt="" /> */}
+        {/* <img src="/icon/Button-Next" alt="" /> */}
         {/* </div> */}
       </div>
 
-
       <div className="feedback-cards">
-  
         <Slider
-        className="carosel-inner"
+          className="carosel-inner"
           slidesToShow={slidesToShow}
           arrows={true}
-          prevArrow={<CustomPrevArrow className ="prev-button" />}
+          prevArrow={<CustomPrevArrow className="prev-button" />}
           nextArrow={<CustomNextArrow className="next-button" />}
-          
         >
           {studentdeatils.map((item, index) => (
             <div key={index} className="card-1">

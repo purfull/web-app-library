@@ -40,6 +40,66 @@ const PageThree = () => {
           "Online learners at Botho University enjoy unlimited access to an extensive e-library, featuring leading journal databases such as Emerald, ProQuest, and JSTOR. This vast repository of academic resources supports research and learning, ensuring that students have the necessary tools to excel in their studies.",
       },
     ];
+    const requirements = [
+       {
+        question: "Admission Requirements",
+        answer:
+          "IGCSE/equivalent with 5 Passes including English and Mathematics. Applicants in possession of a Diploma or Higher Diploma in related fields may be given exemptions based on the credit point equivalency.",
+      },
+  
+      {
+        question: "Technical Requirements",
+        answer:
+          `<div class="technical-requirements">
+  <p>
+    To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
+  </p>
+
+  <h3>Device Requirements</h3>
+  <ul>
+    <li>
+      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
+    </li>
+    <li><strong>OR</strong></li>
+    <li>
+      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+    </li>
+  </ul>
+
+  <h3>Internet Requirements</h3>
+  <ul>
+    <li>
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+    </li>
+    <li>
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+    </li>
+  </ul>
+
+  <h3>Software and Platforms</h3>
+  <ul>
+    <li>
+      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+    </li>
+  </ul>
+
+  <h3>Browser Requirements</h3>
+  <ul>
+    <li>
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+    </li>
+  </ul>
+
+  <h3>Additional Tools (Optional but Recommended)</h3>
+  <ul>
+    <li>Headset: For clear audio during virtual classes</li>
+    <li>External storage (USB/Cloud): For backups of important coursework</li>
+    <li>Antivirus software: To protect against malware or data loss</li>
+  </ul>
+</div>
+`,
+      },
+    ]
   return (
     <div className="">
       <RednavBar />
@@ -47,6 +107,7 @@ const PageThree = () => {
       {/* <StaticHome /> */}
       <TimerHome />
       {/* <Course /> */}
+      <Faq faqData={requirements} title="Requirements" />
       <CourseStruture />
       <FeedBackSection />
       <Faq faqData={faqData} />

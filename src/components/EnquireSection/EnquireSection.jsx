@@ -3,8 +3,10 @@ import "./enquireSection.css";
 import arrow from '/icon/arrow_forward.png'
 // import aa from "/icon/Vector.png"
 import { Card } from "antd";
+import { useNavigate } from 'react-router-dom';
 
 const EnquireSection = () => {
+  const navigate = useNavigate();
   const cardData = [
     {
 
@@ -13,7 +15,7 @@ const EnquireSection = () => {
         one: "1. Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2. Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
-        four: "4. Client Service and Financial Advice 1 +7 more",
+        four: "4. Client Service and Financial Advice 1",
         five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
 
 
@@ -31,7 +33,7 @@ const EnquireSection = () => {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
-        four: "4. Client Service and Financial Advice 1 +7 more",
+        four: "4. Client Service and Financial Advice 1",
         five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
       },
       amountdetails: {
@@ -47,7 +49,7 @@ const EnquireSection = () => {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
-        four: "4. Client Service and Financial Advice 1 +7 more",
+        four: "4. Client Service and Financial Advice 1",
         five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
       },
       amountdetails: {
@@ -63,7 +65,7 @@ const EnquireSection = () => {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
-        four: "4. Client Service and Financial Advice 1 +7 more",
+        four: "4. Client Service and Financial Advice 1",
         five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
 
 
@@ -82,7 +84,7 @@ const EnquireSection = () => {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
-        four: "4. Client Service and Financial Advice 1 +7 more",
+        four: "4. Client Service and Financial Advice 1",
         five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
 
 
@@ -100,7 +102,7 @@ const EnquireSection = () => {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
-        four: "4. Client Service and Financial Advice 1 +7 more",
+        four: "4. Client Service and Financial Advice 1",
         five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
 
 
@@ -112,6 +114,12 @@ const EnquireSection = () => {
       }
     },
   ];
+
+  const handleFeePage = () => {
+    
+      navigate('/fee');
+  window.scrollTo(0, 0);
+  }
   return (
     <div className="course-container" style={{ paddingTop: "8vh" }}>
       <div className="titleBar" >
@@ -166,7 +174,7 @@ const EnquireSection = () => {
               <p>{item.description.four}</p>
             </div>
             <div className="view-enquire-button">
-              <button className="search-button view-more">View More </button>
+              <button className="search-button view-more" onClick={handleFeePage}>View More </button>
               <button className="fourth-button enq-button">Enquire Now</button></div>
           </Card>
         ))}
