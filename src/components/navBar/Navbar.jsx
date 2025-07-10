@@ -15,7 +15,7 @@ const NavBar = () => {
   return (
     <div className="nav-head">
       <div className="nav-bar">
-        <img src="../logo/BothoLogo.png" alt="logo" />
+        <img src="../logo/BothoLogo.png" alt="logo"  />
 
         <div className="">
           {showSearchInput && (

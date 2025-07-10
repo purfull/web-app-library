@@ -1,0 +1,38 @@
+.fee-page-gap {
+  padding: 2rem;
+}
+
+.table-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.fee-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.fee-table th,
+.fee-table td {
+  border: 1px solid #999;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.fee-table thead {
+  background-color: #841d2e;
+  color: #fff;
+}
+.summary-row > td{
+    color: black;
+}
+
+.semester-title {
+    padding: 10px 0;
+    background-color: #d4d4d4;
+}
+.fee-semester {
+    
+    margin: 30px 0;
+}

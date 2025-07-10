@@ -53,6 +53,7 @@
   .card-1 {
     background-color: #ffffff;
     border-radius: 5px;
+    padding: 8px;
   }
 
   .secondary-paragraph {
@@ -107,6 +108,28 @@
 
   .student-images {
     display: flex;
+  }
+  .next-button,
+  .prev-button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #841d2e;
+    color: white;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border: none;
+    position: absolute;
+  }
+  .next-button {
+    left: 12%;
+    top: -25%;
+  }
+  .prev-button {
+    top: -25%;
+    left: -2.5%;
   }
 }
 

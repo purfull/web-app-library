@@ -26,7 +26,7 @@ const Courses = ({
     setShowSuggestions(false);
   };
 
-  const handleCourse = () => {
+  const handleCourse = () => { 
       navigate('/course');
   window.scrollTo(0, 0);
 
