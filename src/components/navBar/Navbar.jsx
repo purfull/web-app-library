@@ -9,6 +9,7 @@ const NavBar = () => {
 
   const handleSearchClick = () => {
     setShowSearchInput((prev) => !prev);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
@@ -36,7 +37,6 @@ const NavBar = () => {
                 <RiArrowDropDownLine />
               </span>
             </div>
-
           </div>
 
           <div className="text">Why Botho University Online?</div>
@@ -52,6 +52,7 @@ const NavBar = () => {
 
           {/* <div className="fee-text">Fees</div> */}
         </div>
+
         {showSearchInput && (
           <div className="mobile-search-input-wrapper">
             <input
@@ -61,11 +62,17 @@ const NavBar = () => {
               value={searchText}
               onChange={(e) => setSearchText(e.target.value)}
             />
-            {/* {searchText && (
-              <span className="close-icon" onClick={() => setSearchText("")}>
+            {searchText && (
+              <span
+                className="close-icon"
+                onClick={() => {
+                  setShowSearchInput(false);
+                  setSearchText("");
+                }}
+              >
                 ×
               </span>
-            )} */}
+            )}
           </div>
         )}
         {/* </div> */}

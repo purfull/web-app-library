@@ -15,7 +15,6 @@ import FeeHome from "../components/feehoemsection/feehome";
 import EnquireSection from "../components/EnquireSection/EnquireSection";
 
 const HomePage = () => {
-
   const cardData = [
     {
       cover: "/images/Rectangle 1.png",
@@ -62,7 +61,8 @@ const HomePage = () => {
   ];
   const faqData = [
     {
-      question: "How do I apply to Botho University? What documents are required?",
+      question:
+        "How do I apply to Botho University? What documents are required?",
       answer: `
       <p>
         Applying to <strong>Botho University</strong> is a straightforward and free process, designed to get you started on your educational journey quickly.
@@ -103,14 +103,11 @@ const HomePage = () => {
         </li>
       </ul>
     `,
-
-
     },
 
     {
       question: "How long will it take to complete my programme?",
-      answer:
-        `
+      answer: `
     <p>
       Your academic journey at <strong>Botho University</strong> is flexible and tailored to your progress!
       While the exact duration depends on the programme's credit requirements and your chosen pace, our typical full-time course load is at least 60 credits per semester,
@@ -169,7 +166,7 @@ const HomePage = () => {
         buttonTextColor="#000000"
         arrows="/icon/arrow_forward.png"
       />
-      {/* <Footer /> */}
+      <Footer />
       {/* <StaticHome />
       <TimerHome />
       <CourseStruture /> */}

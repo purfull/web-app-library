@@ -76,6 +76,12 @@
     flex-direction: column;
     width: 100%;
   }
+  .cancel-icon {
+    font-size: 12px;
+    color: #333;
+    cursor: pointer;
+    padding-left: 10px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -144,11 +150,17 @@
   } */
   .mobile-search-input-wrapper {
     padding: 10px;
-    /* width: 50%; */
-    display: flex;
+    /* display: flex; */
+    background-color: #fff;
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    /* margin-top: 60px; */
   }
   .mobile-search-input {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 6px 10px;
@@ -159,6 +171,12 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+  .cancel-icon {
+    font-size: 12px;
+    color: #333;
+    cursor: pointer;
+    padding-left: 10px;
   }
 }
 
@@ -222,6 +240,12 @@
   .fee-text {
     display: block;
     gap: 5px;
+  }
+  .cancel-icon {
+    font-size: 12px;
+    color: #333;
+    cursor: pointer;
+    padding-left: 10px;
   }
 }
 
@@ -299,6 +323,12 @@
     align-items: center;
     justify-content: space-between;
   }
+  .cancel-icon {
+    font-size: 12px;
+    color: #333;
+    cursor: pointer;
+    padding-left: 10px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -363,5 +393,11 @@
   .text,
   .fee-text {
     display: block;
+  }
+  .cancel-icon {
+    font-size: 12px;
+    color: #333;
+    cursor: pointer;
+    padding-left: 10px;
   }
 }

@@ -68,7 +68,7 @@ const CustomNextArrow = (props) => {
          <div className="feedback-main page-gap">
          <div className="feeback-headers">
         <div className="primary-heading-and-button">
-          <p className="secondary-heading">What Our Students Say</p>
+          <p className="secondary-heading with-padding">What Our Students Say</p>
           <div className="arrow-button-feedback">
       
           </div>

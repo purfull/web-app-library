@@ -117,7 +117,7 @@ const PageTwo = () => {
         buttonTextColor="#ffffff"
         arrows="/icon/maroon-arrow.png"
       />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

@@ -75,8 +75,12 @@ const Content = () => {
   return (
     <div className="content-container page-gap">
       <div className="content-part1">
-        <span className="secondary-heading margin-bottom"  >Why Botho University Online?</span><br /><br />
-        <span className="secondary-paragraph coloured-padding black"  >
+        <span className="secondary-heading margin-bottom">
+          Why Botho University Online?
+        </span>
+        <br />
+        <br />
+        <span className="secondary-paragraph coloured-padding black">
           Here's why Botho University should be your top pick for online
           education
         </span>
