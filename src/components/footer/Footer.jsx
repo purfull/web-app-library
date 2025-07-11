@@ -6,7 +6,7 @@
 //         <div className='footer-main'>
 //             <div className='footer-content-section'>
 //                 <div className='footer-logo'>
-//                     <img src="../../../public/images/BothoFooter.png" alt="" className='footer-logo-img' />
+//                     <img src="/images/BothoFooter.png" alt="" className='footer-logo-img' />
 //                 </div>
 
 //                 <div className='footer-text-section'>
@@ -60,7 +60,7 @@ const Footer = () => {
         <div className='footer-main'>
             <div className='footer-content-section'>
                 <div className='footer-logo'>
-                    <img src="../../../public/images/BothoFooter.png" alt="" className='footer-logo-img' />
+                    <img src="/images/BothoFooter.png" alt="" className='footer-logo-img' />
                 </div>
 
                 <div className='footer-text-section'>

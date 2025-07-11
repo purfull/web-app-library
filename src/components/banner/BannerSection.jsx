@@ -1,6 +1,6 @@
 import React from "react";
 import "./bannersection.css";
-import bgImage from "../../../public/images/cta-bg.jpg";
+import bgImage from "/images/cta-bg.jpg";
 
 const BannerSection = () => {
   return (

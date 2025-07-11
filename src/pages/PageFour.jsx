@@ -109,7 +109,7 @@ const PageFour = () => {
       <p>It's very important to us at Botho University that students receive timely assistance. That is precisely why we have a dedicated team of Programme Mentors committed to supporting you as you progress through your academic journey. You're never alone when you study with Botho University!</p>`,
     },
   ];
-
+ 
   const ugCardData = [
     {
 
