@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Courses.css";
 import vector from "/icon/Vector.png";
 import arrow from "/icon/arrow_forward.png";
 import { Card } from "antd";
-import { useNavigate } from 'react-router-dom';
-
+import { useNavigate } from "react-router-dom";
 
 const Courses = ({
   cardData,
@@ -15,7 +14,19 @@ const Courses = ({
 }) => {
   const [searchText, setSearchText] = useState("");
   const [showSuggestions, setShowSuggestions] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const navigate = useNavigate();
+
+  //for displaying 3 cards in mobile
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 600);
+    };
+
+    handleResize(); // Check initially
+    window.addEventListener("resize", handleResize); // Listen for resize
+    return () => window.removeEventListener("resize", handleResize); // Cleanup
+  }, []);
 
   const filteredSuggestions = cardData.filter((item) =>
     item.title.toLowerCase().includes(searchText.toLowerCase())
@@ -26,23 +37,23 @@ const Courses = ({
     setShowSuggestions(false);
   };
 
-  const handleCourse = () => { 
-      navigate('/course');
-  window.scrollTo(0, 0);
-
-  }
+  const handleCourse = () => {
+    navigate("/course");
+    window.scrollTo(0, 0);
+  };
 
   const handleAllCourse = () => {
-      navigate('/all-courses');
-  window.scrollTo(0, 0);
-  }
+    navigate("/all-courses");
+    window.scrollTo(0, 0);
+  };
   // const filteredCards = cardData.filter((item) =>
   //   item.title.toLowerCase().includes(searchText.toLowerCase())
   // );
   const filteredCards = cardData; // show all cards regardless of search
+  const cardsToDisplay = isMobile ? filteredCards.slice(0, 3) : filteredCards;
 
   return (
-    <div className="course-container page-gap" >
+    <div className="course-container page-gap">
       <div className="titleBar">
         <div>
           <span className="secondary-heading">
@@ -104,14 +115,15 @@ const Courses = ({
         >
           {secondaryParagraph || (
             <>
-              Advance your career with flexible, accredited online degrees from Botho University.
+              Advance your career with flexible, accredited online degrees from
+              Botho University.
             </>
           )}
         </div>
       </div>
 
       <div className="card-container">
-        {filteredCards.map((item, index) => (
+        {cardsToDisplay.map((item, index) => (
           <Card
             key={index}
             // title={item.title}
@@ -127,17 +139,29 @@ const Courses = ({
             <p className="course-tag">{courseName || item.courseName}</p>
             <p className="course-title">{item.title}</p>
             <p className="course-desc">{item.description}</p>
-            <button className="fourth-button read" onClick={handleCourse} style={{cursor: "pointer"}}>Explore Programme</button>
+            <button
+              className="fourth-button read"
+              onClick={handleCourse}
+              style={{ cursor: "pointer" }}
+            >
+              Explore Programme
+            </button>
           </Card>
         ))}
       </div>
 
-      {moreButton && <div className="bottom-button">
-        <button className="transparent-button" onClick={handleAllCourse} style={{cursor: "pointer"}}> 
-          <span className="button-text">Explore All Programmes</span>
-          <img src={arrow} alt="arrow" />
-        </button>
-      </div>}
+      {moreButton && (
+        <div className="bottom-button">
+          <button
+            className="transparent-button"
+            onClick={handleAllCourse}
+            style={{ cursor: "pointer" }}
+          >
+            <span className="button-text">Explore All Programmes</span>
+            <img src={arrow} alt="arrow" />
+          </button>
+        </div>
+      )}
     </div>
   );
 };

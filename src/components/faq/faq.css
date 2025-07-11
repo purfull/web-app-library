@@ -52,7 +52,7 @@
   .faq-portion {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     gap: 10px; /* space between FAQ items */
     border-top: none;
     font-family: "Montserrat", sans-serif;
@@ -88,7 +88,7 @@
   .faq-portion {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     gap: 20px; /* space between FAQ items */
     border-top: none;
     font-family: "Montserrat", sans-serif;
@@ -124,7 +124,7 @@
   .faq-portion {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     gap: 20px; /* space between FAQ items */
     border-top: none;
     font-family: "Montserrat", sans-serif;
@@ -160,7 +160,7 @@
   .faq-portion {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     gap: 20px; /* space between FAQ items */
     border-top: none;
     font-family: "Montserrat", sans-serif;

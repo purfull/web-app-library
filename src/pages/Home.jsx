@@ -123,18 +123,34 @@ const HomePage = () => {
     },
     {
       question: "What are the fees for programmes? And are payments flexible?",
-      answer:
-        "Botho University offers accredited online programmes across key disciplines, with exemption options for experienced professionals. Both undergraduate and postgraduate pathways provide flexibility, while the university’s BOS ISO 9001:2015 certification reflects its commitment to internationally recognised quality and academic excellence.",
+      answer: `
+        <p>
+          We believe in making quality education accessible. There is no
+          application fee! A one-time registration fee of $50 is payable upon
+          enrollment. Your tuition fee is calculated per module based on its
+          credit load. Each credit is charged at an affordable rate of $13 for
+          undergraduate programmes and $19.50 for postgraduate programmes.
+        </p></br>
+        <p>If you opt for a full-time load of 60 credits in a semester for an undergraduate programme, your total fee for that semester would be (60 credits x $13 per credit) $780. To further support your financial planning, we offer a highly flexible payment structure, allowing you to pay undergraduate fees in six convenient monthly instalments of $130.</p></br>
+        <p>If you opt for a full-time load of 60 credits in a semester for a postgraduate programme, your total fee for that semester would be (60 credits x $19.50 per credit) $1170. Here too we offer a highly flexible payment structure, allowing you to pay postgraduate fees in six convenient monthly instalments of $195.</p></br>
+        <p>You can review our complete Fee Structure at your convenience here: <a href= "https://online.bothouniversity.com/downloads/fees/" target="_blank" rel="noopener noreferrer">https://online.bothouniversity.com/downloads/fees/</a>.</p>
+      `,
     },
     {
-      question: "Do I need prior financial knowledge to join this course?",
-      answer:
-        "Botho University enhances online learning with bi-weekly live classes via Zoom and Blackboard, offering real-time interaction, peer collaboration, and instant feedback. This dynamic, engaging experience mirrors the quality of on-campus study while providing the flexibility of fully online education.",
+      question: "When are the intakes for Botho University Online?",
+      answer: `<p>We offer multiple opportunities for you to begin your studies! Botho University has four intakes annually: in January, April, July, and October. Please note that admissions with exemptions are accepted during the January and July intakes only.</p>`,
     },
     {
-      question: "Do I need prior financial knowledge to join this course?",
-      answer:
-        "Online learners at Botho University enjoy unlimited access to an extensive e-library, featuring leading journal databases such as Emerald, ProQuest, and JSTOR. This vast repository of academic resources supports research and learning, ensuring that students have the necessary tools to excel in their studies.",
+      question:
+        "Will I need to attend physical classes or can I learn fully online?",
+      answer: `<p>Our online programmes are designed for maximum flexibility and convenience, meaning most programmes do not require any physical class attendance. However, we highly encourage participation in our virtual classes. These interactive sessions provide a fantastic opportunity to connect with your fellow students and engage directly with our expert lecturers, enhancing your learning and fostering a strong sense of community. To ensure you gain the most from your programme, you should attend virtual classes, complete all online study material, and participate in both assessments and examinations. This comprehensive approach guarantees a robust understanding of your chosen field.</p>`,
+    },
+    {
+      question:
+        "Who can I contact for help and guidance during my studies at Botho University?",
+      answer: `<p>At Botho University, your success is our priority, and we've put a robust support system in place to ensure you always have someone to turn to. Every student has dedicated access to a group of Programme Mentors. These mentors serve as your first point of contact for virtually any assistance you require throughout your studies.</p></br>
+      <p>While you are, of course, welcome to contact your lecturers directly when you have a question specifically related to a particular module, for any other general questions related to the University or your studies, you can always reach out to your Programme Mentors. They are there to assist you by either directly providing guidance on what needs to be done or by connecting you with the appropriate individual or department who can help resolve your issues.</p></br>
+      <p>It's very important to us at Botho University that students receive timely assistance. That is precisely why we have a dedicated team of Programme Mentors committed to supporting you as you progress through your academic journey. You're never alone when you study with Botho University!</p>`,
     },
   ];
   return (
