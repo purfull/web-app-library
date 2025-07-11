@@ -1,44 +1,20 @@
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .timer-home-container {
     display: flex;
     flex-direction: column;
     padding: 20px;
     background-color: #f3e8ea;
-    /* gap: 40px; */
+    gap: 40px;
   }
 
-  .left {
-    flex: 1;
-  }
-
-  .TimerImage {
-    flex: 2;
-  }
-
-  .col-grid {
+  .left-part {
     display: grid;
-    grid-template-rows: repeat(3, auto);
-    grid-template-columns: repeat(2, 1fr);
-    /* gap: 10px; */
+    gap: 25px;
   }
 
-  .col-grid div {
-    /* padding: 10px; */
-    /* background-color: #ffffff; */
-    border-radius: 4px;
-  }
+  .right-part {
+    display: none;
 
-  .image-portion {
-    padding-top: 20px;
-  }
-
-  .sub-heading {
-    font-weight: 500;
-    font-size: 15px;
-    /* color: #f3e8ea; */
-    font-family: "Montserrat", sans-serif;
-    padding-left: 25px;
   }
 
   .TimerImage {
@@ -53,15 +29,39 @@
     border-radius: 4px;
     display: block;
     padding-top: 1rem;
+    object-fit: cover;
+  }
+
+  .col-grid {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .col-grid div {
+    padding: 10px;
+    border-radius: 4px;
+    color: black;
+  }
+
+  .image-portion {
+    padding-top: 20px;
+
+  }
+
+  .sub-heading {
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 25px;
+    color: #f3e8ea;
   }
 
   .countdown-box {
-    flex: 3;
     background-color: #841d2e;
     border-radius: 12px;
     padding: 24px;
-    width: 70%;
-    /* or a fixed width like 571px */
+    width: 100%;
     color: white;
     display: flex;
     flex-direction: column;
@@ -71,7 +71,7 @@
   }
 
   .timer-row {
-    /* display: flex; */
+    display: flex;
     justify-content: space-between;
     text-align: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -100,12 +100,6 @@
     gap: 8px;
   }
 
-  .primary-heading.black,
-  .sub-heading,
-  .col-grid {
-    color: black;
-  }
-
   .forButton {
     display: flex;
     flex-direction: column;
@@ -117,7 +111,7 @@
   .download-button {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     border: 1px solid #841d26;
     padding: 5px;
     border-radius: 30px;
@@ -126,7 +120,6 @@
   }
 
   .download-button img {
-    display: inline-block;
     border-radius: 50%;
     width: 32px;
     height: 32px;
@@ -134,80 +127,98 @@
     background-color: #f3e8ea;
     object-fit: contain;
   }
-  
+
   .dynamic-image {
     display: flex;
-    text-align: left;
-    justify-content: flex-start !important;
+    justify-content: flex-start;
     align-items: center;
-    padding: 14px 0px;
+    padding: 14px 20px;
   }
+
+  .sub-heading {
+    color: #111111;
+  }
+  .right-part-mobile{
+    display: block;
+  }
+  .mobile-img-comtainer{
+    height: 50vh;
+       background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .wraper {
+    padding: 20px 40px;
+  }
+
+
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .timer-home-container {
+@media screen and (min-width :600px) {
+    .timer-home-container {
     display: flex;
-    flex-direction: row;
-    padding: 70px;
+    flex-direction: column;
+    padding: 20px;
     background-color: #f3e8ea;
     gap: 40px;
   }
 
-  .left {
-    flex: 1;
+  .left-part {
+    display: grid;
+    gap: 30px;
+  }
+
+  .right-part {
+    display: none;
+
   }
 
   .TimerImage {
-    flex: 2;
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .TimerImage .img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+    padding-top: 1rem;
+    object-fit: cover;
   }
 
   .col-grid {
     display: grid;
     grid-template-rows: repeat(3, auto);
     grid-template-columns: repeat(2, 1fr);
-    /* gap: 10px; */
   }
 
   .col-grid div {
-    /* padding: 10px; */
-    /* background-color: #ffffff; */
+    padding: 10px;
     border-radius: 4px;
+    color: black;
   }
 
   .image-portion {
     padding-top: 20px;
+
   }
 
   .sub-heading {
     font-weight: 500;
     font-size: 15px;
-    /* color: #f3e8ea; */
     font-family: "Montserrat", sans-serif;
     padding-left: 25px;
-  }
-
-  .TimerImage {
-    width: 90%;
-    height: auto;
-    position: relative;
-  }
-
-  .TimerImage .img {
-    /* width: 90%;
-    height: auto; */
-    border-radius: 4px;
-    /* display: block; */
-    padding: 2rem;
+    color: #f3e8ea;
   }
 
   .countdown-box {
-    flex: 3;
     background-color: #841d2e;
     border-radius: 12px;
     padding: 24px;
-    width: 70%;
-    /* or a fixed width like 571px */
+    width: 100%;
     color: white;
     display: flex;
     flex-direction: column;
@@ -217,7 +228,7 @@
   }
 
   .timer-row {
-    /* display: flex; */
+    display: flex;
     justify-content: space-between;
     text-align: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -244,12 +255,6 @@
     display: flex;
     align-items: center;
     gap: 8px;
-  }
-
-  .primary-heading.black,
-  .sub-heading,
-  .col-grid {
-    color: black;
   }
 
   .forButton {
@@ -263,7 +268,7 @@
   .download-button {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     border: 1px solid #841d26;
     padding: 5px;
     border-radius: 30px;
@@ -272,7 +277,6 @@
   }
 
   .download-button img {
-    display: inline-block;
     border-radius: 50%;
     width: 32px;
     height: 32px;
@@ -280,27 +284,55 @@
     background-color: #f3e8ea;
     object-fit: contain;
   }
+
+  .dynamic-image {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 14px 0;
+  }
+
+  .sub-heading {
+    color: #111111;
+  }
+  .right-part-mobile{
+    display: block;
+  }
+  .mobile-img-comtainer{
+    height: 50vh;
+       background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .wraper {
+    padding: 20px 40px;
+  }
+
+  
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
- @media only screen and (min-width: 768px) {
+
+
+@media screen and (min-width :768px) {
   .timer-home-container {
     display: flex;
     flex-direction: row;
-    padding: 70px;
+    padding: 50px 30px;
     background-color: #f3e8ea;
-    gap: 40px;
+    gap: 50px;
   }
 
-  .right {
-    width: 40%;
+  .left-part {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+  }
+
+  .right-part {
+    width: 50%;
     display: flex;
     flex-direction: row;
-  }
-
-  .left {
-    display: flex;
-    width: 50%;
   }
 
   .col-grid {
@@ -311,17 +343,22 @@
   }
 
   .col-grid div {
-    padding: 10px;
+    padding: 10px 10px 10px 5px;
     border-radius: 4px;
   }
 
   .image-portion {
-    padding-top: 20px;
+    padding-top: 0px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-start;
   }
 
   .sub-heading {
     font-weight: 500;
     font-size: 15px;
+    color: #f3e8ea;
     font-family: "Montserrat", sans-serif;
     padding-left: 25px;
   }
@@ -330,34 +367,35 @@
     width: 100%;
     height: auto;
     position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
   }
 
   .TimerImage .img {
     width: 100%;
     height: auto;
     object-fit: cover;
+    /* or contain if you want full visibility */
     border-radius: 4px;
     display: block;
   }
 
   .countdown-box {
-    position: absolute;
-    top: 25rem;
-
-    left: 70%;
-
-    transform: translateX(-50%);
     background-color: #841d2e;
     border-radius: 12px;
-    padding: 24px;
-    width: 70%;
-
+    padding: 20px;
+    width: 90%;
     color: white;
     display: flex;
     flex-direction: column;
     gap: 10px;
     font-family: "Montserrat", sans-serif;
     z-index: 10;
+    position: relative;
+    top: 30px;
+    left: 20px;
   }
 
   .timer-row {
@@ -365,7 +403,7 @@
     justify-content: space-between;
     text-align: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    padding-bottom: 10px;
+    padding: 0px 20px 20px 20px;
   }
 
   .time-block h2 {
@@ -415,6 +453,14 @@
     gap: 12px;
   }
 
+  .counter-box-main {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    height: 100%;
+    width: 100%;
+  }
+
   .download-button img {
     display: inline-block;
     border-radius: 50%;
@@ -424,187 +470,53 @@
     background-color: #f3e8ea;
     object-fit: contain;
   }
-} 
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .timer-home-container {
-    display: flex;
-    flex-direction: row;
-    padding: 70px;
-    background-color: #f3e8ea;
-    gap: 40px;
-  }
-
-  .right {
-    width: 40%;
-
-    display: flex;
-    flex-direction: row;
-  }
-
-  .left {
-    display: flex;
-    width: 50%;
-  }
-
-  .col-grid {
-    display: grid;
-    grid-template-rows: repeat(3, auto);
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-
-  .col-grid div {
-    padding: 10px;
-
-    border-radius: 4px;
-  }
-
-  .image-portion {
-    padding-top: 20px;
-  }
-
-  .sub-heading {
-    font-weight: 500;
-    font-size: 15px;
-
-    font-family: "Montserrat", sans-serif;
-    padding-left: 25px;
-  }
-
-  .TimerImage {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-
-  .TimerImage .img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-
-    border-radius: 4px;
-    display: block;
-  }
-
-  .countdown-box {
-    position: absolute;
-    top: 25rem;
-
-    left: 70%;
-
-    transform: translateX(-50%);
-    background-color: #841d2e;
-    border-radius: 12px;
-    padding: 24px;
-    width: 70%;
-
-    color: white;
+  .dynamic-image {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    font-family: "Montserrat", sans-serif;
-
-    z-index: 10;
+    text-align: left;
+    justify-content: flex-start !important;
+    align-items: start;
+    padding: 20px 5px;
   }
 
-  .timer-row {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    padding-bottom: 10px;
+  .wraper {
+    padding: 40px 70px;
   }
 
-  .time-block h2 {
-    font-size: 28px;
-    margin: 0;
+  .divider {
+    height: 10px;
+    border: 1px solid black;
   }
 
-  .time-block span {
-    font-size: 14px;
-    margin-top: 4px;
-    display: block;
+  .right-part-mobile {
+    display: none;
   }
 
-  .start-date {
-    background-color: #f3e8ea;
-    color: #333;
-    padding: 12px;
-    border-radius: 6px;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
 
-  .primary-heading.black,
-  .sub-heading,
-  .col-grid {
-    color: black;
-  }
-
-  .forButton {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    font-family: "Montserrat", sans-serif;
-    gap: 1rem;
-  }
-
-  .download-button {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 1px solid #841d26;
-    padding: 5px;
-    border-radius: 30px;
-    background-color: #ffffff;
-    gap: 12px;
-  }
-
-  .download-button img {
-    display: inline-block;
-    border-radius: 50%;
-    width: 32px;
-    height: 32px;
-    padding: 8px;
-    background-color: #f3e8ea;
-    object-fit: contain;
-  }
 }
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width :992px) {
   .timer-home-container {
     display: flex;
     flex-direction: row;
-    padding: 70px;
+    padding: 70px 60px;
     background-color: #f3e8ea;
-    /* gap: 40px; */
+    gap: 50px;
   }
 
-  .right {
-    /* height: 80vh; */
-    width: 40%;
-    /* padding: 20px 30px; */
+  .left-part {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+  }
+
+  .right-part {
+    width: 50%;
     display: flex;
     flex-direction: row;
   }
 
-  .left {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-  }
-
-  /* .row-grid {
-    display: grid;
-
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-  } */
   .col-grid {
     display: grid;
     grid-template-rows: repeat(3, auto);
@@ -613,8 +525,7 @@
   }
 
   .col-grid div {
-    padding: 10px;
-    /* background-color: #ffffff; */
+    padding: 10px 10px 10px 5px;
     border-radius: 4px;
   }
 
@@ -638,6 +549,10 @@
     width: 100%;
     height: auto;
     position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
   }
 
   .TimerImage .img {
@@ -650,23 +565,19 @@
   }
 
   .countdown-box {
-    position: absolute;
-    top: 29rem;
-    /* Adjust vertical placement */
-    left: 80%;
-    /* Center horizontally */
-    /* transform: translateX(-50%); */
     background-color: #841d2e;
     border-radius: 12px;
-    padding: 24px;
-    width: 30%;
+    padding: 20px;
+    width: 87%;
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     font-family: "Montserrat", sans-serif;
-    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
     z-index: 10;
+    position: relative;
+    top: 50px;
+    left: 50px;
   }
 
   .timer-row {
@@ -674,7 +585,7 @@
     justify-content: space-between;
     text-align: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    padding-bottom: 10px;
+    padding: 0px 20px 20px 20px;
   }
 
   .time-block h2 {
@@ -724,6 +635,14 @@
     gap: 12px;
   }
 
+  .counter-box-main {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    height: 100%;
+    width: 100%;
+  }
+
   .download-button img {
     display: inline-block;
     border-radius: 50%;
@@ -733,14 +652,206 @@
     background-color: #f3e8ea;
     object-fit: contain;
   }
+
+  .dynamic-image {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: flex-start !important;
+    align-items: center;
+    padding: 20px 5px;
+  }
+
+  .wraper {
+    padding: 40px 70px;
+  }
+
+  .divider {
+    height: 10px;
+    border: 1px solid black;
+  }
+
+  .right-part-mobile {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .timer-home-container {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 80px;
+    background-color: #f3e8ea;
+    gap: 50px;
+  }
+
+  .left-part {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .right-part {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .col-grid {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .col-grid div {
+    padding: 10px 10px 10px 5px;
+    border-radius: 4px;
+  }
+
+  .image-portion {
+    padding-top: 0px;
+    display: flex;
+    /* flex-grow: 1; */
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .sub-heading {
+    font-weight: 500;
+    font-size: 15px;
+    /* color: #f3e8ea; */
+    font-family: "Montserrat", sans-serif;
+    padding-left: 25px;
+  }
+
+  .TimerImage {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+
+  .TimerImage .img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* or contain if you want full visibility */
+    border-radius: 4px;
+    display: block;
+  }
+
+  .countdown-box {
+    background-color: #841d2e;
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: "Montserrat", sans-serif;
+    z-index: 10;
+    position: relative;
+    top: 50px;
+    left: 50px;
+  }
+
+  .timer-row {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0px 20px 20px 20px;
+  }
+
+  .time-block h2 {
+    font-size: 28px;
+    margin: 0;
+  }
+
+  .time-block span {
+    font-size: 14px;
+    margin-top: 4px;
+    display: block;
+  }
+
+  .start-date {
+    background-color: #f3e8ea;
+    color: #333;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .primary-heading.black,
+  .sub-heading,
+  .col-grid {
+    color: black;
+  }
+
+  .forButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-family: "Montserrat", sans-serif;
+    gap: 1rem;
+  }
+
+  .download-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #841d26;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    gap: 12px;
+  }
+
+  .counter-box-main {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    height: 100%;
+    width: 100%;
+  }
+
+  .download-button img {
+    display: inline-block;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    background-color: #f3e8ea;
+    object-fit: contain;
+  }
+
   .dynamic-image {
     display: flex;
     text-align: left;
     justify-content: flex-start !important;
     align-items: center;
-    padding: 14px 0px;
+    padding: 20px 5px;
   }
+
   .wraper {
     padding: 40px 70px;
   }
+
+  .divider {
+    height: 10px;
+    border: 1px solid black;
+  }
+
+  .right-part-mobile {
+    display: none;
+  }
+
 }
