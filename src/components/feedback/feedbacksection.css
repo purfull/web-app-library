@@ -64,7 +64,7 @@
     line-height: 150%;
   }
 
-  .divider {
+  .feedback-divider {
     width: 95%;
     margin-left: 2.5%;
     border-bottom: 2px dashed #575757;
@@ -541,7 +541,7 @@
     margin-right: 20px !important;
   }
 
-  .divider {
+  .feedback-divider {
     width: 95%;
     margin-left: 2.5%;
     border-bottom: 2px dashed #575757;
@@ -657,7 +657,7 @@
     padding: 20px;
   } */
 
-  .divider {
+  .feedback-divider {
     width: 95%;
     margin-left: 2.5%;
     border-bottom: 2px dashed #575757;
@@ -751,7 +751,7 @@
     padding: 20px;
   }
 
-  .divider {
+  .feedback-divider {
     width: 95%;
     margin-left: 2.5%;
     border-bottom: 2px dashed #575757;
@@ -830,7 +830,7 @@
     padding: 20px;
   }
 
-  .divider {
+  .feedback-divider {
     width: 95%;
     margin-left: 2.5%;
     border-bottom: 2px dashed #575757;
@@ -909,7 +909,7 @@
     padding: 20px;
   }
 
-  .divider {
+  .feedback-divider {
     width: 95%;
     margin-left: 2.5%;
     border-bottom: 2px dashed #575757;
@@ -988,7 +988,7 @@
     padding: 20px !important;
   }
 
-  .divider {
+  .feedback-divider {
     width: 95%;
     margin-left: 2.5%;
     border-bottom: 2px dashed #575757;
@@ -1020,10 +1020,10 @@
   }
   .next-button {
     left: 8%;
-    top: -25%;
+    top: -15%;
   }
   .prev-button {
-    top: -25%;
+    top: -15%;
     left: 2.5%;
   }
   .feedback-cards {
