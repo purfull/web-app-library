@@ -201,7 +201,7 @@ const FeedBackSection = () => {
                   ))}
                 </div>
                 <p className="secondary-paragraph black">{item.studentsdata}</p>
-                <div className="divider"> </div>
+                <div className="feedback-divider"> </div>
                 <p className="secondary-paragraph black">
                   {item.studentname} .., {item.year}
                 </p>
