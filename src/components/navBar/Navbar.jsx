@@ -2,20 +2,35 @@ import "./navBar.css";
 import { CiSearch } from "react-icons/ci";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const NavBar = () => {
   const [showSearchInput, setShowSearchInput] = useState(false);
   const [searchText, setSearchText] = useState("");
+  const navigate = useNavigate();
 
   const handleSearchClick = () => {
     setShowSearchInput((prev) => !prev);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
+  const handleWhyClick = () => {
+    navigate("/");
+    window.scrollTo(0, window.innerHeight);
+  };
+
+  const handleFeeClick = () => {
+    navigate("/all-fee");
+    window.scrollTo(0, 0);
+  };
+  const handleHomeClick = () => {
+    navigate("/");
+    window.scrollTo(0, 0);
+  };
   return (
     <div className="nav-head">
       <div className="nav-bar">
-        <img src="../logo/BothoLogo.png" alt="logo"  />
+        <img src="../logo/BothoLogo.png" alt="logo" onClick={handleHomeClick} style={{cursor: "pointer"}} />
 
         <div className="">
           {showSearchInput && (
@@ -39,12 +54,12 @@ const NavBar = () => {
             </div>
           </div>
 
-          <div className="text">Why Botho University Online?</div>
-          <p className="fee-text">Fees</p>
+          <div className="text" onClick={handleWhyClick} style={{cursor: "pointer"}}>Why Botho University Online?</div>
+          <p className="fee-text" onClick={handleFeeClick} style={{cursor: "pointer"}}>Fees</p>
 
           {/* {!showSearchInput && ( */}
           {/* <div className="mobile-search-group"> */}
-          <div className="mobile-text">
+          <div className="mobile-text" onClick={handleWhyClick}>
             Why BU Online?
             <CiSearch className="mobile-search" onClick={handleSearchClick} />
           </div>

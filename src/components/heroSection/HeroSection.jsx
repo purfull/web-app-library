@@ -11,16 +11,16 @@ const herobanner = [
     subtittle:
       "Pursue accredited, globally recognized qualifications designed for flexibility, affordability, and career advancement - anytime, anywhere.",
     button: "Explore Programmes",
-    arrowIcon: "../../../public/icon/arrow_forward.png",
-    backgroundImg: "../../../public/images/herobanner.png",
+    arrowIcon: "/icon/arrow_forward.png",
+    backgroundImg: "/images/herobanner.png",
     calledtoAction:
       "98% of our graduates will recommend us to others </br> (Source: 2025 Graduate Tracer Study)",
 
     dynamicimg: [
-      "../../../public/images/Ellipse 21.png",
-      "../../../public/images/Ellipse 22.png",
-      "../../../public/images/Ellipse 23.png",
-      "../../../public/images/Ellipse 24.png",
+      "/images/Ellipse 21.png",
+      "/images/Ellipse 22.png",
+      "/images/Ellipse 23.png",
+      "/images/Ellipse 24.png",
     ],
   },
   {
@@ -29,16 +29,16 @@ const herobanner = [
     subtittle:
       "Pursue accredited, globally recognized qualifications designed for flexibility, affordability, and career advancement - anytime, anywhere.",
     button: "Explore Programmes",
-    arrowIcon: "../../../public/icon/arrow_forward.png",
-    backgroundImg: "../../../public/images/herobanner.png",
+    arrowIcon: "/icon/arrow_forward.png",
+    backgroundImg: "/images/herobanner.png",
     calledtoAction:
       "98% of our graduates will recommend us to others (Source: 2025 Graduate Tracer Study)",
 
     dynamicimg: [
-      "../../../public/images/Ellipse 21.png",
-      "../../../public/images/Ellipse 22.png",
-      "../../../public/images/Ellipse 23.png",
-      "../../../public/images/Ellipse 24.png",
+      "/images/Ellipse 21.png",
+      "/images/Ellipse 22.png",
+      "/images/Ellipse 23.png",
+      "/images/Ellipse 24.png",
     ],
   },
   {
@@ -47,18 +47,18 @@ const herobanner = [
     subtittle:
       "Pursue accredited, globally recognized qualifications designed for flexibility, affordability, and career advancement - anytime, anywhere.",
     button: "Explore Programmes",
-    arrowIcon: "../../../public/icon/arrow_forward.png",
-    backgroundImg: "../../../public/images/herobanner.png",
+    arrowIcon: "/icon/arrow_forward.png",
+    backgroundImg: "/images/herobanner.png",
     calledtoAction:
 
       "98% of our graduates will recommend us to others  (Source: Based on number of respondents to the 2025 Graduate Tracer Survey)",
 
 
     dynamicimg: [
-      "../../../public/images/Ellipse 21.png",
-      "../../../public/images/Ellipse 22.png",
-      "../../../public/images/Ellipse 23.png",
-      "../../../public/images/Ellipse 24.png",
+      "/images/Ellipse 21.png",
+      "/images/Ellipse 22.png",
+      "/images/Ellipse 23.png",
+      "/images/Ellipse 24.png",
     ],
   },
 ];

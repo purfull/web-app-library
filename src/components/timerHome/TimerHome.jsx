@@ -1,11 +1,11 @@
 import React from "react";
 import "./TimerHome.css";
 
-import img1 from "../../../public/images/Ellipse 21.png";
-import img2 from "../../../public/images/Ellipse 22.png";
-import img3 from "../../../public/images/Ellipse 23.png";
-import img4 from "../../../public/images/Ellipse 24.png";
-import downloadIcon from "../../../public/icon/Frame (1).png";
+import img1 from "/images/Ellipse 21.png";
+import img2 from "/images/Ellipse 22.png";
+import img3 from "/images/Ellipse 23.png";
+import img4 from "/images/Ellipse 24.png";
+import downloadIcon from "/icon/Frame (1).png";
 
 const imageList = [img1, img2, img3, img4];
 
