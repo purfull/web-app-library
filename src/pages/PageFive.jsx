@@ -477,11 +477,25 @@ const PageFive = () => {
     },
   ];
 
+  const heroData = {
+  "title": "Bachelor of Commerce in Accounting",
+  "minPeriod": 4,
+  "maxPeriod": 6,
+  "programmeCredit": "$13",
+  "totalProgrammeCredit": 480,
+  "noOfModules": "38 (36 Core and 2 Elective)",
+  "totalFee": "$6,240",
+  "cta": false,
+  "timer": false,
+  "overview": false
+}
+
+
   return (
     <div className="">
       <RednavBar />
       <NavBar />
-      <TimerHome />
+      <TimerHome data={heroData}/>
       <FeeTable tableData={tableData} />
       {/* <EnquireSection /> */}
       <FeedBackSection />

@@ -167,19 +167,32 @@ const PageThree = () => {
 `,
       },
     ]
+    
+  const heroData = {
+  "title": "Bachelor of Science in Data Science",
+  "minPeriod": 4,
+  "maxPeriod": 6,
+  "programmeCredit": "$13",
+  "totalProgrammeCredit": 495,
+  "noOfModules": "35 (27 Core + 8 Elective)",
+  "totalFee": "$6,435",
+  "cta": true,
+  "timer": true,
+  "overview": true
+}
   return (
     <div className="">
       <RednavBar />
       <NavBar />
       {/* <StaticHome /> */}
-      <TimerHome />
+      <TimerHome data={heroData} />
       {/* <Course /> */}
       <Faq faqData={requirements} title="Requirements" />
       <CourseStruture />
       <FeedBackSection />
       <Faq faqData={faqData} />
       <BannerSection />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
