@@ -9,7 +9,9 @@ import downloadIcon from "../../../public/icon/Frame (1).png";
 
 const imageList = [img1, img2, img3, img4];
 
-const TimerHome = () => {
+const TimerHome = ({
+  data
+}) => {
   return (
     <>
 
@@ -17,7 +19,7 @@ const TimerHome = () => {
         <div className="left-part">
           <div className="row-grid">
             <div className="primary-heading black">
-              Bachelor of Science in Data Science
+              {data.title || "Bachelor of Science in Data Science"}
             </div>
             <div className="image-portion">
               <div className="dynamic-image">
@@ -40,34 +42,34 @@ const TimerHome = () => {
           <div className="col-grid">
             <div className="grid-1">
               <div>
-                <h3>4 years</h3>
+                <h3>{data.minPeriod} years</h3>
                 <p>Minimum Period</p>
               </div>
               <div>
-                <h3>6 years</h3>
+                <h3>{data.maxPeriod}  years</h3>
                 <p>Maximum Period</p>
               </div>
               <div>
-                <h3>$13</h3>
+                <h3>{data.programmeCredit} </h3>
                 <p>Fees per Programme Credit</p>
               </div>
             </div>
             <div className="grid-2">
               <div>
-                <h3>495</h3>
+                <h3>{data.totalProgrammeCredit} </h3>
                 <p>Total Programmes Credits</p>
               </div>
               <div>
-                <h3>35 (27 core + 8 elective)</h3>
+                <h3>{data.noOfModules} </h3>
                 <p>Number of Modules</p>
               </div>
               <div>
-                <h3>$6435</h3>
+                <h3>{data.totalFee} </h3>
                 <p>Total Tuition Fee</p>
               </div>
             </div>
           </div>
-          <div className="forButton">
+          {data.cta && <div className="forButton">
             <button className="secondary-button">
               <span>Apply Now</span>
               <img
@@ -80,13 +82,13 @@ const TimerHome = () => {
               <span className="button-text">Download Programme Module</span>
               <img src={downloadIcon} alt="download" />
             </button>
-          </div>
+          </div>}
         </div>
         <div className="right-part">
 
           <div className="TimerImage" style={{ backgroundImage: "url('/images/timer-img.png')" }}>
 
-            <div className="counter-box-main">
+            {data.timer && <div className="counter-box-main">
               <div className="countdown-box">
                 <div className="timer-row">
                   <div className="time-block">
@@ -110,7 +112,7 @@ const TimerHome = () => {
                   <i className="fa fa-info-circle" /> Start By: 30 June 2025
                 </div>
               </div>
-            </div>
+            </div>}
           </div>
 
         </div>
@@ -121,7 +123,7 @@ const TimerHome = () => {
           <div className="mobile-img-comtainer" style={{ backgroundImage: "url('/images/timer-img.png')" }}>
           </div>
 
-          <div className="counter-box-main">
+          {data.timer && <div className="counter-box-main">
             <div className="countdown-box">
               <div className="timer-row">
                 <div className="time-block">
@@ -145,12 +147,12 @@ const TimerHome = () => {
                 <i className="fa fa-info-circle" /> Start By: 30 June 2025
               </div>
             </div>
-          </div>
+          </div>}
 
 
         </div>
       </div>
-      <div className="titleBar wraper timerHome-programme-overview page-gap" >
+      {data.overview && <div className="titleBar wraper timerHome-programme-overview page-gap" >
         <div className="heading" >
           <span className="secondary-heading">
             Programme Overview
@@ -158,7 +160,7 @@ const TimerHome = () => {
         </div>
         <div className="secondary-paragraph black padding-zero" style={{ width: "70vw" }}><p> Want to become a data expert? Our four-year BSc in Data Science equips you to extract meaningful insights from vast datasets. This programme integrates statistics, machine learning, computer science, and data analytics. You'll develop expertise in Data Processing, Analytics, and Visualisation, mastering Machine Learning, Data Mining, and Big Data Technologies. <br></br><br></br>
           With hands-on experience in AI and cloud computing, plus a Capstone Project and industrial attachment, you'll gain practical, industry-relevant skills. Graduates are well-prepared for dynamic careers as Data Scientists, Business Analysts, or AI Engineers in finance, healthcare, and technology.</p></div>
-      </div>
+      </div>}
     </>
   );
 };
