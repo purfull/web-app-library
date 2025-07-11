@@ -11,48 +11,95 @@ import Footer from "../components/footer/Footer";
 import FeedBackSection from "../components/feedback/FeedBackSection";
 
 const PageTwo = () => {
-  const cardData = [
+  const cardDataPg = [
     {
-      cover: "/images/Rectangle 1.png",
-      courseName: "Undergraduate Programme",
-      title: "Bachelor of Commerce in Accountancy",
+      cover: "/images/courses-images/PGDHE.png",
+      courseName: "Postgraduate Programme",
+      title: "Post Graduate Diploma in Higher Education",
       description:
-        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
+        "Ready to advance your teaching career? Our Postgraduate Diploma in Higher Education (PGDHE) is a transformative one-year programme designed to equip you with advanced teaching skills, curriculum design expertise, and effective assessment strategies.",
     },
     {
-      cover: "/images/Rectangle 2.png",
-      courseName: "Undergraduate Programme",
-      title: "Bachelor of Commerce in Accountancy",
+      cover:
+        "/images/courses-images/Med in educational leadership and mgmt.png",
+      courseName: "Postgraduate Programme",
+      title: "Master of Educational Leadership and Management",
       description:
-        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
+        "Aspiring to lead in education? Our Master of Educational Leadership and Management is a prestigious, two-year programme designed to elevate your career.",
     },
     {
-      cover: "/images/Rectangle 3.png",
-      courseName: "Undergraduate Programme",
-      title: "Bachelor of Commerce in Accountancy",
+      cover: "/images/courses-images/Med in curriculum.png",
+      courseName: "Postgraduate Programme",
+      title: "Master of Education in Curriculum Design and Instruction",
       description:
-        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
+        "Ready to lead in education and curriculum development? Our Master of Education in Curriculum Design and Instruction is your pathway to becoming an expert.",
     },
     {
-      cover: "/images/Rectangle 4.png",
-      courseName: "Undergraduate Programme",
-      title: "Bachelor of Commerce in Accountancy",
+      cover: "/images/courses-images/Med in higher education.png",
+      courseName: "Postgraduate Programme",
+      title: "Masters of Education in Higher Education",
       description:
-        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
+        "Elevate your expertise with our Master of Education in Higher Education. This specialised two-year online programme equips you with advanced pedagogical skills, covering Learning, Teaching and Assessment, Curriculum Design and Development, and Academic Writing.",
     },
     {
-      cover: "/images/Rectangle 5.png",
-      courseName: "Undergraduate Programme",
-      title: "Bachelor of Commerce in Accountancy",
+      cover: "/images/courses-images/Msc in Information Systems management.png",
+      courseName: "Postgraduate Programme",
+      title: "Master of Science in Information Systems Management",
       description:
-        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
+        "Ready to excel in information systems management? Our Master of Science in Information Systems Management is a professionally oriented online programme, perfect if you need flexible learning.",
     },
     {
-      cover: "/images/Rectangle 6.png",
-      courseName: "Undergraduate Programme",
-      title: "Bachelor of Commerce in Accountancy",
+      cover: "/images/courses-images/Msc in computer science.png",
+      courseName: "Postgraduate Programme",
+      title: "Master of Science in Computer Science",
       description:
-        "The Bachelor of Commerce in Accountancy is a professionally oriented and highly relevant online programme that will provide you wi....",
+        "Aspiring to excel in the tech industry? Our Master of Science in Computer Science is an advanced, flexible online programme.",
+    },
+  ];
+  const cardDataUg = [
+    {
+      cover: "/images/courses-images/Bsc in data science.png",
+      courseName: "Undergraduate Programme",
+      title: "Bachelor of Science in Data Science",
+      description:
+        "Want to become a data expert? Our four-year BSc in Data Science equips you to extract meaningful insights from vast datasets.",
+    },
+    {
+      cover: "/images/courses-images/Bed in Primary.png",
+      courseName: "Undergraduate Programme",
+      title:
+        "Bachelor of Education in Primary Education (English Language and Mathematics)",
+      description:
+        "Ready to shape the future of education? Botho University's Bachelor of Education (Primary Education) programme is designed for aspiring and current educators, equipping you with essential skills and knowledge to excel.",
+    },
+    {
+      cover: "/images/courses-images/BSc in network security.png",
+      courseName: "Undergraduate Programme",
+      title: "BSc in Network Security and Computer Forensics",
+      description:
+        "Ready to become a cybersecurity expert? Our BSc in Network Security and Computer Forensics is a specialised degree equipping you to protect digital assets and investigate cyber threats.",
+    },
+    {
+      cover: "/images/courses-images/BSc in health info.png",
+      courseName: "Undergraduate Programme",
+      title: "Bachelor of Science in Health Information Management",
+      description:
+        "Fascinated by the intersection of healthcare and technology? Our BSc in Health Information Management equips you to manage health data, information systems, and technology solutions.",
+    },
+    {
+      cover: "/images/courses-images/BSc in Hospitality.png",
+      courseName: "Undergraduate Programme",
+      title: "Bachelor of Science in Hospital Administration",
+      description:
+        "Aspiring to a leadership position in healthcare? Our BSc in Hospital Administration is a specialised programme designed to equip you with essential knowledge and skills.",
+    },
+    {
+      cover: "/images/courses-images/BSc in Safety..png",
+      courseName: "Undergraduate Programme",
+      title:
+        "Bachelor of Science in Safety, Health and Environmental Management",
+      description:
+        "Ready to champion workplace safety and environmental well-being? Our BSc in Safety, Health, and Environment (SHE) Management is an interdisciplinary programme designed to equip you with essential knowledge.",
     },
   ];
   const faqData = [
@@ -155,14 +202,14 @@ const PageTwo = () => {
       <NavBar />
       <StaticHome />
       <Course
-        cardData={cardData}
+        cardData={cardDataPg}
         moreButton={false}
         secondaryHeading="Postgraduate Programmes"
         secondaryParagraph="Take your expertise to the next level with advanced qualifications designed for leadership and impact."
         courseName="Postgraduate Programmes"
       />
       <Course
-        cardData={cardData}
+        cardData={cardDataUg}
         secondaryHeading="Undergraduate Programmes"
         secondaryParagraph="Start strong with a flexible, accredited degree that builds your foundation for a successful career."
       />
