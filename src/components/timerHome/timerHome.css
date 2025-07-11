@@ -41,7 +41,7 @@
   .col-grid div {
     padding: 10px;
     border-radius: 4px;
-    color: black;
+    color: "#575757";
   }
 
   .image-portion {
@@ -690,6 +690,7 @@
     display: flex;
     flex-direction: column;
     width: 50%;
+    gap: 0;
   }
 
   .right-part {
@@ -708,6 +709,8 @@
   .col-grid div {
     padding: 10px 10px 10px 5px;
     border-radius: 4px;
+    color: #575757;
+    
   }
 
   .image-portion {
@@ -793,7 +796,7 @@
   .primary-heading.black,
   .sub-heading,
   .col-grid {
-    color: black;
+    color: #575757;
   }
 
   .forButton {
@@ -854,4 +857,10 @@
     display: none;
   }
 
+  .timerHome-programme-overview {
+    gap: 30px;
+  }
+  .col-grid div h3 {
+    margin-bottom: 12px;
+  }
 }

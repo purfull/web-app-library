@@ -38,6 +38,8 @@
     font-weight: 400;
     line-height: 150%;
     padding-bottom: 20px;
+
+
   }
   .course-title {
     font-size: 24px;
@@ -186,6 +188,7 @@
     font-weight: 400;
     line-height: 150%;
     padding-bottom: 20px;
+    
   }
   .course-title {
     font-size: 24px;
@@ -602,6 +605,7 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px;
+    gap: 30px;
   }
   .card-container {
     display: grid;
@@ -633,7 +637,9 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 150%;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding: 15px 0 !important;
+    
   }
   .course-title {
     font-size: 24px;

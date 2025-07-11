@@ -110,7 +110,7 @@ const Courses = ({
           </div>
         </div>
         <div
-          className="secondary-paragraph mobile-topheading black"
+          className="secondary-paragraph mobile-topheading black padding-zero"
           style={{ color: "#000" }}
         >
           {secondaryParagraph || (
@@ -137,8 +137,8 @@ const Courses = ({
           >
             {/* <img  alt="cover" src={item.cover} /> */}
             <p className="course-tag">{courseName || item.courseName}</p>
-            <p className="course-title">{item.title}</p>
-            <p className="course-desc">{item.description}</p>
+            <p className="course-title text-elipses-2">{item.title}</p>
+            <p className="course-desc text-elipses-3">{item.description}</p>
             <button
               className="fourth-button read"
               onClick={handleCourse}
