@@ -8,8 +8,8 @@ const herobanner = [
     Primarytittle: "Affordable. Flexible. Build",
     highlightedText: "Around You",
     PrimaryTitleEnd: "",
-    highlightedBgColor: "white",
-    highlightedTextColor: "#841D2E",
+    highlightedBgColor: "#841D2E",
+    highlightedTextColor: "white",
     subtittle:
       "At Botho University, our online learning fees are designed to give you full control. You only pay for the modules you register for—each one priced according to its credit load. This pay-as-you-go model ensures you’re only investing in what you study, with no hidden costs.",
     button: "Download Full Fee Structure PDF",
@@ -29,8 +29,8 @@ const herobanner = [
     Primarytittle: "Affordable. Flexible. Build",
     highlightedText: "Around You",
     PrimaryTitleEnd: "",
-    highlightedBgColor: "white",
-    highlightedTextColor: "#841D2E",
+    highlightedBgColor: "#841D2E",
+    highlightedTextColor: "white",
     subtittle:
       "At Botho University, our online learning fees are designed to give you full control. You only pay for the modules you register for—each one priced according to its credit load. This pay-as-you-go model ensures you’re only investing in what you study, with no hidden costs.",
     button: "Download Full Fee Structure PDF",
@@ -50,8 +50,8 @@ const herobanner = [
     Primarytittle: "Affordable. Flexible. Build",
     highlightedText: "Around You",
     PrimaryTitleEnd: "",
-    highlightedBgColor: "white",
-    highlightedTextColor: "#841D2E",
+    highlightedBgColor: "#841D2E",
+    highlightedTextColor: "white",
     subtittle:
       "At Botho University, our online learning fees are designed to give you full control. You only pay for the modules you register for—each one priced according to its credit load. This pay-as-you-go model ensures you’re only investing in what you study, with no hidden costs.",
     button: "Download Full Fee Structure PDF",
@@ -74,7 +74,7 @@ const FeeHome = () => {
     <>
       <Carousel
         className="carosal-inner"
-        autoplay
+        // autoplay
         // dotPosition="bottom"
         dots={false}
       >
@@ -114,7 +114,7 @@ const FeeHome = () => {
                   {item.subtittle}
                 </p>
 
-                <div className="">
+                {/* <div className="">
                   <button className="primary-button fee-primary-button">
                     {item.button}{" "}
                     <img
@@ -124,8 +124,8 @@ const FeeHome = () => {
                       srcset=""
                     />{" "}
                   </button>
-                </div>
-                <div className="sub-heading-main">
+                </div> */}
+                <div className="sub-heading-main mt-zero">
                   <div className="dynamic-img-main">
                     {item.dynamicimg.map((item, index) => (
                       <img
@@ -146,6 +146,16 @@ const FeeHome = () => {
           </div>
         ))}
       </Carousel>
+      <div className="titleBar wraper" >
+              <div className="heading" >
+                <span className="secondary-heading">
+                  Fees for 2025
+                </span>
+              </div>
+              <div className="secondary-paragraph black padding-zero" style={{ width: "70vw" }}><span> To support your budgeting, we offer a structured instalment payment plan that makes it easier to manage your fees. All fees for the current semester must be settled before you progress to the next, so staying on track with payments is key to uninterrupted learning. <br></br>
+                Paying is simple and convenient. Use our secure online payment gateway, or choose from other flexible options including campus payments, bank transfers, and—within Botswana—Orange Money.
+                Invest in your future with a payment plan that fits your life.</span></div>
+            </div>
     </>
   );
 };

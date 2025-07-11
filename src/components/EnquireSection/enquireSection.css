@@ -666,6 +666,7 @@
   .title-logo-main {
     align-items: start;
     padding: 10px;
+    gap: 12px;
   }
 
   .sub-amount-deatils {
@@ -698,7 +699,7 @@
 
   .main-fee-deatils {
     width: 100%;
-    gap: 35px;
+    gap: 4px;
     padding: 10px 0px;
 
   }
@@ -720,5 +721,6 @@
 
   .view-enquire-button {
     padding: 10px 0px;
+    margin-top: 8px;
   }
 }

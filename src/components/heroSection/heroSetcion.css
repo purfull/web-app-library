@@ -401,8 +401,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 18px;
+    justify-content: flex-start !important;
+    gap: 28px !important;
     margin-top: 20px;
   }
 
@@ -421,6 +421,7 @@
 
   .dynamic-img-main {
     display: flex;
+    width: auto;
   }
 
   .dynamic-img {

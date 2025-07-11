@@ -5,6 +5,7 @@ import img1 from "../../../public/images/Ellipse 21.png";
 import img2 from "../../../public/images/Ellipse 22.png";
 import img3 from "../../../public/images/Ellipse 23.png";
 import img4 from "../../../public/images/Ellipse 24.png";
+import downloadIcon from "../../../public/icon/Frame (1).png";
 
 const imageList = [img1, img2, img3, img4];
 
@@ -77,7 +78,7 @@ const TimerHome = () => {
             </button>
             <button className="download-button">
               <span className="button-text">Download Programme Module</span>
-              <img src="/icon/download.png" alt="download" />
+              <img src={downloadIcon} alt="download" />
             </button>
           </div>
         </div>
@@ -149,13 +150,13 @@ const TimerHome = () => {
 
         </div>
       </div>
-      <div className="titleBar wraper" >
+      <div className="titleBar wraper timerHome-programme-overview page-gap" >
         <div className="heading" >
           <span className="secondary-heading">
             Programme Overview
           </span>
         </div>
-        <div className="secondary-paragraph black" style={{ padding: " 10px", width: "70vw" }}><p> Want to become a data expert? Our four-year BSc in Data Science equips you to extract meaningful insights from vast datasets. This programme integrates statistics, machine learning, computer science, and data analytics. You'll develop expertise in Data Processing, Analytics, and Visualisation, mastering Machine Learning, Data Mining, and Big Data Technologies. <br></br><br></br>
+        <div className="secondary-paragraph black padding-zero" style={{ width: "70vw" }}><p> Want to become a data expert? Our four-year BSc in Data Science equips you to extract meaningful insights from vast datasets. This programme integrates statistics, machine learning, computer science, and data analytics. You'll develop expertise in Data Processing, Analytics, and Visualisation, mastering Machine Learning, Data Mining, and Big Data Technologies. <br></br><br></br>
           With hands-on experience in AI and cloud computing, plus a Capstone Project and industrial attachment, you'll gain practical, industry-relevant skills. Graduates are well-prepared for dynamic careers as Data Scientists, Business Analysts, or AI Engineers in finance, healthcare, and technology.</p></div>
       </div>
     </>

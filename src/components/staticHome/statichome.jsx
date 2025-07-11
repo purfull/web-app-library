@@ -99,7 +99,7 @@ const staticHome = () => {
                   <img src={item.src} alt={item.alt} />
                 </div>
                 <h4 className="icon-heading">{item.title}</h4>
-                <p className="icon-text">{item.text}</p>
+                <p className="icon-text padding-zero">{item.text}</p>
               </div>
             ))}
           </div>
