@@ -22,12 +22,12 @@ const EnquireSection = ({
       
                 <span className="secondary-heading" >
                   
-  {cardTitle.split(" ").slice(0, 2).join(" ")}<br />
-  {cardTitle.split(" ").slice(2).join(" ")}
+  {cardTitle?.split(" ").slice(0, 2).join(" ")}<br />
+  {cardTitle?.split(" ").slice(2).join(" ")}
                 </span>
 
       <div className="card-container">
-        {cardData.map((item, index) => (
+        {cardData?.map((item, index) => (
           <Card
             className="course-card"
             key={index}
@@ -38,7 +38,7 @@ const EnquireSection = ({
 
             <div className="title-logo-main">
 
-              <img src={item.image} /> 
+              <img src={item.image} className="course-icon-image" /> 
               <p className="course-title text-elipses-2">{item.title}</p>
               {/* <p>logo</p> */}
               {/* <img src="/icon/More.png"/> */}

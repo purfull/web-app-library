@@ -114,7 +114,7 @@ const PageFour = () => {
     {
 
       title: "Bachelor of Commerce in Accounting",
-      image: "/images/course-icons/test-1.png",
+      image: "/images/courses-images/Square/Bcom in accounting.png",
       description: {
         one: "1. Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2. Introduction to Financial Markets 1",
@@ -133,7 +133,7 @@ const PageFour = () => {
     {
 
       title: "Bachelor of Business Administration in Business Management",
-      image: "/images/course-icons/test-1.png",
+      image: "/images/courses-images/Square/BBA in bus mgmt.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
@@ -150,7 +150,7 @@ const PageFour = () => {
     {
 
       title: "Bachelor of Commerce in Hospitality Management",
-      image: "/images/course-icons/test-1.png",
+      image: "/images/courses-images/Square/Bcom in Hospitality.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
@@ -167,7 +167,7 @@ const PageFour = () => {
     {
 
       title: "Diploma in Occupational Health Safety",
-      image: "/images/course-icons/test-1.png",
+      image: "/images/courses-images/Square/Diploma in Occup.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
@@ -187,7 +187,7 @@ const PageFour = () => {
     {
 
       title: "Bachelor of Science in Health Information Management",
-      image: "/images/course-icons/test-1.png",
+      image: "/images/courses-images/Square/BSc in health info.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
@@ -206,7 +206,7 @@ const PageFour = () => {
     {
 
       title: "Bachelor of Science in Hospital Administration",
-      image: "/images/course-icons/test-1.png",
+      image: "/images/courses-images/Square/BSc in Hospitality.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
@@ -225,7 +225,7 @@ const PageFour = () => {
     {
 
       title: "Bachelor of Science in Safety, Health and Environmental Management",
-      image: "/images/course-icons/test-1.png",
+      image: "/images/courses-images/Square/BSc in Safety.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
@@ -244,7 +244,7 @@ const PageFour = () => {
     {
 
       title: "Bachelor of Education in Primary Education (English Language and Mathematics)",
-      image: "/images/course-icons/test-1.png",
+      image: "/images/courses-images/Square/Bed in Primary.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
@@ -263,7 +263,7 @@ const PageFour = () => {
     {
 
       title: "Bachelor of Science in Data Science",
-      image: "/images/course-icons/test-1.png",
+      image: "/images/courses-images/Square/Bsc in data science.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
@@ -282,7 +282,7 @@ const PageFour = () => {
     {
 
       title: "BSc in Network Security and Computer Forensics",
-      image: "/images/course-icons/test-1.png",
+      image: "/images/courses-images/Square/BSc in network security.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
@@ -305,7 +305,7 @@ const PageFour = () => {
     {
 
       title: "Master of Commerce in Human Resource Management",
-      image: "/images/course-icons/test-1.png",
+      image: "/images/courses-images/Square/MCom in Human resource.png",
       description: {
         one: "1. Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2. Introduction to Financial Markets 1",
@@ -324,7 +324,7 @@ const PageFour = () => {
     {
 
       title: "Master of Business Administration (MBA)",
-      image: "/images/course-icons/test-1.png",
+      image: "/images/courses-images/Square/MBA.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
@@ -341,7 +341,7 @@ const PageFour = () => {
     {
 
       title: "Post Graduate Diploma in Higher Education",
-      image: "/images/course-icons/test-1.png",
+      image: "/images/courses-images/Square/PGDHE.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
@@ -355,10 +355,11 @@ const PageFour = () => {
         fees: "2,340",
       }
     },
+
     {
 
       title: "Master of Educational Leadership and Management",
-      image: "/images/course-icons/test-1.png",
+      image: "/images/courses-images/Square/Med in educational leadership and mgmt.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
@@ -375,10 +376,11 @@ const PageFour = () => {
       }
 
     },
+
     {
 
       title: "Master of Education in Curriculum Design and Instruction",
-      image: "/images/course-icons/test-1.png",
+      image: "/images/courses-images/Square/Med in curriculum.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
@@ -397,7 +399,7 @@ const PageFour = () => {
     {
 
       title: "Masters of Education in Higher Education",
-      image: "/images/course-icons/test-1.png",
+      image: "/images/courses-images/Square/Med in higher education.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
@@ -416,7 +418,7 @@ const PageFour = () => {
     {
 
       title: "Master of Science in Information Systems Management",
-      image: "/images/course-icons/test-1.png",
+      image: "/images/courses-images/Square/Msc in Information Systems management.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
@@ -435,7 +437,7 @@ const PageFour = () => {
     {
 
       title: "Master of Science in Computer Science",
-      image: "/images/course-icons/test-1.png",
+      image: "/images/courses-images/Square/Msc in computer science.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",

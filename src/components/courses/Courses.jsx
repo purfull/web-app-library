@@ -35,6 +35,8 @@ const Courses = ({
   const handleSuggestionClick = (title) => {
     setSearchText(title);
     setShowSuggestions(false);
+    navigate("/course");
+    window.scrollTo(0, 0);
   };
 
   const handleCourse = () => {

@@ -723,4 +723,7 @@
     padding: 10px 0px;
     margin-top: 8px;
   }
+  .course-icon-image {
+    width: 60px;
+  }
 }
