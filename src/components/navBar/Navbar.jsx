@@ -30,7 +30,7 @@ const NavBar = () => {
   return (
     <div className="nav-head">
       <div className="nav-bar">
-        <img src="../logo/BothoLogo.png" alt="logo" onClick={handleHomeClick} style={{cursor: "pointer"}} />
+        <img src="../logo/BothoLogo-hd.png" alt="logo" className="nav-logo" onClick={handleHomeClick} style={{cursor: "pointer"}} />
 
         <div className="">
           {showSearchInput && (
