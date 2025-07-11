@@ -19,7 +19,7 @@ const TimerHome = ({
         <div className="left-part">
           <div className="row-grid">
             <div className="primary-heading black">
-              {data.title || "Bachelor of Science in Data Science"}
+              {data?.title || "Bachelor of Science in Data Science"}
             </div>
             <div className="image-portion">
               <div className="dynamic-image">
@@ -42,34 +42,34 @@ const TimerHome = ({
           <div className="col-grid">
             <div className="grid-1">
               <div>
-                <h3>{data.minPeriod} years</h3>
+                <h3>{data?.minPeriod} years</h3>
                 <p>Minimum Period</p>
               </div>
               <div>
-                <h3>{data.maxPeriod}  years</h3>
+                <h3>{data?.maxPeriod}  years</h3>
                 <p>Maximum Period</p>
               </div>
               <div>
-                <h3>{data.programmeCredit} </h3>
+                <h3>{data?.programmeCredit} </h3>
                 <p>Fees per Programme Credit</p>
               </div>
             </div>
             <div className="grid-2">
               <div>
-                <h3>{data.totalProgrammeCredit} </h3>
+                <h3>{data?.totalProgrammeCredit} </h3>
                 <p>Total Programmes Credits</p>
               </div>
               <div>
-                <h3>{data.noOfModules} </h3>
+                <h3>{data?.noOfModules} </h3>
                 <p>Number of Modules</p>
               </div>
               <div>
-                <h3>{data.totalFee} </h3>
+                <h3>{data?.totalFee} </h3>
                 <p>Total Tuition Fee</p>
               </div>
             </div>
           </div>
-          {data.cta && <div className="forButton">
+          {data?.cta && <div className="forButton">
             <button className="secondary-button">
               <span>Apply Now</span>
               <img
@@ -88,7 +88,7 @@ const TimerHome = ({
 
           <div className="TimerImage" style={{ backgroundImage: "url('/images/timer-img.png')" }}>
 
-            {data.timer && <div className="counter-box-main">
+            {data?.timer && <div className="counter-box-main">
               <div className="countdown-box">
                 <div className="timer-row">
                   <div className="time-block">
@@ -123,7 +123,7 @@ const TimerHome = ({
           <div className="mobile-img-comtainer" style={{ backgroundImage: "url('/images/timer-img.png')" }}>
           </div>
 
-          {data.timer && <div className="counter-box-main">
+          {data?.timer && <div className="counter-box-main">
             <div className="countdown-box">
               <div className="timer-row">
                 <div className="time-block">
@@ -152,7 +152,7 @@ const TimerHome = ({
 
         </div>
       </div>
-      {data.overview && <div className="titleBar wraper timerHome-programme-overview page-gap" >
+      {data?.overview && <div className="titleBar wraper timerHome-programme-overview page-gap" >
         <div className="heading" >
           <span className="secondary-heading">
             Programme Overview
