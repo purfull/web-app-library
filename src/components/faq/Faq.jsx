@@ -6,29 +6,10 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
-const Faq = ({faqData, title}) => {
+const Faq = ({ faqData, title }) => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const faqPart2Ref = useRef(null);
-
-  // useEffect(() => {
-  //   const mm = window.matchMedia("(min-width: 768px)");
-  //   if (mm.matches && faqPart2Ref.current) {
-  //     ScrollTrigger.create({
-  //       trigger: faqPart2Ref.current,
-  //       start: "top top",
-  //       end: "bottom bottom",
-  //       pin: true,
-  //       scrub: 1,
-  //       markers: false, // set to true to debug
-  //     });
-  //   }
-  //   return () => {
-  //     ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-  //   };
-  // }, []);
-
-
 
   const toggleFaq = (index) => {
     setOpenIndex(openIndex === index ? null : index);
@@ -63,9 +44,11 @@ const Faq = ({faqData, title}) => {
               {openIndex === index && (
                 <div className="faq-answer">
                   {item.answer.split("\n\n").map((paragraph, i) => (
-                    <p key={i} className="answer-paragraph" dangerouslySetInnerHTML={{__html: paragraph}}>
-                      
-                    </p>
+                    <p
+                      key={i}
+                      className="answer-paragraph"
+                      dangerouslySetInnerHTML={{ __html: paragraph }}
+                    ></p>
                   ))}
                 </div>
               )}
