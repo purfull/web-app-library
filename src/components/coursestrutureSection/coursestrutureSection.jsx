@@ -360,31 +360,31 @@ const CourseStruture = () => {
     ];
 
     return (
-        <div className="content-container">
-            <div className="content-part1">
+        <div className="semester-content-container">
+            <div className="semester-content-part1">
                 <span className="secondary-heading">Programme Structure</span>
             </div>
 
-            <div className="content-part2" ref={contentPart2Ref}>
+            <div className="semester-content-part2" ref={contentPart2Ref}>
                 {contentData.map((semesterItem, semIndex) => (
                     <div key={semIndex} className="semester-section">
                         <div className="semester-title">
                             <p>{semesterItem.semester}</p>
                         </div>
 
-                        <div className="content-portion">
+                        <div className="semester-content-portion">
                             {semesterItem.courses.map((course, courseIndex) => {
                                 const key = `${semIndex}-${courseIndex}`;
                                 return (
-                                    <div key={key} className="content-item">
+                                    <div key={key} className="semester-content-item">
                                         <div
-                                            className="content-question"
+                                            className="semester-content-question"
                                             onClick={() => toggleFaq(semIndex, courseIndex)}
                                             role="button"
                                             tabIndex={0}
                                             onKeyDown={(e) => e.key === "Enter" && toggleFaq(semIndex, courseIndex)}
                                         >
-                                            <span className="question-text">{course.question}</span>
+                                            <span className="semester-question-text">{course.question}</span>
                                             {openIndex.includes(key) ? (
                                                 <MinusOutlined style={{ fontSize: 15 }} />
                                             ) : (
@@ -393,16 +393,16 @@ const CourseStruture = () => {
                                         </div>
 
                                         {openIndex.includes(key) && (
-                                            <div className="content-answer">
+                                            <div className="semester-content-answer">
 
                                                 <div className="sem-acc" >
 
-                                                    <p className="sub-answer-paragraph half-width">
+                                                    <p className="sub-answer-paragraph ">
                                                         {/* {course.subanswer} */}
                                                         <div dangerouslySetInnerHTML={{ __html: course.subanswer }} />
 
                                                     </p>
-                                                    <p className="answer-paragraph half-width">
+                                                    <p className="semester-answer-paragraph ">
                                                         {course.answer}
                                                     </p>
                                                 </div>
