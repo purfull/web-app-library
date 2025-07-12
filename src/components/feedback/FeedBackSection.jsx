@@ -19,14 +19,14 @@ const studentdeatils = [
     studentsdata:
       "I am proud to be a graduate of the Postgraduate Diploma in Higher Education at Botho University, Class of 2024, and am now pursuing my MBA with the same institution. My journey has been exceptional, characterised by quality education, flexible online learning, and strong support from faculty and staff. The online platform is well organised, with accessible materials that made studying both manageable and engaging. The Postgraduate Diploma gave me critical knowledge and practical skills that enhanced my professional growth and prepared me for the MBA. I’m grateful for this enriching experience and highly recommend Botho University to anyone seeking quality education, whether online or on campus.",
     imgs: ["/icon/Icon.png"],
-    studentname: "Atang Gaone Seitiso Botswana",
+    studentname: "Atang Gaone Seitiso - Botswana",
     year: "2083",
   },
   {
     studentsdata:
       "As a final year student pursuing a degree in Network Security and Computer Forensics at Botho University, I’ve genuinely enjoyed every step of my academic journey. The university goes beyond traditional learning by nurturing leadership, critical thinking, and an entrepreneurial spirit. I’ve grown not only as a tech professional but as a future employer and innovator. Botho prepares you to lead, to build, and to thrive in the modern world. I’m proud to be shaped by a university that develops game-changers, not just job seekers.",
     imgs: ["/icon/Icon.png"],
-    studentname: "Benjamen Elungu Namibia",
+    studentname: "Benjamen Elungu - Namibia",
     year: "2083",
   },
   {
@@ -68,7 +68,7 @@ const studentdeatils = [
     studentsdata:
       "I am a proud graduate of the Postgraduate Diploma in Higher Education, Class of 2024, at Botho University. Studying online while pursuing my PhD in Kenya was incredibly rewarding. The flexible learning model allowed me to manage both commitments effectively. The programme was well-structured, with accessible, relevant digital resources that met my academic and professional needs. A standout aspect was the unwavering support from my Programme Mentor, whose guidance kept me motivated throughout. This qualification has deepened my understanding of pedagogy and strengthened my confidence as an educator. I’m truly grateful for the experience and highly recommend Botho University.",
     imgs: ["/icon/Icon.png"],
-    studentname: "Josephine Tshepho Segotsi",
+    studentname: "Josephine Tshepho - Segotsi",
     year: "2083",
   },
   {
@@ -203,7 +203,7 @@ const FeedBackSection = () => {
                 <p className="secondary-paragraph black">{item.studentsdata}</p>
                 <div className="feedback-divider"> </div>
                 <p className="secondary-paragraph black">
-                  {item.studentname} .., {item.year}
+                  {item.studentname}
                 </p>
               </div>
             </div>
