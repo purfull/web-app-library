@@ -10,6 +10,7 @@ import Footer from "../components/footer/Footer";
 // import InfiniteSection from "../components/infiniteSection/InfiniteCompo";
 import FeedBackSection from "../components/feedback/FeedBackSection";
 import CourseStruture from "../components/coursestrutureSection/coursestrutureSection";
+import {bbabm} from "./PageThreeData"
 
 const PageThree = () => {
   
@@ -185,10 +186,10 @@ const PageThree = () => {
       <RednavBar />
       <NavBar />
       {/* <StaticHome /> */}
-      <TimerHome data={heroData} />
+      <TimerHome data={bbabm?.heroContent} />
       {/* <Course /> */}
       <Faq faqData={requirements} title="Requirements" />
-      <CourseStruture />
+      <CourseStruture courseStruture={bbabm?.courseStruture} />
       <FeedBackSection />
       <Faq faqData={faqData} />
       <BannerSection />
