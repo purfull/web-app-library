@@ -1,4 +1,4 @@
-export const bba = {
+export const bsds = {
   heroContent: {
     title: "Bachelor of Science in Data Science",
     minPeriod: 4,
@@ -3156,6 +3156,967 @@ export const bscshem = {
   "To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:"
   </p>
   <h3>Device Requirements</h3> 
+  <ul>
+    <li>
+      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
+    </li>
+    <li><strong>OR</strong></li>
+    <li>
+      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+    </li>
+  </ul>
+
+  <h3>Internet Requirements</h3>
+  <ul>
+    <li>
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+    </li>
+    <li>
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+    </li>
+  </ul>
+
+  <h3>Software and Platforms</h3>
+  <ul>
+    <li>
+      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+    </li>
+  </ul>
+
+  <h3>Browser Requirements</h3>
+  <ul>
+    <li>
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+    </li>
+  </ul>
+
+  <h3>Additional Tools (Optional but Recommended)</h3>
+  <ul>
+    <li>Headset: For clear audio during virtual classes</li>
+    <li>External storage (USB/Cloud): For backups of important coursework</li>
+    <li>Antivirus software: To protect against malware or data loss</li>
+  </ul>
+</div>
+`,
+    },
+  ],
+  programOverview: ``,
+};
+
+export const bEdPrimary = {
+  heroContent: {
+    title:
+      "Bachelor of Education in Primary Education (English Language and Mathematics)",
+    minPeriod: 4,
+    maxPeriod: 6,
+    programmeCredit: "$13",
+    totalProgrammeCredit: 480,
+    noOfModules: "30 (29 core + 1 elective)",
+    totalFee: "$6,240",
+    cta: true,
+    timer: true,
+    overview: true,
+  },
+  courseStruture: [
+    {
+      semester: "Semester 1",
+      courses: [
+        {
+          question: "Communication and Academic literacy Skills",
+          subanswer:
+            "Code: D5-CAS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
+          answer:
+            "This module develops foundational literacy skills—listening, speaking, reading, and writing—essential for academic success and future employment. Learners gain phonemic awareness, vocabulary, spelling, and comprehension. The aim is to enable effective communication in formal settings, empowering learners to engage meaningfully in their studies and broader professional contexts.",
+        },
+        {
+          question: "Computer Skills Fundamentals",
+          subanswer:
+            "Code: D5-CSF-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
+          answer:
+            "This module introduces basic computer concepts essential for everyday life. Learners will explore key terminology, work with Microsoft Windows, and learn to manage files and folders. The module also covers fundamental features of MS Office applications, including Word, Excel, Outlook, PowerPoint, and Access.",
+        },
+        {
+          question: "Introduction to Educational Psychology",
+          subanswer:
+            "Code: D5-IEP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+          answer:
+            "This module explores key issues in education and how they impact both teachers and learners. It emphasises understanding learners’ developmental stages and how to support their learning effectively. Through the lens of educational psychology, topics such as human behaviour, growth, learning processes, and experiences are examined to deepen learner understanding.",
+        },
+        {
+          question: "Introduction to Curriculum and Instruction",
+          subanswer:
+            "Code: D5-ICI-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+          answer:
+            "This module provides learners with a critical understanding of the drivers, processes, and models of curriculum design and development. It equips them with the skills to evaluate, critique, and create quality-based curricula suited to diverse educational contexts.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 2",
+      courses: [
+        {
+          question:
+            "Introductory Biology and Earth Science For Primary Teachers",
+          subanswer:
+            "Code: D6-IBE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
+          answer:
+            "This module aims to develop theoretical knowledge, skills, and abilities to understand and apply principles of biology and earth sciences in primary science teaching. It prepares learners to effectively integrate these concepts into classroom practice.",
+        },
+        {
+          question: "Introduction to Numeracy and Science for Teachers",
+          subanswer:
+            "Code: D6-INS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+          answer:
+            "This module aims to develop essential integrated knowledge and skills in numeracy, science, and technology. This cross-curricular foundation is crucial for effectively teaching primary science in primary schools.",
+        },
+        {
+          question: "The Pronunciation of English",
+          subanswer:
+            "Code: D6-TPE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+          answer:
+            "This module develops an understanding of how words and sentences interact to form speech, focusing on pronunciation and grammatical foundations essential for effective communication. Learners will explore key linguistic rules and structures. Assessment includes both informal and formal tasks such as essays, debates, presentations, discussion forums, and a project.",
+        },
+        {
+          question: "English Linguistics",
+          subanswer:
+            "Code: D6-ELG-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
+          answer:
+            "The study of English Linguistics is essential for college learners as it provides a systematic understanding of how language functions, evolves, and influences communication. This course equips students with analytical skills to examine the structure of the English language—covering phonetics, morphology, syntax, semantics, and pragmatics—enhancing both written and spoken communication abilities.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 3",
+      courses: [
+        {
+          question: "Introduction to Reading Process",
+          subanswer:
+            "Code: D6-IRP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+          answer:
+            "This module aims to develop learners into independent readers. It focuses on using context, dictionaries, and tables of contents, and encourages thoughtful responses to texts. Learners will enhance their creative and critical thinking skills while reading with clear understanding and purpose.",
+        },
+        {
+          question: "Introduction to Educational Research",
+          subanswer:
+            "Code: D6-IER-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
+          answer:
+            "This module equips learners with an understanding of research principles and the ability to reflect on various research methods. It explores how the selection and application of theories, methods, and approaches influence the entire research process.",
+        },
+        {
+          question: "Introduction to Chemistry and Physics",
+          subanswer:
+            "Code: D6-ICP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+          answer:
+            "This module introduces learners to fundamental concepts in chemistry and physics. It covers the structure of matter, basic quantitative and qualitative aspects of chemistry, and key principles of physics, including light, electricity, and sound.",
+        },
+        {
+          question: "Writing in English",
+          subanswer:
+            "Code: D6-WEG-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
+          answer:
+            "This module helps learners improve their English writing skills for academic tasks such as essays and assignments. It also prepares them for professional communication after tertiary education, including writing emails, reports, and other formal documents.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 4",
+      courses: [
+        {
+          question: "Strategies for Teaching Numeracy and Science in Schools",
+          subanswer:
+            "Code: D7-STN-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
+          answer:
+            "This module prepares Primary Education Science student teachers to select suitable teaching approaches, methods, techniques, and strategies for science instruction. It also equips them with the skills to develop schemes of work, lesson plans, and engage in microteaching and teaching practice effectively.",
+        },
+        {
+          question: "Strategies for Teaching Literacy in Schools",
+          subanswer:
+            "Code: D6-STL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
+          answer:
+            "This module equips future teachers with strategies to teach literacy across the curriculum using thematic and pedagogical approaches. Learners develop skills to embed literacy in daily classroom activities and design instruction using informative, narrative, and persuasive texts, underpinned by key theories of literacy acquisition and contextual understanding.",
+        },
+        {
+          question: "Managing Education for Sustainable Development",
+          subanswer:
+            "Code: D6-MES-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+          answer:
+            "This module aims to foster in learners an appreciation and respect for nature, raise awareness of environmental issues affecting their communities and the world, and promote understanding of the relationship between individuals, society, and the environment. It equips learners with knowledge and skills for sustainable, harmonious human-environment interaction.",
+        },
+        {
+          question: "Assessment in Primary Schools",
+          subanswer:
+            "Code: D7-APS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+          answer:
+            "This module aims to develop learners’ theoretical knowledge and skills in understanding and applying assessment principles. It focuses on effectively using these principles to assess learning in primary science, ensuring meaningful evaluation of student progress and achievement.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 5",
+      courses: [
+        {
+          question: "Teaching Methods for Mathematics in Primary Schools",
+          subanswer:
+            "Code: D7-TMM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
+          answer:
+            "This module introduces effective teaching strategies and techniques for primary mathematics. It explores appropriate pedagogies, purposes, scope, sequence, materials, and methodologies used in teaching the subject. The module also supports students in meeting Graduate Teaching Standards through the development of practical, evidence-based teaching skills.",
+        },
+        {
+          question: "Introductory Mathematics",
+          subanswer:
+            "Code: D6-ITM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits:20",
+          answer:
+            "This module provides learners with a solid foundation in core mathematical concepts, essential for applying mathematics across other subjects. It focuses on developing basic mathematical skills and introduces learners to their practical use in problem-solving contexts.",
+        },
+        {
+          question: "Modern English Grammar",
+          subanswer:
+            "Code: D7-MEG-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits:20",
+          answer:
+            "This module explores the theories and applications of English grammar from the Early Modern English period to the present. It focuses on analysing spoken and written texts using traditional, structural, and modern linguistic theories. Learners will develop the ability to describe, analyse, and construct language at word, phrase, clause, and discourse levels.",
+        },
+        {
+          question: "Academic Writing Skills",
+          subanswer:
+            "Code: D7-AWS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
+          answer:
+            "This module strengthens students’ confidence and critical thinking in engaging with academic texts. It develops essential referencing skills—summarising, paraphrasing, quoting, and citing—while reinforcing academic integrity. Learners will improve their ability to write clearly and accurately in English and think analytically within their field of study.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 6",
+      courses: [
+        {
+          question: "Infusing Environmental Education in the Curriculum",
+          subanswer:
+            "Code: D7-IEE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
+          answer:
+            "This module helps learners understand how their decisions and actions impact the environment. It builds the knowledge and skills needed to address complex environmental issues and explores practical ways to promote a healthy, sustainable environment for the future.",
+        },
+        {
+          question: "Conducting Remedial Teaching in Schools",
+          subanswer:
+            "Code: D7-CRT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
+          answer:
+            "This module aims to develop theoretical knowledge in selecting appropriate teaching approaches, methods, techniques, and strategies for effectively planning and delivering science lessons.",
+        },
+        {
+          question: "Instructional Materials",
+          subanswer:
+            "Code: D7-IMP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
+          answer:
+            "This module aims to equip learners with the knowledge and skills to design, develop, evaluate, and effectively use instructional materials that enhance teaching and learning experiences.",
+        },
+        {
+          question:
+            "Education for Children with Attention Deficit Hyper Disorder",
+          subanswer:
+            "Code: D7-ECD-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits:20",
+          answer:
+            "The module aims to equip student teachers with the knowledge, skills and competences needed to effectively support and facilitate learning for children with Attention Deficit Hyperactivity Disorder (ADHD).",
+        },
+      ],
+    },
+    {
+      semester: "Semester 6 Elective Group One (Choose One)",
+      courses: [
+        {
+          question: "Calculus",
+          subanswer:
+            "Code: D8-CLS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
+          answer:
+            "This module introduces learners to differential calculus and its applications, assuming no prior knowledge. Topics include functions and graphs, powers and roots, limits, rates of change, and derivatives. Learners will apply differentiation rules, explore exponential and logarithmic functions, and use derivatives for graph sketching and solving optimisation problems.",
+        },
+        {
+          question: "Teaching Algebra in Schools",
+          subanswer:
+            "Code: D7-TAS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
+          answer:
+            "This module aims to prepare primary school teachers to plan and deliver algebra lessons suited to the developmental level of primary learners. It focuses on building the knowledge and skills needed to teach algebra effectively and confidently in the primary classroom.",
+        },
+        {
+          question: "The Structure of the Sentence",
+          subanswer:
+            "Code: D7-TSS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
+          answer:
+            "This module teaches sentence structure, focusing on declarative, interrogative, imperative, and exclamative sentences. Learners will identify, construct, and explain each type, understanding their purpose. Mastery of sentence structure is essential for academic success and effective communication throughout university and beyond.",
+        },
+        {
+          question: "Breakthrough to Literacy",
+          subanswer:
+            "Code: D7-BTL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
+          answer:
+            "This module equips future teachers with diverse strategies for teaching literacy across the curriculum. Learners explore thematic and pedagogical approaches, integrate literacy into daily lessons, and design instruction using informative, narrative, and persuasive texts, underpinned by theories of literacy acquisition and relevant contextual frameworks.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 7",
+      courses: [
+        {
+          question: "Mathematical Applications for Teachers",
+          subanswer:
+            "Code: D7-MAT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits:20",
+          answer:
+            "This module prepares students for life, work, and further study in a world of continuous learning. It strengthens mathematical knowledge, skills, and concepts through practical, analytical, and problem-solving tasks, while encouraging integration with other modules.",
+        },
+        {
+          question: "Geometry for Primary School Teachers",
+          subanswer:
+            "Code: D7-GPT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
+          answer:
+            "This module explores the combinatorial properties of geometric objects, including point sets, subspace arrangements, convex polytopes, and geometric graphs. It introduces the fundamental concepts of the field and examines key structures and selected results.",
+        },
+        {
+          question: "Theory and Practice of Second Language Teaching",
+          subanswer:
+            "Code: D7-TPS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits:20",
+          answer:
+            "This module introduces key theories of second language acquisition, enabling learners to apply effective teaching strategies in the classroom. It also explores challenges in second language learning and guides learners in designing meaningful interventions to support their students' progress.",
+        },
+        {
+          question: "Literature in Primary Schools",
+          subanswer:
+            "Code: D7-LIP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
+          answer:
+            "This module introduces students to various forms of prose, both fiction and non-fiction, including essays, autobiographies, short stories, and novels. It also offers a brief overview of other literary genres such as poetry and drama.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 8",
+      courses: [
+        {
+          question: "Teaching Practice",
+          subanswer:
+            "Code: D7-TPC-23<br/>Prerequisite: 240 credits<br/>Co-requisite: None<br/>Module Fees: $780<br/>Module Credits:60",
+          answer:
+            "This module provides future teachers with practical classroom experience, bridging the gap between theory and practice. It prepares student-teachers for the realities of teaching by developing their skills, confidence, and adaptability in real educational settings.",
+        },
+      ],
+    },
+  ],
+  requirements: [
+    {
+      question: "Admission Requirements",
+      answer:
+        "IGCSE/equivalent with 5 Passes including English and Mathematics. Applicants in possession of a Diploma or Higher Diploma in related fields may be given exemptions based on the credit point equivalency.",
+    },
+    {
+      question: "Technical Requirements",
+      answer: `<div class="technical-requirements">
+  <p>
+  "To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:"
+  </p>
+  <h3>Device Requirements</h3> 
+  <ul>
+    <li>
+      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
+    </li>
+    <li><strong>OR</strong></li>
+    <li>
+      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+    </li>
+  </ul>
+
+  <h3>Internet Requirements</h3>
+  <ul>
+    <li>
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+    </li>
+    <li>
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+    </li>
+  </ul>
+
+  <h3>Software and Platforms</h3>
+  <ul>
+    <li>
+      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+    </li>
+  </ul>
+
+  <h3>Browser Requirements</h3>
+  <ul>
+    <li>
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+    </li>
+  </ul>
+
+  <h3>Additional Tools (Optional but Recommended)</h3>
+  <ul>
+    <li>Headset: For clear audio during virtual classes</li>
+    <li>External storage (USB/Cloud): For backups of important coursework</li>
+    <li>Antivirus software: To protect against malware or data loss</li>
+  </ul>
+</div>
+`,
+    },
+  ],
+  programOverview: ``,
+};
+
+export const pgdhe = {
+  heroContent: {
+    title: "Post Graduate Diploma in Higher Education",
+    minPeriod: 1,
+    maxPeriod: 2,
+    programmeCredit: "$19.50",
+    totalProgrammeCredit: 120,
+    noOfModules: "8 core",
+    totalFee: "$2,340.00",
+    cta: true,
+    timer: true,
+    overview: true,
+  },
+  courseStruture: [
+    {
+      semester: "Semester 1",
+      courses: [
+        {
+          question: "Foundations of Education",
+          subanswer:
+            "Code: D8-FED-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
+          answer:
+            "This module introduces the foundational areas of education—philosophy, psychology, sociology, and history—helping learners understand the key components that form the field of education.",
+        },
+        {
+          question: "Pedagogics and Andragogics in Education",
+          subanswer:
+            "Code: D8-PAE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
+          answer:
+            "This module enables learners to identify student needs and integrate them into teaching, learning, and assessment. It offers general strategies relevant to supporting learners in higher education.",
+        },
+        {
+          question: "Outcome-Based Assessment",
+          subanswer:
+            "Code: D8-OBA-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+          answer:
+            "This module teaches learners to plan, design, and administer outcome-based assessments using competency-based methods. It focuses on aligning assessments with programme learning outcomes to effectively measure student learning.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 1 Elective Group One (Choose One)",
+      courses: [
+        {
+          question: "Understanding Student Diversity in Higher Education",
+          subanswer:
+            "Code: D8-SDE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+          answer:
+            "This module promotes tolerance and a sense of security in diverse learning environments. It fosters intercultural sensitivity, helping learners navigate differences in culture, religion, race, gender, and more. Students gain improved cultural awareness, creativity, performance, and the ability to challenge prejudice and embrace diversity in educational and social settings.",
+        },
+        {
+          question: "Leadership and Management in Higher Education",
+          subanswer:
+            "Code: D8-LME-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+          answer:
+            "This module provides learners with comprehensive knowledge of leadership and management in education. Aimed at aspiring leaders, it covers key areas such as innovation, educational technology, communication, conflict resolution, organisational culture, policy, inspection systems, and leadership philosophy, equipping learners for effective administration in academic settings.",
+        },
+        {
+          question: "Context and Policy in Higher Education",
+          subanswer:
+            "Code: D8-CPE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+          answer:
+            "This module explores key education policy issues through historical, philosophical, economic, political, and sociological lenses. Students will analyse the development of education systems and debate education's role in society, enhancing their critical thinking and analytical skills in relation to education and policy.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 2",
+      courses: [
+        {
+          question: "Curriculum Design, Development and Review",
+          subanswer:
+            "Code: D8-CDR-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+          answer:
+            "This module explores historical, philosophical, economic, political, and sociological perspectives on curriculum design, development, implementation, and review. Learners will also apply contemporary and real-world educational issues across various themes.",
+        },
+        {
+          question: "Integrating Technology into Curriculum",
+          subanswer:
+            "Code: D8-ITC-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+          answer:
+            "This module equips learners with the knowledge and skills to use technology effectively in teaching, learning, and assessment. It supports curriculum planning, delivery, and evaluation across face-to-face and online modes, enabling educators to develop e-learning content, provide learner support, assess progress, and manage academic tasks efficiently.",
+        },
+        {
+          question: "Research Methods",
+          subanswer:
+            "Code: D8-REM-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
+          answer:
+            "This module equips learners with lifelong research skills, fostering a commitment to continuous learning. It develops understanding of research principles, methods, and theories, and their impact on the research process, enabling learners to critically apply appropriate approaches throughout their academic and professional careers.",
+        },
+        {
+          question: "Teaching Practicum",
+          subanswer:
+            "Code: D8-TPT-24<br/>Prerequisite: D8-PAE-24<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
+          answer:
+            "This module offers learners the opportunity to apply principles of teaching, learning, and assessment in higher education. It provides hands-on experience to develop professional skills and create effective learning environments, fostering awareness of the roles and responsibilities involved in becoming a reflective and impactful educator.",
+        },
+      ],
+    },
+  ],
+  requirements: [
+    {
+      question: "Admission Requirements",
+      answer:
+        "Bachelors or Honours Bachelors Degree from a recognised institution.",
+    },
+    {
+      question: "Technical Requirements",
+      answer: `<div class="technical-requirements">
+  <p>
+  "To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:"
+  </p>
+  <h3>Device Requirements</h3> 
+  <ul>
+    <li>
+      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
+    </li>
+    <li><strong>OR</strong></li>
+    <li>
+      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+    </li>
+  </ul>
+
+  <h3>Internet Requirements</h3>
+  <ul>
+    <li>
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+    </li>
+    <li>
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+    </li>
+  </ul>
+
+  <h3>Software and Platforms</h3>
+  <ul>
+    <li>
+      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+    </li>
+  </ul>
+
+  <h3>Browser Requirements</h3>
+  <ul>
+    <li>
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+    </li>
+  </ul>
+
+  <h3>Additional Tools (Optional but Recommended)</h3>
+  <ul>
+    <li>Headset: For clear audio during virtual classes</li>
+    <li>External storage (USB/Cloud): For backups of important coursework</li>
+    <li>Antivirus software: To protect against malware or data loss</li>
+  </ul>
+</div>
+`,
+    },
+  ],
+  programOverview: "",
+};
+
+export const medlm = {
+  heroContent: {
+    title: "Master of Educational Leadership and Management",
+    minPeriod: 2,
+    maxPeriod: 4,
+    programmeCredit: "$19.50",
+    totalProgrammeCredit: 240,
+    noOfModules: "14 (13 core + 1 elective)",
+    totalFee: "$4680",
+    cta: true,
+    timer: true,
+    overview: true,
+  },
+  courseStruture: [
+    {
+      semester: "Semester 1",
+      courses: [
+        {
+          question: "Educational Leadership and Curriculum Development",
+          subanswer:
+            "Code: D9-ELC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+          answer:
+            "This module will equip a learner with a comprehensive overview of the development of educational leadership and curriculum, taking into account the relationship between educational leadership and curriculum development.",
+        },
+        {
+          question: "Advanced Educational Technology",
+          subanswer:
+            "Code: D9-AET-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+          answer:
+            "The module enables a learner to make effective use of technology in designing, developing, planning and evaluating e-learning activities in their teaching and to understand the concepts of open, distant and mobile learning using educational technology.",
+        },
+        {
+          question: "Strategic Management in Education",
+          subanswer:
+            "Code: D9-SME-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+          answer:
+            "This module will equip a learner with the knowledge, skills and competencies needed to enable them undertake an in-depth strategic analysis and management of an educational setting and organisation.",
+        },
+        {
+          question: "Education Policy and Law",
+          subanswer:
+            "Code: D9-EPL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+          answer:
+            "This module will provide a learner with a conceptual and operational guide for understanding the critical linkages in the policy - planning and legal processes for education.",
+        },
+        {
+          question: "Educational Research",
+          subanswer:
+            "Code: D9-EDR-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $234.00<br/>Module Credits: 12",
+          answer:
+            "The module will enable a learner to establish the connection between theory and practice of educational leadership and management through research activities, and also evaluate policy changes.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 2",
+      courses: [
+        {
+          question: "School Administration, Supervision, and Instruction",
+          subanswer:
+            "Code: D9-ASI-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $234.00<br/>Module Credits: 12",
+          answer:
+            "The module will equip a learner with the knowledge, skills and competencies to enable them foster effective school administration, supervision and instructional processes in schools.",
+        },
+        {
+          question: "Educational Cost and Financial Analysis",
+          subanswer:
+            "Code: D9-ECF-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $234.00<br/>Module Credits: 12",
+          answer:
+            "The module will equip a learner with the knowledge, skills and competencies to enable them become more proficient in their financial management roles, and understand the complex financial underpinnings of educational organisations.",
+        },
+        {
+          question: "Human Resources Administration in Education",
+          subanswer:
+            "Code: D9-HRA-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $234.00<br/>Module Credits: 12",
+          answer:
+            "This module will provide a learner with theoretical and practical knowledge about the process of recruitment, establishing good relationships with employees, staff training, development and retention and compensating them for the services being rendered to the educational system.",
+        },
+        {
+          question: "Research Proposal",
+          subanswer:
+            "Code: D9-RPL-23<br/>Prerequisite: D9-EDR-23<br/>Co-requisite: None<br/>Module Fees: $702<br/>Module Credits: 36",
+          answer:
+            "The module will enable learners gain a deeper understanding of research by exposing them to both the theoretical and practical aspects of educational research. The learners are expected to write research proposals in a manner that improves teaching, research and other aspects of Education.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 3",
+      courses: [
+        {
+          question: "Education Society and Community Relations",
+          subanswer:
+            "Code: D9-ESC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $234.00<br/>Module Credits: 12",
+          answer:
+            "The module will equip a learner with the knowledge, skills and competencies to enable them connect and establish good relationships with the society and community that they belong to. The module will highlight that the school and the community are inseparable and that good relationships between the school and the community will help improve the quality of education given to the pupils and students.",
+        },
+        {
+          question: "Quality Management in Education",
+          subanswer:
+            "Code: D9-QME-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $234.00<br/>Module Credits: 12",
+          answer:
+            "This module aims to equip the learners with the knowledge, skills and competences that will help them to master the art of quality management in education. The learners will learn about the principles and techniques of developing, improving and maintaining the quality of educational processes, services, and products.",
+        },
+        {
+          question: "Dissertation 1 (Year module)",
+          subanswer:
+            "Code: D9-DI1-23<br/>Prerequisite: D9-RPL-23<br/>Co-requisite: None<br/>Module Fees: $468<br/>Module Credits: 24",
+          answer:
+            "The module will enable a learner gain a deeper understanding of research by exposing them to both the theoretical and practical aspects of educational research. The learners are expected to explore the findings of these researches in a manner that improves teaching, research and other aspects of Education.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 3 Elective Group One (Choose One)",
+      courses: [
+        {
+          question: "Decision Making in Secondary and Tertiary Institutions",
+          subanswer:
+            "Code: D9-DST-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $234.00<br/>Module Credits: 12",
+          answer:
+            "The module will equip a learner with the knowledge, competences and skills needed to facilitate informed decision making in schools and institutions and enable educational decision makers engage in a more ethical and professional judgement.",
+        },
+        {
+          question: "Education Reforms and Curriculum Development",
+          subanswer:
+            "Code: D9-ERC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $234.00<br/>Module Credits: 12",
+          answer:
+            "The module aims to equip a learner with the knowledge and skills necessary to analyze, design, and implement effective curriculum changes and education policies.",
+        },
+        {
+          question: "Leadership and Management in Education",
+          subanswer:
+            "Code: D9-LME-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $234.00<br/>Module Credits: 12",
+          answer:
+            "This module will equip the learner with the knowledge, skills and competencies needed for effective educational leadership and management in schools and institutions.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 4",
+      courses: [
+        {
+          question: "Dissertation II (Year module)",
+          subanswer:
+            "Code: D9-DI2-23<br/>Prerequisite: D9-DI1-23<br/>Co-requisite: None<br/>Module Fees: $1092<br/>Module Credits: 56",
+          answer:
+            "The module will enable a learner gain a deeper understanding of research by exposing them to both the theoretical and practical aspects of educational research. The learners are expected to explore the findings of these researches in a manner that improves teaching, research and other aspects of Education.",
+        },
+      ],
+    },
+  ],
+  requirements: [
+    {
+      question: "Admission Requirements",
+      answer:
+        "Bachelors or Honours Bachelors Degree from a recognised institution.",
+    },
+
+    {
+      question: "Technical Requirements",
+      answer: `<div class="technical-requirements">
+  <p>
+    To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
+  </p>
+
+  <h3>Device Requirements</h3>
+  <ul>
+    <li>
+      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
+    </li>
+    <li><strong>OR</strong></li>
+    <li>
+      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+    </li>
+  </ul>
+
+  <h3>Internet Requirements</h3>
+  <ul>
+    <li>
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+    </li>
+    <li>
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+    </li>
+  </ul>
+
+  <h3>Software and Platforms</h3>
+  <ul>
+    <li>
+      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+    </li>
+  </ul>
+
+  <h3>Browser Requirements</h3>
+  <ul>
+    <li>
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+    </li>
+  </ul>
+
+  <h3>Additional Tools (Optional but Recommended)</h3>
+  <ul>
+    <li>Headset: For clear audio during virtual classes</li>
+    <li>External storage (USB/Cloud): For backups of important coursework</li>
+    <li>Antivirus software: To protect against malware or data loss</li>
+  </ul>
+</div>
+`,
+    },
+  ],
+  programOverview: ``,
+};
+
+export const medci = {
+  heroContent: {
+    title: "Master of Education in Curriculum Design and Instruction",
+    minPeriod: 2,
+    maxPeriod: 4,
+    programmeCredit: "$19.50",
+    totalProgrammeCredit: 240,
+    noOfModules: "13 (11 core + 2 electives)",
+    totalFee: "$4680",
+    cta: true,
+    timer: true,
+    overview: true,
+  },
+  courseStruture: [
+    {
+      semester: "Semester 1",
+      courses: [
+        {
+          question: "Learning, Teaching and Assessment",
+          subanswer:
+            "Code: D9-LTA-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This module enables a learner to develop the competency, knowledge and skills to enhance the effectiveness of teaching and assessment practice and be able to apply this to the curriculum development and instruction process.",
+        },
+        {
+          question: "Theories of Curriculum Development",
+          subanswer:
+            "Code: D9-TCD-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+          answer:
+            "The module will enable a learner to familarise themselves with different theories of Curriculum development and instruction and be able to apply those theories in the learning and teaching processes.",
+        },
+        {
+          question: "Computer Applications in Education",
+          subanswer:
+            "Code: D9-CAE-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+          answer:
+            "The module aims at introducing fundamental concepts of information technology to the learner which they will apply in their teaching and learning, collaboration with stakeholders and research in education.",
+        },
+        {
+          question: "Foundations of Curriculum Design and Development",
+          subanswer:
+            "Code: D9-FCD-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "The aim of this module is to introduce a learner to the theoretical and practical aspects of the foundations of curriculum design and development. Curriculum Development is one of the foundation courses of education. It is imperative that learners master the foundations of curriculum design and development to guide them in curriculum development and instruction",
+        },
+      ],
+    },
+    {
+      semester: "Semester 2",
+      courses: [
+        {
+          question: "Instructional Strategies Using Internet",
+          subanswer:
+            "Code: D9-ISI-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+          answer:
+            "Online learning gives learners the opportunity to study at their own pace in their own convenient settings, be it in the office or at home. The learners are thus not subject to the rigours of face to face learning that takes place in accordance to strict teaching and learning schedule.",
+        },
+        {
+          question: "Curriculum Design and Development",
+          subanswer:
+            "Code: D9-CDD-22<br/>Prerequisite: D9-FCD-22<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "The module gives a learner a critical understanding of the drivers and processes of curriculum/course design and development and a critical understanding of curriculum development models. Learners will be equipped with the competency to critique, evaluate, design and develop a quality based curricula.",
+        },
+        {
+          question: "Research Methods",
+          subanswer:
+            "Code: D9-REM-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "The module enables a learner to establish the connection between theory and practice of curriculum development and instruction through research activities, and also evaluate policy changes as they affect curriculum in education .",
+        },
+      ],
+    },
+    {
+      semester: "Semester 2 Elective Group One (Choose One)",
+      courses: [
+        {
+          question: "Learning Theories",
+          subanswer:
+            "Code: D9-LTH-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+          answer:
+            "The rationale for this module is that learning theories provide a framework for the entire teaching and learning. Teachers can make informed decisions based on the learning needs of the learners by applying sound educational psychological principles derived from the framework and follow appropriate instructional practices.",
+        },
+        {
+          question: "Virtual Learning in Instruction",
+          subanswer:
+            "Code: D9-VLI-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+          answer:
+            "This module provides a critical understanding of digital teaching and learning. It explores how to redesign content for virtual delivery and highlights the flexibility of online education. Learners examine the use of synchronous and asynchronous methods to support effective, accessible, and engaging learning for both educators and students.",
+        },
+        {
+          question: "Comparative Education",
+          subanswer:
+            "Code: D9-CED-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+          answer:
+            "The rationale for this module is to equip learners with an understanding of the general educational concepts, education systems in various countries and implementation of international standards. It emphasises problem solving and making education more practical thereby improving economic aspects of education.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 3",
+      courses: [
+        {
+          question: "Designing and Maintaining E-Learning",
+          subanswer:
+            "Code: D9-DME-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+          answer:
+            "The modules enables a learner to make effective use of technology in designing, developing, planning and evaluating e-learning activities in their teaching and to understand the concepts of open, distance and mobile learning using educational technology.",
+        },
+        {
+          question: "Curriculum Evaluation",
+          subanswer:
+            "Code: D9-CEV-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "The module empowers a learner with the knowledge, skills and competencies needed to demonstrate their understanding of curriculum evaluation and to see whether curriculum objectives are being met.",
+        },
+        {
+          question: "Assessment and Moderation in Outcomes-based Education",
+          subanswer:
+            "Code: D9-ABE-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+          answer:
+            "This module enables learners to demonstrate a critical understanding of assessment and moderation within Outcomes Based Education (OBE). It equips them to apply OBE principles in teaching, learning, and evaluation, fostering competence in contemporary educational practice.",
+        },
+        {
+          question: "Research Proposal",
+          subanswer:
+            "Code: D9-RSP-25<br/>Prerequisite: D9-REM-22<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "To equip learners with the knowledge, skills and competency to be able to write an impactful research proposal in education.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 4",
+      courses: [
+        {
+          question: "Dissertation",
+          subanswer:
+            "Code: D9-DIS-25<br/>Prerequisite: D9-RSP-25<br/>Co-requisite: None<br/>Module Fees: $780<br/>Module Credits: 40",
+          answer:
+            "The module will enable a learner to gain a deeper understanding of research by exposing them to both the theoretical and practical aspects of educational research. The learners are expected to explore the findings of these researches in a manner that improves teaching, research and other aspects of Higher Education.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 4 Elective Group One (Choose One)",
+      courses: [
+        {
+          question: "Contemporary Issues in Curriculum Development",
+          subanswer:
+            "Code: D9-CCD-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "The module will enable a learner to explore the current issues affecting Higher Education and strategies of addressing the challenges. It is essential that learners be equipped with salient professional knowledge of contemporary educational issues. In addition, be able to critically analyse and reflect on the challenges and potentialities at institutional and individual levels.",
+        },
+        {
+          question: "Quality Frameworks in Education",
+          subanswer:
+            "Code: D9-QFE-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This module aims to give a learner critical understanding of international quality assurance methodologies, and the ability to place the Quality Frameworks in Botswana and Partner Institutions within this context.",
+        },
+        {
+          question: "Curriculum Analysis",
+          subanswer:
+            "Code: D9-CUA-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "The module will enable a learner to master the art of curriculum analysis by being able to unpack the curriculum into different components. It is essential that learners be equipped with the knowledge, skills and competences needed for a thorough analysis of all the components of an already developed curriculum.",
+        },
+      ],
+    },
+  ],
+  requirements: [
+    {
+      question: "Admission Requirements",
+      answer:
+        "Bachelors or Honours Bachelors Degree from a recognised institution.",
+    },
+
+    {
+      question: "Technical Requirements",
+      answer: `<div class="technical-requirements">
+  <p>
+    To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
+  </p>
+
+  <h3>Device Requirements</h3>
   <ul>
     <li>
       <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
