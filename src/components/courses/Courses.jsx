@@ -41,7 +41,8 @@ const Courses = ({
   };
 
   const handleCourse = (course) => {
-  const slug = course.toLowerCase().replace(/\s+/g, '');
+  const cleaned = course.trim().replace(/\.$/, ''); 
+  const slug = cleaned.toLowerCase().replace(/\s+/g, '');
     navigate(`/course/${slug}`);
     window.scrollTo(0, 0);
   };

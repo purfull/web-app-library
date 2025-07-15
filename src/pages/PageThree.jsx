@@ -12,17 +12,17 @@ import FeedBackSection from "../components/feedback/FeedBackSection";
 import CourseStruture from "../components/coursestrutureSection/coursestrutureSection";
 import {bbabm, bsds, bcomhm, mcomhrm, mba, ohsDiploma, bscHim, bscHa, bscshem, bEdPrimary, pgdhe, medlm, medci } from "./PageThreeData"
 import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 
 const PageThree = () => {
   
+  const { name } = useParams();
   const [course, setCourse] = useState()
-  // useEffect(() => {
-    
-  // const course = url
-  // console.log(course);
   
-  // setCourse(course)
-  // }, [])
+  useEffect(() => {
+    setCourse(name);
+    console.log("Course param:", name);
+  }, [name]);
   const faqData = [
     {
       question:

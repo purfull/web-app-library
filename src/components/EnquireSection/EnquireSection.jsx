@@ -12,9 +12,11 @@ const EnquireSection = ({
   const navigate = useNavigate();
   
 
-  const handleFeePage = () => {
+  const handleFeePage = (course) => {
     
-      navigate('/fee');
+  const cleaned = course.trim().replace(/\.$/, '');
+  const slug = cleaned.toLowerCase().replace(/\s+/g, '');
+      navigate(`/fee/${slug}`);
   window.scrollTo(0, 0);
   }
   return (
@@ -69,7 +71,7 @@ const EnquireSection = ({
               <p>{item.description.four}</p>
             </div> */}
             <div className="view-enquire-button">
-              <button className="search-button view-more" onClick={handleFeePage}>View More </button>
+              <button className="search-button view-more" onClick={() => handleFeePage(item.title)}>View More </button>
               <button className="fourth-button enq-button">Enquire Now</button></div>
           </Card>
         ))}

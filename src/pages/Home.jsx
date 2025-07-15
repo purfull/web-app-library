@@ -27,7 +27,7 @@ const HomePage = () => {
     {
       cover: "/images/courses-images/MCom in Human resource.png",
       courseName: "Postgraduate Programme",
-      title: "Master of Commerce in Human Resource Management.",
+      title: "Master of Commerce in Human Resource Management",
       description:
         "Looking to become a leader in talent management? Our Master of Commerce in Human Resource Management (MCom in HRM) is a transformative qualification designed for the modern business landscape. You'll gain a robust foundation in strategic HR planning, recruitment, performance assessment, and more.",
     },

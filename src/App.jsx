@@ -15,7 +15,7 @@ function App() {
         <Route path="/all-courses" element={<PageTwo />} />
         <Route path="/course/:name" element={<PageThree />} />
         <Route path="/all-fee" element={<PageFour />} />
-        <Route path="/fee" element={<PageFive />} />
+        <Route path="/fee/:name" element={<PageFive />} />
       </Routes>
     </Router>
   );
