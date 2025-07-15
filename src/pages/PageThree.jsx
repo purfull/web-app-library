@@ -10,22 +10,19 @@ import Footer from "../components/footer/Footer";
 // import InfiniteSection from "../components/infiniteSection/InfiniteCompo";
 import FeedBackSection from "../components/feedback/FeedBackSection";
 import CourseStruture from "../components/coursestrutureSection/coursestrutureSection";
-import {bbabm} from "./PageThreeData"
-import { bsds } from "./PageThreeData";
-import { bcomhm } from "./PageThreeData";
-import { mcomhrm } from "./PageThreeData";
-import { mba } from "./PageThreeData";
-import { ohsDiploma } from "./PageThreeData";
-import { bscHim } from "./PageThreeData";
-import { bscHa } from "./PageThreeData";
-import { bscshem } from "./PageThreeData";
-import { bEdPrimary } from "./PageThreeData";
-import { pgdhe } from "./PageThreeData";
-import { medlm } from "./PageThreeData";
-import { medci } from "./PageThreeData";
+import {bbabm, bsds, bcomhm, mcomhrm, mba, ohsDiploma, bscHim, bscHa, bscshem, bEdPrimary, pgdhe, medlm, medci } from "./PageThreeData"
+import { useEffect, useState } from "react";
 
 const PageThree = () => {
   
+  const [course, setCourse] = useState()
+  // useEffect(() => {
+    
+  // const course = url
+  // console.log(course);
+  
+  // setCourse(course)
+  // }, [])
   const faqData = [
     {
       question:

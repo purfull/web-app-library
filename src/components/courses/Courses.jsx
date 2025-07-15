@@ -13,6 +13,7 @@ const Courses = ({
   courseName,
 }) => {
   const [searchText, setSearchText] = useState("");
+  const [course, setCourse] = useState("");
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const navigate = useNavigate();
@@ -39,8 +40,9 @@ const Courses = ({
     window.scrollTo(0, 0);
   };
 
-  const handleCourse = () => {
-    navigate("/course");
+  const handleCourse = (course) => {
+  const slug = course.toLowerCase().replace(/\s+/g, '');
+    navigate(`/course/${slug}`);
     window.scrollTo(0, 0);
   };
 
@@ -143,7 +145,7 @@ const Courses = ({
             <p className="course-desc text-elipses-3">{item.description}</p>
             <button
               className="fourth-button read"
-              onClick={handleCourse}
+              onClick={() => handleCourse(item.title)}
               style={{ cursor: "pointer" }}
             >
               Explore Programme
