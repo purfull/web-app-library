@@ -14,9 +14,18 @@ import FeeHome from "../components/feehoemsection/feehome";
 import EnquireSection from "../components/EnquireSection/EnquireSection";
 import FeeTable from "../components/feeTable/feeTable";
 import {bscds, bcomacc} from "./PageFiveDats";
+import { useParams } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 const PageFive = () => {
   
+    const { name } = useParams();
+    const [course, setCourse] = useState()
+    
+    useEffect(() => {
+      setCourse(name);
+      console.log("Course param:", name);
+    }, [name]);
   
   const faqData = [
     {

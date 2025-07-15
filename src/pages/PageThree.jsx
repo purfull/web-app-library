@@ -30,16 +30,16 @@ import {
   mastersofeducationinhighereducation,
 } from "./PageThreeData";
 import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 
 const PageThree = () => {
-  const [course, setCourse] = useState();
-  // useEffect(() => {
-
-  // const course = url
-  // console.log(course);
-
-  // setCourse(course)
-  // }, [])
+  const { name } = useParams();
+  const [course, setCourse] = useState()
+  
+  useEffect(() => {
+    setCourse(name);
+    console.log("Course param:", name);
+  }, [name]);
   const faqData = [
     {
       question:

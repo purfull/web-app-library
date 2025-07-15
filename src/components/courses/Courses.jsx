@@ -40,11 +40,18 @@ const Courses = ({
     window.scrollTo(0, 0);
   };
 
-  const handleCourse = (course) => {
-  const slug = course.toLowerCase().replace(/\s+/g, '');
-    navigate(`/course/${slug}`);
-    window.scrollTo(0, 0);
-  };
+ const handleCourse = (course) => {
+  const cleaned = course
+    .trim()
+    .replace(/\(.*?\)/g, '')  
+    .replace(/,/g, '')     
+    .replace(/\.$/, '')         
+    .replace(/\s+/g, '');    
+
+  const slug = cleaned.toLowerCase();
+  navigate(`/course/${slug}`);
+  window.scrollTo(0, 0);
+};
 
   const handleAllCourse = () => {
     navigate("/all-courses");
