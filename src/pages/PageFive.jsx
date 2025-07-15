@@ -13,8 +13,10 @@ import CourseStruture from "../components/coursestrutureSection/coursestrutureSe
 import FeeHome from "../components/feehoemsection/feehome";
 import EnquireSection from "../components/EnquireSection/EnquireSection";
 import FeeTable from "../components/feeTable/feeTable";
+import {bscds, bcomacc} from "./PageFiveDats";
 
 const PageFive = () => {
+  
   
   const faqData = [
     {
@@ -489,14 +491,14 @@ const PageFive = () => {
   "timer": false,
   "overview": false
 }
-
+ 
 
   return (
     <div className="">
       <RednavBar />
       <NavBar />
-      <TimerHome data={heroData}/>
-      <FeeTable tableData={tableData} />
+      <TimerHome data={bscds?.heroContent} />
+      <FeeTable tableData={bscds?.tableContent} />
       {/* <EnquireSection /> */}
       <FeedBackSection />
       <Faq faqData={faqData} />
