@@ -10,12 +10,29 @@ import Footer from "../components/footer/Footer";
 // import InfiniteSection from "../components/infiniteSection/InfiniteCompo";
 import FeedBackSection from "../components/feedback/FeedBackSection";
 import CourseStruture from "../components/coursestrutureSection/coursestrutureSection";
-import {bbabm, bsds, bcomhm, mcomhrm, mba, ohsDiploma, bscHim, bscHa, bscshem, bEdPrimary, pgdhe, medlm, medci } from "./PageThreeData"
+import {
+  bachelorofbusinessadministrationinbusinessmanagement,
+  bachelorofscienceindatascience,
+  bachelorofcommerceinhospitalitymanagement,
+  masterofcommerceinhumanresourcemanagement,
+  masterofbusinessadministration,
+  diplomainoccupationalhealthsafety,
+  bachelorofscienceinhealthinformationmanagement,
+  bachelorofscienceinhospitaladministration,
+  bachelorofscienceinsafetyhealthandenvironmentalmanagement,
+  bachelorofeducationinprimaryeducation,
+  postgraduatediplomainhighereducation,
+  masterofeducationalleadershipandmanagement,
+  masterofeducationincurriculumdesignandinstruction,
+  masterofscienceininformationsystemsmanagement,
+  masterofscienceincomputerscience,
+  bscinnetworksecurityandcomputerforensics,
+  mastersofeducationinhighereducation,
+} from "./PageThreeData";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 const PageThree = () => {
-  
   const { name } = useParams();
   const [course, setCourse] = useState()
   
@@ -117,17 +134,16 @@ const PageThree = () => {
       <p>It's very important to us at Botho University that students receive timely assistance. That is precisely why we have a dedicated team of Programme Mentors committed to supporting you as you progress through your academic journey. You're never alone when you study with Botho University!</p>`,
     },
   ];
-    const requirements = [
-       {
-        question: "Admission Requirements",
-        answer:
-          "IGCSE/equivalent with 5 Passes including English and Mathematics. Applicants in possession of a Diploma or Higher Diploma in related fields may be given exemptions based on the credit point equivalency.",
-      },
-  
-      {
-        question: "Technical Requirements",
-        answer:
-          `<div class="technical-requirements">
+  const requirements = [
+    {
+      question: "Admission Requirements",
+      answer:
+        "IGCSE/equivalent with 5 Passes including English and Mathematics. Applicants in possession of a Diploma or Higher Diploma in related fields may be given exemptions based on the credit point equivalency.",
+    },
+
+    {
+      question: "Technical Requirements",
+      answer: `<div class="technical-requirements">
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
   </p>
@@ -175,31 +191,37 @@ const PageThree = () => {
   </ul>
 </div>
 `,
-      },
-    ]
-    
-//   const heroData = {
-//   "title": "Bachelor of Science in Data Science",
-//   "minPeriod": 4,
-//   "maxPeriod": 6,
-//   "programmeCredit": "$13",
-//   "totalProgrammeCredit": 495,
-//   "noOfModules": "35 (27 Core + 8 Elective)",
-//   "totalFee": "$6,435",
-//   "cta": true,
-//   "timer": true,
-//   "overview": true
-  
-// }
+    },
+  ];
+
+  //   const heroData = {
+  //   "title": "Bachelor of Science in Data Science",
+  //   "minPeriod": 4,
+  //   "maxPeriod": 6,
+  //   "programmeCredit": "$13",
+  //   "totalProgrammeCredit": 495,
+  //   "noOfModules": "35 (27 Core + 8 Elective)",
+  //   "totalFee": "$6,435",
+  //   "cta": true,
+  //   "timer": true,
+  //   "overview": true
+
+  // }
   return (
     <div className="">
       <RednavBar />
       <NavBar />
       {/* <StaticHome /> */}
-      <TimerHome data={bbabm?.heroContent} />
+      <TimerHome
+        data={bachelorofbusinessadministrationinbusinessmanagement?.heroContent}
+      />
       {/* <Course /> */}
       <Faq faqData={requirements} title="Requirements" />
-      <CourseStruture courseStruture={bbabm?.courseStruture} />
+      <CourseStruture
+        courseStruture={
+          bachelorofbusinessadministrationinbusinessmanagement?.courseStruture
+        }
+      />
       <FeedBackSection />
       <Faq faqData={faqData} />
       <BannerSection />
