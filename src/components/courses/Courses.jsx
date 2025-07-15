@@ -10,7 +10,7 @@ const Courses = ({
   secondaryHeading,
   moreButton,
   secondaryParagraph,
-  courseName,
+  courseName, 
 }) => {
   const [searchText, setSearchText] = useState("");
   const [course, setCourse] = useState("");
@@ -33,11 +33,17 @@ const Courses = ({
     item.title.toLowerCase().includes(searchText.toLowerCase())
   );
 
-  const handleSuggestionClick = (title) => {
-    setSearchText(title);
-    setShowSuggestions(false);
-    navigate("/course");
-    window.scrollTo(0, 0);
+  const handleSuggestionClick = (course) => {
+  const cleaned = course
+    .trim()
+    .replace(/\(.*?\)/g, '')  
+    .replace(/,/g, '')     
+    .replace(/\.$/, '')         
+    .replace(/\s+/g, '');    
+
+  const slug = cleaned.toLowerCase();
+  navigate(`/course/${slug}`);
+  window.scrollTo(0, 0);
   };
 
  const handleCourse = (course) => {

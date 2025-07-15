@@ -28,6 +28,7 @@ import {
   masterofscienceincomputerscience,
   bscinnetworksecurityandcomputerforensics,
   mastersofeducationinhighereducation,
+  bachelorofcommerceinaccounting
 } from "./PageThreeData";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
@@ -36,10 +37,31 @@ const PageThree = () => {
   const { name } = useParams();
   const [course, setCourse] = useState()
   
+  const courseMap = {
+  bachelorofbusinessadministrationinbusinessmanagement,
+  bachelorofscienceindatascience,
+  bachelorofcommerceinhospitalitymanagement,
+  masterofcommerceinhumanresourcemanagement,
+  masterofbusinessadministration,
+  diplomainoccupationalhealthsafety,
+  bachelorofscienceinhealthinformationmanagement,
+  bachelorofscienceinhospitaladministration,
+  bachelorofscienceinsafetyhealthandenvironmentalmanagement,
+  bachelorofeducationinprimaryeducation,
+  postgraduatediplomainhighereducation,
+  masterofeducationalleadershipandmanagement,
+  masterofeducationincurriculumdesignandinstruction,
+  masterofscienceininformationsystemsmanagement,
+  masterofscienceincomputerscience,
+  bscinnetworksecurityandcomputerforensics,
+  mastersofeducationinhighereducation,
+  bachelorofcommerceinaccounting
+};
   useEffect(() => {
-    setCourse(name);
-    console.log("Course param:", name);
-  }, [name]);
+  const courseData = courseMap[name];
+  setCourse(courseData);
+  console.log("Resolved course:", course?.heroContent);
+}, [name]);
   const faqData = [
     {
       question:
@@ -213,13 +235,14 @@ const PageThree = () => {
       <NavBar />
       {/* <StaticHome /> */}
       <TimerHome
-        data={bachelorofbusinessadministrationinbusinessmanagement?.heroContent}
+        data={course?.heroContent}
+        programOverview = {course?.programOverview}
       />
       {/* <Course /> */}
-      <Faq faqData={requirements} title="Requirements" />
+      <Faq faqData={course?.requirements} title="Requirements" />
       <CourseStruture
         courseStruture={
-          bachelorofbusinessadministrationinbusinessmanagement?.courseStruture
+          course?.courseStruture
         }
       />
       <FeedBackSection />

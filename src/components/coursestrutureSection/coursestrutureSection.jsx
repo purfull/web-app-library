@@ -366,7 +366,7 @@ const CourseStruture = ({courseStruture}) => {
             </div>
 
             <div className="semester-content-part2" ref={contentPart2Ref}>
-                {courseStruture.map((semesterItem, semIndex) => (
+                {courseStruture?.map((semesterItem, semIndex) => (
                     <div key={semIndex} className="semester-section">
                         <div className="semester-title">
                             <p>{semesterItem.semester}</p>

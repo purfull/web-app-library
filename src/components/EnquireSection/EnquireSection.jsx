@@ -14,12 +14,17 @@ const EnquireSection = ({
 
   const handleFeePage = (course) => {
     
-  const cleaned = course.trim().replace(/\.$/, '');
+  const cleaned = course
+    .trim()
+    .replace(/\(.*?\)/g, '')  
+    .replace(/,/g, '')     
+    .replace(/\.$/, '')         
+    .replace(/\s+/g, ''); 
   const slug = cleaned.toLowerCase().replace(/\s+/g, '');
       navigate(`/fee/${slug}`);
   window.scrollTo(0, 0);
   }
-  return (
+  return ( 
     <div className="course-container page-gap" style={{ paddingTop: "8vh" }}>
       
                 <span className="secondary-heading" >

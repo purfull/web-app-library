@@ -465,7 +465,7 @@ const PageFour = () => {
       <FeedBackSection />
       <Faq faqData={faqData} />
       <BannerSection />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
