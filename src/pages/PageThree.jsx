@@ -11,6 +11,18 @@ import Footer from "../components/footer/Footer";
 import FeedBackSection from "../components/feedback/FeedBackSection";
 import CourseStruture from "../components/coursestrutureSection/coursestrutureSection";
 import {bbabm} from "./PageThreeData"
+import { bsds } from "./PageThreeData";
+import { bcomhm } from "./PageThreeData";
+import { mcomhrm } from "./PageThreeData";
+import { mba } from "./PageThreeData";
+import { ohsDiploma } from "./PageThreeData";
+import { bscHim } from "./PageThreeData";
+import { bscHa } from "./PageThreeData";
+import { bscshem } from "./PageThreeData";
+import { bEdPrimary } from "./PageThreeData";
+import { pgdhe } from "./PageThreeData";
+import { medlm } from "./PageThreeData";
+import { medci } from "./PageThreeData";
 
 const PageThree = () => {
   
@@ -169,19 +181,19 @@ const PageThree = () => {
       },
     ]
     
-  const heroData = {
-  "title": "Bachelor of Science in Data Science",
-  "minPeriod": 4,
-  "maxPeriod": 6,
-  "programmeCredit": "$13",
-  "totalProgrammeCredit": 495,
-  "noOfModules": "35 (27 Core + 8 Elective)",
-  "totalFee": "$6,435",
-  "cta": true,
-  "timer": true,
-  "overview": true
+//   const heroData = {
+//   "title": "Bachelor of Science in Data Science",
+//   "minPeriod": 4,
+//   "maxPeriod": 6,
+//   "programmeCredit": "$13",
+//   "totalProgrammeCredit": 495,
+//   "noOfModules": "35 (27 Core + 8 Elective)",
+//   "totalFee": "$6,435",
+//   "cta": true,
+//   "timer": true,
+//   "overview": true
   
-}
+// }
   return (
     <div className="">
       <RednavBar />
