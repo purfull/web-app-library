@@ -35,9 +35,9 @@ const FeeTable = ({ tableData = [] }) => {
               ))}
               {/* Summary row */}
               <tr className="summary-row">
-                <td colSpan={3} className="bold-text">{semester.title}</td>
-                <td className="bold-text">{semester.totalCredit}</td>
-                <td className="bold-text">{semester.totalFee}</td>
+                <td colSpan={3} className="table-bold-text">{semester.title}</td>
+                <td className="table-bold-text">{semester.totalCredit}</td>
+                <td className="table-bold-text">{semester.totalFee}</td>
               </tr>
             </tbody>
           </table>
