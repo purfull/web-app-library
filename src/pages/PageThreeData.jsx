@@ -1,4 +1,4 @@
-export const bsds = {
+export const bachelorofscienceindatascience = {
   heroContent: {
     title: "Bachelor of Science in Data Science",
     minPeriod: 4,
@@ -458,7 +458,7 @@ export const bsds = {
   programOverview: ``,
 };
 
-export const bbabm = {
+export const bachelorofbusinessadministrationinbusinessmanagement = {
   heroContent: {
     title: "Bachelor of Business Administration in Business Management",
     minPeriod: 4,
@@ -919,7 +919,7 @@ export const bbabm = {
   programOverview: ``,
 };
 
-export const bcomhm = {
+export const bachelorofcommerceinhospitalitymanagement = {
   heroContent: {
     title: "Bachelor of Commerce in Hospitality Management",
     minPeriod: 4,
@@ -1320,7 +1320,7 @@ export const bcomhm = {
   programOverview: ``,
 };
 
-export const mcomhrm = {
+export const masterofcommerceinhumanresourcemanagement = {
   heroContent: {
     title: "Master of Commerce in Human Resource Management.",
     minPeriod: 2,
@@ -1537,7 +1537,7 @@ export const mcomhrm = {
   programOverview: ``,
 };
 
-export const mba = {
+export const masterofbusinessadministration = {
   heroContent: {
     title: "Master of Business Administration (MBA)",
     minPeriod: 2,
@@ -1781,7 +1781,7 @@ export const mba = {
   programOverview: ``,
 };
 
-export const ohsDiploma = {
+export const diplomainoccupationalhealthsafety = {
   heroContent: {
     title: "Diploma in Occupational Health Safety",
     minPeriod: 2,
@@ -1991,7 +1991,7 @@ export const ohsDiploma = {
   programOverview: ``,
 };
 
-export const bscHim = {
+export const bachelorofscienceinhealthinformationmanagement = {
   heroContent: {
     title: "Bachelor of Science in Health Information Management",
     minPeriod: 4,
@@ -2384,7 +2384,7 @@ export const bscHim = {
   programOverview: ``,
 };
 
-export const bscHa = {
+export const bachelorofscienceinhospitaladministration = {
   heroContent: {
     title: "Bachelor of Science in Hospital Administration",
     minPeriod: 4,
@@ -2784,7 +2784,7 @@ export const bscHa = {
   programOverview: ``,
 };
 
-export const bscshem = {
+export const bachelorofscienceinsafetyhealthandenvironmentalmanagement = {
   heroContent: {
     title: "Bachelor of Science in Safety, Health and Environmental Management",
     minPeriod: 4,
@@ -3203,10 +3203,10 @@ export const bscshem = {
   programOverview: ``,
 };
 
-export const bEdPrimary = {
+export const bachelorofeducationinprimaryeducation = {
   heroContent: {
     title:
-      "Bachelor of Education in Primary Education (English Language and Mathematics)",
+      "Bachelor of Education in Primary Education(English Language and Mathematics)",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -3557,7 +3557,7 @@ export const bEdPrimary = {
   programOverview: ``,
 };
 
-export const pgdhe = {
+export const postgraduatediplomainhighereducation = {
   heroContent: {
     title: "Post Graduate Diploma in Higher Education",
     minPeriod: 1,
@@ -3717,7 +3717,7 @@ export const pgdhe = {
   programOverview: "",
 };
 
-export const medlm = {
+export const masterofeducationalleadershipandmanagement = {
   heroContent: {
     title: "Master of Educational Leadership and Management",
     minPeriod: 2,
@@ -3931,7 +3931,7 @@ export const medlm = {
   programOverview: ``,
 };
 
-export const medci = {
+export const masterofeducationincurriculumdesignandinstruction = {
   heroContent: {
     title: "Master of Education in Curriculum Design and Instruction",
     minPeriod: 2,
@@ -4164,7 +4164,7 @@ export const medci = {
   programOverview: ``,
 };
 
-export const bscnscf = {
+export const bscinnetworksecurityandcomputerforensics = {
   heroContent: {
     title: "BSc in Network Security and Computer Forensics",
     minPeriod: 4,
@@ -4577,7 +4577,7 @@ export const bscnscf = {
   ],
   programOverview: ``,
 };
-export const medhe = {
+export const mastersofeducationinhighereducation = {
   heroContent: {
     title: "Masters of Education in Higher Education",
     minPeriod: 2,
@@ -4796,9 +4796,9 @@ export const medhe = {
   programOverview: ``,
 };
 
-export const mscism = {
+export const masterofscienceininformationsystemsmanagement = {
   heroContent: {
-    title: "Masters of Education in Higher Education",
+    title: "Master of Science in Information Systems Management",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -4987,7 +4987,7 @@ export const mscism = {
   programOverview: ``,
 };
 
-export const msccs = {
+export const masterofscienceincomputerscience = {
   heroContent: {
     title: "Master of Science in Computer Science",
     minPeriod: 2,
