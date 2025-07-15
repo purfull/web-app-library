@@ -3202,3 +3202,915 @@ export const bscshem = {
   ],
   programOverview: ``,
 };
+export const bscnscf = {
+  heroContent: {
+    title: "BSc in Network Security and Computer Forensics",
+    minPeriod: 4,
+    maxPeriod: 6,
+    programmeCredit: "$13",
+    totalProgrammeCredit: 480,
+    noOfModules: "37 (35 core + 2 elective)",
+    totalFee: "$6,240",
+    cta: false,
+    timer: false,
+    overview: false
+  },
+  courseStruture: [
+    {
+      semester: "Semester 1",
+      courses: [
+        {
+          question: "Computer and Its Essentials 1",
+          subanswer: "Code: C5-CE1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module provides a foundational understanding of computers and their essentials, covering basic functions, hardware and software components, and how they operate. It explores the history and evolution of computers and data processing. Students will learn about Microsoft Office, with an emphasis on Microsoft Word and PowerPoint. Through hands-on activities and assessments, learners will develop a comprehensive understanding of computer essentials."
+        },
+        {
+          question: "Programming Logic and Design",
+          subanswer: "Code: C5-PLD-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module provides a foundation in programming principles, focusing on algorithm design, logical structures, and flowchart development. Students will learn problem-solving techniques essential for software development and cybersecurity applications. It covers key concepts such as variables, data types, control structures, and debugging, ensuring a solid understanding of programming fundamentals."
+        },
+        {
+          question: "Mathematics",
+          subanswer: "Code: C5-MAT-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module covers essential mathematical concepts used in computing, including Boolean algebra, logic gates, number systems, and probability theory. Students will develop analytical skills necessary for network security, encryption, and algorithm design. The module also explores set theory, discrete mathematics, and binary arithmetic, providing a strong mathematical foundation for computing applications."
+        },
+        {
+          question: "Operating Systems and Hardware",
+          subanswer: "Code: C5-OSH-11<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer: "Students will explore the fundamentals of operating systems, hardware configurations, and system management. The module covers key concepts such as process management, memory allocation, file systems, and security protocols. Through hands-on experience in managing system resources, virtualisation, and troubleshooting, students will develop practical skills essential for IT administration and cybersecurity."
+        },
+        {
+          question: "Professional Issues and Ethics",
+          subanswer: "Code: C6-PIE-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module examines the ethical and legal issues in cybersecurity and computing, exploring topics such as data privacy, intellectual property rights, cybercrime laws, and professional responsibilities. Students will study cybersecurity policies, compliance regulations, and responsible digital practices, ensuring they develop ethical decision-making skills essential for technology and security professions."
+        }
+      ]
+    },
+    {
+      semester: "Semester 2",
+      courses: [
+        {
+          question: "Networking Fundamentals",
+          subanswer: "Code: C6-NEF-20<br/>Prerequisite: C5-CE1-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer: "This module provides an introduction to networking principles, covering network topology, protocols, IP addressing, and troubleshooting techniques. Students will explore key concepts such as LAN and WAN technologies, subnetting, routing, and network security fundamentals. This foundation prepares them for more advanced studies in networking, cybersecurity, and infrastructure management."
+        },
+        {
+          question: "Database Concepts",
+          subanswer: "Code: C6-DBC-20<br/>Prerequisite: C6-CE2-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module explores the principles of database design, management, and security, covering data modelling, normalisation, and relational database concepts. Students will learn SQL for querying and managing data, as well as techniques for ensuring data integrity, access control, and protection against cyber threats, preparing them for database administration and security roles."
+        },
+        {
+          question: "Academic Writing for STEM",
+          subanswer: "Code: D6-AWS-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This specialised module enhances research and technical writing skills, focusing on academic documentation, citation techniques, and effective communication in STEM disciplines. Students will develop proficiency in structuring research papers, analysing scientific literature, and presenting technical information clearly and concisely, preparing them for academic and professional writing in technology fields."
+        },
+        {
+          question: "Computer and Its Essentials 2",
+          subanswer: "Code: C6-CE2-20<br/>Prerequisite: C5-CE1-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module builds on foundational computing skills, equipping students with advanced capabilities in Microsoft Excel and Google collaboration tools. It covers key spreadsheet functionalities, including data organisation, advanced formulas, chart creation, and data analysis using pivot tables. Additionally, students will explore Google Docs, Spreadsheets, Forms, and Drive to enhance online collaboration and information sharing."
+        },
+        {
+          question: "Essentials of Linux",
+          subanswer: "Code: C6-EOL-20<br/>Prerequisite: C5-OSH-11<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module introduces Linux operating systems, focusing on essential command-line operations, system security, and user management. Students will explore file system structure, permissions, and process management while gaining hands-on experience with open-source networking tools. The module also covers system administration tasks, preparing students for careers in Linux-based environments and security."
+        }
+      ]
+    },
+    {
+      semester: "Semester 3",
+      courses: [
+        {
+          question: "Computer Forensics",
+          subanswer: "Code: C6-CFO-23<br/>Prerequisite: C5-OSH-11<br/>Co-requisite: C6-CFL-23<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "Students will learn forensic investigation techniques, data recovery methods, and evidence collection strategies essential for cybercrime investigations. The module covers digital evidence handling, forensic imaging, malware analysis, and incident response procedures. Through practical exercises, students will develop the skills needed to analyse cyber incidents and support legal proceedings in cybersecurity."
+        },
+        {
+          question: "Programming Using C++",
+          subanswer: "Code: C6-IPC-11<br/>Prerequisite: C5-PLD-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer: "This module introduces students to C++ programming, covering programming logic, object-oriented principles, and software development methodologies for cybersecurity applications. Students will learn about data structures, memory management, and algorithm design while developing secure and efficient code. Hands-on projects reinforce problem-solving skills essential for software development and cybersecurity solutions."
+        },
+        {
+          question: "Computer Forensics Lab",
+          subanswer: "Code: C6-CFL-23<br/>Prerequisite: C5-OSH-11<br/>Co-requisite: C6-CFO-23<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This hands-on lab module provides practical experience in forensic investigation techniques, including disk imaging, data recovery, and malware analysis. Students will use industry-approved and standardised tools to examine digital evidence, detect security breaches, and analyse cyber threats. The module enhances critical thinking and technical skills essential for cybersecurity and forensic professionals."
+        },
+        {
+          question: "Routing and Switching",
+          subanswer: "Code: C6-RSW-20<br/>Prerequisite: C6-NEF-20<br/>Co-requisite: C6-RSL-20<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module covers network routing and switching principles, including VLANs, WAN, LAN, subnetting, and traffic management, essential for network security professionals. Students will learn to configure and troubleshoot network devices, implement security protocols, and optimise network performance. The module provides a strong foundation for designing, managing, and securing modern network infrastructures."
+        },
+        {
+          question: "Routing and Switching Lab",
+          subanswer: "Code: C6-RSL-20<br/>Prerequisite: C6-NEF-20<br/>Co-requisite: C6-RSW-20<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This practical networking module focuses on configuring, securing, and troubleshooting network routers and switches in simulated environments. Students will gain hands-on experience using industry-standard Cisco software and hardware, learning essential skills in network administration, traffic management, and security implementation. The module prepares students for real-world networking challenges in cybersecurity and IT infrastructure."
+        },
+      ]
+    },
+
+    {
+      semester: "Semester 4",
+      courses: [
+        {
+          question: "Scripting for Cyber Security",
+          subanswer: "Code: C7-SCS-23<br/>Prerequisite: C6-IPC-11<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer: "Students will learn scripting techniques using Python, PowerShell, and Bash to automate security tasks such as threat detection, incident response, and vulnerability assessments. The module covers scripting fundamentals, regular expressions, and automation frameworks, equipping students with the skills to develop efficient security scripts and streamline cybersecurity operations."
+        },
+        {
+          question: "Principles of Cyber Security",
+          subanswer: "Code: C6-PCS-23<br/>Prerequisite: C6-NEF-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "An introduction to core cybersecurity principles, including risk assessment, threat modelling, and security frameworks used to protect digital assets. Students will explore attack vectors, defensive strategies, and ethical considerations in cybersecurity. This module builds foundational knowledge essential for understanding cybersecurity threats, vulnerabilities, and best practices in securing systems."
+        },
+        {
+          question: "Operating System Forensics",
+          subanswer: "Code: C6-OSF-23<br/>Prerequisite: C6-CFO-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module focuses on forensic techniques used to analyse and investigate security breaches within operating systems. Students will study file system analysis, memory forensics, log analysis, and malware detection. Practical exercises using forensic tools will enhance their ability to extract, preserve, and interpret digital evidence in cybercrime investigations."
+        },
+        {
+          question: "Network Security",
+          subanswer: "Code: C6-NSE-20<br/>Prerequisite: C6-NEF-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "Students will explore network defence strategies, including firewall configurations, intrusion detection systems, and encryption protocols. The module covers key topics such as VPNs, security policies, and secure network design. Practical labs ensure students develop hands-on skills in detecting and mitigating network-based cyber threats and vulnerabilities."
+        },
+        {
+          question: "Wireless and Mobile Security",
+          subanswer: "Code: C6-WMS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module examines the security risks in wireless networks, mobile devices, and IoT environments. Topics include wireless encryption, authentication protocols, access control mechanisms, and mobile application security. Students will gain hands-on experience in securing wireless infrastructures, detecting vulnerabilities, and implementing security policies for mobile and IoT devices."
+        }
+      ]
+    },
+    {
+      semester: "Semester 5",
+      courses: [
+        {
+          question: "Information and Data Security",
+          subanswer: "Code: C7-IDS-23<br/>Prerequisite: C6-CFO-23, C6-CFL-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "Students will study data protection strategies, including access control models, cryptographic methods, and compliance with security standards. The module covers data classification, secure storage solutions, and identity management. Students will learn how to safeguard sensitive data against breaches, unauthorised access, and cyber threats in various computing environments."
+        },
+        {
+          question: "Ethical Hacking",
+          subanswer: "Code: C7-EHK-13<br/>Prerequisite: C6-PCS-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer: "A hands-on module covering penetration testing techniques, vulnerability assessments, and ethical hacking methodologies to identify and mitigate security threats. Students will explore network scanning, exploitation techniques, and countermeasures. The module emphasises ethical considerations, legal implications, and responsible disclosure in conducting cybersecurity assessments and penetration testing engagements."
+        },
+        {
+          question: "Software Defined Network Engineering",
+          subanswer: "Code: C7-SDN-20<br/>Prerequisite: C6-RSW-20, C6-RSL-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module introduces software-defined networking (SDN) concepts, exploring network automation, virtualisation, and programmable network infrastructure. Students will learn about SDN controllers, network function virtualisation (NFV), and security challenges in SDN environments. Hands-on labs provide experience in deploying, managing, and securing SDN architectures in modern networks."
+        },
+        {
+          question: "Forensic Investigation Techniques",
+          subanswer: "Code: C7-FIT-23<br/>Prerequisite: C6-OSF-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "Students will gain expertise in forensic methodologies, digital evidence handling, and cybercrime investigation frameworks. The module covers forensic imaging, log analysis, data recovery, and malware forensics. Practical exercises using industry-standard tools will enhance students’ ability to conduct forensic investigations and support legal proceedings in cybersecurity incidents."
+        },
+        {
+          question: "Cryptographic Techniques",
+          subanswer: "Code: C7-CGT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module covers encryption algorithms, key management, and secure communication techniques essential for cybersecurity professionals. Topics include symmetric and asymmetric encryption, digital signatures, and hashing techniques. Students will learn cryptographic protocols, secure data transmission methods, and cryptanalysis techniques used to protect and verify digital information."
+        }
+      ]
+    },
+    {
+      semester: "Semester 6",
+      courses: [
+        {
+          question: "Research Methods for STEM",
+          subanswer: "Code: C7-RMS-20<br/>Prerequisite: C5-MAT-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "An introduction to research methodologies, focusing on data analysis, hypothesis testing, and experimental design in computing and cybersecurity. Students will learn literature review techniques, research proposal development, and ethical considerations in research. This module prepares students for conducting independent studies and technical research in STEM fields."
+        },
+        {
+          question: "Malware Analysis",
+          subanswer: "Code: C7-MAN-13<br/>Prerequisite: C6-NSE<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer: "Students will study malware behaviour, reverse engineering techniques, and threat intelligence analysis to combat cyber threats. The module covers static and dynamic malware analysis, sandboxing, and exploit detection. Practical labs provide experience in analysing real-world malware samples and developing strategies to mitigate and defend against cyberattacks."
+        },
+        {
+          question: "Advanced Ethical Hacking",
+          subanswer: "Code: C7-AEH-23<br/>Prerequisite: C7-EHK-13<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "An advanced module that delves deeper into penetration testing, exploit development, and security bypass techniques. Students will explore buffer overflow attacks, privilege escalation, advanced reconnaissance, and post-exploitation tactics. Ethical and legal considerations are emphasised, ensuring students develop responsible hacking skills for cybersecurity defence."
+        },
+        {
+          question: "Mobile Forensics",
+          subanswer: "Code: C7-MFO-20<br/>Prerequisite: C6-CFO-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module focuses on mobile device security, data extraction techniques, and forensic investigation of smartphones and tablets. Students will analyse mobile operating systems, encrypted communications, and deleted data recovery. Hands-on labs provide experience in using forensic tools to investigate mobile security incidents and cybercrime cases."
+        },
+
+      ]
+    }
+    ,
+    {
+      semester: "SEMESTER 6 ELECTIVE GROUP ONE (CHOOSE ONE)	",
+      courses: [
+        {
+          question: "Internet of Things (Elective)",
+          subanswer: "Code: C7-IOT-23<br/>Prerequisite: C6-NEF-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module explores IoT security challenges, device vulnerabilities, and secure implementation strategies in interconnected environments. Students will study IoT architectures, network protocols, and attack surfaces in smart devices. Hands-on labs will provide experience in securing IoT ecosystems, detecting threats, and implementing best practices to mitigate cyber risks in IoT networks."
+        },
+        {
+          question: "Cloud Computing and Security (Elective)",
+          subanswer: "Code: C7-CCS-20<br/>Prerequisite: C6-NEF-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module explores the principles of cloud computing and its associated security challenges. Students will learn about cloud architectures, virtualisation, data protection strategies, and compliance with cloud security frameworks. The course also covers risk management, identity and access control, and best practices for securing cloud environments from cyber threats."
+        },
+        {
+          question: "Security by Design (Elective)",
+          subanswer: "Code: C7-SDE-20<br/>Prerequisite: C6-NSE-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "Security by Design focuses on integrating security measures at the core of software and system development. Students will study secure coding principles, threat modelling, and vulnerability mitigation techniques. The module emphasises proactive security strategies, ensuring that applications and networks are resilient against cyber threats from the early stages of development."
+        }
+      ]
+    },
+    {
+      semester: "Semester 7",
+      courses: [
+        {
+          title: "Cyber Crime Investigation",
+          details: "Code: C8-CCI-23<br/>Prerequisite: C7-FIT-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          description: "Students will explore legal and investigative approaches to cybercrime, including fraud, identity theft, and digital evidence collection. The module covers case analysis, cyber laws, forensic reporting, and courtroom procedures. Practical exercises will enhance students’ ability to conduct cybercrime investigations and support law enforcement efforts."
+        },
+        {
+          title: "Research Project 1: Proposal Writing",
+          details: "Code: C7-RP1-20<br/>Prerequisite: C7-RMS-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          description: "A preparatory module for research projects, where students develop research proposals and methodologies for cybersecurity topics. Students will learn academic writing, literature review techniques, and research design principles. This module ensures they are equipped to plan and justify their research effectively before conducting their studies."
+        },
+        {
+          title: "Cyber Law",
+          details: "Code: C7-CYL-23<br/>Prerequisite: C6-PCS-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          description: "This module examines legal frameworks, data protection laws, and regulatory compliance in cybersecurity. Topics include intellectual property rights, cybercrime legislation, and digital privacy laws. Students will analyse case studies and learn how cybersecurity policies align with national and international legal standards."
+        },
+        {
+          title: "Entrepreneurship and Innovation",
+          details: "Code: B8-ENI-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          description: "An entrepreneurial module that encourages students to develop business strategies, cybersecurity start-ups, and innovation-driven solutions. Topics include business planning, financial management, market analysis, and risk assessment. Students will explore emerging technologies and learn how to turn cybersecurity innovations into viable business ventures."
+        }
+      ]
+    },
+    {
+      semester: "Semester 7 Elective Group One (Choose One)",
+      courses: [
+        {
+          title: "Media and Storage (Elective)",
+          details: "Code: C8-MAS-20<br/>Prerequisite: C6-CFO-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          description: "This module covers digital media storage technologies, data retention policies, and storage security. Students will explore topics such as file systems, disk encryption, cloud storage solutions, and secure data backup methodologies. Practical exercises will help students understand how to manage, protect, and recover digital assets efficiently and securely."
+        },
+        {
+          title: "Media Forensics (Elective)",
+          details: "Code: C8-MEF-23<br/>Prerequisite: C6-CFO-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          description: "Media Forensics focuses on the investigation and analysis of digital media, including images, videos, and audio files. Students will learn forensic techniques for detecting tampering, recovering deleted media, and verifying the authenticity of digital evidence. The module prepares students for forensic analysis roles in cybercrime investigations."
+        },
+        {
+          title: "Information Security Management and Governance (Elective)",
+          details: "Code: C8-ISG-23<br/>Prerequisite: C6-PIE-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          description: "This module provides a comprehensive understanding of information security policies, risk management, and compliance with cybersecurity regulations. Students will explore governance frameworks such as ISO 27001 and NIST, learning how to develop and implement security policies that align with organisational and legal requirements."
+        }
+      ]
+    },
+    {
+      semester: "Semester 8",
+      courses: [
+        {
+          title: "Research Project 2: Dissertation",
+          details: "Code: C8-RP2-20<br/>Prerequisite: C7-RP1-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          description: "A capstone project requiring students to conduct independent research, analyse cybersecurity challenges, and present findings. Students will apply research methodologies, collect data, and produce a well-structured dissertation. This module develops their analytical and problem-solving skills in addressing real-world cybersecurity issues."
+        },
+        {
+          title: "Professional Practice in Computing",
+          details: "Code: C7-PPC-20<br/>Prerequisite: 240 credits<br/>Co-requisite: None<br/>Module Fees: $520<br/>Module Credits: 40",
+          description: "A work-integrated learning module that provides students with industry exposure, project management skills, and hands-on cybersecurity experience. Students will work on real-world projects, collaborate with industry professionals, and develop technical and professional competencies essential for their careers in cybersecurity and computing."
+        }
+      ]
+    }
+  ],
+  requirements: [
+    {
+      question: "Admission Requirements",
+      answer:
+        "IGCSE/equivalent with 5 Passes including English and Mathematics. Applicants in possession of a Diploma or Higher Diploma in related fields may be given exemptions based on the credit point equivalency. ",
+    },
+
+    {
+      question: "Technical Requirements",
+      answer: `<div class="technical-requirements">
+  <p>
+  "To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:"
+  </p>
+  <h3>Device Requirements</h3> 
+  <ul>
+    <li>
+      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
+    </li>
+    <li><strong>OR</strong></li>
+    <li>
+      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+    </li>
+  </ul>
+
+  <h3>Internet Requirements</h3>
+  <ul>
+    <li>
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+    </li>
+    <li>
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+    </li>
+  </ul>
+
+  <h3>Software and Platforms</h3>
+  <ul>
+    <li>
+      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+    </li>
+  </ul>
+
+  <h3>Browser Requirements</h3>
+  <ul>
+    <li>
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+    </li>
+  </ul>
+
+  <h3>Additional Tools (Optional but Recommended)</h3>
+  <ul>
+    <li>Headset: For clear audio during virtual classes</li>
+    <li>External storage (USB/Cloud): For backups of important coursework</li>
+    <li>Antivirus software: To protect against malware or data loss</li>
+  </ul>
+</div>
+`,
+    },
+  ],
+  programOverview: ``,
+};
+export const medhe = {
+  heroContent: {
+    title: "Masters of Education in Higher Education",
+    minPeriod: 2,
+    maxPeriod: 4,
+    programmeCredit: "$19.50",
+    totalProgrammeCredit: 240,
+    noOfModules: "14 (11 core + 3 elective)",
+    totalFee: "$4,680",
+    cta: false,
+    timer: false,
+    overview: false
+  },
+  courseStruture: [
+    {
+      semester: "Semester 1",
+      courses: [
+        {
+          question: "Algorithms and Data Structures",
+          subanswer: "Code: C9-ADS-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer: "This module enhances students' problem-solving abilities by introducing key algorithms and data structures. It empowers students to solve simple problems, apply advanced techniques, and improve their programming skills. Students will evaluate algorithms, analyze time and space complexities, and select appropriate data structures to design solutions for various problems."
+        },
+        {
+          question: "Object Oriented Software Engineering",
+          subanswer: "Code: C9-OSE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer: "This module equips students with the skills to manage software projects and develop systems using object-oriented methods. Students will learn key concepts and techniques for system design and program implementation using rapid application development tools and designing graphical user interfaces to create, test, and implement software solutions."
+        }
+      ]
+    },
+    {
+      semester: "SEMESTER 1 ELECTIVE GROUP ONE (CHOOSE ONE)",
+      courses: [
+        {
+          question: "Machine Learning",
+          subanswer: "Code: C9-MLE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer: "This module provides an in-depth introduction to supervised and unsupervised machine learning, covering key models and algorithms for regression, classification, clustering, and probabilistic classification. Students will critically evaluate approaches, understand applications, design machine learning systems, apply problem-solving techniques, and develop skills for further research in the field."
+        },
+        {
+          question: "Web Engineering",
+          subanswer: "Code: C9-WEN-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer: "This module provides hands-on experience in designing and developing internet-based applications. Students will learn internet architecture, HTML, CSS, JavaScript, server-side development, XML concepts, and web services. By completion, they will gain practical skills in building web applications and writing programs for front-end and back-end development."
+        }
+      ]
+    },
+    {
+      semester: "Semester 2",
+      courses: [
+        {
+
+          question: "Operating System",
+          subanswer: "Code: C9-OPS-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer: "This module reviews the design, implementation, and functioning of operating systems. It explores the principles behind centralized and distributed systems, focusing on real-world applications. Students will understand the structure and functions of operating systems, analyzing requirements for specific scenarios and relating system functions to machine architecture."
+        },
+        {
+          question: "Computer Networking and Communication",
+          subanswer: "Code: C9-CNC-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer: "This module introduces the principles of structured networks and future challenges for network designers. It covers network protocols, internet technologies, and data communications. Students will explore familiar concepts like the web and email before studying more complex networking aspects, including LAN, WAN, MAN, and network security."
+        }
+      ]
+    },
+    {
+      semester: "SEMESTER 2 ELECTIVE GROUP ONE (CHOOSE ONE)",
+      courses: [
+        {
+          question: "Grid Computing Systems",
+          subanswer: "Code: C9-GCS-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer: "This course explores advanced distributed computing, focusing on service-oriented systems like Grid Computing. Students will learn technologies, architectures, and applications, including cluster and data grids. It covers IT infrastructure, business value, middleware, and grid-enabled services, equipping students to design, develop, and implement grid computing models and applications."
+        },
+        {
+          question: "Information Retrieval",
+          subanswer: "Code: C9-INR-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer: "This module introduces students to information retrieval systems, focusing on retrieving the best possible information for user queries. It covers key algorithms, evaluation methods, probabilistic retrieval, ranking principles, and real-world applications in web search and recommendation systems, along with emerging topics like MapReduce, portfolio retrieval, and online advertising."
+        }
+      ]
+    },
+    [
+      {
+        semester: "Semester 3",
+        courses: [
+          {
+            question: "Professional Academic in Action 2",
+            subanswer:
+              "Code: D9-PPA2-24<br/>Prerequisite: D9-PPA1-24<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+            answer:
+              "This module is designed to enable student teachers put into practice the theory attained in D8-PPA 1-15 and reflect on their professional practice. Teaching is a profession. It is therefore, very crucial for student teachers to engage in teaching practice exercise to effectively prepare them for the teaching career."
+          },
+          {
+            question: "Dissertation (Year module)",
+            subanswer:
+              "Code: D9-DI1-24<br/>Prerequisite: D9-RHE-24<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
+            answer:
+              "The module will enable learners gain a deeper understanding of research by exposing them to both the theoretical and practical aspects of educational research. The learners are expected to explore the findings of these researches in a manner that improves teaching, research and other aspects of HE."
+          },
+          {
+            question: "Assessment and Moderation in Outcomes-based Education",
+            subanswer:
+              "Code: D9-ABE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+            answer:
+              "This module equips learners with theoretical and practical skills for conducting assessment and moderation based on Outcomes-Based Education (OBE). It emphasises learner-centred approaches, enabling educators to apply OBE principles effectively in teaching, learning, assessment, and moderation within educational institutions."
+          }
+        ]
+      },
+      {
+        semester: "Semester 3 Elective One (Choose Two)",
+        courses: [
+          {
+            question: "Governance and Management in Higher Education",
+            subanswer:
+              "Code: D9-GMH-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+            answer:
+              "The module will familiarize learners with governance, leadership and management structures in HE institutions that can ensure effective attainment of institutional goals and objectives. It is essential to enhance the learners’ understanding of the processes and the structures through which higher education institutions are managed."
+          },
+          {
+            question: "Organisational Development",
+            subanswer:
+              "Code: D9-ODE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+            answer:
+              "The aim of this module is to allow students gain knowledge on contemporary issues that affect organisations such as the Evolution of Organisational Behaviour, Individual Dimensions, Group Dynamics, Conflict Management and Negotiation, Stress Management, Change Leadership and Decision Making, Dynamics Organisations, Management of Change and Culture and ethics"
+          },
+          {
+            question: "Special Education",
+            subanswer:
+              "Code: D9-SNE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+            answer:
+              "This module equips learners with the knowledge, skills, and competencies to support students with special needs in higher education. It focuses on inclusive education principles, emphasising the importance of recognising individual differences and fostering unity, equity, and democratic practice in diverse classroom settings."
+          }
+        ]
+      },
+      {
+        semester: "Semester 4",
+        courses: [
+          {
+            question: "Dissertation (Year module)",
+            subanswer:
+              "Code: D9-DI2-24<br/>Prerequisite: D9-DI1-24<br/>Co-requisite: None<br/>Module Fees: $1170<br/>Module Credits: 60",
+            answer:
+              "The module will enable learners gain a deeper understanding of research by exposing them to both the theoretical and practical aspects of educational research. The learners are expected to explore the findings of these researches in a manner that improves teaching, research and other aspects of Higher Education."
+          }
+        ]
+      }
+    ]
+  ],
+  requirements: [
+    {
+      question: "Admission Requirements",
+      answer:
+        "Bachelors or Honours Bachelors Degree from a recognised institution.",
+    },
+
+    {
+      question: "Technical Requirements",
+      answer: `<div class="technical-requirements">
+  <p>
+    To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
+  </p>
+
+  <h3>Device Requirements</h3>
+  <ul>
+    <li>
+      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
+    </li>
+    <li><strong>OR</strong></li>
+    <li>
+      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+    </li>
+  </ul>
+
+  <h3>Internet Requirements</h3>
+  <ul>
+    <li>
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+    </li>
+    <li>
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+    </li>
+  </ul>
+
+  <h3>Software and Platforms</h3>
+  <ul>
+    <li>
+      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+    </li>
+  </ul>
+
+  <h3>Browser Requirements</h3>
+  <ul>
+    <li>
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+    </li>
+  </ul>
+
+  <h3>Additional Tools (Optional but Recommended)</h3>
+  <ul>
+    <li>Headset: For clear audio during virtual classes</li>
+    <li>External storage (USB/Cloud): For backups of important coursework</li>
+    <li>Antivirus software: To protect against malware or data loss</li>
+  </ul>
+</div>
+`,
+    },
+  ],
+  programOverview: ``,
+};
+
+export const mscism = {
+  heroContent: {
+    title: "Masters of Education in Higher Education",
+    minPeriod: 2,
+    maxPeriod: 4,
+    programmeCredit: "$19.50",
+    totalProgrammeCredit: 240,
+    noOfModules: "14 (11 core + 3 elective)",
+    totalFee: "$4,680",
+    cta: false,
+    timer: false,
+    overview: false
+  },
+  courseStruture: [
+    {
+      semester: "Semester 1",
+      courses: [
+        {
+          question: "Big Data Management",
+          subanswer:
+            "Code: C9-BDM-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This module provides a broad understanding of big data and technologies used in managing urban data. Topics include big data ecosystems, parallel programming, MapReduce, Hadoop, Spark, Pig, and NoSQL solutions. Students will develop analytical solutions and gain hands-on experience with Apache Spark and Hadoop."
+        },
+        {
+          question: "System Development management and Governance",
+          subanswer:
+            "Code: C9-SDG-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This module examines the link between governance and sustainable development, focusing on stakeholder involvement in policy processes. Students will explore governance complexities, sustainable development goals, and policy-making, while developing analytical and problem-solving skills, and effectively using online platforms for communication and knowledge exchange."
+        }
+      ]
+    },
+    {
+      semester: "Semester 1 Elective Group One (Choose One)",
+      courses: [
+        {
+          question: "Infrastructure Management",
+          subanswer:
+            "Code: C9-IFM-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This module provides students with knowledge of IT infrastructure management, focusing on storage, security, and service delivery. Students will analyze security practices, threats, and challenges in IT, understand IT ethics, and explore emerging trends in the IT sector to manage infrastructure effectively."
+        },
+        {
+          question: "ICT Strategic Management",
+          subanswer:
+            "Code: C9-ICM-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This module covers strategic IT management, including infrastructure, service delivery, security, and emerging trends. Students will learn to align IT with organisational goals, develop IT strategies, assess current systems, and recommend improvements, while addressing key future IT management issues."
+        }
+      ]
+    },
+    {
+      semester: "Semester 2",
+      courses: [
+        {
+          question: "Information Security Management",
+          subanswer:
+            "Code: C9-ISM-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This module focuses on information security threats and countermeasures, covering key concepts, technologies, and management techniques. Students will gain practical experience in penetration testing, incident response, and cybercrime investigation, learning to secure information systems, detect vulnerabilities, and implement security measures like firewalls and intrusion prevention systems."
+        },
+        {
+          question: "ICT Project Management",
+          subanswer:
+            "Code: C9-IPM-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This module equips students with advanced project management skills, focusing on software/IT project activities, risk management, scheduling, quality control, and resource allocation. Students will learn to apply methodologies, estimate costs, and manage software projects effectively while developing interpersonal skills for teamwork and achieving organizational goals."
+        }
+      ]
+    },
+    {
+      semester: "Semester 2 Elective Group One (Choose One)",
+      courses: [
+        {
+          question: "Content Management Systems",
+          subanswer:
+            "Code: C9-CMS-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This module introduces students to content management systems (CMS), focusing on WordPress, Drupal, and Joomla. Students will learn the differences between CMS and static websites, explore server-side databases, create and deploy CMS websites, and understand maintenance considerations, content creation, and custom template development."
+        },
+        {
+          question: "Data Analytics",
+          subanswer:
+            "Code: C9-DAN-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This module focuses on developing the skills to make informed decisions using data analytics. Students will apply various data analytics techniques, from descriptive to predictive analytics, to real business problems and learn how to prepare data for effective analysis and communication of results."
+        }
+      ]
+    },
+    {
+      semester: "Semester 3",
+      courses: [
+        {
+          question: "Principles of Information Technology Management",
+          subanswer:
+            "Code: C9-PIM-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This module focuses on management decisions in single and multi-user systems, network architecture, database management, and software development. Students will evaluate interdisciplinary management concepts, assess the role of information systems in organizations, and demonstrate proficiency in solving business problems using software applications."
+        },
+        {
+          question: "Management Information Systems",
+          subanswer:
+            "Code: C9-MIS-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This module introduces Management Information Systems (MIS), focusing on techniques for managing IT opportunities to enhance organizational competitiveness. Students will learn to identify key aspects, classifications, and types of MIS, data warehousing, data mining, and planning enterprise resource systems for effective IT project management."
+        },
+        {
+          question: "Research Methods and Project Planning",
+          subanswer:
+            "Code: C9-RPP-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This module provides students with a solid understanding of research methodologies, theory, and processes. Students will learn to plan, design, and manage research projects, select appropriate research methods, critically review literature, consider ethical issues, and effectively write research proposals and dissertations."
+        }
+      ]
+    },
+    {
+      semester: "Semester 4",
+      courses: [
+        {
+          question: "Project Work Dissertation",
+          subanswer:
+            "Code: C9-PWD-15<br/>Prerequisite: C9-RPP-20<br/>Co-requisite: None<br/>Module Fees: $1170<br/>Module Credits: 60",
+          answer:
+            "This module enables students to undertake individual computer science projects, with supervision, covering various areas like system management. Students will investigate problems, design solutions, manage risks, implement and test solutions, evaluate research, and produce a dissertation. The project may be industry-based with formal presentations."
+        }
+      ]
+    }
+  ],
+  requirements: [
+    {
+      question: "Admission Requirements",
+      answer:
+        "Bachelors or Honours Bachelors Degree from a recognised institution in Computing/Computer Science/Information Technology or any computer field",
+    },
+
+    {
+      question: "Technical Requirements",
+      answer: `<div class="technical-requirements">
+  <p>
+    To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
+  </p>
+
+  <h3>Device Requirements</h3>
+  <ul>
+    <li>
+      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
+    </li>
+    <li><strong>OR</strong></li>
+    <li>
+      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+    </li>
+  </ul>
+
+  <h3>Internet Requirements</h3>
+  <ul>
+    <li>
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+    </li>
+    <li>
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+    </li>
+  </ul>
+
+  <h3>Software and Platforms</h3>
+  <ul>
+    <li>
+      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+    </li>
+  </ul>
+
+  <h3>Browser Requirements</h3>
+  <ul>
+    <li>
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+    </li>
+  </ul>
+
+  <h3>Additional Tools (Optional but Recommended)</h3>
+  <ul>
+    <li>Headset: For clear audio during virtual classes</li>
+    <li>External storage (USB/Cloud): For backups of important coursework</li>
+    <li>Antivirus software: To protect against malware or data loss</li>
+  </ul>
+</div>
+`,
+    },
+  ],
+  programOverview: ``,
+};
+
+export const msccs = {
+  heroContent: {
+    title: "Master of Science in Computer Science",
+    minPeriod: 2,
+    maxPeriod: 4,
+    programmeCredit: "$19.50",
+    totalProgrammeCredit: 240,
+    noOfModules: "9 (7 core + 2 elective)",
+    totalFee: "$4,680",
+    cta: false,
+    timer: false,
+    overview: false
+  },
+  courseStruture: [
+    {
+      semester: "Semester 1",
+      courses: [
+        {
+          question: "Algorithms and Data Structures",
+          subanswer:
+            "Code: C9-ADS-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This module enhances students' problem-solving abilities by introducing key algorithms and data structures. It empowers students to solve simple problems, apply advanced techniques, and improve their programming skills. Students will evaluate algorithms, analyze time and space complexities, and select appropriate data structures to design solutions for various problems."
+        },
+        {
+          question: "Object Oriented Software Engineering",
+          subanswer:
+            "Code: C9-OSE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This module equips students with the skills to manage software projects and develop systems using object-oriented methods. Students will learn key concepts and techniques for system design and program implementation using rapid application development tools and designing graphical user interfaces to create, test, and implement software solutions."
+        }
+      ]
+    },
+    {
+      semester: "SEMESTER 1 ELECTIVE GROUP ONE (CHOOSE ONE)",
+      courses: [
+        {
+          question: "Machine Learning",
+          subanswer:
+            "Code: C9-MLE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This module provides an in-depth introduction to supervised and unsupervised machine learning, covering key models and algorithms for regression, classification, clustering, and probabilistic classification. Students will critically evaluate approaches, understand applications, design machine learning systems, apply problem-solving techniques, and develop skills for further research in the field."
+        },
+        {
+          question: "Web Engineering",
+          subanswer:
+            "Code: C9-WEN-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This module provides hands-on experience in designing and developing internet-based applications. Students will learn internet architecture, HTML, CSS, JavaScript, server-side development, XML concepts, and web services. By completion, they will gain practical skills in building web applications and writing programs for front-end and back-end development."
+        }
+      ]
+    },
+    {
+      semester: "Semester 2",
+      courses: [
+        {
+          question: "Operating System",
+          subanswer:
+            "Code: C9-OPS-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This module reviews the design, implementation, and functioning of operating systems. It explores the principles behind centralized and distributed systems, focusing on real-world applications. Students will understand the structure and functions of operating systems, analyzing requirements for specific scenarios and relating system functions to machine architecture."
+        },
+        {
+          question: "Computer Networking and Communication",
+          subanswer:
+            "Code: C9-CNC-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This module introduces the principles of structured networks and future challenges for network designers. It covers network protocols, internet technologies, and data communications. Students will explore familiar concepts like the web and email before studying more complex networking aspects, including LAN, WAN, MAN, and network security."
+        }
+      ]
+    },
+    {
+      semester: "SEMESTER 2 ELECTIVE GROUP ONE (CHOOSE ONE)",
+      courses: [
+        {
+          question: "Grid Computing Systems",
+          subanswer:
+            "Code: C9-GCS-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This course explores advanced distributed computing, focusing on service-oriented systems like Grid Computing. Students will learn technologies, architectures, and applications, including cluster and data grids. It covers IT infrastructure, business value, middleware, and grid-enabled services, equipping students to design, develop, and implement grid computing models and applications."
+        },
+        {
+          question: "Information Retrieval",
+          subanswer:
+            "Code: C9-INR-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This module introduces students to information retrieval systems, focusing on retrieving the best possible information for user queries. It covers key algorithms, evaluation methods, probabilistic retrieval, ranking principles, and real-world applications in web search and recommendation systems, along with emerging topics like MapReduce, portfolio retrieval, and online advertising."
+        }
+      ]
+    },
+    {
+      semester: "Semester 3",
+      courses: [
+        {
+          question: "Data Warehousing",
+          subanswer:
+            "Code: C9-DWH-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "This module covers key concepts and components of data warehousing techniques and applications. Students will gain in-depth knowledge of data warehousing, including design methodologies, OLAP techniques, and development. They will design, implement, and evaluate data warehousing applications, analyzing and applying core concepts for effective data management and analysis."
+        },
+        {
+          question: "Computing Research Methods",
+          subanswer:
+            "Code: C9-CRM-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+          answer:
+            "Computing Research Methods explore systematic approaches to investigating computational problems, developing algorithms, and evaluating systems. It includes qualitative and quantitative techniques, experimental design, data analysis, and simulation. These methods ensure rigor in software engineering, AI, cybersecurity, and more, driving innovation and advancing knowledge in computer science and information technology."
+        }
+      ]
+    },
+    {
+      semester: "Semester 4",
+      courses: [
+        {
+          question: "Supervised Research and Dissertation",
+          subanswer:
+            "Code: C9-SRD-24<br/>Prerequisite: C9-CRM-24<br/>Co-requisite: None<br/>Module Fees: $1560<br/>Module Credits: 80",
+          answer:
+            "Supervised Research and Dissertation involve independent, in-depth study under expert guidance, culminating in a scholarly thesis. It includes topic selection, literature review, methodology development, data analysis, and findings presentation. This process hones critical thinking, research skills, and subject expertise, contributing original knowledge to the academic and professional fields."
+        }
+      ]
+    }
+  ],
+  requirements: [
+    {
+      question: "Admission Requirements",
+      answer:
+        "Bachelors or Honours Bachelors Degree from a recognised institution",
+    },
+
+    {
+      question: "Technical Requirements",
+      answer: `<div class="technical-requirements">
+  <p>
+    To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
+  </p>
+
+  <h3>Device Requirements</h3>
+  <ul>
+    <li>
+      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
+    </li>
+    <li><strong>OR</strong></li>
+    <li>
+      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+    </li>
+  </ul>
+
+  <h3>Internet Requirements</h3>
+  <ul>
+    <li>
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+    </li>
+    <li>
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+    </li>
+  </ul>
+
+  <h3>Software and Platforms</h3>
+  <ul>
+    <li>
+      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+    </li>
+  </ul>
+
+  <h3>Browser Requirements</h3>
+  <ul>
+    <li>
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+    </li>
+  </ul>
+
+  <h3>Additional Tools (Optional but Recommended)</h3>
+  <ul>
+    <li>Headset: For clear audio during virtual classes</li>
+    <li>External storage (USB/Cloud): For backups of important coursework</li>
+    <li>Antivirus software: To protect against malware or data loss</li>
+  </ul>
+</div>
+`,
+    },
+  ],
+  programOverview: ``,
+};
+
