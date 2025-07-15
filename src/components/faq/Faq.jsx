@@ -24,7 +24,7 @@ const Faq = ({ faqData, title }) => {
       </div>
       <div className="faq-rightpart">
         <div className="faq-portion" ref={faqPart2Ref}>
-          {faqData.map((item, index) => (
+          {faqData?.map((item, index) => (
             <div key={index} className="faq-item">
               <div
                 className={`faq-question ${openIndex === index ? "open" : ""}`}

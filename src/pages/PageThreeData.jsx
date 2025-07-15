@@ -1,6 +1,6 @@
 export const bachelorofscienceindatascience = {
   heroContent: {
-    title: "Bachelor of Science in Data Science",
+    question: "Bachelor of Science in Data Science",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -455,12 +455,13 @@ export const bachelorofscienceindatascience = {
 `,
     },
   ],
-  programOverview: ``,
+  programOverview: `Want to become a data expert? Our four-year BSc in Data Science equips you to extract meaningful insights from vast datasets. This programme integrates statistics, machine learning, computer science, and data analytics. You'll develop expertise in Data Processing, Analytics, and Visualisation, mastering Machine Learning, Data Mining, and Big Data Technologies.<br></br>With hands-on experience in AI and cloud computing, plus a Capstone Project and industrial attachment, you'll gain practical, industry-relevant skills. Graduates are well-prepared for dynamic careers as Data Scientists, Business Analysts, or AI Engineers in finance, healthcare, and technology.
+`,
 };
 
 export const bachelorofbusinessadministrationinbusinessmanagement = {
   heroContent: {
-    title: "Bachelor of Business Administration in Business Management",
+    question: "Bachelor of Business Administration in Business Management",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -916,12 +917,12 @@ export const bachelorofbusinessadministrationinbusinessmanagement = {
 `,
     },
   ],
-  programOverview: ``,
+  programOverview: `Aiming for a leadership role in the global business environment? Our Bachelor of Business Administration in Business Management provides the strategic mindset and skills you need. This programme covers key areas like management, finance, marketing, entrepreneurship, operations, and digital transformation, with a strong focus on innovation, sustainability, and ethical leadership.<br></br>Through practical case studies, collaborative projects, and industry-driven learning, you'll gain real-world experience, developing crucial critical thinking and problem-solving abilities. Whether you're planning an entrepreneurial venture or a corporate career, this degree will equip you to drive business innovation and achieve success.`,
 };
 
 export const bachelorofcommerceinhospitalitymanagement = {
   heroContent: {
-    title: "Bachelor of Commerce in Hospitality Management",
+    question: "Bachelor of Commerce in Hospitality Management",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -1317,12 +1318,12 @@ export const bachelorofcommerceinhospitalitymanagement = {
 `,
     },
   ],
-  programOverview: ``,
+  programOverview: `Aspiring to a leadership role in the vibrant hospitality sector? Our Bachelor of Commerce in Hospitality Management provides a strong foundation in business principles alongside specialised hospitality skills. You'll cover core areas like accounting and marketing, combined with modules in hotel operations, food and beverage management, and tourism development.<br></br>This programme emphasises practical experience through internships and case studies, nurturing your problem-solving, customer service, and managerial abilities. We'll equip you with entrepreneurial thinking, sustainability awareness, and digital proficiency, preparing you for diverse leadership roles in hotels, restaurants, tourism, and event management globally.`,
 };
 
 export const masterofcommerceinhumanresourcemanagement = {
   heroContent: {
-    title: "Master of Commerce in Human Resource Management.",
+    question: "Master of Commerce in Human Resource Management.",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -1534,12 +1535,12 @@ export const masterofcommerceinhumanresourcemanagement = {
 `,
     },
   ],
-  programOverview: ``,
+  programOverview: `Looking to become a leader in talent management? Our Master of Commerce in Human Resource Management (MCom in HRM) is a transformative qualification designed for the modern business landscape. You'll gain a robust foundation in strategic HR planning, recruitment, performance assessment, and more.<br></br>This programme empowers you with the skills to drive sustainable talent development, reducing reliance on external talent and fostering economic growth, especially in emerging economies. Ideal for those looking to advance their career and contribute meaningfully to national and corporate growth, the MCom in HRM cultivates leadership, innovation, and strategic decision-making, unlocking unparalleled opportunities for professional success.`,
 };
 
 export const masterofbusinessadministration = {
   heroContent: {
-    title: "Master of Business Administration (MBA)",
+    question: "Master of Business Administration (MBA)",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -1778,12 +1779,12 @@ export const masterofbusinessadministration = {
 `,
     },
   ],
-  programOverview: ``,
+  programOverview: `Aiming to become a top executive in the global business arena? Our MBA programme is designed for ambitious professionals. It equips you with the skills to tackle complex challenges, focusing on critical thinking, entrepreneurship, financial resilience, and innovative problem-solving.<br></br>This programme allows you to balance work, life, and study while gaining expertise in international business, leadership, accounting, risk management, technology, and marketing. Our MBA provides a strong foundation in business, empowering you to develop executive acumen and thrive in competitive environments. Join us and gain a recognised qualification for long-term success.`,
 };
 
 export const diplomainoccupationalhealthsafety = {
   heroContent: {
-    title: "Diploma in Occupational Health Safety",
+    question: "Diploma in Occupational Health Safety",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$13",
@@ -1988,12 +1989,12 @@ export const diplomainoccupationalhealthsafety = {
 </div>`,
     },
   ],
-  programOverview: ``,
+  programOverview: `Fascinated by creating safer workplaces? Our Diploma in Occupational Health and Safety is for you! This comprehensive programme blends occupational health, safety management, risk assessment, and environmental sustainability. You'll gain practical skills to identify, evaluate, and control workplace hazards, ensuring compliance with regulations, and fostering a strong safety culture.<br></br>Graduates are prepared to make a significant impact in manufacturing, construction, healthcare, and more. With a focus on both theory and hands-on experience, you'll be well-equipped to prevent injuries, illnesses, and accidents, becoming a vital advocate for employee well-being and a robust safety culture.`,
 };
 
 export const bachelorofscienceinhealthinformationmanagement = {
   heroContent: {
-    title: "Bachelor of Science in Health Information Management",
+    question: "Bachelor of Science in Health Information Management",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -2381,12 +2382,12 @@ export const bachelorofscienceinhealthinformationmanagement = {
 `,
     },
   ],
-  programOverview: ``,
+  programOverview: `Fascinated by the intersection of healthcare and technology? Our BSc in Health Information Management equips you to manage health data, information systems, and technology solutions. This comprehensive programme integrates health sciences, IT, and management principles, preparing you for dynamic careers in healthcare data management and analytics.<br></br>You'll learn to maintain data integrity, privacy, and compliance with healthcare regulations, while developing vital analytical, technical, and managerial skills. Graduates are ready for diverse roles such as Health Information Managers or Clinical Data Analysts, making a real impact on modern healthcare information management.`,
 };
 
 export const bachelorofscienceinhospitaladministration = {
   heroContent: {
-    title: "Bachelor of Science in Hospital Administration",
+    question: "Bachelor of Science in Hospital Administration",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -2781,12 +2782,12 @@ export const bachelorofscienceinhospitaladministration = {
 `,
     },
   ],
-  programOverview: ``,
+  programOverview: `Aspiring to a leadership position in healthcare? Our BSc in Hospital Administration is a specialised programme designed to equip you with essential knowledge and skills. It seamlessly integrates business administration, healthcare management, and public health principles, addressing the unique challenges of the sector.<br></br>You'll delve into healthcare systems, hospital operations, and patient care protocols, gaining a holistic understanding of this complex industry. Our curriculum blends theory with practical applications through case studies and experiential learning, preparing you to drive improvements in healthcare delivery, optimise resources, and enhance patient outcomes in diverse settings like hospitals and clinics.`,
 };
 
 export const bachelorofscienceinsafetyhealthandenvironmentalmanagement = {
   heroContent: {
-    title: "Bachelor of Science in Safety, Health and Environmental Management",
+    question: "Bachelor of Science in Safety, Health and Environmental Management",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -3200,12 +3201,12 @@ export const bachelorofscienceinsafetyhealthandenvironmentalmanagement = {
 `,
     },
   ],
-  programOverview: ``,
+  programOverview: `Ready to champion workplace safety and environmental well-being? Our BSc in Safety, Health, and Environment (SHE) Management is an interdisciplinary programme designed to equip you with essential knowledge. It seamlessly integrates occupational health, environmental science, and risk management principles.<br></br>You'll delve into identifying and assessing workplace hazards, developing effective control mechanisms, and adhering to crucial safety and environmental regulations. This programme also emphasises sustainable practices. Graduates are well-prepared to meet the growing demand for professionals adept at addressing SHE issues across diverse industries like manufacturing, construction, and healthcare, making meaningful contributions to workers and the environment.`,
 };
 
 export const bachelorofeducationinprimaryeducation = {
   heroContent: {
-    title:
+    question:
       "Bachelor of Education in Primary Education(English Language and Mathematics)",
     minPeriod: 4,
     maxPeriod: 6,
@@ -3554,12 +3555,12 @@ export const bachelorofeducationinprimaryeducation = {
 `,
     },
   ],
-  programOverview: ``,
+  programOverview: `Ready to shape the future of education? Botho University's Bachelor of Education (Primary Education) programme is designed for aspiring and current educators, equipping you with essential skills and knowledge to excel. With specialised training in English language and Mathematics, this dynamic programme ensures you stay ahead, aligning with the latest policy initiatives on teacher retooling.<br></br>Whether you're just starting or enhancing your career, our comprehensive curriculum prepares you for success. Unlock exciting opportunities in education, social services, training, and research, empowering you to make a real impact on the next generation. Join us and become a leader in primary education!`,
 };
 
 export const postgraduatediplomainhighereducation = {
   heroContent: {
-    title: "Post Graduate Diploma in Higher Education",
+    question: "Post Graduate Diploma in Higher Education",
     minPeriod: 1,
     maxPeriod: 2,
     programmeCredit: "$19.50",
@@ -3714,12 +3715,12 @@ export const postgraduatediplomainhighereducation = {
 `,
     },
   ],
-  programOverview: "",
+  programOverview: `Ready to advance your teaching career? Our Postgraduate Diploma in Higher Education (PGDHE) is a transformative one-year programme designed to equip you with advanced teaching skills, curriculum design expertise, and effective assessment strategies. You'll gain a deep understanding of pedagogy, assessment, moderation, and learner diversity.<br></br>With a mix of core and elective modules, you can tailor your learning. This hands-on qualification includes a practical teaching exercise, offering real-world experience. Delivered via Blended and Distance Learning, it's flexible for both national and international students. Enrol today and become a leader in higher education!`,
 };
 
 export const masterofeducationalleadershipandmanagement = {
   heroContent: {
-    title: "Master of Educational Leadership and Management",
+    question: "Master of Educational Leadership and Management",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -3928,12 +3929,12 @@ export const masterofeducationalleadershipandmanagement = {
 `,
     },
   ],
-  programOverview: ``,
+  programOverview: `Aspiring to lead in education? Our Master of Educational Leadership and Management is a prestigious, two-year programme designed to elevate your career. You'll gain cutting-edge leadership, management, and strategic decision-making skills through twelve core modules and elective options.<br></br>With a strong emphasis on research and innovation, you'll complete 240 credits, including a Research Methodology module, before your dissertation. Delivered through flexible Online Learning, this programme is ideal for both national and international students, allowing you to advance your expertise and shape the future of learning.`,
 };
 
 export const masterofeducationincurriculumdesignandinstruction = {
   heroContent: {
-    title: "Master of Education in Curriculum Design and Instruction",
+    question: "Master of Education in Curriculum Design and Instruction",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -4161,12 +4162,12 @@ export const masterofeducationincurriculumdesignandinstruction = {
 `,
     },
   ],
-  programOverview: ``,
+  programOverview: `Ready to lead in education and curriculum development? Our Master of Education in Curriculum Design and Instruction is your pathway to becoming an expert. You'll master Learning, Teaching and Assessment, Theories of Curriculum Development, and practical Curriculum Design and Development.<br></br>This cutting-edge programme integrates Computer Applications in Education and Instructional Strategies Using Internet, ensuring you stay ahead in modern practices. You'll also delve into Research Methods and complete a Dissertation. Delivered flexibly, this programme will equip you to innovate curricula, evaluate learning, and become a leader in education.`,
 };
 
 export const bscinnetworksecurityandcomputerforensics = {
   heroContent: {
-    title: "BSc in Network Security and Computer Forensics",
+    question: "BSc in Network Security and Computer Forensics",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -4442,31 +4443,31 @@ export const bscinnetworksecurityandcomputerforensics = {
       semester: "Semester 7",
       courses: [
         {
-          title: "Cyber Crime Investigation",
-          details:
+          question: "Cyber Crime Investigation",
+          subanswer:
             "Code: C8-CCI-23<br/>Prerequisite: C7-FIT-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          description:
+          answer:
             "Students will explore legal and investigative approaches to cybercrime, including fraud, identity theft, and digital evidence collection. The module covers case analysis, cyber laws, forensic reporting, and courtroom procedures. Practical exercises will enhance students’ ability to conduct cybercrime investigations and support law enforcement efforts.",
         },
         {
-          title: "Research Project 1: Proposal Writing",
-          details:
+          question: "Research Project 1: Proposal Writing",
+          subanswer:
             "Code: C7-RP1-20<br/>Prerequisite: C7-RMS-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          description:
+          answer:
             "A preparatory module for research projects, where students develop research proposals and methodologies for cybersecurity topics. Students will learn academic writing, literature review techniques, and research design principles. This module ensures they are equipped to plan and justify their research effectively before conducting their studies.",
         },
         {
-          title: "Cyber Law",
-          details:
+          question: "Cyber Law",
+          subanswer:
             "Code: C7-CYL-23<br/>Prerequisite: C6-PCS-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          description:
+          answer:
             "This module examines legal frameworks, data protection laws, and regulatory compliance in cybersecurity. Topics include intellectual property rights, cybercrime legislation, and digital privacy laws. Students will analyse case studies and learn how cybersecurity policies align with national and international legal standards.",
         },
         {
-          title: "Entrepreneurship and Innovation",
-          details:
+          question: "Entrepreneurship and Innovation",
+          subanswer:
             "Code: B8-ENI-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
-          description:
+          answer:
             "An entrepreneurial module that encourages students to develop business strategies, cybersecurity start-ups, and innovation-driven solutions. Topics include business planning, financial management, market analysis, and risk assessment. Students will explore emerging technologies and learn how to turn cybersecurity innovations into viable business ventures.",
         },
       ],
@@ -4475,24 +4476,24 @@ export const bscinnetworksecurityandcomputerforensics = {
       semester: "Semester 7 Elective Group One (Choose One)",
       courses: [
         {
-          title: "Media and Storage (Elective)",
-          details:
+          question: "Media and Storage (Elective)",
+          subanswer:
             "Code: C8-MAS-20<br/>Prerequisite: C6-CFO-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          description:
+          answer:
             "This module covers digital media storage technologies, data retention policies, and storage security. Students will explore topics such as file systems, disk encryption, cloud storage solutions, and secure data backup methodologies. Practical exercises will help students understand how to manage, protect, and recover digital assets efficiently and securely.",
         },
         {
-          title: "Media Forensics (Elective)",
-          details:
+          question: "Media Forensics (Elective)",
+          subanswer:
             "Code: C8-MEF-23<br/>Prerequisite: C6-CFO-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          description:
+          answer:
             "Media Forensics focuses on the investigation and analysis of digital media, including images, videos, and audio files. Students will learn forensic techniques for detecting tampering, recovering deleted media, and verifying the authenticity of digital evidence. The module prepares students for forensic analysis roles in cybercrime investigations.",
         },
         {
-          title: "Information Security Management and Governance (Elective)",
-          details:
+          question: "Information Security Management and Governance (Elective)",
+          subanswer:
             "Code: C8-ISG-23<br/>Prerequisite: C6-PIE-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          description:
+          answer:
             "This module provides a comprehensive understanding of information security policies, risk management, and compliance with cybersecurity regulations. Students will explore governance frameworks such as ISO 27001 and NIST, learning how to develop and implement security policies that align with organisational and legal requirements.",
         },
       ],
@@ -4501,17 +4502,17 @@ export const bscinnetworksecurityandcomputerforensics = {
       semester: "Semester 8",
       courses: [
         {
-          title: "Research Project 2: Dissertation",
-          details:
+          question: "Research Project 2: Dissertation",
+          subanswer:
             "Code: C8-RP2-20<br/>Prerequisite: C7-RP1-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
-          description:
+          answer:
             "A capstone project requiring students to conduct independent research, analyse cybersecurity challenges, and present findings. Students will apply research methodologies, collect data, and produce a well-structured dissertation. This module develops their analytical and problem-solving skills in addressing real-world cybersecurity issues.",
         },
         {
-          title: "Professional Practice in Computing",
-          details:
+          question: "Professional Practice in Computing",
+          subanswer:
             "Code: C7-PPC-20<br/>Prerequisite: 240 credits<br/>Co-requisite: None<br/>Module Fees: $520<br/>Module Credits: 40",
-          description:
+          answer:
             "A work-integrated learning module that provides students with industry exposure, project management skills, and hands-on cybersecurity experience. Students will work on real-world projects, collaborate with industry professionals, and develop technical and professional competencies essential for their careers in cybersecurity and computing.",
         },
       ],
@@ -4575,11 +4576,11 @@ export const bscinnetworksecurityandcomputerforensics = {
 `,
     },
   ],
-  programOverview: ``,
+  programOverview: `Ready to become a cybersecurity expert? Our BSc in Network Security and Computer Forensics is a specialised degree equipping you to protect digital assets and investigate cyber threats. You'll gain hands-on experience in penetration testing, digital forensics, and network defence strategies, integrating core computing principles with advanced security techniques.<br></br>The programme covers essential topics like ethical hacking, cybercrime investigation, and malware analysis, providing comprehensive knowledge of modern threats and countermeasures. Beyond technical skills, you'll learn ethical and legal considerations, preparing you for careers as a cybersecurity analyst or digital forensic investigator in government, corporations, or law enforcement, addressing critical security challenges.`,
 };
 export const mastersofeducationinhighereducation = {
   heroContent: {
-    title: "Masters of Education in Higher Education",
+    question: "Masters of Education in Higher Education",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -4793,12 +4794,12 @@ export const mastersofeducationinhighereducation = {
 `,
     },
   ],
-  programOverview: ``,
+  programOverview: `Elevate your expertise with our Master of Education in Higher Education. This specialised two-year online programme equips you with advanced pedagogical skills, covering Learning, Teaching and Assessment, Curriculum Design and Development, and Academic Writing. You'll gain a deep understanding of Quality Frameworks in Higher Education and integrate Educational Technology and e-Learning.<br></br>With a strong emphasis on research, including Research in Higher Education and a Dissertation, alongside practical experience, this flexible programme prepares you for leadership roles in universities and colleges, shaping the future of higher education.`,
 };
 
 export const masterofscienceininformationsystemsmanagement = {
   heroContent: {
-    title: "Master of Science in Information Systems Management",
+    question: "Master of Science in Information Systems Management",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -4984,12 +4985,12 @@ export const masterofscienceininformationsystemsmanagement = {
 `,
     },
   ],
-  programOverview: ``,
+  programOverview: `Ready to excel in information systems management? Our Master of Science in Information Systems Management is a professionally oriented online programme, perfect if you need flexible learning. You'll develop advanced critical thinking and technical skills in key areas like systems analysis and design, project management, data management, cybersecurity, and business intelligence, all with an emphasis on global best practices.<br></br>This programme prepares you for leadership roles, enabling you to apply technical expertise and strategic thinking to drive organisational success. You'll be ready to work autonomously or in multidisciplinary teams, tackling the complexities of modern information systems with integrity and professionalism.`,
 };
 
 export const masterofscienceincomputerscience = {
   heroContent: {
-    title: "Master of Science in Computer Science",
+    question: "Master of Science in Computer Science",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -5168,5 +5169,352 @@ export const masterofscienceincomputerscience = {
 `,
     },
   ],
-  programOverview: ``,
+  programOverview: `Aspiring to excel in the tech industry? Our Master of Science in Computer Science is an advanced, flexible online programme. You'll gain technical expertise and analytical skills, focusing on core computing principles and specialised areas like software development, data analysis, artificial intelligence, and cybersecurity.<br></br>The programme provides hands-on experience with industry tools, mastering algorithms and software engineering. You'll develop critical thinking, problem-solving, and secure software design skills, preparing you to create scalable solutions and address ethical challenges. Graduates are ready for careers in software engineering, data science, or cybersecurity, driving innovation in the digital world.`,
+};
+
+
+export const bachelorofcommerceinaccounting= {
+  heroContent: {
+    question: "Bachelor of Commerce in Accounting",
+    minPeriod: 4,
+    maxPeriod: 6,
+    programmeCredit: "$13",
+    totalProgrammeCredit: 480,
+    noOfModules: "38 (36 Core and 2 Elective)",
+    totalFee: "$6,240",
+    cta: false,
+    timer: false,
+    overview: false
+  },
+  courseStruture: [
+    {
+      semester: "Semester 1",
+      courses: [
+        {
+          question: "Introduction to MS Office",
+          subanswer: "Code: C5-IMO-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "The Introduction to MS Office module is designed to equip students with essential digital skills required for academic, professional, and personal productivity. This foundational course provides hands-on experience with key Microsoft Office applications, ensuring students develop proficiency in word processing, spreadsheets, presentations, database management, and email communication."
+        },
+        {
+          question: "Academic Writing for Business",
+          subanswer: "Code: D5-AWB-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module introduces students to essential academic writing skills, focusing on paragraph structure, thesis statements, and argument development. It explores plagiarism, its consequences, and prevention strategies. Additionally, students will develop referencing skills, including citation techniques, resource evaluation, and the use of referencing tools like Mendeley to ensure academic integrity."
+        },
+        {
+          question: "Business Mathematics and Statistics",
+          subanswer: "Code: B5-BS1-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module focuses on fundamental mathematical concepts, including fractions, percentages, algebra, and their business applications. It introduces basic statistics, focusing on data organization, central tendency, dispersion, and spreadsheet analysis. Probability concepts, including axioms, discrete and continuous distributions, and standardized normal distributions, are explored to enhance quantitative decision-making skills."
+        },
+        {
+          question: "Legal Aspects of Business",
+          subanswer: "Code: B5-LAB-13<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module provides an introduction to law, its origins, and the Botswana legal system, including criminal and civil law. It explores key areas such as contract law, sales, leases, credit agreements, insurance, agency, employment contracts, intellectual property, negotiable instruments, and business enterprises, equipping students with essential legal knowledge."
+        },
+        {
+          question: "Fundamental Of Business and Finance",
+          subanswer: "Code: A5-FBF-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "The Fundamentals of Business and Finance module provides a comprehensive introduction to key business concepts, including management, organizational structures, strategy, risk management, financial information, and corporate governance. The students will gain essential insights into business and personal finance, the role of professional accountants, and how economic factors impact business operations and finance."
+        },
+        {
+          question: "Business Management 1",
+          subanswer: "Code: B5-BM1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module introduces business management as a science, covering business concepts, economic systems, and stakeholder roles. It explores the business environment, management tasks, and functional areas such as operations, finance, HR, and marketing. Leadership principles, traits, and theories are examined, providing a foundation for effective business decision-making and strategy."
+        }
+      ]
+    },
+    {
+      semester: "Semester 2",
+      courses: [
+        {
+          question: "Principles of Marketing",
+          subanswer: "Code: B5-PMK-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module introduces the fundamentals of marketing, including the 7 P’s, consumer behavior, and decision-making processes. It explores marketing research, segmentation, and targeting strategies. Key aspects of product development, pricing strategies, and promotional techniques are examined, equipping students with essential skills for effective marketing in a competitive global environment."
+        },
+        {
+          question: "Business Mathametics and Statistics 2",
+          subanswer: "Code: B6-BS2-17<br/>Prerequisite: B5-BS1-17<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module focuses on essential mathematical concepts, including quadratic equations, functions, differentiation, and integration. Statistical topics include sampling distributions, confidence intervals, hypothesis testing, and chi-square tests. It also explores regression analysis, decision theory, time series analysis, and forecasting, equipping students with analytical tools for data-driven decision-making in business and research."
+        },
+        {
+          question: "Introduction to Financial Accounting",
+          subanswer: "Code: A5-IFA-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module introduces the principles of accounting, including its conceptual and regulatory framework. It covers accounting systems, ledger maintenance, trial balances, bank reconciliations, and control accounts. Students will learn to prepare financial statements for sole traders, partnerships, limited companies, and unincorporated organizations, including manufacturing accounts and cash flow statements."
+        },
+        {
+          question: "Business Ethics and Assurance",
+          subanswer: "Code: B6-BEA-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module explores the role of external auditing, focusing on its regulatory framework, fraud detection, and reporting responsibilities. It covers pre-audit investigations, audit planning, risk assessment, materiality, and auditors’ legal liability. Additionally, it examines the differences between financial statement audits and the assurance of sustainability reports."
+        },
+        {
+          question: "Business Management 2",
+          subanswer: "Code: B5-BM2-20<br/>Prerequisite: B5-BS1-17<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module provides a comprehensive foundation in management principles, covering managerial roles, strategic planning, decision-making, and organizational structures. It explores human resource management, change management, diversity, and logistics. Emphasis is placed on adapting to environmental changes, leveraging information systems, and developing skills for sustainable competitive advantage in modern business organizations."
+        },
+        {
+          question: "Computerized Accounting 1",
+          subanswer: "Code: A6-CP1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module introduces computerized accounting systems, covering transaction processing, enterprise resource planning (ERP), and accounting software like Pastel and QuickBooks. It explores cybercrime, fraud prevention, security controls, and auditing of computer-based systems. Additionally, it examines revenue and expenditure cycles, as well as system development, analysis, design, and implementation."
+        }
+      ]
+    },
+    {
+      semester: "Semester 3",
+      courses: [
+        {
+          question: "Taxation 1",
+          subanswer: "Code: A6-TA1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module provides an understanding of the Botswana tax system, covering different types of taxes, principal tax laws, and taxpayer obligations. It explores tax procedures, including objections and appeals, withholding taxes, gross income, deductions, employment income, capital allowances, and taxable income for individuals, sole traders, and partnerships."
+        },
+        {
+          question: "Micreconomics",
+          subanswer: "Code: B5-MIE-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module introduces fundamental economic concepts, including scarcity, choice, and economic systems. It explores demand and supply dynamics, market equilibrium, and elasticity. Students will analyze firm behavior, production costs, and market structures. Additionally, the module covers externalities, public goods, and income distribution, providing insights into economic decision-making and policy implications."
+        },
+        {
+          question: "Cost Accounting",
+          subanswer: "Code: A6-COA-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module introduces key costing concepts, including cost behavior, classification, and accounting for materials and labor. It covers inventory valuation methods, overhead allocation, marginal and absorption costing, and various costing methods like job, batch, and process costing. Additionally, it explores cost-volume-profit analysis, standard costing, variance analysis, and budgeting for effective cost control."
+        },
+        {
+          question: "Computerized Accounting 2",
+          subanswer: "Code: A6-CP2-20<br/>Prerequisite: A6-CP1-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module provides hands-on training in Sage Pastel, covering company setup, navigation, and key functionalities. It explores customer and supplier account management, inventory and general ledger setup, and processing financial transactions. Additionally, it focuses on error correction, scheduled invoicing, financial reporting, and bank reconciliations to enhance accounting efficiency and accuracy."
+        },
+        {
+          question: "Corporate Administration 1",
+          subanswer: "Code: A6-CA1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module explores strategic and functional administration, emphasizing corporate governance, role players in the corporate hierarchy, and best practices. It covers information management, confidentiality under relevant legal frameworks, technological advancements, and their impact. Additionally, it examines human resource functions, employer-employee relationships, and contractual rights within a corporate environment."
+        },
+        {
+          question: "Financial Accounting 1",
+          subanswer: "Code: A6-FA1-17<br/>Prerequisite: A6-IFA-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module introduces accounting principles, financial reporting, and corporate structures. It explores company formation, financial statement preparation, and adjustments per IFRS and IAS standards. Topics include limited liability companies, partnerships, ratio analysis, and asset management. Emphasis is placed on financial information, reporting frameworks, and key accounting concepts for decision-making"
+        }
+      ]
+    },
+    {
+      semester: "Semester 4",
+      courses: [
+        {
+          question: "Macroeconomics",
+          subanswer: "Code: B6-MAE-17<br/>Prerequisite: B5-MIE-17<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module introduces macroeconomic principles, covering economic perspectives, national income measurement, and business cycles. It explores aggregate demand and supply, fiscal and monetary policies, and the role of central banks. Additionally, it examines inflation, unemployment, and international trade, highlighting the impact of economic policies on national and global markets."
+        },
+        {
+          question: "Audit and Assurance",
+          subanswer: "Code: A6-ASS-20<br/>Prerequisite: B6-BEA-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer: "This module explores key auditing principles, emphasizing responsibilities, risk assessment, and response strategies. It covers gathering audit evidence, utilizing the work of others, and forming audit conclusions. The module also examines audit reporting, ensuring compliance with standards and enhancing the reliability of financial information for stakeholders."
+        },
+        {
+          question: "Financial Management 1",
+          subanswer: "Code: A6-FM1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module explores financial management principles, focusing on investment, financing, and dividend decisions. It examines the roles of financial managers, working capital management, credit risk, and short-term financing. Additionally, it covers capital budgeting, the time value of money, and the risk-return relationship, equipping learners with essential financial decision-making skills."
+        },
+        {
+          question: "Corporate Secretaryship",
+          subanswer: "Code: A6-CSC-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module examines the formation, administration, and management of companies, covering types, incorporation, and regulatory provisions. It explores share capital, capital maintenance, and financial reporting. Additionally, it highlights the roles and responsibilities of members, directors, and company officers, ensuring compliance with legal and governance frameworks for corporate operations."
+        },
+        {
+          question: "Financial Accounting 2",
+          subanswer: "Code: A7-FA2-20<br/>Prerequisite: A7-FA1-17<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module focuses on key financial reporting standards, including IAS 38 for intangible assets, IAS 17 for leases, IAS 2 for inventories, and IFRS cash flow preparation. It explores revenue recognition, financial instruments, and their measurement, ensuring compliance with IFRS principles for accurate financial reporting and decision-making."
+        }
+      ]
+    },
+    {
+      semester: "Semester 5",
+      courses: [
+        {
+          question: "Taxation 2",
+          subanswer: "Code: A7-TA2-20<br/>Prerequisite: A6-TA1-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer: "This module provides an overview of the Botswana/Lesetho tax system, covering different types of taxes, key tax laws, and taxpayer obligations. It examines income and company tax liabilities, chargeable gains, withholding taxes, and VAT. Additionally, it explores tax dispute resolution, including objections and appeals, ensuring compliance with regulatory requirements."
+        },
+        {
+          question: "Management Accounting",
+          subanswer: "Code: A7-MAC-20<br/>Prerequisite: A6-COA-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer: "This module introduces management accounting concepts, focusing on cost analysis, budgeting, and decision-making. It explores marginal vs. absorption costing, activity-based costing, and cost-volume-profit analysis. Additionally, it covers budgeting, variance analysis, and short-run decision-making, equipping learners with techniques for effective cost control and financial planning in business operations."
+        },
+        {
+          question: "Financial Reporting",
+          subanswer: "Code: A7-FIR-20<br/>Prerequisite: A7-FA2-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer: "This module explores key accounting standards, including IAS 8 for accounting policies, IAS 23 for borrowing costs, and IAS 20 for government grants. It covers income tax accounting (IAS 12), earnings per share (IAS 33), and group financial statements, including consolidation (IAS 27) and accounting for associates (IAS 28)."
+        }
+      ]
+    },
+    {
+      semester: "Semester 6",
+      courses: [
+        {
+          question: "Financial Management 2",
+          subanswer: "Code: A7-FM2-20<br/>Prerequisite: A7-FM1-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module explores business financing options, cost of capital, and valuation principles. It examines factors affecting capital costs, asset and business valuation methods, and risk management techniques. Learners will develop skills to evaluate financing alternatives, optimize capital structures, and apply risk mitigation strategies for effective financial decision-making."
+        },
+        {
+          question: "Research Methods in Business",
+          subanswer: "Code: B7-RMB-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module explores business and management research, covering epistemology, research strategies, ethics, and proposal development. It examines literature review, research design, data collection methods, and SPSS for analysis. Additionally, it addresses time and resource management, data presentation, and report writing, equipping learners with essential research skills for academic and professional inquiry."
+        },
+        {
+          question: "Company Law",
+          subanswer: "Code: A7-COL-20<br/>Prerequisite: B5-LAB-13<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer: "This module provides an overview of Botswana’s legal system, covering court structures, legal sources, and statutory interpretation. It explores contract and employment law, company formation, agency, partnership law, and corporate governance. Additionally, it examines capital financing, insolvency, and legal implications of fraudulent and criminal behavior in business operations."
+        },
+        {
+          question: "Business Analysis and Valuation Using Financial Statements",
+          subanswer: "Code: A7-BAV-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module explores business analysis and valuation using financial statements. It covers financial reporting’s role in capital markets, strategy and accounting analysis, financial and prospective analysis, and valuation techniques. Learners will apply forecasting, ratio analysis, and discounted cash flow models, with insights into mergers, acquisitions, and corporate financial decision-making."
+        }
+      ]
+    },
+    {
+      semester: "Semester 6 Elective Group 1 (Choose One)",
+      courses: [
+        {
+          question: "Computerized Auditing",
+          subanswer: "Code: A7-CUA-20<br/>Prerequisite: A6-ASS-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module introduces students to computer auditing, covering key aspects such as tests of control and substantive procedures in computerized information systems. It explores computer-assisted audit techniques, special control considerations, and the use of computers in audit practices. Students will also learn about computerized working paper programs to enhance audit efficiency."
+        },
+        {
+          question: "Taxation 3",
+          subanswer: "Code: A7-TA3-20<br/>Prerequisite: A7-TA2-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module focuses on the scope of income tax, including employment, self-employment, property, investment, and trust income. It explores tax on gains, losses, and inheritance, along with computing taxable income and liabilities. Students will learn to apply exemptions, minimize tax liabilities, and assess taxation's impact on financial decisions."
+        },
+        {
+          question: "Corporate Secretaryship 2",
+          subanswer: "Code: A7-CS2-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module provides a comprehensive understanding of the legal and regulatory framework governing companies. It covers company formation, types, incorporation effects, and statutory compliance. Students will explore share capital, financial reporting, corporate governance, and directors' responsibilities. Emphasis is placed on legal provisions, corporate structure, and effective company administration."
+        },
+        {
+          question: "Audit and Assurance 2",
+          subanswer: "Code: A7-AS2-20<br/>Prerequisite: A6-ASS-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module focuses on the audit engagement process, including pre-audit investigations, planning, risk assessment, and materiality. It examines audit procedures, evidence gathering, and financial statement reporting responsibilities. Students will explore auditors' legal liabilities, fraud detection, and differences between auditing financial statements and providing assurance on sustainability reports."
+        },
+        {
+          question: "Risk Management and Insurance",
+          subanswer: "Code: A7-RMI-20<br/>Prerequisite: B6-BS2-17<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module introduces risk and insurance, covering risk types, classification, and management principles. It explores risk identification, measurement, and planning, along with legal principles in insurance contracts. Students will learn life and non-life insurance techniques, insurance company management, government regulations, and risk management practices within the insurance industry."
+        }
+      ]
+    },
+    {
+      semester: "Semester 7",
+      courses: [
+        {
+          question: "Public Sector Financial Reporting",
+          subanswer: "Code: A7-PSR-20<br/>Prerequisite: A7-FA2-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module focuses on public sector financial reporting standards, including cash and accrual basis accounting under IPSAS. It explores financial statement presentation, cash flow reporting, accounting policies, and asset management. Students will learn about consolidation, intangible assets, revenue from non-exchange transactions, leases, and first-time adoption of accrual-based IPSAS standards."
+        },
+        {
+          question: "Research Project 1: Proposal Writing",
+          subanswer: "Code: B7-RP1-20<br/>Prerequisite: B7-RMB-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module guides students in developing a research proposal, covering problem identification, background, and objective formulation. It includes literature review, methodology selection, research instrument design, ethical considerations, data analysis methods, budgeting, and timeline construction. Students will gain essential skills for structuring and planning a scientific research project effectively."
+        },
+        {
+          question: "Corporate Governance",
+          subanswer: "Code: B7-CGV-20<br/>Prerequisite: A7-COL-20, A6-ASS-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module explores corporate governance, its principles, stakeholders, and global trends. It covers the benefits of good governance, warning signs of inefficiency, and governance in family-owned enterprises. Students will examine shareholder rights, board responsibilities, audit committees, financial reporting governance, and the OECD principles, fostering ethical and effective corporate leadership."
+        },
+        {
+          question: "Corporate Administration 2",
+          subanswer: "Code: A7-CA2-20<br/>Prerequisite: A6-CA1-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module focuses on employment law, workplace compliance, and health and safety regulations. It explores company wellness policies, retirement funding, and pension scheme administration. Students will also examine risk management principles, asset management, acquisition, protection, and facilities management, emphasizing their role in achieving organizational objectives and operational efficiency."
+        }
+      ]
+    },
+    {
+      semester: "Semester 7 Elective Group 1 (Select Any One)",
+      courses: [
+        {
+          question: "Entrepreneurship and Innovation",
+          subanswer: "Code: B8-ENI-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer: "This module explores entrepreneurship and innovation, covering enterprise development, opportunity discovery, and business planning. It examines innovation principles, feasibility assessment, business modelling, and disruptive technologies. Students will learn to validate risks, market size, and pricing while developing entrepreneurial teams, fostering creativity, and building sustainable, innovative ventures."
+        },
+        {
+          question: "Social Entrepreneurship",
+          subanswer: "Code: B8-SOE-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer: "This module explores how social entrepreneurs develop innovative solutions to address global challenges. Students will gain practical skills in managing small enterprises, leveraging disruptive technologies, and applying entrepreneurial thinking to foster sustainability. Areas of focus include scaling social businesses, impact measurement, and integrating sustainable development goals for lasting change."
+        },
+        {
+          question: "Innovation for Sustainable Development",
+          subanswer: "Code: E8-ISD-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer: "This module focuses on group dynamics, enhancing efficiency, participation, and satisfaction. It equips students with facilitation, research, and analytical skills while fostering multidisciplinary collaboration through design thinking. Students will define and analyze real societal problems, applying self-competencies and teamwork to develop and implement practical solutions."
+        }
+      ]
+    },
+    {
+      semester: "Semester 8",
+      courses: [
+        {
+          question: "Professional Practice In Accounting",
+          subanswer: "Code: A7-PRA-20<br/>Prerequisite: 240 Credits<br/>Co-requisite: None<br/>Module Fees: $520<br/>Module Credits: 40",
+          answer: "This module provides students with industry attachment for hands-on experience in accounting. Assessment emphasizes supervision, a final paper, and a portfolio of evidence. Students will demonstrate key competencies, balance theory with practice, and engage in academic discourse to enhance their professional skills in real-world accounting environments."
+        },
+        {
+          question: "Research Project 2: Dissertation",
+          subanswer: "Code: B7-RP2-20<br/>Prerequisite: B7-RP1-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer: "This module guides students in conducting independent research at the honours level. It covers problem identification, literature review, research design, data collection, analysis, and interpretation. Students will develop a well-structured dissertation, drawing conclusions and making recommendations, demonstrating their ability to apply research skills to real-world issues."
+        }
+      ]
+    }
+  ],
+  requirements: [
+    {
+      question: "Admission Requirements",
+      answer:
+        "IGCSE/equivalent with 5 Passes including English and Mathematics. Applicants in possession of a Diploma or Higher Diploma in related fields may be given exemptions based on the credit point equivalency. ",
+    },
+
+    {
+      question: "Technical Requirements",
+      answer: `<div class="technical-requirements">
+  <p>
+  "To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:"
+  </p>
+  <h3>Device Requirements</h3> 
+  <ul>
+    <li>
+      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
+    </li>
+    <li><strong>OR</strong></li>
+    <li>
+      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+    </li>
+  </ul>
+
+  <h3>Internet Requirements</h3>
+  <ul>
+    <li>
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+    </li>
+    <li>
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+    </li>
+  </ul>
+
+  <h3>Software and Platforms</h3>
+  <ul>
+    <li>
+      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+    </li>
+  </ul>
+
+  <h3>Browser Requirements</h3>
+  <ul>
+    <li>
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+    </li>
+  </ul>
+
+  <h3>Additional Tools (Optional but Recommended)</h3>
+  <ul>
+    <li>Headset: For clear audio during virtual classes</li>
+    <li>External storage (USB/Cloud): For backups of important coursework</li>
+    <li>Antivirus software: To protect against malware or data loss</li>
+  </ul>
+</div>
+`,
+    },
+  ],
+  programOverview: `Your Future in Accounting Starts Here! Our Bachelor of Commerce in Accounting programme offers a practical, industry-focused approach to a rewarding career in accounting and finance. You'll gain essential expertise in financial reporting, auditing, taxation, and management accounting. What sets this degree apart is its blend of theory and hands-on experience, including a compulsory semester-long internship for invaluable real-world exposure.<br></br>Prepare for success in diverse roles across public and private accounting, financial analysis, banking, and government. This programme also provides a strong foundation for professional certifications like ACCA, CPA, and CIMA, opening doors to advanced career development and ensuring you're ready to confidently navigate the financial world.`,
 };

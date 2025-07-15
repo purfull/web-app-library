@@ -10,7 +10,8 @@ import downloadIcon from "/icon/Frame (1).png";
 const imageList = [img1, img2, img3, img4];
 
 const TimerHome = ({
-  data
+  data,
+  programOverview
 }) => {
   return (
     <>
@@ -19,7 +20,7 @@ const TimerHome = ({
         <div className="left-part">
           <div className="row-grid">
             <div className="primary-heading black">
-              {data?.title || "Bachelor of Science in Data Science"}
+              {data?.question}
             </div>
             <div className="image-portion">
               <div className="dynamic-image">
@@ -152,14 +153,15 @@ const TimerHome = ({
 
         </div>
       </div>
-      {data?.overview && <div className="titleBar wraper timerHome-programme-overview page-gap" >
+      {programOverview && <div className="titleBar wraper timerHome-programme-overview page-gap" >
         <div className="heading" >
           <span className="secondary-heading">
             Programme Overview
           </span>
         </div>
-        <div className="secondary-paragraph black padding-zero" style={{ width: "70vw" }}><p> Want to become a data expert? Our four-year BSc in Data Science equips you to extract meaningful insights from vast datasets. This programme integrates statistics, machine learning, computer science, and data analytics. You'll develop expertise in Data Processing, Analytics, and Visualisation, mastering Machine Learning, Data Mining, and Big Data Technologies. <br></br><br></br>
-          With hands-on experience in AI and cloud computing, plus a Capstone Project and industrial attachment, you'll gain practical, industry-relevant skills. Graduates are well-prepared for dynamic careers as Data Scientists, Business Analysts, or AI Engineers in finance, healthcare, and technology.</p></div>
+       <div className="secondary-paragraph black padding-zero" style={{ width: "70vw" }}>
+  <div dangerouslySetInnerHTML={{ __html: programOverview }} />
+</div>
       </div>}
     </>
   );

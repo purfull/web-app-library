@@ -13,7 +13,26 @@ import CourseStruture from "../components/coursestrutureSection/coursestrutureSe
 import FeeHome from "../components/feehoemsection/feehome";
 import EnquireSection from "../components/EnquireSection/EnquireSection";
 import FeeTable from "../components/feeTable/feeTable";
-import {bscds, bcomacc} from "./PageFiveDats";
+import {
+  bachelorofbusinessadministrationinbusinessmanagement,
+  bachelorofscienceindatascience,
+  bachelorofcommerceinhospitalitymanagement,
+  masterofcommerceinhumanresourcemanagement,
+  masterofbusinessadministration,
+  diplomainoccupationalhealthsafety,
+  bachelorofscienceinhealthinformationmanagement,
+  bachelorofscienceinhospitaladministration,
+  bachelorofscienceinsafetyhealthandenvironmentalmanagement,
+  bachelorofeducationinprimaryeducation,
+  postgraduatediplomainhighereducation,
+  masterofeducationalleadershipandmanagement,
+  masterofeducationincurriculumdesignandinstruction,
+  masterofscienceininformationsystemsmanagement,
+  masterofscienceincomputerscience,
+  bscinnetworksecurityandcomputerforensics,
+  mastersofeducationinhighereducation,
+  bachelorofcommerceinaccounting
+} from "./PageFiveDats";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 
@@ -21,11 +40,31 @@ const PageFive = () => {
   
     const { name } = useParams();
     const [course, setCourse] = useState()
-    
-    useEffect(() => {
-      setCourse(name);
-      console.log("Course param:", name);
-    }, [name]);
+    const courseMap = {
+  bachelorofbusinessadministrationinbusinessmanagement,
+  bachelorofscienceindatascience,
+  bachelorofcommerceinhospitalitymanagement,
+  masterofcommerceinhumanresourcemanagement,
+  masterofbusinessadministration,
+  diplomainoccupationalhealthsafety,
+  bachelorofscienceinhealthinformationmanagement,
+  bachelorofscienceinhospitaladministration,
+  bachelorofscienceinsafetyhealthandenvironmentalmanagement,
+  bachelorofeducationinprimaryeducation,
+  postgraduatediplomainhighereducation,
+  masterofeducationalleadershipandmanagement,
+  masterofeducationincurriculumdesignandinstruction,
+  masterofscienceininformationsystemsmanagement,
+  masterofscienceincomputerscience,
+  bscinnetworksecurityandcomputerforensics,
+  mastersofeducationinhighereducation,
+  bachelorofcommerceinaccounting
+};
+  useEffect(() => {
+  const courseData = courseMap[name];
+  setCourse(courseData);
+  console.log("Resolved course:", course?.heroContent);
+}, [name]);
   
   const faqData = [
     {
@@ -506,8 +545,8 @@ const PageFive = () => {
     <div className="">
       <RednavBar />
       <NavBar />
-      <TimerHome data={bscds?.heroContent} />
-      <FeeTable tableData={bscds?.tableContent} />
+      <TimerHome data={course?.heroContent} />
+      <FeeTable tableData={course?.tableContent} />
       {/* <EnquireSection /> */}
       <FeedBackSection />
       <Faq faqData={faqData} />

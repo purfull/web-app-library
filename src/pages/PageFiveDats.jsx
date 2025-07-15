@@ -1,6 +1,7 @@
-export const bba = {
+
+export const bachelorofcommerceinaccounting = {
     heroContent: {
-        "title": "Bachelor of Commerce in Accounting",
+        "question": "Bachelor of Commerce in Accounting",
         "minPeriod": 4,
         "maxPeriod": 6,
         "programmeCredit": "$13",
@@ -380,391 +381,9 @@ export const bba = {
 
 }
 
-export const bcomacc = {
+export const bachelorofbusinessadministrationinbusinessmanagement = {
     heroContent: {
-        "title": "Bachelor of Commerce in Accounting",
-        "minPeriod": 4,
-        "maxPeriod": 6,
-        "programmeCredit": "$13",
-        "totalProgrammeCredit": 480,
-        "noOfModules": "38 (36 Core and 2 Elective)",
-        "totalFee": "$6,240",
-        "cta": false,
-        "timer": false,
-        "overview": false
-    },
-    tableContent: [
-        {
-            title: "Semester 1",
-            totalCredit: 60,
-            totalFee: "$780.00",
-            modules: [
-                {
-                    type: "Core",
-                    code: "C5-IMO-20",
-                    name: "Introduction to MS Office",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "D5-AWB-20",
-                    name: "Academic Writing for Business",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "B5-BS1-17",
-                    name: "Business Mathematics and Statistics",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "B5-LAB-13",
-                    name: "Legal Aspects of Business",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "A5-FBF-20",
-                    name: "Fundamental Of Business and Finance",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "B5-BM1-20",
-                    name: "Business Management 1",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-            ],
-        },
-        {
-            title: "Semester 2",
-            totalCredit: 60,
-            totalFee: "$780.00",
-            modules: [
-                {
-                    type: "Core",
-                    code: "B5-PMK-17",
-                    name: "Principles of Marketing",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "B6-BS2-17",
-                    name: "Business Mathematics and Statistics 2",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "A5-IFA-20",
-                    name: "Introduction to Financial Accounting",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "B6-BEA-20",
-                    name: "Business Ethics and Assurance",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "B5-BM2-20",
-                    name: "Business Management 2",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "A6-CP1-20",
-                    name: "Computerized Accounting 1",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-            ],
-        },
-        {
-            title: "Semester 3",
-            totalCredit: 60,
-            totalFee: "$780.00",
-            modules: [
-                {
-                    type: "Core",
-                    code: "A6-TA1-20",
-                    name: "Taxation 1",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "B5-MIE-17",
-                    name: "Microeconomics",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "A6-COA-20",
-                    name: "Cost Accounting",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "A6-CP2-20",
-                    name: "Computerized Accounting 2",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "A6-CA1-20",
-                    name: "Corporate Administration 1",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "A6-FA1-17",
-                    name: "Financial Accounting 1",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-            ],
-        },
-        {
-            title: "Semester 4",
-            totalCredit: 60,
-            totalFee: "$780.00",
-            modules: [
-                {
-                    type: "Core",
-                    code: "B6-MAE-17",
-                    name: "Macroeconomics",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "A6-ASS-20",
-                    name: "Audit and Assurance",
-                    credit: 20,
-                    fee: "$260.00",
-                },
-                {
-                    type: "Core",
-                    code: "A6-FM1-20",
-                    name: "Financial Management 1",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "A6-CSC-20",
-                    name: "Corporate Secretaryship",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "A7-FA2-20",
-                    name: "Financial Accounting 2",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-            ],
-        },
-        {
-            title: "Semester 5",
-            totalCredit: 60,
-            totalFee: "$780.00",
-            modules: [
-                {
-                    type: "Core",
-                    code: "A7-TA2-20",
-                    name: "Taxation 2",
-                    credit: 20,
-                    fee: "$260.00",
-                },
-                {
-                    type: "Core",
-                    code: "A7-MAC-20",
-                    name: "Management Accounting",
-                    credit: 20,
-                    fee: "$260.00",
-                },
-                {
-                    type: "Core",
-                    code: "A7-FIR-20",
-                    name: "Financial Reporting",
-                    credit: 20,
-                    fee: "$260.00",
-                },
-            ],
-        },
-        {
-            title: "Semester 6",
-            totalCredit: 60,
-            totalFee: "$780.00",
-            modules: [
-                {
-                    type: "Core",
-                    code: "A7-FM2-20",
-                    name: "Financial Management 2",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "B7-RMB-20",
-                    name: "Research Methods in Business",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "A7-COL-20",
-                    name: "Company Law",
-                    credit: 20,
-                    fee: "$260.00",
-                },
-                {
-                    type: "Core",
-                    code: "A7-BAV-20",
-                    name: "Business Analysis and Valuation Using Financial Statements",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "A7-CUA-20",
-                    name: "Computerized Auditing",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Elective (Choose one)",
-                    code: "A7-TA3-20",
-                    name: "Taxation 3",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Elective (Choose one)",
-                    code: "A7-CS2-20",
-                    name: "Corporate Secretaryship 2",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Elective (Choose one)",
-                    code: "A7-AS2-20",
-                    name: "Audit and Assurance 2",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Elective (Choose one)",
-                    code: "A7-RMI-20",
-                    name: "Risk Management and Insurance",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-            ],
-        },
-        {
-            title: "Semester 7",
-            totalCredit: 60,
-            totalFee: "$780.00",
-            modules: [
-                {
-                    type: "Core",
-                    code: "A7-PSR-20",
-                    name: "Public Sector Financial Reporting",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "B7-RP1-20",
-                    name: "Research Project 1: Proposal Writing",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "B7-CGV-20",
-                    name: "Corporate Governance",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Core",
-                    code: "A7-CA2-20",
-                    name: "Corporate Administration 2",
-                    credit: 10,
-                    fee: "$130.00",
-                },
-                {
-                    type: "Elective (Choose one)",
-                    code: "B8-ENI-20",
-                    name: "Entrepreneurship and Innovation",
-                    credit: 20,
-                    fee: "$260.00",
-                },
-                {
-                    type: "Elective (Choose one)",
-                    code: "B8-SOE-21",
-                    name: "Social Entrepreneurship",
-                    credit: 20,
-                    fee: "$260.00",
-                },
-                {
-                    type: "Elective (Choose one)",
-                    code: "E8-ISD-17",
-                    name: "Innovation for Sustainable Development",
-                    credit: 20,
-                    fee: "$260.00",
-                },
-            ],
-        },
-        {
-            title: "Semester 8",
-            totalCredit: 60,
-            totalFee: "$780.00",
-            modules: [
-                {
-                    type: "Core",
-                    code: "A7-PRA-20",
-                    name: "Professional Practice In Accounting",
-                    credit: 40,
-                    fee: "$520.00",
-                },
-                {
-                    type: "Core",
-                    code: "B7-RP2-20",
-                    name: "Research Project 2: Dissertation",
-                    credit: 20,
-                    fee: "$260.00",
-                },
-            ],
-        },
-    ]
-
-}
-
-export const bbabm = {
-    heroContent: {
-        "title": "Bachelor of Business Administration in Business Management",
+        "question": "Bachelor of Business Administration in Business Management",
         "minPeriod": 4,
         "maxPeriod": 6,
         "programmeCredit": "$13",
@@ -1157,9 +776,9 @@ export const bbabm = {
     ]
 
 }
-export const bcomhm = {
+export const bachelorofcommerceinhospitalitymanagement = {
     heroContent: {
-        "title": "Bachelor of Commerce in Hospitality Management",
+        "question": "Bachelor of Commerce in Hospitality Management",
         "minPeriod": 4,
         "maxPeriod": 6,
         "programmeCredit": "$13",
@@ -1509,9 +1128,9 @@ export const bcomhm = {
 
 }
 
-export const dipohs = {
+export const diplomainoccupationalhealthsafety = {
     heroContent: {
-        "title": "Diploma in Occupational Health Safety",
+        "question": "Diploma in Occupational Health Safety",
         "minPeriod": 2,
         "maxPeriod": 4,
         "programmeCredit": "$13",
@@ -1684,9 +1303,9 @@ export const dipohs = {
 
 }
 
-export const mba = {
+export const masterofbusinessadministration = {
     heroContent: {
-        "title": "Master of Business Administration (MBA)",
+        "question": "Master of Business Administration (MBA)",
         "minPeriod": 2,
         "maxPeriod": 4,
         "programmeCredit": "$19.50",
@@ -1874,9 +1493,9 @@ export const mba = {
 
 }
 
-export const mcomhrm = {
+export const masterofcommerceinhumanresourcemanagement = {
     heroContent: {
-        "title": "Master of Commerce in Human Resource Management.",
+        "question": "Master of Commerce in Human Resource Management.",
         "minPeriod": 2,
         "maxPeriod": 4,
         "programmeCredit": "$19.50",
@@ -2043,9 +1662,9 @@ export const mcomhrm = {
 
 }
 
-export const bschim = {
+export const bachelorofscienceinhealthinformationmanagement = {
     heroContent: {
-        title: "Bachelor of Science in Health Information Management",
+        question: "Bachelor of Science in Health Information Management",
         minPeriod: 4,
         maxPeriod: 6,
         programmeCredit: "$13",
@@ -2183,9 +1802,9 @@ export const bschim = {
     ],
 };
 
-export const bscha = {
+export const bachelorofscienceinhospitaladministration = {
     heroContent: {
-        "title": "Bachelor of Science in Hospital Administration",
+        "question": "Bachelor of Science in Hospital Administration",
         "minPeriod": 4,
         "maxPeriod": 6,
         "programmeCredit": "$13",
@@ -2319,9 +1938,9 @@ export const bscha = {
 
 }
 
-export const bscshem = {
+export const bachelorofscienceinsafetyhealthandenvironmentalmanagement = {
     heroContent: {
-        title: "Bachelor of Science in Safety, Health and Environmental Management",
+        question: "Bachelor of Science in Safety, Health and Environmental Management",
         minPeriod: 4,
         maxPeriod: 6,
         programmeCredit: "$13",
@@ -2466,9 +2085,9 @@ export const bscshem = {
 
 }
 
-export const bedpe = {
+export const bachelorofeducationinprimaryeducation = {
     heroContent: {
-        title: "Bachelor of Education in Primary Education (English Language and Mathematics)",
+        question: "Bachelor of Education in Primary Education (English Language and Mathematics)",
         minPeriod: 4,
         maxPeriod: 6,
         programmeCredit: "$13",
@@ -2595,9 +2214,9 @@ export const bedpe = {
 }
 
 
-export const bscds = {
+export const bachelorofscienceindatascience = {
     heroContent: {
-        title: "Bachelor of Science in Data Science",
+        question: "Bachelor of Science in Data Science",
         minPeriod: 4,
         maxPeriod: 6,
         programmeCredit: "$13",
@@ -2809,9 +2428,9 @@ export const bscds = {
 }
 
 
-export const bscnscf = {
+export const bscinnetworksecurityandcomputerforensics = {
     heroContent: {
-        title: "BSc in Network Security and Computer Forensics",
+        question: "BSc in Network Security and Computer Forensics",
         minPeriod: 4,
         maxPeriod: 6,
         programmeCredit: "$13",
@@ -2922,9 +2541,9 @@ export const bscnscf = {
 
 }
 
-export const pgdhe = {
+export const postgraduatediplomainhighereducation = {
     heroContent: {
-        title: "Post Graduate Diploma in Higher Education",
+        question: "Post Graduate Diploma in Higher Education",
         minPeriod: 1,
         maxPeriod: 2,
         programmeCredit: "$19.50",
@@ -2968,9 +2587,9 @@ export const pgdhe = {
 
 }
 
-export const medlm = {
+export const masterofeducationalleadershipandmanagement = {
     heroContent: {
-        title: "Master of Educational Leadership and Management",
+        question: "Master of Educational Leadership and Management",
         minPeriod: 2,
         maxPeriod: 4,
         programmeCredit: "$19.50",
@@ -3035,9 +2654,9 @@ export const medlm = {
 
 }
 
-export const medcdi = {
+export const masterofeducationincurriculumdesignandinstruction = {
     heroContent: {
-        title: "Master of Education in Curriculum Design and Instruction",
+        question: "Master of Education in Curriculum Design and Instruction",
         minPeriod: 2,
         maxPeriod: 4,
         programmeCredit: "$19.50",
@@ -3109,9 +2728,9 @@ export const medcdi = {
 
 }
 
-export const medhe = {
+export const mastersofeducationinhighereducation = {
     heroContent: {
-        title: "Masters of Education in Higher Education",
+        question: "Masters of Education in Higher Education",
         minPeriod: 2,
         maxPeriod: 4,
         programmeCredit: "$19.50",
@@ -3183,9 +2802,9 @@ export const medhe = {
 
 }
 
-export const mscism = {
+export const masterofscienceininformationsystemsmanagement = {
     heroContent: {
-        title: "Master of Science in Information Systems Management",
+        question: "Master of Science in Information Systems Management",
         minPeriod: 2,
         maxPeriod: 4,
         programmeCredit: "$19.50",
@@ -3251,9 +2870,9 @@ export const mscism = {
     ]
 }
 
-export const msccs = {
+export const masterofscienceincomputerscience = {
     heroContent: {
-        title: "Master of Science in Computer Science",
+        question: "Master of Science in Computer Science",
         minPeriod: 2,
         maxPeriod: 4,
         programmeCredit: "$19.50",
