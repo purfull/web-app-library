@@ -1,4 +1,4 @@
-export const bba = {  
+export const bba = {
   heroContent: {
     title: "Bachelor of Science in Data Science",
     minPeriod: 4,
@@ -633,25 +633,7 @@ export const bbabm = {
         },
       ],
     },
-    // {
-    //   semester: "SEMESTER 3 ELECTIVE GROUP ONE (CHOOSE ONE)",
-    //   courses: [
-    //     {
-    //       question: "Cloud Computing",
-    //       subanswer:
-    //         "Code: E5-PHY-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
-    //       answer:
-    //         "This module provides a hands-on study of Cloud computing, covering service models like IaaS, PaaS, SaaS, and BPaaS. Students will explore cloud security, risk management, cryptographic key management, and access control. They will also analyse cloud computing essentials, security baselines, and architectural concepts whilst implementing cloud security measures.",
-    //     },
-    //     {
-    //       question: "Emerging Technologies I",
-    //       subanswer:
-    //         "Code: E5-PHY-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
-    //       answer:
-    //         "This course explores the integration of educational technology into curriculum design, emphasising best practices, national standards, and emerging technologies.Students will research and apply IoT concepts, including its functionalities, applications, enabling technologies, and interoperability. They will also analyse challenges affecting IoT adoption across various industries and domains.",
-    //     },
-    //   ],
-    // },
+
     {
       semester: "Semester 4",
       courses: [
@@ -693,44 +675,7 @@ export const bbabm = {
         },
       ],
     },
-    // {
-    //   semester: "SEMESTER 4 ELECTIVE GROUP ONE (SELECT ONE)",
-    //   courses: [
-    //     {
-    //       question: "Cryptography",
-    //       subanswer:
-    //         "Code: E5-PHY-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
-    //       answer:
-    //         "This course explores cryptosystem principles and design, covering traditional, block, and stream ciphers, public/private key systems, hash functions, and network security. Students will analyse cryptographic goals, design principles, and attack vectors. They'll understand key management, security notions, and apply mathematical foundations like discrete logarithms and factorising.",
-    //     },
-    //     {
-    //       question: "Mobile Operating Systems",
-    //       subanswer:
-    //         "Code: E5-PHY-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
-    //       answer:
-    //         "This module explores mobile operating systems, focusing on Android architecture. Students will learn about processes, threads, scheduling, concurrency, and synchronisation. Memory management, file systems, storage, and input/output mechanisms are also covered, providing a comprehensive understanding of mobile OS functionality and enhancement.",
-    //     },
-    //   ],
-    // },
-    // {
-    //   semester: "SEMESTER 4 ELECTIVE GROUP ONE (SELECT ONE)",
-    //   courses: [
-    //     {
-    //       question: "Advanced Computer Networks",
-    //       subanswer:
-    //         "Code: E5-PHY-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
-    //       answer:
-    //         "This module advances networking knowledge, covering network architecture, protocols, and applications. Students will analyse packet-switched networks, implement web services, and explore wireless technologies. Topics include routing, security, multimedia networking, and network management, providing a comprehensive understanding of modern network infrastructure.",
-    //     },
-    //     {
-    //       question: "Optimization",
-    //       subanswer:
-    //         "Code: E5-PHY-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
-    //       answer:
-    //         "This module introduces Mathematical Optimisation, covering theory and algorithms for solving optimisation problems. Students will learn combinatorial algorithms and their underlying mathematics. They'll apply algorithms, interpret outputs, prove propositions, and determine optimisation problem geometries using linear algebra. Practical computations are emphasised, building a strong foundation in optimisation techniques.",
-    //     },
-    //   ],
-    // },
+
     {
       semester: "Semester 5",
       courses: [
@@ -2392,6 +2337,825 @@ export const bscHim = {
   </p>
 
   <h3>Device Requirements</h3>
+  <ul>
+    <li>
+      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
+    </li>
+    <li><strong>OR</strong></li>
+    <li>
+      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+    </li>
+  </ul>
+
+  <h3>Internet Requirements</h3>
+  <ul>
+    <li>
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+    </li>
+    <li>
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+    </li>
+  </ul>
+
+  <h3>Software and Platforms</h3>
+  <ul>
+    <li>
+      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+    </li>
+  </ul>
+
+  <h3>Browser Requirements</h3>
+  <ul>
+    <li>
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+    </li>
+  </ul>
+
+  <h3>Additional Tools (Optional but Recommended)</h3>
+  <ul>
+    <li>Headset: For clear audio during virtual classes</li>
+    <li>External storage (USB/Cloud): For backups of important coursework</li>
+    <li>Antivirus software: To protect against malware or data loss</li>
+  </ul>
+</div>
+`,
+    },
+  ],
+  programOverview: ``,
+};
+
+export const bscHa = {
+  heroContent: {
+    title: "Bachelor of Science in Hospital Administration",
+    minPeriod: 4,
+    maxPeriod: 6,
+    programmeCredit: "$13",
+    totalProgrammeCredit: 480,
+    noOfModules: "36 (34 Core + 2 Elective)",
+    totalFee: "$6,240",
+    cta: true,
+    timer: true,
+    overview: true,
+  },
+  courseStruture: [
+    {
+      semester: "Semester 1",
+      courses: [
+        {
+          question: "Computer Applications 1",
+          subanswer:
+            "Code: C5-CA1-23<br/>Prerequisite: None<br/>Corequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to introduce essential computer skills, including software applications, data management, and digital tools. It prepares students for technology-driven tasks in healthcare administration and other fields.",
+        },
+        {
+          question: "Introduction to Anatomy and Physiology",
+          subanswer:
+            "Code: D6-IAP-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "The purpose of the module is to equip students with a foundational understanding of human anatomy and physiology. It focuses on system-wide concepts, enabling students to connect these concepts with terminology used in disease coding and transcription, thus providing essential knowledge for healthcare-related fields.",
+        },
+        {
+          question: "Academic writing for STEM",
+          subanswer:
+            "Code: D6-AWS-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to equip students with essential skills in academic writing, focusing on clear and structured communication in the STEM fields. The module covers citation and referencing techniques, as well as research writing skills, enabling students to effectively present and support their academic work.",
+        },
+        {
+          question: "Principles of Management",
+          subanswer:
+            "Code: D6-POM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to introduce management theories, functions, and practices. It focuses on planning, organizing, leading, and controlling resources to achieve organizational goals.",
+        },
+        {
+          question: "Principles of Hospital Administration",
+          subanswer:
+            "Code: D6-PHA-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to cover core concepts of hospital management, including planning, organization, and leadership. It prepares students to oversee healthcare facilities effectively.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 2",
+      courses: [
+        {
+          question: "Fundamentals of Accounting",
+          subanswer:
+            "Code: A5-FOA-23<br/>Prerequisite: C5-CE1-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to introduce basic accounting principles, financial statements, and bookkeeping. It focuses on understanding financial data, budgeting, and decision-making to manage resources effectively in healthcare or business settings.",
+        },
+        {
+          question: "Introduction to Pathology and Pharmacology",
+          subanswer:
+            "Code: D6-IPP-21<br/>Prerequisite: D6-IAP-21<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "The purpose of the module is to provide foundational knowledge on the pharmacology of drugs and the pathology of diseases. It explores the role of drugs in modern medicine, linking this understanding to the essential knowledge needed for accurate coding of drugs and diseases in healthcare.",
+        },
+        {
+          question: "Computer Applications 2",
+          subanswer:
+            "Code: C6-CA2-23<br/>Prerequisite: C5-CA1-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to build advanced computer skills, including software applications, data analysis, and digital tools. It prepares students for complex technology-driven tasks in healthcare administration and beyond. ",
+        },
+        {
+          question: "Introduction to Global Health",
+          subanswer:
+            "Code: D5-IGH-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to explore global health strategies, financing, and implementation in today's world. It examines the socioeconomic and environmental determinants of health, highlighting their impact on communities. Students will gain insights into global health challenges and solutions for improving health outcomes worldwide.",
+        },
+
+        {
+          question: "Health Ethics, Law and Policy",
+          subanswer:
+            "Code: D6-HLP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to examine ethical, legal, and policy issues in healthcare. It covers patient rights, confidentiality, and regulatory frameworks to ensure ethical decision-making in healthcare administration.",
+        },
+      ],
+    },
+
+    {
+      semester: "Semester 3",
+      courses: [
+        {
+          question: "Hospital Services Management Core , Support and Utility",
+          subanswer:
+            "Code: D6-HSM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to focus on managing hospital operations, including patient care, resource allocation, and service delivery. It prepares students to ensure efficient and effective healthcare services.",
+        },
+
+        {
+          question: "Health Database Management System",
+          subanswer:
+            "Code: D6-DMS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "The purpose of the module is to teach the design, implementation, and management of health databases. It focuses on ensuring accurate data storage, retrieval, and security for effective healthcare operations.",
+        },
+        {
+          question: "Epidemiology",
+          subanswer:
+            "Code: D6-EPI-13<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "The purpose of the module is to equip students with essential skills to study disease patterns and risks. It covers measures of disease occurrence, study design, clinical test accuracy, epidemiological analysis methods, and research ethics, enabling students to critically evaluate public health data and contribute to disease prevention and control.",
+        },
+        {
+          question: "Health Informatics",
+          subanswer:
+            "Code: D6-HEF-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to explore the use of information technology in healthcare. It focuses on data management, electronic health records, and digital tools to improve patient care and operational efficiency.",
+        },
+      ],
+    },
+
+    {
+      semester: "Semster 4",
+      courses: [
+        {
+          question: "Health Economics",
+          subanswer:
+            "Code: D7-HEC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the Health Economics module is to equip students with the fundamental principles and tools used in health economics. It provides a comprehensive understanding of how economic principles can be applied to healthcare systems, including cost-effectiveness analysis, resource allocation, and the economic evaluation of health interventions.",
+        },
+        {
+          question: "Medical Records Department",
+          subanswer:
+            "Code: D6-MRD-23<br/>Prerequisite: D6-DMS-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to teach the management of medical records. It focuses on maintaining accuracy, confidentiality, and accessibility of patient information in healthcare settings.",
+        },
+
+        {
+          question: "Patient Care and Safety in Hospitals",
+          subanswer:
+            "Code: D7-PCS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to emphasize patient-centered care, safety protocols, and quality improvement in healthcare settings. It prepares students to ensure optimal patient outcomes.",
+        },
+        {
+          question: "Organisational Behaviour",
+          subanswer:
+            "Code: BE-OBE-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to explore individual and group dynamics within organizations. It covers motivation, leadership, communication, and teamwork to improve workplace efficiency and employee satisfaction.",
+        },
+        {
+          question: "Material Management in Hospitals",
+          subanswer:
+            "Code: D7-MMH-23<br/>Prerequisite: D6-HSM-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to manage hospital resources efficiently. It focuses on procurement, inventory control, and distribution of medical supplies and equipment.",
+        },
+        {
+          question: "Ethical and Legal Issues in Administration",
+          subanswer:
+            "Code: D7-ELA-23<br/>Prerequisite: D6-HLP-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to examine ethical and legal challenges in healthcare administration. It focuses on patient rights, compliance, and ethical decision-making in complex scenarios.",
+        },
+      ],
+    },
+
+    {
+      semester: "Semster 5",
+      courses: [
+        {
+          question: "Research Trends in Hospital Management",
+          subanswer:
+            "Code: D7-RTH-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to explore current research and innovations in hospital management. It focuses on evidence-based practices and emerging trends to improve healthcare delivery.",
+        },
+        {
+          question: "Medical Terminology",
+          subanswer:
+            "Code: D7-MTE-23<br/>Prerequisite: D6-IPP-21<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "The purpose of the module is to provide students with a foundational understanding of medical terms used in healthcare. It covers terminology related to various disease conditions, as well as the musculoskeletal, respiratory, and digestive systems, enabling effective communication in medical and clinical settings.",
+        },
+        {
+          question: "HealthCare Quality Management",
+          subanswer:
+            "Code: D7-HQM-23<br/>Prerequisite: D6-HSM-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to teach strategies for improving healthcare quality. It covers patient safety, performance metrics, and continuous improvement in healthcare delivery.",
+        },
+        {
+          question: "Strategic Management",
+          subanswer:
+            "Code:B7-STM-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "Strategic Management module equips students with the skills to analyze, formulate, and implement business strategies in the business management landscape. It focuses on competitive analysis, decision-making, resource management, and sustainability. Students learn to develop strategic plans that enhance organizational performance and long-term success in a dynamic business environment.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 5 Elective Group One (Choose One)",
+      courses: [
+        {
+          question: "Environmental Health and Safety",
+          subanswer:
+            "Code: D6-EHS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to address environmental factors affecting health. It focuses on safety protocols, risk assessment, and sustainable practices in healthcare settings.",
+        },
+        {
+          question: "Disaster Management",
+          subanswer:
+            "Code: D6-DMA-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to teach strategies for managing healthcare during disasters. It focuses on preparedness, response, and recovery in crisis situations.",
+        },
+      ],
+    },
+    {
+      semester: "Semster 6",
+      courses: [
+        {
+          question: "Research Methodology",
+          subanswer:
+            "Code: D6-REM-23<br/>Prerequisite: D6-AWS-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to introduce research design, data collection, and analysis techniques. It equips students with skills to conduct evidence-based studies in healthcare and related fields.",
+        },
+        {
+          question: "Medical Statistics",
+          subanswer:
+            "Code: D7-MST-13<br/>Prerequisite: D6-EPI-13<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "The purpose of the module is to apply statistical methods to healthcare data. It covers data interpretation, analysis, and reporting to support decision-making in medical research and practice.",
+        },
+        {
+          question: "Health Insurance and Policies",
+          subanswer:
+            "Code: D7-HIP-23<br/>Prerequisite: D7-ELA-23,D6-IMT-21<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to explore health insurance systems and policies. It focuses on understanding coverage, reimbursement, and regulatory frameworks in healthcare.",
+        },
+        {
+          question: "Human Research Management",
+          subanswer:
+            "Code: B7-HRM-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to teach recruitment, training, performance evaluation, and employee relations. It equips students with skills to manage human capital effectively in healthcare or other industries.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 6 Elective Group One (Choose One)",
+      courses: [
+        {
+          question: "Personal and Professional Development",
+          subanswer:
+            "Code: D7-PPD-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to enhance personal and professional skills. It focuses on communication, leadership, and career growth in healthcare administration.",
+        },
+        {
+          question: "Public and Community Health",
+          subanswer:
+            "Code: D7-PCH-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to explore public health initiatives and community engagement. It focuses on disease prevention, health promotion, and addressing health disparities. ",
+        },
+      ],
+    },
+    {
+      semester: "Semester 7",
+      courses: [
+        {
+          question: "Research Project 1",
+          subanswer:
+            "Code: D7-RPR-23<br/>Prerequisite: D6-REM-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to apply research skills to a specific healthcare topic. It involves designing, conducting, and presenting a research project under supervision.",
+        },
+        {
+          question: "Disease Coding and CPT",
+          subanswer:
+            "Code: D7-DCC-23<br/>Prerequisite: D7-MTE-23<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "The purpose of the module is to teach disease classification and procedural coding. It focuses on accurate documentation and billing in healthcare administration.",
+        },
+        {
+          question: "Entrepreneurship and Innovation",
+          subanswer:
+            "Code: B8-ENI-20<br/>Prerequisite: B7-STM-23<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "The purpose of the module is to develop entrepreneurial skills and innovative thinking. It focuses on creating business opportunities, managing startups, and fostering creativity to address challenges in healthcare or other industries.",
+        },
+        {
+          question: "Risk Management",
+          subanswer:
+            "Code: D6-RMN-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to teach strategies to identify, assess, and mitigate risks in healthcare settings. It focuses on patient safety, legal compliance, and organizational resilience.",
+        },
+      ],
+    },
+
+    {
+      semester: "Semster 8 ",
+      courses: [
+        {
+          question: "Professional Practice",
+          subanswer:
+            "Code: D7-PRP-23<br/>Prerequisite: 240 Credits<br/>Co-requisite: None<br/>Module Fees: $540<br/>Module Credits: 40",
+          answer:
+            "The purpose of the module is to prepare students for real-world healthcare administration. It focuses on practical skills, ethical practices, and professional development in healthcare settings.",
+        },
+        {
+          question: "Research Projects 2",
+          subanswer:
+            "Code: D8-RP2-23<br/>Prerequisite: D7-RPR-23<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "The purpose of the module is to conduct an advanced research project in healthcare. It builds on Research Project 1, emphasizing in-depth analysis and practical application.",
+        },
+      ],
+    },
+  ],
+  requirements: [
+    {
+      question: "Admission Requirements",
+      answer:
+        "IGCSE/equivalent with 5 Passes including English and Mathematics. Applicants in possession of a Diploma or Higher Diploma in related fields may be given exemptions based on the credit point equivalency.",
+    },
+
+    {
+      question: "Technical Requirements",
+      answer: `<div class="technical-requirements">
+  <p>
+    To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
+  </p>
+
+  <h3>Device Requirements</h3>
+  <ul>
+    <li>
+      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
+    </li>
+    <li><strong>OR</strong></li>
+    <li>
+      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+    </li>
+  </ul>
+
+  <h3>Internet Requirements</h3>
+  <ul>
+    <li>
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+    </li>
+    <li>
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+    </li>
+  </ul>
+
+  <h3>Software and Platforms</h3>
+  <ul>
+    <li>
+      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+    </li>
+  </ul>
+
+  <h3>Browser Requirements</h3>
+  <ul>
+    <li>
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+    </li>
+  </ul>
+
+  <h3>Additional Tools (Optional but Recommended)</h3>
+  <ul>
+    <li>Headset: For clear audio during virtual classes</li>
+    <li>External storage (USB/Cloud): For backups of important coursework</li>
+    <li>Antivirus software: To protect against malware or data loss</li>
+  </ul>
+</div>
+`,
+    },
+  ],
+  programOverview: ``,
+};
+
+export const bscshem = {
+  heroContent: {
+    title: "Bachelor of Science in Safety, Health and Environmental Management",
+    minPeriod: 4,
+    maxPeriod: 6,
+    programmeCredit: "$13",
+    totalProgrammeCredit: 508,
+    noOfModules: "39 (36 core + 3 elective)",
+    totalFee: "$6,604",
+    cta: true,
+    timer: true,
+    overview: true,
+  },
+  courseStruture: [
+    {
+      semester: "Semester 1",
+      courses: [
+        {
+          question: "Introduction to Environmental Management",
+          subanswer:
+            "Code: D5-IEM-23<br/>Prerequisite: None<br/>Corequisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Environmental Management is to equip students with the knowledge and skills necessary to address environmental challenges through sustainable practices and policies. It aims to promote strategies for conserving natural resources, reducing environmental impact, and ensuring ecological balance for future generations.",
+        },
+        {
+          question: "Computing and Information Skills",
+          subanswer:
+            "Code: C5-CIS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Computing and Informational Skills is to develop students' proficiency in using technology and digital tools to access, analyze, and manage information effectively. It aims to enhance critical thinking, problem-solving, and technical skills essential for academic, professional, and personal success.",
+        },
+        {
+          question: "Academic Writing for Business",
+          subanswer:
+            "Code: D5-AWB-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module is to equip students with essential skills in academic writing, focusing on clear and structured communication in the Business fields. The module covers citation and referencing techniques, as well as research writing skills, enabling students to effectively present and support their academic work.",
+        },
+        {
+          question: "Mathemetics for OCH",
+          subanswer:
+            "Code: C5-MSH-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Occupational Safety and Health is to educate students on the principles and practices of ensuring safe and healthy working environments. It aims to promote awareness of workplace hazards, risk assessment, and the implementation of safety measures to protect employees and comply with regulatory standards",
+        },
+        {
+          question: "Advanced Integrated Science",
+          subanswer:
+            "Code: C5-AIS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Advanced Integrated Science is to provide students with a comprehensive understanding of the interconnected principles and applications of various disciplines. It aims to foster critical thinking, problem-solving, and innovation by exploring the integration of biology, chemistry, physics, and earth sciences in real-world contexts",
+        },
+      ],
+    },
+    {
+      semester: "Semester 2",
+      courses: [
+        {
+          question: "Quality Management",
+          subanswer:
+            "Code: D6-QUM-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Quality Management is to equip students with the knowledge and tools necessary to design, implement, and maintain effective quality assurance systems within organizations. It aims to promote continuous improvement, customer satisfaction, and operational excellence through the application of quality standards and methodologies.",
+        },
+        {
+          question: "Introduction to Occupational Health and Safety Management",
+          subanswer:
+            "Code: D6-OHS-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Occupational Health and Safety Management is to provide students with the knowledge and skills to identify, assess, and mitigate workplace hazards. It aims to promote a culture of safety, ensure regulatory compliance, and protect the well-being of employees in various occupational settings.",
+        },
+        {
+          question: "Risk Management",
+          subanswer:
+            "Code: D6-RSM-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Risk Management is to equip students with the skills and strategies to identify, assess, and mitigate risks in various organizational contexts. It aims to promote proactive decision-making and resilience by minimizing potential threats and maximizing opportunities for success.",
+        },
+        {
+          question: "Occupational Health and Safety Law I",
+          subanswer:
+            "Code: D6-OSLI-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Occupational Health and Safety Law I is to familiarize students with the legal frameworks and regulations governing workplace safety and health standards. It aims to promote compliance, protect employee rights, and ensure safe working environments through an understanding of legal responsibilities and obligations. ",
+        },
+        {
+          question: "Health Informatics",
+          subanswer:
+            "Code: D6-HIF-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module is to state students to health informatics and consolidate key principles in the field of health informatics. It also explores the sources, types, and processes of health information while examining how technology can enhance healthcare delivery.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 3",
+      courses: [
+        {
+          question: "HIV and AIDS Management",
+          subanswer:
+            "Code: D6-HIV-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module is to educate students about HIV/AIDS, a disease that affects millions worldwide, particularly in Sub-Saharan Africa. Understanding HIV/AIDS is crucial in workplaces, highlighting the need for students to be informed about its impact and management.",
+        },
+        {
+          question: "Epidemiology",
+          subanswer:
+            "Code: D6-EPI-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module is to equip students with essential skills to study disease patterns and risks. It covers measures of disease occurrence, study design, clinical test accuracy, epidemiological analysis methods, and research ethics, enabling students to critically evaluate public health data and contribute to disease prevention and control.",
+        },
+        {
+          question: "Ergonomics",
+          subanswer:
+            "Code: D6-ERG-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Ergonomics is to study the interaction between humans and their working environments to optimize safety, comfort, and productivity. It aims to apply principles of design and engineering to reduce physical strain, prevent injuries, and enhance overall efficiency in various tasks and workplaces.",
+        },
+        {
+          question: "Biostatistics",
+          subanswer:
+            "Code: D7-BST-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module is to provide students with the foundational knowledge and skills in statistical methods used in the field. It covers data analysis, probability, statistical inference, and the application of statistical tools to interpret biological and medical research effectively.",
+        },
+        {
+          question: "Emergency Preparedness and Disaster Management",
+          subanswer:
+            "Code: D6-EPM-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Emergency Preparedness and Disaster Management is to equip students with the knowledge and skills necessary to plan for, respond to, and recover from emergencies and disasters effectively. It aims to promote resilience, minimize risks, and ensure the safety and well-being of communities through proactive strategies and coordinated efforts.",
+        },
+      ],
+    },
+
+    {
+      semester: "Semester 4",
+      courses: [
+        {
+          question: "Organizational Behaviour",
+          subanswer:
+            "Code: B7-ORB-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Organizational Behavior is to explore the dynamics of individual and group behavior within organizational settings. It aims to enhance students' understanding of how effective leadership, communication, and motivation contribute to achieving organizational goals and improving workplace performance.",
+        },
+
+        {
+          question: "Occupational Health and Safety Law II",
+          subanswer:
+            "Code: D7-OS2-21<br/>Prerequisite: D6-OHL-21<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Occupational Health and Safety Law 2 is to deepen students' understanding of advanced legal principles and case studies related to workplace safety and health regulations. It aims to enhance skills in interpreting and applying complex legal requirements to ensure organizational compliance and foster a culture of safety.",
+        },
+        {
+          question: "Fundamentals of Toxicology",
+          subanswer:
+            "Code: D7-FTX-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Toxicology is to study the effects of harmful substances on living organisms and the environment. It aims to provide students with the knowledge and tools to assess risks, prevent exposure, and develop strategies for managing and mitigating the impact of toxins.",
+        },
+        {
+          question: "Fire Management",
+          subanswer:
+            "Code: D7-FMN-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Fire Management is to educate students on the principles and practices of preventing, controlling, and responding to fire incidents effectively. It aims to promote safety, minimize risks, and protect lives, property, and the environment through strategic planning and emergency response techniques.",
+        },
+        {
+          question: "Environmental Impact Assessment",
+          subanswer:
+            "Code: D7-EIA-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Environmental Impact Assessment is to provide students with the tools and methodologies to evaluate the potential environmental consequences of projects and policies. It aims to promote sustainable development by identifying mitigation measures and ensuring informed decision-making that balances economic growth with environmental protection.",
+        },
+      ],
+    },
+
+    {
+      semester: "Semester 5",
+      courses: [
+        {
+          question: "Accident Prevention and Investigations",
+          subanswer:
+            "Code: D7-API-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Accident Prevention and Investigations is to equip students with the knowledge and skills to identify, analyze, and prevent workplace accidents effectively. It aims to promote a culture of safety by teaching systematic investigation techniques and implementing preventive measures to reduce risks and enhance organizational safety standards.",
+        },
+
+        {
+          question: "Principles of Climate Change",
+          subanswer:
+            "Code: D7-PCC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Principles of Climate Change is to provide students with a foundational understanding of the scientific, environmental, and socio-economic factors driving climate change. It aims to explore mitigation and adaptation strategies to address its impacts and promote sustainable practices for a resilient future.",
+        },
+        {
+          question: "Global Health Dynamics",
+          subanswer:
+            "Code: D7-GHD-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Global Health Dynamics is to examine the complex factors influencing health outcomes and systems across different regions and populations worldwide. It aims to explore strategies for addressing global health challenges, such as infectious diseases, health inequities, and cross-border health threats, through collaborative and innovative approaches.",
+        },
+        {
+          question: "Waste Management",
+          subanswer:
+            "Code: D7-WMN-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Waste Management is to educate students on the principles and practices of effectively collecting, treating, and disposing of waste in an environmentally sustainable manner. It aims to promote strategies for reducing waste generation, recycling resources, and minimizing the environmental impact of waste on ecosystems and public health.",
+        },
+        {
+          question: "Occupational Safety Management",
+          subanswer:
+            "Code: D7-OSM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Occupational Safety Management is to provide students with the knowledge and skills to identify, assess, and control workplace hazards effectively. It aims to promote a culture of safety, ensure regulatory compliance, and protect the health and well-being of employees in various occupational settings.",
+        },
+      ],
+    },
+    {
+      semester: "Semster 6",
+      courses: [
+        {
+          question: "Research Methods",
+          subanswer:
+            "Code: D7-RSM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module is to equip students with a comprehensive understanding of quantitative, qualitative, and systematic review methodologies. Students will learn to critically read and analyze health sciences literature, gaining the skills to evaluate research studies and apply appropriate methodologies.",
+        },
+        {
+          question: "Security Management",
+          subanswer:
+            "Code: D7-SMN-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Security Management is to provide students with the knowledge and tools to protect people, assets, and information from potential threats and risks. It aims to develop skills in risk assessment, crisis management, and the implementation of security measures to ensure organizational safety and resilience.",
+        },
+        {
+          question: "Principles of Industrial Hygiene",
+          subanswer:
+            "Code: D7-PIH-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Principles of Industrial Hygiene is to educate students on identifying, evaluating, and controlling workplace hazards that may affect worker health and well-being. It aims to promote safe and healthy work environments through the application of scientific principles and preventive measures.",
+        },
+        {
+          question: "First Aid Principles and Procedures",
+          subanswer:
+            "Code: D7-FAP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module First Aid Principles and Procedures is to equip students with the essential knowledge and skills to provide immediate and effective care in emergency situations. It aims to promote confidence and competence in administering first aid to preserve life, prevent further injury, and support recovery until professional medical help arrives.",
+        },
+        {
+          question: "Principles of Counselling",
+          subanswer:
+            "Code: D7-PCO-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The purpose of the module Principles of Counselling is to introduce students to the foundational theories, techniques, and ethical practices of effective counselling. It aims to develop interpersonal and communication skills to support individuals in overcoming personal challenges and improving their mental and emotional well-being.",
+        },
+      ],
+    },
+    {
+      semester: "SEMESTER 6 ELECTIVE GROUP ONE ( SELECT TWO)",
+      courses: [
+        {
+          question: "Health and Safety in Transport",
+          subanswer:
+            "Code: D7-HST-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Health and Safety in Transport is to educate students on the principles and practices of ensuring safety and well-being in transportation systems and operations. It aims to address risks, promote regulatory compliance, and implement strategies to protect passengers, workers, and the public in various transport environments.",
+        },
+        {
+          question: "Building Maintanance",
+          subanswer:
+            "Code: D7-BDM-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Building Maintenance is to provide students with the knowledge and skills necessary to ensure the proper upkeep and functionality of buildings and infrastructure. It aims to promote efficient maintenance practices, prolong the lifespan of structures, and ensure safe and comfortable environments for occupants.",
+        },
+        {
+          question: "Employee Relations",
+          subanswer:
+            "Code: D7-ERT-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Employee Relations is to explore the dynamics and strategies for fostering positive relationships between employers and employees within an organization. It aims to promote effective communication, conflict resolution, and fair practices to enhance workplace harmony, productivity, and employee satisfaction.",
+        },
+      ],
+    },
+
+    {
+      semester: "Semster 7",
+      courses: [
+        {
+          question: "Entrepreneurship and Innovation",
+          subanswer:
+            "Code: B8-ENI-20<br/>Prerequisite: B5-FUE-20,B6-SEP-20,B6-ESE-20,B7-CIE-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "The purpose of the module is to equip learners with the knowledge required to generate innovative ideas and identify potential business opportunities. It also focuses on guiding them on how to effectively explore and exploit these opportunities for entrepreneurial success.",
+        },
+        {
+          question: "Research Project 1 in OHS(Proposal Writing)",
+          subanswer:
+            "Code: D7-RP1-23<br/>Prerequisite: D6-EPI-23<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module is to provide students with an in-depth study of the practical and theoretical skills required to read, understand, and conduct academic research in computing-related disciplines. Students will review scientific literature, identify research opportunities, develop a research proposal under a supervisor's guidance, and present their proposal.",
+        },
+
+        {
+          question: "Managing Occupational Records",
+          subanswer:
+            "Code: D7-MOR-23<br/>Prerequisite:None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module is to emphasize the importance of recording incidents and accidents in the industry to support the decision-making process. Graduates are equipped with the skills to maintain accurate records and utilize them effectively.",
+        },
+        {
+          question: "Sustainable Environment",
+          subanswer:
+            "Code: D8-SEN-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module is to help students develop a broad understanding of the fundamental issues related to a sustainable environment. This module aims to equip students with the knowledge and awareness necessary to address environmental sustainability challenges effectively.",
+        },
+      ],
+    },
+    {
+      semester: "SEMESTER 7 ELECTIVE GROUP ONE ( SELECT ONE)",
+      courses: [
+        {
+          question: "Food Safety and Hygiene",
+          subanswer:
+            "Code: D8-FSH-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Food Safety and Hygiene is to educate students on the principles and practices of handling, preparing, and storing food safely to prevent contamination and foodborne illnesses. It aims to promote compliance with health standards and ensure the delivery of safe, high-quality food to consumers.",
+        },
+        {
+          question: "Mining Safety",
+          subanswer:
+            "Code: D8-MNS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "The purpose of the module Mining Safety is to provide students with the knowledge and skills to identify, assess, and mitigate hazards in mining operations. It aims to promote a culture of safety, ensure regulatory compliance, and protect the health and well-being of workers in the mining industry.",
+        },
+      ],
+    },
+    {
+      semester: "Semster 8 ",
+      courses: [
+        {
+          question: "Research Project 2",
+          subanswer:
+            "Code: D7-RP2-23<br/>Prerequisite: D7-RP1-23<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "The purpose of the module Research Project 2 is to provide students with the opportunity to apply advanced research methodologies and analytical skills to an independent study in their field of interest. It aims to deepen their understanding of the research process, enhance critical thinking, and contribute meaningful insights or solutions to a specific topic or problem.",
+        },
+        {
+          question: "Professional Practice",
+          subanswer:
+            "Code: D7-PRP-23<br/>Prerequisite: 240 Credits<br/>Co-requisite: None<br/>Module Fees: $520<br/>Module Credits: 40",
+          answer:
+            "The purpose of the module is to provide students with the necessary skills and knowledge to excel in the field of Health Information Management (HIM). It focuses on the ethical, legal, and practical aspects of HIM practice, emphasizing professional conduct, data management, and healthcare regulations.",
+        },
+      ],
+    },
+  ],
+  requirements: [
+    {
+      question: "Admission Requirements",
+      answer:
+        "IGCSE/equivalent with five Passes including a grade C in English, Mathematics/Statistics and Science (Biology, Chemistry, Physics or Double Science). Applicants in possession of a Diploma or Higher Diploma in related fields may be given exemptions based on the credit point equivalency.",
+    },
+
+    {
+      question: "Technical Requirements",
+      answer: `<div class="technical-requirements">
+  <p>
+  "To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:"
+  </p>
+  <h3>Device Requirements</h3> 
   <ul>
     <li>
       <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
