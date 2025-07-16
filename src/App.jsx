@@ -5,6 +5,7 @@ import PageTwo from "./pages/PageTwo";
 import PageThree from "./pages/PageThree";
 import PageFour from "./pages/PageFour";
 import PageFive from "./pages/PageFive";
+import Floater from "./components/floater/Floater";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/all-fee" element={<PageFour />} />
         <Route path="/fee/:name" element={<PageFive />} />
       </Routes>
+      <Floater />
     </Router>
   );
 }
