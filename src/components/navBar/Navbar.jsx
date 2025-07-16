@@ -24,6 +24,7 @@ const NavBar = () => {
       title: "Bachelor of Commerce in Accounting",
       description:
         "Your Future in Accounting Starts Here! Our Bachelor of Commerce in Accounting programme offers a practical, industry-focused approach to a rewarding career in accounting and finance. You'll gain essential expertise in financial reporting, auditing, taxation, and management accounting. What sets this degree apart is its blend of theory and hands-on experience, including a compulsory semester-long internship for invaluable real-world exposure.",
+      subject: "Business Management 1,Fundamental Of Business and Finance,Legal Aspects of Business,Business Mathematics and Statistics,Academic Writing for Business,Introduction to MS Office,Computerized Accounting 1,Business Management 2,Business Ethics and Assurance,Introduction to Financial Accounting,Business Mathametics and Statistics 2,Principles of Marketing,Financial Accounting 1,Corporate Administration 1,Computerized Accounting 2,Cost Accounting,Micreconomics,Taxation 1"
     },
     {
       cover: "/images/courses-images/BBA in bus mgmt.png",
@@ -31,6 +32,7 @@ const NavBar = () => {
       title: "Bachelor of Business Administration in Business Management",
       description:
         "Aiming for a leadership role in the global business environment? Our Bachelor of Business Administration in Business Management provides the strategic mindset and skills you need. This programme covers key areas like management, finance, marketing, entrepreneurship, operations, and digital transformation, with a strong focus on innovation, sustainability, and ethical leadership.",
+      subject: "Business Management 1,Fundamental Of Business and Finance,Legal Aspects of Business,Business Mathematics and Statistics,Academic Writing for Business,Introduction to MS Office"
     },
     {
       cover: "/images/courses-images/Bcom in Hospitality.png",
@@ -159,6 +161,12 @@ const NavBar = () => {
     item.title.toLowerCase().includes(searchText.toLowerCase())
   );
 
+//   const filteredSuggestions = cardData.filter((item) =>
+//   item.subject.toLowerCase()
+//     .split(',')
+//     .some(subject => subject.trim().includes(searchText.toLowerCase()))
+// );
+
 
   const handleSearchChange = (e) => {
     setSearchQuery(e.target.value);
@@ -213,16 +221,16 @@ const listItemStyle = {
 };
 
   const handleSuggestionClick = (course) => {
-  const cleaned = course
-    .trim()
-    .replace(/\(.*?\)/g, '')  
-    .replace(/,/g, '')     
-    .replace(/\.$/, '')         
-    .replace(/\s+/g, '');    
+    const cleaned = course
+      .trim()
+      .replace(/\(.*?\)/g, '')  
+      .replace(/,/g, '')     
+      .replace(/\.$/, '')         
+      .replace(/\s+/g, '');    
 
-  const slug = cleaned.toLowerCase();
-  navigate(`/course/${slug}`);
-  window.scrollTo(0, 0);
+    const slug = cleaned.toLowerCase();
+    navigate(`/course/${slug}`);
+    window.scrollTo(0, 0);
   };
   return (
     <div className="nav-head">

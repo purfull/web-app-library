@@ -1,6 +1,7 @@
 export const bachelorofscienceindatascience = {
   heroContent: {
     question: "Bachelor of Science in Data Science",
+      image: "/images/courses-images/Bsc in data science.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -458,10 +459,11 @@ export const bachelorofscienceindatascience = {
   programOverview: `Want to become a data expert? Our four-year BSc in Data Science equips you to extract meaningful insights from vast datasets. This programme integrates statistics, machine learning, computer science, and data analytics. You'll develop expertise in Data Processing, Analytics, and Visualisation, mastering Machine Learning, Data Mining, and Big Data Technologies.<br></br>With hands-on experience in AI and cloud computing, plus a Capstone Project and industrial attachment, you'll gain practical, industry-relevant skills. Graduates are well-prepared for dynamic careers as Data Scientists, Business Analysts, or AI Engineers in finance, healthcare, and technology.
 `,
 };
-
+ 
 export const bachelorofbusinessadministrationinbusinessmanagement = {
   heroContent: {
     question: "Bachelor of Business Administration in Business Management",
+      image: "/images/courses-images/BBA in bus mgmt.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -923,6 +925,7 @@ export const bachelorofbusinessadministrationinbusinessmanagement = {
 export const bachelorofcommerceinhospitalitymanagement = {
   heroContent: {
     question: "Bachelor of Commerce in Hospitality Management",
+    image: "/images/courses-images/Bcom in Hospitality.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -1324,6 +1327,7 @@ export const bachelorofcommerceinhospitalitymanagement = {
 export const masterofcommerceinhumanresourcemanagement = {
   heroContent: {
     question: "Master of Commerce in Human Resource Management.",
+      image: "/images/courses-images/MCom in Human resource.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -1541,6 +1545,7 @@ export const masterofcommerceinhumanresourcemanagement = {
 export const masterofbusinessadministration = {
   heroContent: {
     question: "Master of Business Administration (MBA)",
+      image: "/images/courses-images/MBA.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -1785,6 +1790,8 @@ export const masterofbusinessadministration = {
 export const diplomainoccupationalhealthsafety = {
   heroContent: {
     question: "Diploma in Occupational Health Safety",
+    
+      image: "/images/courses-images/Diploma in Occup.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$13",
@@ -1995,6 +2002,7 @@ export const diplomainoccupationalhealthsafety = {
 export const bachelorofscienceinhealthinformationmanagement = {
   heroContent: {
     question: "Bachelor of Science in Health Information Management",
+      image: "/images/courses-images/BSc in health info.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -2388,6 +2396,7 @@ export const bachelorofscienceinhealthinformationmanagement = {
 export const bachelorofscienceinhospitaladministration = {
   heroContent: {
     question: "Bachelor of Science in Hospital Administration",
+      image: "/images/courses-images/BSc in Hospitality.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -2788,6 +2797,7 @@ export const bachelorofscienceinhospitaladministration = {
 export const bachelorofscienceinsafetyhealthandenvironmentalmanagement = {
   heroContent: {
     question: "Bachelor of Science in Safety, Health and Environmental Management",
+      image: "/images/courses-images/BSc in Safety..png",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -3208,6 +3218,7 @@ export const bachelorofeducationinprimaryeducation = {
   heroContent: {
     question:
       "Bachelor of Education in Primary Education(English Language and Mathematics)",
+      image: "/images/courses-images/Bed in Primary.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -3561,6 +3572,7 @@ export const bachelorofeducationinprimaryeducation = {
 export const postgraduatediplomainhighereducation = {
   heroContent: {
     question: "Post Graduate Diploma in Higher Education",
+      image: "/images/courses-images/PGDHE.jpeg",
     minPeriod: 1,
     maxPeriod: 2,
     programmeCredit: "$19.50",
@@ -3721,6 +3733,8 @@ export const postgraduatediplomainhighereducation = {
 export const masterofeducationalleadershipandmanagement = {
   heroContent: {
     question: "Master of Educational Leadership and Management",
+      image:
+        "/images/courses-images/Med in educational leadership and mgmt.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -3935,6 +3949,7 @@ export const masterofeducationalleadershipandmanagement = {
 export const masterofeducationincurriculumdesignandinstruction = {
   heroContent: {
     question: "Master of Education in Curriculum Design and Instruction",
+      image: "/images/courses-images/Med in curriculum.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -4168,6 +4183,7 @@ export const masterofeducationincurriculumdesignandinstruction = {
 export const bscinnetworksecurityandcomputerforensics = {
   heroContent: {
     question: "BSc in Network Security and Computer Forensics",
+      image: "/images/courses-images/BSc in network security.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -4175,7 +4191,7 @@ export const bscinnetworksecurityandcomputerforensics = {
     noOfModules: "37 (35 core + 2 elective)",
     totalFee: "$6,240",
     cta: false,
-    timer: false,
+    timer: true,
     overview: false,
   },
   courseStruture: [
@@ -4581,6 +4597,7 @@ export const bscinnetworksecurityandcomputerforensics = {
 export const mastersofeducationinhighereducation = {
   heroContent: {
     question: "Masters of Education in Higher Education",
+      image: "/images/courses-images/Med in higher education.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -4588,7 +4605,7 @@ export const mastersofeducationinhighereducation = {
     noOfModules: "14 (11 core + 3 elective)",
     totalFee: "$4,680",
     cta: false,
-    timer: false,
+    timer: true,
     overview: false,
   },
   courseStruture: [
@@ -4800,6 +4817,7 @@ export const mastersofeducationinhighereducation = {
 export const masterofscienceininformationsystemsmanagement = {
   heroContent: {
     question: "Master of Science in Information Systems Management",
+      image: "/images/courses-images/Msc in Information Systems management.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -4807,7 +4825,7 @@ export const masterofscienceininformationsystemsmanagement = {
     noOfModules: "14 (11 core + 3 elective)",
     totalFee: "$4,680",
     cta: false,
-    timer: false,
+    timer: true,
     overview: false,
   },
   courseStruture: [
@@ -4991,6 +5009,7 @@ export const masterofscienceininformationsystemsmanagement = {
 export const masterofscienceincomputerscience = {
   heroContent: {
     question: "Master of Science in Computer Science",
+      image: "/images/courses-images/Msc in computer science.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -4998,7 +5017,7 @@ export const masterofscienceincomputerscience = {
     noOfModules: "9 (7 core + 2 elective)",
     totalFee: "$4,680",
     cta: false,
-    timer: false,
+    timer: true,
     overview: false,
   },
   courseStruture: [
@@ -5176,6 +5195,7 @@ export const masterofscienceincomputerscience = {
 export const bachelorofcommerceinaccounting= {
   heroContent: {
     question: "Bachelor of Commerce in Accounting",
+    image: "/images/courses-images/Bcom in accounting.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -5183,7 +5203,7 @@ export const bachelorofcommerceinaccounting= {
     noOfModules: "38 (36 Core and 2 Elective)",
     totalFee: "$6,240",
     cta: false,
-    timer: false,
+    timer: true,
     overview: false
   },
   courseStruture: [
@@ -5222,7 +5242,7 @@ export const bachelorofcommerceinaccounting= {
         }
       ]
     },
-    {
+    { 
       semester: "Semester 2",
       courses: [
         {

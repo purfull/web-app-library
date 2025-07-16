@@ -55,7 +55,7 @@ const EnquireSection = ({
 
               <div className="sub-amount-deatils">
                 <p >Total Fees</p>
-                <p className="enquire-heading">{item.amountdetails?.fees}</p>
+                <p className="enquire-heading">${item.amountdetails?.fees}</p>
               </div>
               <div className="sub-amount-deatils" >
                 <p>Programme Credit</p>
