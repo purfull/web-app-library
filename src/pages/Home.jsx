@@ -185,7 +185,7 @@ const HomePage = () => {
         buttonTextColor="#000000"
         arrows="/icon/arrow_forward.png"
       />
-      {/* <Footer /> */}
+       <Footer />
       {/* <StaticHome />
       <TimerHome />
       <CourseStruture /> */}

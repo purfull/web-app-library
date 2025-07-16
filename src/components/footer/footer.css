@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .footer-main {
     height: 800px;
     width: 100%;
@@ -77,8 +77,8 @@
   .foot {
     padding: 0% !important;
   }
-}
-
+} */
+/* 
 @media screen and (min-width: 600px) {
   .footer-main {
     height: 800px;
@@ -157,9 +157,9 @@
       justify-content: space-between;
     }
   }
-}
+} */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .footer-main {
     height: 1400px;
     width: 100%;
@@ -170,9 +170,9 @@
     justify-content: space-around;
   }
 
-  .footer-content-section {
-    /* padding: 3rem; */
-    height: 70%;
+  .footer-content-section { */
+/* padding: 3rem; */
+/* height: 70%;
     width: 98%;
     display: flex;
     align-items: center;
@@ -241,8 +241,8 @@
   .foot {
     padding: 0% !important;
   }
-}
-
+} */
+/* 
 @media screen and (min-width: 992px) {
   .footer-main {
     height: 1000px;
@@ -324,10 +324,10 @@
   .foot {
     padding: 0% !important;
   }
-}
+} */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
   .footer-main {
     height: 750px;
     width: 100%;
@@ -407,5 +407,794 @@
 
   .foot {
     padding: 0% !important;
+  }
+} */
+
+  @media screen and (max-width :600px) {
+     .footer-main-con {
+    padding: 10px ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer-inside-con {
+    padding: 10px;
+    width: 95%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 25px;
+  }
+
+  .color-black-footer {
+    color: #111111;
+    margin-left: 10px;
+  }
+
+  .heading-footer {
+    font-weight: 500;
+    font-size: 17px;
+  }
+
+  .first-con {
+    /* // padding: 16px; */
+    width: 100%;
+    display: grid;
+    gap: 10px;
+
+  }
+
+  .first-conatiner-texts {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .footer-second-con {
+    /* height: 210px; */
+    width: 100%;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    gap: 16px;
+
+  }
+
+  .footer-third-con {
+    /* // height: 210px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 16px;
+
+  }
+  
+
+
+  .footer-fourth-con {
+    /* // height: 210px; */
+    width: 25%;
+
+  }
+
+  .social-icon {
+    background-color: #e5cdd1;
+    /* light pink */
+    color: #761e2e;
+    /* dark maroon */
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    /* cursor: pointer;
+  transition: transform 0.3s ease; */
+  }
+
+  /* .social-icon:hover {
+  transform: scale(1.1);         /* optional zoom effect */
+  /* box-shadow: 0 4px 8px rgba(0,0,0,0.2); */
+  /* } */
+   .span-first-con {
+    font-size: 14px;
+    margin-top: 30px;
+
+  }
+
+
+  .footer-first-logo-session {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    font-size: 20px;
+    margin-top: 28px;
+  }
+
+  .footer-fourth-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .logo-text {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    /* matches Tailwind's gap-3 */
+  }
+
+  .icon-margin-top {
+    margin-top: 4px;
+    /* same as mt-1 */
+  }
+
+  .margin-top-20 {
+    margin-top: 20px;
+    /* same as mt-5 */
+  }
+
+  .margin-top-40 {
+    margin-top: 50px;
+    /* same as mt-10 */
+  }
+
+  .mobile-design-two-and-third {
+    display: none;
+  }
+
+  .footer-copy-rights-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    width: 90%;
+    gap: 20px;
+    padding: 10px 0px;
+    border-top: 1px solid #9c9c9c;
+  }
+
+  .terms-cond {
+    display: flex;
+  }
+  .third-logo-and-content{
+    flex-direction: row;
+  }
+    
+  }
+
+  @media screen and (min-width:600px) {
+
+     .footer-main-con {
+    padding: 10px ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer-inside-con {
+    padding: 10px;
+    width: 95%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 25px;
+  }
+
+  .color-black-footer {
+    color: #111111;
+    margin-left: 10px;
+  }
+
+  .heading-footer {
+    font-weight: 500;
+    font-size: 17px;
+  }
+
+  .first-con {
+    /* // padding: 16px; */
+    width: 100%;
+    display: grid;
+    gap: 10px;
+
+  }
+
+  .first-conatiner-texts {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .footer-second-con {
+    /* height: 210px; */
+    width: 100%;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    gap: 16px;
+
+  }
+
+  .footer-third-con {
+    /* // height: 210px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 16px;
+
+  }
+  
+
+
+  .footer-fourth-con {
+    /* // height: 210px; */
+    width: 25%;
+
+  }
+
+  .social-icon {
+    background-color: #e5cdd1;
+    /* light pink */
+    color: #761e2e;
+    /* dark maroon */
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    /* cursor: pointer;
+  transition: transform 0.3s ease; */
+  }
+
+  /* .social-icon:hover {
+  transform: scale(1.1);         /* optional zoom effect */
+  /* box-shadow: 0 4px 8px rgba(0,0,0,0.2); */
+  /* } */
+   .span-first-con {
+    font-size: 14px;
+    margin-top: 30px;
+
+  }
+
+
+  .footer-first-logo-session {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    font-size: 20px;
+    margin-top: 28px;
+  }
+
+  .footer-fourth-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .logo-text {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    /* matches Tailwind's gap-3 */
+  }
+
+  .icon-margin-top {
+    margin-top: 4px;
+    /* same as mt-1 */
+  }
+
+  .margin-top-20 {
+    margin-top: 20px;
+    /* same as mt-5 */
+  }
+
+  .margin-top-40 {
+    margin-top: 50px;
+    /* same as mt-10 */
+  }
+
+  .mobile-design-two-and-third {
+    display: none;
+  }
+
+  .footer-copy-rights-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    width: 90%;
+    gap: 20px;
+    padding: 10px 0px;
+    border-top: 1px solid #9c9c9c;
+  }
+
+  .terms-cond {
+    display: flex;
+  }
+  .third-logo-and-content{
+    flex-direction: row;
+  }
+    
+  }
+
+
+@media screen and (min-width:768px) {
+
+    .footer-main-con {
+    padding: 30px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer-inside-con {
+    padding: 16px;
+    width: 95%;
+    color: black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+
+  .color-black-footer {
+    color: #111111;
+    margin-left: 10px;
+  }
+
+  .heading-footer {
+    font-weight: 500;
+    font-size: 17px;
+  }
+
+  .first-con {
+    /* // padding: 16px; */
+    width: 30%;
+    display: grid;
+    gap: 10px;
+
+  }
+
+  .first-conatiner-texts {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .footer-second-con {
+    /* height: 210px; */
+    width: 25%;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    gap: 16px;
+
+  }
+
+  .footer-third-con {
+    /* // height: 210px; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 16px;
+
+  }
+
+  .footer-fourth-con {
+    /* // height: 210px; */
+    width: 25%;
+
+  }
+
+  .social-icon {
+    background-color: #e5cdd1;
+    /* light pink */
+    color: #761e2e;
+    /* dark maroon */
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    /* cursor: pointer;
+  transition: transform 0.3s ease; */
+  }
+
+  /* .social-icon:hover {
+  transform: scale(1.1);         /* optional zoom effect */
+  /* box-shadow: 0 4px 8px rgba(0,0,0,0.2); */
+  /* } */
+  */ .span-first-con {
+    font-size: 14px;
+    margin-top: 30px;
+
+  }
+
+
+  .footer-first-logo-session {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 28px;
+  }
+
+  .footer-fourth-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .logo-text {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    /* matches Tailwind's gap-3 */
+  }
+
+  .icon-margin-top {
+    margin-top: 4px;
+    /* same as mt-1 */
+  }
+
+  .margin-top-20 {
+    margin-top: 20px;
+    /* same as mt-5 */
+  }
+
+  .margin-top-40 {
+    margin-top: 50px;
+    /* same as mt-10 */
+  }
+
+  .mobile-design-two-and-third {
+    display: none;
+  }
+
+  .footer-copy-rights-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    border-top: 1px solid #9c9c9c;
+  }
+
+  .terms-cond {
+    display: flex;
+  }
+  
+}
+@media screen and (min-width:992px) {
+  .footer-main-con {
+    padding: 40px 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer-inside-con {
+    padding: 10px 0px;
+    width: 95%;
+    color: black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 25px;
+  }
+
+  .color-black-footer {
+    color: #111111;
+    margin-left: 10px;
+  }
+
+  .heading-footer {
+    font-weight: 500;
+    font-size: 17px;
+  }
+
+  .first-con {
+    /* // padding: 16px; */
+    width: 30%;
+    display: grid;
+    gap: 10px;
+
+  }
+
+  .first-conatiner-texts {
+    font-size: 13px;
+  }
+
+  .footer-second-con {
+    /* height: 210px; */
+    width: 25%;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    gap: 16px;
+
+  }
+
+  .footer-third-con {
+    /* // height: 210px; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 16px;
+
+  }
+
+  .footer-fourth-con {
+    /* // height: 210px; */
+    width: 25%;
+
+  }
+
+  .social-icon {
+    background-color: #e5cdd1;
+    /* light pink */
+    color: #761e2e;
+    /* dark maroon */
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    /* cursor: pointer;
+  transition: transform 0.3s ease; */
+  }
+
+  /* .social-icon:hover {
+  transform: scale(1.1);         /* optional zoom effect */
+  /* box-shadow: 0 4px 8px rgba(0,0,0,0.2); */
+  /* } */
+  */ .span-first-con {
+    font-size: 14px;
+    margin-top: 30px;
+
+  }
+
+
+  .footer-first-logo-session {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    font-size: 20px;
+    margin-top: 28px;
+  }
+
+  .footer-fourth-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .logo-text {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    /* matches Tailwind's gap-3 */
+  }
+
+  .icon-margin-top {
+    margin-top: 4px;
+    /* same as mt-1 */
+  }
+
+  .margin-top-20 {
+    margin-top: 20px;
+    /* same as mt-5 */
+  }
+
+  .margin-top-40 {
+    margin-top: 50px;
+    /* same as mt-10 */
+  }
+
+  .mobile-design-two-and-third {
+    display: none;
+  }
+
+  .footer-copy-rights-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    border-top: 1px solid #9c9c9c;
+  }
+
+  .terms-cond {
+    display: flex;
+  }
+
+}
+
+@media screen and (min-width:1200px) {
+
+  .footer-main-con {
+    padding: 40px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer-inside-con {
+    padding: 16px;
+    width: 95%;
+    color: black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 25px;
+  }
+
+  .color-black-footer {
+    color: #111111;
+    margin-left: 10px;
+  }
+
+  .heading-footer {
+    font-weight: 500;
+    font-size: 17px;
+  }
+
+  .first-con {
+    /* // padding: 16px; */
+    width: 25%;
+    display: grid;
+    gap: 10px;
+
+  }
+
+  .first-conatiner-texts {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .footer-second-con {
+    /* height: 210px; */
+    width: 25%;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    gap: 16px;
+
+  }
+
+  .footer-third-con {
+    /* // height: 210px; */
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 16px;
+
+  }
+
+  .footer-fourth-con {
+    /* // height: 210px; */
+    width: 25%;
+
+  }
+
+  .social-icon {
+    background-color: #e5cdd1;
+    /* light pink */
+    color: #761e2e;
+    /* dark maroon */
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    /* cursor: pointer;
+  transition: transform 0.3s ease; */
+  }
+
+  /* .social-icon:hover {
+  transform: scale(1.1);         /* optional zoom effect */
+  /* box-shadow: 0 4px 8px rgba(0,0,0,0.2); */
+  /* } */
+   .span-first-con {
+    font-size: 14px;
+    margin-top: 30px;
+
+  }
+  .third-logo-and-content{
+    display: flex;
+      gap: 5px;
+      flex-direction: row;
+
+  }
+
+
+  .footer-first-logo-session {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    font-size: 20px;
+    margin-top: 28px;
+  }
+
+  .footer-fourth-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .logo-text {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    /* matches Tailwind's gap-3 */
+  }
+
+  .icon-margin-top {
+    margin-top: 4px;
+    /* same as mt-1 */
+  }
+
+  .margin-top-20 {
+    margin-top: 20px;
+    /* same as mt-5 */
+  }
+
+  .margin-top-40 {
+    margin-top: 50px;
+    /* same as mt-10 */
+  }
+
+  .mobile-design-two-and-third {
+    display: none;
+  }
+
+  .footer-copy-rights-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    border-top: 1px solid #9c9c9c;
+  }
+
+  .terms-cond {
+    display: flex;
   }
 }
