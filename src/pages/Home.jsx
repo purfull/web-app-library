@@ -23,6 +23,7 @@ const HomePage = () => {
       title: "Bachelor of Commerce in Accounting",
       description:
         "Your Future in Accounting Starts Here! Our Bachelor of Commerce in Accounting programme offers a practical, industry-focused approach to a rewarding career in accounting and finance. You'll gain essential expertise in financial reporting, auditing, taxation, and management accounting. What sets this degree apart is its blend of theory and hands-on experience, including a compulsory semester-long internship for invaluable real-world exposure.",
+      subjects: ""
     },
     {
       cover: "/images/courses-images/MCom in Human resource.jpeg",

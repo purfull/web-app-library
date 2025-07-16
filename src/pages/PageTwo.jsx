@@ -9,7 +9,7 @@ import BannerSection from "../components/banner/BannerSection";
 import Footer from "../components/footer/Footer";
 // import InfiniteSection from "../components/infiniteSection/InfiniteCompo";
 import FeedBackSection from "../components/feedback/FeedBackSection";
-
+ 
 const PageTwo = () => {
   const cardDataPg = [
     {

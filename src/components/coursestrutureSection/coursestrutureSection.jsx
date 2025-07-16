@@ -397,12 +397,12 @@ const CourseStruture = ({courseStruture}) => {
 
                                                 <div className="sem-acc" >
 
-                                                    <p className="sub-answer-paragraph ">
+                                                    <p className="sub-answer-paragraph secondary-paragraph black">
                                                         {/* {course.subanswer} */}
                                                         <div dangerouslySetInnerHTML={{ __html: course.subanswer }} />
 
                                                     </p>
-                                                    <p className="semester-answer-paragraph ">
+                                                    <p className="semester-answer-paragraph secondary-paragraph black">
                                                         {course.answer}
                                                     </p>
                                                 </div>

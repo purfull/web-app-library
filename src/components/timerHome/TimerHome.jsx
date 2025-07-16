@@ -79,15 +79,15 @@ const TimerHome = ({
                 alt="arrow-forward"
               />
             </button>
-            <button className="download-button">
-              <span className="button-text">Download Programme Module</span>
+            <button className="download-button" style={{padding: "0 12px"}}>
+              <span className="button-text" >Download Programme Module</span>
               <img src={downloadIcon} alt="download" />
             </button>
           </div>}
         </div>
         <div className="right-part">
 
-          <div className="TimerImage" style={{ backgroundImage: "url('/images/timer-img.png')" }}>
+          <div className="TimerImage" style={{ borderRadius: "8px", backgroundImage: `url('${data?.image}')` }}>
 
             {data?.timer && <div className="counter-box-main">
               <div className="countdown-box">
@@ -121,7 +121,7 @@ const TimerHome = ({
 
         <div className="right-part-mobile">
 
-          <div className="mobile-img-comtainer" style={{ backgroundImage: "url('/images/timer-img.png')" }}>
+          <div className="mobile-img-comtainer" style={{ backgroundImage: `url('${data?.image}')` }}>
           </div>
 
           {data?.timer && <div className="counter-box-main">

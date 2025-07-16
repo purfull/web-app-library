@@ -227,7 +227,7 @@ const PageThree = () => {
   //   "cta": true,
   //   "timer": true,
   //   "overview": true
-
+ 
   // }
   return (
     <div className="">

@@ -16,7 +16,7 @@ const herobanner = [
     arrowIcon: "/icon/Frame (1).png",
     backgroundImg: "/images/FeeHome.png",
     calledtoAction:
-      "98% of our graduates will recommend us to others (Source: 2025 Graduate Tracer Study)",
+      "98% of our graduates will recommend us to others </br> (Source: 2025 Graduate Tracer Study)",
 
     dynamicimg: [
       "/images/Ellipse 21.png",
@@ -149,10 +149,10 @@ const FeeHome = () => {
       <div className="titleBar wraper" >
               <div className="heading" >
                 <span className="secondary-heading">
-                  Fees for 2025
+                  Our Fees
                 </span>
               </div>
-              <div className="secondary-paragraph black padding-zero" style={{ width: "70vw" }}><span> To support your budgeting, we offer a structured instalment payment plan that makes it easier to manage your fees. All fees for the current semester must be settled before you progress to the next, so staying on track with payments is key to uninterrupted learning. <br></br>
+              <div className="secondary-paragraph black padding-zero" style={{ width: "70vw" }}><span> To support your budgeting, we offer a structured instalment payment plan that makes it easier to manage your fees. All fees for the current semester must be settled before you progress to the next, so staying on track with payments is key to uninterrupted learning. <br></br><br></br>
                 Paying is simple and convenient. Use our secure online payment gateway, or choose from other flexible options including campus payments, bank transfers, and—within Botswana—Orange Money.
                 Invest in your future with a payment plan that fits your life.</span></div>
             </div>
