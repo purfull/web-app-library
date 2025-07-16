@@ -1,10 +1,10 @@
 import React from "react";
 import "./infinitecompo.css";
 const images = [
-  "/images/scroll-Img1.png",
-  "/images/scroll-Img2.png",
-  "/images/scroll-Img3.png",
-  "/images/scroll-Img4.png",
+  "/images/scroll-Img1.jpg",
+  "/images/scroll-Img2.jpg",
+  "/images/scroll-Img3.jpg",
+  "/images/scroll-Img4.jpg",
 ];
 
 const InfiniteSection = () => {

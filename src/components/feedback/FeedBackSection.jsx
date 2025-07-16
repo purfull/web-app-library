@@ -202,7 +202,7 @@ const FeedBackSection = () => {
                 </div>
                 <p className="secondary-paragraph black">{item.studentsdata}</p>
                 <div className="feedback-divider"> </div>
-                <p className="secondary-paragraph black">
+                <p className="secondary-paragraph prime-color" style={{ fontStyle: "italic", color: "#841D2E" }}>
                   {item.studentname}
                 </p>
               </div>

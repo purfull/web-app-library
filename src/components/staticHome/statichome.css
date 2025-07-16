@@ -390,7 +390,7 @@
     /* display: flex;
       align-items: center;
       justify-content: center; */
-    background-color: #841d2e;
+    background-color: transparent;
     padding: 30px 40px;
   }
 
@@ -399,6 +399,7 @@
     /* gap: 36px; */
     height: 800px;
     width: 100%;
+    background-image: url("/images/static-home-banner.png");
     /* display: flex;
       flex-direction: column;
       align-items: center;
@@ -552,7 +553,7 @@
     /* display: flex;
       align-items: center;
       justify-content: center; */
-    background-color: #841d2e;
+    /* background-color: #841d2e; */
     padding: 30px 40px;
   }
 
