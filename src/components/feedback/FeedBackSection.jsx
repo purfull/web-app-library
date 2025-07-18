@@ -157,9 +157,13 @@ const FeedBackSection = () => {
           <p className="secondary-heading with-padding">
             What Our Students Say
           </p>
-          <div className="arrow-button-feedback">
-            {/* <img src="icon/button" alt="" /> */}
-          </div>
+      <div className="next-and-pre-buttons">
+          <img src="/images/button-previous.png" alt="" onClick={() => sliderRef.current?.slickPrev()} // ADD FUNCTIONALITY
+            style={{ cursor: "pointer" }} />
+          <img src="/images/button-next.png" alt="" />
+
+
+        </div>
         </div>
         <div className="second-main">
           <p className="secondary-paragraph black padding-zero">
@@ -177,6 +181,14 @@ const FeedBackSection = () => {
           </button> */}
         {/* <img src="/icon/Button-Next" alt="" /> */}
         {/* </div> */}
+        <div className="next-and-pre-buttons-mobile">
+          <img src="/images/button-previous.png" alt="" onClick={() => sliderRef.current?.slickPrev()} // ADD FUNCTIONALITY
+            style={{ cursor: "pointer" }} />
+          <img src="/images/button-next.png" alt="" />
+
+
+        </div>
+
       </div>
 
       <div className="feedback-cards">
@@ -184,8 +196,8 @@ const FeedBackSection = () => {
           className="carosel-inner"
           slidesToShow={slidesToShow}
           arrows={true}
-          prevArrow={<CustomPrevArrow className="prev-button" />}
-          nextArrow={<CustomNextArrow className="next-button" />}
+        // prevArrow={<CustomPrevArrow className="prev-button" />}
+        // nextArrow={<CustomNextArrow className="next-button" />}
         >
           {studentdeatils.map((item, index) => (
             <div key={index} className="card-1">
@@ -200,9 +212,9 @@ const FeedBackSection = () => {
                     />
                   ))}
                 </div>
-                <p className="secondary-paragraph black">{item.studentsdata}</p>
+                <p className="secondary-paragraph black feedback-inside-gap">{item.studentsdata}</p>
                 <div className="feedback-divider"> </div>
-                <p className="secondary-paragraph prime-color" style={{ fontStyle: "italic", color: "#841D2E" }}>
+                <p className="secondary-paragraph prime-color feedback-name-gap" style={{ fontStyle: "italic", color: "#841D2E" }}>
                   {item.studentname}
                 </p>
               </div>

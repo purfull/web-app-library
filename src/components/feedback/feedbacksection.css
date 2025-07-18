@@ -10,6 +10,9 @@
     gap: 55px;
     padding-bottom: 5%;
   }
+  .next-and-pre-buttons{
+    display: none;
+  }
 
   .feeback-headers {
     width: 90%;
@@ -17,6 +20,8 @@
     flex-direction: column;
     align-items: start;
     margin-top: 3%;
+    padding: 10px;
+    gap: 15px;
   }
 
   .primary-heading-and-button {
@@ -46,10 +51,13 @@
     align-items: center;
     justify-content: space-evenly;
     gap: 20px;
+    padding-bottom: 25px;
   }
+
   /* .secondary-heading.with-padding {
     padding: 20px;
   } */
+  
   .card-1 {
     background-color: #ffffff;
     border-radius: 5px;
@@ -72,7 +80,8 @@
 
   .icon-img {
     margin-right: -45px;
-    padding: 20px 15px 0px 15px;
+    /* padding: 20px 15px 0px 15px; */
+    padding: 2px 5px 0px 5px;
   }
 
   .arrow-button-feedback-mobile {
@@ -80,6 +89,7 @@
     display: flex;
     align-items: start;
     justify-content: start;
+    background-color: blue;
   }
 
   .next-button-mobile {
@@ -99,6 +109,14 @@
     display: none;
   }
 
+  .feedback-inside-gap {
+    padding: 15px 10px;
+  }
+
+  .feedback-name-gap {
+    padding: 10px;
+  }
+
   .carosel-inner {
     display: grid;
     height: 100% !important;
@@ -109,6 +127,7 @@
   .student-images {
     display: flex;
   }
+
   .next-button,
   .prev-button {
     padding: 10px;
@@ -123,13 +142,25 @@
     border: none;
     position: absolute;
   }
+
   .next-button {
     left: 12%;
     top: -25%;
   }
+
   .prev-button {
     top: -25%;
     left: -2.5%;
+  }
+
+  .next-and-pre-buttons-mobile {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: start;
+    justify-content: start;
+
+
   }
 }
 
@@ -492,7 +523,8 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .feedback-main {
+
+  /* .feedback-main {
     width: 100%;
     background-color: #f3e8ea;
     display: flex;
@@ -566,12 +598,171 @@
     height: 40px;
     object-fit: contain;
     border: none;
+  } */
+  .feedback-main {
+    width: 100%;
+    background-color: #f3e8ea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 55px;
+    padding-bottom: 5%;
+  }
+
+  .feeback-headers {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 3%;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .primary-heading-and-button {
+    width: 100%;
+  }
+
+  .primary-heading {
+    width: 100%;
+    color: #111111;
+    padding: 10px;
+  }
+
+  .feedback-cards {
+    height: 70%;
+    width: 90%;
+  }
+
+  .feeback-headers {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .feedback-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding-bottom: 25px;
+  }
+
+  /* .secondary-heading.with-padding {
+    padding: 20px;
+  } */
+  .card-1 {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 8px;
+  }
+
+  .secondary-paragraph {
+    /* margin: 20px 0; */
+    color: #090914;
+    /* padding: 20px 20px; */
+    letter-spacing: 1px;
+    line-height: 150%;
+  }
+
+  .feedback-divider {
+    width: 95%;
+    margin-left: 2.5%;
+    border-bottom: 2px dashed #575757;
+  }
+
+  .icon-img {
+    margin-right: -45px;
+    /* padding: 20px 15px 0px 15px; */
+    padding: 2px 5px 0px 5px;
+  }
+
+  .arrow-button-feedback-mobile {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+
+  .next-button-mobile {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #841d2e;
+    color: white;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border: none;
+  }
+
+  .arrow-button-feedback {
+    display: none;
+  }
+
+  .feedback-inside-gap {
+    padding: 15px 10px;
+  }
+
+  .feedback-name-gap {
+    padding: 10px;
+  }
+
+  .carosel-inner {
+    display: grid;
+    height: 100% !important;
+    width: 90vw !important;
+    gap: 30px !important;
+  }
+
+  .student-images {
+    display: flex;
+  }
+
+  .next-button,
+  .prev-button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #841d2e;
+    color: white;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border: none;
+    position: absolute;
+  }
+
+  .next-button {
+    left: 12%;
+    top: -25%;
+  }
+
+  .prev-button {
+    top: -25%;
+    left: -2.5%;
+  }
+
+  .next-and-pre-buttons-mobile {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: start;
+    justify-content: start;
+
+  }
+  .next-and-pre-buttons {
+    display: none;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .feedback-main {
+    .feedback-main {
     width: 100%;
     background-color: #f3e8ea;
     display: flex;
@@ -579,19 +770,30 @@
     align-items: center;
     justify-content: space-evenly;
     gap: 55px;
-    padding-bottom: 5%;
+    padding-bottom: 5% !important;
   }
 
   .feeback-headers {
     width: 90%;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 3%;
   }
 
   .second-main {
-    width: 45%;
+    width: 47%;
+  }
+   .primary-heading-and-button{
+
+    width: 40%;
+  }
+  .next-and-pre-buttons{
+    padding: 20px 0px;
+    display: flex;
+    flex-grow: row;
+    gap: 20px;
   }
 
   .feedback-cards {
@@ -602,6 +804,7 @@
     background-color: white;
     margin-left: 10px;
   }
+
   .carosel-inner {
     display: grid;
     height: 100% !important;
@@ -614,7 +817,7 @@
   }
 
   .secondary-paragraph {
-    padding: 20px;
+    padding: 20px !important;
   }
 
   .feedback-divider {
@@ -634,7 +837,7 @@
   }
 
   .next-button,
-  .pri-button {
+  .prev-button {
     padding: 10px;
     margin: 10px;
     border-radius: 50%;
@@ -645,90 +848,43 @@
     height: 40px;
     object-fit: contain;
     border: none;
+    position: absolute;
+  }
+
+  .next-button {
+    left: 8%;
+    top: -15%;
+  }
+
+  .prev-button {
+    top: -15%;
+    left: 2.5%;
+  }
+
+  .feedback-cards {
+    gap: 20px !important;
+    background-color: #f3e8ea;
+  }
+
+  /* .card-1 {
+        width: 100px;
+    } */
+  .feedback-cards .slick-track {
+    display: flex !important;
+    background-color: #f3e8ea !important;
+    gap: 50px;
+  }
+
+  .feedback-cards .slick-slider {
+    width: 100% !important;
+  }
+  .next-and-pre-buttons-mobile{
+    display: none;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .feedback-main {
-    width: 100%;
-    background-color: #f3e8ea;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 55px;
-    padding-bottom: 5%;
-  }
-
-  .feeback-headers {
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 3%;
-  }
-
-  .second-main {
-    width: 45%;
-  }
-
-  .feedback-cards {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: white;
-    margin-left: 10px;
-  }
-  .carosel-inner {
-    display: grid;
-    height: 100% !important;
-    width: 80vw !important;
-    gap: 30px !important;
-  }
-
-  .student-images {
-    display: flex;
-  }
-
-  .secondary-paragraph {
-    padding: 20px;
-  }
-
-  .feedback-divider {
-    width: 95%;
-    margin-left: 2.5%;
-    border-bottom: 2px dashed #575757;
-  }
-
-  .icon-img {
-    margin-right: -45px;
-    padding: 20px 15px 0px 15px;
-  }
-
-  .arrow-button-feedback {
-    display: flex;
-    padding: 20px 0;
-  }
-
-  .next-button,
-  .pri-button {
-    padding: 10px;
-    margin: 10px;
-    border-radius: 50%;
-    background-color: #841d2e;
-    color: white;
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
-    border: none;
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
   .feedback-main {
     width: 100%;
     background-color: #f3e8ea;
@@ -743,6 +899,7 @@
   .feeback-headers {
     width: 90%;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 3%;
@@ -759,6 +916,11 @@
     justify-content: space-evenly;
     background-color: white;
     margin-left: 10px;
+  }
+  
+  .primary-heading-and-button,
+  .second-main{
+    width: 45%;
   }
   .carosel-inner {
     display: grid;
@@ -805,18 +967,22 @@
     border: none;
     position: absolute;
   }
+
   .next-button {
     left: 8%;
     top: -15%;
   }
+
   .prev-button {
     top: -15%;
     left: 2.5%;
   }
+
   .feedback-cards {
     gap: 20px !important;
     background-color: #f3e8ea;
   }
+
   /* .card-1 {
         width: 100px;
     } */
@@ -825,6 +991,7 @@
     background-color: #f3e8ea !important;
     gap: 50px;
   }
+
   .feedback-cards .slick-slider {
     width: 100% !important;
   }
@@ -861,7 +1028,6 @@
   .feedback-cards {
     height: 70%;
     width: 90%;
-    background-color: red;
     gap: 20px;
     display: flex;
     align-items: center;
@@ -929,6 +1095,7 @@
   .student-images {
     display: flex;
   }
+
   .feedback-main {
     width: 100%;
     background-color: #f3e8ea;
@@ -1023,12 +1190,322 @@
   .student-images {
     display: flex;
   }
-  
+
   .feeback-headers {
     flex-direction: row;
-
     display: flex;
-        align-items: flex-start;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .feedback-main {
+    width: 100%;
+    background-color: #f3e8ea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 55px;
+    padding-bottom: 5% !important;
+  }
+
+  .feeback-headers {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3%;
+  }
+
+  .second-main {
+    width: 45%;
+  }
+
+  .feedback-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-left: 10px;
+  }
+
+  .carosel-inner {
+    display: grid;
+    height: 100% !important;
+    width: 80vw !important;
+    gap: 30px !important;
+  }
+
+  .student-images {
+    display: flex;
+  }
+
+  .secondary-paragraph {
+    padding: 20px !important;
+  }
+
+  .feedback-divider {
+    width: 95%;
+    margin-left: 2.5%;
+    border-bottom: 2px dashed #575757;
+  }
+
+  .icon-img {
+    margin-right: -45px;
+    padding: 20px 15px 0px 15px;
+  }
+
+  .arrow-button-feedback {
+    display: flex;
+    padding: 20px 0;
+  }
+
+  .next-button,
+  .prev-button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #841d2e;
+    color: white;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border: none;
+    position: absolute;
+  }
+
+  .next-button {
+    left: 8%;
+    top: -15%;
+  }
+
+  .prev-button {
+    top: -15%;
+    left: 2.5%;
+  }
+
+  .feedback-cards {
+    gap: 20px !important;
+    background-color: #f3e8ea;
+  }
+
+  /* .card-1 {
+        width: 100px;
+    } */
+  .feedback-cards .slick-track {
+    display: flex !important;
+    background-color: #f3e8ea !important;
+    gap: 50px;
+  }
+
+  .feedback-cards .slick-slider {
+    width: 100% !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .feedback-main {
+    width: 100%;
+    background-color: #f3e8ea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 55px;
+    padding-bottom: 5%;
+  }
+
+  .feeback-headers {
+    width: 90%;
+    margin-top: 3%;
+  }
+
+  .primary-heading-and-button,
+  .second-main {
+    width: 43%;
+  }
+
+  .primary-heading {
+    width: 75%;
+    color: #111111;
+  }
+
+  .feedback-cards {
+    height: 70%;
+    width: 90%;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .card-1 {
+    width: 43%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-right: 20px !important;
+  }
+
+  .feedback-divider {
+    width: 95%;
+    margin-left: 2.5%;
+    border-bottom: 2px dashed #575757;
+  }
+
+  .icon-img {
+    margin-right: -45px;
+    padding: 20px 15px 0px 15px;
+  }
+
+  .arrow-button-feedback {
+    padding: 20px 0;
+  }
+
+  .next-button,
+  .pri-button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #841d2e;
+    color: white;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border: none;
+  }
+
+  .next-button {
+    position: absolute;
+    top: -15.6vh;
+  }
+
+  .pri-button {
+    position: absolute;
+    bottom: 66vh;
+    left: 80px;
+  }
+
+  .arrow-button-feedback-mobile {
+    display: none;
+  }
+
+  .carosel-inner {
+    display: grid;
+    height: 100% !important;
+    width: 80vw !important;
+    gap: 30px !important;
+  }
+
+  .student-images {
+    display: flex;
+  }
+
+  .feedback-main {
+    width: 100%;
+    background-color: #f3e8ea;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 55px;
+    padding-bottom: 5%;
+  }
+
+  .feeback-headers {
+    width: 90%;
+    /* margin-top: 3%; */
+  }
+
+  .primary-heading-and-button,
+  .second-main {
+    width: 43%;
+  }
+
+  .primary-heading {
+    width: 75%;
+    color: #111111;
+  }
+
+  .feedback-cards {
+    height: 70%;
+    width: 90%;
+  }
+
+
+  .feedback-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .card-1 {
+    width: 43%;
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+
+  /* .secondary-paragraph {
+    padding: 20px;
+  } */
+
+  .feedback-divider {
+    width: 95%;
+    margin-left: 2.5%;
+    border-bottom: 2px dashed #575757;
+  }
+
+  .icon-img {
+    margin-right: -45px;
+    padding: 20px 15px 0px 15px;
+  }
+
+  .arrow-button-feedback {
+    display: flex;
+    padding: 20px 0;
+  }
+
+  .next-button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #841d2e;
+    color: white;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border: none;
+  }
+
+  .arrow-button-feedback-mobile {
+    display: none;
+  }
+
+  .carosel-inner {
+    display: grid;
+    height: 100% !important;
+    width: 90vw !important;
+    gap: 30px;
+    background-color: rgb(50, 50, 82);
+  }
+
+  .student-images {
+    display: flex;
+  }
+
+  .feeback-headers {
+    flex-direction: row;
+    display: flex;
+    align-items: flex-start;
     justify-content: space-evenly;
   }
 }
