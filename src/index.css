@@ -81,6 +81,11 @@
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .page-gap {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 60px;
+}
   .primary-heading {
     font-size: 24px;
     font-weight: 600;
@@ -200,7 +205,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .primary-heading {
-    font-size: 48px;
+    font-size: 34px;
     font-weight: 600;
     line-height: 125%;
     color: var(--primary-heading-colour);

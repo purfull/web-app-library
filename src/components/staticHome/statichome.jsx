@@ -33,11 +33,11 @@ const iconData = [
 
 const staticHome = () => {
   return (
-    <div className="home-container" style={{ marginBottom: "50vh" }}>
+    <div className="home-container" >
       <div className="top-sections-main">
         <div className="top-sections">
           <div className="portion-1">
-            <div className="primary-heading">
+            <div className="primary-heading" style={{padding: "0"}}>
               Discover Online Learning at{" "}
               <br />
               <span style={{ backgroundColor: "#ffffff", color: "#841d2e" }}>

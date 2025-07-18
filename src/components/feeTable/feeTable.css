@@ -1,5 +1,6 @@
+
 .fee-page-gap {
-  padding: 2rem;
+  padding: 2rem ;
 }
 
 .table-title {
@@ -30,12 +31,27 @@
 
 .semester-title {
     padding: 10px 0;
-    background-color: #d4d4d4;
+    width: 100%;
+    background-color: #f3e8ea;
 }
 .fee-semester {
-    
     margin: 30px 0;
 }
 .table-bold-text {
   font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+
+.fee-page-gap {
+  padding: 2rem 6px;
+  max-width: 100%;
+  overflow: scroll;
+}
+.fee-semester {
+    width: 150%
+}
+.semester-title {
+  padding-left: 10px;
+}
 }
