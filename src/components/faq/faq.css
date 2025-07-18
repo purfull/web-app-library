@@ -11,6 +11,9 @@
     font-size: 24px;
   }
 
+  .faq-leftpart {
+    padding-bottom: 4vh;
+  }
   .faq-portion {
     display: flex;
     flex-direction: column;
@@ -22,13 +25,14 @@
   .faq-question {
     font-weight: 600;
     font-size: 16px;
+    padding-right: 10px;
     display: flex;
     justify-content: space-between; /* pushes icon to the end */
     align-items: center;
     cursor: pointer;
   }
   .faq-answer {
-    padding: 10px 44px 0px 0px !important;
+    padding: 10px 10px 0px 0px !important;
     font-size: 16px;
     font-weight: 400;
     text-align: justify;
@@ -49,6 +53,9 @@
     font-size: 24px;
   }
 
+  .faq-leftpart {
+    padding-bottom: 0vh;
+  }
   .faq-portion {
     display: flex;
     flex-direction: column;
@@ -60,6 +67,7 @@
   .faq-question {
     font-weight: 600;
     font-size: 16px;
+    padding-right: 5px;
     display: flex;
     justify-content: space-between; /* pushes icon to the end */
     align-items: center;

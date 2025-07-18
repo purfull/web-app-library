@@ -74,7 +74,7 @@ const TimerHome = ({ data, programOverview }) => {
                   alt="arrow-forward"
                 />
               </button>
-              <button className="download-button" style={{ padding: "0 12px" }}>
+              <button className="download-button" style={{ paddingLeft: "12px", paddingRight: "12px" }}>
                 <span className="button-text">Download Programme Module</span>
                 <img src={downloadIcon} alt="download" />
               </button>
