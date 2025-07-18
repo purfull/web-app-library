@@ -28,9 +28,9 @@ const EnquireSection = ({
     <div className="course-container page-gap" style={{ paddingTop: "8vh" }}>
       
                 <span className="secondary-heading" >
-                  
-  {cardTitle?.split(" ").slice(0, 2).join(" ")}<br />
-  {cardTitle?.split(" ").slice(2).join(" ")}
+                  {cardTitle}
+  {/* {cardTitle?.split(" ").slice(0, 2).join(" ")}<br />
+  {cardTitle?.split(" ").slice(2).join(" ")} */}
                 </span>
 
       <div className="card-container">
@@ -46,7 +46,7 @@ const EnquireSection = ({
             <div className="title-logo-main">
 
               <img src={item.image} className="course-icon-image" /> 
-              <p className="course-title text-elipses-2">{item.title}</p>
+              <p className="course-title text-elipses-3">{item.title}</p>
               {/* <p>logo</p> */}
               {/* <img src="/icon/More.png"/> */}
             </div>

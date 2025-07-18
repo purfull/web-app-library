@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 const herobanner = [
   {
     Primarytittle:
-      "Empower Your Future with <span style='background-color: #841D2E'>Botho University </span> Online",
+      "Empower Your Future with <span style='background-color: #841D2E'>Botho University Online</span>",
     subtittle:
       "Pursue accredited, globally recognized qualifications designed for flexibility, affordability, and career advancement - anytime, anywhere.",
     button: "Explore Programmes",
