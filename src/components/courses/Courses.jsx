@@ -70,7 +70,7 @@ const Courses = ({
   const cardsToDisplay = isMobile ? filteredCards.slice(0, 3) : filteredCards;
 
   return (
-    <div className="course-container page-gap">
+    <div className="course-container page-gap gap-maintain">
       <div className="titleBar">
         <div>
           <span className="secondary-heading">
@@ -127,7 +127,7 @@ const Courses = ({
           </div>
         </div>
         <div
-          className="secondary-paragraph mobile-topheading black header-top"
+          className="secondary-paragraph mobile-topheading black topper"
           style={{ color: "#000" }}
         >
           {secondaryParagraph || (

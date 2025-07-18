@@ -13,9 +13,9 @@
   .text {
     display: none;
   }
-.nav-logo {
-  width: 80px;
-}
+  .nav-logo {
+    width: 80px;
+  }
   .nav-head {
     padding: 5px 1%;
     font-family: "Montserrat", sans-serif;
@@ -93,10 +93,10 @@
     justify-content: space-between;
     padding: 10px;
   }
-  
-.nav-logo {
-  width: 80px;
-}
+
+  .nav-logo {
+    width: 80px;
+  }
   .button-search-wrapper,
   .search-icon-text,
   .fee-text,
@@ -195,13 +195,13 @@
   }
 
   .nav-head {
-    padding: 5px 3%;
+    padding: 10px 0;
     font-family: "Montserrat", sans-serif;
   }
 
-.nav-logo {
-  width: 80px;
-}
+  .nav-logo {
+    width: 80px;
+  }
   .nav-bar2 {
     /* width: 80%; */
     display: flex;
@@ -264,7 +264,6 @@
     display: flex;
     justify-content: space-between;
     padding: 4px 0px;
-
   }
 
   /* .hamburger-icon {
