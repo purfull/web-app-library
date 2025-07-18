@@ -1,7 +1,7 @@
 export const bachelorofscienceindatascience = {
   heroContent: {
     question: "Bachelor of Science in Data Science",
-      image: "/images/courses-images/Bsc in data science.jpeg",
+    image: "/images/courses-images/Bsc in data science.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -73,7 +73,7 @@ export const bachelorofscienceindatascience = {
       ],
     },
     {
-      semester: "SEMESTER 2 ELECTIVE GROUP ONE (CHOOSE ONE)",
+      semester: "Semester 2 Elective Group One (Choose One)",
       courses: [
         {
           question: "Biology 1",
@@ -126,7 +126,7 @@ export const bachelorofscienceindatascience = {
       ],
     },
     {
-      semester: "SEMESTER 3 ELECTIVE GROUP ONE (CHOOSE ONE)",
+      semester: "Semester 3 Elective Group One (Choose One)",
       courses: [
         {
           question: "Cloud Computing",
@@ -145,7 +145,7 @@ export const bachelorofscienceindatascience = {
       ],
     },
     {
-      semester: "Semster 4",
+      semester: "Semester 4",
       courses: [
         {
           question: "Discrete Mathematics for Computer Science",
@@ -179,7 +179,7 @@ export const bachelorofscienceindatascience = {
       ],
     },
     {
-      semester: "SEMESTER 4 ELECTIVE GROUP ONE (SELECT ONE)",
+      semester: "Semester 4 Elective Group One (Select One)",
       courses: [
         {
           question: "Cryptography",
@@ -198,7 +198,7 @@ export const bachelorofscienceindatascience = {
       ],
     },
     {
-      semester: "SEMESTER 4 ELECTIVE GROUP ONE (SELECT ONE)",
+      semester: "Semester 4 Elective Group One (Select One)",
       courses: [
         {
           question: "Advanced Computer Networks",
@@ -217,7 +217,7 @@ export const bachelorofscienceindatascience = {
       ],
     },
     {
-      semester: "Semster 5",
+      semester: "Semester 5",
       courses: [
         {
           question: "Biostatistics",
@@ -250,7 +250,7 @@ export const bachelorofscienceindatascience = {
       ],
     },
     {
-      semester: "Semster 6",
+      semester: "Semester 6",
       courses: [
         {
           question: "Health Information Systems",
@@ -283,7 +283,7 @@ export const bachelorofscienceindatascience = {
       ],
     },
     {
-      semester: "SEMESTER 6 ELECTIVE GROUP ONE ( SELECT ONE)",
+      semester: "Semester 6 Elective Group One (Select One)",
       courses: [
         {
           question: "Emerging Technologies",
@@ -302,7 +302,7 @@ export const bachelorofscienceindatascience = {
       ],
     },
     {
-      semester: "SEMESTER 6 ELECTIVE GROUP TWO ( SELECT ONE)",
+      semester: "Semester 6 Elective Group Two (Select One)",
       courses: [
         {
           question: "Computational Biology",
@@ -321,7 +321,7 @@ export const bachelorofscienceindatascience = {
       ],
     },
     {
-      semester: "Semster 7",
+      semester: "Semester 7",
       courses: [
         {
           question: "Industrial Attachment",
@@ -333,7 +333,7 @@ export const bachelorofscienceindatascience = {
       ],
     },
     {
-      semester: "Semster 8 ",
+      semester: "Semester 8 ",
       courses: [
         {
           question: "Multivariate Statistics",
@@ -359,7 +359,7 @@ export const bachelorofscienceindatascience = {
       ],
     },
     {
-      semester: "SEMESTER 8 ELECTIVE GROUP ONE (CHOOSE ONE)",
+      semester: "Semester 8 Elective Group One (Choose One)",
       courses: [
         {
           question: "Big Data Databases",
@@ -378,7 +378,7 @@ export const bachelorofscienceindatascience = {
       ],
     },
     {
-      semester: "SEMESTER 8 ELECTIVE GROUP TWO (CHOOSE ONE) ",
+      semester: "Semester 8 Elective Group Two (Choose One) ",
       courses: [
         {
           question: "Big Data Technologies",
@@ -459,11 +459,11 @@ export const bachelorofscienceindatascience = {
   programOverview: `Want to become a data expert? Our four-year BSc in Data Science equips you to extract meaningful insights from vast datasets. This programme integrates statistics, machine learning, computer science, and data analytics. You'll develop expertise in Data Processing, Analytics, and Visualisation, mastering Machine Learning, Data Mining, and Big Data Technologies.<br></br>With hands-on experience in AI and cloud computing, plus a Capstone Project and industrial attachment, you'll gain practical, industry-relevant skills. Graduates are well-prepared for dynamic careers as Data Scientists, Business Analysts, or AI Engineers in finance, healthcare, and technology.
 `,
 };
- 
+
 export const bachelorofbusinessadministrationinbusinessmanagement = {
   heroContent: {
     question: "Bachelor of Business Administration in Business Management",
-      image: "/images/courses-images/BBA in bus mgmt.jpeg",
+    image: "/images/courses-images/BBA in bus mgmt.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -569,25 +569,7 @@ export const bachelorofbusinessadministrationinbusinessmanagement = {
         },
       ],
     },
-    // {
-    //   semester: "SEMESTER 2 ELECTIVE GROUP ONE (CHOOSE ONE)",
-    //   courses: [
-    //     {
-    //       question: "Biology 1",
-    //       subanswer:
-    //         "Code: E5-PHY-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
-    //       answer:
-    //         "This module furnishes non-biological science students with fundamental knowledge of anatomy, physiology, pathology, and pharmacology. It enables effective collaboration with health professionals on interdisciplinary projects, such as developing healthcare software. Students will gain insights into key body systems, common diseases, and their treatment or management approaches.",
-    //     },
-    //     {
-    //       question: "Chemistry 1",
-    //       subanswer:
-    //         "Code: E5-PHY-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
-    //       answer:
-    //         "This module introduces fundamental chemistry concepts, including the periodic table, atomic structure, and periodic trends. Students will explore ionisation energy, metallic character, stoichiometry, aqueous reactions, and gas laws. By completion, they will understand chemical formulae, equations, and the principles governing the behaviour of elements and compounds.",
-    //     },
-    //   ],
-    // },
+
     {
       semester: "Semester 3",
       courses: [
@@ -707,7 +689,7 @@ export const bachelorofbusinessadministrationinbusinessmanagement = {
       ],
     },
     {
-      semester: "Semster 6",
+      semester: "Semester 6",
       courses: [
         {
           question: "Financial Management 2",
@@ -741,7 +723,7 @@ export const bachelorofbusinessadministrationinbusinessmanagement = {
       ],
     },
     {
-      semester: "SEMESTER 6 ELECTIVE GROUP ONE ( SELECT ONE)",
+      semester: "Semester 6 Elective Group One (Select One)",
       courses: [
         {
           question: "Computerized Auditing",
@@ -782,7 +764,7 @@ export const bachelorofbusinessadministrationinbusinessmanagement = {
     },
 
     {
-      semester: "Semster 7",
+      semester: "Semester 7",
       courses: [
         {
           question: "Public Sector Financial Reporting",
@@ -816,7 +798,7 @@ export const bachelorofbusinessadministrationinbusinessmanagement = {
       ],
     },
     {
-      semester: "SEMESTER 7 ELECTIVE GROUP ONE ( SELECT ONE)",
+      semester: "Semester 7 Elective Group One (Select One)",
       courses: [
         {
           question: "Entrepreneurship and Innovation",
@@ -842,7 +824,7 @@ export const bachelorofbusinessadministrationinbusinessmanagement = {
       ],
     },
     {
-      semester: "Semster 8 ",
+      semester: "Semester 8 ",
       courses: [
         {
           question: "Professional Practice in Accounting",
@@ -1075,7 +1057,7 @@ export const bachelorofcommerceinhospitalitymanagement = {
     },
 
     {
-      semester: "Semster 4",
+      semester: "Semester 4",
       courses: [
         {
           question: "Business Statistics",
@@ -1117,7 +1099,7 @@ export const bachelorofcommerceinhospitalitymanagement = {
     },
 
     {
-      semester: "Semster 5",
+      semester: "Semester 5",
       courses: [
         {
           question: "Financial Accounting",
@@ -1157,7 +1139,7 @@ export const bachelorofcommerceinhospitalitymanagement = {
       ],
     },
     {
-      semester: "Semster 6",
+      semester: "Semester 6",
       courses: [
         {
           question: "Research Proposal Writing",
@@ -1198,7 +1180,7 @@ export const bachelorofcommerceinhospitalitymanagement = {
     },
 
     {
-      semester: "Semster 7",
+      semester: "Semester 7",
       courses: [
         {
           question: "Project 2 - Dissertation",
@@ -1217,7 +1199,7 @@ export const bachelorofcommerceinhospitalitymanagement = {
       ],
     },
     {
-      semester: "SEMESTER 7 ELECTIVE GROUP ONE (CHOOSE ONE)",
+      semester: "Semester 7 Elective Group One (Choose One)",
       courses: [
         {
           question: "Cultural Tourism",
@@ -1250,7 +1232,7 @@ export const bachelorofcommerceinhospitalitymanagement = {
       ],
     },
     {
-      semester: "Semster 8 ",
+      semester: "Semester 8 ",
       courses: [
         {
           question: "Professional Practice in Business",
@@ -1327,7 +1309,7 @@ export const bachelorofcommerceinhospitalitymanagement = {
 export const masterofcommerceinhumanresourcemanagement = {
   heroContent: {
     question: "Master of Commerce in Human Resource Management.",
-      image: "/images/courses-images/MCom in Human resource.jpeg",
+    image: "/images/courses-images/MCom in Human resource.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -1428,7 +1410,7 @@ export const masterofcommerceinhumanresourcemanagement = {
       ],
     },
     {
-      semester: "SEMESTER 3 ELECTIVE GROUP ONE (CHOOSE ONE)",
+      semester: "Semester 3 Elective Group One (Choose One)",
       courses: [
         {
           question: "Managing Equality and Diversity",
@@ -1468,7 +1450,7 @@ export const masterofcommerceinhumanresourcemanagement = {
       ],
     },
     {
-      semester: "Semster 4",
+      semester: "Semester 4",
       courses: [
         {
           question: "Dissertation",
@@ -1545,7 +1527,7 @@ export const masterofcommerceinhumanresourcemanagement = {
 export const masterofbusinessadministration = {
   heroContent: {
     question: "Master of Business Administration (MBA)",
-      image: "/images/courses-images/MBA.jpeg",
+    image: "/images/courses-images/MBA.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -1645,7 +1627,7 @@ export const masterofbusinessadministration = {
       ],
     },
     {
-      semester: "SEMESTER 3 ELECTIVE GROUP ONE (CHOOSE TWO)",
+      semester: "Semester 3 Elective Group One (Choose Two)",
       courses: [
         {
           question: "International Investment Analysis",
@@ -1713,7 +1695,7 @@ export const masterofbusinessadministration = {
       ],
     },
     {
-      semester: "Semster 4",
+      semester: "Semester 4",
       courses: [
         {
           question: "Dissertation",
@@ -1790,8 +1772,7 @@ export const masterofbusinessadministration = {
 export const diplomainoccupationalhealthsafety = {
   heroContent: {
     question: "Diploma in Occupational Health Safety",
-    
-      image: "/images/courses-images/Diploma in Occup.jpeg",
+    image: "/images/courses-images/Diploma in Occup.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$13",
@@ -2002,7 +1983,7 @@ export const diplomainoccupationalhealthsafety = {
 export const bachelorofscienceinhealthinformationmanagement = {
   heroContent: {
     question: "Bachelor of Science in Health Information Management",
-      image: "/images/courses-images/BSc in health info.jpeg",
+    image: "/images/courses-images/BSc in health info.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -2138,7 +2119,7 @@ export const bachelorofscienceinhealthinformationmanagement = {
     },
 
     {
-      semester: "Semster 4",
+      semester: "Semester 4",
       courses: [
         {
           question: "Introduction to Global Health",
@@ -2172,7 +2153,7 @@ export const bachelorofscienceinhealthinformationmanagement = {
       ],
     },
     {
-      semester: "SEMESTER 4 ELECTIVE GROUP ONE (SELECT ONE)",
+      semester: "Semester 4 Elective Group One (Select One)",
       courses: [
         {
           question: "Introduction to Financial Accounting",
@@ -2192,7 +2173,7 @@ export const bachelorofscienceinhealthinformationmanagement = {
     },
 
     {
-      semester: "Semster 5",
+      semester: "Semester 5",
       courses: [
         {
           question: "Biostatistics",
@@ -2225,7 +2206,7 @@ export const bachelorofscienceinhealthinformationmanagement = {
       ],
     },
     {
-      semester: "Semster 6",
+      semester: "Semester 6",
       courses: [
         {
           question: "Health Information Systems",
@@ -2312,7 +2293,7 @@ export const bachelorofscienceinhealthinformationmanagement = {
     },
 
     {
-      semester: "Semster 8 ",
+      semester: "Semester 8 ",
       courses: [
         {
           question: "Professional Practice in HIM",
@@ -2396,7 +2377,7 @@ export const bachelorofscienceinhealthinformationmanagement = {
 export const bachelorofscienceinhospitaladministration = {
   heroContent: {
     question: "Bachelor of Science in Hospital Administration",
-      image: "/images/courses-images/BSc in Hospitality.jpeg",
+    image: "/images/courses-images/BSc in Hospitality.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -2526,7 +2507,7 @@ export const bachelorofscienceinhospitaladministration = {
     },
 
     {
-      semester: "Semster 4",
+      semester: "Semester 4",
       courses: [
         {
           question: "Health Economics",
@@ -2575,7 +2556,7 @@ export const bachelorofscienceinhospitaladministration = {
     },
 
     {
-      semester: "Semster 5",
+      semester: "Semester 5",
       courses: [
         {
           question: "Research Trends in Hospital Management",
@@ -2627,7 +2608,7 @@ export const bachelorofscienceinhospitaladministration = {
       ],
     },
     {
-      semester: "Semster 6",
+      semester: "Semester 6",
       courses: [
         {
           question: "Research Methodology",
@@ -2713,7 +2694,7 @@ export const bachelorofscienceinhospitaladministration = {
     },
 
     {
-      semester: "Semster 8 ",
+      semester: "Semester 8 ",
       courses: [
         {
           question: "Professional Practice",
@@ -2796,8 +2777,9 @@ export const bachelorofscienceinhospitaladministration = {
 
 export const bachelorofscienceinsafetyhealthandenvironmentalmanagement = {
   heroContent: {
-    question: "Bachelor of Science in Safety, Health and Environmental Management",
-      image: "/images/courses-images/BSc in Safety..png",
+    question:
+      "Bachelor of Science in Safety, Health and Environmental Management",
+    image: "/images/courses-images/BSc in Safety..png",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -3014,7 +2996,7 @@ export const bachelorofscienceinsafetyhealthandenvironmentalmanagement = {
       ],
     },
     {
-      semester: "Semster 6",
+      semester: "Semester 6",
       courses: [
         {
           question: "Research Methods",
@@ -3054,7 +3036,7 @@ export const bachelorofscienceinsafetyhealthandenvironmentalmanagement = {
       ],
     },
     {
-      semester: "SEMESTER 6 ELECTIVE GROUP ONE ( SELECT TWO)",
+      semester: "Semester 6 Elective Group One ( Select Two)",
       courses: [
         {
           question: "Health and Safety in Transport",
@@ -3081,7 +3063,7 @@ export const bachelorofscienceinsafetyhealthandenvironmentalmanagement = {
     },
 
     {
-      semester: "Semster 7",
+      semester: "Semester 7",
       courses: [
         {
           question: "Entrepreneurship and Innovation",
@@ -3115,7 +3097,7 @@ export const bachelorofscienceinsafetyhealthandenvironmentalmanagement = {
       ],
     },
     {
-      semester: "SEMESTER 7 ELECTIVE GROUP ONE ( SELECT ONE)",
+      semester: "Semester 7 Elective Group One ( Select One)",
       courses: [
         {
           question: "Food Safety and Hygiene",
@@ -3134,7 +3116,7 @@ export const bachelorofscienceinsafetyhealthandenvironmentalmanagement = {
       ],
     },
     {
-      semester: "Semster 8 ",
+      semester: "Semester 8 ",
       courses: [
         {
           question: "Research Project 2",
@@ -3218,7 +3200,7 @@ export const bachelorofeducationinprimaryeducation = {
   heroContent: {
     question:
       "Bachelor of Education in Primary Education(English Language and Mathematics)",
-      image: "/images/courses-images/Bed in Primary.jpeg",
+    image: "/images/courses-images/Bed in Primary.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -3572,7 +3554,7 @@ export const bachelorofeducationinprimaryeducation = {
 export const postgraduatediplomainhighereducation = {
   heroContent: {
     question: "Post Graduate Diploma in Higher Education",
-      image: "/images/courses-images/PGDHE.jpeg",
+    image: "/images/courses-images/PGDHE.jpeg",
     minPeriod: 1,
     maxPeriod: 2,
     programmeCredit: "$19.50",
@@ -3733,8 +3715,7 @@ export const postgraduatediplomainhighereducation = {
 export const masterofeducationalleadershipandmanagement = {
   heroContent: {
     question: "Master of Educational Leadership and Management",
-      image:
-        "/images/courses-images/Med in educational leadership and mgmt.jpeg",
+    image: "/images/courses-images/Med in educational leadership and mgmt.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -3949,7 +3930,7 @@ export const masterofeducationalleadershipandmanagement = {
 export const masterofeducationincurriculumdesignandinstruction = {
   heroContent: {
     question: "Master of Education in Curriculum Design and Instruction",
-      image: "/images/courses-images/Med in curriculum.jpeg",
+    image: "/images/courses-images/Med in curriculum.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -4183,7 +4164,7 @@ export const masterofeducationincurriculumdesignandinstruction = {
 export const bscinnetworksecurityandcomputerforensics = {
   heroContent: {
     question: "BSc in Network Security and Computer Forensics",
-      image: "/images/courses-images/BSc in network security.jpeg",
+    image: "/images/courses-images/BSc in network security.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -4430,7 +4411,7 @@ export const bscinnetworksecurityandcomputerforensics = {
       ],
     },
     {
-      semester: "SEMESTER 6 ELECTIVE GROUP ONE (CHOOSE ONE)	",
+      semester: "Semester 6 Elective Group One (Choose One)	",
       courses: [
         {
           question: "Internet of Things (Elective)",
@@ -4597,7 +4578,7 @@ export const bscinnetworksecurityandcomputerforensics = {
 export const mastersofeducationinhighereducation = {
   heroContent: {
     question: "Masters of Education in Higher Education",
-      image: "/images/courses-images/Med in higher education.jpeg",
+    image: "/images/courses-images/Med in higher education.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -4629,7 +4610,7 @@ export const mastersofeducationinhighereducation = {
       ],
     },
     {
-      semester: "SEMESTER 1 ELECTIVE GROUP ONE (CHOOSE ONE)",
+      semester: "Semester 1 Elective Group One (Choose One)",
       courses: [
         {
           question: "Machine Learning",
@@ -4667,7 +4648,7 @@ export const mastersofeducationinhighereducation = {
       ],
     },
     {
-      semester: "SEMESTER 2 ELECTIVE GROUP ONE (CHOOSE ONE)",
+      semester: "Semester 2 Elective Group One (Choose One)",
       courses: [
         {
           question: "Grid Computing Systems",
@@ -4817,7 +4798,7 @@ export const mastersofeducationinhighereducation = {
 export const masterofscienceininformationsystemsmanagement = {
   heroContent: {
     question: "Master of Science in Information Systems Management",
-      image: "/images/courses-images/Msc in Information Systems management.jpeg",
+    image: "/images/courses-images/Msc in Information Systems management.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -5009,7 +4990,7 @@ export const masterofscienceininformationsystemsmanagement = {
 export const masterofscienceincomputerscience = {
   heroContent: {
     question: "Master of Science in Computer Science",
-      image: "/images/courses-images/Msc in computer science.jpeg",
+    image: "/images/courses-images/Msc in computer science.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -5041,7 +5022,7 @@ export const masterofscienceincomputerscience = {
       ],
     },
     {
-      semester: "SEMESTER 1 ELECTIVE GROUP ONE (CHOOSE ONE)",
+      semester: "Semester 1 Elective Group One (Choose One)",
       courses: [
         {
           question: "Machine Learning",
@@ -5079,7 +5060,7 @@ export const masterofscienceincomputerscience = {
       ],
     },
     {
-      semester: "SEMESTER 2 ELECTIVE GROUP ONE (CHOOSE ONE)",
+      semester: "Semester 2 Elective Group One (Choose One)",
       courses: [
         {
           question: "Grid Computing Systems",
@@ -5191,8 +5172,7 @@ export const masterofscienceincomputerscience = {
   programOverview: `Aspiring to excel in the tech industry? Our Master of Science in Computer Science is an advanced, flexible online programme. You'll gain technical expertise and analytical skills, focusing on core computing principles and specialised areas like software development, data analysis, artificial intelligence, and cybersecurity.<br></br>The programme provides hands-on experience with industry tools, mastering algorithms and software engineering. You'll develop critical thinking, problem-solving, and secure software design skills, preparing you to create scalable solutions and address ethical challenges. Graduates are ready for careers in software engineering, data science, or cybersecurity, driving innovation in the digital world.`,
 };
 
-
-export const bachelorofcommerceinaccounting= {
+export const bachelorofcommerceinaccounting = {
   heroContent: {
     question: "Bachelor of Commerce in Accounting",
     image: "/images/courses-images/Bcom in accounting.jpeg",
@@ -5204,7 +5184,7 @@ export const bachelorofcommerceinaccounting= {
     totalFee: "$6,240",
     cta: false,
     timer: true,
-    overview: false
+    overview: false,
   },
   courseStruture: [
     {
@@ -5212,271 +5192,360 @@ export const bachelorofcommerceinaccounting= {
       courses: [
         {
           question: "Introduction to MS Office",
-          subanswer: "Code: C5-IMO-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "The Introduction to MS Office module is designed to equip students with essential digital skills required for academic, professional, and personal productivity. This foundational course provides hands-on experience with key Microsoft Office applications, ensuring students develop proficiency in word processing, spreadsheets, presentations, database management, and email communication."
+          subanswer:
+            "Code: C5-IMO-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The Introduction to MS Office module is designed to equip students with essential digital skills required for academic, professional, and personal productivity. This foundational course provides hands-on experience with key Microsoft Office applications, ensuring students develop proficiency in word processing, spreadsheets, presentations, database management, and email communication.",
         },
         {
           question: "Academic Writing for Business",
-          subanswer: "Code: D5-AWB-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module introduces students to essential academic writing skills, focusing on paragraph structure, thesis statements, and argument development. It explores plagiarism, its consequences, and prevention strategies. Additionally, students will develop referencing skills, including citation techniques, resource evaluation, and the use of referencing tools like Mendeley to ensure academic integrity."
+          subanswer:
+            "Code: D5-AWB-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module introduces students to essential academic writing skills, focusing on paragraph structure, thesis statements, and argument development. It explores plagiarism, its consequences, and prevention strategies. Additionally, students will develop referencing skills, including citation techniques, resource evaluation, and the use of referencing tools like Mendeley to ensure academic integrity.",
         },
         {
           question: "Business Mathematics and Statistics",
-          subanswer: "Code: B5-BS1-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module focuses on fundamental mathematical concepts, including fractions, percentages, algebra, and their business applications. It introduces basic statistics, focusing on data organization, central tendency, dispersion, and spreadsheet analysis. Probability concepts, including axioms, discrete and continuous distributions, and standardized normal distributions, are explored to enhance quantitative decision-making skills."
+          subanswer:
+            "Code: B5-BS1-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module focuses on fundamental mathematical concepts, including fractions, percentages, algebra, and their business applications. It introduces basic statistics, focusing on data organization, central tendency, dispersion, and spreadsheet analysis. Probability concepts, including axioms, discrete and continuous distributions, and standardized normal distributions, are explored to enhance quantitative decision-making skills.",
         },
         {
           question: "Legal Aspects of Business",
-          subanswer: "Code: B5-LAB-13<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module provides an introduction to law, its origins, and the Botswana legal system, including criminal and civil law. It explores key areas such as contract law, sales, leases, credit agreements, insurance, agency, employment contracts, intellectual property, negotiable instruments, and business enterprises, equipping students with essential legal knowledge."
+          subanswer:
+            "Code: B5-LAB-13<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module provides an introduction to law, its origins, and the Botswana legal system, including criminal and civil law. It explores key areas such as contract law, sales, leases, credit agreements, insurance, agency, employment contracts, intellectual property, negotiable instruments, and business enterprises, equipping students with essential legal knowledge.",
         },
         {
           question: "Fundamental Of Business and Finance",
-          subanswer: "Code: A5-FBF-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "The Fundamentals of Business and Finance module provides a comprehensive introduction to key business concepts, including management, organizational structures, strategy, risk management, financial information, and corporate governance. The students will gain essential insights into business and personal finance, the role of professional accountants, and how economic factors impact business operations and finance."
+          subanswer:
+            "Code: A5-FBF-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "The Fundamentals of Business and Finance module provides a comprehensive introduction to key business concepts, including management, organizational structures, strategy, risk management, financial information, and corporate governance. The students will gain essential insights into business and personal finance, the role of professional accountants, and how economic factors impact business operations and finance.",
         },
         {
           question: "Business Management 1",
-          subanswer: "Code: B5-BM1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module introduces business management as a science, covering business concepts, economic systems, and stakeholder roles. It explores the business environment, management tasks, and functional areas such as operations, finance, HR, and marketing. Leadership principles, traits, and theories are examined, providing a foundation for effective business decision-making and strategy."
-        }
-      ]
+          subanswer:
+            "Code: B5-BM1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module introduces business management as a science, covering business concepts, economic systems, and stakeholder roles. It explores the business environment, management tasks, and functional areas such as operations, finance, HR, and marketing. Leadership principles, traits, and theories are examined, providing a foundation for effective business decision-making and strategy.",
+        },
+      ],
     },
-    { 
+    {
       semester: "Semester 2",
       courses: [
         {
           question: "Principles of Marketing",
-          subanswer: "Code: B5-PMK-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module introduces the fundamentals of marketing, including the 7 P’s, consumer behavior, and decision-making processes. It explores marketing research, segmentation, and targeting strategies. Key aspects of product development, pricing strategies, and promotional techniques are examined, equipping students with essential skills for effective marketing in a competitive global environment."
+          subanswer:
+            "Code: B5-PMK-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module introduces the fundamentals of marketing, including the 7 P’s, consumer behavior, and decision-making processes. It explores marketing research, segmentation, and targeting strategies. Key aspects of product development, pricing strategies, and promotional techniques are examined, equipping students with essential skills for effective marketing in a competitive global environment.",
         },
         {
           question: "Business Mathametics and Statistics 2",
-          subanswer: "Code: B6-BS2-17<br/>Prerequisite: B5-BS1-17<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module focuses on essential mathematical concepts, including quadratic equations, functions, differentiation, and integration. Statistical topics include sampling distributions, confidence intervals, hypothesis testing, and chi-square tests. It also explores regression analysis, decision theory, time series analysis, and forecasting, equipping students with analytical tools for data-driven decision-making in business and research."
+          subanswer:
+            "Code: B6-BS2-17<br/>Prerequisite: B5-BS1-17<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module focuses on essential mathematical concepts, including quadratic equations, functions, differentiation, and integration. Statistical topics include sampling distributions, confidence intervals, hypothesis testing, and chi-square tests. It also explores regression analysis, decision theory, time series analysis, and forecasting, equipping students with analytical tools for data-driven decision-making in business and research.",
         },
         {
           question: "Introduction to Financial Accounting",
-          subanswer: "Code: A5-IFA-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module introduces the principles of accounting, including its conceptual and regulatory framework. It covers accounting systems, ledger maintenance, trial balances, bank reconciliations, and control accounts. Students will learn to prepare financial statements for sole traders, partnerships, limited companies, and unincorporated organizations, including manufacturing accounts and cash flow statements."
+          subanswer:
+            "Code: A5-IFA-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module introduces the principles of accounting, including its conceptual and regulatory framework. It covers accounting systems, ledger maintenance, trial balances, bank reconciliations, and control accounts. Students will learn to prepare financial statements for sole traders, partnerships, limited companies, and unincorporated organizations, including manufacturing accounts and cash flow statements.",
         },
         {
           question: "Business Ethics and Assurance",
-          subanswer: "Code: B6-BEA-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module explores the role of external auditing, focusing on its regulatory framework, fraud detection, and reporting responsibilities. It covers pre-audit investigations, audit planning, risk assessment, materiality, and auditors’ legal liability. Additionally, it examines the differences between financial statement audits and the assurance of sustainability reports."
+          subanswer:
+            "Code: B6-BEA-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module explores the role of external auditing, focusing on its regulatory framework, fraud detection, and reporting responsibilities. It covers pre-audit investigations, audit planning, risk assessment, materiality, and auditors’ legal liability. Additionally, it examines the differences between financial statement audits and the assurance of sustainability reports.",
         },
         {
           question: "Business Management 2",
-          subanswer: "Code: B5-BM2-20<br/>Prerequisite: B5-BS1-17<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module provides a comprehensive foundation in management principles, covering managerial roles, strategic planning, decision-making, and organizational structures. It explores human resource management, change management, diversity, and logistics. Emphasis is placed on adapting to environmental changes, leveraging information systems, and developing skills for sustainable competitive advantage in modern business organizations."
+          subanswer:
+            "Code: B5-BM2-20<br/>Prerequisite: B5-BS1-17<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module provides a comprehensive foundation in management principles, covering managerial roles, strategic planning, decision-making, and organizational structures. It explores human resource management, change management, diversity, and logistics. Emphasis is placed on adapting to environmental changes, leveraging information systems, and developing skills for sustainable competitive advantage in modern business organizations.",
         },
         {
           question: "Computerized Accounting 1",
-          subanswer: "Code: A6-CP1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module introduces computerized accounting systems, covering transaction processing, enterprise resource planning (ERP), and accounting software like Pastel and QuickBooks. It explores cybercrime, fraud prevention, security controls, and auditing of computer-based systems. Additionally, it examines revenue and expenditure cycles, as well as system development, analysis, design, and implementation."
-        }
-      ]
+          subanswer:
+            "Code: A6-CP1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module introduces computerized accounting systems, covering transaction processing, enterprise resource planning (ERP), and accounting software like Pastel and QuickBooks. It explores cybercrime, fraud prevention, security controls, and auditing of computer-based systems. Additionally, it examines revenue and expenditure cycles, as well as system development, analysis, design, and implementation.",
+        },
+      ],
     },
     {
       semester: "Semester 3",
       courses: [
         {
           question: "Taxation 1",
-          subanswer: "Code: A6-TA1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module provides an understanding of the Botswana tax system, covering different types of taxes, principal tax laws, and taxpayer obligations. It explores tax procedures, including objections and appeals, withholding taxes, gross income, deductions, employment income, capital allowances, and taxable income for individuals, sole traders, and partnerships."
+          subanswer:
+            "Code: A6-TA1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module provides an understanding of the Botswana tax system, covering different types of taxes, principal tax laws, and taxpayer obligations. It explores tax procedures, including objections and appeals, withholding taxes, gross income, deductions, employment income, capital allowances, and taxable income for individuals, sole traders, and partnerships.",
         },
         {
           question: "Micreconomics",
-          subanswer: "Code: B5-MIE-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module introduces fundamental economic concepts, including scarcity, choice, and economic systems. It explores demand and supply dynamics, market equilibrium, and elasticity. Students will analyze firm behavior, production costs, and market structures. Additionally, the module covers externalities, public goods, and income distribution, providing insights into economic decision-making and policy implications."
+          subanswer:
+            "Code: B5-MIE-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module introduces fundamental economic concepts, including scarcity, choice, and economic systems. It explores demand and supply dynamics, market equilibrium, and elasticity. Students will analyze firm behavior, production costs, and market structures. Additionally, the module covers externalities, public goods, and income distribution, providing insights into economic decision-making and policy implications.",
         },
         {
           question: "Cost Accounting",
-          subanswer: "Code: A6-COA-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module introduces key costing concepts, including cost behavior, classification, and accounting for materials and labor. It covers inventory valuation methods, overhead allocation, marginal and absorption costing, and various costing methods like job, batch, and process costing. Additionally, it explores cost-volume-profit analysis, standard costing, variance analysis, and budgeting for effective cost control."
+          subanswer:
+            "Code: A6-COA-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module introduces key costing concepts, including cost behavior, classification, and accounting for materials and labor. It covers inventory valuation methods, overhead allocation, marginal and absorption costing, and various costing methods like job, batch, and process costing. Additionally, it explores cost-volume-profit analysis, standard costing, variance analysis, and budgeting for effective cost control.",
         },
         {
           question: "Computerized Accounting 2",
-          subanswer: "Code: A6-CP2-20<br/>Prerequisite: A6-CP1-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module provides hands-on training in Sage Pastel, covering company setup, navigation, and key functionalities. It explores customer and supplier account management, inventory and general ledger setup, and processing financial transactions. Additionally, it focuses on error correction, scheduled invoicing, financial reporting, and bank reconciliations to enhance accounting efficiency and accuracy."
+          subanswer:
+            "Code: A6-CP2-20<br/>Prerequisite: A6-CP1-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module provides hands-on training in Sage Pastel, covering company setup, navigation, and key functionalities. It explores customer and supplier account management, inventory and general ledger setup, and processing financial transactions. Additionally, it focuses on error correction, scheduled invoicing, financial reporting, and bank reconciliations to enhance accounting efficiency and accuracy.",
         },
         {
           question: "Corporate Administration 1",
-          subanswer: "Code: A6-CA1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module explores strategic and functional administration, emphasizing corporate governance, role players in the corporate hierarchy, and best practices. It covers information management, confidentiality under relevant legal frameworks, technological advancements, and their impact. Additionally, it examines human resource functions, employer-employee relationships, and contractual rights within a corporate environment."
+          subanswer:
+            "Code: A6-CA1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module explores strategic and functional administration, emphasizing corporate governance, role players in the corporate hierarchy, and best practices. It covers information management, confidentiality under relevant legal frameworks, technological advancements, and their impact. Additionally, it examines human resource functions, employer-employee relationships, and contractual rights within a corporate environment.",
         },
         {
           question: "Financial Accounting 1",
-          subanswer: "Code: A6-FA1-17<br/>Prerequisite: A6-IFA-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module introduces accounting principles, financial reporting, and corporate structures. It explores company formation, financial statement preparation, and adjustments per IFRS and IAS standards. Topics include limited liability companies, partnerships, ratio analysis, and asset management. Emphasis is placed on financial information, reporting frameworks, and key accounting concepts for decision-making"
-        }
-      ]
+          subanswer:
+            "Code: A6-FA1-17<br/>Prerequisite: A6-IFA-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module introduces accounting principles, financial reporting, and corporate structures. It explores company formation, financial statement preparation, and adjustments per IFRS and IAS standards. Topics include limited liability companies, partnerships, ratio analysis, and asset management. Emphasis is placed on financial information, reporting frameworks, and key accounting concepts for decision-making",
+        },
+      ],
     },
     {
       semester: "Semester 4",
       courses: [
         {
           question: "Macroeconomics",
-          subanswer: "Code: B6-MAE-17<br/>Prerequisite: B5-MIE-17<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module introduces macroeconomic principles, covering economic perspectives, national income measurement, and business cycles. It explores aggregate demand and supply, fiscal and monetary policies, and the role of central banks. Additionally, it examines inflation, unemployment, and international trade, highlighting the impact of economic policies on national and global markets."
+          subanswer:
+            "Code: B6-MAE-17<br/>Prerequisite: B5-MIE-17<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module introduces macroeconomic principles, covering economic perspectives, national income measurement, and business cycles. It explores aggregate demand and supply, fiscal and monetary policies, and the role of central banks. Additionally, it examines inflation, unemployment, and international trade, highlighting the impact of economic policies on national and global markets.",
         },
         {
           question: "Audit and Assurance",
-          subanswer: "Code: A6-ASS-20<br/>Prerequisite: B6-BEA-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
-          answer: "This module explores key auditing principles, emphasizing responsibilities, risk assessment, and response strategies. It covers gathering audit evidence, utilizing the work of others, and forming audit conclusions. The module also examines audit reporting, ensuring compliance with standards and enhancing the reliability of financial information for stakeholders."
+          subanswer:
+            "Code: A6-ASS-20<br/>Prerequisite: B6-BEA-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "This module explores key auditing principles, emphasizing responsibilities, risk assessment, and response strategies. It covers gathering audit evidence, utilizing the work of others, and forming audit conclusions. The module also examines audit reporting, ensuring compliance with standards and enhancing the reliability of financial information for stakeholders.",
         },
         {
           question: "Financial Management 1",
-          subanswer: "Code: A6-FM1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module explores financial management principles, focusing on investment, financing, and dividend decisions. It examines the roles of financial managers, working capital management, credit risk, and short-term financing. Additionally, it covers capital budgeting, the time value of money, and the risk-return relationship, equipping learners with essential financial decision-making skills."
+          subanswer:
+            "Code: A6-FM1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module explores financial management principles, focusing on investment, financing, and dividend decisions. It examines the roles of financial managers, working capital management, credit risk, and short-term financing. Additionally, it covers capital budgeting, the time value of money, and the risk-return relationship, equipping learners with essential financial decision-making skills.",
         },
         {
           question: "Corporate Secretaryship",
-          subanswer: "Code: A6-CSC-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module examines the formation, administration, and management of companies, covering types, incorporation, and regulatory provisions. It explores share capital, capital maintenance, and financial reporting. Additionally, it highlights the roles and responsibilities of members, directors, and company officers, ensuring compliance with legal and governance frameworks for corporate operations."
+          subanswer:
+            "Code: A6-CSC-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module examines the formation, administration, and management of companies, covering types, incorporation, and regulatory provisions. It explores share capital, capital maintenance, and financial reporting. Additionally, it highlights the roles and responsibilities of members, directors, and company officers, ensuring compliance with legal and governance frameworks for corporate operations.",
         },
         {
           question: "Financial Accounting 2",
-          subanswer: "Code: A7-FA2-20<br/>Prerequisite: A7-FA1-17<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module focuses on key financial reporting standards, including IAS 38 for intangible assets, IAS 17 for leases, IAS 2 for inventories, and IFRS cash flow preparation. It explores revenue recognition, financial instruments, and their measurement, ensuring compliance with IFRS principles for accurate financial reporting and decision-making."
-        }
-      ]
+          subanswer:
+            "Code: A7-FA2-20<br/>Prerequisite: A7-FA1-17<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module focuses on key financial reporting standards, including IAS 38 for intangible assets, IAS 17 for leases, IAS 2 for inventories, and IFRS cash flow preparation. It explores revenue recognition, financial instruments, and their measurement, ensuring compliance with IFRS principles for accurate financial reporting and decision-making.",
+        },
+      ],
     },
     {
       semester: "Semester 5",
       courses: [
         {
           question: "Taxation 2",
-          subanswer: "Code: A7-TA2-20<br/>Prerequisite: A6-TA1-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
-          answer: "This module provides an overview of the Botswana/Lesetho tax system, covering different types of taxes, key tax laws, and taxpayer obligations. It examines income and company tax liabilities, chargeable gains, withholding taxes, and VAT. Additionally, it explores tax dispute resolution, including objections and appeals, ensuring compliance with regulatory requirements."
+          subanswer:
+            "Code: A7-TA2-20<br/>Prerequisite: A6-TA1-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "This module provides an overview of the Botswana/Lesetho tax system, covering different types of taxes, key tax laws, and taxpayer obligations. It examines income and company tax liabilities, chargeable gains, withholding taxes, and VAT. Additionally, it explores tax dispute resolution, including objections and appeals, ensuring compliance with regulatory requirements.",
         },
         {
           question: "Management Accounting",
-          subanswer: "Code: A7-MAC-20<br/>Prerequisite: A6-COA-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
-          answer: "This module introduces management accounting concepts, focusing on cost analysis, budgeting, and decision-making. It explores marginal vs. absorption costing, activity-based costing, and cost-volume-profit analysis. Additionally, it covers budgeting, variance analysis, and short-run decision-making, equipping learners with techniques for effective cost control and financial planning in business operations."
+          subanswer:
+            "Code: A7-MAC-20<br/>Prerequisite: A6-COA-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "This module introduces management accounting concepts, focusing on cost analysis, budgeting, and decision-making. It explores marginal vs. absorption costing, activity-based costing, and cost-volume-profit analysis. Additionally, it covers budgeting, variance analysis, and short-run decision-making, equipping learners with techniques for effective cost control and financial planning in business operations.",
         },
         {
           question: "Financial Reporting",
-          subanswer: "Code: A7-FIR-20<br/>Prerequisite: A7-FA2-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
-          answer: "This module explores key accounting standards, including IAS 8 for accounting policies, IAS 23 for borrowing costs, and IAS 20 for government grants. It covers income tax accounting (IAS 12), earnings per share (IAS 33), and group financial statements, including consolidation (IAS 27) and accounting for associates (IAS 28)."
-        }
-      ]
+          subanswer:
+            "Code: A7-FIR-20<br/>Prerequisite: A7-FA2-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "This module explores key accounting standards, including IAS 8 for accounting policies, IAS 23 for borrowing costs, and IAS 20 for government grants. It covers income tax accounting (IAS 12), earnings per share (IAS 33), and group financial statements, including consolidation (IAS 27) and accounting for associates (IAS 28).",
+        },
+      ],
     },
     {
       semester: "Semester 6",
       courses: [
         {
           question: "Financial Management 2",
-          subanswer: "Code: A7-FM2-20<br/>Prerequisite: A7-FM1-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module explores business financing options, cost of capital, and valuation principles. It examines factors affecting capital costs, asset and business valuation methods, and risk management techniques. Learners will develop skills to evaluate financing alternatives, optimize capital structures, and apply risk mitigation strategies for effective financial decision-making."
+          subanswer:
+            "Code: A7-FM2-20<br/>Prerequisite: A7-FM1-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module explores business financing options, cost of capital, and valuation principles. It examines factors affecting capital costs, asset and business valuation methods, and risk management techniques. Learners will develop skills to evaluate financing alternatives, optimize capital structures, and apply risk mitigation strategies for effective financial decision-making.",
         },
         {
           question: "Research Methods in Business",
-          subanswer: "Code: B7-RMB-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module explores business and management research, covering epistemology, research strategies, ethics, and proposal development. It examines literature review, research design, data collection methods, and SPSS for analysis. Additionally, it addresses time and resource management, data presentation, and report writing, equipping learners with essential research skills for academic and professional inquiry."
+          subanswer:
+            "Code: B7-RMB-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module explores business and management research, covering epistemology, research strategies, ethics, and proposal development. It examines literature review, research design, data collection methods, and SPSS for analysis. Additionally, it addresses time and resource management, data presentation, and report writing, equipping learners with essential research skills for academic and professional inquiry.",
         },
         {
           question: "Company Law",
-          subanswer: "Code: A7-COL-20<br/>Prerequisite: B5-LAB-13<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
-          answer: "This module provides an overview of Botswana’s legal system, covering court structures, legal sources, and statutory interpretation. It explores contract and employment law, company formation, agency, partnership law, and corporate governance. Additionally, it examines capital financing, insolvency, and legal implications of fraudulent and criminal behavior in business operations."
+          subanswer:
+            "Code: A7-COL-20<br/>Prerequisite: B5-LAB-13<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "This module provides an overview of Botswana’s legal system, covering court structures, legal sources, and statutory interpretation. It explores contract and employment law, company formation, agency, partnership law, and corporate governance. Additionally, it examines capital financing, insolvency, and legal implications of fraudulent and criminal behavior in business operations.",
         },
         {
-          question: "Business Analysis and Valuation Using Financial Statements",
-          subanswer: "Code: A7-BAV-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module explores business analysis and valuation using financial statements. It covers financial reporting’s role in capital markets, strategy and accounting analysis, financial and prospective analysis, and valuation techniques. Learners will apply forecasting, ratio analysis, and discounted cash flow models, with insights into mergers, acquisitions, and corporate financial decision-making."
-        }
-      ]
+          question:
+            "Business Analysis and Valuation Using Financial Statements",
+          subanswer:
+            "Code: A7-BAV-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module explores business analysis and valuation using financial statements. It covers financial reporting’s role in capital markets, strategy and accounting analysis, financial and prospective analysis, and valuation techniques. Learners will apply forecasting, ratio analysis, and discounted cash flow models, with insights into mergers, acquisitions, and corporate financial decision-making.",
+        },
+      ],
     },
     {
       semester: "Semester 6 Elective Group 1 (Choose One)",
       courses: [
         {
           question: "Computerized Auditing",
-          subanswer: "Code: A7-CUA-20<br/>Prerequisite: A6-ASS-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module introduces students to computer auditing, covering key aspects such as tests of control and substantive procedures in computerized information systems. It explores computer-assisted audit techniques, special control considerations, and the use of computers in audit practices. Students will also learn about computerized working paper programs to enhance audit efficiency."
+          subanswer:
+            "Code: A7-CUA-20<br/>Prerequisite: A6-ASS-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module introduces students to computer auditing, covering key aspects such as tests of control and substantive procedures in computerized information systems. It explores computer-assisted audit techniques, special control considerations, and the use of computers in audit practices. Students will also learn about computerized working paper programs to enhance audit efficiency.",
         },
         {
           question: "Taxation 3",
-          subanswer: "Code: A7-TA3-20<br/>Prerequisite: A7-TA2-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module focuses on the scope of income tax, including employment, self-employment, property, investment, and trust income. It explores tax on gains, losses, and inheritance, along with computing taxable income and liabilities. Students will learn to apply exemptions, minimize tax liabilities, and assess taxation's impact on financial decisions."
+          subanswer:
+            "Code: A7-TA3-20<br/>Prerequisite: A7-TA2-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module focuses on the scope of income tax, including employment, self-employment, property, investment, and trust income. It explores tax on gains, losses, and inheritance, along with computing taxable income and liabilities. Students will learn to apply exemptions, minimize tax liabilities, and assess taxation's impact on financial decisions.",
         },
         {
           question: "Corporate Secretaryship 2",
-          subanswer: "Code: A7-CS2-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module provides a comprehensive understanding of the legal and regulatory framework governing companies. It covers company formation, types, incorporation effects, and statutory compliance. Students will explore share capital, financial reporting, corporate governance, and directors' responsibilities. Emphasis is placed on legal provisions, corporate structure, and effective company administration."
+          subanswer:
+            "Code: A7-CS2-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module provides a comprehensive understanding of the legal and regulatory framework governing companies. It covers company formation, types, incorporation effects, and statutory compliance. Students will explore share capital, financial reporting, corporate governance, and directors' responsibilities. Emphasis is placed on legal provisions, corporate structure, and effective company administration.",
         },
         {
           question: "Audit and Assurance 2",
-          subanswer: "Code: A7-AS2-20<br/>Prerequisite: A6-ASS-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module focuses on the audit engagement process, including pre-audit investigations, planning, risk assessment, and materiality. It examines audit procedures, evidence gathering, and financial statement reporting responsibilities. Students will explore auditors' legal liabilities, fraud detection, and differences between auditing financial statements and providing assurance on sustainability reports."
+          subanswer:
+            "Code: A7-AS2-20<br/>Prerequisite: A6-ASS-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module focuses on the audit engagement process, including pre-audit investigations, planning, risk assessment, and materiality. It examines audit procedures, evidence gathering, and financial statement reporting responsibilities. Students will explore auditors' legal liabilities, fraud detection, and differences between auditing financial statements and providing assurance on sustainability reports.",
         },
         {
           question: "Risk Management and Insurance",
-          subanswer: "Code: A7-RMI-20<br/>Prerequisite: B6-BS2-17<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module introduces risk and insurance, covering risk types, classification, and management principles. It explores risk identification, measurement, and planning, along with legal principles in insurance contracts. Students will learn life and non-life insurance techniques, insurance company management, government regulations, and risk management practices within the insurance industry."
-        }
-      ]
+          subanswer:
+            "Code: A7-RMI-20<br/>Prerequisite: B6-BS2-17<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module introduces risk and insurance, covering risk types, classification, and management principles. It explores risk identification, measurement, and planning, along with legal principles in insurance contracts. Students will learn life and non-life insurance techniques, insurance company management, government regulations, and risk management practices within the insurance industry.",
+        },
+      ],
     },
     {
       semester: "Semester 7",
       courses: [
         {
           question: "Public Sector Financial Reporting",
-          subanswer: "Code: A7-PSR-20<br/>Prerequisite: A7-FA2-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module focuses on public sector financial reporting standards, including cash and accrual basis accounting under IPSAS. It explores financial statement presentation, cash flow reporting, accounting policies, and asset management. Students will learn about consolidation, intangible assets, revenue from non-exchange transactions, leases, and first-time adoption of accrual-based IPSAS standards."
+          subanswer:
+            "Code: A7-PSR-20<br/>Prerequisite: A7-FA2-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module focuses on public sector financial reporting standards, including cash and accrual basis accounting under IPSAS. It explores financial statement presentation, cash flow reporting, accounting policies, and asset management. Students will learn about consolidation, intangible assets, revenue from non-exchange transactions, leases, and first-time adoption of accrual-based IPSAS standards.",
         },
         {
           question: "Research Project 1: Proposal Writing",
-          subanswer: "Code: B7-RP1-20<br/>Prerequisite: B7-RMB-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module guides students in developing a research proposal, covering problem identification, background, and objective formulation. It includes literature review, methodology selection, research instrument design, ethical considerations, data analysis methods, budgeting, and timeline construction. Students will gain essential skills for structuring and planning a scientific research project effectively."
+          subanswer:
+            "Code: B7-RP1-20<br/>Prerequisite: B7-RMB-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module guides students in developing a research proposal, covering problem identification, background, and objective formulation. It includes literature review, methodology selection, research instrument design, ethical considerations, data analysis methods, budgeting, and timeline construction. Students will gain essential skills for structuring and planning a scientific research project effectively.",
         },
         {
           question: "Corporate Governance",
-          subanswer: "Code: B7-CGV-20<br/>Prerequisite: A7-COL-20, A6-ASS-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module explores corporate governance, its principles, stakeholders, and global trends. It covers the benefits of good governance, warning signs of inefficiency, and governance in family-owned enterprises. Students will examine shareholder rights, board responsibilities, audit committees, financial reporting governance, and the OECD principles, fostering ethical and effective corporate leadership."
+          subanswer:
+            "Code: B7-CGV-20<br/>Prerequisite: A7-COL-20, A6-ASS-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module explores corporate governance, its principles, stakeholders, and global trends. It covers the benefits of good governance, warning signs of inefficiency, and governance in family-owned enterprises. Students will examine shareholder rights, board responsibilities, audit committees, financial reporting governance, and the OECD principles, fostering ethical and effective corporate leadership.",
         },
         {
           question: "Corporate Administration 2",
-          subanswer: "Code: A7-CA2-20<br/>Prerequisite: A6-CA1-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module focuses on employment law, workplace compliance, and health and safety regulations. It explores company wellness policies, retirement funding, and pension scheme administration. Students will also examine risk management principles, asset management, acquisition, protection, and facilities management, emphasizing their role in achieving organizational objectives and operational efficiency."
-        }
-      ]
+          subanswer:
+            "Code: A7-CA2-20<br/>Prerequisite: A6-CA1-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module focuses on employment law, workplace compliance, and health and safety regulations. It explores company wellness policies, retirement funding, and pension scheme administration. Students will also examine risk management principles, asset management, acquisition, protection, and facilities management, emphasizing their role in achieving organizational objectives and operational efficiency.",
+        },
+      ],
     },
     {
       semester: "Semester 7 Elective Group 1 (Select Any One)",
       courses: [
         {
           question: "Entrepreneurship and Innovation",
-          subanswer: "Code: B8-ENI-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
-          answer: "This module explores entrepreneurship and innovation, covering enterprise development, opportunity discovery, and business planning. It examines innovation principles, feasibility assessment, business modelling, and disruptive technologies. Students will learn to validate risks, market size, and pricing while developing entrepreneurial teams, fostering creativity, and building sustainable, innovative ventures."
+          subanswer:
+            "Code: B8-ENI-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "This module explores entrepreneurship and innovation, covering enterprise development, opportunity discovery, and business planning. It examines innovation principles, feasibility assessment, business modelling, and disruptive technologies. Students will learn to validate risks, market size, and pricing while developing entrepreneurial teams, fostering creativity, and building sustainable, innovative ventures.",
         },
         {
           question: "Social Entrepreneurship",
-          subanswer: "Code: B8-SOE-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
-          answer: "This module explores how social entrepreneurs develop innovative solutions to address global challenges. Students will gain practical skills in managing small enterprises, leveraging disruptive technologies, and applying entrepreneurial thinking to foster sustainability. Areas of focus include scaling social businesses, impact measurement, and integrating sustainable development goals for lasting change."
+          subanswer:
+            "Code: B8-SOE-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "This module explores how social entrepreneurs develop innovative solutions to address global challenges. Students will gain practical skills in managing small enterprises, leveraging disruptive technologies, and applying entrepreneurial thinking to foster sustainability. Areas of focus include scaling social businesses, impact measurement, and integrating sustainable development goals for lasting change.",
         },
         {
           question: "Innovation for Sustainable Development",
-          subanswer: "Code: E8-ISD-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
-          answer: "This module focuses on group dynamics, enhancing efficiency, participation, and satisfaction. It equips students with facilitation, research, and analytical skills while fostering multidisciplinary collaboration through design thinking. Students will define and analyze real societal problems, applying self-competencies and teamwork to develop and implement practical solutions."
-        }
-      ]
+          subanswer:
+            "Code: E8-ISD-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "This module focuses on group dynamics, enhancing efficiency, participation, and satisfaction. It equips students with facilitation, research, and analytical skills while fostering multidisciplinary collaboration through design thinking. Students will define and analyze real societal problems, applying self-competencies and teamwork to develop and implement practical solutions.",
+        },
+      ],
     },
     {
       semester: "Semester 8",
       courses: [
         {
           question: "Professional Practice In Accounting",
-          subanswer: "Code: A7-PRA-20<br/>Prerequisite: 240 Credits<br/>Co-requisite: None<br/>Module Fees: $520<br/>Module Credits: 40",
-          answer: "This module provides students with industry attachment for hands-on experience in accounting. Assessment emphasizes supervision, a final paper, and a portfolio of evidence. Students will demonstrate key competencies, balance theory with practice, and engage in academic discourse to enhance their professional skills in real-world accounting environments."
+          subanswer:
+            "Code: A7-PRA-20<br/>Prerequisite: 240 Credits<br/>Co-requisite: None<br/>Module Fees: $520<br/>Module Credits: 40",
+          answer:
+            "This module provides students with industry attachment for hands-on experience in accounting. Assessment emphasizes supervision, a final paper, and a portfolio of evidence. Students will demonstrate key competencies, balance theory with practice, and engage in academic discourse to enhance their professional skills in real-world accounting environments.",
         },
         {
           question: "Research Project 2: Dissertation",
-          subanswer: "Code: B7-RP2-20<br/>Prerequisite: B7-RP1-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
-          answer: "This module guides students in conducting independent research at the honours level. It covers problem identification, literature review, research design, data collection, analysis, and interpretation. Students will develop a well-structured dissertation, drawing conclusions and making recommendations, demonstrating their ability to apply research skills to real-world issues."
-        }
-      ]
-    }
+          subanswer:
+            "Code: B7-RP2-20<br/>Prerequisite: B7-RP1-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "This module guides students in conducting independent research at the honours level. It covers problem identification, literature review, research design, data collection, analysis, and interpretation. Students will develop a well-structured dissertation, drawing conclusions and making recommendations, demonstrating their ability to apply research skills to real-world issues.",
+        },
+      ],
+    },
   ],
   requirements: [
     {
