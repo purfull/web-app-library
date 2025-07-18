@@ -146,8 +146,11 @@
     padding: 8px 12px;
     color: gray;
   }
-  .header-top {
-    padding: 0px !important;
+  .padding-zero {
+    padding: 10px !important;
+  }
+  .secondary-paragraph.topper {
+    padding: 20px 0 !important;
   }
 }
 
@@ -299,8 +302,8 @@
     padding: 8px 12px;
     color: gray;
   }
-  .header-top {
-    padding: 0px !important;
+  .secondary-paragraph.topper {
+    padding: 20px 0 !important;
   }
 }
 
@@ -454,6 +457,9 @@
     padding: 8px 12px;
     color: gray;
   }
+  .secondary-paragraph.topper {
+    padding: 0px !important;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -605,6 +611,9 @@
   .no-match {
     padding: 8px 12px;
     color: gray;
+  }
+  .secondary-paragraph.topper {
+    padding: 0px !important;
   }
 }
 
@@ -759,5 +768,13 @@
   .no-match {
     padding: 8px 12px;
     color: gray;
+  }
+  .secondary-paragraph.topper {
+    padding: 0px !important;
+  }
+  .gap-maintain {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 280px !important;
   }
 }
