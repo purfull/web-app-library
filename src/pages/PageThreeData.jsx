@@ -5009,7 +5009,7 @@ export const masterofscienceininformationsystemsmanagement = {
 export const masterofscienceincomputerscience = {
   heroContent: {
     question: "Master of Science in Computer Science",
-      image: "/images/courses-images/Msc in computer science.jpeg",
+    image: "/images/courses-images/Msc in computer science.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",

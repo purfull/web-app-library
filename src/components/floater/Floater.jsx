@@ -20,7 +20,7 @@ const Floater = () => {
       </div>
 
       <button className="toggle-btn" onClick={toggleIcons}>
-        <img src="icon/social-media-main-icon.png" alt="" />
+        {/* <img src="icon/social-media-main-icon.png" alt="" /> */}#
       </button>
     </div>
   );

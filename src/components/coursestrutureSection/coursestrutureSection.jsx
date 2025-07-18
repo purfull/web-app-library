@@ -373,7 +373,7 @@ const CourseStruture = ({courseStruture}) => {
                         </div>
 
                         <div className="semester-content-portion">
-                            {semesterItem.courses.map((course, courseIndex) => {
+                            {semesterItem.courses?.map((course, courseIndex) => {
                                 const key = `${semIndex}-${courseIndex}`;
                                 return (
                                     <div key={key} className="semester-content-item">

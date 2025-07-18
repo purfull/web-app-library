@@ -70,14 +70,14 @@ const HomePage = () => {
       answer: `
       <p>
         Applying to <strong>Botho University</strong> is a straightforward and free process, designed to get you started on your educational journey quickly.
-        All applications are conveniently submitted online through our secure portal:
+        All applications are conveniently submitted online through our 
         <a href="https://bothouniversity.academiaerp.com/applicant-portal/#/auth/login" target="_blank" rel="noopener noreferrer">
-          https://bothouniversity.academiaerp.com/applicant-portal/#/auth/login
-        </a>.
-        If you wish to connect with us first and speak to a counsellor before applying, please feel free to complete this simple enquiry form:
+          secure portal.
+        </a>
+        If you wish to connect with us first and speak to a counsellor before applying, please feel free to complete this simple 
         <a href="https://bothouniversity.academiaerp.com/enquire/" target="_blank" rel="noopener noreferrer">
-          https://bothouniversity.academiaerp.com/enquire/
-        </a>.
+          enquiry form.
+        </a>
       </p>
 
       <p>To help you prepare for the application, here's what you'll typically need:</p>

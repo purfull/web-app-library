@@ -70,25 +70,25 @@ const Footer = () => {
                     <img className="logo-botho-footer" src="/logo/BothoLogo.png" alt="Logo" />
 
                     <div className="span-first-con">
-                        <span className='first-conatiner-texts'>Botho University is a leading multi-disciplinary institution founded in Botswana in 1997, now operating across 4 African countries and online. It offers accredited, industry-focused programmes from Certificate to Master’s level, driven by innovation and impact.</span>
+                        <span className='first-conatiner-texts'>Botho University is a leading multi-disciplinary institution founded in Botswana in 1997, now operating across 4 African countries and online.</span>
                     </div>
 
-                    <div className="footer-first-logo-session ">
+                    {/* <div className="footer-first-logo-session ">
 
                         <FaFacebookF className="social-icon" />
                         <FaTwitter className="social-icon" />
                         <FaInstagram className="social-icon" />
                         <FaYoutube className="social-icon" />
 
-                    </div>
+                    </div> */}
                 </div>
 
 
                 <div className="footer-second-con">
-                    <span className='heading-footer'>Quick link</span>
+                    <span className='heading-footer'>Quick links</span>
+                    <a className='color-black-footer' href=''>Botho University Online Programmes</a>
                     <a className='color-black-footer' href=''>Why Botho University Online?</a>
                     <a className='color-black-footer' href=''>Fees</a>
-                    <a className='color-black-footer' href=''>FAQs</a>
 
 
 
@@ -96,7 +96,7 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-third-con">
-                    <span className='heading-footer'>Contact</span>
+                    <span className='heading-footer'>Contact US</span>
                     <div className='third-logo-and-content'>
                         <img src="/logo/location.png" alt="" />
                         <a className='color-black-footer' href="">Botho Education Park, Kgale, Gaborone, Botswana</a>
@@ -147,11 +147,11 @@ const Footer = () => {
 
             </div>
             <div className='footer-copy-rights-section'>
-                <div><p className='secondary-paragraph black' style={{ color: "#000" }}>© Copyright 2025, All Rights Reserved by Botho University</p></div>
+                <div><p className=' black' style={{ color: "#000" }}>© Copyright 2025, All Rights Reserved by Botho University</p></div>
 
                 <div className='terms-cond'>
-                    <p className='secondary-paragraph black' style={{ color: "#000" }}>Terms & Conditions</p>
-                    <p className='secondary-paragraph black' style={{ color: "#000" }}>Privacy Policy</p>
+                    <p className=' black' style={{ color: "#000" }}>Terms & Conditions</p>
+                    <p className=' black' style={{ color: "#000" }}>Privacy Policy</p>
                 </div>
             </div>
 
