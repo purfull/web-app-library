@@ -114,7 +114,14 @@ const FeedBackSection = () => {
   useEffect(() => {
     const updatesildes = () => {
       const width = window.innerWidth;
-      setSlidesToShow(width < 600 ? 1 : width > 500 && width > 1200 ? 2 : 2);
+      // setSlidesToShow(width < 600 ? 1 : width > 768 && width > 1200 ? 1.5 : 2);
+      setSlidesToShow(
+        width < 600
+          ? 1        // Mobile
+          : width < 1200
+            ? 1.5      // Tablet
+            : 2        // Laptop/Desktop
+      );
     };
 
     updatesildes();
@@ -157,13 +164,13 @@ const FeedBackSection = () => {
           <p className="secondary-heading with-padding">
             What Our Students Say
           </p>
-      <div className="next-and-pre-buttons">
-          <img src="/images/button-previous.png" alt="" onClick={() => sliderRef.current?.slickPrev()} // ADD FUNCTIONALITY
-            style={{ cursor: "pointer" }} />
-          <img src="/images/button-next.png" alt="" />
+          <div className="next-and-pre-buttons">
+            <img src="/images/button-previous.png" alt="" onClick={() => sliderRef.current?.slickPrev()} // ADD FUNCTIONALITY
+              style={{ cursor: "pointer" }} />
+            <img src="/images/button-next.png" alt="" />
 
 
-        </div>
+          </div>
         </div>
         <div className="second-main">
           <p className="secondary-paragraph black padding-zero">
