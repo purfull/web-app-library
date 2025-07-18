@@ -10,7 +10,7 @@ const Courses = ({
   secondaryHeading,
   moreButton,
   secondaryParagraph,
-  courseName, 
+  courseName,
 }) => {
   const [searchText, setSearchText] = useState("");
   const [course, setCourse] = useState("");
@@ -34,30 +34,30 @@ const Courses = ({
   );
 
   const handleSuggestionClick = (course) => {
-  const cleaned = course
-    .trim()
-    .replace(/\(.*?\)/g, '')  
-    .replace(/,/g, '')     
-    .replace(/\.$/, '')         
-    .replace(/\s+/g, '');    
+    const cleaned = course
+      .trim()
+      .replace(/\(.*?\)/g, "")
+      .replace(/,/g, "")
+      .replace(/\.$/, "")
+      .replace(/\s+/g, "");
 
-  const slug = cleaned.toLowerCase();
-  navigate(`/course/${slug}`);
-  window.scrollTo(0, 0);
+    const slug = cleaned.toLowerCase();
+    navigate(`/course/${slug}`);
+    window.scrollTo(0, 0);
   };
 
- const handleCourse = (course) => {
-  const cleaned = course
-    .trim()
-    .replace(/\(.*?\)/g, '')  
-    .replace(/,/g, '')     
-    .replace(/\.$/, '')         
-    .replace(/\s+/g, '');    
+  const handleCourse = (course) => {
+    const cleaned = course
+      .trim()
+      .replace(/\(.*?\)/g, "")
+      .replace(/,/g, "")
+      .replace(/\.$/, "")
+      .replace(/\s+/g, "");
 
-  const slug = cleaned.toLowerCase();
-  navigate(`/course/${slug}`);
-  window.scrollTo(0, 0);
-};
+    const slug = cleaned.toLowerCase();
+    navigate(`/course/${slug}`);
+    window.scrollTo(0, 0);
+  };
 
   const handleAllCourse = () => {
     navigate("/all-courses");
@@ -127,7 +127,7 @@ const Courses = ({
           </div>
         </div>
         <div
-          className="secondary-paragraph mobile-topheading black padding-zero"
+          className="secondary-paragraph mobile-topheading black header-top"
           style={{ color: "#000" }}
         >
           {secondaryParagraph || (

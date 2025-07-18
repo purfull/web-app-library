@@ -214,7 +214,9 @@ const FeedBackSection = () => {
                 </div>
                 <p className="secondary-paragraph black feedback-inside-gap">{item.studentsdata}</p>
                 <div className="feedback-divider"> </div>
+
                 <p className="secondary-paragraph prime-color feedback-name-gap" style={{ fontStyle: "italic", color: "#841D2E" }}>
+
                   {item.studentname}
                 </p>
               </div>
