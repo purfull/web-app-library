@@ -115,12 +115,7 @@ const FeedBackSection = () => {
     const updatesildes = () => {
       const width = window.innerWidth;
       // setSlidesToShow(width < 600 ? 1 : width > 768 && width > 1200 ? 1.5 : 2);
-      setSlidesToShow(
-        width < 600
-          ? 1        // Mobile
-          : width < 1200
-            ? 1.5      // Tablet
-            : 2        // Laptop/Desktop
+      setSlidesToShow(width < 600 ? 1 : width < 1200 ? 1.5 : 2 // Laptop/Desktop
       );
     };
 
@@ -134,26 +129,40 @@ const FeedBackSection = () => {
   const CustomPrevArrow = (props) => {
     const { className, style, onClick } = props;
     return (
-      <button
-        className="prev-button"
+      // <button
+      //   className="prev-button"
+      //   onClick={onClick}
+      //   style={{ ...style, zIndex: 1 }}
+      // >
+      //   <IoIosArrowBack size={24} color="white" />
+      // </button>
+      <img
+        src="/images/button-previous.png"
         onClick={onClick}
-        style={{ ...style, zIndex: 1 }}
-      >
-        <IoIosArrowBack size={24} color="white" />
-      </button>
+        style={{ ...style, zIndex: 1, }}
+        className="prev-button"
+      />
+
     );
   };
 
   const CustomNextArrow = (props) => {
     const { className, style, onClick } = props;
     return (
-      <button
-        className="next-button"
+      // <button
+      //   className="next-button"
+      //   style={{ ...style, zIndex: 1 }}
+      // >
+      //   <IoIosArrowForward size={24} color="white" />
+      // </button>
+      <img src="/images/button-next.png"
+        alt=""
         onClick={onClick}
-        style={{ ...style, zIndex: 1 }}
-      >
-        <IoIosArrowForward size={24} color="white" />
-      </button>
+        style={{ ...style, zIndex: 1,  }}
+        className="next-button"
+      />
+
+
     );
   };
 
@@ -164,13 +173,19 @@ const FeedBackSection = () => {
           <p className="secondary-heading with-padding">
             What Our Students Say
           </p>
-          <div className="next-and-pre-buttons">
-            <img src="/images/button-previous.png" alt="" onClick={() => sliderRef.current?.slickPrev()} // ADD FUNCTIONALITY
-              style={{ cursor: "pointer" }} />
-            <img src="/images/button-next.png" alt="" />
+          {/* <div className="next-and-pre-buttons"> */}
+          {/* <img src="/images/button-previous.png" alt="" onClick={() => sliderRef.current?.slickPrev()}  */}
+          {/* // style={{ cursor: "pointer" }} prevArrow={<CustomPrevArrow className="prev-button" />}/> */}
+          {/* <img
+              src="/images/button-previous.png"
+              alt="Previous"
+              onClick={() => sliderRef.current?.slickPrev()}
+              style={{ cursor: "pointer" }}
+              className="prev-button"
+            /> */}
+          {/* <img src="/images/button-next.png" alt="" /> */}
 
-
-          </div>
+          {/* </div> */}
         </div>
         <div className="second-main">
           <p className="secondary-paragraph black padding-zero">
@@ -188,13 +203,13 @@ const FeedBackSection = () => {
           </button> */}
         {/* <img src="/icon/Button-Next" alt="" /> */}
         {/* </div> */}
-        <div className="next-and-pre-buttons-mobile">
+        {/* <div className="next-and-pre-buttons-mobile">
           <img src="/images/button-previous.png" alt="" onClick={() => sliderRef.current?.slickPrev()} // ADD FUNCTIONALITY
             style={{ cursor: "pointer" }} />
           <img src="/images/button-next.png" alt="" />
 
 
-        </div>
+        </div> */}
 
       </div>
 
@@ -203,8 +218,8 @@ const FeedBackSection = () => {
           className="carosel-inner"
           slidesToShow={slidesToShow}
           arrows={true}
-        // prevArrow={<CustomPrevArrow className="prev-button" />}
-        // nextArrow={<CustomNextArrow className="next-button" />}
+          prevArrow={<CustomPrevArrow className="prev-button" />}
+          nextArrow={<CustomNextArrow className="next-button" />}
         >
           {studentdeatils.map((item, index) => (
             <div key={index} className="card-1">
