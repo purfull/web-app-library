@@ -97,7 +97,6 @@
     display: flex;
     align-items: start;
     justify-content: start;
-    background-color: blue;
   }
 
   .next-button-mobile {
@@ -144,8 +143,8 @@
     background-color: #841d2e;
     color: white;
     font-size: 20px;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     object-fit: contain;
     border: none;
     position: absolute;
@@ -153,11 +152,11 @@
 
   .next-button {
     left: 12%;
-    top: -25%;
+    top: -15%;
   }
 
   .prev-button {
-    top: -25%;
+    top: -15%;
     left: -2.5%;
   }
 
@@ -737,21 +736,21 @@
     background-color: #841d2e;
     color: white;
     font-size: 20px;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     object-fit: contain;
     border: none;
     position: absolute;
   }
 
   .next-button {
-    left: 12%;
-    top: -25%;
+    left: 8%;
+    top: -12%;
   }
 
   .prev-button {
-    top: -25%;
-    left: -2.5%;
+    top: -12%;
+    left: -1%;
   }
 
   .next-and-pre-buttons-mobile {
@@ -764,6 +763,15 @@
   }
   .next-and-pre-buttons {
     display: none;
+  }
+    .feedback-cards .slick-track {
+    display: flex !important;
+    background-color: #f3e8ea !important;
+    gap: 50px;
+  }
+
+  .feedback-cards .slick-slider {
+    width: 100% !important;
   }
 }
 
@@ -862,12 +870,12 @@
   }
 
   .next-button {
-    left: 8%;
-    top: -15%;
+    left: 10%;
+    top: -8%;
   }
 
   .prev-button {
-    top: -15%;
+    top: -8%;
     left: 2.5%;
   }
 
@@ -979,12 +987,12 @@
   }
 
   .next-button {
-    left: 8%;
-    top: -15%;
+    left: 10%;
+    top: -10%;
   }
 
   .prev-button {
-    top: -15%;
+    top: -10%;
     left: 2.5%;
   }
 
@@ -1007,207 +1015,7 @@
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .feedback-main {
-    width: 100%;
-    background-color: #f3e8ea;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 55px;
-    padding-bottom: 5%;
-  }
 
-  .feeback-headers {
-    width: 90%;
-    margin-top: 3%;
-  }
-
-  .primary-heading-and-button,
-  .second-main {
-    width: 43%;
-  }
-
-  .primary-heading {
-    width: 75%;
-    color: #111111;
-  }
-
-  .feedback-cards {
-    height: 70%;
-    width: 90%;
-    gap: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .card-1 {
-    width: 43%;
-    background-color: #ffffff;
-    border-radius: 5px;
-    margin-right: 20px !important;
-  }
-
-  .feedback-divider {
-    width: 95%;
-    margin-left: 2.5%;
-    border-bottom: 2px dashed #575757;
-  }
-
-  .icon-img {
-    margin-right: -45px;
-    padding: 20px 15px 0px 15px;
-  }
-
-  .arrow-button-feedback {
-    padding: 20px 0;
-  }
-
-  .next-button,
-  .pri-button {
-    padding: 10px;
-    margin: 10px;
-    border-radius: 50%;
-    background-color: #841d2e;
-    color: white;
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
-    border: none;
-  }
-
-  .next-button {
-    position: absolute;
-    top: -15.6vh;
-  }
-
-  .pri-button {
-    position: absolute;
-    bottom: 66vh;
-    left: 80px;
-  }
-
-  .arrow-button-feedback-mobile {
-    display: none;
-  }
-
-  .carosel-inner {
-    display: grid;
-    height: 100% !important;
-    width: 80vw !important;
-    gap: 30px !important;
-  }
-
-  .student-images {
-    display: flex;
-  }
-
-  .feedback-main {
-    width: 100%;
-    background-color: #f3e8ea;
-    display: flex;
-    flex-direction: row;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 55px;
-    padding-bottom: 5%;
-  }
-
-  .feeback-headers {
-    width: 90%;
-    /* margin-top: 3%; */
-  }
-
-  .primary-heading-and-button,
-  .second-main {
-    width: 43%;
-  }
-
-  .primary-heading {
-    width: 75%;
-    color: #111111;
-  }
-
-  .feedback-cards {
-    height: 70%;
-    width: 90%;
-  }
-
-
-  .feedback-cards {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .card-1 {
-    width: 43%;
-    background-color: #ffffff;
-    border-radius: 5px;
-  }
-
-  /* .secondary-paragraph {
-    padding: 20px;
-  } */
-
-  .feedback-divider {
-    width: 95%;
-    margin-left: 2.5%;
-    border-bottom: 2px dashed #575757;
-  }
-
-  .icon-img {
-    margin-right: -45px;
-    padding: 20px 15px 0px 15px;
-  }
-
-  .arrow-button-feedback {
-    display: flex;
-    padding: 20px 0;
-  }
-
-  .next-button {
-    padding: 10px;
-    margin: 10px;
-    border-radius: 50%;
-    background-color: #841d2e;
-    color: white;
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
-    border: none;
-  }
-
-  .arrow-button-feedback-mobile {
-    display: none;
-  }
-
-  .carosel-inner {
-    display: grid;
-    height: 100% !important;
-    width: 90vw !important;
-    gap: 30px;
-    background-color: rgb(50, 50, 82);
-  }
-
-  .student-images {
-    display: flex;
-  }
-
-  .feeback-headers {
-    flex-direction: row;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
-  }
-}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -1290,12 +1098,12 @@
   }
 
   .next-button {
-    left: 8%;
-    top: -15%;
+    left: 7%;
+    top: -12%;
   }
 
   .prev-button {
-    top: -15%;
+    top: -12%;
     left: 2.5%;
   }
 
@@ -1318,203 +1126,4 @@
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .feedback-main {
-    width: 100%;
-    background-color: #f3e8ea;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 55px;
-    padding-bottom: 5%;
-  }
 
-  .feeback-secondary-paragraphs {
-    width: 90%;
-    margin-top: 3%;
-  }
-
-  .primary-heading-and-button,
-  .second-main {
-    width: 43%;
-  }
-
-  .primary-heading {
-    width: 75%;
-    color: #111111;
-  }
-
-  .feedback-cards {
-    height: 70%;
-    width: 90%;
-    gap: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .card-1 {
-    width: 43%;
-    background-color: #ffffff;
-    border-radius: 5px;
-    margin-right: 20px !important;
-  }
-
-  .feedback-divider {
-    width: 95%;
-    margin-left: 2.5%;
-    border-bottom: 2px dashed #575757;
-  }
-
-  .icon-img {
-    margin-right: -45px;
-    padding: 20px 15px 0px 15px;
-  }
-
-  .arrow-button-feedback {
-    padding: 20px 0;
-  }
-
-  .next-button,
-  .pri-button {
-    padding: 10px;
-    margin: 10px;
-    border-radius: 50%;
-    background-color: #841d2e;
-    color: white;
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
-    border: none;
-  }
-
-  .next-button {
-    position: absolute;
-    top: -15.6vh;
-  }
-
-  .pri-button {
-    position: absolute;
-    bottom: 66vh;
-    left: 80px;
-  }
-
-  .arrow-button-feedback-mobile {
-    display: none;
-  }
-
-  .carosel-inner {
-    display: grid;
-    height: 100% !important;
-    width: 80vw !important;
-    gap: 30px !important;
-  }
-
-  .student-images {
-    display: flex;
-  }
-
-  .feedback-main {
-    width: 100%;
-    background-color: #f3e8ea;
-    display: flex;
-    flex-direction: row;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 55px;
-    padding-bottom: 5%;
-  }
-
-  .feeback-secondary-paragraphs {
-    width: 90%;
-    /* margin-top: 3%; */
-  }
-
-  .primary-heading-and-button,
-  .second-main {
-    width: 43%;
-  }
-
-  .primary-heading {
-    width: 75%;
-    color: #111111;
-  }
-
-  .feedback-cards {
-    height: 70%;
-    width: 90%;
-  }
-
-  .feedback-cards {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .card-1 {
-    width: 43%;
-    background-color: #ffffff;
-    border-radius: 5px;
-  }
-
-  /* .secondary-paragraph {
-    padding: 20px;
-  } */
-
-  .feedback-divider {
-    width: 95%;
-    margin-left: 2.5%;
-    border-bottom: 2px dashed #575757;
-  }
-
-  .icon-img {
-    margin-right: -45px;
-    padding: 20px 15px 0px 15px;
-  }
-
-  .arrow-button-feedback {
-    display: flex;
-    padding: 20px 0;
-  }
-
-  .next-button {
-    padding: 10px;
-    margin: 10px;
-    border-radius: 50%;
-    background-color: #841d2e;
-    color: white;
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
-    border: none;
-  }
-
-  .arrow-button-feedback-mobile {
-    display: none;
-  }
-
-  .carosel-inner {
-    display: grid;
-    height: 100% !important;
-    width: 90vw !important;
-    gap: 30px;
-    background-color: rgb(50, 50, 82);
-  }
-
-  .student-images {
-    display: flex;
-  }
-
-  .feeback-headers {
-    flex-direction: row;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
-  }
-}
