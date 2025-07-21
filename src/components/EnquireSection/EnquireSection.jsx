@@ -9,21 +9,23 @@ const EnquireSection = ({ cardData, cardTitle }) => {
   const navigate = useNavigate();
 
   const handleFeePage = (course) => {
-    const cleaned = course
-      .trim()
-      .replace(/\(.*?\)/g, "")
-      .replace(/,/g, "")
-      .replace(/\.$/, "")
-      .replace(/\s+/g, "");
-    const slug = cleaned.toLowerCase().replace(/\s+/g, "");
-    navigate(`/fee/${slug}`);
-    window.scrollTo(0, 0);
-  };
-  return (
-    <div className="course-container page-gap" style={{ paddingTop: "8vh" }}>
-      <span className="secondary-heading">
-        {cardTitle}
-        {/* {cardTitle?.split(" ").slice(0, 2).join(" ")}<br />
+  const cleaned = course
+    .trim()
+    .replace(/\(.*?\)/g, '')  
+    .replace(/,/g, '')     
+    .replace(/\.$/, '')         
+    .replace(/\s+/g, ''); 
+  const slug = cleaned.toLowerCase().replace(/\s+/g, '');
+      navigate(`/fee/${slug}`);
+  window.scrollTo(0, 0);
+  }
+  return ( 
+    <div className="course-container page-gap" >
+      
+                <span className="secondary-heading" >
+                  {cardTitle}
+  {/* {cardTitle?.split(" ").slice(0, 2).join(" ")}<br />
+
   {cardTitle?.split(" ").slice(2).join(" ")} */}
       </span>
 
@@ -38,8 +40,9 @@ const EnquireSection = ({ cardData, cardTitle }) => {
             {/* <p className="course-tag">{item.courseName}</p> */}
 
             <div className="title-logo-main">
-              <img src={item.image} className="course-icon-image" />
-              <p className="course-title">{item.title}</p>
+              <img src={item.image} className="course-icon-image" /> 
+              <p className="course-title ">{item.title}</p>
+
               {/* <p>logo</p> */}
               {/* <img src="/icon/More.png"/> */}
             </div>
@@ -59,7 +62,7 @@ const EnquireSection = ({ cardData, cardTitle }) => {
               </div>
             </div>
 
-            <div className="divider-enquire"></div>
+            {/* <div className="divider-enquire"></div> */}
 
             {/* <div className="course-desc">
               <p>{item.description.one}</p>
@@ -68,14 +71,9 @@ const EnquireSection = ({ cardData, cardTitle }) => {
               <p>{item.description.four}</p>
             </div> */}
             <div className="view-enquire-button">
-              <button
-                className="search-button view-more"
-                onClick={() => handleFeePage(item.title)}
-              >
-                View More{" "}
-              </button>
-              <button className="fourth-button enq-button">Enquire Now</button>
-            </div>
+              <button className="search-button view-more" style={{marginTop: "0"}} onClick={() => handleFeePage(item.title)}>View More </button>
+              <button className="fourth-button enq-button">Enquire Now</button></div>
+
           </Card>
         ))}
       </div>

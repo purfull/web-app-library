@@ -94,7 +94,7 @@
     justify-content: space-between; /* space between text and arrow */
     gap: 12px; /* optional spacing */
     cursor: pointer;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
   .search-button-text {
     /* padding-right: 6rem; */

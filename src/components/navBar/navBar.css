@@ -84,6 +84,18 @@
     cursor: pointer;
     padding-left: 10px;
   }
+  .dropdown-search-mobile{
+    position: absolute;
+    top: 12vh;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    z-index: 10;
+    padding: 10px;
+    width: 90%;
+  };
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -184,6 +196,29 @@
     cursor: pointer;
     padding-left: 10px;
   }
+  .search-input {
+    margin-top: 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+    padding: 6px 10px;
+    width: 250px;
+    transition: all 0.3s ease-in-out;
+  }
+  .dropdown-search{
+    position: "absolute";
+    top: "44px";
+    left: 0;
+    background-color: "#fff";
+    border: "1px solid #ccc";
+    border-radius: "4px";
+    margin-top: "5px";
+    z-index: 10;
+    padding: "10px";
+    width: "100%";
+  };
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -256,6 +291,21 @@
     cursor: pointer;
     padding-left: 10px;
   }
+  .dropdown-search-mobile {
+    display: none;
+  }
+  .dropdown-search{
+    position: "absolute";
+    top: "44px";
+    left: 0;
+    background-color: "#fff";
+    border: "1px solid #ccc";
+    border-radius: "4px";
+    margin-top: "5px";
+    z-index: 10;
+    padding: "10px";
+    width: "100%";
+  };
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
