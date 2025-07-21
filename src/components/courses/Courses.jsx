@@ -4,6 +4,9 @@ import vector from "/icon/Vector.png";
 import arrow from "/icon/arrow_forward.png";
 import { Card } from "antd";
 import { useNavigate } from "react-router-dom";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const Courses = ({
   cardData,
@@ -68,6 +71,24 @@ const Courses = ({
   // );
   const filteredCards = cardData; // show all cards regardless of search
   const cardsToDisplay = isMobile ? filteredCards.slice(0, 3) : filteredCards;
+
+  const CustomPreviousArrow = ({ onClick }) => (
+    <img
+      src="/images/button-previous.png"
+      onClick={onClick}
+      className="previous-button"
+      alt="Previous"
+    />
+  );
+
+  const CustomNextArrows = ({ onClick }) => (
+    <img
+      src="/images/button-next.png"
+      onClick={onClick}
+      className="next-arrow-button"
+      alt="Next"
+    />
+  );
 
   return (
     <div className="course-container page-gap gap-maintain">
@@ -183,11 +204,83 @@ const Courses = ({
         )}
       </div>
 
-      <div className="card-container">
+      <div className="course-containerr">
+        {isMobile ? (
+          <div className="carousel-wrapper">
+            <Slider
+              dots={false}
+              infinite={true}
+              speed={500}
+              slidesToShow={1}
+              slidesToScroll={1}
+              arrows={true}
+              prevArrow={<CustomPreviousArrow />}
+              nextArrow={<CustomNextArrows />}
+            >
+              {filteredCards.map((item, index) => (
+                <div key={index}>
+                  <Card
+                    cover={
+                      item.cover && (
+                        <img
+                          alt="cover"
+                          src={item.cover}
+                          className="cover-image"
+                        />
+                      )
+                    }
+                    className="course-card"
+                  >
+                    <p className="course-tag">
+                      {courseName || item.courseName}
+                    </p>
+                    <p className="course-titlee text-elipses-2">{item.title}</p>
+                    <p className="course-desc text-elipses-3">
+                      {item.description}
+                    </p>
+                    <button
+                      className="fourth-button read"
+                      onClick={() => handleCourse(item.title)}
+                      style={{ cursor: "pointer" }}
+                    >
+                      Explore Programme
+                    </button>
+                  </Card>
+                </div>
+              ))}
+            </Slider>
+          </div>
+        ) : (
+          filteredCards.map((item, index) => (
+            <Card
+              key={index}
+              cover={
+                item.cover && (
+                  <img alt="cover" src={item.cover} className="cover-image" />
+                )
+              }
+              className="course-card"
+            >
+              <p className="course-tag">{courseName || item.courseName}</p>
+              <p className="course-titlee text-elipses-2">{item.title}</p>
+              <p className="course-desc text-elipses-3">{item.description}</p>
+              <button
+                className="fourth-button read"
+                onClick={() => handleCourse(item.title)}
+                style={{ cursor: "pointer" }}
+              >
+                Explore Programme
+              </button>
+            </Card>
+          ))
+        )}
+      </div>
+
+      {/* 
+      <div className="course-containerr">
         {cardsToDisplay.map((item, index) => (
           <Card
             key={index}
-            // title={item.title}
             bordered={true}
             cover={
               item.cover && (
@@ -196,9 +289,8 @@ const Courses = ({
             }
             className="course-card"
           >
-            {/* <img  alt="cover" src={item.cover} /> */}
             <p className="course-tag">{courseName || item.courseName}</p>
-            <p className="course-title text-elipses-2">{item.title}</p>
+            <p className="course-titlee text-elipses-2">{item.title}</p>
             <p className="course-desc text-elipses-3">{item.description}</p>
             <button
               className="fourth-button read"
@@ -209,7 +301,7 @@ const Courses = ({
             </button>
           </Card>
         ))}
-      </div>
+      </div> */}
 
       {moreButton && (
         <div className="bottom-button">

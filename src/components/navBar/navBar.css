@@ -84,18 +84,18 @@
     cursor: pointer;
     padding-left: 10px;
   }
-  .dropdown-search-mobile{
+  .dropdown-search-mobile {
     position: absolute;
     top: 12vh;
-    left: 0;
+    left: 5%;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 4px;
-    margin-top: 5px;
+    margin-top: 8px;
     z-index: 10;
     padding: 10px;
     width: 90%;
-  };
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -206,10 +206,10 @@
     width: 250px;
     transition: all 0.3s ease-in-out;
   }
-  .dropdown-search{
+  /* .dropdown-search-mobile {
     position: "absolute";
-    top: "44px";
-    left: 0;
+    top: 12vh;
+    left: 4vh;
     background-color: "#fff";
     border: "1px solid #ccc";
     border-radius: "4px";
@@ -217,8 +217,19 @@
     z-index: 10;
     padding: "10px";
     width: "100%";
-  };
-
+  } */
+  .dropdown-search-mobile {
+    position: absolute;
+    top: 12vh;
+    left: 5%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 8px;
+    z-index: 10;
+    padding: 10px;
+    width: 90%;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -294,7 +305,7 @@
   .dropdown-search-mobile {
     display: none;
   }
-  .dropdown-search{
+  .dropdown-search {
     position: "absolute";
     top: "44px";
     left: 0;
@@ -305,7 +316,7 @@
     z-index: 10;
     padding: "10px";
     width: "100%";
-  };
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
