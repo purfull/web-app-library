@@ -146,7 +146,7 @@ const FeeHome = () => {
           </div>
         ))}
       </Carousel>
-      <div className="titleBar wraper" >
+      <div className="titleBar wraper page-gap" >
               <div className="heading" >
                 <span className="secondary-heading">
                   Our Fees

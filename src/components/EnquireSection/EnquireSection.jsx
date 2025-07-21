@@ -25,7 +25,7 @@ const EnquireSection = ({
   window.scrollTo(0, 0);
   }
   return ( 
-    <div className="course-container page-gap" style={{ paddingTop: "8vh" }}>
+    <div className="course-container page-gap" >
       
                 <span className="secondary-heading" >
                   {cardTitle}
@@ -46,7 +46,7 @@ const EnquireSection = ({
             <div className="title-logo-main">
 
               <img src={item.image} className="course-icon-image" /> 
-              <p className="course-title text-elipses-3">{item.title}</p>
+              <p className="course-title ">{item.title}</p>
               {/* <p>logo</p> */}
               {/* <img src="/icon/More.png"/> */}
             </div>
@@ -67,7 +67,7 @@ const EnquireSection = ({
               </div>
             </div>
 
-            <div className="divider-enquire"></div>
+            {/* <div className="divider-enquire"></div> */}
 
             {/* <div className="course-desc">
               <p>{item.description.one}</p>
@@ -76,7 +76,7 @@ const EnquireSection = ({
               <p>{item.description.four}</p>
             </div> */}
             <div className="view-enquire-button">
-              <button className="search-button view-more" onClick={() => handleFeePage(item.title)}>View More </button>
+              <button className="search-button view-more" style={{marginTop: "0"}} onClick={() => handleFeePage(item.title)}>View More </button>
               <button className="fourth-button enq-button">Enquire Now</button></div>
           </Card>
         ))}

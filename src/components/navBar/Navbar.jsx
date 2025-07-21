@@ -6,25 +6,23 @@ import { useNavigate } from "react-router-dom";
 
 const NavBar = () => {
   const [showSearchInput, setShowSearchInput] = useState(false);
-    const [showSuggestions, setShowSuggestions] = useState(false);
+  const [showSuggestions, setShowSuggestions] = useState(false);
   const [searchText, setSearchText] = useState("");
- const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
     console.log(searchText);
-    
-  }, [searchText])
+  }, [searchText]);
   const cardData = [
-   
-    
     {
       cover: "/images/courses-images/Bcom in accounting.png",
       courseName: "Undergraduate Programme",
       title: "Bachelor of Commerce in Accounting",
       description:
         "Your Future in Accounting Starts Here! Our Bachelor of Commerce in Accounting programme offers a practical, industry-focused approach to a rewarding career in accounting and finance. You'll gain essential expertise in financial reporting, auditing, taxation, and management accounting. What sets this degree apart is its blend of theory and hands-on experience, including a compulsory semester-long internship for invaluable real-world exposure.",
-      subject: "Business Management 1,Fundamental Of Business and Finance,Legal Aspects of Business,Business Mathematics and Statistics,Academic Writing for Business,Introduction to MS Office,Computerized Accounting 1,Business Management 2,Business Ethics and Assurance,Introduction to Financial Accounting,Business Mathametics and Statistics 2,Principles of Marketing,Financial Accounting 1,Corporate Administration 1,Computerized Accounting 2,Cost Accounting,Micreconomics,Taxation 1"
+      subject:
+        "Business Management 1,Fundamental Of Business and Finance,Legal Aspects of Business,Business Mathematics and Statistics,Academic Writing for Business,Introduction to MS Office,Computerized Accounting 1,Business Management 2,Business Ethics and Assurance,Introduction to Financial Accounting,Business Mathametics and Statistics 2,Principles of Marketing,Financial Accounting 1,Corporate Administration 1,Computerized Accounting 2,Cost Accounting,Micreconomics,Taxation 1",
     },
     {
       cover: "/images/courses-images/BBA in bus mgmt.png",
@@ -32,7 +30,8 @@ const NavBar = () => {
       title: "Bachelor of Business Administration in Business Management",
       description:
         "Aiming for a leadership role in the global business environment? Our Bachelor of Business Administration in Business Management provides the strategic mindset and skills you need. This programme covers key areas like management, finance, marketing, entrepreneurship, operations, and digital transformation, with a strong focus on innovation, sustainability, and ethical leadership.",
-      subject: "Business Management 1,Fundamental Of Business and Finance,Legal Aspects of Business,Business Mathematics and Statistics,Academic Writing for Business,Introduction to MS Office"
+      subject:
+        "Business Management 1,Fundamental Of Business and Finance,Legal Aspects of Business,Business Mathematics and Statistics,Academic Writing for Business,Introduction to MS Office",
     },
     {
       cover: "/images/courses-images/Bcom in Hospitality.png",
@@ -92,7 +91,7 @@ const NavBar = () => {
       description:
         "Ready to champion workplace safety and environmental well-being? Our BSc in Safety, Health, and Environment (SHE) Management is an interdisciplinary programme designed to equip you with essential knowledge.",
     },
-     {
+    {
       cover: "/images/courses-images/MBA.png",
       courseName: "Postgraduate Programme",
       title: "Master of Business Administration (MBA).",
@@ -161,12 +160,11 @@ const NavBar = () => {
     item.title.toLowerCase().includes(searchText.toLowerCase())
   );
 
-//   const filteredSuggestions = cardData.filter((item) =>
-//   item.subject.toLowerCase()
-//     .split(',')
-//     .some(subject => subject.trim().includes(searchText.toLowerCase()))
-// );
-
+  //   const filteredSuggestions = cardData.filter((item) =>
+  //   item.subject.toLowerCase()
+  //     .split(',')
+  //     .some(subject => subject.trim().includes(searchText.toLowerCase()))
+  // );
 
   const handleSearchChange = (e) => {
     setSearchQuery(e.target.value);
@@ -187,46 +185,46 @@ const NavBar = () => {
   };
 
   const dropdownStyle = {
-  position: "absolute",
-  top: "44px",
-  left: 0,
-  backgroundColor: "#fff",
-  border: "1px solid #ccc",
-  borderRadius: "4px",
-  marginTop: "5px",
-  zIndex: 10,
-  padding: "10px",
-  width: "100%",
-};
+    position: "absolute",
+    top: "44px",
+    left: 0,
+    backgroundColor: "#fff",
+    border: "1px solid #ccc",
+    borderRadius: "4px",
+    marginTop: "5px",
+    zIndex: 10,
+    padding: "10px",
+    width: "100%",
+  };
 
-const inputStyle = {
-  width: "100%",
-  padding: "8px",
-  marginBottom: "10px",
-  borderRadius: "4px",
-  border: "1px solid #ccc",
-};
+  const inputStyle = {
+    width: "100%",
+    padding: "8px",
+    marginBottom: "10px",
+    borderRadius: "4px",
+    border: "1px solid #ccc",
+  };
 
-const listStyle = {
-  listStyleType: "none",
-  padding: 0,
-  margin: 0,
-  maxHeight: "150px",
-  overflowY: "auto",
-};
+  const listStyle = {
+    listStyleType: "none",
+    padding: 0,
+    margin: 0,
+    maxHeight: "150px",
+    overflowY: "auto",
+  };
 
-const listItemStyle = {
-  padding: "5px 0",
-  cursor: "pointer",
-};
+  const listItemStyle = {
+    padding: "5px 0",
+    cursor: "pointer",
+  };
 
   const handleSuggestionClick = (course) => {
     const cleaned = course
       .trim()
-      .replace(/\(.*?\)/g, '')  
-      .replace(/,/g, '')     
-      .replace(/\.$/, '')         
-      .replace(/\s+/g, '');    
+      .replace(/\(.*?\)/g, "")
+      .replace(/,/g, "")
+      .replace(/\.$/, "")
+      .replace(/\s+/g, "");
 
     const slug = cleaned.toLowerCase();
     navigate(`/course/${slug}`);
@@ -235,7 +233,13 @@ const listItemStyle = {
   return (
     <div className="nav-head">
       <div className="nav-bar">
-        <img src="../logo/BothoLogo-hd.png" alt="logo" className="nav-logo" onClick={handleHomeClick} style={{cursor: "pointer"}} />
+        <img
+          src="../logo/BothoLogo-hd.png"
+          alt="logo"
+          className="nav-logo"
+          onClick={handleHomeClick}
+          style={{ cursor: "pointer" }}
+        />
 
         <div className="">
           {showSearchInput && (
@@ -249,72 +253,107 @@ const listItemStyle = {
           )}
         </div>
         <div className="nav-bar2">
-           <div className="button-search-wrapper" style={{ position: "relative" }}>
-      <div className="search-icon-text" onClick={handleSearchClick}>
-        <CiSearch className="clickable-icon" />
-        <span className="nav-text">
-          Botho University Online Programmes
-          <RiArrowDropDownLine />
-        </span>
-      </div>
+          <div
+            className="button-search-wrapper"
+            style={{ position: "relative" }}
+          >
+            <div className="search-icon-text" onClick={handleSearchClick}>
+              <CiSearch className="clickable-icon" />
+              <span className="nav-text">
+                Botho University Online Programmes
+                <RiArrowDropDownLine />
+              </span>
+            </div>
 
-      {isDropdownOpen && (
-        <div className="dropdown-search" style={dropdownStyle}>
-          <input
-            type="text"
-            className="search-button-text"
-            placeholder="Search programmes..."
-            value={searchText}
-            
-                onChange={(e) => {
-                  setSearchText(e.target.value);
-                  setShowSuggestions(true);
-                }}
-            // style={inputStyle}
-          />
-          <ul className="suggestions-list">
-            {/* {["MBA", "BSc CS", "MSc IT"]
-              .filter((item) =>
-                item.toLowerCase().includes(searchQuery.toLowerCase())
-              )
-              .map((item) => (
-                <li key={item} className="suggestions-item" style={{padding: "5px"}}>
-                  {item}
-                </li>
-              ))} */}
-               {filteredSuggestions.length > 0 ? (
-                  filteredSuggestions.map((item, index) => (
-                    <li
-                      key={index}
-                      onClick={() => handleSuggestionClick(item.title)}
-                      className="suggestion-item"
-                    >
-                      {item.title}
-                    </li>
-                  ))
-                ) : (
-                  <li className="no-match">No matching programmes</li>
-                )}
-          </ul>
-        </div>
-      )}
-    </div>
+            {isDropdownOpen && (
+              <div className="dropdown-search" style={dropdownStyle}>
+                <input
+                  type="text"
+                  className="search-button-text"
+                  placeholder="Search programmes..."
+                  value={searchText}
+                  onChange={(e) => {
+                    setSearchText(e.target.value);
+                    setShowSuggestions(true);
+                  }}
+                  // style={inputStyle}
+                />
+                <ul className="suggestions-list">
+                  {filteredSuggestions.length > 0 ? (
+                    filteredSuggestions.map((item, index) => (
+                      <li
+                        key={index}
+                        onClick={() => handleSuggestionClick(item.title)}
+                        className="suggestion-item"
+                      >
+                        {item.title}
+                      </li>
+                    ))
+                  ) : (
+                    <li className="no-match">No matching programmes</li>
+                  )}
+                </ul>
+              </div>
+            )}
+          </div>
 
-          <div className="text" onClick={handleWhyClick} style={{cursor: "pointer"}}>Why Botho University Online?</div>
-          <p className="fee-text" onClick={handleFeeClick} style={{cursor: "pointer"}}>Fees</p>
+          <div
+            className="text"
+            onClick={handleWhyClick}
+            style={{ cursor: "pointer" }}
+          >
+            Why Botho University Online?
+          </div>
+          <p
+            className="fee-text"
+            onClick={handleFeeClick}
+            style={{ cursor: "pointer" }}
+          >
+            Fees
+          </p>
 
           {/* {!showSearchInput && ( */}
           {/* <div className="mobile-search-group"> */}
-          <div className="mobile-text" onClick={handleWhyClick}>
-            Why BU Online?
-            <CiSearch className="mobile-search" onClick={handleSearchClick} />
+          <div className="mobile-text" onClick={handleSearchClick}>
+            <CiSearch className="mobile-search" />
+            Online Programmes
           </div>
+            {isDropdownOpen && (
+              <div className="dropdown-search-mobile" >
+                <input
+                  type="text"
+                  className="search-button-text"
+                  placeholder="Search programmes..."
+                  value={searchText}
+                  onChange={(e) => {
+                    setSearchText(e.target.value);
+                    setShowSuggestions(true);
+                  }}
+                  // style={inputStyle}
+                />
+                <ul className="suggestions-list">
+                  {filteredSuggestions.length > 0 ? (
+                    filteredSuggestions.map((item, index) => (
+                      <li
+                        key={index}
+                        onClick={() => handleSuggestionClick(item.title)}
+                        className="suggestion-item"
+                      >
+                        {item.title}
+                      </li>
+                    ))
+                  ) : (
+                    <li className="no-match">No matching programmes</li>
+                  )}
+                </ul>
+              </div>
+            )}
           {/* )} */}
 
           {/* <div className="fee-text">Fees</div> */}
         </div>
 
-        {showSearchInput && (
+        {/* {showSearchInput && (
           <div className="mobile-search-input-wrapper">
             <input
               type="text"
@@ -335,7 +374,7 @@ const listItemStyle = {
               </span>
             )}
           </div>
-        )}
+        )} */}
         {/* </div> */}
       </div>
     </div>

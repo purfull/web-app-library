@@ -386,7 +386,7 @@
   } */
 /* }  */
 
-@media screen and (min-width :992px) {
+/* @media screen and (min-width :992px) { */
   /* .course-container {
     padding: 40px 70px;
   }
@@ -574,7 +574,7 @@
   } */
 
 
-  @media screen and (max-width :600px) {
+  /* @media screen and (max-width :600px) {
     .main-fee-deatils {
       width: 90%;
       gap: 35px;
@@ -586,9 +586,9 @@
 
 
 
-  }
+  } */
 
-}
+/* } */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -606,7 +606,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
+    /* gap: 20px; */
     column-gap: 32px;
     margin-top: 30px;
   }
@@ -649,7 +649,8 @@
 
   .ant-card-body {
     border: 1px solid #000000 25%;
-    padding: 12px 0 !important;
+    padding: 0px 0 !important;
+    gap: 0;
   }
 
   .heading {
@@ -664,14 +665,14 @@
   }
 
   .title-logo-main {
-    align-items: start;
+    align-items: center;
     padding: 10px;
     gap: 12px;
   }
 
   .sub-amount-deatils {
 
-    flex: 1;
+    /* flex: 1; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -714,10 +715,7 @@
     color: var(--primary-color) !important;
   }
 
-  .enq-button {
-    width: 45%;
-
-  }
+  
 
   .view-enquire-button {
     padding: 10px 0px;
@@ -727,3 +725,131 @@
     width: 60px;
   }
 }
+@media only screen and (max-width: 600px) {
+
+  .title-logo-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+  }
+  .main-fee-deatils {
+    display: flex;
+    flex: 1;
+  }
+  .main-fee-deatils {
+    width: 100%;
+    gap: 44px;
+    padding: 10px 0px;
+    
+
+  }
+  .ant-card-body {
+    border: 1px solid #000000 25%;
+    padding: 0px 0 !important;
+    gap: 0;
+  }
+  .enquire-heading {
+    margin-left: 14px;
+    font-weight: 600;
+    line-height: 125%;
+    padding-bottom: 10px;
+
+  }
+  .course-title {
+    margin-left: 12px;
+  }
+  .course-icon-image {
+    width: 60px;
+  }
+  .view-enquire-button {
+    display: flex;
+  }
+  .sub-amount-deatils {
+    
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: flex-start 
+  }
+  .sub-amount-deatils > P {
+    text-align: left;
+  }
+  .enquire-heading {
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+
+  .main-fee-deatils,
+  .title-logo-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ant-card-body {
+    border: 1px solid #000000 25%;
+    padding: 0px 0 !important;
+    gap: 0;
+  }
+  .sub-amount-deatils {
+    text-align: center;
+  }
+  .title-logo-main {
+    align-items: center;
+    padding: 10px;
+    gap: 12px;
+  }
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* gap: 20px; */
+    column-gap: 32px;
+    margin-top: 30px;
+  }
+
+  .enquire-heading {
+    margin-left: 14px;
+    font-weight: 600;
+    line-height: 125%;
+    padding-bottom: 10px;
+
+  }
+  .course-icon-image {
+    width: 60px;
+  }
+  .main-fee-deatils {
+    width: 100%;
+    gap: 34px;
+    padding: 10px 0px;
+    
+
+  }
+  .view-enquire-button {
+    display: flex;
+  }
+  .sub-amount-deatils {
+    
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: flex-start 
+  }
+  .sub-amount-deatils > P {
+    text-align: left;
+  }
+  .enquire-heading {
+    margin-left: 0;
+  }
+}
+.view-enquire-button{ 
+  display: flex;
+  justify-content: space-evenly;
+}
+.enq-button, .view-more {
+    width: 45%;
+    display: flex;
+    justify-content: center !important;
+  }
