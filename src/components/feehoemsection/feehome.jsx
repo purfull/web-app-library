@@ -152,7 +152,7 @@ const FeeHome = () => {
                   Our Fees
                 </span>
               </div>
-              <div className="secondary-paragraph black padding-zero" style={{ width: "70vw" }}><span> To support your budgeting, we offer a structured instalment payment plan that makes it easier to manage your fees. All fees for the current semester must be settled before you progress to the next, so staying on track with payments is key to uninterrupted learning. <br></br><br></br>
+              <div className="secondary-paragraph black padding-zero overview-content" ><span> To support your budgeting, we offer a structured instalment payment plan that makes it easier to manage your fees. All fees for the current semester must be settled before you progress to the next, so staying on track with payments is key to uninterrupted learning. <br></br><br></br>
                 Paying is simple and convenient. Use our secure online payment gateway, or choose from other flexible options including campus payments, bank transfers, and—within Botswana—Orange Money.
                 Invest in your future with a payment plan that fits your life.</span></div>
             </div>

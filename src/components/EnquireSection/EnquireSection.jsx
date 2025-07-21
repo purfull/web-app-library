@@ -11,14 +11,18 @@ const EnquireSection = ({ cardData, cardTitle }) => {
   const handleFeePage = (course) => {
   const cleaned = course
     .trim()
-    .replace(/\(.*?\)/g, '')  
-    .replace(/,/g, '')     
-    .replace(/\.$/, '')         
-    .replace(/\s+/g, ''); 
-  const slug = cleaned.toLowerCase().replace(/\s+/g, '');
-      navigate(`/fee/${slug}`);
+    .replace(/\(.*?\)/g, '')   // remove anything in brackets
+    .replace(/,/g, '')         // remove commas
+    .replace(/\.$/, '')        // remove trailing period
+    .replace(/\./g, '')        // remove all dots
+    .replace(/\s+/g, '')      // remove all whitespace
+    .replace(/-/g, '');
+    
+  const slug = cleaned.toLowerCase();
+  navigate(`/fee/${slug}`);
   window.scrollTo(0, 0);
-  }
+};
+
   return ( 
     <div className="course-container page-gap" >
       

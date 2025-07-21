@@ -67,7 +67,7 @@ const Footer = () => {
 
                 <div className="first-con">
 
-                    <img className="logo-botho-footer" src="/logo/BothoLogo.png" alt="Logo" />
+                    <img className="logo-botho-footer" src="/logo/BothoLogo-hd.png" alt="Logo" />
 
                     <div className="span-first-con">
                         <span className='first-conatiner-texts'>Botho University is a leading multi-disciplinary institution founded in Botswana in 1997, now operating across 4 African countries and online.</span>

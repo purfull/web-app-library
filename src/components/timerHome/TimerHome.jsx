@@ -10,6 +10,11 @@ import downloadIcon from "/icon/Frame (1).png";
 const imageList = [img1, img2, img3, img4];
 
 const TimerHome = ({ data, programOverview }) => {
+  const handleEnq = () => {
+
+  window.open('https://bothouniversity.academiaerp.com/applicant-portal/#/auth/login', '_blank', 'noopener,noreferrer');
+
+  }
   return (
     <>
       <div className="timer-home-container">
@@ -66,7 +71,7 @@ const TimerHome = ({ data, programOverview }) => {
           </div>
           {data?.cta && (
             <div className="forButton">
-              <button className="secondary-button">
+              <button className="secondary-button" onClick={handleEnq}>
                 <span>Apply Now</span>
                 <img
                   className="secondary-arrow-styles"
@@ -161,8 +166,8 @@ const TimerHome = ({ data, programOverview }) => {
             <span className="secondary-heading">Programme Overview</span>
           </div>
           <div
-            className="secondary-paragraph black padding-zero"
-            style={{ width: "70vw" }}
+            className="secondary-paragraph black padding-zero overview-content"
+            // style={{ width: "70vw" }}
           >
             <div dangerouslySetInnerHTML={{ __html: programOverview }} />
           </div>

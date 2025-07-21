@@ -118,9 +118,9 @@
   .search-button {
     border-radius: var(--search-button-border-radius);
     background-color: white;
-    border: 1px solid #e5e5e5;
+    border: 1px solid var(--primary-color);
     padding: 10px;
-    color: #575757;
+    color: var(--primary-color);
     font-size: 12px;
     font-weight: 400;
   }
@@ -177,9 +177,9 @@
   .search-button {
     border-radius: var(--search-button-border-radius);
     background-color: white;
-    border: 1px solid #e5e5e5;
+    border: 1px solid var(--primary-color);
     padding: 10px;
-    color: #575757;
+    color: var(--primary-color);
     font-size: 12px;
     font-weight: 400;
   }
@@ -236,9 +236,9 @@
   .search-button {
     border-radius: var(--search-button-border-radius);
     background-color: white;
-    border: 1px solid #e5e5e5;
+    border: 1px solid var(--primary-color);
     padding: 10px;
-    color: #575757;
+    color: var(--primary-color);
     font-size: 12px;
     font-weight: 400;
   }
@@ -296,9 +296,9 @@
   .search-button {
     border-radius: var(--search-button-border-radius);
     background-color: white;
-    border: 1px solid #e5e5e5;
+    border: 1px solid var(--primary-color);
     padding: 10px;
-    color: #575757;
+    color: var(--primary-color);
     font-size: 12px;
     font-weight: 400;
   }
@@ -357,9 +357,9 @@
   .search-button {
     border-radius: var(--search-button-border-radius);
     background-color: white;
-    border: 1px solid #e5e5e5;
+    border: 1px solid var(--primary-color);
     padding: 10px;
-    color: #575757;
+    color: var(--primary-color);
     font-size: 16px;
     font-weight: 400;
   }

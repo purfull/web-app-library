@@ -3,6 +3,11 @@ import "./bannersection.css";
 import bgImage from "/images/cta-bg.jpg";
 
 const BannerSection = () => {
+  const handleEnq = () => {
+
+  window.open('https://bothouniversity.academiaerp.com/enquire/', '_blank', 'noopener,noreferrer');
+
+  }
   return (
     <div className="main page-gap">
       <div className="banner-container">
@@ -29,7 +34,7 @@ const BannerSection = () => {
               Join thousands of students building their future with Botho
               University Online. Flexible. Affordable. Recognized.
             </p>
-            <button className="primary-button enquire-now-button">
+            <button className="primary-button enquire-now-button" onClick={handleEnq}>
               Enquire Now{" "}
               <img
                 src="/icon/arrow_forward.png"
