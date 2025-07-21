@@ -1,6 +1,6 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-   .hero-slide {
+  .hero-slide {
     width: 100%;
     height: 600px;
     background-size: cover;
@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    box-shadow: inset ;
+    box-shadow: inset;
   }
 
   .hero-silde-session {
@@ -25,13 +25,13 @@
     align-items: center;
     justify-content: space-evenly;
     gap: 18px;
-    background-color: #841D2E !important;
+    background-color: #841d2e !important;
     color: white !important;
   }
 
   .fee-arrow-icon-img {
     border-radius: 50%;
-    background-color: #F3E8EA;
+    background-color: #f3e8ea;
     padding: 5px;
   }
 
@@ -49,10 +49,8 @@
     font-weight: 400;
     line-height: var(--secondary-paragraph-line-height);
     font-family: var(--primary-font-family);
-
-
   }
-  .black-text{
+  .black-text {
     color: black !important;
     padding: 10px 10px;
   }
@@ -67,15 +65,37 @@
   .secondary-paragraph.white {
     color: #ffffff;
   }
-  .black-text-primary{
+  .black-text-primary {
     color: black !important;
   }
-
+  .main-fee-deatils {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .view-enquire-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .fourth-button.enq-button {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+  }
+  .course-icon-image {
+    width: 100%;
+  }
+  .enquire-heading {
+    font-weight: 600;
+    font-size: 14px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-     .hero-slide {
+  .hero-slide {
     width: 100%;
     height: 600px;
     background-size: cover;
@@ -83,7 +103,7 @@
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    box-shadow: inset ;
+    box-shadow: inset;
   }
 
   .hero-silde-session {
@@ -100,13 +120,13 @@
     align-items: center;
     justify-content: space-evenly;
     gap: 18px;
-    background-color: #841D2E !important;
+    background-color: #841d2e !important;
     color: white !important;
   }
 
   .fee-arrow-icon-img {
     border-radius: 50%;
-    background-color: #F3E8EA;
+    background-color: #f3e8ea;
     padding: 5px;
   }
 
@@ -124,10 +144,8 @@
     font-weight: 400;
     line-height: var(--secondary-paragraph-line-height);
     font-family: var(--primary-font-family);
-
-
   }
-  .black-text{
+  .black-text {
     color: black !important;
     padding: 10px 10px;
   }
@@ -142,14 +160,37 @@
   .secondary-paragraph.white {
     color: #ffffff;
   }
-  .black-text-primary{
+  .black-text-primary {
     color: black !important;
+  }
+  .main-fee-deatils {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .view-enquire-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .fourth-button.enq-button {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+  }
+  .course-icon-image {
+    width: 100%;
+  }
+  .enquire-heading {
+    font-weight: 600;
+    font-size: 14px;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-   .hero-slide {
+  .hero-slide {
     width: 100%;
     height: 700px;
     background-size: cover;
@@ -157,7 +198,7 @@
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    box-shadow: inset ;
+    box-shadow: inset;
   }
 
   .hero-silde-session {
@@ -174,13 +215,13 @@
     align-items: center;
     justify-content: space-evenly;
     gap: 18px;
-    background-color: #841D2E !important;
+    background-color: #841d2e !important;
     color: white !important;
   }
 
   .fee-arrow-icon-img {
     border-radius: 50%;
-    background-color: #F3E8EA;
+    background-color: #f3e8ea;
     padding: 5px;
   }
 
@@ -198,10 +239,8 @@
     font-weight: 400;
     line-height: var(--secondary-paragraph-line-height);
     font-family: var(--primary-font-family);
-
-
   }
-  .black-text{
+  .black-text {
     color: black !important;
     padding: 10px 10px;
   }
@@ -216,14 +255,39 @@
   .secondary-paragraph.white {
     color: #ffffff;
   }
-  .black-text-primary{
+  .black-text-primary {
     color: black !important;
+  }
+  .main-fee-deatils {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 1rem;
+    align-items: center;
+  }
+  .view-enquire-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .fourth-button.enq-button {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+  }
+  .course-icon-image {
+    width: 100%;
+  }
+  .enquire-heading {
+    font-weight: 600;
+    font-size: 14px;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-     .hero-slide {
+  .hero-slide {
     width: 100%;
     height: 700px;
     background-size: cover;
@@ -231,7 +295,7 @@
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    box-shadow: inset ;
+    box-shadow: inset;
   }
 
   .hero-silde-content-session {
@@ -248,13 +312,13 @@
     align-items: center;
     justify-content: space-evenly;
     gap: 18px;
-    background-color: #841D2E !important;
+    background-color: #841d2e !important;
     color: white !important;
   }
 
   .fee-arrow-icon-img {
     border-radius: 50%;
-    background-color: #F3E8EA;
+    background-color: #f3e8ea;
     padding: 5px;
   }
 
@@ -272,10 +336,8 @@
     font-weight: 400;
     line-height: var(--secondary-paragraph-line-height);
     font-family: var(--primary-font-family);
-
-
   }
-  .black-text{
+  .black-text {
     color: black !important;
     padding: 10px 10px;
   }
@@ -290,8 +352,30 @@
   .secondary-paragraph.white {
     color: #ffffff;
   }
-  .black-text-primary{
+  .black-text-primary {
     color: black !important;
+  }
+  .main-fee-deatils {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 1rem;
+    align-items: center;
+  }
+  .view-enquire-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .fourth-button.enq-button {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+  }
+  .enquire-heading {
+    font-weight: 600;
+    font-size: 14px;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -304,12 +388,12 @@
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    box-shadow: inset ;
+    box-shadow: inset;
   }
 
   .hero-silde-session {
     display: grid;
-    width: 50% ;
+    width: 50%;
     padding: 15px;
     margin-left: 5%;
     gap: 20px;
@@ -322,13 +406,13 @@
     justify-content: space-evenly;
     padding: 12px 25px;
     gap: 18px;
-    background-color: #841D2E ;
-    color: white ;
+    background-color: #841d2e;
+    color: white;
   }
 
   .fee-arrow-icon-img {
     border-radius: 50%;
-    background-color: #F3E8EA;
+    background-color: #f3e8ea;
     padding: 5px;
   }
 
@@ -346,12 +430,10 @@
     font-weight: 400;
     line-height: var(--secondary-paragraph-line-height);
     /* color: var(--secondary-colour); */
-    color: #F3E8EA;
+    color: #f3e8ea;
     font-family: var(--primary-font-family);
-
-
   }
-  .black-text{
+  .black-text {
     color: black !important;
   }
   .dynamic-img-main {
@@ -365,7 +447,32 @@
   .secondary-paragraph.white {
     color: #ffffff;
   }
-  .black-text-primary{
+  .black-text-primary {
     color: black !important;
+  }
+  .main-fee-deatils {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 1rem;
+    align-items: center;
+  }
+  .view-enquire-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .fourth-button.enq-button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+  }
+  .course-icon-image {
+    width: 100%;
+  }
+  .enquire-heading {
+    font-weight: 600;
+    font-size: 14px;
   }
 }
