@@ -432,3 +432,8 @@
     color: #ffffff;
   }
 }
+
+    .slick-slide {
+      padding-left: 0;
+      padding-right: 0;
+    }
