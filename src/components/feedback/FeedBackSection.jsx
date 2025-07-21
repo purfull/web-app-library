@@ -115,7 +115,7 @@ const FeedBackSection = () => {
     const updatesildes = () => {
       const width = window.innerWidth;
       // setSlidesToShow(width < 600 ? 1 : width > 768 && width > 1200 ? 1.5 : 2);
-      setSlidesToShow(width < 600 ? 1 : width < 1200 ? 1.5 : 2 // Laptop/Desktop
+      setSlidesToShow(width < 600 ? 1 : width < 1200 ? 1 : 2 // Laptop/Desktop
       );
     };
 
@@ -218,6 +218,7 @@ const FeedBackSection = () => {
           className="carosel-inner"
           slidesToShow={slidesToShow}
           arrows={true}
+          // centerMode={true}
           prevArrow={<CustomPrevArrow className="prev-button" />}
           nextArrow={<CustomNextArrow className="next-button" />}
         >

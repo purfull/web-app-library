@@ -149,14 +149,17 @@
   }
   
   .wraper {
-    padding: 20px 40px;
+    padding: 20px 20px;
   }
 
+  .overview-content {
+    margin-top: 16px;
+  }
 
 }
 
 @media screen and (min-width :600px) {
-    .timer-home-container {
+  .timer-home-container {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -166,12 +169,12 @@
 
   .left-part {
     display: grid;
-    gap: 30px;
+    gap: 25px;
   }
 
   .right-part {
     display: none;
-    width: 35%;
+
   }
 
   .TimerImage {
@@ -198,7 +201,7 @@
   .col-grid div {
     padding: 10px;
     border-radius: 4px;
-    color: black;
+    color: "#575757";
   }
 
   .image-portion {
@@ -268,7 +271,7 @@
   .download-button {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     border: 1px solid #841d26;
     padding: 5px;
     border-radius: 30px;
@@ -289,7 +292,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 14px 0;
+    padding: 14px 20px;
   }
 
   .sub-heading {
@@ -306,8 +309,9 @@
   }
   
   .wraper {
-    padding: 20px 40px;
+    padding: 20px 20px;
   }
+
 
   
 }
@@ -315,87 +319,75 @@
 
 
 @media screen and (min-width :768px) {
-  .timer-home-container {
+   .timer-home-container {
     display: flex;
-    flex-direction: row;
-    padding: 50px 30px;
+    flex-direction: column;
+    padding: 20px;
     background-color: #f3e8ea;
-    gap: 20px;
+    gap: 40px;
   }
 
   .left-part {
-    display: flex;
-    flex-direction: column;
-    width: 45%;
+    display: grid;
+    gap: 25px;
   }
 
   .right-part {
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-  }
+    display: none;
 
-  .col-grid {
-    display: grid;
-    grid-template-rows: repeat(1, auto);
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-
-  .col-grid div {
-    padding: 10px 10px 10px 5px;
-    border-radius: 4px;
-  }
-
-  .image-portion {
-    padding-top: 0px;
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
-    justify-content: flex-start;
-  }
-
-  .sub-heading {
-    font-weight: 500;
-    font-size: 15px;
-    color: #f3e8ea;
-    font-family: "Montserrat", sans-serif;
-    padding-left: 25px;
   }
 
   .TimerImage {
     width: 100%;
     height: auto;
     position: relative;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
   }
 
   .TimerImage .img {
     width: 100%;
     height: auto;
-    object-fit: cover;
-    /* or contain if you want full visibility */
     border-radius: 4px;
     display: block;
+    padding-top: 1rem;
+    object-fit: cover;
+  }
+
+  .col-grid {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .col-grid div {
+    padding: 10px;
+    border-radius: 4px;
+    color: "#575757";
+  }
+
+  .image-portion {
+    padding-top: 20px;
+
+  }
+
+  .sub-heading {
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 25px;
+    color: #f3e8ea;
   }
 
   .countdown-box {
     background-color: #841d2e;
     border-radius: 12px;
-    padding: 20px;
-    width: 90%;
+    padding: 24px;
+    width: 100%;
     color: white;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-top: 2rem;
     font-family: "Montserrat", sans-serif;
-    z-index: 10;
-    position: relative;
-    top: 30px;
-    left: 20px;
   }
 
   .timer-row {
@@ -403,7 +395,7 @@
     justify-content: space-between;
     text-align: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    padding: 0px 20px 20px 20px;
+    padding-bottom: 10px;
   }
 
   .time-block h2 {
@@ -428,16 +420,10 @@
     gap: 8px;
   }
 
-  .primary-heading.black,
-  .sub-heading,
-  .col-grid {
-    color: black;
-  }
-
   .forButton {
     display: flex;
-    flex-direction: row;
-    justify-content: left;
+    flex-direction: column;
+    justify-content: flex-start;
     font-family: "Montserrat", sans-serif;
     gap: 1rem;
   }
@@ -445,7 +431,7 @@
   .download-button {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     border: 1px solid #841d26;
     padding: 5px;
     border-radius: 30px;
@@ -453,16 +439,7 @@
     gap: 12px;
   }
 
-  .counter-box-main {
-    display: flex;
-    align-items: end;
-    justify-content: end;
-    height: 100%;
-    width: 100%;
-  }
-
   .download-button img {
-    display: inline-block;
     border-radius: 50%;
     width: 32px;
     height: 32px;
@@ -473,24 +450,28 @@
 
   .dynamic-image {
     display: flex;
-    text-align: left;
-    justify-content: flex-start !important;
-    align-items: start;
-    padding: 20px 5px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 14px 20px;
   }
 
+  .sub-heading {
+    color: #111111;
+  }
+  .right-part-mobile{
+    display: block;
+  }
+  .mobile-img-comtainer{
+    height: 50vh;
+       background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
   .wraper {
-    padding: 40px 70px;
+    padding: 20px 20px;
   }
 
-  .divider {
-    height: 10px;
-    border: 1px solid black;
-  }
-
-  .right-part-mobile {
-    display: none;
-  }
 
 
 }
@@ -861,5 +842,9 @@
   }
   .col-grid div h3 {
     margin-bottom: 12px;
+  }
+  .overview-content {
+    width: 70vw;
+    margin-top: 0;
   }
 }

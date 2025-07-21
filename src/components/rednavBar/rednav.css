@@ -7,11 +7,29 @@
   .red-head {
     display: none;
   }
+  .welcome {
+    width: 45%;
+    text-align: center;
+    padding: 12px 0;
+  }
+  .red-head-mobile {
+    width: 100%;
+    padding: 0 20px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: #841d2e;
+    color: var(--primary-heading-colour);
+    justify-content: space-evenly;
+    bottom: 0px;
+    left: 0;
+    z-index: 10000;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .red-head {
+  .red-head, .red-head-mobile {
     display: none;
   }
 }

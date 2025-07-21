@@ -69,43 +69,44 @@ const HomePage = () => {
         "How do I apply to Botho University? What documents are required?",
       answer: `
       <p>
-        Applying to <strong>Botho University</strong> is a straightforward and free process, designed to get you started on your educational journey quickly.
-        All applications are conveniently submitted online through our 
-        <a href="https://bothouniversity.academiaerp.com/applicant-portal/#/auth/login" target="_blank" rel="noopener noreferrer">
-          secure portal.
-        </a>
-        If you wish to connect with us first and speak to a counsellor before applying, please feel free to complete this simple 
-        <a href="https://bothouniversity.academiaerp.com/enquire/" target="_blank" rel="noopener noreferrer">
-          enquiry form.
-        </a>
-      </p>
+Applying to Botho University is a straightforward and free process, designed to get you started on your educational journey quickly. All applications are conveniently submitted online through our secure portal:</br>
+👉 <a href="https://bothouniversity.academiaerp.com/applicant-portal/#/auth/login" target="_blank" rel="noopener noreferrer">Apply Now</a>
+</br></br>
+If you wish to connect with us first and speak to a counsellor before applying, please feel free to complete this simple enquiry form:</br>
+👉 <a href="https://bothouniversity.academiaerp.com/enquire/" target="_blank" rel="noopener noreferrer">Enquire Here</a>
+</br></br>
+Required Documents</br></br>
+To help you prepare for the application, here's what you'll typically need:
+</br></br>
+For Undergraduate Programmes:</br></br>
+- Certified copy of your ID/Passport
 
-      <p>To help you prepare for the application, here's what you'll typically need:</p>
+- Certified copies of your High School Certificate
 
-      <ul>
-        <li>
-          <strong>For Undergraduate Programmes:</strong>
-          <ul style="list-style-type: circle; margin-left: 20px;">
-            <li>Certified copy of your ID/Passport.</li>
-            <li>Certified copies of your High School Certificate.</li>
-            <li>Professional passport-size photo.</li>
-            <li>
-              <em>Mature Entry Applicants:</em> If you're applying through mature entry, please be ready to provide additional documents such as other qualification certificates with transcripts and letter(s) from your employer(s).
-            </li>
-          </ul>
-        </li>
+- Professional passport-size photo
+</br></br>
+Mature Entry Applicants:</br></br>
+If you're applying through mature entry, please be ready to provide additional documents such as:
+</br></br>
+- Other qualification certificates with transcripts
+</br>
+- Letter(s) from your employer(s)
+</br></br>
+For Postgraduate Programmes:</br></br>
+- Certified copies of your degree certificate and official transcript
+</br>
+- Certified copy of your ID/Passport
+</br>
+- Additional documents for MBA and MCom Programmes:
+</br>
+- Comprehensive CV/Resume
+</br>
+- Compelling Motivation Letter
+</br>
+- Professional passport-size photo
 
-        <li>
-          <strong>For Postgraduate Programmes:</strong>
-          <ul style="list-style-type: circle; margin-left: 20px;">
-            <li>Certified copies of your degree certificate and official transcript.</li>
-            <li>A certified copy of your ID/Passport.</li>
-            <li>
-              <em>Additional documents for MBA and MCom Programmes:</em> your comprehensive CV/Resume, a compelling Motivation Letter, a professional passport-size photo.
-            </li>
-          </ul>
-        </li>
-      </ul>
+
+</p>
     `,
     },
 
@@ -113,31 +114,33 @@ const HomePage = () => {
       question: "How long will it take to complete my programme?",
       answer: `
     <p>
-      Your academic journey at <strong>Botho University</strong> is flexible and tailored to your progress!
-      While the exact duration depends on the programme's credit requirements and your chosen pace, our typical full-time course load is at least 60 credits per semester,
-      ensuring a comprehensive and engaging learning experience. Most programmes when studied full-time typically take the period shown below:
+     Your academic journey at Botho University is flexible and tailored to your progress! While the exact duration depends on the programme's credit requirements and your chosen pace, our typical full-time course load is at least 60 credits per semester, ensuring a comprehensive and engaging learning experience.
+</br></br>
+Most programmes, when studied full-time, typically take the following durations:
+</br></br>
+Undergraduate Degrees: 4 years
+</br></br>
+Diplomas: 2 to 3 years
+</br></br>
+Master’s Degrees: 2 to 2.5 years
+</br></br>
+Postgraduate Diplomas: 1 year
     </p>
-    <ul style="margin-left: '20px !important'">
-      <li>Undergraduate degrees: 4 years.</li>
-      <li>Diplomas: 2 to 3 years.</li>
-      <li>Master’s degrees: 2 to 2.5 years.</li>
-      <li>Postgraduate Diplomas: 1 year.</li>
-    </ul>
   `,
     },
     {
       question: "What are the fees for programmes? And are payments flexible?",
       answer: `
         <p>
-          We believe in making quality education accessible. There is no
-          application fee! A one-time registration fee of $50 is payable upon
-          enrollment. Your tuition fee is calculated per module based on its
-          credit load. Each credit is charged at an affordable rate of $13 for
-          undergraduate programmes and $19.50 for postgraduate programmes.
-        </p></br>
-        <p>If you opt for a full-time load of 60 credits in a semester for an undergraduate programme, your total fee for that semester would be (60 credits x $13 per credit) $780. To further support your financial planning, we offer a highly flexible payment structure, allowing you to pay undergraduate fees in six convenient monthly instalments of $130.</p></br>
-        <p>If you opt for a full-time load of 60 credits in a semester for a postgraduate programme, your total fee for that semester would be (60 credits x $19.50 per credit) $1170. Here too we offer a highly flexible payment structure, allowing you to pay postgraduate fees in six convenient monthly instalments of $195.</p></br>
-        <p>You can review our complete Fee Structure at your convenience here: <a href= "https://online.bothouniversity.com/downloads/fees/" target="_blank" rel="noopener noreferrer">https://online.bothouniversity.com/downloads/fees/</a>.</p>
+We believe in making quality education accessible. There is no application fee! A one-time registration fee of $50 is payable upon enrollment. Your tuition fee is calculated per module based on its credit load. Each credit is charged at an affordable rate of $13 for undergraduate programmes and $19.50 for postgraduate programmes.
+</br></br>
+If you opt for a full-time load of 60 credits in a semester for an undergraduate programme, your total fee for that semester would be (60 credits x $13 per credit) $780. To further support your financial planning, we offer a highly flexible payment structure, allowing you to pay undergraduate fees in six convenient monthly instalments of $130.
+</br></br>
+If you opt for a full-time load of 60 credits in a semester for a postgraduate programme, your total fee for that semester would be (60 credits x $19.50 per credit) $1170. Here too, we offer a highly flexible payment structure, allowing you to pay postgraduate fees in six convenient monthly instalments of $195.
+</br></br>
+You can review our complete Fee Structure at your convenience <a href= "https://online.bothouniversity.com/downloads/fees/" target="_blank" rel="noopener noreferrer">here</a>
+
+</p>
       `,
     },
     {
@@ -147,14 +150,18 @@ const HomePage = () => {
     {
       question:
         "Will I need to attend physical classes or can I learn fully online?",
-      answer: `<p>Our online programmes are designed for maximum flexibility and convenience, meaning most programmes do not require any physical class attendance. However, we highly encourage participation in our virtual classes. These interactive sessions provide a fantastic opportunity to connect with your fellow students and engage directly with our expert lecturers, enhancing your learning and fostering a strong sense of community. To ensure you gain the most from your programme, you should attend virtual classes, complete all online study material, and participate in both assessments and examinations. This comprehensive approach guarantees a robust understanding of your chosen field.</p>`,
+      answer: `<p>Our online programmes are designed for maximum flexibility and convenience, meaning most programmes do not require any physical class attendance. However, we highly encourage participation in our virtual classes. These interactive sessions provide a fantastic opportunity to connect with your fellow students and engage directly with our expert lecturers, enhancing your learning and fostering a strong sense of community.
+</br></br>
+To ensure you gain the most from your programme, you should attend virtual classes, complete all online study material, and participate in both assessments and examinations. This comprehensive approach guarantees a robust understanding of your chosen field.</p>`,
     },
     {
       question:
         "Who can I contact for help and guidance during my studies at Botho University?",
-      answer: `<p>At Botho University, your success is our priority, and we've put a robust support system in place to ensure you always have someone to turn to. Every student has dedicated access to a group of Programme Mentors. These mentors serve as your first point of contact for virtually any assistance you require throughout your studies.</p></br>
-      <p>While you are, of course, welcome to contact your lecturers directly when you have a question specifically related to a particular module, for any other general questions related to the University or your studies, you can always reach out to your Programme Mentors. They are there to assist you by either directly providing guidance on what needs to be done or by connecting you with the appropriate individual or department who can help resolve your issues.</p></br>
-      <p>It's very important to us at Botho University that students receive timely assistance. That is precisely why we have a dedicated team of Programme Mentors committed to supporting you as you progress through your academic journey. You're never alone when you study with Botho University!</p>`,
+      answer: `<p>At Botho University, your success is our priority, and we've put a robust support system in place to ensure you always have someone to turn to. Every student has dedicated access to a group of Programme Mentors. These mentors serve as your first point of contact for virtually any assistance you require throughout your studies.
+</br></br>
+While you are, of course, welcome to contact your lecturers directly when you have a question specifically related to a particular module, for any other general questions related to the University or your studies, you can always reach out to your Programme Mentors. They are there to assist you by either directly providing guidance on what needs to be done or by connecting you with the appropriate individual or department who can help resolve your issues.
+</br></br>
+It's very important to us at Botho University that students receive timely assistance. That is precisely why we have a dedicated team of Programme Mentors committed to supporting you as you progress through your academic journey. You're never alone when you study with Botho University!</p>`,
     },
   ];
   return (

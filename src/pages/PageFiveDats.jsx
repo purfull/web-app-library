@@ -1,4 +1,4 @@
-export const bachelorofcommerceinaccounting = {
+export const bcominaccounting = {
   heroContent: {
     question: "Bachelor of Commerce in Accounting",
     image: "/images/courses-images/Bcom in accounting.jpeg",
@@ -380,7 +380,7 @@ export const bachelorofcommerceinaccounting = {
   ],
 };
 
-export const bachelorofbusinessadministrationinbusinessmanagement = {
+export const bbainbusinessmanagement = {
   heroContent: {
     question: "Bachelor of Business Administration in Business Management",
     image: "/images/courses-images/BBA in bus mgmt.jpeg",
@@ -775,7 +775,7 @@ export const bachelorofbusinessadministrationinbusinessmanagement = {
     },
   ],
 };
-export const bachelorofcommerceinhospitalitymanagement = {
+export const bcominhospitalitymanagement = {
   heroContent: {
     question: "Bachelor of Commerce in Hospitality Management",
     image: "/images/courses-images/Bcom in Hospitality.jpeg",
@@ -1123,7 +1123,7 @@ export const bachelorofcommerceinhospitalitymanagement = {
   ],
 };
 
-export const diplomainoccupationalhealthsafety = {
+export const dipinoccupationalhealthsafety = {
   heroContent: {
     question: "Diploma in Occupational Health Safety",
     image: "/images/courses-images/Diploma in Occup.jpeg",
@@ -1482,7 +1482,7 @@ export const masterofbusinessadministration = {
   ],
 };
 
-export const masterofcommerceinhumanresourcemanagement = {
+export const mcominhumanresourcemanagement = {
   heroContent: {
     question: "Master of Commerce in Human Resource Management.",
     image: "/images/courses-images/MCom in Human resource.jpeg",
@@ -1647,7 +1647,7 @@ export const masterofcommerceinhumanresourcemanagement = {
   ],
 };
 
-export const bachelorofscienceinhealthinformationmanagement = {
+export const bscinhealthinformationmanagement = {
   heroContent: {
     question: "Bachelor of Science in Health Information Management",
     image: "/images/courses-images/BSc in health info.jpeg",
@@ -1980,7 +1980,7 @@ export const bachelorofscienceinhealthinformationmanagement = {
   ],
 };
 
-export const bachelorofscienceinhospitaladministration = {
+export const bscinhospitaladministration = {
   heroContent: {
     question: "Bachelor of Science in Hospital Administration",
     image: "/images/courses-images/BSc in Hospitality.jpeg",
@@ -2320,7 +2320,7 @@ export const bachelorofscienceinhospitaladministration = {
   ],
 };
 
-export const bachelorofscienceinsafetyhealthandenvironmentalmanagement = {
+export const bscinsafetyhealthandenvironmentalmanagement = {
   heroContent: {
     question:
       "Bachelor of Science in Safety, Health and Environmental Management",
@@ -2682,7 +2682,7 @@ export const bachelorofscienceinsafetyhealthandenvironmentalmanagement = {
   ],
 };
 
-export const bachelorofeducationinprimaryeducation = {
+export const bedinprimaryeducation = {
   heroContent: {
     question:
       "Bachelor of Education in Primary Education (English Language and Mathematics)",
@@ -2988,7 +2988,7 @@ export const bachelorofeducationinprimaryeducation = {
   ],
 };
 
-export const bachelorofscienceindatascience = {
+export const bscindatascience = {
   heroContent: {
     question: "Bachelor of Science in Data Science",
     image: "/images/courses-images/Bsc in data science.jpeg",
@@ -3786,7 +3786,7 @@ export const postgraduatediplomainhighereducation = {
   ],
 };
 
-export const masterofeducationalleadershipandmanagement = {
+export const medleadershipandmanagement = {
   heroContent: {
     question: "Master of Educational Leadership and Management",
     image: "/images/courses-images/Med in educational leadership and mgmt.jpeg",
@@ -3930,7 +3930,7 @@ export const masterofeducationalleadershipandmanagement = {
   ],
 };
 
-export const masterofeducationincurriculumdesignandinstruction = {
+export const medincurriculumdesignandinstruction = {
   heroContent: {
     question: "Master of Education in Curriculum Design and Instruction",
     image: "/images/courses-images/Med in curriculum.jpeg",
@@ -4074,7 +4074,7 @@ export const masterofeducationincurriculumdesignandinstruction = {
   ],
 };
 
-export const mastersofeducationinhighereducation = {
+export const medinhighereducation = {
   heroContent: {
     question: "Masters of Education in Higher Education",
     image: "/images/courses-images/Med in higher education.jpeg",
@@ -4212,7 +4212,7 @@ export const mastersofeducationinhighereducation = {
   ],
 };
 
-export const masterofscienceininformationsystemsmanagement = {
+export const mscininformationsystemsmanagement = {
   heroContent: {
     question: "Master of Science in Information Systems Management",
     image: "/images/courses-images/Msc in Information Systems management.jpeg",
@@ -4329,7 +4329,7 @@ export const masterofscienceininformationsystemsmanagement = {
   ],
 };
 
-export const masterofscienceincomputerscience = {
+export const mscincomputerscience = {
   heroContent: {
     question: "Master of Science in Computer Science",
     image: "/images/courses-images/Msc in computer science.jpeg",
