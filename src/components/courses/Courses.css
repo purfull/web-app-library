@@ -82,7 +82,7 @@
   .fourth-button.read {
     width: 100%;
   }
-  .search-wrapper {
+  .mobile-wrapper {
     position: relative;
     width: 100%;
     max-width: 400px;
@@ -151,6 +151,9 @@
   }
   .secondary-paragraph.topper {
     padding: 20px 0 !important;
+  }
+  .search-wrapper {
+    display: none;
   }
 }
 
@@ -238,7 +241,7 @@
   .fourth-button.read {
     width: 100%;
   }
-  .search-wrapper {
+  .mobile-wrapper {
     position: relative;
     width: 100%;
     max-width: 400px;
@@ -304,6 +307,9 @@
   }
   .secondary-paragraph.topper {
     padding: 20px 0 !important;
+  }
+  .search-wrapper {
+    display: none;
   }
 }
 

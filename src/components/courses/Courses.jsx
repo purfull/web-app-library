@@ -138,6 +138,50 @@ const Courses = ({
           )}
         </div>
       </div>
+      <div className="mobile-wrapper">
+        <div className="search-button">
+          <input
+            type="text"
+            placeholder="Search Programmes..."
+            className="search-button-text"
+            value={searchText}
+            onChange={(e) => {
+              setSearchText(e.target.value);
+              setShowSuggestions(true);
+            }}
+            onBlur={() => setTimeout(() => setShowSuggestions(false), 150)} // Allow time to click
+            onFocus={() => setShowSuggestions(true)}
+          />
+          <img
+            src={vector}
+            style={{
+              borderRadius: "50%",
+              padding: "8px",
+              // border: "1px ",
+              backgroundColor: "#841d26",
+            }}
+          />
+        </div>
+
+        {/* 🔽 Auto Suggestions Dropdown */}
+        {showSuggestions && searchText && (
+          <ul className="suggestions-list">
+            {filteredSuggestions.length > 0 ? (
+              filteredSuggestions.map((item, index) => (
+                <li
+                  key={index}
+                  onClick={() => handleSuggestionClick(item.title)}
+                  className="suggestion-item"
+                >
+                  {item.title}
+                </li>
+              ))
+            ) : (
+              <li className="no-match">No matching programmes</li>
+            )}
+          </ul>
+        )}
+      </div>
 
       <div className="card-container">
         {cardsToDisplay.map((item, index) => (

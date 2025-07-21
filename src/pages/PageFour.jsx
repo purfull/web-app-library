@@ -14,7 +14,6 @@ import FeeHome from "../components/feehoemsection/feehome";
 import EnquireSection from "../components/EnquireSection/EnquireSection";
 
 const PageFour = () => {
-  
   const faqData = [
     {
       question:
@@ -109,63 +108,57 @@ const PageFour = () => {
       <p>It's very important to us at Botho University that students receive timely assistance. That is precisely why we have a dedicated team of Programme Mentors committed to supporting you as you progress through your academic journey. You're never alone when you study with Botho University!</p>`,
     },
   ];
- 
+
   const ugCardData = [
     {
-
       title: "Bachelor of Commerce in Accounting",
-      image: "/images/courses-images/Square/Bcom in accounting.png",
+      image: "/images/courses-images/Bcom in accounting.jpeg",
       description: {
         one: "1. Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2. Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "6,240",
         credits: "480",
         module: "13",
-      }
+      },
     },
     {
-
       title: "Bachelor of Business Administration in Business Management",
-      image: "/images/courses-images/Square/BBA in bus mgmt.png",
+      image: "/images/courses-images/BBA in bus mgmt.jpeg",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "6,240",
         credits: "480",
         module: "13",
-      }
+      },
     },
     {
-
       title: "Bachelor of Commerce in Hospitality Management",
-      image: "/images/courses-images/Square/Bcom in Hospitality.png",
+      image: "/images/courses-images/Bcom in Hospitality.jpeg",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "6,695",
         credits: "515",
         module: "13",
-      }
+      },
     },
     {
-
       title: "Diploma in Occupational Health Safety",
       image: "/images/courses-images/Square/Diploma in Occup.png",
       description: {
@@ -173,19 +166,15 @@ const PageFour = () => {
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "3,224",
         credits: "248",
         module: "13",
-      }
-
+      },
     },
     {
-
       title: "Bachelor of Science in Health Information Management",
       image: "/images/courses-images/Square/BSc in health info.png",
       description: {
@@ -193,18 +182,15 @@ const PageFour = () => {
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "6,240",
         credits: "480",
         module: "13",
-      }
+      },
     },
     {
-
       title: "Bachelor of Science in Hospital Administration",
       image: "/images/courses-images/Square/BSc in Hospitality.png",
       description: {
@@ -212,56 +198,49 @@ const PageFour = () => {
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "6,240",
         credits: "480",
         module: "13",
-      }
+      },
     },
     {
-
-      title: "Bachelor of Science in Safety, Health and Environmental Management",
+      title:
+        "Bachelor of Science in Safety, Health and Environmental Management",
       image: "/images/courses-images/Square/BSc in Safety.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "6,604",
         credits: "508",
         module: "13",
-      }
+      },
     },
     {
-
-      title: "Bachelor of Education in Primary Education (English Language and Mathematics)",
+      title:
+        "Bachelor of Education in Primary Education (English Language and Mathematics)",
       image: "/images/courses-images/Square/Bed in Primary.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "6,240",
         credits: "480",
         module: "13",
-      }
+      },
     },
     {
-
       title: "Bachelor of Science in Data Science",
       image: "/images/courses-images/Square/Bsc in data science.png",
       description: {
@@ -269,18 +248,15 @@ const PageFour = () => {
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "6,435",
         credits: "495",
         module: "13",
-      }
+      },
     },
     {
-
       title: "BSc in Network Security and Computer Forensics",
       image: "/images/courses-images/Square/BSc in network security.png",
       description: {
@@ -288,22 +264,18 @@ const PageFour = () => {
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "6,240",
         credits: "480",
         module: "13",
-      }
+      },
     },
   ];
 
-  
   const pgCardData = [
     {
-
       title: "Master of Commerce in Human Resource Management",
       image: "/images/courses-images/Square/MCom in Human resource.png",
       description: {
@@ -311,18 +283,15 @@ const PageFour = () => {
         two: "2. Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "4,680",
         credits: "240",
         module: "19.50",
-      }
+      },
     },
     {
-
       title: "Master of Business Administration (MBA)",
       image: "/images/courses-images/Square/MBA.png",
       description: {
@@ -330,16 +299,15 @@ const PageFour = () => {
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "4,680",
         credits: "240",
         module: "19.50",
-      }
+      },
     },
     {
-
       title: "Post Graduate Diploma in Higher Education",
       image: "/images/courses-images/Square/PGDHE.png",
       description: {
@@ -347,38 +315,34 @@ const PageFour = () => {
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         credits: "120",
         module: "19.50",
         fees: "2,340",
-      }
+      },
     },
 
     {
-
       title: "Master of Educational Leadership and Management",
-      image: "/images/courses-images/Square/Med in educational leadership and mgmt.png",
+      image:
+        "/images/courses-images/Square/Med in educational leadership and mgmt.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         credits: "240",
         module: "19.50",
         fees: "4,680",
-      }
-
+      },
     },
 
     {
-
       title: "Master of Education in Curriculum Design and Instruction",
       image: "/images/courses-images/Square/Med in curriculum.png",
       description: {
@@ -386,18 +350,15 @@ const PageFour = () => {
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         credits: "240",
         module: "19.50",
         fees: "4,680",
-      }
+      },
     },
     {
-
       title: "Masters of Education in Higher Education",
       image: "/images/courses-images/Square/Med in higher education.png",
       description: {
@@ -405,37 +366,32 @@ const PageFour = () => {
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         credits: "240",
         module: "19.50",
         fees: "4,680",
-      }
+      },
     },
     {
-
       title: "Master of Science in Information Systems Management",
-      image: "/images/courses-images/Square/Msc in Information Systems management.png",
+      image:
+        "/images/courses-images/Square/Msc in Information Systems management.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         credits: "240",
         module: "19.50",
         fees: "4,680",
-      }
+      },
     },
     {
-
       title: "Master of Science in Computer Science",
       image: "/images/courses-images/Square/Msc in computer science.png",
       description: {
@@ -443,25 +399,28 @@ const PageFour = () => {
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         credits: "240",
         module: "19.50",
         fees: "4,680",
-      }
+      },
     },
-    
   ];
   return (
     <div className="">
       <RednavBar />
       <NavBar />
       <FeeHome />
-      <EnquireSection cardData={ugCardData} cardTitle="Undergraduate Programme Fees" />
-      <EnquireSection cardData={pgCardData} cardTitle="Postgraduate Programme Fees" />
+      <EnquireSection
+        cardData={ugCardData}
+        cardTitle="Undergraduate Programme Fees"
+      />
+      <EnquireSection
+        cardData={pgCardData}
+        cardTitle="Postgraduate Programme Fees"
+      />
       <FeedBackSection />
       <Faq faqData={faqData} />
       <BannerSection />
