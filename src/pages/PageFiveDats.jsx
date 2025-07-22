@@ -1,6 +1,6 @@
 export const bcominaccounting = {
   heroContent: {
-    question: "Bachelor of Commerce in Accounting",
+    question: "B.Com in Accounting",
     image: "/images/courses-images/Bcom in accounting.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
@@ -382,7 +382,7 @@ export const bcominaccounting = {
 
 export const bbainbusinessmanagement = {
   heroContent: {
-    question: "Bachelor of Business Administration in Business Management",
+    question: "BBA in Business Management",
     image: "/images/courses-images/BBA in bus mgmt.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
@@ -777,7 +777,7 @@ export const bbainbusinessmanagement = {
 };
 export const bcominhospitalitymanagement = {
   heroContent: {
-    question: "Bachelor of Commerce in Hospitality Management",
+    question: "B.Com in Hospitality Management",
     image: "/images/courses-images/Bcom in Hospitality.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
@@ -1484,7 +1484,7 @@ export const masterofbusinessadministration = {
 
 export const mcominhumanresourcemanagement = {
   heroContent: {
-    question: "Master of Commerce in Human Resource Management.",
+    question: "M.Com in Human Resource Management",
     image: "/images/courses-images/MCom in Human resource.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
@@ -1982,7 +1982,7 @@ export const bscinhealthinformationmanagement = {
 
 export const bscinhospitaladministration = {
   heroContent: {
-    question: "Bachelor of Science in Hospital Administration",
+    question: "Bsc in Hospital Administration",
     image: "/images/courses-images/BSc in Hospitality.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
@@ -2322,8 +2322,7 @@ export const bscinhospitaladministration = {
 
 export const bscinsafetyhealthandenvironmentalmanagement = {
   heroContent: {
-    question:
-      "Bachelor of Science in Safety, Health and Environmental Management",
+    question: "BSc in Safety, Health and Environmental Management",
     image: "/images/courses-images/BSc in Safety..png",
     minPeriod: 4,
     maxPeriod: 6,
@@ -2684,8 +2683,7 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
 
 export const bedinprimaryeducation = {
   heroContent: {
-    question:
-      "Bachelor of Education in Primary Education (English Language and Mathematics)",
+    question: "BED in Primary Education (English Language and Mathematics)",
     image: "/images/courses-images/Bed in Primary.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
@@ -3788,7 +3786,7 @@ export const postgraduatediplomainhighereducation = {
 
 export const medleadershipandmanagement = {
   heroContent: {
-    question: "Master of Educational Leadership and Management",
+    question: "MED - Leadership and Management",
     image: "/images/courses-images/Med in educational leadership and mgmt.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
@@ -3932,7 +3930,7 @@ export const medleadershipandmanagement = {
 
 export const medincurriculumdesignandinstruction = {
   heroContent: {
-    question: "Master of Education in Curriculum Design and Instruction",
+    question: "MED in Curriculum Design and Instruction",
     image: "/images/courses-images/Med in curriculum.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
@@ -4076,7 +4074,7 @@ export const medincurriculumdesignandinstruction = {
 
 export const medinhighereducation = {
   heroContent: {
-    question: "Masters of Education in Higher Education",
+    question: "MED in Higher Education",
     image: "/images/courses-images/Med in higher education.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
@@ -4214,7 +4212,7 @@ export const medinhighereducation = {
 
 export const mscininformationsystemsmanagement = {
   heroContent: {
-    question: "Master of Science in Information Systems Management",
+    question: "Msc in Information Systems Management",
     image: "/images/courses-images/Msc in Information Systems management.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
@@ -4331,7 +4329,7 @@ export const mscininformationsystemsmanagement = {
 
 export const mscincomputerscience = {
   heroContent: {
-    question: "Master of Science in Computer Science",
+    question: "Msc in Computer Science",
     image: "/images/courses-images/Msc in computer science.jpeg",
     minPeriod: 2,
     maxPeriod: 4,

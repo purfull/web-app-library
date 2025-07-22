@@ -20,31 +20,30 @@ const HomePage = () => {
       // /images/courses-images/BBA in bus mgmt.jpg
       cover: "/images/courses-images/Bcom in accounting.jpeg",
       courseName: "Undergraduate Programme",
-      title: "Bachelor of Commerce in Accounting",
+      title: "B.Com in Accounting",
       description:
         "Your Future in Accounting Starts Here! Our Bachelor of Commerce in Accounting programme offers a practical, industry-focused approach to a rewarding career in accounting and finance. You'll gain essential expertise in financial reporting, auditing, taxation, and management accounting. What sets this degree apart is its blend of theory and hands-on experience, including a compulsory semester-long internship for invaluable real-world exposure.",
-      subjects: ""
+      subjects: "",
     },
     {
       cover: "/images/courses-images/MCom in Human resource.jpeg",
       courseName: "Postgraduate Programme",
-      title: "Master of Commerce in Human Resource Management",
+      title: "M.Com in Human Resource Management",
       description:
         "Looking to become a leader in talent management? Our Master of Commerce in Human Resource Management (MCom in HRM) is a transformative qualification designed for the modern business landscape. You'll gain a robust foundation in strategic HR planning, recruitment, performance assessment, and more.",
     },
     {
       cover: "/images/courses-images/BBA in bus mgmt.jpeg",
       courseName: "Undergraduate Programme",
-      title: "Bachelor of Business Administration in Business Management",
+      title: "BBA in Business Management",
       description:
         "Aiming for a leadership role in the global business environment? Our Bachelor of Business Administration in Business Management provides the strategic mindset and skills you need. This programme covers key areas like management, finance, marketing, entrepreneurship, operations, and digital transformation, with a strong focus on innovation, sustainability, and ethical leadership.",
     },
 
-
     {
       cover: "/images/courses-images/Bcom in Hospitality.jpeg",
       courseName: "Undergraduate Programme",
-      title: "Bachelor of Commerce in Hospitality Management",
+      title: "B.Com in Hospitality Management",
       description:
         "Aspiring to a leadership role in the vibrant hospitality sector? Our Bachelor of Commerce in Hospitality Management provides a strong foundation in business principles alongside specialised hospitality skills. You'll cover core areas like accounting and marketing, combined with modules in hotel operations, food and beverage management, and tourism development.",
     },
@@ -58,7 +57,7 @@ const HomePage = () => {
     {
       cover: "/images/courses-images/Diploma in Occup.jpeg",
       courseName: "Undergraduate Programme",
-      title: "Diploma in Occupational Health Safety",
+      title: "Dip in Occupational Health Safety",
       description:
         "Fascinated by creating safer workplaces? Our Diploma in Occupational Health and Safety is for you! This comprehensive programme blends occupational health, safety management, risk assessment, and environmental sustainability. You'll gain practical skills to identify, evaluate, and control workplace hazards, ensuring compliance with regulations, and fostering a strong safety culture.",
     },
@@ -193,7 +192,7 @@ It's very important to us at Botho University that students receive timely assis
         buttonTextColor="#000000"
         arrows="/icon/arrow_forward.png"
       />
-       <Footer />
+      <Footer />
       {/* <StaticHome />
       <TimerHome />
       <CourseStruture /> */}

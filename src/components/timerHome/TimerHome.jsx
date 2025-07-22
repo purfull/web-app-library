@@ -11,10 +11,23 @@ const imageList = [img1, img2, img3, img4];
 
 const TimerHome = ({ data, programOverview }) => {
   const handleEnq = () => {
+    window.open(
+      "https://bothouniversity.academiaerp.com/applicant-portal/#/auth/login",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
 
-  window.open('https://bothouniversity.academiaerp.com/applicant-portal/#/auth/login', '_blank', 'noopener,noreferrer');
+  //kaviya code start
+  const download = (url) => {
+    if (!url) return;
 
-  }
+    // Ensure the URL is absolute
+    const fullUrl = url.startsWith("http") ? url : `https://${url}`;
+
+    window.open(fullUrl, "_blank", "noopener,noreferrer");
+  };
+  // kaviya end
   return (
     <>
       <div className="timer-home-container">
@@ -79,7 +92,11 @@ const TimerHome = ({ data, programOverview }) => {
                   alt="arrow-forward"
                 />
               </button>
-              <button className="download-button" style={{ paddingLeft: "12px", paddingRight: "12px" }}>
+              <button
+                className="download-button"
+                style={{ paddingLeft: "12px", paddingRight: "12px" }}
+                onClick={() => download(data?.downloadurl)}
+              >
                 <span className="button-text">Download Programme Module</span>
                 <img src={downloadIcon} alt="download" />
               </button>

@@ -39,10 +39,12 @@ const Courses = ({
   const handleSuggestionClick = (course) => {
     const cleaned = course
       .trim()
-      .replace(/\(.*?\)/g, "")
-      .replace(/,/g, "")
-      .replace(/\.$/, "")
-      .replace(/\s+/g, "");
+      .replace(/\(.*?\)/g, "") // remove anything in brackets
+      .replace(/,/g, "") // remove commas
+      .replace(/\.$/, "") // remove trailing period
+      .replace(/\./g, "") // remove all dots
+      .replace(/\s+/g, "") // remove all whitespace
+      .replace(/-/g, "");
 
     const slug = cleaned.toLowerCase();
     navigate(`/course/${slug}`);
@@ -52,11 +54,12 @@ const Courses = ({
   const handleCourse = (course) => {
     const cleaned = course
       .trim()
-      .replace(/\(.*?\)/g, "")
-      .replace(/,/g, "")
-      .replace(/\.$/, "")
-      .replace(/\s+/g, "");
-
+      .replace(/\(.*?\)/g, "") // remove anything in brackets
+      .replace(/,/g, "") // remove commas
+      .replace(/\.$/, "") // remove trailing period
+      .replace(/\./g, "") // remove all dots
+      .replace(/\s+/g, "") // remove all whitespace
+      .replace(/-/g, "");
     const slug = cleaned.toLowerCase();
     navigate(`/course/${slug}`);
     window.scrollTo(0, 0);
