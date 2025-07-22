@@ -15,7 +15,7 @@
 //   window.open('https://bothouniversity.academiaerp.com/applicant-portal/#/auth/login', '_blank', 'noopener,noreferrer');
 
 //   }
-  
+
 //   return (
 //     <>
 //       <div className="timer-home-container">
@@ -195,32 +195,74 @@ const imageList = [img1, img2, img3, img4];
 
 const TimerHome = ({ data, programOverview }) => {
   const [timeLeft, setTimeLeft] = useState({});
-const launchDate = new Date(data?.launchDate).getTime();
+  // const launchDate = new Date(data?.launchDate).getTime();
+  const launchDate = ["22-07", "22-09", "22-10", "22-11"];
+  // useEffect(() => {
+  //   const updateTime = () => {
+  //     const now = new Date().getTime();
 
+
+  //     const filtDate = launchDate
+  //       .map(el => new Date(el).getTime())  // convert to timestamp
+  //       .filter(el => el > now)             // only future
+  //       .sort((a, b) => a - b);             // nearest first
+
+  //     const nearestDate = filtDate[0];
+  //     const diff = nearestDate - now;
+
+  //     if (diff <= 0) {
+  //       setTimeLeft({
+  //         days: 0,
+  //         hours: 0,
+  //         minutes: 0,
+  //         seconds: 0,
+  //       });
+  //       return;
+  //     }
+
+  //     const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  //     const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  //     const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+  //     const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+  //     setTimeLeft({ days, hours, minutes, seconds });
+  //   };
+
+  //   updateTime(); // run once initially
+  //   const timer = setInterval(updateTime, 1000);
+
+  //   return () => clearInterval(timer);
+  // }, []);
   useEffect(() => {
     const updateTime = () => {
       const now = new Date().getTime();
-      const diff = launchDate - now;
 
-      if (diff <= 0) {
-        setTimeLeft({
-          days: 0,
-          hours: 0,
-          minutes: 0,
-          seconds: 0,
-        });
-        return;
-      }
+      // Convert "DD-MM" strings into valid Date objects for current year
+
+      const launchDatesTimestamps = launchDate
+        .map(dateStr => {
+          const [day, month] = dateStr.split("-");
+          const thisYear = new Date().getFullYear();
+          const fullDate = new Date(`${thisYear}-${month}-${day}T00:00:00`);
+          return fullDate.getTime();
+        })
+        .filter(timestamp => timestamp > now) // future only
+        .sort((a, b) => a - b);               // nearest first
+
+      const nearestDate = launchDatesTimestamps[0];
+      if (!nearestDate) return;
+
+      const diff = nearestDate - now;
 
       const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-      const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-      const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+      const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+      const minutes = Math.floor((diff / (1000 * 60)) % 60);
+      const seconds = Math.floor((diff / 1000) % 60);
 
       setTimeLeft({ days, hours, minutes, seconds });
     };
 
-    updateTime(); // run once initially
+    updateTime(); // Run once immediately
     const timer = setInterval(updateTime, 1000);
 
     return () => clearInterval(timer);
@@ -334,14 +376,19 @@ const launchDate = new Date(data?.launchDate).getTime();
                       <h2>{timeLeft.days}</h2>
                       <span>Days</span>
                     </div>
+                    <div className="divider-vertical"></div>
                     <div className="time-block">
                       <h2>{timeLeft.hours}</h2>
                       <span>Hours</span>
                     </div>
+                    <div className="divider-vertical"></div>
+
                     <div className="time-block">
                       <h2>{timeLeft.minutes}</h2>
                       <span>Minutes</span>
                     </div>
+                    <div className="divider-vertical"></div>
+
                     <div className="time-block">
                       <h2>{timeLeft.seconds}</h2>
                       <span>Seconds</span>
@@ -371,14 +418,20 @@ const launchDate = new Date(data?.launchDate).getTime();
                     <h2>{timeLeft.days}</h2>
                     <span>Days</span>
                   </div>
+                  <div className="divider-vertical"></div>
+
                   <div className="time-block">
                     <h2>{timeLeft.hours}</h2>
                     <span>Hours</span>
                   </div>
+                  <div className="divider-vertical"></div>
+
                   <div className="time-block">
                     <h2>{timeLeft.minutes}</h2>
                     <span>Minutes</span>
                   </div>
+                  <div className="divider-vertical"></div>
+
                   <div className="time-block">
                     <h2>{timeLeft.seconds}</h2>
                     <span>Seconds</span>

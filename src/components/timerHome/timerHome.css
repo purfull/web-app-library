@@ -76,6 +76,7 @@
     text-align: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     padding-bottom: 10px;
+    
   }
 
   .time-block h2 {
@@ -154,6 +155,12 @@
 
   .overview-content {
     margin-top: 16px;
+  }
+   .divider-vertical{
+    height: 50px;
+    background-color: #D9B9BE;
+    width: 1px;
+    padding: 0;
   }
 
 }
@@ -311,7 +318,12 @@
   .wraper {
     padding: 20px 20px;
   }
-
+ .divider-vertical{
+    height: 50px;
+    background-color: #D9B9BE;
+    width: 1px;
+    padding: 0;
+  }
 
   
 }
@@ -419,7 +431,11 @@
     align-items: center;
     gap: 8px;
   }
-
+ .divider-vertical{
+    height: 50px;
+    background-color: #D9B9BE;
+    width: 2px;
+  }
   .forButton {
     display: flex;
     flex-direction: column;
@@ -622,6 +638,12 @@
     height: 100%;
     width: 100%;
   }
+  .divider-vertical{
+    height: 60px;
+    background-color: #D9B9BE;
+    width: 1px;
+    padding: 0;
+  }
 
   .download-button img {
     display: inline-block;
@@ -716,6 +738,12 @@
     background-size: cover;
     background-repeat: no-repeat;
 
+  }
+  .divider-vertical{
+    height: 50px;
+    background-color: #D9B9BE;
+    width: 1px;
+    padding: 0;
   }
 
   .TimerImage .img {
