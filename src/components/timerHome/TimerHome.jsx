@@ -233,7 +233,14 @@ const launchDate = new Date(data?.launchDate).getTime();
       "noopener,noreferrer"
     );
   };
+  const download = (url) => {
+    if (!url) return;
 
+    // Ensure the URL is absolute
+    const fullUrl = url.startsWith("http") ? url : `https://${url}`;
+
+    window.open(fullUrl, "_blank", "noopener,noreferrer");
+  };
   return (
     <>
       <div className="timer-home-container">
@@ -298,7 +305,11 @@ const launchDate = new Date(data?.launchDate).getTime();
                   alt="arrow-forward"
                 />
               </button>
-              <button className="download-button" style={{ paddingLeft: "12px", paddingRight: "12px" }}>
+              <button
+                className="download-button"
+                style={{ paddingLeft: "12px", paddingRight: "12px" }}
+                onClick={() => download(data?.downloadurl)}
+              >
                 <span className="button-text">Download Programme Module</span>
                 <img src={downloadIcon} alt="download" />
               </button>
