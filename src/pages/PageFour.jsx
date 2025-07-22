@@ -14,9 +14,6 @@ import FeeHome from "../components/feehoemsection/feehome";
 import EnquireSection from "../components/EnquireSection/EnquireSection";
 
 const PageFour = () => {
-  
- 
- 
   const faqData = [
     {
       question:
@@ -118,10 +115,9 @@ While you are, of course, welcome to contact your lecturers directly when you ha
 It's very important to us at Botho University that students receive timely assistance. That is precisely why we have a dedicated team of Programme Mentors committed to supporting you as you progress through your academic journey. You're never alone when you study with Botho University!</p>`,
     },
   ];
- 
+
   const ugCardData = [
     {
-
       title: "B.Com in Accounting",
       image: "/images/courses-images/Square/Bcom in accounting.png",
       description: {
@@ -129,18 +125,15 @@ It's very important to us at Botho University that students receive timely assis
         two: "2. Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "6,240",
         credits: "480",
         module: "13",
-      }
+      },
     },
     {
-
       title: "BBA in Business Management",
       image: "/images/courses-images/Square/BBA in bus mgmt.png",
       description: {
@@ -148,16 +141,15 @@ It's very important to us at Botho University that students receive timely assis
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "6,240",
         credits: "480",
         module: "13",
-      }
+      },
     },
     {
-
       title: "B.Com in Hospitality Management",
       image: "/images/courses-images/Square/Bcom in Hospitality.png",
       description: {
@@ -165,16 +157,15 @@ It's very important to us at Botho University that students receive timely assis
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "6,695",
         credits: "515",
         module: "13",
-      }
+      },
     },
     {
-
       title: "Dip in Occupational Health Safety",
       image: "/images/courses-images/Square/Diploma in Occup.png",
       description: {
@@ -182,21 +173,16 @@ It's very important to us at Botho University that students receive timely assis
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "3,224",
         credits: "248",
         module: "13",
-      }
-
+      },
     },
 
-
     {
-
       title: "Bsc in Hospital Administration",
       image: "/images/courses-images/Square/BSc in Hospitality.png",
       description: {
@@ -204,37 +190,31 @@ It's very important to us at Botho University that students receive timely assis
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "6,240",
         credits: "480",
         module: "13",
-      }
+      },
     },
     {
-
-      title: "Bsc in Data Science",
+      title: "Bachelor of Science in Data Science",
       image: "/images/courses-images/Square/Bsc in data science.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "6,435",
         credits: "495",
         module: "13",
-      }
+      },
     },
     {
-
       title: "Bsc in Safety, Health and Environmental Management",
       image: "/images/courses-images/Square/BSc in Safety.png",
       description: {
@@ -242,20 +222,16 @@ It's very important to us at Botho University that students receive timely assis
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "6,604",
         credits: "508",
         module: "13",
-      }
+      },
     },
-   
 
     {
-
       title: "Bsc in Health Information Management",
       image: "/images/courses-images/Square/BSc in health info.png",
       description: {
@@ -263,19 +239,16 @@ It's very important to us at Botho University that students receive timely assis
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "6,240",
         credits: "480",
         module: "13",
-      }
+      },
     },
 
     {
-
       title: "BSc in Network Security and Computer Forensics",
       image: "/images/courses-images/Square/BSc in network security.png",
       description: {
@@ -283,18 +256,15 @@ It's very important to us at Botho University that students receive timely assis
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "6,240",
         credits: "480",
         module: "13",
-      }
+      },
     },
-     {
-
+    {
       title: "BED in Primary Education (English Language and Mathematics)",
       image: "/images/courses-images/Square/Bed in Primary.png",
       description: {
@@ -302,22 +272,18 @@ It's very important to us at Botho University that students receive timely assis
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "6,240",
         credits: "480",
         module: "13",
-      }
+      },
     },
   ];
 
-  
   const pgCardData = [
     {
-
       title: "Msc in Computer Science",
       image: "/images/courses-images/Square/Msc in computer science.png",
       description: {
@@ -325,38 +291,32 @@ It's very important to us at Botho University that students receive timely assis
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         credits: "240",
         module: "19.50",
         fees: "4,680",
-      }
+      },
     },
     {
-
       title: "MED - Leadership and Management",
-      image: "/images/courses-images/Square/Med in educational leadership and mgmt.png",
+      image:
+        "/images/courses-images/Square/Med in educational leadership and mgmt.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         credits: "240",
         module: "19.50",
         fees: "4,680",
-      }
-
+      },
     },
     {
-
       title: "MED in Higher Education",
       image: "/images/courses-images/Square/Med in higher education.png",
       description: {
@@ -364,18 +324,15 @@ It's very important to us at Botho University that students receive timely assis
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         credits: "240",
         module: "19.50",
         fees: "4,680",
-      }
+      },
     },
     {
-
       title: "M.Com in Human Resource Management",
       image: "/images/courses-images/Square/MCom in Human resource.png",
       description: {
@@ -383,18 +340,15 @@ It's very important to us at Botho University that students receive timely assis
         two: "2. Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "4,680",
         credits: "240",
         module: "19.50",
-      }
+      },
     },
     {
-
       title: "Master of Business Administration (MBA)",
       image: "/images/courses-images/Square/MBA.png",
       description: {
@@ -402,16 +356,15 @@ It's very important to us at Botho University that students receive timely assis
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         fees: "4,680",
         credits: "240",
         module: "19.50",
-      }
+      },
     },
     {
-
       title: "Post Graduate Diploma in Higher Education",
       image: "/images/courses-images/Square/PGDHE.png",
       description: {
@@ -419,18 +372,16 @@ It's very important to us at Botho University that students receive timely assis
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         credits: "120",
         module: "19.50",
         fees: "2,340",
-      }
+      },
     },
 
-
     {
-
       title: "MED in Curriculum Design and Instruction",
       image: "/images/courses-images/Square/Med in curriculum.png",
       description: {
@@ -438,44 +389,45 @@ It's very important to us at Botho University that students receive timely assis
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         credits: "240",
         module: "19.50",
         fees: "4,680",
-      }
+      },
     },
     {
-
       title: "Msc in Information Systems Management",
-      image: "/images/courses-images/Square/Msc in Information Systems management.png",
+      image:
+        "/images/courses-images/Square/Msc in Information Systems management.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
         three: "3. Introduction to Financial Markets 2",
         four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)"
-
-
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
         credits: "240",
         module: "19.50",
         fees: "4,680",
-      }
+      },
     },
-    
   ];
   return (
     <div className="">
       <RednavBar />
       <NavBar />
       <FeeHome />
-      <EnquireSection cardData={ugCardData} cardTitle="Undergraduate Programme Fees" />
-      <EnquireSection cardData={pgCardData} cardTitle="Postgraduate Programme Fees" />
+      <EnquireSection
+        cardData={ugCardData}
+        cardTitle="Undergraduate Programme Fees"
+      />
+      <EnquireSection
+        cardData={pgCardData}
+        cardTitle="Postgraduate Programme Fees"
+      />
       <FeedBackSection />
       <Faq faqData={faqData} />
       <BannerSection />

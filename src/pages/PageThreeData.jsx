@@ -2,6 +2,7 @@ export const bachelorofscienceindatascience = {
   heroContent: {
     question: "Bachelor of Science in Data Science",
     image: "/images/courses-images/Bsc in data science.jpeg",
+    downloadurl: "https://google.com",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -460,10 +461,11 @@ export const bachelorofscienceindatascience = {
 `,
 };
 
-export const bachelorofbusinessadministrationinbusinessmanagement = {
+export const bbainbusinessmanagement = {
   heroContent: {
-    question: "Bachelor of Business Administration in Business Management",
+    question: "BBA in Business Management",
     image: "/images/courses-images/BBA in bus mgmt.jpeg",
+    downloadurl: "https://google.com",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -904,10 +906,11 @@ export const bachelorofbusinessadministrationinbusinessmanagement = {
   programOverview: `Aiming for a leadership role in the global business environment? Our Bachelor of Business Administration in Business Management provides the strategic mindset and skills you need. This programme covers key areas like management, finance, marketing, entrepreneurship, operations, and digital transformation, with a strong focus on innovation, sustainability, and ethical leadership.<br></br>Through practical case studies, collaborative projects, and industry-driven learning, you'll gain real-world experience, developing crucial critical thinking and problem-solving abilities. Whether you're planning an entrepreneurial venture or a corporate career, this degree will equip you to drive business innovation and achieve success.`,
 };
 
-export const bachelorofcommerceinhospitalitymanagement = {
+export const bcominhospitalitymanagement = {
   heroContent: {
-    question: "Bachelor of Commerce in Hospitality Management",
+    question: "B.Com in Hospitality Management",
     image: "/images/courses-images/Bcom in Hospitality.jpeg",
+    downloadurl: "https://google.com",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -1306,10 +1309,11 @@ export const bachelorofcommerceinhospitalitymanagement = {
   programOverview: `Aspiring to a leadership role in the vibrant hospitality sector? Our Bachelor of Commerce in Hospitality Management provides a strong foundation in business principles alongside specialised hospitality skills. You'll cover core areas like accounting and marketing, combined with modules in hotel operations, food and beverage management, and tourism development.<br></br>This programme emphasises practical experience through internships and case studies, nurturing your problem-solving, customer service, and managerial abilities. We'll equip you with entrepreneurial thinking, sustainability awareness, and digital proficiency, preparing you for diverse leadership roles in hotels, restaurants, tourism, and event management globally.`,
 };
 
-export const masterofcommerceinhumanresourcemanagement = {
+export const mcominhumanresourcemanagement = {
   heroContent: {
-    question: "Master of Commerce in Human Resource Management.",
+    question: "M.Com in Human Resource Management",
     image: "/images/courses-images/MCom in Human resource.jpeg",
+    downloadurl: "https://google.com",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -1528,6 +1532,7 @@ export const masterofbusinessadministration = {
   heroContent: {
     question: "Master of Business Administration (MBA)",
     image: "/images/courses-images/MBA.jpeg",
+    downloadurl: "https://google.com",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -1769,10 +1774,11 @@ export const masterofbusinessadministration = {
   programOverview: `Aiming to become a top executive in the global business arena? Our MBA programme is designed for ambitious professionals. It equips you with the skills to tackle complex challenges, focusing on critical thinking, entrepreneurship, financial resilience, and innovative problem-solving.<br></br>This programme allows you to balance work, life, and study while gaining expertise in international business, leadership, accounting, risk management, technology, and marketing. Our MBA provides a strong foundation in business, empowering you to develop executive acumen and thrive in competitive environments. Join us and gain a recognised qualification for long-term success.`,
 };
 
-export const diplomainoccupationalhealthsafety = {
+export const dipinoccupationalhealthsafety = {
   heroContent: {
     question: "Diploma in Occupational Health Safety",
     image: "/images/courses-images/Diploma in Occup.jpeg",
+    downloadurl: "https://google.com",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$13",
@@ -1980,10 +1986,11 @@ export const diplomainoccupationalhealthsafety = {
   programOverview: `Fascinated by creating safer workplaces? Our Diploma in Occupational Health and Safety is for you! This comprehensive programme blends occupational health, safety management, risk assessment, and environmental sustainability. You'll gain practical skills to identify, evaluate, and control workplace hazards, ensuring compliance with regulations, and fostering a strong safety culture.<br></br>Graduates are prepared to make a significant impact in manufacturing, construction, healthcare, and more. With a focus on both theory and hands-on experience, you'll be well-equipped to prevent injuries, illnesses, and accidents, becoming a vital advocate for employee well-being and a robust safety culture.`,
 };
 
-export const bachelorofscienceinhealthinformationmanagement = {
+export const bscinhealthinformationmanagement = {
   heroContent: {
-    question: "Bachelor of Science in Health Information Management",
+    question: "Bsc in Health Information Management",
     image: "/images/courses-images/BSc in health info.jpeg",
+    downloadurl: "https://google.com",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -2374,10 +2381,11 @@ export const bachelorofscienceinhealthinformationmanagement = {
   programOverview: `Fascinated by the intersection of healthcare and technology? Our BSc in Health Information Management equips you to manage health data, information systems, and technology solutions. This comprehensive programme integrates health sciences, IT, and management principles, preparing you for dynamic careers in healthcare data management and analytics.<br></br>You'll learn to maintain data integrity, privacy, and compliance with healthcare regulations, while developing vital analytical, technical, and managerial skills. Graduates are ready for diverse roles such as Health Information Managers or Clinical Data Analysts, making a real impact on modern healthcare information management.`,
 };
 
-export const bachelorofscienceinhospitaladministration = {
+export const bscinhospitaladministration = {
   heroContent: {
-    question: "Bachelor of Science in Hospital Administration",
+    question: "Bsc in Hospital Administration",
     image: "/images/courses-images/BSc in Hospitality.jpeg",
+    downloadurl: "https://google.com",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -2775,11 +2783,11 @@ export const bachelorofscienceinhospitaladministration = {
   programOverview: `Aspiring to a leadership position in healthcare? Our BSc in Hospital Administration is a specialised programme designed to equip you with essential knowledge and skills. It seamlessly integrates business administration, healthcare management, and public health principles, addressing the unique challenges of the sector.<br></br>You'll delve into healthcare systems, hospital operations, and patient care protocols, gaining a holistic understanding of this complex industry. Our curriculum blends theory with practical applications through case studies and experiential learning, preparing you to drive improvements in healthcare delivery, optimise resources, and enhance patient outcomes in diverse settings like hospitals and clinics.`,
 };
 
-export const bachelorofscienceinsafetyhealthandenvironmentalmanagement = {
+export const bscinsafetyhealthandenvironmentalmanagement = {
   heroContent: {
-    question:
-      "Bachelor of Science in Safety, Health and Environmental Management",
+    question: "Bsc in Safety, Health and Environmental Management",
     image: "/images/courses-images/BSc in Safety..png",
+    downloadurl: "https://google.com",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -3196,11 +3204,11 @@ export const bachelorofscienceinsafetyhealthandenvironmentalmanagement = {
   programOverview: `Ready to champion workplace safety and environmental well-being? Our BSc in Safety, Health, and Environment (SHE) Management is an interdisciplinary programme designed to equip you with essential knowledge. It seamlessly integrates occupational health, environmental science, and risk management principles.<br></br>You'll delve into identifying and assessing workplace hazards, developing effective control mechanisms, and adhering to crucial safety and environmental regulations. This programme also emphasises sustainable practices. Graduates are well-prepared to meet the growing demand for professionals adept at addressing SHE issues across diverse industries like manufacturing, construction, and healthcare, making meaningful contributions to workers and the environment.`,
 };
 
-export const bachelorofeducationinprimaryeducation = {
+export const bedinprimaryeducation = {
   heroContent: {
-    question:
-      "Bachelor of Education in Primary Education(English Language and Mathematics)",
+    question: "BED in Primary Education(English Language and Mathematics)",
     image: "/images/courses-images/Bed in Primary.jpeg",
+    downloadurl: "https://google.com",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -3555,6 +3563,7 @@ export const postgraduatediplomainhighereducation = {
   heroContent: {
     question: "Post Graduate Diploma in Higher Education",
     image: "/images/courses-images/PGDHE.jpeg",
+    downloadurl: "https://google.com",
     minPeriod: 1,
     maxPeriod: 2,
     programmeCredit: "$19.50",
@@ -3712,10 +3721,11 @@ export const postgraduatediplomainhighereducation = {
   programOverview: `Ready to advance your teaching career? Our Postgraduate Diploma in Higher Education (PGDHE) is a transformative one-year programme designed to equip you with advanced teaching skills, curriculum design expertise, and effective assessment strategies. You'll gain a deep understanding of pedagogy, assessment, moderation, and learner diversity.<br></br>With a mix of core and elective modules, you can tailor your learning. This hands-on qualification includes a practical teaching exercise, offering real-world experience. Delivered via Blended and Distance Learning, it's flexible for both national and international students. Enrol today and become a leader in higher education!`,
 };
 
-export const masterofeducationalleadershipandmanagement = {
+export const medalleadershipandmanagement = {
   heroContent: {
-    question: "Master of Educational Leadership and Management",
+    question: "MED - Leadership and Management",
     image: "/images/courses-images/Med in educational leadership and mgmt.jpeg",
+    downloadurl: "https://google.com",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -3927,10 +3937,11 @@ export const masterofeducationalleadershipandmanagement = {
   programOverview: `Aspiring to lead in education? Our Master of Educational Leadership and Management is a prestigious, two-year programme designed to elevate your career. You'll gain cutting-edge leadership, management, and strategic decision-making skills through twelve core modules and elective options.<br></br>With a strong emphasis on research and innovation, you'll complete 240 credits, including a Research Methodology module, before your dissertation. Delivered through flexible Online Learning, this programme is ideal for both national and international students, allowing you to advance your expertise and shape the future of learning.`,
 };
 
-export const masterofeducationincurriculumdesignandinstruction = {
+export const medincurriculumdesignandinstruction = {
   heroContent: {
-    question: "Master of Education in Curriculum Design and Instruction",
+    question: "MED in Curriculum Design and Instruction",
     image: "/images/courses-images/Med in curriculum.jpeg",
+    downloadurl: "https://google.com",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -4165,6 +4176,7 @@ export const bscinnetworksecurityandcomputerforensics = {
   heroContent: {
     question: "BSc in Network Security and Computer Forensics",
     image: "/images/courses-images/BSc in network security.jpeg",
+    downloadurl: "https://google.com",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -4575,10 +4587,11 @@ export const bscinnetworksecurityandcomputerforensics = {
   ],
   programOverview: `Ready to become a cybersecurity expert? Our BSc in Network Security and Computer Forensics is a specialised degree equipping you to protect digital assets and investigate cyber threats. You'll gain hands-on experience in penetration testing, digital forensics, and network defence strategies, integrating core computing principles with advanced security techniques.<br></br>The programme covers essential topics like ethical hacking, cybercrime investigation, and malware analysis, providing comprehensive knowledge of modern threats and countermeasures. Beyond technical skills, you'll learn ethical and legal considerations, preparing you for careers as a cybersecurity analyst or digital forensic investigator in government, corporations, or law enforcement, addressing critical security challenges.`,
 };
-export const mastersofeducationinhighereducation = {
+export const medinhighereducation = {
   heroContent: {
-    question: "Masters of Education in Higher Education",
+    question: "MED in Higher Education",
     image: "/images/courses-images/Med in higher education.jpeg",
+    downloadurl: "https://google.com",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -4795,10 +4808,11 @@ export const mastersofeducationinhighereducation = {
   programOverview: `Elevate your expertise with our Master of Education in Higher Education. This specialised two-year online programme equips you with advanced pedagogical skills, covering Learning, Teaching and Assessment, Curriculum Design and Development, and Academic Writing. You'll gain a deep understanding of Quality Frameworks in Higher Education and integrate Educational Technology and e-Learning.<br></br>With a strong emphasis on research, including Research in Higher Education and a Dissertation, alongside practical experience, this flexible programme prepares you for leadership roles in universities and colleges, shaping the future of higher education.`,
 };
 
-export const masterofscienceininformationsystemsmanagement = {
+export const mscininformationsystemsmanagement = {
   heroContent: {
-    question: "Master of Science in Information Systems Management",
+    question: "Msc in Information Systems Management",
     image: "/images/courses-images/Msc in Information Systems management.jpeg",
+    downloadurl: "https://google.com",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -4987,10 +5001,11 @@ export const masterofscienceininformationsystemsmanagement = {
   programOverview: `Ready to excel in information systems management? Our Master of Science in Information Systems Management is a professionally oriented online programme, perfect if you need flexible learning. You'll develop advanced critical thinking and technical skills in key areas like systems analysis and design, project management, data management, cybersecurity, and business intelligence, all with an emphasis on global best practices.<br></br>This programme prepares you for leadership roles, enabling you to apply technical expertise and strategic thinking to drive organisational success. You'll be ready to work autonomously or in multidisciplinary teams, tackling the complexities of modern information systems with integrity and professionalism.`,
 };
 
-export const masterofscienceincomputerscience = {
+export const mscincomputerscience = {
   heroContent: {
-    question: "Master of Science in Computer Science",
+    question: "Msc in Computer Science",
     image: "/images/courses-images/Msc in computer science.jpeg",
+    downloadurl: "https://google.com",
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -5172,10 +5187,11 @@ export const masterofscienceincomputerscience = {
   programOverview: `Aspiring to excel in the tech industry? Our Master of Science in Computer Science is an advanced, flexible online programme. You'll gain technical expertise and analytical skills, focusing on core computing principles and specialised areas like software development, data analysis, artificial intelligence, and cybersecurity.<br></br>The programme provides hands-on experience with industry tools, mastering algorithms and software engineering. You'll develop critical thinking, problem-solving, and secure software design skills, preparing you to create scalable solutions and address ethical challenges. Graduates are ready for careers in software engineering, data science, or cybersecurity, driving innovation in the digital world.`,
 };
 
-export const bachelorofcommerceinaccounting = {
+export const bcominaccounting = {
   heroContent: {
-    question: "Bachelor of Commerce in Accounting",
+    question: "B.Com in Accounting",
     image: "/images/courses-images/Bcom in accounting.jpeg",
+    downloadurl: "https://google.com",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",

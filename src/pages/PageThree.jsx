@@ -11,59 +11,58 @@ import Footer from "../components/footer/Footer";
 import FeedBackSection from "../components/feedback/FeedBackSection";
 import CourseStruture from "../components/coursestrutureSection/coursestrutureSection";
 import {
-  bachelorofbusinessadministrationinbusinessmanagement,
+  bbainbusinessmanagement,
   bachelorofscienceindatascience,
-  bachelorofcommerceinhospitalitymanagement,
-  masterofcommerceinhumanresourcemanagement,
+  bcominhospitalitymanagement,
+  mcominhumanresourcemanagement,
   masterofbusinessadministration,
-  diplomainoccupationalhealthsafety,
-  bachelorofscienceinhealthinformationmanagement,
-  bachelorofscienceinhospitaladministration,
-  bachelorofscienceinsafetyhealthandenvironmentalmanagement,
-  bachelorofeducationinprimaryeducation,
+  dipinoccupationalhealthsafety,
+  bscinhealthinformationmanagement,
+  bscinhospitaladministration,
+  bscinsafetyhealthandenvironmentalmanagement,
+  bedinprimaryeducation,
   postgraduatediplomainhighereducation,
-  masterofeducationalleadershipandmanagement,
-  masterofeducationincurriculumdesignandinstruction,
-  masterofscienceininformationsystemsmanagement,
-  masterofscienceincomputerscience,
+  medalleadershipandmanagement,
+  medincurriculumdesignandinstruction,
+  mscininformationsystemsmanagement,
+  mscincomputerscience,
   bscinnetworksecurityandcomputerforensics,
-  mastersofeducationinhighereducation,
-  bachelorofcommerceinaccounting
+  medinhighereducation,
+  bcominaccounting,
 } from "./PageThreeData";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 const PageThree = () => {
   const { name } = useParams();
-  const [course, setCourse] = useState()
-  
+  const [course, setCourse] = useState();
+
   const courseMap = {
-  bachelorofbusinessadministrationinbusinessmanagement,
-  bachelorofscienceindatascience,
-  bachelorofcommerceinhospitalitymanagement,
-  masterofcommerceinhumanresourcemanagement,
-  masterofbusinessadministration,
-  diplomainoccupationalhealthsafety,
-  bachelorofscienceinhealthinformationmanagement,
-  bachelorofscienceinhospitaladministration,
-  bachelorofscienceinsafetyhealthandenvironmentalmanagement,
-  bachelorofeducationinprimaryeducation,
-  postgraduatediplomainhighereducation,
-  masterofeducationalleadershipandmanagement,
-  masterofeducationincurriculumdesignandinstruction,
-  masterofscienceininformationsystemsmanagement,
-  masterofscienceincomputerscience,
-  bscinnetworksecurityandcomputerforensics,
-  mastersofeducationinhighereducation,
-  bachelorofcommerceinaccounting
-};
+    bbainbusinessmanagement,
+    bachelorofscienceindatascience,
+    bcominhospitalitymanagement,
+    mcominhumanresourcemanagement,
+    masterofbusinessadministration,
+    dipinoccupationalhealthsafety,
+    bscinhealthinformationmanagement,
+    bscinhospitaladministration,
+    bscinsafetyhealthandenvironmentalmanagement,
+    bedinprimaryeducation,
+    postgraduatediplomainhighereducation,
+    medalleadershipandmanagement,
+    medincurriculumdesignandinstruction,
+    mscininformationsystemsmanagement,
+    mscincomputerscience,
+    bscinnetworksecurityandcomputerforensics,
+    medinhighereducation,
+    bcominaccounting,
+  };
   useEffect(() => {
-  const courseData = courseMap[name];
-  setCourse(courseData);
-  console.log("Resolved course:", course?.heroContent);
-}, [name]);
- 
- 
+    const courseData = courseMap[name];
+    setCourse(courseData);
+    console.log("Resolved course:", course?.heroContent);
+  }, [name]);
+
   const faqData = [
     {
       question:
@@ -236,7 +235,7 @@ It's very important to us at Botho University that students receive timely assis
   //   "cta": true,
   //   "timer": true,
   //   "overview": true
- 
+
   // }
   return (
     <div className="">
@@ -245,15 +244,11 @@ It's very important to us at Botho University that students receive timely assis
       {/* <StaticHome /> */}
       <TimerHome
         data={course?.heroContent}
-        programOverview = {course?.programOverview}
+        programOverview={course?.programOverview}
       />
       {/* <Course /> */}
       <Faq faqData={course?.requirements} title="Requirements" />
-      <CourseStruture
-        courseStruture={
-          course?.courseStruture
-        }
-      />
+      <CourseStruture courseStruture={course?.courseStruture} />
       <FeedBackSection />
       <Faq faqData={faqData} />
       <BannerSection />
