@@ -678,6 +678,9 @@
   .secondary-paragraph.topper {
     padding: 0px !important;
   }
+  .course-card .ant-card-body {
+    gap: 0;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

@@ -120,7 +120,7 @@ const FeeHome = () => {
                     <img
                       className="fee-arrow-icon-img"
                       src={item.arrowIcon}
-                      alt=""
+                      alt=""3ee
                       srcset=""
                     />{" "}
                   </button>
