@@ -1,8 +1,10 @@
+export const baseUrl = "https://di00ymfrmfyeb.cloudfront.net/";
+
+
 export const bachelorofscienceindatascience = {
   heroContent: {
     question: "Bachelor of Science in Data Science",
     image: "/images/courses-images/Bsc in data science.jpeg",
-    downloadurl: "https://google.com",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -5192,7 +5194,7 @@ export const bcominaccounting = {
   heroContent: {
     question: "B.Com in Accounting",
     image: "/images/courses-images/Bcom in accounting.jpeg",
-    downloadurl: "https://google.com",
+    downloadurl: `${baseUrl}botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
