@@ -1,3 +1,5 @@
+import { baseUrl } from "./PageThreeData";
+
 export const bcominaccounting = {
   heroContent: {
     question: "B.Com in Accounting",
@@ -8,6 +10,7 @@ export const bcominaccounting = {
     totalProgrammeCredit: 480,
     noOfModules: "38 (36 Core and 2 Elective)",
     totalFee: "$6,240",
+    downloadurl: `${baseUrl}botho-univercity-BComAcc.pdf`,
     cta: true,
     timer: false,
     overview: false,
