@@ -424,7 +424,7 @@
 
   .footer-inside-con {
     padding: 10px;
-    width: 95%;
+    width: 98%;
     color: black;
     display: flex;
     flex-direction: column;
@@ -513,6 +513,9 @@
     .color-black-footer {
     color: #111111;
     margin-left: 0px;
+      word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
   }
 
 
@@ -570,6 +573,7 @@
 
   .terms-cond {
     display: flex;
+    gap: 50px;
   }
 
   .third-logo-and-content {

@@ -242,7 +242,7 @@ const Courses = ({
                       {item.description}
                     </p>
                     <button
-                      className="fourth-button read"
+                      className="fourth-button read explore-button-top"
                       onClick={() => handleCourse(item.title)}
                       style={{ cursor: "pointer" }}
                     >

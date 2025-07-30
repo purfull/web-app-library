@@ -991,11 +991,11 @@
 
   .next-button {
     left: 10%;
-    top: -10%;
+    /* top: -10%; */
   }
 
   .prev-button {
-    top: -10%;
+    /* top: -10%; */
     left: 2.5%;
   }
 
@@ -1106,12 +1106,12 @@
   }
 
   .next-button {
-    left: 9%;
-    top: -15%;
+    left: 9% ;
+    top: -10%;
   }
 
   .prev-button {
-    top: -15%;
+    top: -10%;
     left: 2.8%;
   }
 
