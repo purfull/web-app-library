@@ -84,6 +84,10 @@
   .fourth-button.read {
     width: 100%;
   }
+  .explore-button-top{
+    margin-top: 20px;
+
+  }
   .mobile-wrapper {
     position: relative;
     width: 100%;
@@ -561,7 +565,9 @@
     font-weight: 400;
     padding: 2px;
   }
+/* .explore-button-top{
 
+  } */
   .course-desc {
     color: #111111;
     font-size: 14px;
@@ -611,6 +617,8 @@
 
   .fourth-button.read {
     width: 100%;
+        margin-top: 20px;
+
   }
   .search-wrapper {
     position: relative;
@@ -643,9 +651,7 @@
     background-color: #841d26;
     object-fit: contain;
   }
-  .fourth-button.read {
-    width: 100%;
-  }
+ 
   .suggestions-list {
     position: absolute;
     top: 100%;

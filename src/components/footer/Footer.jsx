@@ -96,7 +96,7 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-third-con">
-                    <span className='heading-footer'>Contact US</span>
+                    <span className='heading-footer'>Contact Us</span>
                     <div className='third-logo-and-content'>
                         <img src="/logo/location.png" alt="" />
                         <a className='color-black-footer' href="">Botho Education Park, Kgale, Gaborone, Botswana</a>
@@ -107,10 +107,15 @@ const Footer = () => {
                         <a className='color-black-footer' href="">onlineadmissions@bothouniversity.ac.bw</a>
 
                     </div>
+                        <div className='third-logo-and-content'>
+                        <img src="/logo/whatsapp.png" alt="" />
+                        <a className='color-black-footer' href="">+267 77 017 160</a>
 
-                      <div className='third-logo-and-content'>
+                    </div>
+
+                    <div className='third-logo-and-content'>
                         <img src="/logo/phone.png" alt="" />
-                    <a className='color-black-footer' href="">+267 363 5455 / 363 5471</a>
+                        <a className='color-black-footer' href="">+267 363 5455 / 363 5471</a>
 
                     </div>
 
