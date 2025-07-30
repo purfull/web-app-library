@@ -1323,6 +1323,7 @@ export const mcominhumanresourcemanagement = {
     cta: true,
     timer: true,
     overview: true,
+    launchDate: "2025-08-02T00:00:00", // <<< unique per course
   },
   courseStruture: [
     {
