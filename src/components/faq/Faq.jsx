@@ -9,11 +9,29 @@ gsap.registerPlugin(ScrollTrigger);
 const Faq = ({ faqData, title }) => {
   const [openIndex, setOpenIndex] = useState(null);
 
-  const faqPart2Ref = useRef(null);
-
   const toggleFaq = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };
+  const faqPart2Ref = useRef();
+  useEffect(() => {
+    if (!faqPart2Ref.current || window.innerWidth < 1024) return;
+
+    const titleElement = document.querySelector(".faq-heading");
+
+    ScrollTrigger.create({
+      trigger: faqPart2Ref.current,
+      start: "top-=60vh top",
+      end: "bottom 20%",
+      // markers: true,
+      scrub: true,
+      pin: titleElement,
+      pinSpacing: true,
+    });
+
+    return () => {
+      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+    };
+  }, []);
 
   return (
     <div className="faq-container page-gap">
