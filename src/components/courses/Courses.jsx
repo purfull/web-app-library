@@ -49,6 +49,7 @@ const Courses = ({
     const slug = cleaned.toLowerCase();
     navigate(`/course/${slug}`);
     window.scrollTo(0, 0);
+    console.log("ffffff");
   };
 
   const handleCourse = (course) => {

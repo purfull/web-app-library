@@ -2332,7 +2332,7 @@ export const bscinhospitaladministration = {
 
 export const bscinsafetyhealthandenvironmentalmanagement = {
   heroContent: {
-    question: "BSc in Safety, Health and Environmental Management",
+    question: "Bsc in Safety, Health and Environmental Management",
     image: "/images/courses-images/BSc in Safety..png",
     minPeriod: 4,
     maxPeriod: 6,
@@ -3376,7 +3376,7 @@ export const bscindatascience = {
 
 export const bscinnetworksecurityandcomputerforensics = {
   heroContent: {
-    question: "BSc in Network Security and Computer Forensics",
+    question: "Bsc in Network Security and Computer Forensics",
     image: "/images/courses-images/BSc in network security.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
