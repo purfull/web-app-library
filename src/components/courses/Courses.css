@@ -61,6 +61,7 @@
     border-radius: 30px;
     background-color: #ffffff;
     gap: 12px;
+    cursor: pointer;
   }
   .transparent-button img {
     display: inline-block;
@@ -78,15 +79,16 @@
     gap: 20px;
   }
   .cover-image {
-    border-radius: 8px ;
+    border-radius: 8px !important;
+
   }
 
   .fourth-button.read {
     width: 100%;
+    cursor: pointer;
   }
-  .explore-button-top{
+  .explore-button-top {
     margin-top: 20px;
-
   }
   .mobile-wrapper {
     position: relative;
@@ -103,13 +105,15 @@
     /* margin-top: 20px; */
   }
   .search-button-text {
-    /* padding-right: 6rem; */
-    justify-content: center;
+    width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     outline: none;
     border: none;
     background: transparent;
     font-size: 16px;
+    margin-left: 8px;
   }
   .transparent-button img {
     display: inline-block;
@@ -122,6 +126,7 @@
   }
   .fourth-button.read {
     width: 100%;
+    cursor: pointer;
   }
   .suggestions-list {
     position: absolute;
@@ -253,6 +258,7 @@
     border-radius: 30px;
     background-color: #ffffff;
     gap: 12px;
+    cursor: pointer;
   }
   .transparent-button img {
     display: inline-block;
@@ -270,11 +276,12 @@
     gap: 20px;
   }
   .cover-image {
-    border-radius: 8px;
+    border-radius: 8px !important;
   }
 
   .fourth-button.read {
     width: 100%;
+    cursor: pointer;
   }
   .mobile-wrapper {
     position: relative;
@@ -291,13 +298,15 @@
     margin-top: 20px;
   }
   .search-button-text {
-    /* padding-right: 6rem; */
-    justify-content: center;
+    width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     outline: none;
     border: none;
     background: transparent;
     font-size: 16px;
+    margin-left: 8px;
   }
   .transparent-button img {
     display: inline-block;
@@ -310,6 +319,7 @@
   }
   .fourth-button.read {
     width: 100%;
+    cursor: pointer;
   }
   .suggestions-list {
     position: absolute;
@@ -439,6 +449,7 @@
     background-color: #ffffff;
     align-items: center;
     gap: 12px;
+    cursor: pointer;
   }
   .transparent-button img {
     display: inline-block;
@@ -456,11 +467,12 @@
     gap: 20px;
   }
   .cover-image {
-    border-radius: 8px;
+    border-radius: 8px !important;
   }
 
   .fourth-button.read {
     width: 100%;
+    cursor: pointer;
   }
   .search-wrapper {
     position: relative;
@@ -476,13 +488,15 @@
     margin-top: 20px;
   }
   .search-button-text {
-    /* padding-right: 6rem; */
-    justify-content: center;
+    width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     outline: none;
     border: none;
     background: transparent;
     font-size: 16px;
+    margin-left: 8px;
   }
   .transparent-button img {
     display: inline-block;
@@ -495,6 +509,7 @@
   }
   .fourth-button.read {
     width: 100%;
+    cursor: pointer;
   }
   .suggestions-list {
     position: absolute;
@@ -567,7 +582,7 @@
     font-weight: 400;
     padding: 2px;
   }
-/* .explore-button-top{
+  /* .explore-button-top{
 
   } */
   .course-desc {
@@ -597,6 +612,7 @@
     border-radius: 30px;
     gap: 12px;
     background-color: #ffffff;
+    cursor: pointer;
   }
   .transparent-button img {
     display: inline-block;
@@ -614,13 +630,13 @@
     gap: 20px;
   }
   .cover-image {
-    border-radius: 8px;
+    border-radius: 8px !important;
   }
 
   .fourth-button.read {
     width: 100%;
-        margin-top: 20px;
-
+    margin-top: 20px;
+    cursor: pointer;
   }
   .search-wrapper {
     position: relative;
@@ -636,13 +652,15 @@
     margin-top: 20px;
   }
   .search-button-text {
-    padding-right: 6rem;
-    justify-content: center;
+    width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     outline: none;
     border: none;
     background: transparent;
     font-size: 16px;
+    margin-left: 8px;
   }
   .transparent-button img {
     display: inline-block;
@@ -653,7 +671,7 @@
     background-color: #841d26;
     object-fit: contain;
   }
- 
+
   .suggestions-list {
     position: absolute;
     top: 100%;
@@ -758,6 +776,7 @@
     border-radius: 30px;
     background-color: #ffffff;
     gap: 12px;
+    cursor: pointer;
   }
 
   .ant-card-body {
@@ -767,7 +786,7 @@
     gap: 20px;
   }
   .cover-image {
-    border-radius: 8px;
+    border-radius: 8px !important;
   }
   .button-text {
     justify-content: center;
@@ -793,7 +812,7 @@
     cursor: pointer;
     margin-top: 20px;
   }
-  .search-button-text {
+  /* .search-button-text {
     padding-right: 6rem;
     justify-content: center;
     display: flex;
@@ -801,7 +820,19 @@
     border: none;
     background: transparent;
     font-size: 16px;
+  } */
+  .search-button-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    margin-left: 8px;
   }
+
   .transparent-button img {
     display: inline-block;
     border-radius: 50%;
@@ -813,6 +844,7 @@
   }
   .fourth-button.read {
     width: 100%;
+    cursor: pointer;
   }
   .suggestions-list {
     position: absolute;

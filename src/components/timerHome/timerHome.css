@@ -14,7 +14,6 @@
 
   .right-part {
     display: none;
-
   }
 
   .TimerImage {
@@ -46,7 +45,6 @@
 
   .image-portion {
     padding-top: 20px;
-
   }
 
   .sub-heading {
@@ -76,7 +74,6 @@
     text-align: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     padding-bottom: 10px;
-    
   }
 
   .time-block h2 {
@@ -118,6 +115,7 @@
     border-radius: 30px;
     background-color: #ffffff;
     gap: 12px;
+    cursor: pointer;
   }
 
   .download-button img {
@@ -139,16 +137,16 @@
   .sub-heading {
     color: #111111;
   }
-  .right-part-mobile{
+  .right-part-mobile {
     display: block;
   }
-  .mobile-img-comtainer{
+  .mobile-img-comtainer {
     height: 50vh;
-       background-size: cover;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
-  
+
   .wraper {
     padding: 20px 20px;
   }
@@ -156,16 +154,15 @@
   .overview-content {
     margin-top: 16px;
   }
-   .divider-vertical{
+  .divider-vertical {
     height: 50px;
-    background-color: #D9B9BE;
+    background-color: #d9b9be;
     width: 1px;
     padding: 0;
   }
-
 }
 
-@media screen and (min-width :600px) {
+@media screen and (min-width: 600px) {
   .timer-home-container {
     display: flex;
     flex-direction: column;
@@ -181,7 +178,6 @@
 
   .right-part {
     display: none;
-
   }
 
   .TimerImage {
@@ -213,7 +209,6 @@
 
   .image-portion {
     padding-top: 20px;
-
   }
 
   .sub-heading {
@@ -284,6 +279,7 @@
     border-radius: 30px;
     background-color: #ffffff;
     gap: 12px;
+    cursor: pointer;
   }
 
   .download-button img {
@@ -305,33 +301,29 @@
   .sub-heading {
     color: #111111;
   }
-  .right-part-mobile{
+  .right-part-mobile {
     display: block;
   }
-  .mobile-img-comtainer{
+  .mobile-img-comtainer {
     height: 50vh;
-       background-size: cover;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
-  
+
   .wraper {
     padding: 20px 20px;
   }
- .divider-vertical{
+  .divider-vertical {
     height: 50px;
-    background-color: #D9B9BE;
+    background-color: #d9b9be;
     width: 1px;
     padding: 0;
   }
-
-  
 }
 
-
-
-@media screen and (min-width :768px) {
-   .timer-home-container {
+@media screen and (min-width: 768px) {
+  .timer-home-container {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -346,7 +338,6 @@
 
   .right-part {
     display: none;
-
   }
 
   .TimerImage {
@@ -378,7 +369,6 @@
 
   .image-portion {
     padding-top: 20px;
-
   }
 
   .sub-heading {
@@ -431,9 +421,9 @@
     align-items: center;
     gap: 8px;
   }
- .divider-vertical{
+  .divider-vertical {
     height: 50px;
-    background-color: #D9B9BE;
+    background-color: #d9b9be;
     width: 2px;
   }
   .forButton {
@@ -453,6 +443,7 @@
     border-radius: 30px;
     background-color: #ffffff;
     gap: 12px;
+    cursor: pointer;
   }
 
   .download-button img {
@@ -474,25 +465,22 @@
   .sub-heading {
     color: #111111;
   }
-  .right-part-mobile{
+  .right-part-mobile {
     display: block;
   }
-  .mobile-img-comtainer{
+  .mobile-img-comtainer {
     height: 50vh;
-       background-size: cover;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
-  
+
   .wraper {
     padding: 20px 20px;
   }
-
-
-
 }
 
-@media screen and (min-width :992px) {
+@media screen and (min-width: 992px) {
   .timer-home-container {
     display: flex;
     flex-direction: row;
@@ -548,7 +536,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
   }
 
   .TimerImage .img {
@@ -629,6 +616,7 @@
     border-radius: 30px;
     background-color: #ffffff;
     gap: 12px;
+    cursor: pointer;
   }
 
   .counter-box-main {
@@ -638,9 +626,9 @@
     height: 100%;
     width: 100%;
   }
-  .divider-vertical{
+  .divider-vertical {
     height: 60px;
-    background-color: #D9B9BE;
+    background-color: #d9b9be;
     width: 1px;
     padding: 0;
   }
@@ -676,7 +664,6 @@
   .right-part-mobile {
     display: none;
   }
-
 }
 
 @media only screen and (min-width: 1200px) {
@@ -712,7 +699,6 @@
     padding: 10px 10px 10px 5px;
     border-radius: 4px;
     color: #575757;
-    
   }
 
   .image-portion {
@@ -737,11 +723,10 @@
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-
   }
-  .divider-vertical{
+  .divider-vertical {
     height: 50px;
-    background-color: #D9B9BE;
+    background-color: #d9b9be;
     width: 1px;
     padding: 0;
   }
@@ -824,6 +809,7 @@
     border-radius: 30px;
     background-color: #ffffff;
     gap: 12px;
+    cursor: pointer;
   }
 
   .counter-box-main {

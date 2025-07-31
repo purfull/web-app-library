@@ -4178,7 +4178,7 @@ export const medincurriculumdesignandinstruction = {
 
 export const bscinnetworksecurityandcomputerforensics = {
   heroContent: {
-    question: "BSc in Network Security and Computer Forensics",
+    question: "Bsc in Network Security and Computer Forensics",
     image: "/images/courses-images/BSc in network security.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,

@@ -82,10 +82,10 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .page-gap {
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-top: 60px;
-}
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 60px;
+  }
   .primary-heading {
     font-size: 24px;
     font-weight: 600;
@@ -114,6 +114,7 @@
     font-size: 12px;
     font-weight: 500;
     line-height: 17.6px;
+    cursor: pointer;
   }
   .search-button {
     border-radius: var(--search-button-border-radius);
@@ -123,6 +124,7 @@
     color: var(--primary-color);
     font-size: 12px;
     font-weight: 400;
+    cursor: pointer;
   }
   .fourth-button {
     border-radius: var(--fourth-button-border-radius);
@@ -132,6 +134,7 @@
     color: white;
     padding: 10px;
     border: var(--fourth-button-border);
+    cursor: pointer;
   }
   .secondary-button {
     border-radius: var(--primary-button-border-radius);
@@ -141,6 +144,7 @@
     line-height: 17.6px;
     color: var(--secondary-button-text-color);
     border: var(--primary-button-border);
+    cursor: pointer;
   }
 }
 
@@ -173,6 +177,7 @@
     font-size: 12px;
     font-weight: 500;
     line-height: 17.6px;
+    cursor: pointer;
   }
   .search-button {
     border-radius: var(--search-button-border-radius);
@@ -182,6 +187,7 @@
     color: var(--primary-color);
     font-size: 12px;
     font-weight: 400;
+    cursor: pointer;
   }
   .fourth-button {
     border-radius: var(--fourth-button-border-radius);
@@ -191,6 +197,7 @@
     color: white;
     padding: 10px;
     border: var(--fourth-button-border);
+    cursor: pointer;
   }
   .secondary-button {
     border-radius: var(--primary-button-border-radius);
@@ -200,6 +207,7 @@
     line-height: 17.6px;
     color: var(--secondary-button-text-color);
     border: var(--primary-button-border);
+    cursor: pointer;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -232,6 +240,7 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 17.6px;
+    cursor: pointer;
   }
   .search-button {
     border-radius: var(--search-button-border-radius);
@@ -241,6 +250,7 @@
     color: var(--primary-color);
     font-size: 12px;
     font-weight: 400;
+    cursor: pointer;
   }
   .fourth-button {
     border-radius: var(--fourth-button-border-radius);
@@ -250,6 +260,7 @@
     color: white;
     padding: 10px;
     border: var(--fourth-button-border);
+    cursor: pointer;
   }
   .secondary-button {
     border-radius: var(--primary-button-border-radius);
@@ -259,6 +270,7 @@
     line-height: 17.6px;
     color: var(--secondary-button-text-color);
     border: var(--primary-button-border);
+    cursor: pointer;
   }
 }
 
@@ -292,6 +304,7 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 17.6px;
+    cursor: pointer;
   }
   .search-button {
     border-radius: var(--search-button-border-radius);
@@ -301,6 +314,7 @@
     color: var(--primary-color);
     font-size: 12px;
     font-weight: 400;
+    cursor: pointer;
   }
   .fourth-button {
     border-radius: var(--fourth-button-border-radius);
@@ -310,6 +324,7 @@
     color: white;
     padding: 10px;
     border: var(--fourth-button-border);
+    cursor: pointer;
   }
   .secondary-button {
     border-radius: var(--primary-button-border-radius);
@@ -319,6 +334,7 @@
     line-height: 17.6px;
     color: var(--secondary-button-text-color);
     border: var(--primary-button-border);
+    cursor: pointer;
   }
 }
 

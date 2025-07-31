@@ -23,6 +23,7 @@
     padding: 3px 10px !important;
     margin-left: 2%;
     gap: 0px;
+    cursor: pointer;
   }
 
   .graduate.png {
@@ -132,6 +133,7 @@
     padding: 3px 10px !important;
     margin-left: 2%;
     gap: 0px;
+    cursor: pointer;
   }
 
   .graduate.png {
@@ -340,6 +342,9 @@
     height: 500px;
     position: absolute;
   }
+  .enquire-now-button {
+    cursor: pointer;
+  }
 
   /* .shades {
     position: absolute;
@@ -366,6 +371,9 @@
       bottom: 10px;
     }
 
+    .enquire-now-button {
+      cursor: pointer;
+    }
     /* .shades img:nth-child(2) {
     width: 250px;
     right: 40px;
@@ -421,7 +429,7 @@
       padding: 6px;
       border-radius: 50%;
     }
-    */ .banner-container {
+    .banner-container {
       display: grid;
       height: 656px;
     }
@@ -493,6 +501,9 @@
     .right-banner img {
       height: 606px;
       position: absolute;
+    }
+    .enquire-now-button {
+      cursor: pointer;
     }
   }
   /* .shades {
@@ -638,6 +649,7 @@
     padding: 10px 5px !important;
     gap: 0px;
     margin-left: 0;
+    cursor: pointer;
   }
   .secondary-paragraph {
     padding: 0 !important;
