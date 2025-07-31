@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./bannersection.css";
 import bgImage from "/images/cta-bg.jpg";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
 const BannerSection = () => {
   const handleEnq = () => {
@@ -8,8 +11,9 @@ const BannerSection = () => {
   window.open('https://bothouniversity.academiaerp.com/enquire/', '_blank', 'noopener,noreferrer');
 
   }
+  
   return (
-    <div className="main page-gap">
+    <div className="main page-gap ">
       <div className="banner-container">
         <div
           className="coloured-bg"

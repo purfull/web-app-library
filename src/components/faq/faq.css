@@ -189,3 +189,7 @@
     line-height: 150%;
   }
 }
+
+  .faq-answer {
+    transition: all 1s ease-in-out;
+  }

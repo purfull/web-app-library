@@ -150,6 +150,22 @@ It's very important to us at Botho University that students receive timely assis
       },
     },
     {
+      title: "Bsc in Hospital Administration",
+      image: "/images/courses-images/Square/BSc in Hospitality.png",
+      description: {
+        one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
+        two: "2 .Introduction to Financial Markets 1",
+        three: "3. Introduction to Financial Markets 2",
+        four: "4. Client Service and Financial Advice 1",
+        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
+      },
+      amountdetails: {
+        fees: "6,240",
+        credits: "480",
+        module: "13",
+      },
+    },
+    {
       title: "B.Com in Hospitality Management",
       image: "/images/courses-images/Square/Bcom in Hospitality.png",
       description: {
@@ -182,22 +198,6 @@ It's very important to us at Botho University that students receive timely assis
       },
     },
 
-    {
-      title: "Bsc in Hospital Administration",
-      image: "/images/courses-images/Square/BSc in Hospitality.png",
-      description: {
-        one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
-        two: "2 .Introduction to Financial Markets 1",
-        three: "3. Introduction to Financial Markets 2",
-        four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
-      },
-      amountdetails: {
-        fees: "6,240",
-        credits: "480",
-        module: "13",
-      },
-    },
     {
       title: "Bachelor of Science in Data Science",
       image: "/images/courses-images/Square/Bsc in data science.png",

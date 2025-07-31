@@ -29,6 +29,26 @@ const Content = () => {
   //   };
   // }, []);
 
+  const contentPart2Ref = useRef();
+  useEffect(() => {
+    if (!contentPart2Ref.current || window.innerWidth < 1024) return;
+
+    const titleElement = document.querySelector(".content-part1");
+
+    ScrollTrigger.create({
+      trigger: contentPart2Ref.current,
+      start: "top-=60vh top",
+      end: "bottom 40%",
+      // markers: true,
+      scrub: true,
+      pin: titleElement,
+      pinSpacing: false,
+    });
+
+    return () => {
+      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+    };
+  }, []);
   const contentData = [
     {
       question: "Cutting-Edge Digital Learning Environment",
@@ -95,7 +115,7 @@ const Content = () => {
           </button> 
         </div>*/}
       </div>
-      <div className="content-part2">
+      <div className="content-part2" ref={contentPart2Ref}>
         <span className="secondary-paragraph coloured-padding black">
           Choosing the right institution for online learning is crucial for
           academic success and career advancement. Botho University stands out
