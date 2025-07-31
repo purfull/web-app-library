@@ -5,7 +5,7 @@ export const bachelorofscienceindatascience = {
   heroContent: {
     question: "Bachelor of Science in Data Science",
     image: "/images/courses-images/Bsc in data science.jpeg",
-    downloadurl: `${baseUrl}botho-univercity-BComAcc.pdf`,
+    downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -468,7 +468,7 @@ export const bbainbusinessmanagement = {
   heroContent: {
     question: "BBA in Business Management",
     image: "/images/courses-images/BBA in bus mgmt.jpeg",
-    downloadurl: `${baseUrl}botho-univercity-BComAcc.pdf`,
+    downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -913,7 +913,7 @@ export const bcominhospitalitymanagement = {
   heroContent: {
     question: "B.Com in Hospitality Management",
     image: "/images/courses-images/Bcom in Hospitality.jpeg",
-    downloadurl: `${baseUrl}botho-univercity-BComAcc.pdf`,
+    downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -1316,7 +1316,7 @@ export const mcominhumanresourcemanagement = {
   heroContent: {
     question: "M.Com in Human Resource Management",
     image: "/images/courses-images/MCom in Human resource.jpeg",
-    downloadurl: `${baseUrl}botho-univercity-BComAcc.pdf`,
+    downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -1536,7 +1536,7 @@ export const masterofbusinessadministration = {
   heroContent: {
     question: "Master of Business Administration (MBA)",
     image: "/images/courses-images/MBA.jpeg",
-    downloadurl: `${baseUrl}botho-univercity-BComAcc.pdf`,
+    downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -1782,7 +1782,7 @@ export const dipinoccupationalhealthsafety = {
   heroContent: {
     question: "Diploma in Occupational Health Safety",
     image: "/images/courses-images/Diploma in Occup.jpeg",
-    downloadurl: `${baseUrl}botho-univercity-BComAcc.pdf`,
+    downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$13",
@@ -1994,7 +1994,7 @@ export const bscinhealthinformationmanagement = {
   heroContent: {
     question: "Bsc in Health Information Management",
     image: "/images/courses-images/BSc in health info.jpeg",
-    downloadurl: `${baseUrl}botho-univercity-BComAcc.pdf`,
+    downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -2389,7 +2389,7 @@ export const bscinhospitaladministration = {
   heroContent: {
     question: "Bsc in Hospital Administration",
     image: "/images/courses-images/BSc in Hospitality.jpeg",
-    downloadurl: `${baseUrl}botho-univercity-BComAcc.pdf`,
+    downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -2791,7 +2791,7 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
   heroContent: {
     question: "Bsc in Safety, Health and Environmental Management",
     image: "/images/courses-images/BSc in Safety..png",
-    downloadurl: `${baseUrl}botho-univercity-BComAcc.pdf`,
+    downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -3212,7 +3212,7 @@ export const bedinprimaryeducation = {
   heroContent: {
     question: "BED in Primary Education(English Language and Mathematics)",
     image: "/images/courses-images/Bed in Primary.jpeg",
-    downloadurl: `${baseUrl}botho-univercity-BComAcc.pdf`,
+    downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -3567,7 +3567,7 @@ export const postgraduatediplomainhighereducation = {
   heroContent: {
     question: "Post Graduate Diploma in Higher Education",
     image: "/images/courses-images/PGDHE.jpeg",
-    downloadurl: `${baseUrl}botho-univercity-BComAcc.pdf`,
+    downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 1,
     maxPeriod: 2,
     programmeCredit: "$19.50",
@@ -3729,7 +3729,7 @@ export const medalleadershipandmanagement = {
   heroContent: {
     question: "MED - Leadership and Management",
     image: "/images/courses-images/Med in educational leadership and mgmt.jpeg",
-    downloadurl: `${baseUrl}botho-univercity-BComAcc.pdf`,
+    downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -3945,7 +3945,7 @@ export const medincurriculumdesignandinstruction = {
   heroContent: {
     question: "MED in Curriculum Design and Instruction",
     image: "/images/courses-images/Med in curriculum.jpeg",
-    downloadurl: `${baseUrl}botho-univercity-BComAcc.pdf`,
+    downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -4180,7 +4180,7 @@ export const bscinnetworksecurityandcomputerforensics = {
   heroContent: {
     question: "BSc in Network Security and Computer Forensics",
     image: "/images/courses-images/BSc in network security.jpeg",
-    downloadurl: `${baseUrl}botho-univercity-BComAcc.pdf`,
+    downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -4595,7 +4595,7 @@ export const medinhighereducation = {
   heroContent: {
     question: "MED in Higher Education",
     image: "/images/courses-images/Med in higher education.jpeg",
-    downloadurl: `${baseUrl}botho-univercity-BComAcc.pdf`,
+    downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -4816,7 +4816,7 @@ export const mscininformationsystemsmanagement = {
   heroContent: {
     question: "Msc in Information Systems Management",
     image: "/images/courses-images/Msc in Information Systems management.jpeg",
-    downloadurl: `${baseUrl}botho-univercity-BComAcc.pdf`,
+    downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -5009,7 +5009,7 @@ export const mscincomputerscience = {
   heroContent: {
     question: "Msc in Computer Science",
     image: "/images/courses-images/Msc in computer science.jpeg",
-    downloadurl: `${baseUrl}botho-univercity-BComAcc.pdf`,
+    downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -5195,7 +5195,7 @@ export const bcominaccounting = {
   heroContent: {
     question: "B.Com in Accounting",
     image: "/images/courses-images/Bcom in accounting.jpeg",
-    downloadurl: `${baseUrl}botho-univercity-BComAcc.pdf`,
+    downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
