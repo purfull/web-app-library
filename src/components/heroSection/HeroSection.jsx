@@ -30,7 +30,7 @@ const herobanner = [
       "Pursue accredited, globally recognized qualifications designed for flexibility, affordability, and career advancement - anytime, anywhere.",
     button: "Explore Programmes",
     arrowIcon: "/icon/arrow_forward.png",
-    backgroundImg: "/images/herobanner.png",
+    backgroundImg: "/images/herobanner-2.png",
     calledtoAction:
       "98% of our graduates will recommend us to others (Source: 2025 Graduate Tracer Study)",
 
@@ -41,26 +41,26 @@ const herobanner = [
       "/images/Ellipse 24.png",
     ],
   },
-  {
-    Primarytittle:
-      "Empower Your Future with <span style='background-color: #841D2E'>Botho University </span> Online",
-    subtittle:
-      "Pursue accredited, globally recognized qualifications designed for flexibility, affordability, and career advancement - anytime, anywhere.",
-    button: "Explore Programmes",
-    arrowIcon: "/icon/arrow_forward.png",
-    backgroundImg: "/images/herobanner.png",
-    calledtoAction:
+  // {
+  //   Primarytittle:
+  //     "Empower Your Future with <span style='background-color: #841D2E'>Botho University </span> Online",
+  //   subtittle:
+  //     "Pursue accredited, globally recognized qualifications designed for flexibility, affordability, and career advancement - anytime, anywhere.",
+  //   button: "Explore Programmes",
+  //   arrowIcon: "/icon/arrow_forward.png",
+  //   backgroundImg: "/images/herobanner.png",
+  //   calledtoAction:
 
-      "98% of our graduates will recommend us to others  (Source: Based on number of respondents to the 2025 Graduate Tracer Survey)",
+  //     "98% of our graduates will recommend us to others  (Source: Based on number of respondents to the 2025 Graduate Tracer Survey)",
 
 
-    dynamicimg: [
-      "/images/Ellipse 21.png",
-      "/images/Ellipse 22.png",
-      "/images/Ellipse 23.png",
-      "/images/Ellipse 24.png",
-    ],
-  },
+  //   dynamicimg: [
+  //     "/images/Ellipse 21.png",
+  //     "/images/Ellipse 22.png",
+  //     "/images/Ellipse 23.png",
+  //     "/images/Ellipse 24.png",
+  //   ],
+  // },
 ];
 
 
@@ -76,7 +76,7 @@ const HeroSection = () => {
     <>
       <Carousel
         className="carosal-inner"
-        // autoplay
+        autoplay
         // dotPosition="bottom"
         dots={false}
       >
