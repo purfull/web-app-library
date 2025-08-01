@@ -932,6 +932,9 @@
     align-items: center;
     /* justify-content: space-between; */
   }
+  .main-fee-deatils{
+    justify-content: space-around;
+  }
 
   .title-logo-main {
     align-items: center;

@@ -54,6 +54,7 @@
 
 import React from 'react'
 import "./footer.css"
+import Policy from '../policy/policy';
 import { FaFacebookF, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
 
 
@@ -93,6 +94,9 @@ const Footer = () => {
 
 
 
+
+
+
                 </div>
 
                 <div className="footer-third-con">
@@ -107,7 +111,7 @@ const Footer = () => {
                         <a className='color-black-footer' href="">onlineadmissions@bothouniversity.ac.bw</a>
 
                     </div>
-                        <div className='third-logo-and-content'>
+                    <div className='third-logo-and-content'>
                         <img src="/logo/whatsapp.png" alt="" />
                         <a className='color-black-footer' href="">+267 77 017 160</a>
 
@@ -155,11 +159,12 @@ const Footer = () => {
                 <div><p className=' black' style={{ color: "#000" }}>© Copyright 2025, All Rights Reserved by Botho University</p></div>
 
                 <div className='terms-cond'>
-                    <p className=' black' style={{ color: "#000" }}>Terms & Conditions</p>
-                    <p className=' black' style={{ color: "#000" }}>Privacy Policy</p>
+
+                    <a className='color-black-footer black' href='' style={{ color: "#000" }}>Terms & Conditions</a>
+                    <a className='color-black-footer black' style={{ color: "#000" }} href=''>Privacy Policy</a>
+
                 </div>
             </div>
-
 
         </div>
 
