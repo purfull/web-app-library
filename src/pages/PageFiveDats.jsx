@@ -2998,7 +2998,7 @@ export const bedinprimaryeducation = {
   ],
 };
 
-export const bscindatascience = {
+export const bachelorofscienceindatascience = {
   heroContent: {
     question: "Bachelor of Science in Data Science",
     image: "/images/courses-images/Bsc in data science.jpeg",

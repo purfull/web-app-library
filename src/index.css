@@ -94,7 +94,7 @@
     font-family: var(--primary-font-family);
   }
   .secondary-paragraph {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     line-height: var(--secondary-paragraph-line-height);
     color: var(--primary-heading-colour);
@@ -157,7 +157,7 @@
     font-family: var(--primary-font-family);
   }
   .secondary-paragraph {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     line-height: var(--secondary-paragraph-line-height);
     color: var(--primary-heading-colour);
