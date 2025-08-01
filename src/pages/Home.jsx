@@ -13,6 +13,8 @@ import TimerHome from "../components/timerHome/TimerHome";
 import CourseStruture from "../components/coursestrutureSection/coursestrutureSection";
 import FeeHome from "../components/feehoemsection/feehome";
 import EnquireSection from "../components/EnquireSection/EnquireSection";
+import Policy from "../components/policy/policy";
+import Terms from "../components/terms/terms";
 
 const HomePage = () => {
   const cardData = [
@@ -191,7 +193,7 @@ It's very important to us at Botho University that students receive timely assis
         buttonTextColor="#000000"
         arrows="/icon/arrow_forward.png"
       />
-      <Footer />
+      <Footer/>
       {/* <StaticHome />
       <TimerHome />
       <CourseStruture /> */}
