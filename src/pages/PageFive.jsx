@@ -16,13 +16,10 @@ import FeeTable from "../components/feeTable/feeTable";
 import {
   bbainbusinessmanagement,
   bcominaccounting,
-bcominhospitalitymanagement,
+  bcominhospitalitymanagement,
   dipinoccupationalhealthsafety,
-
   bscinhospitaladministration,
-
-
-  bscindatascience,
+  bachelorofscienceindatascience,
   mcominhumanresourcemanagement,
   masterofbusinessadministration,
   bscinhealthinformationmanagement,
@@ -40,37 +37,35 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 const PageFive = () => {
-  
-    const { name } = useParams();
-    const [course, setCourse] = useState()
-    const courseMap = {
-  bbainbusinessmanagement,
-  bcominaccounting,
-  bcominhospitalitymanagement,
+  const { name } = useParams();
+  const [course, setCourse] = useState();
+  const courseMap = {
+    bbainbusinessmanagement,
+    bcominaccounting,
+    bcominhospitalitymanagement,
 
-  bscindatascience,
-  mcominhumanresourcemanagement,
-  masterofbusinessadministration,
-  dipinoccupationalhealthsafety,
-  bscinhealthinformationmanagement,
-  bscinhospitaladministration,
-  bscinsafetyhealthandenvironmentalmanagement,
-  bedinprimaryeducation,
-  postgraduatediplomainhighereducation,
-  medleadershipandmanagement,
-  medincurriculumdesignandinstruction,
-  mscininformationsystemsmanagement,
-  mscincomputerscience,
-  bscinnetworksecurityandcomputerforensics,
-  medinhighereducation,
-};
+    bachelorofscienceindatascience,
+    mcominhumanresourcemanagement,
+    masterofbusinessadministration,
+    dipinoccupationalhealthsafety,
+    bscinhealthinformationmanagement,
+    bscinhospitaladministration,
+    bscinsafetyhealthandenvironmentalmanagement,
+    bedinprimaryeducation,
+    postgraduatediplomainhighereducation,
+    medleadershipandmanagement,
+    medincurriculumdesignandinstruction,
+    mscininformationsystemsmanagement,
+    mscincomputerscience,
+    bscinnetworksecurityandcomputerforensics,
+    medinhighereducation,
+  };
   useEffect(() => {
-  const courseData = courseMap[name];
-  setCourse(courseData);
-  console.log("Resolved course:", course?.heroContent);
-}, [name]);
-  
-  
+    const courseData = courseMap[name];
+    setCourse(courseData);
+    console.log("Resolved course:", course?.heroContent);
+  }, [name]);
+
   const faqData = [
     {
       question:
@@ -540,18 +535,17 @@ It's very important to us at Botho University that students receive timely assis
   ];
 
   const heroData = {
-  "title": "Bachelor of Commerce in Accounting",
-  "minPeriod": 4,
-  "maxPeriod": 6,
-  "programmeCredit": "$13",
-  "totalProgrammeCredit": 480,
-  "noOfModules": "38 (36 Core and 2 Elective)",
-  "totalFee": "$6,240",
-  "cta": false,
-  "timer": false,
-  "overview": false
-}
- 
+    title: "Bachelor of Commerce in Accounting",
+    minPeriod: 4,
+    maxPeriod: 6,
+    programmeCredit: "$13",
+    totalProgrammeCredit: 480,
+    noOfModules: "38 (36 Core and 2 Elective)",
+    totalFee: "$6,240",
+    cta: false,
+    timer: false,
+    overview: false,
+  };
 
   return (
     <div className="">

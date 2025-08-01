@@ -1,6 +1,5 @@
 export const baseUrl = "https://di00ymfrmfyeb.cloudfront.net";
 
-
 export const bachelorofscienceindatascience = {
   heroContent: {
     question: "Bachelor of Science in Data Science",

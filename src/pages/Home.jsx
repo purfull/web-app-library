@@ -16,7 +16,6 @@ import EnquireSection from "../components/EnquireSection/EnquireSection";
 
 const HomePage = () => {
   const cardData = [
-
     {
       cover: "/images/courses-images/Bcom in Hospitality.jpeg",
       courseName: "Undergraduate Programme",
@@ -48,11 +47,11 @@ const HomePage = () => {
       subjects: "",
     },
     {
-      cover: "/images/courses-images/MCom in Human resource.jpeg",
+      cover: "/images/courses-images/Msc in computer science.jpeg",
       courseName: "Postgraduate Programme",
-      title: "M.Com in Human Resource Management",
+      title: "Msc in Computer Science",
       description:
-        "Looking to become a leader in talent management? Our Master of Commerce in Human Resource Management (MCom in HRM) is a transformative qualification designed for the modern business landscape. You'll gain a robust foundation in strategic HR planning, recruitment, performance assessment, and more.",
+        "Aspiring to excel in the tech industry? Our Master of Science in Computer Science is an advanced, flexible online programme. You'll gain technical expertise and analytical skills, focusing on core computing principles and specialised areas like software development, data analysis, artificial intelligence, and cybersecurity.",
     },
     {
       cover: "/images/courses-images/BBA in bus mgmt.jpeg",
@@ -60,7 +59,7 @@ const HomePage = () => {
       title: "BBA in Business Management",
       description:
         "Aiming for a leadership role in the global business environment? Our Bachelor of Business Administration in Business Management provides the strategic mindset and skills you need. This programme covers key areas like management, finance, marketing, entrepreneurship, operations, and digital transformation, with a strong focus on innovation, sustainability, and ethical leadership.",
-    }
+    },
   ];
   const faqData = [
     {
