@@ -56,10 +56,30 @@ import React from 'react'
 import "./footer.css"
 import Policy from '../policy/policy';
 import { FaFacebookF, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 
 
 const Footer = () => {
+  const navigate = useNavigate();
+    const handleTerms = () => {
+    navigate("/terms");
+    window.scrollTo(0, window.innerHeight);
+  };
+  
+  const handleWhyClick = () => {
+    navigate("/");
+    window.scrollTo(0, window.innerHeight);
+  };
+
+  const handleFeeClick = () => {
+    navigate("/all-fee");
+    window.scrollTo(0, 0);
+  };
+  const handleCourseClick = () => {
+    navigate("/all-courses");
+    window.scrollTo(0, 0);
+  };
     return (
 
         <div className="footer-main-con">
@@ -87,9 +107,9 @@ const Footer = () => {
 
                 <div className="footer-second-con">
                     <span className='heading-footer'>Quick links</span>
-                    <a className='color-black-footer' href=''>Botho University Online Programmes</a>
-                    <a className='color-black-footer' href=''>Why Botho University Online?</a>
-                    <a className='color-black-footer' href=''>Fees</a>
+                    <a className='color-black-footer' href='' onClick={handleCourseClick}>Botho University Online Programmes</a>
+                    <a className='color-black-footer' href='' onClick={handleWhyClick}>Why Botho University Online?</a>
+                    <a className='color-black-footer' href='' onClick={handleFeeClick}>Fees</a>
 
 
 
@@ -108,12 +128,12 @@ const Footer = () => {
 
                     <div className='third-logo-and-content'>
                         <img src="/logo/message.png" alt="" />
-                        <a className='color-black-footer' href="">onlineadmissions@bothouniversity.ac.bw</a>
+                        <a className='color-black-footer'   href="mailto:onlineadmissions@bothouniversity.ac.bw">onlineadmissions@bothouniversity.ac.bw</a>
 
                     </div>
                     <div className='third-logo-and-content'>
                         <img src="/logo/whatsapp.png" alt="" />
-                        <a className='color-black-footer' href="">+267 77 017 160</a>
+                        <a className='color-black-footer' href="https://wa.me/26777017160" target='_blank'>+267 77 017 160</a>
 
                     </div>
 
@@ -160,7 +180,7 @@ const Footer = () => {
 
                 <div className='terms-cond'>
 
-                    <a className='color-black-footer black' href='' style={{ color: "#000" }}>Terms & Conditions</a>
+                    <a className='color-black-footer black' href='' style={{ color: "#000" }} onClick={handleTerms}>Terms & Conditions</a>
                     <a className='color-black-footer black' style={{ color: "#000" }} href=''>Privacy Policy</a>
 
                 </div>

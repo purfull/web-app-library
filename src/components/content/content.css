@@ -43,8 +43,10 @@
   }
   .content-answer {
     padding: 10px 0 20px;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
+    text-align: justify;
+    line-height: 150%;
   }
   .button {
     display: flex;
@@ -67,6 +69,9 @@
   }
   .secondary-paragraph.coloured-padding {
     padding: 0px !important;
+  }
+  .divider {
+    margin: 4px 0;
   }
 }
 
@@ -152,7 +157,7 @@
     display: grid;
     padding: 40px 70px;
     /* padding: 20px 40px; */
-    grid-template-columns: 1fr 1.5fr;
+    /* grid-template-columns: 1fr 1.5fr; */
     gap: 20px;
     overflow: hidden;
   }
@@ -379,4 +384,26 @@
   .content-answer {
     text-align: justify;
   }
+}
+/* Smooth transition for answer */
+.content-answer-wrapper {
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+  max-height: 0;
+  opacity: 0;
+}
+
+.content-answer-wrapper.open {
+  max-height: 400vh; /* Adjust if needed */
+  opacity: 1;
+}
+
+/* Icon rotation */
+.icon-wrapper {
+  display: inline-flex;
+  transition: transform 0.3s ease;
+}
+
+.icon-wrapper.rotate {
+  transform: rotate(180deg);
 }

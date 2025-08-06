@@ -116,7 +116,7 @@ const Content = () => {
         </div>*/}
       </div>
       <div className="content-part2" ref={contentPart2Ref}>
-        <span className="secondary-paragraph coloured-padding black">
+        <span className="secondary-paragraph coloured-padding black" style={{textAlign: "justify"}}>
           Choosing the right institution for online learning is crucial for
           academic success and career advancement. Botho University stands out
           as a premier choice for online learners, offering a blend of
@@ -124,37 +124,46 @@ const Content = () => {
           excellence.
         </span>
         <div className="content-portion" style={{ paddingTop: "5vh" }}>
-          {contentData.map((item, index) => (
-            <div key={index} className="content-item">
-              <div
-                className={`content-question ${
-                  openIndex === index ? "open" : ""
-                }`}
-                onClick={() => toggleFaq(index)}
-                role="button"
-                tabIndex={0}
-                onKeyDown={(e) => e.key === "Enter" && toggleFaq(index)}
-              >
-                <span className="question-text">{item.question}</span>
-                {openIndex.includes(index) ? (
-                  <MinusOutlined style={{ fontSize: 15 }} />
-                ) : (
-                  <PlusOutlined style={{ fontSize: 15 }} />
-                )}
-              </div>
+         {contentData.map((item, index) => {
+  const isOpen = openIndex.includes(index);
 
-              {openIndex.includes(index) && (
-                <div className="content-answer">
-                  {item.answer.split("\n\n").map((paragraph, i) => (
-                    <p key={i} className="answer-paragraph">
-                      {paragraph}
-                    </p>
-                  ))}
-                </div>
-              )}
-              <Divider />
-            </div>
+  return (
+    <div key={index} className="content-item">
+      <div
+        className={`content-question ${isOpen ? "open" : ""}`}
+        onClick={() => toggleFaq(index)}
+        role="button"
+        tabIndex={0}
+        onKeyDown={(e) => e.key === "Enter" && toggleFaq(index)}
+      >
+        <span className="question-text">{item.question}</span>
+        <span className={`icon-wrapper ${isOpen ? "rotate" : ""}`}>
+          {isOpen ? (
+            <MinusOutlined style={{ fontSize: 15 }} />
+          ) : (
+            <PlusOutlined style={{ fontSize: 15 }} />
+          )}
+        </span>
+      </div>
+
+      {/* Animated wrapper */}
+      <div
+        className={`content-answer-wrapper ${isOpen ? "open" : ""}`}
+      >
+        <div className="content-answer">
+          {item.answer.split("\n\n").map((paragraph, i) => (
+            <p key={i} className="answer-paragraph">
+              {paragraph}
+            </p>
           ))}
+        </div>
+      </div>
+
+      <Divider />
+    </div>
+  );
+})}
+
         </div>
       </div>
     </div>

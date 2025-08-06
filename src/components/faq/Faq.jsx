@@ -14,6 +14,8 @@ const Faq = ({ faqData, title }) => {
   };
   const faqPart2Ref = useRef();
   // useEffect(() => {
+  //   console.log(title);
+    
   //   if (!faqPart2Ref.current || window.innerWidth < 1024) return;
 
   //   const titleElement = document.querySelector(".faq-heading");
@@ -52,14 +54,22 @@ const Faq = ({ faqData, title }) => {
                 onKeyDown={(e) => e.key === "Enter" && toggleFaq(index)}
               >
                 <span className="question-text">{item.question}</span>
-                {openIndex === index ? (
-                  <MinusOutlined style={{ fontSize: 15 }} />
-                ) : (
-                  <PlusOutlined style={{ fontSize: 15 }} />
-                )}
+                <span
+                  className={`faq-icon ${openIndex === index ? "rotate" : ""}`}
+                >
+                  {openIndex === index ? (
+                    <MinusOutlined style={{ fontSize: 15 }} />
+                  ) : (
+                    <PlusOutlined style={{ fontSize: 15 }} />
+                  )}
+                </span>
               </div>
 
-              {openIndex === index && (
+              <div
+                className={`faq-answer-wrapper ${
+                  openIndex === index ? "open" : ""
+                }`}
+              >
                 <div className="faq-answer">
                   {item.answer.split("\n\n").map((paragraph, i) => (
                     <p
@@ -69,7 +79,8 @@ const Faq = ({ faqData, title }) => {
                     ></p>
                   ))}
                 </div>
-              )}
+              </div>
+
               <Divider />
             </div>
           ))}

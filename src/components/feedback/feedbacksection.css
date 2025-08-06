@@ -136,7 +136,7 @@
 
   .next-button,
   .prev-button {
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
     border-radius: 50%;
     background-color: #841d2e;
@@ -726,7 +726,7 @@
 
   .next-button,
   .prev-button {
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
     border-radius: 50%;
     background-color: #841d2e;
@@ -851,7 +851,7 @@
 
   .next-button,
   .prev-button {
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
     border-radius: 50%;
     background-color: #841d2e;
@@ -969,7 +969,7 @@
 
   .next-button,
   .prev-button {
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
     border-radius: 50%;
     background-color: #841d2e;
@@ -1083,7 +1083,7 @@
 
   .next-button,
   .prev-button {
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
     border-radius: 50%;
     background-color: #841d2e;
@@ -1098,11 +1098,11 @@
 
   .next-button {
     left: 9%;
-    top: -12%;
+    top: -18%;
   }
 
   .prev-button {
-    top: -12%;
+    top: -18%;
     left: 2.8%;
   }
 

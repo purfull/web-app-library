@@ -149,7 +149,7 @@ const FeeHome = () => {
       <div className="titleBar wraper page-gap" >
               <div className="heading" >
                 <span className="secondary-heading">
-                  Our Fees
+                  Our Fees structure
                 </span>
               </div>
               <div className="secondary-paragraph black padding-zero overview-content" ><span> To support your budgeting, we offer a structured instalment payment plan that makes it easier to manage your fees. All fees for the current semester must be settled before you progress to the next, so staying on track with payments is key to uninterrupted learning. <br></br><br></br>

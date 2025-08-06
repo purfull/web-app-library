@@ -672,6 +672,13 @@ const TimerHome = ({ data, programOverview }) => {
                 </div>
                 <div className="start-date">
                   <i className="fa fa-info-circle" /> Start By: {""}
+                  {nearestStartDate
+                      ? nearestStartDate.toLocaleDateString("en-GB", {
+                        day: "2-digit",
+                        month: "long",
+                        year: "numeric",
+                      })
+                      : ""}
                 </div>
               </div>
             </div>

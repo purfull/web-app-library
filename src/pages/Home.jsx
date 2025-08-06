@@ -56,11 +56,11 @@ const HomePage = () => {
         "Aspiring to excel in the tech industry? Our Master of Science in Computer Science is an advanced, flexible online programme. You'll gain technical expertise and analytical skills, focusing on core computing principles and specialised areas like software development, data analysis, artificial intelligence, and cybersecurity.",
     },
     {
-      cover: "/images/courses-images/BBA in bus mgmt.jpeg",
-      courseName: "Undergraduate Programme",
-      title: "BBA in Business Management",
+      cover: "/images/courses-images/Med in higher education.jpeg",
+      courseName: "Postgraduate Programme",
+      title: "MED in Higher Education",
       description:
-        "Aiming for a leadership role in the global business environment? Our Bachelor of Business Administration in Business Management provides the strategic mindset and skills you need. This programme covers key areas like management, finance, marketing, entrepreneurship, operations, and digital transformation, with a strong focus on innovation, sustainability, and ethical leadership.",
+        "Elevate your expertise with our Master of Education in Higher Education. This specialised two-year online programme equips you with advanced pedagogical skills, covering Learning, Teaching and Assessment, Curriculum Design and Development, and Academic Writing.",
     },
   ];
   const faqData = [

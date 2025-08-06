@@ -643,6 +643,10 @@
   .enquire-heading {
     margin-left: 0;
   }
+  .card-container {
+    display: grid;
+    gap: 16px;
+  }
 }
 @media only screen and (min-width: 600px) {
   .main-fee-deatils,
@@ -720,6 +724,10 @@
   justify-content: center !important;
 }
 
+  .card-container {
+    display: grid;
+    gap: 20px;
+  }
 @media screen and (min-width :992px) {
    .main-fee-deatils,
   .title-logo-main {
