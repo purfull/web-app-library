@@ -22,7 +22,11 @@ const EnquireSection = ({ cardData, cardTitle }) => {
   navigate(`/fee/${slug}`);
   window.scrollTo(0, 0);
 };
+ const handleEnq = () => {
 
+  window.open('https://bothouniversity.academiaerp.com/enquire/', '_blank', 'noopener,noreferrer');
+
+  }
   return ( 
     <div className="course-container page-gap" >
       
@@ -70,13 +74,13 @@ const EnquireSection = ({ cardData, cardTitle }) => {
 
             {/* <div className="course-desc">
               <p>{item.description.one}</p>
-              <p>{item.description.two}</p>
+              <p>{item.description.two}</p> 
               <p>{item.description.three}</p>
               <p>{item.description.four}</p>
             </div> */}
             <div className="view-enquire-button">
               <button className="search-button view-more" style={{marginTop: "0"}} onClick={() => handleFeePage(item.title)}>View More </button>
-              <button className="fourth-button enq-button">Enquire Now</button></div>
+              <button className="fourth-button enq-button" onClick={handleEnq}>Enquire Now</button></div>
 
           </Card>
         ))}

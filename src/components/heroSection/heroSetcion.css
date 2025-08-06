@@ -66,6 +66,9 @@
   .secondary-paragraph.white {
     color: #ffffff;
   }
+  .desktop-br {
+  display: none;
+}
 }
 
 
@@ -288,7 +291,9 @@
   .secondary-paragraph.white {
     color: #ffffff;
   }
-
+.desktop-br {
+    display: inline;
+  }
 
 }
 

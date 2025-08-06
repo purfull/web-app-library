@@ -43,6 +43,9 @@
 
 @media only screen and (max-width: 600px) {
 
+.semester-title {
+  font-weight: 500;
+}
 .fee-page-gap {
   padding: 2rem 6px;
   max-width: 100%;

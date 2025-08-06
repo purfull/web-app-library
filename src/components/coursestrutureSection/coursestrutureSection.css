@@ -5,6 +5,10 @@
         flex-direction: column;
         padding: 20px;
     }
+        .semester-title {
+        font-weight: 600;
+        font-size: 20px;
+    }
 
     .semester-content-part1 {
         padding: 20px;
@@ -474,4 +478,25 @@
         width: 50%;
         padding: 12px 0px;
     }
+}
+
+.semester-content-answer-wrapper {
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+  max-height: 0;
+  opacity: 0;
+}
+
+.semester-content-answer-wrapper.open {
+  max-height: 400vh; /* Adjust as needed */
+  opacity: 1;
+}
+
+.icon-wrapper {
+  display: inline-flex;
+  transition: transform 0.3s ease;
+}
+
+.icon-wrapper.rotate {
+  transform: rotate(180deg);
 }

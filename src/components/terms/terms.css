@@ -168,14 +168,14 @@
 
   
     .terms-container {
-        padding: 10px;
+        padding: 10px 2.5%;
         margin-top: 5vh;
         max-width: 95%;
         font-family: Arial, sans-serif;
         font-size: 16px;
         color: #222;
         line-height: 1.6;
-        background-color: #993544;
+        background-color: #fff;
     }
 
     .terms-title {
@@ -200,7 +200,46 @@
     .divider {
         border: none;
         border-top: 1px solid #ccc;
-        margin: 10px 0;
+        margin: 24px 0;
     }
 
+}
+.lettered-list {
+  list-style: none;
+  padding-left: 2rem;
+}
+
+.lettered-list li {
+  margin-bottom: 0.8rem;
+}
+
+.lettered-list li strong {
+  display: inline-block;
+  width: 1.2rem;
+  text-transform: lowercase;
+}
+
+.terms-table-section {
+  margin-top: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.terms-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.terms-table td,
+.terms-table th {
+  border: 1px solid #000;
+  padding: 8px 12px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.terms-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
 }

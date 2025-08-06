@@ -238,7 +238,7 @@ const Courses = ({
                     <p className="course-tag">
                       {courseName || item.courseName}
                     </p>
-                    <p className="course-titlee text-elipses-2">{item.title}</p>
+                    <p className="course-titlee ">{item.title}</p>
                     <p className="course-desc text-elipses-3">
                       {item.description}
                     </p>
@@ -266,7 +266,7 @@ const Courses = ({
               className="course-card"
             >
               <p className="course-tag">{courseName || item.courseName}</p>
-              <p className="course-titlee text-elipses-2">{item.title}</p>
+              <p className="course-titlee ">{item.title}</p>
               <p className="course-desc text-elipses-3">{item.description}</p>
               <button
                 className="fourth-button read"

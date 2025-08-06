@@ -14,7 +14,7 @@ const herobanner = [
     arrowIcon: "/icon/arrow_forward.png",
     backgroundImg: "/images/herobanner.png",
     calledtoAction:
-      "98% of our graduates will recommend us to others </br> (Source: 2025 Graduate Tracer Study)",
+      "98% of our graduates will recommend us to others <span class='desktop-br'><br /></span> (Source: 2025 Graduate Tracer Study)",
 
     dynamicimg: [
       "/images/Ellipse 21.png",
@@ -32,7 +32,7 @@ const herobanner = [
     arrowIcon: "/icon/arrow_forward.png",
     backgroundImg: "/images/herobanner-2.png",
     calledtoAction:
-      "98% of our graduates will recommend us to others (Source: 2025 Graduate Tracer Study)",
+      "98% of our graduates will recommend us to others <span class='desktop-br'><br /></span>  (Source: 2025 Graduate Tracer Study)",
 
     dynamicimg: [
       "/images/Ellipse 21.png",
