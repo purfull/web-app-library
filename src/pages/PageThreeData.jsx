@@ -409,51 +409,51 @@ export const bachelorofscienceindatascience = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements">
+      answer: `<div class="technical-requirements"></br>
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
-  </p>
+  </p></br>
 
-  <h3>Device Requirements</h3>
+  <p>Device Requirements:</p>
   <ul>
     <li>
-      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
-    </li>
-    <li><strong>OR</strong></li>
+      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
+    </li></br>
+    <li><p>OR</p></li></br>
     <li>
-      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Internet Requirements</h3>
+  <p>Internet Requirements:</p>
   <ul>
     <li>
-      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
     </li>
     <li>
-      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Software and Platforms</h3>
+  <p>Software and Platforms:</p>
   <ul>
     <li>
-      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+      <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Browser Requirements</h3>
+  <p>Browser Requirements:</p>
   <ul>
     <li>
-      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Additional Tools (Optional but Recommended)</h3>
+  <p>Additional Tools: (Optional but Recommended)</p>
   <ul>
-    <li>Headset: For clear audio during virtual classes</li>
-    <li>External storage (USB/Cloud): For backups of important coursework</li>
-    <li>Antivirus software: To protect against malware or data loss</li>
+    <li>Headset: For clear audio during virtual classes.</li>
+    <li>External storage (USB/Cloud): For backups of important coursework.</li>
+    <li>Antivirus software: To protect against malware or data loss.</li>
   </ul>
 </div>
 `,
@@ -856,22 +856,22 @@ export const bbainbusinessmanagement = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements">
+      answer: `<div class="technical-requirements"></br>
   <p>
   "To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:"
-  </p>
-  <h3>Device Requirements</h3> 
+  </p></br>
+  <p>Device Requirements:</p>
   <ul>
     <li>
-      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
-    </li>
-    <li><strong>OR</strong></li>
+      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
+    </li></br>
+    <li><p>OR</p></li></br>
     <li>
-      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
-    </li>
+      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams)
+    </li></br>
   </ul>
-
-  <h3>Internet Requirements</h3>
+  </br>
+  <p>Internet Requirements:</p>
   <ul>
     <li>
       Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
@@ -879,28 +879,28 @@ export const bbainbusinessmanagement = {
     <li>
       Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Software and Platforms</h3>
+  <p>Software and Platforms:</p>
   <ul>
     <li>
-      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+      <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Browser Requirements</h3>
+  <p>Browser Requirements:</p>
   <ul>
     <li>
       Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Additional Tools (Optional but Recommended)</h3>
+  <p>Additional Tools: (Optional but Recommended)</p>
   <ul>
     <li>Headset: For clear audio during virtual classes</li>
     <li>External storage (USB/Cloud): For backups of important coursework</li>
     <li>Antivirus software: To protect against malware or data loss</li>
-  </ul>
+  </ul></br>
 </div>
 `,
     },
@@ -1258,52 +1258,52 @@ export const bcominhospitalitymanagement = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements">
+      answer: `<div class="technical-requirements"></br>
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
-  </p>
+  </p></br>
 
-  <h3>Device Requirements</h3>
+  <p>Device Requirements:</p>
   <ul>
     <li>
-      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
-    </li>
-    <li><strong>OR</strong></li>
+      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
+    </li></br>
+    <li><p>OR</p></li></br>
     <li>
-      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Internet Requirements</h3>
+  <p>Internet Requirements:</p>
   <ul>
     <li>
-      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
     </li>
     <li>
-      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Software and Platforms</h3>
+  <p>Software and Platforms:</p>
   <ul>
     <li>
-      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+      <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Browser Requirements</h3>
+  <p>Browser Requirements:</p>
   <ul>
     <li>
-      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Additional Tools (Optional but Recommended)</h3>
+  <p>Additional Tools: (Optional but Recommended)</p>
   <ul>
-    <li>Headset: For clear audio during virtual classes</li>
-    <li>External storage (USB/Cloud): For backups of important coursework</li>
-    <li>Antivirus software: To protect against malware or data loss</li>
-  </ul>
+    <li>Headset: For clear audio during virtual classes.</li>
+    <li>External storage (USB/Cloud): For backups of important coursework.</li>
+    <li>Antivirus software: To protect against malware or data loss.</li>
+  </ul></br>
 </div>
 `,
     },
@@ -1478,51 +1478,51 @@ export const mcominhumanresourcemanagement = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements">
+      answer: `<div class="technical-requirements"></br>
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
-  </p>
+  </p></br>
 
-  <h3>Device Requirements</h3>
+  <p>Device Requirements:</p>
   <ul>
     <li>
-      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
-    </li>
-    <li><strong>OR</strong></li>
+      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
+    </li></br>
+    <li><p>OR</p></li></br>
     <li>
-      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Internet Requirements</h3>
+  <p>Internet Requirements:</p>
   <ul>
     <li>
-      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
     </li>
     <li>
-      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Software and Platforms</h3>
+  <p>Software and Platforms:</p>
   <ul>
     <li>
-      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+      <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Browser Requirements</h3>
+  <p>Browser Requirements:</p>
   <ul>
     <li>
-      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Additional Tools (Optional but Recommended)</h3>
+  <p>Additional Tools: (Optional but Recommended)</p>
   <ul>
-    <li>Headset: For clear audio during virtual classes</li>
-    <li>External storage (USB/Cloud): For backups of important coursework</li>
-    <li>Antivirus software: To protect against malware or data loss</li>
+    <li>Headset: For clear audio during virtual classes.</li>
+    <li>External storage (USB/Cloud): For backups of important coursework.</li>
+    <li>Antivirus software: To protect against malware or data loss.</li>
   </ul>
 </div>
 `,
@@ -1724,51 +1724,51 @@ export const masterofbusinessadministration = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements">
+      answer: `<div class="technical-requirements"></br>
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
-  </p>
+  </p></br>
 
-  <h3>Device Requirements</h3>
+  <p>Device Requirements:</p>
   <ul>
     <li>
-      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
-    </li>
-    <li><strong>OR</strong></li>
+      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
+    </li></br>
+    <li><p>OR</p></li></br>
     <li>
-      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Internet Requirements</h3>
+  <p>Internet Requirements:</p>
   <ul>
     <li>
-      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
     </li>
     <li>
-      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Software and Platforms</h3>
+  <p>Software and Platforms:</p>
   <ul>
     <li>
-      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+      <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Browser Requirements</h3>
+  <p>Browser Requirements:</p>
   <ul>
     <li>
-      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Additional Tools (Optional but Recommended)</h3>
+  <p>Additional Tools: (Optional but Recommended)</p>
   <ul>
-    <li>Headset: For clear audio during virtual classes</li>
-    <li>External storage (USB/Cloud): For backups of important coursework</li>
-    <li>Antivirus software: To protect against malware or data loss</li>
+    <li>Headset: For clear audio during virtual classes.</li>
+    <li>External storage (USB/Cloud): For backups of important coursework.</li>
+    <li>Antivirus software: To protect against malware or data loss.</li>
   </ul>
 </div>
 `,
@@ -1959,29 +1959,29 @@ export const dipinoccupationalhealthsafety = {
     },
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements">
-<p>To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:</p>
-<h3>Device Requirements</h3>
+      answer: `<div class="technical-requirements"></br>
+<p>To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:</p></br>
+<p>Device Requirements:</p>
 <ul>
-  <li><strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space; Camera & Microphone: Required</li>
-  <li><strong>Tablet/Smartphone:</strong> For content access (limited assignment functionality)</li>
+  <li><p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space; Camera & Microphone: Required.</li></br>
+  <li><p>Tablet/Smartphone:</p> For content access (limited assignment functionality).</li>
+</ul></br>
+<p>Internet Requirements:</p>
+<ul>
+  <li>Minimum 5 Mbps download / 2 Mbps upload (10 Mbps recommended).</li>
+  <li>Stable connection recommended for Zoom live sessions.</li>
+</ul></br>
+<p>Software and Platforms:</p>
+<ul>
+  <li>Zoom for live classes.</br>MS Office or Google Docs for assignments.</li>
+</ul></br>
+<p>Browser Requirements:</p>
+<ul>
+  <li>Chrome (latest) or Safari: JavaScript and cookies enabled.</li>
 </ul>
-<h3>Internet Requirements</h3>
+<p>Optional Tools:</p>
 <ul>
-  <li>Minimum 5 Mbps download / 2 Mbps upload (10 Mbps recommended)</li>
-  <li>Stable connection recommended for Zoom live sessions</li>
-</ul>
-<h3>Software and Platforms</h3>
-<ul>
-  <li><strong>Zoom</strong> for live classes; <strong>MS Office</strong> or Google Docs for assignments</li>
-</ul>
-<h3>Browser Requirements</h3>
-<ul>
-  <li>Chrome (latest) or Safari; JavaScript and cookies enabled</li>
-</ul>
-<h3>Optional Tools</h3>
-<ul>
-  <li>Headset, External storage, Antivirus software</li>
+  <li>Headset, External storage, Antivirus software.</li>
 </ul>
 </div>`,
     },
@@ -2331,51 +2331,51 @@ export const bscinhealthinformationmanagement = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements">
+      answer: `<div class="technical-requirements"></br>
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
-  </p>
+  </p></br>
 
-  <h3>Device Requirements</h3>
+  <p>Device Requirements:</p>
   <ul>
     <li>
-      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
-    </li>
-    <li><strong>OR</strong></li>
+      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
+    </li></br>
+    <li><p>OR</p></li></br>
     <li>
-      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Internet Requirements</h3>
+  <p>Internet Requirements:</p>
   <ul>
     <li>
-      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
     </li>
     <li>
-      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Software and Platforms</h3>
+  <p>Software and Platforms:</p>
   <ul>
     <li>
-      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+      <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Browser Requirements</h3>
+  <p>Browser Requirements:</p>
   <ul>
     <li>
-      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Additional Tools (Optional but Recommended)</h3>
+  <p>Additional Tools: (Optional but Recommended)</p>
   <ul>
-    <li>Headset: For clear audio during virtual classes</li>
-    <li>External storage (USB/Cloud): For backups of important coursework</li>
-    <li>Antivirus software: To protect against malware or data loss</li>
+    <li>Headset: For clear audio during virtual classes.</li>
+    <li>External storage (USB/Cloud): For backups of important coursework.</li>
+    <li>Antivirus software: To protect against malware or data loss.</li>
   </ul>
 </div>
 `,
@@ -2733,52 +2733,52 @@ export const bscinhospitaladministration = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements">
+      answer: `<div class="technical-requirements"></br>
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
-  </p>
+  </p></br>
 
-  <h3>Device Requirements</h3>
+  <p>Device Requirements:</p>
   <ul>
     <li>
-      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
-    </li>
-    <li><strong>OR</strong></li>
+      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
+    </li></br>
+    <li><p>OR</p></li></br>
     <li>
-      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Internet Requirements</h3>
+  <p>Internet Requirements:</p>
   <ul>
     <li>
-      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
     </li>
     <li>
-      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Software and Platforms</h3>
+  <p>Software and Platforms:</p>
   <ul>
     <li>
-      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+      <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Browser Requirements</h3>
+  <p>Browser Requirements:</p>
   <ul>
     <li>
-      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Additional Tools (Optional but Recommended)</h3>
+  <p>Additional Tools: (Optional but Recommended)</p>
   <ul>
-    <li>Headset: For clear audio during virtual classes</li>
-    <li>External storage (USB/Cloud): For backups of important coursework</li>
-    <li>Antivirus software: To protect against malware or data loss</li>
-  </ul>
+    <li>Headset: For clear audio during virtual classes.</li>
+    <li>External storage (USB/Cloud): For backups of important coursework.</li>
+    <li>Antivirus software: To protect against malware or data loss.</li>
+  </ul></br>
 </div>
 `,
     },
@@ -3155,51 +3155,51 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements">
+      answer: `<div class="technical-requirements"></br>
   <p>
   "To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:"
-  </p>
-  <h3>Device Requirements</h3> 
+  </p></br>
+  <p>Device Requirements:</p> 
   <ul>
     <li>
-      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
-    </li>
-    <li><strong>OR</strong></li>
+      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
+    </li></br>
+    <li><p>OR</p></li></br>
     <li>
-      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Internet Requirements</h3>
+  <p>Internet Requirements:</p>
   <ul>
     <li>
-      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
     </li>
     <li>
-      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Software and Platforms</h3>
+  <p>Software and Platforms:</p>
   <ul>
     <li>
-      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+      <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Browser Requirements</h3>
+  <p>Browser Requirements:</p>
   <ul>
     <li>
-      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Additional Tools (Optional but Recommended)</h3>
+  <p>Additional Tools: (Optional but Recommended)</p>
   <ul>
-    <li>Headset: For clear audio during virtual classes</li>
-    <li>External storage (USB/Cloud): For backups of important coursework</li>
-    <li>Antivirus software: To protect against malware or data loss</li>
-  </ul>
+    <li>Headset: For clear audio during virtual classes.</li>
+    <li>External storage (USB/Cloud): For backups of important coursework.</li>
+    <li>Antivirus software: To protect against malware or data loss.</li>
+  </ul></br>
 </div>
 `,
     },
@@ -3510,50 +3510,50 @@ export const bedinprimaryeducation = {
     },
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements">
+      answer: `<div class="technical-requirements"></br>
   <p>
   "To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:"
-  </p>
-  <h3>Device Requirements</h3> 
+  </p></br>
+  <p>Device Requirements:</p> 
   <ul>
     <li>
-      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
-    </li>
-    <li><strong>OR</strong></li>
+      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
+    </li></br>
+    <li><p>OR</p></li></br>
     <li>
-      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Internet Requirements</h3>
+  <p>Internet Requirements:</p>
   <ul>
     <li>
-      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
     </li>
     <li>
-      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Software and Platforms</h3>
+  <p>Software and Platforms:</p>
   <ul>
     <li>
-      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+      <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Browser Requirements</h3>
+  <p>Browser Requirements:</p>
   <ul>
     <li>
-      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Additional Tools (Optional but Recommended)</h3>
+  <p>Additional Tools: (Optional but Recommended)</p>
   <ul>
-    <li>Headset: For clear audio during virtual classes</li>
-    <li>External storage (USB/Cloud): For backups of important coursework</li>
-    <li>Antivirus software: To protect against malware or data loss</li>
+    <li>Headset: For clear audio during virtual classes.</li>
+    <li>External storage (USB/Cloud): For backups of important coursework.</li>
+    <li>Antivirus software: To protect against malware or data loss.</li>
   </ul>
 </div>
 `,
@@ -3672,50 +3672,50 @@ export const postgraduatediplomainhighereducation = {
     },
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements">
+      answer: `<div class="technical-requirements"></br>
   <p>
   "To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:"
-  </p>
-  <h3>Device Requirements</h3> 
+  </p></br>
+  <p>Device Requirements:</p> 
   <ul>
     <li>
-      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
-    </li>
-    <li><strong>OR</strong></li>
+      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
+    </li></br>
+    <li><p>OR</p></li></br>
     <li>
-      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Internet Requirements</h3>
+  <p>Internet Requirements:</p>
   <ul>
     <li>
-      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
     </li>
     <li>
-      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Software and Platforms</h3>
+  <p>Software and Platforms:</p>
   <ul>
     <li>
-      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+      <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Browser Requirements</h3>
+  <p>Browser Requirements:</p>
   <ul>
     <li>
-      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Additional Tools (Optional but Recommended)</h3>
+  <p>Additional Tools: (Optional but Recommended)</p>
   <ul>
-    <li>Headset: For clear audio during virtual classes</li>
-    <li>External storage (USB/Cloud): For backups of important coursework</li>
-    <li>Antivirus software: To protect against malware or data loss</li>
+    <li>Headset: For clear audio during virtual classes.</li>
+    <li>External storage (USB/Cloud): For backups of important coursework.</li>
+    <li>Antivirus software: To protect against malware or data loss.</li>
   </ul>
 </div>
 `,
@@ -3887,52 +3887,52 @@ export const medalleadershipandmanagement = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements">
+      answer: `<div class="technical-requirements"></br>
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
-  </p>
+  </p></br>
 
-  <h3>Device Requirements</h3>
+  <p>Device Requirements:</p>
   <ul>
     <li>
-      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
-    </li>
-    <li><strong>OR</strong></li>
+      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
+    </li></br>
+    <li><p>OR</p></li></br>
     <li>
-      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
     </li>
   </ul>
 
-  <h3>Internet Requirements</h3>
+  <p>Internet Requirements:</p>
   <ul>
     <li>
-      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
     </li>
     <li>
-      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Software and Platforms</h3>
+  <p>Software and Platforms:</p>
   <ul>
     <li>
-      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+      <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Browser Requirements</h3>
+  <p>Browser Requirements:</p>
   <ul>
     <li>
-      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Additional Tools (Optional but Recommended)</h3>
+  <p>Additional Tools: (Optional but Recommended)</p>
   <ul>
-    <li>Headset: For clear audio during virtual classes</li>
-    <li>External storage (USB/Cloud): For backups of important coursework</li>
-    <li>Antivirus software: To protect against malware or data loss</li>
-  </ul>
+    <li>Headset: For clear audio during virtual classes.</li>
+    <li>External storage (USB/Cloud): For backups of important coursework.</li>
+    <li>Antivirus software: To protect against malware or data loss.</li>
+  </ul></br>
 </div>
 `,
     },
@@ -4122,52 +4122,52 @@ export const medincurriculumdesignandinstruction = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements">
+      answer: `<div class="technical-requirements"></br>
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
-  </p>
+  </p></br>
 
-  <h3>Device Requirements</h3>
+  <p>Device Requirements:</p>
   <ul>
     <li>
-      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
-    </li>
-    <li><strong>OR</strong></li>
+      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
+    </li></br>
+    <li><p>OR</p></li></br>
     <li>
-      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Internet Requirements</h3>
+  <p>Internet Requirements:</p>
   <ul>
     <li>
-      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
     </li>
     <li>
-      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Software and Platforms</h3>
+  <p>Software and Platforms:</p>
   <ul>
     <li>
-      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+      <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Browser Requirements</h3>
+  <p>Browser Requirements:</p>
   <ul>
     <li>
-      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Additional Tools (Optional but Recommended)</h3>
+  <p>Additional Tools: (Optional but Recommended)</p>
   <ul>
-    <li>Headset: For clear audio during virtual classes</li>
-    <li>External storage (USB/Cloud): For backups of important coursework</li>
-    <li>Antivirus software: To protect against malware or data loss</li>
-  </ul>
+    <li>Headset: For clear audio during virtual classes.</li>
+    <li>External storage (USB/Cloud): For backups of important coursework.</li>
+    <li>Antivirus software: To protect against malware or data loss.</li>
+  </ul></br>
 </div>
 `,
     },
@@ -4539,51 +4539,51 @@ export const bscinnetworksecurityandcomputerforensics = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements">
+      answer: `<div class="technical-requirements"></br>
   <p>
   "To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:"
-  </p>
-  <h3>Device Requirements</h3> 
+  </p></br>
+  <p>Device Requirements:</p> 
   <ul>
     <li>
-      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
-    </li>
-    <li><strong>OR</strong></li>
+      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
+    </li></br>
+    <li><p>OR</p></li></br>
     <li>
-      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Internet Requirements</h3>
+  <p>Internet Requirements:</p>
   <ul>
     <li>
-      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
     </li>
     <li>
-      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Software and Platforms</h3>
+  <p>Software and Platforms:</p>
   <ul>
     <li>
-      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+      <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Browser Requirements</h3>
+  <p>Browser Requirements:</p>
   <ul>
     <li>
-      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Additional Tools (Optional but Recommended)</h3>
+  <p>Additional Tools: (Optional but Recommended)</p>
   <ul>
-    <li>Headset: For clear audio during virtual classes</li>
-    <li>External storage (USB/Cloud): For backups of important coursework</li>
-    <li>Antivirus software: To protect against malware or data loss</li>
-  </ul>
+    <li>Headset: For clear audio during virtual classes.</li>
+    <li>External storage (USB/Cloud): For backups of important coursework.</li>
+    <li>Antivirus software: To protect against malware or data loss.</li>
+  </ul></br>
 </div>
 `,
     },
@@ -4758,52 +4758,52 @@ export const medinhighereducation = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements">
+      answer: `<div class="technical-requirements"></br>
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
-  </p>
+  </p></br>
 
-  <h3>Device Requirements</h3>
+  <p>Device Requirements:</p>
   <ul>
     <li>
-      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
-    </li>
-    <li><strong>OR</strong></li>
+      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
+    </li></br>
+    <li><p>OR</p></li></br>
     <li>
-      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Internet Requirements</h3>
+  <p>Internet Requirements:</p>
   <ul>
     <li>
-      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
     </li>
     <li>
-      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Software and Platforms</h3>
+  <p>Software and Platforms:</p>
   <ul>
     <li>
-      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+      <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Browser Requirements</h3>
+  <p>Browser Requirements:</p>
   <ul>
     <li>
-      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Additional Tools (Optional but Recommended)</h3>
+  <p>Additional Tools: (Optional but Recommended)</p>
   <ul>
-    <li>Headset: For clear audio during virtual classes</li>
-    <li>External storage (USB/Cloud): For backups of important coursework</li>
-    <li>Antivirus software: To protect against malware or data loss</li>
-  </ul>
+    <li>Headset: For clear audio during virtual classes.</li>
+    <li>External storage (USB/Cloud): For backups of important coursework.</li>
+    <li>Antivirus software: To protect against malware or data loss.</li>
+  </ul></br>
 </div>
 `,
     },
@@ -4951,52 +4951,52 @@ export const mscininformationsystemsmanagement = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements">
+      answer: `<div class="technical-requirements"></br>
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
-  </p>
+  </p></br>
 
-  <h3>Device Requirements</h3>
+  <p>Device Requirements:</p>
   <ul>
     <li>
-      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
-    </li>
-    <li><strong>OR</strong></li>
+      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
+    </li></br>
+    <li><p>OR</p></li></br>
     <li>
-      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Internet Requirements</h3>
+  <p>Internet Requirements:</p>
   <ul>
     <li>
-      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
     </li>
     <li>
-      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Software and Platforms</h3>
+  <p>Software and Platforms:</p>
   <ul>
     <li>
-      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+      <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Browser Requirements</h3>
+  <p>Browser Requirements:</p>
   <ul>
     <li>
-      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Additional Tools (Optional but Recommended)</h3>
+  <p>Additional Tools: (Optional but Recommended)</p>
   <ul>
-    <li>Headset: For clear audio during virtual classes</li>
-    <li>External storage (USB/Cloud): For backups of important coursework</li>
-    <li>Antivirus software: To protect against malware or data loss</li>
-  </ul>
+    <li>Headset: For clear audio during virtual classes.</li>
+    <li>External storage (USB/Cloud): For backups of important coursework.</li>
+    <li>Antivirus software: To protect against malware or data loss.</li>
+  </ul></br>
 </div>
 `,
     },
@@ -5137,52 +5137,52 @@ export const mscincomputerscience = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements">
+      answer: `<div class="technical-requirements"></br>
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
-  </p>
+  </p></br>
 
-  <h3>Device Requirements</h3>
+  <p>Device Requirements:</p>
   <ul>
     <li>
-      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
-    </li>
-    <li><strong>OR</strong></li>
+      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
+    </li></br>
+    <li><p>OR</p></li></br>
     <li>
-      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Internet Requirements</h3>
+  <p>Internet Requirements:</p>
   <ul>
     <li>
-      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
     </li>
     <li>
-      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Software and Platforms</h3>
+  <p>Software and Platforms:</p>
   <ul>
     <li>
-      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+      <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Browser Requirements</h3>
+  <p>Browser Requirements:</p>
   <ul>
     <li>
-      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Additional Tools (Optional but Recommended)</h3>
+  <p>Additional Tools: (Optional but Recommended)</p>
   <ul>
-    <li>Headset: For clear audio during virtual classes</li>
-    <li>External storage (USB/Cloud): For backups of important coursework</li>
-    <li>Antivirus software: To protect against malware or data loss</li>
-  </ul>
+    <li>Headset: For clear audio during virtual classes.</li>
+    <li>External storage (USB/Cloud): For backups of important coursework.</li>
+    <li>Antivirus software: To protect against malware or data loss.</li>
+  </ul></br>
 </div>
 `,
     },
@@ -5575,22 +5575,22 @@ export const bcominaccounting = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements">
+      answer: `<div class="technical-requirements"></br>
   <p>
   "To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:"
-  </p>
-  <h3>Device Requirements</h3> 
+  </p></br>
+  <p>Device Requirements:</p>
   <ul>
     <li>
-      <strong>Computer/Laptop:</strong> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
-    </li>
-    <li><strong>OR</strong></li>
+      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
+    </li></br>
+    <li><p>OR</p></li></br>
     <li>
-      <strong>Tablet/Smartphone:</strong> Suitable for accessing content on the go (limited functionality for assignments/exams)
+      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams)
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Internet Requirements</h3>
+  <p>Internet Requirements:</p>
   <ul>
     <li>
       Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
@@ -5598,28 +5598,28 @@ export const bcominaccounting = {
     <li>
       Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Software and Platforms</h3>
+  <p>Software and Platforms:</p>
   <ul>
     <li>
-      <strong>Virtual Live Sessions:</strong> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+      <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Browser Requirements</h3>
+  <p>Browser Requirements:</p>
   <ul>
     <li>
       Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
     </li>
-  </ul>
+  </ul></br>
 
-  <h3>Additional Tools (Optional but Recommended)</h3>
+  <p>Additional Tools: (Optional but Recommended)</p>
   <ul>
     <li>Headset: For clear audio during virtual classes</li>
     <li>External storage (USB/Cloud): For backups of important coursework</li>
     <li>Antivirus software: To protect against malware or data loss</li>
-  </ul>
+  </ul></br>
 </div>
 `,
     },
