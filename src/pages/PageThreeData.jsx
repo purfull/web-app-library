@@ -4606,149 +4606,157 @@ export const medinhighereducation = {
     overview: false,
   },
   courseStruture: [
-    {
-      semester: "Semester 1",
-      courses: [
-        {
-          question: "Algorithms and Data Structures",
-          subanswer:
-            "Code: C9-ADS-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
-          answer:
-            "This module enhances students' problem-solving abilities by introducing key algorithms and data structures. It empowers students to solve simple problems, apply advanced techniques, and improve their programming skills. Students will evaluate algorithms, analyze time and space complexities, and select appropriate data structures to design solutions for various problems.",
-        },
-        {
-          question: "Object Oriented Software Engineering",
-          subanswer:
-            "Code: C9-OSE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
-          answer:
-            "This module equips students with the skills to manage software projects and develop systems using object-oriented methods. Students will learn key concepts and techniques for system design and program implementation using rapid application development tools and designing graphical user interfaces to create, test, and implement software solutions.",
-        },
-      ],
-    },
-    {
-      semester: "Semester 1 Elective Group One (Choose One)",
-      courses: [
-        {
-          question: "Machine Learning",
-          subanswer:
-            "Code: C9-MLE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
-          answer:
-            "This module provides an in-depth introduction to supervised and unsupervised machine learning, covering key models and algorithms for regression, classification, clustering, and probabilistic classification. Students will critically evaluate approaches, understand applications, design machine learning systems, apply problem-solving techniques, and develop skills for further research in the field.",
-        },
-        {
-          question: "Web Engineering",
-          subanswer:
-            "Code: C9-WEN-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
-          answer:
-            "This module provides hands-on experience in designing and developing internet-based applications. Students will learn internet architecture, HTML, CSS, JavaScript, server-side development, XML concepts, and web services. By completion, they will gain practical skills in building web applications and writing programs for front-end and back-end development.",
-        },
-      ],
-    },
-    {
-      semester: "Semester 2",
-      courses: [
-        {
-          question: "Operating System",
-          subanswer:
-            "Code: C9-OPS-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
-          answer:
-            "This module reviews the design, implementation, and functioning of operating systems. It explores the principles behind centralized and distributed systems, focusing on real-world applications. Students will understand the structure and functions of operating systems, analyzing requirements for specific scenarios and relating system functions to machine architecture.",
-        },
-        {
-          question: "Computer Networking and Communication",
-          subanswer:
-            "Code: C9-CNC-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
-          answer:
-            "This module introduces the principles of structured networks and future challenges for network designers. It covers network protocols, internet technologies, and data communications. Students will explore familiar concepts like the web and email before studying more complex networking aspects, including LAN, WAN, MAN, and network security.",
-        },
-      ],
-    },
-    {
-      semester: "Semester 2 Elective Group One (Choose One)",
-      courses: [
-        {
-          question: "Grid Computing Systems",
-          subanswer:
-            "Code: C9-GCS-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
-          answer:
-            "This course explores advanced distributed computing, focusing on service-oriented systems like Grid Computing. Students will learn technologies, architectures, and applications, including cluster and data grids. It covers IT infrastructure, business value, middleware, and grid-enabled services, equipping students to design, develop, and implement grid computing models and applications.",
-        },
-        {
-          question: "Information Retrieval",
-          subanswer:
-            "Code: C9-INR-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
-          answer:
-            "This module introduces students to information retrieval systems, focusing on retrieving the best possible information for user queries. It covers key algorithms, evaluation methods, probabilistic retrieval, ranking principles, and real-world applications in web search and recommendation systems, along with emerging topics like MapReduce, portfolio retrieval, and online advertising.",
-        },
-      ],
-    },
-    [
+   {
+    semester: "Semester 1",
+    courses: [
       {
-        semester: "Semester 3",
-        courses: [
-          {
-            question: "Professional Academic in Action 2",
-            subanswer:
-              "Code: D9-PPA2-24<br/>Prerequisite: D9-PPA1-24<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
-            answer:
-              "This module is designed to enable student teachers put into practice the theory attained in D8-PPA 1-15 and reflect on their professional practice. Teaching is a profession. It is therefore, very crucial for student teachers to engage in teaching practice exercise to effectively prepare them for the teaching career.",
-          },
-          {
-            question: "Dissertation (Year module)",
-            subanswer:
-              "Code: D9-DI1-24<br/>Prerequisite: D9-RHE-24<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
-            answer:
-              "The module will enable learners gain a deeper understanding of research by exposing them to both the theoretical and practical aspects of educational research. The learners are expected to explore the findings of these researches in a manner that improves teaching, research and other aspects of HE.",
-          },
-          {
-            question: "Assessment and Moderation in Outcomes-based Education",
-            subanswer:
-              "Code: D9-ABE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
-            answer:
-              "This module equips learners with theoretical and practical skills for conducting assessment and moderation based on Outcomes-Based Education (OBE). It emphasises learner-centred approaches, enabling educators to apply OBE principles effectively in teaching, learning, assessment, and moderation within educational institutions.",
-          },
-        ],
+        question: "Learning, Teaching and Assessment",
+        subanswer:
+          "Code: D9-LTA-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+        answer:
+          "This module develops learners’ competence in effective teaching and assessment practices. It builds a strong foundation in educational theories and principles, guiding their application to various learning environments. Learners explore classroom practice and align assessment methods to outcomes, ensuring meaningful, constructive feedback.",
       },
       {
-        semester: "Semester 3 Elective One (Choose Two)",
-        courses: [
-          {
-            question: "Governance and Management in Higher Education",
-            subanswer:
-              "Code: D9-GMH-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
-            answer:
-              "The module will familiarize learners with governance, leadership and management structures in HE institutions that can ensure effective attainment of institutional goals and objectives. It is essential to enhance the learners’ understanding of the processes and the structures through which higher education institutions are managed.",
-          },
-          {
-            question: "Organisational Development",
-            subanswer:
-              "Code: D9-ODE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
-            answer:
-              "The aim of this module is to allow students gain knowledge on contemporary issues that affect organisations such as the Evolution of Organisational Behaviour, Individual Dimensions, Group Dynamics, Conflict Management and Negotiation, Stress Management, Change Leadership and Decision Making, Dynamics Organisations, Management of Change and Culture and ethics",
-          },
-          {
-            question: "Special Education",
-            subanswer:
-              "Code: D9-SNE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
-            answer:
-              "This module equips learners with the knowledge, skills, and competencies to support students with special needs in higher education. It focuses on inclusive education principles, emphasising the importance of recognising individual differences and fostering unity, equity, and democratic practice in diverse classroom settings.",
-          },
-        ],
+        question: "Intergrated Foundations of Education",
+        subanswer:
+          "Code: D9-IFE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
+        answer:
+          "This module enables learners to appreciate the value of educational foundations and their role in the education process. It explores ideological, philosophical, psychological, sociological, and historical perspectives, examining their influence on teaching methods and aims. Learners also analyse the reciprocal relationship between education, culture, society, and psychology.",
       },
       {
-        semester: "Semester 4",
-        courses: [
-          {
-            question: "Dissertation (Year module)",
-            subanswer:
-              "Code: D9-DI2-24<br/>Prerequisite: D9-DI1-24<br/>Co-requisite: None<br/>Module Fees: $1170<br/>Module Credits: 60",
-            answer:
-              "The module will enable learners gain a deeper understanding of research by exposing them to both the theoretical and practical aspects of educational research. The learners are expected to explore the findings of these researches in a manner that improves teaching, research and other aspects of Higher Education.",
-          },
-        ],
+        question: "Research in Higher Education",
+        subanswer:
+          "Code: D9-RHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
+        answer:
+          "This module equips a learner with lifelong research skills that will empower them to continually seek and apply new knowledge throughout their career.",
+      },
+      {
+        question: "Academic Writing",
+        subanswer:
+          "Code: D9-ACW-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+        answer:
+          "This module equips a learner with the knowledge, skills and competences in practicing and improving their writing and reading in English. The students must be able to absorb and producing academic work for practical usage.",
       },
     ],
-  ],
+  },
+  {
+    semester: "Semester 2",
+    courses: [
+      {
+        question: "Educational Technology and e-Learning",
+        subanswer:
+          "Code: D9-ETE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
+        answer:
+          "This module enables a learner to make effective use of technology in designing, developing, planning and evaluating e-learning activities in their teaching and to understand the concepts of open, distant and mobile learning using educational technology.",
+      },
+      {
+        question: "Curriculum Design and Development",
+        subanswer:
+          "Code: D9-CDD-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
+        answer:
+          "This module equips a learner with critical understanding of the drivers and processes of curriculum/course design and development and a critical understanding of curriculum development models. Learners will be equipped with the competency to critique, evaluate, design and develop a quality based curricula.",
+      },
+      {
+        question: "Professional Academic in Action 1",
+        subanswer:
+          "Code: D9-PPA1-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+        answer:
+          "This module enables a learner to enhance learning, teaching and assessment practice through the theory and practice of quality teaching, and learning principles. The module will equip the learners with theoretical and practical skills to enable them reflect on their professional practice as teachers.",
+      },
+    ],
+  },
+  {
+    semester: "Semester 2 Elective Group One (Choose One)",
+    courses: [
+      {
+        question: "Quality Framework in Higher Education",
+        subanswer:
+          "Code: D9-QHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+        answer:
+          "This module aims to give tutors a critical understanding of international quality assurance methodologies, and the ability to place the Quality Frameworks in Botswana and Partner Institutions within this context; to enable tutors to understand the implications for curriculum design and delivery.",
+      },
+      {
+        question: "Globalisation in Higher Education",
+        subanswer:
+          "Code: D9-GHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+        answer:
+          "This module will expose the learner to issues of globalization in higher education and the strategies used by higher education institutions to respond to these. Students will study conceptual frameworks linking higher education institutions to economic competitiveness in a global economy and critically analyse recent national and international reports on this topic.",
+      },
+      {
+        question: "Contemporary Issues in Higher Education",
+        subanswer:
+          "Code: D9-CHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+        answer:
+          "The module will enable learners to explore the current issues affecting Higher Education and strategies of addressing the challenges. It is essential that learners will be equipped with salient professional knowledge of contemporary educational issues. In addition, analyse and critically reflect on the challenges and potentialities at institutional and individual levels.",
+      },
+    ],
+  },
+  {
+    semester: "Semester 3",
+    courses: [
+      {
+        question: "Professional Academic in Action 2",
+        subanswer:
+          "Code: D9-PPA2-24<br/>Prerequisite: D9-PPA1-24<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+        answer:
+          "This module is designed to enable student teachers put into practice the theory attained in D8- PPA 1- 15 and reflect on their professional practice. Teaching is a profession. It is therefore, very crucial for student teachers to engage in teaching practice exercise to effectively prepare them for the teaching career.",
+      },
+      {
+        question: "Dissertation (Year module)",
+        subanswer:
+          "Code: D9-DI1-24<br/>Prerequisite: D9-RHE-24<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
+        answer:
+          "The module will enable learners gain a deeper understanding of research by exposing them to both the theoretical and practical aspects of educational research. The learners are expected to explore the findings of these researches in a manner that improves teaching, research and other aspects of HE.",
+      },
+      {
+        question: "Assessment and Moderation in Outcomes-based Education",
+        subanswer:
+          "Code: D9-ABE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+        answer:
+          "This module equips learners with theoretical and practical skills for conducting assessment and moderation based on Outcomes-Based Education (OBE). It emphasises learner-centred approaches, enabling educators to apply OBE principles effectively in teaching, learning, assessment, and moderation within educational institutions.",
+      },
+    ],
+  },
+  {
+    semester: "Semester 3 Elective One (Choose Two)",
+    courses: [
+      {
+        question: "Governance and Management in Higher Education",
+        subanswer:
+          "Code: D9-GMH-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+        answer:
+          "The module will familiarize learners with governance, leadership and management structures in HE institutions that can ensure effective attainment of institutional goals and objectives. It is essential to enhance the learners’ understanding of the processes and the structures through which higher education institutions are managed.",
+      },
+      {
+        question: "Organisational Development",
+        subanswer:
+          "Code: D9-ODE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+        answer:
+          "The aim of this module is to allow students gain knowledge on contemporary issues that affect organisations such as the Evolution of Organisational Behaviour, Individual Dimensions , Group Dynamics, Conflict Management and Negotiation, Stress Management, Change Leadership and Decision Making, Dynamics Organisations, Management of Change and Culture and ethics",
+      },
+      {
+        question: "Special Education",
+        subanswer:
+          "Code: D9-SNE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+        answer:
+          "This module equips learners with the knowledge, skills, and competencies to support students with special needs in higher education. It focuses on inclusive education principles, emphasising the importance of recognising individual differences and fostering unity, equity, and democratic practice in diverse classroom settings.",
+      },
+    ],
+  },
+  {
+    semester: "Semester 4",
+    courses: [
+      {
+        question: "Dissertation (Year module)",
+        subanswer:
+          "Code: D9-DI2-24<br/>Prerequisite: D9-DI1-24<br/>Co-requisite: None<br/>Module Fees: $1170<br/>Module Credits: 60",
+        answer:
+          "The module will enable learners gain a deeper understanding of research by exposing them to both the theoretical and practical aspects of educational research. The learners are expected to explore the findings of these researches in a manner that improves teaching, research and other aspects of Higher Education.",
+      },
+    ],
+  },
+    ],
+  
   requirements: [
     {
       question: "Admission Requirements",
