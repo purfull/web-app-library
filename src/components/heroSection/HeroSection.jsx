@@ -5,24 +5,24 @@ import React from "react";
 import { useNavigate } from 'react-router-dom';
 
 const herobanner = [
-  {
-    Primarytittle:
-      "Empower Your Future with <span style='background-color: #841D2E'>Botho University Online</span>",
-    subtittle:
-      "Pursue accredited, globally recognized qualifications designed for flexibility, affordability, and career advancement - anytime, anywhere.",
-    button: "Explore Programmes",
-    arrowIcon: "/icon/arrow_forward.png",
-    backgroundImg: "/images/herobanner.png",
-    calledtoAction:
-      "98% of our graduates will recommend us to others <span class='desktop-br'><br /></span> (Source: 2025 Graduate Tracer Study)",
+  // {
+  //   Primarytittle:
+  //     "Empower Your Future with <span style='background-color: #841D2E'>Botho University Online</span>",
+  //   subtittle:
+  //     "Pursue accredited, globally recognized qualifications designed for flexibility, affordability, and career advancement - anytime, anywhere.",
+  //   button: "Explore Programmes",
+  //   arrowIcon: "/icon/arrow_forward.png",
+  //   backgroundImg: "/images/herobanner.png",
+  //   calledtoAction:
+  //     "98% of our graduates will recommend us to others <span class='desktop-br'><br /></span> (Source: 2025 Graduate Tracer Study)",
 
-    dynamicimg: [
-      "/images/Ellipse 21.png",
-      "/images/Ellipse 22.png",
-      "/images/Ellipse 23.png",
-      "/images/Ellipse 24.png",
-    ],
-  },
+  //   dynamicimg: [
+  //     "/images/Ellipse 21.png",
+  //     "/images/Ellipse 22.png",
+  //     "/images/Ellipse 23.png",
+  //     "/images/Ellipse 24.png",
+  //   ],
+  // },
   {
     Primarytittle:
       "Empower Your Future with <span style='background-color: #841D2E'>Botho University </span> Online",
@@ -77,7 +77,7 @@ const HeroSection = () => {
       <Carousel
         className="carosal-inner"
         autoplay
-        pauseOnHover= {false}
+        // pauseOnHover= {false}
         // dotPosition="bottom"
         dots={false}
       >

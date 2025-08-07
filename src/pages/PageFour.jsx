@@ -420,6 +420,7 @@ It's very important to us at Botho University that students receive timely assis
       <RednavBar />
       <NavBar />
       <FeeHome />
+      {/* <StaticHome /> */}
       <EnquireSection
         cardData={ugCardData}
         cardTitle="Undergraduate Programme Fees"

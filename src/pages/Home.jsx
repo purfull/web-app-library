@@ -21,7 +21,7 @@ const HomePage = () => {
     {
       cover: "/images/courses-images/Bcom in Hospitality.jpeg",
       courseName: "Undergraduate Programme",
-      title: "B.Com in Hospitality Management",
+      title: "BCom in Hospitality Management",
       description:
         "Aspiring to a leadership role in the vibrant hospitality sector? Our Bachelor of Commerce in Hospitality Management provides a strong foundation in business principles alongside specialised hospitality skills. You'll cover core areas like accounting and marketing, combined with modules in hotel operations, food and beverage management, and tourism development.",
     },
@@ -35,7 +35,7 @@ const HomePage = () => {
     {
       cover: "/images/courses-images/Diploma in Occup.jpeg",
       courseName: "Undergraduate Programme",
-      title: "Dip in Occupational Health Safety",
+      title: "Diploma in Occupational Health Safety",
       description:
         "Fascinated by creating safer workplaces? Our Diploma in Occupational Health and Safety is for you! This comprehensive programme blends occupational health, safety management, risk assessment, and environmental sustainability. You'll gain practical skills to identify, evaluate, and control workplace hazards, ensuring compliance with regulations, and fostering a strong safety culture.",
     },
@@ -43,7 +43,7 @@ const HomePage = () => {
       // /images/courses-images/BBA in bus mgmt.jpg
       cover: "/images/courses-images/Bcom in accounting.jpeg",
       courseName: "Undergraduate Programme",
-      title: "B.Com in Accounting",
+      title: "BCom in Accounting",
       description:
         "Your Future in Accounting Starts Here! Our Bachelor of Commerce in Accounting programme offers a practical, industry-focused approach to a rewarding career in accounting and finance. You'll gain essential expertise in financial reporting, auditing, taxation, and management accounting. What sets this degree apart is its blend of theory and hands-on experience, including a compulsory semester-long internship for invaluable real-world exposure.",
       subjects: "",
@@ -51,14 +51,14 @@ const HomePage = () => {
     {
       cover: "/images/courses-images/Msc in computer science.jpeg",
       courseName: "Postgraduate Programme",
-      title: "Msc in Computer Science",
+      title: "MSc in Computer Science",
       description:
         "Aspiring to excel in the tech industry? Our Master of Science in Computer Science is an advanced, flexible online programme. You'll gain technical expertise and analytical skills, focusing on core computing principles and specialised areas like software development, data analysis, artificial intelligence, and cybersecurity.",
     },
     {
       cover: "/images/courses-images/Med in higher education.jpeg",
       courseName: "Postgraduate Programme",
-      title: "MED in Higher Education",
+      title: "MEd in Higher Education",
       description:
         "Elevate your expertise with our Master of Education in Higher Education. This specialised two-year online programme equips you with advanced pedagogical skills, covering Learning, Teaching and Assessment, Curriculum Design and Development, and Academic Writing.",
     },
@@ -75,7 +75,6 @@ Applying to Botho University is a straightforward and free process, designed to 
 If you wish to connect with us first and speak to a counsellor before applying, please feel free to complete this simple enquiry form:</br>
 👉 <a href="https://bothouniversity.academiaerp.com/enquire/" target="_blank" rel="noopener noreferrer">Enquire Here</a>
 </br></br>
-Required Documents</br></br>
 To help you prepare for the application, here's what you'll typically need:
 </br></br>
 For Undergraduate Programmes:</br></br>
@@ -86,8 +85,7 @@ For Undergraduate Programmes:</br></br>
 - Professional passport-size photo
 </br></br>
 Mature Entry Applicants:</br></br>
-If you're applying through mature entry, please be ready to provide additional documents such as:
-</br></br>
+
 - Other qualification certificates with transcripts
 </br>
 - Letter(s) from your employer(s)

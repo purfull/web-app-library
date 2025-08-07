@@ -5,7 +5,7 @@ import React from "react";
 
 const herobanner = [
   {
-    Primarytittle: "Affordable. Flexible. Build",
+    Primarytittle: "Affordable. Flexible. Built",
     highlightedText: "Around You",
     PrimaryTitleEnd: "",
     highlightedBgColor: "#841D2E",

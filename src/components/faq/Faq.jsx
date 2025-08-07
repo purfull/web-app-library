@@ -39,7 +39,7 @@ const Faq = ({ faqData, title, animation }) => {
     <div className="faq-container page-gap">
       <div className="faq-leftpart">
         <span className="secondary-heading faq-heading">
-          {title || "Frequently Asked Questions"}
+          {title || "Frequently Asked Questions (FAQs)"}
         </span>
       </div>
       <div className="faq-rightpart">

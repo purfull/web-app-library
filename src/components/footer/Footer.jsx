@@ -91,7 +91,9 @@ const Footer = () => {
                     <img className="logo-botho-footer" src="/logo/BothoLogo-hd.png" alt="Logo" />
 
                     <div className="span-first-con">
-                        <span className='first-conatiner-texts'>Botho University is a leading multi-disciplinary institution founded in Botswana in 1997, now operating across 4 African countries and online.</span>
+                        <span className='first-conatiner-texts'>Botho University is a leading African institution committed to excellence.
+Our flexible online programmes are designed for real-world success.
+With physical campuses across the region in 4 countries and a strong digital presence, we empower learners to thrive in a fast-changing world.</span>
                     </div>
 
                     {/* <div className="footer-first-logo-session ">
@@ -182,8 +184,8 @@ const Footer = () => {
 
                 <div className='terms-cond'>
 
-                    <a className='color-black-footer black' href='' style={{ color: "#000" }} onClick={handleTerms}>Terms & Conditions</a>
-                    <a className='color-black-footer black' style={{ color: "#000" }} href=''>Privacy Policy</a>
+                    <a className='color-black-footer black' href='' target='_blank' style={{ color: "#000" }} onClick={handleTerms}>Terms & Conditions</a>
+                    {/* <a className='color-black-footer black' style={{ color: "#000" }} href=''>Privacy Policy</a> */}
 
                 </div>
             </div>

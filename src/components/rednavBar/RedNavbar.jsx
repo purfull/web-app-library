@@ -45,7 +45,7 @@ const RedNavbar = () => {
       <div className="red-head">
         <span className="welcome">
           Welcome to
-          <span className="white-text"> BOTHO UNIVERSITY</span>
+          <span className="white-text"> BOTHO UNIVERSITY ONLINE</span>
         </span>
         <div className="details">
           <span>@ onlineadmissions@bothouniversity.ac.bw</span>

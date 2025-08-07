@@ -96,7 +96,7 @@ const Content = () => {
     <div className="content-container page-gap">
       <div className="content-part1">
         <span className="secondary-heading margin-bottom">
-          Why Botho University Online?
+          Why <br /> Botho University Online?
         </span>
         <br />
         <br />
