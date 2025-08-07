@@ -123,23 +123,25 @@ const Footer = () => {
                     <span className='heading-footer'>Contact Us</span>
                     <div className='third-logo-and-content'>
                         <img src="/logo/location.png" alt="" />
-                        <a className='color-black-footer' href="">Botho Education Park, Kgale, Gaborone, Botswana</a>
+                        <a className='color-black-footer' >Botho Education Park, Kgale, Gaborone, Botswana</a>
                     </div>
 
                     <div className='third-logo-and-content'>
                         <img src="/logo/message.png" alt="" />
-                        <a className='color-black-footer'   href="mailto:onlineadmissions@bothouniversity.ac.bw">onlineadmissions@bothouniversity.ac.bw</a>
-
-                    </div>
-                    <div className='third-logo-and-content'>
-                        <img src="/logo/whatsapp.png" alt="" />
-                        <a className='color-black-footer' href="https://wa.me/26777017160" target='_blank'>+267 77 017 160</a>
+                        <a className='color-black-footer'   
+                        // href="mailto:onlineadmissions@bothouniversity.ac.bw"
+                        >onlineadmissions@bothouniversity.ac.bw</a>
 
                     </div>
 
                     <div className='third-logo-and-content'>
                         <img src="/logo/phone.png" alt="" />
-                        <a className='color-black-footer' href="">+267 363 5455 / 363 5471</a>
+                        <a className='color-black-footer' >+267 363 5455 / 363 5471</a>
+
+                    </div>
+                    <div className='third-logo-and-content'>
+                        <img src="/logo/whatsapp.png" alt="" />
+                        <a className='color-black-footer' href="https://wa.me/26777017160" target='_blank'>+267 77 017 160</a>
 
                     </div>
 

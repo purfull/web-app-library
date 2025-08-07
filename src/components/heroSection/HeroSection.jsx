@@ -77,6 +77,7 @@ const HeroSection = () => {
       <Carousel
         className="carosal-inner"
         autoplay
+        pauseOnHover= {false}
         // dotPosition="bottom"
         dots={false}
       >

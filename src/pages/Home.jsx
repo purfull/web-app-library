@@ -177,7 +177,7 @@ It's very important to us at Botho University that students receive timely assis
         secondaryHeading="Explore Our Online Programme"
       />
       <FeedBackSection />
-      <Faq faqData={faqData} />
+      <Faq faqData={faqData} animation={true} />
       <BannerSection
         bannerImage="/images/graduate.png"
         headingText="Are You Ready To Take The"

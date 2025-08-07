@@ -249,10 +249,10 @@ It's very important to us at Botho University that students receive timely assis
         programOverview={course?.programOverview}
       />
       {/* <Course /> */}
-      <Faq faqData={course?.requirements} title="Requirements" />
+      <Faq faqData={course?.requirements} title="Requirements" animation={false} />
       <CourseStruture courseStruture={course?.courseStruture} />
       <FeedBackSection />
-      <Faq faqData={faqData} />
+      <Faq faqData={faqData} animation={true}/>
       <BannerSection />
       <Footer />
     </div>

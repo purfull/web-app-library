@@ -6,7 +6,7 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
-const Faq = ({ faqData, title }) => {
+const Faq = ({ faqData, title, animation }) => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleFaq = (index) => {
@@ -16,7 +16,7 @@ const Faq = ({ faqData, title }) => {
   // useEffect(() => {
   //   console.log(title);
     
-  //   if (!faqPart2Ref.current || window.innerWidth < 1024) return;
+  //   if (!faqPart2Ref.current || window.innerWidth < 1024 || !animation) return;
 
   //   const titleElement = document.querySelector(".faq-heading");
 
@@ -24,10 +24,10 @@ const Faq = ({ faqData, title }) => {
   //     trigger: faqPart2Ref.current,
   //     start: "top-=60vh top",
   //     end: "bottom 20%",
-  //     // markers: true,
+  //     markers: true,
   //     scrub: true,
   //     pin: titleElement,
-  //     pinSpacing: true,
+  //     pinSpacing: false,
   //   });
 
   //   return () => {

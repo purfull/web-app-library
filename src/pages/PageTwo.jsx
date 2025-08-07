@@ -263,7 +263,7 @@ It's very important to us at Botho University that students receive timely assis
         secondaryParagraph="Start strong with a flexible, accredited degree that builds your foundation for a successful career."
       />
       <FeedBackSection />
-      <Faq faqData={faqData} />
+      <Faq faqData={faqData} animation={true} />
       <BannerSection
         bannerImage="/images/happy-student-girl.png"
         headingText="Begin Your"
