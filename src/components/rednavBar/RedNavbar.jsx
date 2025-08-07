@@ -13,8 +13,9 @@ const RedNavbar = () => {
   const mobileNavRef = useRef(null);
 
    const handleWhyClick = () => {
-    navigate("/");
-    window.scrollTo(0, window.innerHeight);
+    navigate("/all-Courses");
+    window.scrollTo(0, 0);
+    // window.scrollTo(0, window.innerHeight);
   };
 
   const handleFeeClick = () => {
@@ -59,7 +60,7 @@ const RedNavbar = () => {
         <span className="welcome"
             onClick={handleWhyClick}
             style={{ cursor: "pointer" }}>
-          why BU?
+          Our Courses
         </span>
         <span style={{color:"gray"}}>|</span>
         <span className="welcome" 

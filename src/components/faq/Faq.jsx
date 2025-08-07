@@ -24,7 +24,7 @@ const Faq = ({ faqData, title, animation }) => {
   //     trigger: faqPart2Ref.current,
   //     start: "top-=60vh top",
   //     end: "bottom 20%",
-  //     markers: true,
+  //     // markers: true,
   //     scrub: true,
   //     pin: titleElement,
   //     pinSpacing: false,
