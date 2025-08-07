@@ -35,7 +35,7 @@
   }
   .content-question {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     display: flex;
     justify-content: space-between; /* pushes icon to the end */
     align-items: center;
