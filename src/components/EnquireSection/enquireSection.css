@@ -715,7 +715,7 @@
 }
 .view-enquire-button {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .enq-button,
 .view-more {
@@ -790,7 +790,7 @@
 }
 .view-enquire-button {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .enq-button,
 .view-more {
@@ -862,7 +862,7 @@
 }
 .view-enquire-button {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .enq-button,
 .view-more {
