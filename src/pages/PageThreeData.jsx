@@ -1,8 +1,8 @@
 export const baseUrl = "https://di00ymfrmfyeb.cloudfront.net";
 
-export const bachelorofscienceindatascience = {
+export const bscindatascience = {
   heroContent: {
-    question: "Bachelor of Science in Data Science",
+    question: "BSc in Data Science",
     image: "/images/courses-images/Bsc in data science.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
@@ -31,7 +31,7 @@ export const bachelorofscienceindatascience = {
           subanswer:
             "Code: E5-PHY-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This Pre-Calculus module reviews key algebraic concepts, including exponents, polynomials, and complex numbers, before progressing to trigonometry, matrices, and graphing. Students will explore logarithms, conic sections, sequences, and probability. Through video lectures and practice exercises, they will develop problem-solving skills and prepare for advanced mathematical topics such as calculus",
+            "This Pre-Calculus module reviews key algebraic concepts, including exponents, polynomials, and complex numbers, before progressing to trigonometry, matrices, and graphing. Students will explore logarithms, conic sections, sequences, and probability. Through video lectures and practice exercises, they will develop problem-solving skills and prepare for advanced mathematical topics such as calculus.",
         },
         {
           question: "Computer Architecture",
@@ -357,7 +357,7 @@ export const bachelorofscienceindatascience = {
           subanswer:
             "Code: E5-PHY-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module explores ethical challenges in computing, covering topics like privacy, security, and intellectual property. Students will analyse computer crimes, software development ethics, and data protection. They'll apply ethical decision-making, understand IT professional responsibilities, and evaluate approaches to protect privacy and freedom of speech in the digital age.   ",
+            "This module explores ethical challenges in computing, covering topics like privacy, security, and intellectual property. Students will analyse computer crimes, software development ethics, and data protection. They'll apply ethical decision-making, understand IT professional responsibilities, and evaluate approaches to protect privacy and freedom of speech in the digital age.",
         },
       ],
     },
@@ -555,21 +555,21 @@ export const bbainbusinessmanagement = {
           subanswer:
             "Code: B6-BEA-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module explores the role of external auditing, focusing on its regulatory framework, fraud detection, and reporting responsibilities. It covers pre-audit investigations, audit planning, risk assessment, materiality, and auditors’ legal liability. Additionally, it examines the differences between financial statement audits and the assurance of sustainability reports. ",
+            "This module explores the role of external auditing, focusing on its regulatory framework, fraud detection, and reporting responsibilities. It covers pre-audit investigations, audit planning, risk assessment, materiality, and auditors’ legal liability. Additionally, it examines the differences between financial statement audits and the assurance of sustainability reports.",
         },
         {
           question: "Business Management 2",
           subanswer:
             "Code: B5-BM2-20<br/>Prerequisite: B5-BS1-17<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module provides a comprehensive foundation in management principles, covering managerial roles, strategic planning, decision-making, and organizational structures. It explores human resource management, change management, diversity, and logistics. Emphasis is placed on adapting to environmental changes, leveraging information systems, and developing skills for sustainable competitive advantage in modern business organizations.         ",
+            "This module provides a comprehensive foundation in management principles, covering managerial roles, strategic planning, decision-making, and organizational structures. It explores human resource management, change management, diversity, and logistics. Emphasis is placed on adapting to environmental changes, leveraging information systems, and developing skills for sustainable competitive advantage in modern business organizations.",
         },
         {
           question: "Computerized Accounting 1",
           subanswer:
             "Code: A6-CP1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module introduces computerized accounting systems, covering transaction processing, enterprise resource planning (ERP), and accounting software like Pastel and QuickBooks. It explores cybercrime, fraud prevention, security controls, and auditing of computer-based systems. Additionally, it examines revenue and expenditure cycles, as well as system development, analysis, design, and implementation.      ",
+            "This module introduces computerized accounting systems, covering transaction processing, enterprise resource planning (ERP), and accounting software like Pastel and QuickBooks. It explores cybercrime, fraud prevention, security controls, and auditing of computer-based systems. Additionally, it examines revenue and expenditure cycles, as well as system development, analysis, design, and implementation.",
         },
       ],
     },
@@ -653,7 +653,7 @@ export const bbainbusinessmanagement = {
           subanswer:
             "Code: A6-CSC-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module examines the formation, administration, and management of companies, covering types, incorporation, and regulatory provisions. It explores share capital, capital maintenance, and financial reporting. Additionally, it highlights the roles and responsibilities of members, directors, and company officers, ensuring compliance with legal and governance frameworks for corporate operations. ",
+            "This module examines the formation, administration, and management of companies, covering types, incorporation, and regulatory provisions. It explores share capital, capital maintenance, and financial reporting. Additionally, it highlights the roles and responsibilities of members, directors, and company officers, ensuring compliance with legal and governance frameworks for corporate operations.",
         },
         {
           question: "Financial Accounting 2",
@@ -688,7 +688,7 @@ export const bbainbusinessmanagement = {
           subanswer:
             "Code: A7-FIR-20<br/>Prerequisite: A7-FA2-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
-            "This module explores key accounting standards, including IAS 8 for accounting policies, IAS 23 for borrowing costs, and IAS 20 for government grants. It covers income tax accounting (IAS 12), earnings per share (IAS 33), and group financial statements, including consolidation (IAS 27) and accounting for associates (IAS 28). ",
+            "This module explores key accounting standards, including IAS 8 for accounting policies, IAS 23 for borrowing costs, and IAS 20 for government grants. It covers income tax accounting (IAS 12), earnings per share (IAS 33), and group financial statements, including consolidation (IAS 27) and accounting for associates (IAS 28).",
         },
       ],
     },
@@ -741,14 +741,14 @@ export const bbainbusinessmanagement = {
           subanswer:
             "Code: A7-TA3-20<br/>Prerequisite: A7-TA2-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module focuses on the scope of income tax, including employment, self-employment, property, investment, and trust income. It explores tax on gains, losses, and inheritance, along with computing taxable income and liabilities. Students will learn to apply exemptions, minimize tax liabilities, and assess taxation's impact on financial decisions. ",
+            "This module focuses on the scope of income tax, including employment, self-employment, property, investment, and trust income. It explores tax on gains, losses, and inheritance, along with computing taxable income and liabilities. Students will learn to apply exemptions, minimize tax liabilities, and assess taxation's impact on financial decisions.",
         },
         {
           question: "Corporate Secretaryship 2",
           subanswer:
             "Code: A7-CS2-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module provides a comprehensive understanding of the legal and regulatory framework governing companies. It covers company formation, types, incorporation effects, and statutory compliance. Students will explore share capital, financial reporting, corporate governance, and directors' responsibilities. Emphasis is placed on legal provisions, corporate structure, and effective company administration. ",
+            "This module provides a comprehensive understanding of the legal and regulatory framework governing companies. It covers company formation, types, incorporation effects, and statutory compliance. Students will explore share capital, financial reporting, corporate governance, and directors' responsibilities. Emphasis is placed on legal provisions, corporate structure, and effective company administration.",
         },
         {
           question: "Audit and Assurance 2",
@@ -775,7 +775,7 @@ export const bbainbusinessmanagement = {
           subanswer:
             "Code: A7-PSR-20<br/>Prerequisite: A7-FA2-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module focuses on public sector financial reporting standards, including cash and accrual basis accounting under IPSAS. It explores financial statement presentation, cash flow reporting, accounting policies, and asset management. Students will learn about consolidation, intangible assets, revenue from non-exchange transactions, leases, and first-time adoption of accrual-based IPSAS standards. ",
+            "This module focuses on public sector financial reporting standards, including cash and accrual basis accounting under IPSAS. It explores financial statement presentation, cash flow reporting, accounting policies, and asset management. Students will learn about consolidation, intangible assets, revenue from non-exchange transactions, leases, and first-time adoption of accrual-based IPSAS standards.",
         },
         {
           question: "Research Project 1: Proposal Writing",
@@ -797,7 +797,7 @@ export const bbainbusinessmanagement = {
           subanswer:
             "Code: A7-CA2-20<br/>Prerequisite: A6-CA1-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module focuses employment law, workplace compliance, and health and safety regulations. It explores company wellness policies, retirement funding, and pension scheme administration. Students will also examine risk management principles, asset management, acquisition, protection, and facilities management, emphasizing their role in achieving organizational objectives and operational efficiency. ",
+            "This module focuses employment law, workplace compliance, and health and safety regulations. It explores company wellness policies, retirement funding, and pension scheme administration. Students will also examine risk management principles, asset management, acquisition, protection, and facilities management, emphasizing their role in achieving organizational objectives and operational efficiency.",
         },
       ],
     },
@@ -809,21 +809,21 @@ export const bbainbusinessmanagement = {
           subanswer:
             "Code:B6-ENI-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
-            "This module explores entrepreneurship and innovation, covering enterprise development, opportunity discovery, and business planning. It examines innovation principles, feasibility assessment, business modelling, and disruptive technologies. Students will learn to validate risks, market size, and pricing while developing entrepreneurial teams, fostering creativity, and building sustainable, innovative ventures. ",
+            "This module explores entrepreneurship and innovation, covering enterprise development, opportunity discovery, and business planning. It examines innovation principles, feasibility assessment, business modelling, and disruptive technologies. Students will learn to validate risks, market size, and pricing while developing entrepreneurial teams, fostering creativity, and building sustainable, innovative ventures.",
         },
         {
           question: "Social Entrepreneurship",
           subanswer:
             "Code: B8-SOE-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
-            "This module explores how social entrepreneurs develop innovative solutions to address global challenges. Students will gain practical skills in managing small enterprises, leveraging disruptive technologies, and applying entrepreneurial thinking to foster sustainability. Areas of focus include scaling social businesses, impact measurement, and integrating sustainable development goals for lasting change. ",
+            "This module explores how social entrepreneurs develop innovative solutions to address global challenges. Students will gain practical skills in managing small enterprises, leveraging disruptive technologies, and applying entrepreneurial thinking to foster sustainability. Areas of focus include scaling social businesses, impact measurement, and integrating sustainable development goals for lasting change.",
         },
         {
           question: "Innovation for Sustainable Development",
           subanswer:
             "Code: E8-ISD-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
-            "This module focuses on group dynamics, enhancing efficiency, participation, and satisfaction. It equips students with facilitation, research, and analytical skills while fostering multidisciplinary collaboration through design thinking. Students will define and analyze real societal problems, applying self-competencies and teamwork to develop and implement practical solutions. ",
+            "This module focuses on group dynamics, enhancing efficiency, participation, and satisfaction. It equips students with facilitation, research, and analytical skills while fostering multidisciplinary collaboration through design thinking. Students will define and analyze real societal problems, applying self-competencies and teamwork to develop and implement practical solutions.",
         },
       ],
     },
@@ -835,14 +835,14 @@ export const bbainbusinessmanagement = {
           subanswer:
             "Code: A7-PRA-20<br/>Prerequisite: 240 Credits<br/>Co-requisite: None<br/>Module Fees: $520<br/>Module Credits: 40",
           answer:
-            "This module provides students with industry attachment for hands-on experience in accounting. Assessment emphasizes supervision, a final paper, and a portfolio of evidence. Students will demonstrate key competencies, balance theory with practice, and engage in academic discourse to enhance their professional skills in real-world accounting environments. ",
+            "This module provides students with industry attachment for hands-on experience in accounting. Assessment emphasizes supervision, a final paper, and a portfolio of evidence. Students will demonstrate key competencies, balance theory with practice, and engage in academic discourse to enhance their professional skills in real-world accounting environments.",
         },
         {
           question: "Research Project 2: Dissertation",
           subanswer:
             "Code: B7-RP2-20<br/>Prerequisite: B7-RP1-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
-            "This module guides students in conducting independent research at the honours level. It covers problem identification, literature review, research design, data collection, analysis, and interpretation. Students will develop a well-structured dissertation, drawing conclusions and making recommendations, demonstrating their ability to apply research skills to real-world issues. ",
+            "This module guides students in conducting independent research at the honours level. It covers problem identification, literature review, research design, data collection, analysis, and interpretation. Students will develop a well-structured dissertation, drawing conclusions and making recommendations, demonstrating their ability to apply research skills to real-world issues.",
         },
       ],
     },
@@ -851,7 +851,7 @@ export const bbainbusinessmanagement = {
     {
       question: "Admission Requirements",
       answer:
-        "IGCSE/equivalent with 5 Passes including English and Mathematics. Applicants in possession of a Diploma or Higher Diploma in related fields may be given exemptions based on the credit point equivalency. ",
+        "IGCSE/equivalent with 5 Passes including English and Mathematics. Applicants in possession of a Diploma or Higher Diploma in related fields may be given exemptions based on the credit point equivalency.",
     },
 
     {
@@ -863,43 +863,43 @@ export const bbainbusinessmanagement = {
   <p>Device Requirements:</p>
   <ul>
     <li>
-      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
+      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
     </li></br>
     <li><p>OR</p></li></br>
     <li>
-      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams)
+      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
     </li></br>
   </ul>
   </br>
   <p>Internet Requirements:</p>
   <ul>
     <li>
-      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
     </li>
     <li>
-      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions.
     </li>
   </ul></br>
 
   <p>Software and Platforms:</p>
   <ul>
     <li>
-      <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+      <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
   </ul></br>
 
   <p>Browser Requirements:</p>
   <ul>
     <li>
-      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
   </ul></br>
 
   <p>Additional Tools: (Optional but Recommended)</p>
   <ul>
-    <li>Headset: For clear audio during virtual classes</li>
-    <li>External storage (USB/Cloud): For backups of important coursework</li>
-    <li>Antivirus software: To protect against malware or data loss</li>
+    <li>Headset: For clear audio during virtual classes.</li>
+    <li>External storage (USB/Cloud): For backups of important coursework.</li>
+    <li>Antivirus software: To protect against malware or data loss.</li>
   </ul></br>
 </div>
 `,
@@ -910,7 +910,7 @@ export const bbainbusinessmanagement = {
 
 export const bcominhospitalitymanagement = {
   heroContent: {
-    question: "B.Com in Hospitality Management",
+    question: "BCom in Hospitality Management",
     image: "/images/courses-images/Bcom in Hospitality.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
@@ -956,7 +956,7 @@ export const bcominhospitalitymanagement = {
             "Professional Cookery module equips students with essential culinary skills, food preparation techniques, and kitchen management principles. It emphasizes hygiene, nutrition, and presentation while fostering creativity and efficiency in a professional kitchen. Students gain hands-on experience to meet industry standards and excel in various culinary and hospitality settings.",
         },
         {
-          question: "Introduction to Hospital Operations",
+          question: "Introduction to Hotel Operations",
           subanswer:
             "Code: H5-IHO-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
@@ -967,7 +967,7 @@ export const bcominhospitalitymanagement = {
           subanswer:
             "Code:A5-IFA-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "Financial Accounting module equips students with fundamental accounting principles, including recording, analyzing, and interpreting financial transactions. It covers financial statements, bookkeeping, and regulatory standards, enabling students to understand business finances, make informed decisions, and ensure transparency in financial reporting within the hospitality and business sectors. ",
+            "Financial Accounting module equips students with fundamental accounting principles, including recording, analyzing, and interpreting financial transactions. It covers financial statements, bookkeeping, and regulatory standards, enabling students to understand business finances, make informed decisions, and ensure transparency in financial reporting within the hospitality and business sectors.",
         },
       ],
     },
@@ -979,7 +979,7 @@ export const bcominhospitalitymanagement = {
           subanswer:
             "Code: H7-PC2-22<br/>Prerequisite: H5-PC1-22<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
           answer:
-            "Professional Cookery 2 module provides intensive training in professional cookery, equipping learners with essential skills, techniques, and culinary knowledge. Students gain expertise in cooking methods, menu planning, and recipe development while understanding ingredient costs, quality, and usage. It prepares them to create diverse dishes and excel in the culinary industry. ",
+            "Professional Cookery 2 module provides intensive training in professional cookery, equipping learners with essential skills, techniques, and culinary knowledge. Students gain expertise in cooking methods, menu planning, and recipe development while understanding ingredient costs, quality, and usage. It prepares them to create diverse dishes and excel in the culinary industry.",
         },
         {
           question: "Business Communication",
@@ -993,14 +993,14 @@ export const bcominhospitalitymanagement = {
           subanswer:
             "Code: B5-MIE-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "Microeconomics module introduces students to fundamental economic principles, focusing on how individuals and businesses make decisions regarding resource allocation, pricing, and production. It covers supply and demand, market structures, consumer behaviour, and cost analysis, equipping students with analytical skills to understand and apply economic concepts in business environments. ",
+            "Microeconomics module introduces students to fundamental economic principles, focusing on how individuals and businesses make decisions regarding resource allocation, pricing, and production. It covers supply and demand, market structures, consumer behaviour, and cost analysis, equipping students with analytical skills to understand and apply economic concepts in business environments.",
         },
         {
           question: "Principles of Hospitality Franchise",
           subanswer:
             "Code: H7-PHT-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
           answer:
-            " Principles of Hospitality Franchise module introduces students to the fundamentals of franchising in the hospitality industry. It covers franchise models, operations, legal aspects, and financial considerations. Students gain insights into franchise management, brand consistency, and growth strategies, preparing them for entrepreneurial or managerial roles in hospitality franchising. ",
+            " Principles of Hospitality Franchise module introduces students to the fundamentals of franchising in the hospitality industry. It covers franchise models, operations, legal aspects, and financial considerations. Students gain insights into franchise management, brand consistency, and growth strategies, preparing them for entrepreneurial or managerial roles in hospitality franchising.",
         },
         {
           question: "Front Office Operations",
@@ -1020,7 +1020,7 @@ export const bcominhospitalitymanagement = {
           subanswer:
             "Code: B6-BMA-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "Front Office Operations module provides students with essential knowledge and skills in hotel front desk management. It covers guest relations, reservations, check-in/check-out procedures, billing, and communication. Emphasizing customer service and operational efficiency, the module prepares students for roles in hospitality reception, concierge services, and front office management. ",
+            "Business Mathematics module equips students with essential mathematical concepts and analytical skills for business decision-making. It covers topics like percentages, ratios, financial calculations, algebra, and statistical analysis. This module helps students apply mathematical techniques in finance, accounting, and economics, enhancing problem-solving abilities in business and hospitality management.",
         },
 
         {
@@ -1035,7 +1035,7 @@ export const bcominhospitalitymanagement = {
           subanswer:
             "Code: H7-HKP-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "The Housekeeping Management module focuses on the leadership and organizational skills required to manage a hotel’s housekeeping department. It covers staffing, training, budgeting, inventory control, and quality assurance. Students learn to optimize operations, maintain cleanliness and safety standards, and ensure exceptional guest satisfaction through effective housekeeping management practices. ",
+            "The Housekeeping Management module focuses on the leadership and organizational skills required to manage a hotel’s housekeeping department. It covers staffing, training, budgeting, inventory control, and quality assurance. Students learn to optimize operations, maintain cleanliness and safety standards, and ensure exceptional guest satisfaction through effective housekeeping management practices.",
         },
         {
           question: "Customer Service Management",
@@ -1049,7 +1049,7 @@ export const bcominhospitalitymanagement = {
           subanswer:
             "Code: H6-HHS-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "Hospitality Health and Safety module equips students with essential knowledge of workplace safety, hygiene, and risk management in the hospitality industry. It covers food safety, fire prevention, hazard control, and legal compliance. Students learn to create safe environments for guests and staff while adhering to industry health regulations. ",
+            "Hospitality Health and Safety module equips students with essential knowledge of workplace safety, hygiene, and risk management in the hospitality industry. It covers food safety, fire prevention, hazard control, and legal compliance. Students learn to create safe environments for guests and staff while adhering to industry health regulations.",
         },
         {
           question: "Food Service Operations",
@@ -1069,7 +1069,7 @@ export const bcominhospitalitymanagement = {
           subanswer:
             "Code: B7-BST-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
           answer:
-            "Food Service Operations module equips students with essential skills in managing food and beverage services in hospitality settings. It covers service styles, customer interaction, order management, hygiene, and operational efficiency. Students learn to enhance guest experiences, maintain quality standards, and oversee restaurant or catering service operations effectively. ",
+            "Food Service Operations module equips students with essential skills in managing food and beverage services in hospitality settings. It covers service styles, customer interaction, order management, hygiene, and operational efficiency. Students learn to enhance guest experiences, maintain quality standards, and oversee restaurant or catering service operations effectively.",
         },
 
         {
@@ -1077,14 +1077,14 @@ export const bcominhospitalitymanagement = {
           subanswer:
             "Code: H7-CS2-22<br/>Prerequisite: H7-CS1-22<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
           answer:
-            "Culinary and Nutrition Studies 2 module builds on foundational culinary skills, focusing on advanced cooking techniques and specialized dietary needs. It emphasizes creating nutritious meals for specific populations, such as those with allergies, intolerances, or medical conditions. Students gain expertise in menu design, food preparation, and nutritional analysis. ",
+            "Culinary and Nutrition Studies 2 module builds on foundational culinary skills, focusing on advanced cooking techniques and specialized dietary needs. It emphasizes creating nutritious meals for specific populations, such as those with allergies, intolerances, or medical conditions. Students gain expertise in menu design, food preparation, and nutritional analysis.",
         },
         {
           question: "Food and Beverages Studies",
           subanswer:
             "Code: H7-FBS-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
           answer:
-            "Food and Beverage Studies module provides students with a comprehensive understanding of food and drink management in the hospitality industry. It covers menu planning, service techniques, cost control, hygiene, and customer service. Students gain practical knowledge to enhance dining experiences and manage food and beverage operations efficiently ",
+            "Food and Beverage Studies module provides students with a comprehensive understanding of food and drink management in the hospitality industry. It covers menu planning, service techniques, cost control, hygiene, and customer service. Students gain practical knowledge to enhance dining experiences and manage food and beverage operations efficiently.",
         },
         {
           question: "Tourism and Hospitality laws and Ethics",
@@ -1098,7 +1098,7 @@ export const bcominhospitalitymanagement = {
           subanswer:
             "Code: H7-ACM-22<br/>Prerequisite: H7-HKP-22<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
           answer:
-            "Accommodation Management module equips students with the skills to oversee lodging operations in hotels, resorts, and other hospitality establishments. It covers front office coordination, housekeeping, guest relations, and revenue management. Students learn to optimize occupancy, maintain service quality, and ensure efficient, customer-focused accommodation services. ",
+            "Accommodation Management module equips students with the skills to oversee lodging operations in hotels, resorts, and other hospitality establishments. It covers front office coordination, housekeeping, guest relations, and revenue management. Students learn to optimize occupancy, maintain service quality, and ensure efficient, customer-focused accommodation services.",
         },
       ],
     },
@@ -1139,7 +1139,7 @@ export const bcominhospitalitymanagement = {
           subanswer:
             "Code: H7-EVM-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
           answer:
-            "Events Management module equips students with the skills to plan, organize, and execute events in the hospitality and tourism industry. It covers event planning, budgeting, marketing, logistics, and risk management. Students learn to manage conferences, weddings, and corporate events while ensuring seamless execution and exceptional guest experiences. ",
+            "Events Management module equips students with the skills to plan, organize, and execute events in the hospitality and tourism industry. It covers event planning, budgeting, marketing, logistics, and risk management. Students learn to manage conferences, weddings, and corporate events while ensuring seamless execution and exceptional guest experiences.",
         },
       ],
     },
@@ -1151,7 +1151,7 @@ export const bcominhospitalitymanagement = {
           subanswer:
             "Code: H8-PRI-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "Project 1 is a Research Proposal module that equip students with the skills to develop a structured research plan. It covers problem identification, literature review, research design, and methodology. Students learn to formulate clear objectives, justify their study, and outline data collection methods, preparing them for successful research project execution. ",
+            "Project 1 is a Research Proposal module that equip students with the skills to develop a structured research plan. It covers problem identification, literature review, research design, and methodology. Students learn to formulate clear objectives, justify their study, and outline data collection methods, preparing them for successful research project execution.",
         },
         {
           question: "Strategic Management",
@@ -1244,7 +1244,7 @@ export const bcominhospitalitymanagement = {
           subanswer:
             "Code: B7-PPB-20<br/>Prerequisite: 240 Credits<br/>Co-requisite: None<br/>Module Fees: $520<br/>Module Credits: 40",
           answer:
-            "The Professional Practice / Hospitality Internship module provides hands-on industry experience, allowing learners to apply theoretical knowledge in real-world hospitality settings. It enhances practical skills, professionalism, and problem-solving abilities while fostering industry connections. The module prepares students for career readiness, boosting confidence and employability in the hospitality sector. ",
+            "The Professional Practice / Hospitality Internship module provides hands-on industry experience, allowing learners to apply theoretical knowledge in real-world hospitality settings. It enhances practical skills, professionalism, and problem-solving abilities while fostering industry connections. The module prepares students for career readiness, boosting confidence and employability in the hospitality sector.",
         },
       ],
     },
@@ -1313,7 +1313,7 @@ export const bcominhospitalitymanagement = {
 
 export const mcominhumanresourcemanagement = {
   heroContent: {
-    question: "M.Com in Human Resource Management",
+    question: "MCom in Human Resource Management",
     image: "/images/courses-images/MCom in Human resource.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 2,
@@ -1562,7 +1562,7 @@ export const masterofbusinessadministration = {
           subanswer:
             "Code: B9-MIS-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
-            "Management Information Systems (MIS) module focuses on the role of information systems in organizations, leadership strategies, database management, and networks. It explores ERP, CRM, e-business, and mobile technologies, along with knowledge management, security, auditing, ethics, privacy, and practical skills in operating systems and software applications. ",
+            "Management Information Systems (MIS) module focuses on the role of information systems in organizations, leadership strategies, database management, and networks. It explores ERP, CRM, e-business, and mobile technologies, along with knowledge management, security, auditing, ethics, privacy, and practical skills in operating systems and software applications.",
         },
         {
           question: "Management Accounting",
@@ -1602,7 +1602,7 @@ export const masterofbusinessadministration = {
           subanswer:
             "Code: A9-FMT-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
-            "Financial Management module explicate the difference between financial management and accounting functions, calculate key financial ratios, and investment performance. The students will be exposed to Time Value of Money (TVM) concepts, capital structure, and effective risk-return strategies. The students will also explore capital budgeting, stock types, bonds, and forecasting techniques to make informed, profitable decisions. students will be exposed to Time Value of Money (TVM) concepts, capital structure, and effective risk-return strategies. The students will also explore capital budgeting, stock types, bonds, and forecasting techniques to make informed, profitable decisions. ",
+            "Financial Management module explicate the difference between financial management and accounting functions, calculate key financial ratios, and investment performance. The students will be exposed to Time Value of Money (TVM) concepts, capital structure, and effective risk-return strategies. The students will also explore capital budgeting, stock types, bonds, and forecasting techniques to make informed, profitable decisions. students will be exposed to Time Value of Money (TVM) concepts, capital structure, and effective risk-return strategies. The students will also explore capital budgeting, stock types, bonds, and forecasting techniques to make informed, profitable decisions.",
         },
         {
           question: "Decision Analysis",
@@ -1663,7 +1663,7 @@ export const masterofbusinessadministration = {
           subanswer:
             "Code: B9-SMG-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "Strategic marketing seeks to explicate a big picture by developing effective strategies, vital for implementing impactful tactics. Students are expected to acquire skills vital for managing business growth through data-driven decision-making and dynamic market insights. The students are expected to be well grounded in practical knowledge of using strategic marketing workbooks to enhance brand positioning, customer engagement, and long-term business success. ",
+            "Strategic marketing seeks to explicate a big picture by developing effective strategies, vital for implementing impactful tactics. Students are expected to acquire skills vital for managing business growth through data-driven decision-making and dynamic market insights. The students are expected to be well grounded in practical knowledge of using strategic marketing workbooks to enhance brand positioning, customer engagement, and long-term business success.",
         },
         {
           question: "New Product Development and Management",
@@ -1777,7 +1777,7 @@ export const masterofbusinessadministration = {
   programOverview: `Aiming to become a top executive in the global business arena? Our MBA programme is designed for ambitious professionals. It equips you with the skills to tackle complex challenges, focusing on critical thinking, entrepreneurship, financial resilience, and innovative problem-solving.<br></br>This programme allows you to balance work, life, and study while gaining expertise in international business, leadership, accounting, risk management, technology, and marketing. Our MBA provides a strong foundation in business, empowering you to develop executive acumen and thrive in competitive environments. Join us and gain a recognised qualification for long-term success.`,
 };
 
-export const dipinoccupationalhealthsafety = {
+export const diplomainoccupationalhealthsafety = {
   heroContent: {
     question: "Diploma in Occupational Health Safety",
     image: "/images/courses-images/Diploma in Occup.jpeg",
@@ -1902,7 +1902,7 @@ export const dipinoccupationalhealthsafety = {
           subanswer:
             "Code: D7-EPM-21<br/>Prerequisite: B5-OMN-23<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "The purpose of the module is to equip students with skills to plan, respond to, and manage emergencies and disasters. It focuses on risk assessment, crisis communication, resource coordination, and recovery strategies to minimize impacts and ensure safety in various settings. ",
+            "The purpose of the module is to equip students with skills to plan, respond to, and manage emergencies and disasters. It focuses on risk assessment, crisis communication, resource coordination, and recovery strategies to minimize impacts and ensure safety in various settings.",
         },
         {
           question: "Occupational Diseases",
@@ -1991,7 +1991,7 @@ export const dipinoccupationalhealthsafety = {
 
 export const bscinhealthinformationmanagement = {
   heroContent: {
-    question: "Bsc in Health Information Management",
+    question: "BSc in Health Information Management",
     image: "/images/courses-images/BSc in health info.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
@@ -2386,7 +2386,7 @@ export const bscinhealthinformationmanagement = {
 
 export const bscinhospitaladministration = {
   heroContent: {
-    question: "Bsc in Hospital Administration",
+    question: "BSc in Hospital Administration",
     image: "/images/courses-images/BSc in Hospitality.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
@@ -2462,7 +2462,7 @@ export const bscinhospitaladministration = {
           subanswer:
             "Code: C6-CA2-23<br/>Prerequisite: C5-CA1-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "The purpose of the module is to build advanced computer skills, including software applications, data analysis, and digital tools. It prepares students for complex technology-driven tasks in healthcare administration and beyond. ",
+            "The purpose of the module is to build advanced computer skills, including software applications, data analysis, and digital tools. It prepares students for complex technology-driven tasks in healthcare administration and beyond.",
         },
         {
           question: "Introduction to Global Health",
@@ -2788,7 +2788,7 @@ export const bscinhospitaladministration = {
 
 export const bscinsafetyhealthandenvironmentalmanagement = {
   heroContent: {
-    question: "Bsc in Safety, Health and Environmental Management",
+    question: "BSc in Safety, Health and Environmental Management",
     image: "/images/courses-images/BSc in Safety..png",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
@@ -3209,7 +3209,7 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
 
 export const bedinprimaryeducation = {
   heroContent: {
-    question: "BED in Primary Education(English Language and Mathematics)",
+    question: "BEd in Primary Education(English Language and Mathematics)",
     image: "/images/courses-images/Bed in Primary.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
@@ -3564,7 +3564,7 @@ export const bedinprimaryeducation = {
 
 export const postgraduatediplomainhighereducation = {
   heroContent: {
-    question: "Post Graduate Diploma in Higher Education",
+    question: "Post Graduate Diploma in Higher Education (PGDHE)",
     image: "/images/courses-images/PGDHE.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 1,
@@ -3724,9 +3724,9 @@ export const postgraduatediplomainhighereducation = {
   programOverview: `Ready to advance your teaching career? Our Postgraduate Diploma in Higher Education (PGDHE) is a transformative one-year programme designed to equip you with advanced teaching skills, curriculum design expertise, and effective assessment strategies. You'll gain a deep understanding of pedagogy, assessment, moderation, and learner diversity.<br></br>With a mix of core and elective modules, you can tailor your learning. This hands-on qualification includes a practical teaching exercise, offering real-world experience. Delivered via Blended and Distance Learning, it's flexible for both national and international students. Enrol today and become a leader in higher education!`,
 };
 
-export const medleadershipandmanagement = {
+export const medinleadershipandmanagement = {
   heroContent: {
-    question: "MED - Leadership and Management",
+    question: "MEd in Leadership and Management",
     image: "/images/courses-images/Med in educational leadership and mgmt.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 2,
@@ -3942,7 +3942,7 @@ export const medleadershipandmanagement = {
 
 export const medincurriculumdesignandinstruction = {
   heroContent: {
-    question: "MED in Curriculum Design and Instruction",
+    question: "MEd in Curriculum Design and Instruction",
     image: "/images/courses-images/Med in curriculum.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 2,
@@ -4177,7 +4177,7 @@ export const medincurriculumdesignandinstruction = {
 
 export const bscinnetworksecurityandcomputerforensics = {
   heroContent: {
-    question: "Bsc in Network Security and Computer Forensics",
+    question: "BSc in Network Security and Computer Forensics",
     image: "/images/courses-images/BSc in network security.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
@@ -4592,7 +4592,7 @@ export const bscinnetworksecurityandcomputerforensics = {
 };
 export const medinhighereducation = {
   heroContent: {
-    question: "MED in Higher Education",
+    question: "MEd in Higher Education",
     image: "/images/courses-images/Med in higher education.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 2,
@@ -4813,7 +4813,7 @@ export const medinhighereducation = {
 
 export const mscininformationsystemsmanagement = {
   heroContent: {
-    question: "Msc in Information Systems Management",
+    question: "MSc in Information Systems Management",
     image: "/images/courses-images/Msc in Information Systems management.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 2,
@@ -4946,7 +4946,7 @@ export const mscininformationsystemsmanagement = {
     {
       question: "Admission Requirements",
       answer:
-        "Bachelors or Honours Bachelors Degree from a recognised institution in Computing/Computer Science/Information Technology or any computer field",
+        "Bachelors or Honours Bachelors Degree from a recognised institution in Computing/Computer Science/Information Technology or any computer field.",
     },
 
     {
@@ -5006,7 +5006,7 @@ export const mscininformationsystemsmanagement = {
 
 export const mscincomputerscience = {
   heroContent: {
-    question: "Msc in Computer Science",
+    question: "MSc in Computer Science",
     image: "/images/courses-images/Msc in computer science.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 2,
@@ -5192,7 +5192,7 @@ export const mscincomputerscience = {
 
 export const bcominaccounting = {
   heroContent: {
-    question: "B.Com in Accounting",
+    question: "BCom in Accounting",
     image: "/images/courses-images/Bcom in accounting.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
@@ -5582,43 +5582,43 @@ export const bcominaccounting = {
   <p>Device Requirements:</p>
   <ul>
     <li>
-      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations
+      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
     </li></br>
     <li><p>OR</p></li></br>
     <li>
-      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams)
+      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
     </li>
   </ul></br>
 
   <p>Internet Requirements:</p>
   <ul>
     <li>
-      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing)
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
     </li>
     <li>
-      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions.
     </li>
   </ul></br>
 
   <p>Software and Platforms:</p>
   <ul>
     <li>
-      <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs)
+      <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
   </ul></br>
 
   <p>Browser Requirements:</p>
   <ul>
     <li>
-      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
   </ul></br>
 
   <p>Additional Tools: (Optional but Recommended)</p>
   <ul>
-    <li>Headset: For clear audio during virtual classes</li>
-    <li>External storage (USB/Cloud): For backups of important coursework</li>
-    <li>Antivirus software: To protect against malware or data loss</li>
+    <li>Headset: For clear audio during virtual classes.</li>
+    <li>External storage (USB/Cloud): For backups of important coursework.</li>
+    <li>Antivirus software: To protect against malware or data loss.</li>
   </ul></br>
 </div>
 `,

@@ -12,18 +12,18 @@ import FeedBackSection from "../components/feedback/FeedBackSection";
 import CourseStruture from "../components/coursestrutureSection/coursestrutureSection";
 import {
   bbainbusinessmanagement,
-  bachelorofscienceindatascience,
+  bscindatascience,
   bcominhospitalitymanagement,
   mcominhumanresourcemanagement,
   masterofbusinessadministration,
-  dipinoccupationalhealthsafety,
+  diplomainoccupationalhealthsafety,
   bscinhealthinformationmanagement,
   bscinhospitaladministration,
   bscinsafetyhealthandenvironmentalmanagement,
   bedinprimaryeducation,
   postgraduatediplomainhighereducation,
   // medalleadershipandmanagement,
-  medleadershipandmanagement,
+  medinleadershipandmanagement,
   medincurriculumdesignandinstruction,
   mscininformationsystemsmanagement,
   mscincomputerscience,
@@ -40,18 +40,18 @@ const PageThree = () => {
 
   const courseMap = {
     bbainbusinessmanagement,
-    bachelorofscienceindatascience,
+    bscindatascience,
     bcominhospitalitymanagement,
     mcominhumanresourcemanagement,
     masterofbusinessadministration,
-    dipinoccupationalhealthsafety,
+    diplomainoccupationalhealthsafety,
     bscinhealthinformationmanagement,
     bscinhospitaladministration,
     bscinsafetyhealthandenvironmentalmanagement,
     bedinprimaryeducation,
     postgraduatediplomainhighereducation,
     // medalleadershipandmanagement,
-    medleadershipandmanagement,
+    medinleadershipandmanagement,
     medincurriculumdesignandinstruction,
     mscininformationsystemsmanagement,
     mscincomputerscience,
@@ -249,10 +249,14 @@ It's very important to us at Botho University that students receive timely assis
         programOverview={course?.programOverview}
       />
       {/* <Course /> */}
-      <Faq faqData={course?.requirements} title="Requirements" animation={false} />
+      <Faq
+        faqData={course?.requirements}
+        title="Requirements"
+        animation={false}
+      />
       <CourseStruture courseStruture={course?.courseStruture} />
       <FeedBackSection />
-      <Faq faqData={faqData} animation={true}/>
+      <Faq faqData={faqData} animation={true} />
       <BannerSection />
       <Footer />
     </div>

@@ -75,7 +75,7 @@ const PageTwo = () => {
     {
       cover: "/images/courses-images/Bcom in accounting.jpeg",
       courseName: "Undergraduate Programme",
-      title: "B.Com in Accounting",
+      title: "BCom in Accounting",
       description:
         "Your Future in Accounting Starts Here! Our Bachelor of Commerce in Accounting programme offers a practical, industry-focused approach to a rewarding career in accounting and finance. You'll gain essential expertise in financial reporting, auditing, taxation, and management accounting. What sets this degree apart is its blend of theory and hands-on experience, including a compulsory semester-long internship for invaluable real-world exposure.",
     },
@@ -89,21 +89,21 @@ const PageTwo = () => {
     {
       cover: "/images/courses-images/BSc in Hospitality.jpeg",
       courseName: "Undergraduate Programme",
-      title: "Bsc in Hospital Administration",
+      title: "BSc in Hospital Administration",
       description:
         "Aspiring to a leadership position in healthcare? Our BSc in Hospital Administration is a specialised programme designed to equip you with essential knowledge and skills.",
     },
     {
       cover: "/images/courses-images/Bcom in Hospitality.jpeg",
       courseName: "Undergraduate Programme",
-      title: "B.Com in Hospitality Management",
+      title: "BCom in Hospitality Management",
       description:
         "Aspiring to a leadership role in the vibrant hospitality sector? Our Bachelor of Commerce in Hospitality Management provides a strong foundation in business principles alongside specialised hospitality skills. You'll cover core areas like accounting and marketing, combined with modules in hotel operations, food and beverage management, and tourism development.",
     },
     {
       cover: "/images/courses-images/Diploma in Occup.jpeg",
       courseName: "Undergraduate Programme",
-      title: "Dip in Occupational Health Safety",
+      title: "Diploma in Occupational Health Safety",
       description:
         "Fascinated by creating safer workplaces? Our Diploma in Occupational Health and Safety is for you! This comprehensive programme blends occupational health, safety management, risk assessment, and environmental sustainability. You'll gain practical skills to identify, evaluate, and control workplace hazards, ensuring compliance with regulations, and fostering a strong safety culture.",
     },
@@ -117,28 +117,28 @@ const PageTwo = () => {
     {
       cover: "/images/courses-images/Bed in Primary.jpeg",
       courseName: "Undergraduate Programme",
-      title: "BED in Primary Education (English Language and Mathematics)",
+      title: "BEd in Primary Education (English Language and Mathematics)",
       description:
         "Ready to shape the future of education? Botho University's Bachelor of Education (Primary Education) programme is designed for aspiring and current educators, equipping you with essential skills and knowledge to excel.",
     },
     {
       cover: "/images/courses-images/BSc in network security.jpeg",
       courseName: "Undergraduate Programme",
-      title: "Bsc in Network Security and Computer Forensics",
+      title: "BSc in Network Security and Computer Forensics",
       description:
         "Ready to become a cybersecurity expert? Our BSc in Network Security and Computer Forensics is a specialised degree equipping you to protect digital assets and investigate cyber threats.",
     },
     {
       cover: "/images/courses-images/BSc in health info.jpeg",
       courseName: "Undergraduate Programme",
-      title: "Bsc in Health Information Management",
+      title: "BSc in Health Information Management",
       description:
         "Fascinated by the intersection of healthcare and technology? Our BSc in Health Information Management equips you to manage health data, information systems, and technology solutions.",
     },
     {
       cover: "/images/courses-images/BSc in Safety..png",
       courseName: "Undergraduate Programme",
-      title: "Bsc in Safety, Health and Environmental Management",
+      title: "BSc in Safety, Health and Environmental Management",
       description:
         "Ready to champion workplace safety and environmental well-being? Our BSc in Safety, Health, and Environment (SHE) Management is an interdisciplinary programme designed to equip you with essential knowledge.",
     },

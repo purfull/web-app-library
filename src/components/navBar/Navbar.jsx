@@ -18,7 +18,7 @@ const NavBar = () => {
     {
       cover: "/images/courses-images/Bcom in accounting.png",
       courseName: "Undergraduate Programme",
-      title: "B.Com in Accounting",
+      title: "BCom in Accounting",
       description:
         "Your Future in Accounting Starts Here! Our Bachelor of Commerce in Accounting programme offers a practical, industry-focused approach to a rewarding career in accounting and finance. You'll gain essential expertise in financial reporting, auditing, taxation, and management accounting. What sets this degree apart is its blend of theory and hands-on experience, including a compulsory semester-long internship for invaluable real-world exposure.",
       subject:
@@ -36,28 +36,28 @@ const NavBar = () => {
     {
       cover: "/images/courses-images/Bcom in Hospitality.png",
       courseName: "Undergraduate Programme",
-      title: "B.Com in Hospitality Management",
+      title: "BCom in Hospitality Management",
       description:
         "Aspiring to a leadership role in the vibrant hospitality sector? Our Bachelor of Commerce in Hospitality Management provides a strong foundation in business principles alongside specialised hospitality skills. You'll cover core areas like accounting and marketing, combined with modules in hotel operations, food and beverage management, and tourism development.",
     },
     {
       cover: "/images/courses-images/Diploma in Occup.png",
       courseName: "Undergraduate Programme",
-      title: "Dip in Occupational Health Safety",
+      title: "Diploma in Occupational Health Safety",
       description:
         "Fascinated by creating safer workplaces? Our Diploma in Occupational Health and Safety is for you! This comprehensive programme blends occupational health, safety management, risk assessment, and environmental sustainability. You'll gain practical skills to identify, evaluate, and control workplace hazards, ensuring compliance with regulations, and fostering a strong safety culture.",
     },
     {
       cover: "/images/courses-images/Bsc in data science.png",
       courseName: "Undergraduate Programme",
-      title: "Bachelor of Science in Data Science",
+      title: "BSc in Data Science",
       description:
         "Want to become a data expert? Our four-year BSc in Data Science equips you to extract meaningful insights from vast datasets.",
     },
     {
       cover: "/images/courses-images/Bed in Primary.png",
       courseName: "Undergraduate Programme",
-      title: "BED in Primary Education (English Language and Mathematics)",
+      title: "BEd in Primary Education (English Language and Mathematics)",
       description:
         "Ready to shape the future of education? Botho University's Bachelor of Education (Primary Education) programme is designed for aspiring and current educators, equipping you with essential skills and knowledge to excel.",
     },
@@ -71,21 +71,21 @@ const NavBar = () => {
     {
       cover: "/images/courses-images/BSc in health info.png",
       courseName: "Undergraduate Programme",
-      title: "Bsc in Health Information Management",
+      title: "BSc in Health Information Management",
       description:
         "Fascinated by the intersection of healthcare and technology? Our BSc in Health Information Management equips you to manage health data, information systems, and technology solutions.",
     },
     {
       cover: "/images/courses-images/BSc in Hospitality.png",
       courseName: "Undergraduate Programme",
-      title: "Bsc in Hospital Administration",
+      title: "BSc in Hospital Administration",
       description:
         "Aspiring to a leadership position in healthcare? Our BSc in Hospital Administration is a specialised programme designed to equip you with essential knowledge and skills.",
     },
     {
       cover: "/images/courses-images/BSc in Safety..png",
       courseName: "Undergraduate Programme",
-      title: "Bsc in Safety, Health and Environmental Management",
+      title: "BSc in Safety, Health and Environmental Management",
       description:
         "Ready to champion workplace safety and environmental well-being? Our BSc in Safety, Health, and Environment (SHE) Management is an interdisciplinary programme designed to equip you with essential knowledge.",
     },
@@ -99,14 +99,14 @@ const NavBar = () => {
     {
       cover: "/images/courses-images/MCom in Human resource.png",
       courseName: "Postgraduate Programme",
-      title: "M.Com in Human Resource Management.",
+      title: "MCom in Human Resource Management.",
       description:
         "Looking to become a leader in talent management? Our Master of Commerce in Human Resource Management (MCom in HRM) is a transformative qualification designed for the modern business landscape. You'll gain a robust foundation in strategic HR planning, recruitment, performance assessment, and more.",
     },
     {
       cover: "/images/courses-images/PGDHE.png",
       courseName: "Postgraduate Programme",
-      title: "Post Graduate Diploma in Higher Education",
+      title: "Post Graduate Diploma in Higher Education(PGDHE)",
       description:
         "Ready to advance your teaching career? Our Postgraduate Diploma in Higher Education (PGDHE) is a transformative one-year programme designed to equip you with advanced teaching skills, curriculum design expertise, and effective assessment strategies.",
     },
@@ -114,35 +114,35 @@ const NavBar = () => {
       cover:
         "/images/courses-images/Med in educational leadership and mgmt.png",
       courseName: "Postgraduate Programme",
-      title: "MED - Leadership and Management",
+      title: "MEd in Leadership and Management",
       description:
         "Aspiring to lead in education? Our Master of Educational Leadership and Management is a prestigious, two-year programme designed to elevate your career.",
     },
     {
       cover: "/images/courses-images/Med in curriculum.png",
       courseName: "Postgraduate Programme",
-      title: "MED in Curriculum Design and Instruction",
+      title: "MEd in Curriculum Design and Instruction",
       description:
         "Ready to lead in education and curriculum development? Our Master of Education in Curriculum Design and Instruction is your pathway to becoming an expert.",
     },
     {
       cover: "/images/courses-images/Med in higher education.png",
       courseName: "Postgraduate Programme",
-      title: "MED in Higher Education",
+      title: "MEd in Higher Education",
       description:
         "Elevate your expertise with our Master of Education in Higher Education. This specialised two-year online programme equips you with advanced pedagogical skills, covering Learning, Teaching and Assessment, Curriculum Design and Development, and Academic Writing.",
     },
     {
       cover: "/images/courses-images/Msc in Information Systems management.png",
       courseName: "Postgraduate Programme",
-      title: "Msc in Information Systems Management",
+      title: "MSc in Information Systems Management",
       description:
         "Ready to excel in information systems management? Our Master of Science in Information Systems Management is a professionally oriented online programme, perfect if you need flexible learning.",
     },
     {
       cover: "/images/courses-images/Msc in computer science.png",
       courseName: "Postgraduate Programme",
-      title: "Msc in Computer Science",
+      title: "MSc in Computer Science",
       description:
         "Aspiring to excel in the tech industry? Our Master of Science in Computer Science is an advanced, flexible online programme.",
     },
