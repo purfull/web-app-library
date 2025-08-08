@@ -3,7 +3,7 @@
 @media only screen and (max-width: 600px) {
   .hero-slide {
     width: 100%;
-    height: auto;
+    height: 60vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
     display: grid;
     width: 90%;
     padding: 15px;
-    margin-left: 5%;
+    /* margin-left: 5%; */
     gap: 10px;
   }
 
@@ -78,7 +78,7 @@
   .view-enquire-button {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .fourth-button.enq-button {
     font-size: 12px;
@@ -111,7 +111,7 @@
     display: grid;
     width: 60%;
     padding: 15px;
-    margin-left: 5%;
+    /* margin-left: 5%; */
     gap: 10px;
   }
 
@@ -173,7 +173,7 @@
   .view-enquire-button {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .fourth-button.enq-button {
     font-size: 12px;
@@ -270,7 +270,7 @@
   .view-enquire-button {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .fourth-button.enq-button {
     font-size: 12px;
@@ -368,7 +368,7 @@
   .view-enquire-button {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .fourth-button.enq-button {
     font-size: 12px;
@@ -377,7 +377,7 @@
   }
   .enquire-heading {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -466,7 +466,7 @@
   .view-enquire-button {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .fourth-button.enq-button {
     font-size: 14px;
@@ -478,6 +478,6 @@
   }
   .enquire-heading {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
   }
 }

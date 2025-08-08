@@ -420,6 +420,7 @@ It's very important to us at Botho University that students receive timely assis
       <RednavBar />
       <NavBar />
       <FeeHome />
+      {/* <StaticHome /> */}
       <EnquireSection
         cardData={ugCardData}
         cardTitle="Undergraduate Programme Fees"
@@ -429,7 +430,7 @@ It's very important to us at Botho University that students receive timely assis
         cardTitle="Postgraduate Programme Fees"
       />
       <FeedBackSection />
-      <Faq faqData={faqData} />
+      <Faq faqData={faqData} animation={true} />
       <BannerSection />
       <Footer />
     </div>

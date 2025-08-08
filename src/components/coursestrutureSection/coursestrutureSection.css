@@ -1,4 +1,8 @@
 /* Extra small devices (phones, 600px and down) */
+
+    .semester-answer-paragraph {
+        text-align: justify;
+    }
 @media only screen and (max-width: 600px) {
     .semester-content-container {
         display: flex;
@@ -8,10 +12,12 @@
         .semester-title {
         font-weight: 600;
         font-size: 20px;
+        padding-left: 0;
+        text-align: center;
     }
 
     .semester-content-part1 {
-        padding: 20px;
+        padding: 20px 0px;
         position: relative;
     }
 
@@ -45,7 +51,7 @@
 
     .semester-content-question {
         font-weight: 600;
-        font-size: 20px;
+        font-size: 16px;
         display: flex;
         justify-content: space-between;
         /* pushes icon to the end */

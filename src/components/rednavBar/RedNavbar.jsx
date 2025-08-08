@@ -13,8 +13,9 @@ const RedNavbar = () => {
   const mobileNavRef = useRef(null);
 
    const handleWhyClick = () => {
-    navigate("/");
-    window.scrollTo(0, window.innerHeight);
+    navigate("/all-Courses");
+    window.scrollTo(0, 0);
+    // window.scrollTo(0, window.innerHeight);
   };
 
   const handleFeeClick = () => {
@@ -44,7 +45,7 @@ const RedNavbar = () => {
       <div className="red-head">
         <span className="welcome">
           Welcome to
-          <span className="white-text"> BOTHO UNIVERSITY</span>
+          <span className="white-text"> BOTHO UNIVERSITY ONLINE</span>
         </span>
         <div className="details">
           <span>@ onlineadmissions@bothouniversity.ac.bw</span>
@@ -59,7 +60,7 @@ const RedNavbar = () => {
         <span className="welcome"
             onClick={handleWhyClick}
             style={{ cursor: "pointer" }}>
-          why BU?
+          Our Courses
         </span>
         <span style={{color:"gray"}}>|</span>
         <span className="welcome" 

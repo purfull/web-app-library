@@ -5,7 +5,7 @@ import React from "react";
 
 const herobanner = [
   {
-    Primarytittle: "Affordable. Flexible. Build",
+    Primarytittle: "Affordable. Flexible. Built",
     highlightedText: "Around You",
     PrimaryTitleEnd: "",
     highlightedBgColor: "#841D2E",
@@ -16,7 +16,7 @@ const herobanner = [
     arrowIcon: "/icon/Frame (1).png",
     backgroundImg: "/images/FeeHome.png",
     calledtoAction:
-      "98% of our graduates will recommend us to others </br> (Source: 2025 Graduate Tracer Study)",
+      "98% of our graduates will recommend us to others <span class='desktop-br'><br /></span> (Source: 2025 Graduate Tracer Study)",
 
     dynamicimg: [
       "/images/Ellipse 21.png",
@@ -37,7 +37,7 @@ const herobanner = [
     arrowIcon: "/icon/Frame (1).png",
     backgroundImg: "/images/FeeHome.png",
     calledtoAction:
-      "98% of our graduates will recommend us to others (Source: 2025 Graduate Tracer Study)",
+      "98% of our graduates will recommend us to others <span class='desktop-br'><br /></span> (Source: 2025 Graduate Tracer Study)",
 
     dynamicimg: [
       "/images/Ellipse 21.png",
@@ -58,7 +58,7 @@ const herobanner = [
     arrowIcon: "/icon/Frame (1).png",
     backgroundImg: "/images/FeeHome.png",
     calledtoAction:
-      "98% of our graduates will recommend us to others (Source: 2025 Graduate Tracer Study)",
+      "98% of our graduates will recommend us to others <span class='desktop-br'><br /></span> (Source: 2025 Graduate Tracer Study)",
 
     dynamicimg: [
       "/images/Ellipse 21.png",
@@ -149,7 +149,7 @@ const FeeHome = () => {
       <div className="titleBar wraper page-gap" >
               <div className="heading" >
                 <span className="secondary-heading">
-                  Our Fees structure
+                  Our Fees Structure
                 </span>
               </div>
               <div className="secondary-paragraph black padding-zero overview-content" ><span> To support your budgeting, we offer a structured instalment payment plan that makes it easier to manage your fees. All fees for the current semester must be settled before you progress to the next, so staying on track with payments is key to uninterrupted learning. <br></br><br></br>

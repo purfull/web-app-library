@@ -555,7 +555,7 @@ It's very important to us at Botho University that students receive timely assis
       <FeeTable tableData={course?.tableContent} />
       {/* <EnquireSection /> */}
       <FeedBackSection />
-      <Faq faqData={faqData} />
+      <Faq faqData={faqData} animation={true} />
       <BannerSection />
       <Footer />
     </div>

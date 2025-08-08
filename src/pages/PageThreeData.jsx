@@ -1,8 +1,8 @@
 export const baseUrl = "https://di00ymfrmfyeb.cloudfront.net";
 
-export const bachelorofscienceindatascience = {
+export const bscindatascience = {
   heroContent: {
-    question: "Bachelor of Science in Data Science",
+    question: "BSc in Data Science",
     image: "/images/courses-images/Bsc in data science.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
@@ -910,7 +910,7 @@ export const bbainbusinessmanagement = {
 
 export const bcominhospitalitymanagement = {
   heroContent: {
-    question: "B.Com in Hospitality Management",
+    question: "BCom in Hospitality Management",
     image: "/images/courses-images/Bcom in Hospitality.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
@@ -1313,7 +1313,7 @@ export const bcominhospitalitymanagement = {
 
 export const mcominhumanresourcemanagement = {
   heroContent: {
-    question: "M.Com in Human Resource Management",
+    question: "MCom in Human Resource Management",
     image: "/images/courses-images/MCom in Human resource.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 2,
@@ -1483,7 +1483,7 @@ export const mcominhumanresourcemanagement = {
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
   </p></br>
 
-  <p>Device Requirements:</p>
+  <p><strong>Device Requirements:</strong></p></br>
   <ul>
     <li>
       <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
@@ -1494,7 +1494,7 @@ export const mcominhumanresourcemanagement = {
     </li>
   </ul></br>
 
-  <p>Internet Requirements:</p>
+  <p><strong>Internet Requirements:</strong></p>
   <ul>
     <li>
       Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
@@ -1504,21 +1504,21 @@ export const mcominhumanresourcemanagement = {
     </li>
   </ul></br>
 
-  <p>Software and Platforms:</p>
+  <p><strong>Software and Platforms:</strong></p>
   <ul>
     <li>
       <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
   </ul></br>
 
-  <p>Browser Requirements:</p>
+  <p><strong>Browser Requirements:</strong></p>
   <ul>
     <li>
       Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
   </ul></br>
 
-  <p>Additional Tools: (Optional but Recommended)</p>
+  <p><strong>Additional Tools:</strong> (Optional but Recommended)</p>
   <ul>
     <li>Headset: For clear audio during virtual classes.</li>
     <li>External storage (USB/Cloud): For backups of important coursework.</li>
@@ -1777,7 +1777,7 @@ export const masterofbusinessadministration = {
   programOverview: `Aiming to become a top executive in the global business arena? Our MBA programme is designed for ambitious professionals. It equips you with the skills to tackle complex challenges, focusing on critical thinking, entrepreneurship, financial resilience, and innovative problem-solving.<br></br>This programme allows you to balance work, life, and study while gaining expertise in international business, leadership, accounting, risk management, technology, and marketing. Our MBA provides a strong foundation in business, empowering you to develop executive acumen and thrive in competitive environments. Join us and gain a recognised qualification for long-term success.`,
 };
 
-export const dipinoccupationalhealthsafety = {
+export const diplomainoccupationalhealthsafety = {
   heroContent: {
     question: "Diploma in Occupational Health Safety",
     image: "/images/courses-images/Diploma in Occup.jpeg",
@@ -1991,7 +1991,7 @@ export const dipinoccupationalhealthsafety = {
 
 export const bscinhealthinformationmanagement = {
   heroContent: {
-    question: "Bsc in Health Information Management",
+    question: "BSc in Health Information Management",
     image: "/images/courses-images/BSc in health info.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
@@ -2386,7 +2386,7 @@ export const bscinhealthinformationmanagement = {
 
 export const bscinhospitaladministration = {
   heroContent: {
-    question: "Bsc in Hospital Administration",
+    question: "BSc in Hospital Administration",
     image: "/images/courses-images/BSc in Hospitality.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
@@ -2788,7 +2788,7 @@ export const bscinhospitaladministration = {
 
 export const bscinsafetyhealthandenvironmentalmanagement = {
   heroContent: {
-    question: "Bsc in Safety, Health and Environmental Management",
+    question: "BSc in Safety, Health and Environmental Management",
     image: "/images/courses-images/BSc in Safety..png",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
@@ -3209,7 +3209,7 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
 
 export const bedinprimaryeducation = {
   heroContent: {
-    question: "BED in Primary Education(English Language and Mathematics)",
+    question: "BEd in Primary Education(English Language and Mathematics)",
     image: "/images/courses-images/Bed in Primary.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
@@ -3564,7 +3564,7 @@ export const bedinprimaryeducation = {
 
 export const postgraduatediplomainhighereducation = {
   heroContent: {
-    question: "Post Graduate Diploma in Higher Education",
+    question: "Post Graduate Diploma in Higher Education (PGDHE)",
     image: "/images/courses-images/PGDHE.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 1,
@@ -3724,9 +3724,9 @@ export const postgraduatediplomainhighereducation = {
   programOverview: `Ready to advance your teaching career? Our Postgraduate Diploma in Higher Education (PGDHE) is a transformative one-year programme designed to equip you with advanced teaching skills, curriculum design expertise, and effective assessment strategies. You'll gain a deep understanding of pedagogy, assessment, moderation, and learner diversity.<br></br>With a mix of core and elective modules, you can tailor your learning. This hands-on qualification includes a practical teaching exercise, offering real-world experience. Delivered via Blended and Distance Learning, it's flexible for both national and international students. Enrol today and become a leader in higher education!`,
 };
 
-export const medalleadershipandmanagement = {
+export const medinleadershipandmanagement = {
   heroContent: {
-    question: "MED - Leadership and Management",
+    question: "MEd in Leadership and Management",
     image: "/images/courses-images/Med in educational leadership and mgmt.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 2,
@@ -3942,7 +3942,7 @@ export const medalleadershipandmanagement = {
 
 export const medincurriculumdesignandinstruction = {
   heroContent: {
-    question: "MED in Curriculum Design and Instruction",
+    question: "MEd in Curriculum Design and Instruction",
     image: "/images/courses-images/Med in curriculum.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 2,
@@ -4177,7 +4177,7 @@ export const medincurriculumdesignandinstruction = {
 
 export const bscinnetworksecurityandcomputerforensics = {
   heroContent: {
-    question: "Bsc in Network Security and Computer Forensics",
+    question: "BSc in Network Security and Computer Forensics",
     image: "/images/courses-images/BSc in network security.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,
@@ -4592,7 +4592,7 @@ export const bscinnetworksecurityandcomputerforensics = {
 };
 export const medinhighereducation = {
   heroContent: {
-    question: "MED in Higher Education",
+    question: "MEd in Higher Education",
     image: "/images/courses-images/Med in higher education.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 2,
@@ -4813,7 +4813,7 @@ export const medinhighereducation = {
 
 export const mscininformationsystemsmanagement = {
   heroContent: {
-    question: "Msc in Information Systems Management",
+    question: "MSc in Information Systems Management",
     image: "/images/courses-images/Msc in Information Systems management.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 2,
@@ -5006,7 +5006,7 @@ export const mscininformationsystemsmanagement = {
 
 export const mscincomputerscience = {
   heroContent: {
-    question: "Msc in Computer Science",
+    question: "MSc in Computer Science",
     image: "/images/courses-images/Msc in computer science.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 2,
@@ -5192,7 +5192,7 @@ export const mscincomputerscience = {
 
 export const bcominaccounting = {
   heroContent: {
-    question: "B.Com in Accounting",
+    question: "BCom in Accounting",
     image: "/images/courses-images/Bcom in accounting.jpeg",
     downloadurl: `${baseUrl}/botho-univercity-BComAcc.pdf`,
     minPeriod: 4,

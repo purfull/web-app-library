@@ -21,7 +21,7 @@ const iconData = [
     src: "/icon/tasks.png",
     alt: "task",
     title: "Multiple Intakes",
-    text: "Join one of 6 flexible start dates each year.",
+    text: "Join one of 4 flexible start dates each year.",
   },
   {
     src: "/icon/payment.png",

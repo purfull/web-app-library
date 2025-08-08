@@ -27,7 +27,7 @@ const CourseStruture = ({ courseStruture }) => {
         <span className="secondary-heading">Programme Structure</span>
       </div>
 
-      <div className="semester-content-part2" ref={contentPart2Ref}>
+      <div className="semester-content-part2">
         {courseStruture?.map((semesterItem, semIndex) => (
           <div key={semIndex} className="semester-section">
             <div className="semester-title">
