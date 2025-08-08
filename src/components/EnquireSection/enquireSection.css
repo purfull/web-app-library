@@ -913,7 +913,7 @@
   }
 
   .course-title {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 125%;
     padding-bottom: 10px;
@@ -921,7 +921,7 @@
 
   .enquire-heading {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .ant-card-body {
@@ -954,7 +954,7 @@
     /* flex: 1; */
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     font-size: 12px;
   }

@@ -1483,7 +1483,7 @@ export const mcominhumanresourcemanagement = {
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
   </p></br>
 
-  <p>Device Requirements:</p>
+  <p><strong>Device Requirements:</strong></p></br>
   <ul>
     <li>
       <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
@@ -1494,7 +1494,7 @@ export const mcominhumanresourcemanagement = {
     </li>
   </ul></br>
 
-  <p>Internet Requirements:</p>
+  <p><strong>Internet Requirements:</strong></p>
   <ul>
     <li>
       Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
@@ -1504,21 +1504,21 @@ export const mcominhumanresourcemanagement = {
     </li>
   </ul></br>
 
-  <p>Software and Platforms:</p>
+  <p><strong>Software and Platforms:</strong></p>
   <ul>
     <li>
       <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
   </ul></br>
 
-  <p>Browser Requirements:</p>
+  <p><strong>Browser Requirements:</strong></p>
   <ul>
     <li>
       Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
   </ul></br>
 
-  <p>Additional Tools: (Optional but Recommended)</p>
+  <p><strong>Additional Tools:</strong> (Optional but Recommended)</p>
   <ul>
     <li>Headset: For clear audio during virtual classes.</li>
     <li>External storage (USB/Cloud): For backups of important coursework.</li>

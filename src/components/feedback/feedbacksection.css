@@ -15,9 +15,10 @@
   }
   .feeback-headers {
     margin-top: 3%;
-    padding: 20px;
+    padding: 20px 0;
     display: grid;
     gap: 15px;
+    width: 90%;
   }
 
   .feeback-secondary-paragraphs {
@@ -740,13 +741,13 @@
   }
 
   .next-button {
-    left: 8%;
+    right: 0%;
     top: -12%;
   }
 
   .prev-button {
     top: -12%;
-    left: -1%;
+    right: 10%;
   }
 
   .next-and-pre-buttons-mobile {
@@ -865,13 +866,13 @@
   }
 
   .next-button {
-    left: 10%;
-    top: -12%;
+    right: 0%;
+    top: -24%;
   }
 
   .prev-button {
-    top: -12%;
-    left: 0%;
+    top: -24%;
+    right: 10%;
   }
 
   .feedback-cards {
@@ -983,13 +984,13 @@
   }
 
   .next-button {
-    left: 12%;
+    right: 12%;
     /* top: -10%; */
   }
 
   .prev-button {
     /* top: -10%; */
-    left: 2.5%;
+    right: 2.5%;
   }
 
   .feedback-cards {
@@ -1097,13 +1098,13 @@
   }
 
   .next-button {
-    left: 9%;
+    right: 0%;
     top: -18%;
   }
 
   .prev-button {
     top: -18%;
-    left: 2.8%;
+    right: 9%;
   }
 
   .feedback-cards {

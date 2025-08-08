@@ -86,7 +86,7 @@
   }
   .dropdown-search-mobile {
     position: absolute;
-    top: 12vh;
+    top: 8vh;
     left: 5%;
     background-color: #fff;
     border: 1px solid #ccc;
@@ -220,7 +220,7 @@
   } */
   .dropdown-search-mobile {
     position: absolute;
-    top: 12vh;
+    top: 8vh;
     left: 5%;
     background-color: #fff;
     border: 1px solid #ccc;

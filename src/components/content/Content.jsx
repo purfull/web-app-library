@@ -96,7 +96,7 @@ const Content = () => {
     <div className="content-container page-gap">
       <div className="content-part1">
         <span className="secondary-heading margin-bottom">
-          Why Botho University Online?
+          Why <br /> Botho University Online?
         </span>
         <br />
         <br />
@@ -115,7 +115,7 @@ const Content = () => {
           </button> 
         </div>*/}
       </div>
-      <div className="content-part2" ref={contentPart2Ref}>
+      <div className="content-part2 home-page-content" ref={contentPart2Ref}>
         <span className="secondary-paragraph coloured-padding black" style={{textAlign: "justify"}}>
           Choosing the right institution for online learning is crucial for
           academic success and career advancement. Botho University stands out

@@ -22,14 +22,14 @@ const PageTwo = () => {
     {
       cover: "/images/courses-images/MCom in Human resource.jpeg",
       courseName: "Postgraduate Programme",
-      title: "M.Com in Human Resource Management",
+      title: "MCom in Human Resource Management",
       description:
         "Looking to become a leader in talent management? Our Master of Commerce in Human Resource Management (MCom in HRM) is a transformative qualification designed for the modern business landscape. You'll gain a robust foundation in strategic HR planning, recruitment, performance assessment, and more.",
     },
     {
       cover: "/images/courses-images/PGDHE.jpeg",
       courseName: "Postgraduate Programme",
-      title: "Post Graduate Diploma in Higher Education",
+      title: "Post Graduate Diploma in Higher Education (PGDHE)",
       description:
         "Ready to advance your teaching career? Our Postgraduate Diploma in Higher Education (PGDHE) is a transformative one-year programme designed to equip you with advanced teaching skills, curriculum design expertise, and effective assessment strategies.",
     },
@@ -37,36 +37,36 @@ const PageTwo = () => {
       cover:
         "/images/courses-images/Med in educational leadership and mgmt.jpeg",
       courseName: "Postgraduate Programme",
-      title: "MED - Leadership and Management",
+      title: "MEd in Leadership and Management",
       description:
         "Aspiring to lead in education? Our Master of Educational Leadership and Management is a prestigious, two-year programme designed to elevate your career.",
     },
     {
       cover: "/images/courses-images/Med in curriculum.jpeg",
       courseName: "Postgraduate Programme",
-      title: "MED in Curriculum Design and Instruction",
+      title: "MEd in Curriculum Design and Instruction",
       description:
         "Ready to lead in education and curriculum development? Our Master of Education in Curriculum Design and Instruction is your pathway to becoming an expert.",
+    },
+    {
+      cover: "/images/courses-images/Med in higher education.jpeg",
+      courseName: "Postgraduate Programme",
+      title: "MEd in Higher Education",
+      description:
+        "Elevate your expertise with our Master of Education in Higher Education. This specialised two-year online programme equips you with advanced pedagogical skills, covering Learning, Teaching and Assessment, Curriculum Design and Development, and Academic Writing.",
     },
     {
       cover:
         "/images/courses-images/Msc in Information Systems management.jpeg",
       courseName: "Postgraduate Programme",
-      title: "Msc in Information Systems Management",
+      title: "MSc in Information Systems Management",
       description:
         "Ready to excel in information systems management? Our Master of Science in Information Systems Management is a professionally oriented online programme, perfect if you need flexible learning.",
     },
     {
-      cover: "/images/courses-images/Med in higher education.jpeg",
-      courseName: "Postgraduate Programme",
-      title: "MED in Higher Education",
-      description:
-        "Elevate your expertise with our Master of Education in Higher Education. This specialised two-year online programme equips you with advanced pedagogical skills, covering Learning, Teaching and Assessment, Curriculum Design and Development, and Academic Writing.",
-    },
-    {
       cover: "/images/courses-images/Msc in computer science.jpeg",
       courseName: "Postgraduate Programme",
-      title: "Msc in Computer Science",
+      title: "MSc in Computer Science",
       description:
         "Aspiring to excel in the tech industry? Our Master of Science in Computer Science is an advanced, flexible online programme.",
     },
@@ -110,7 +110,7 @@ const PageTwo = () => {
     {
       cover: "/images/courses-images/Bsc in data science.jpeg",
       courseName: "Undergraduate Programme",
-      title: "Bachelor of Science in Data Science",
+      title: "BSc in Data Science",
       description:
         "Want to become a data expert? Our four-year BSc in Data Science equips you to extract meaningful insights from vast datasets.",
     },
@@ -263,7 +263,7 @@ It's very important to us at Botho University that students receive timely assis
         secondaryParagraph="Start strong with a flexible, accredited degree that builds your foundation for a successful career."
       />
       <FeedBackSection />
-      <Faq faqData={faqData} />
+      <Faq faqData={faqData} animation={true} />
       <BannerSection
         bannerImage="/images/happy-student-girl.png"
         headingText="Begin Your"

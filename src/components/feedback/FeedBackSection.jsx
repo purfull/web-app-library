@@ -19,14 +19,14 @@ const studentdeatils = [
     studentsdata:
       "I am proud to be a graduate of the Postgraduate Diploma in Higher Education at Botho University, Class of 2024, and am now pursuing my MBA with the same institution. My journey has been exceptional, characterised by quality education, flexible online learning, and strong support from faculty and staff. The online platform is well organised, with accessible materials that made studying both manageable and engaging. The Postgraduate Diploma gave me critical knowledge and practical skills that enhanced my professional growth and prepared me for the MBA. I’m grateful for this enriching experience and highly recommend Botho University to anyone seeking quality education, whether online or on campus.",
     imgs: ["/icon/Icon.png"],
-    studentname: "Atang Gaone Seitiso - Botswana",
+    studentname: "Atang Gaone Seitiso",
     year: "2083",
   },
   {
     studentsdata:
       "As a final year student pursuing a degree in Network Security and Computer Forensics at Botho University, I’ve genuinely enjoyed every step of my academic journey. The university goes beyond traditional learning by nurturing leadership, critical thinking, and an entrepreneurial spirit. I’ve grown not only as a tech professional but as a future employer and innovator. Botho prepares you to lead, to build, and to thrive in the modern world. I’m proud to be shaped by a university that develops game-changers, not just job seekers.",
     imgs: ["/icon/Icon.png"],
-    studentname: "Benjamen Elungu - Namibia",
+    studentname: "Benjamen Elungu",
     year: "2083",
   },
   {
@@ -68,21 +68,21 @@ const studentdeatils = [
     studentsdata:
       "I am a proud graduate of the Postgraduate Diploma in Higher Education, Class of 2024, at Botho University. Studying online while pursuing my PhD in Kenya was incredibly rewarding. The flexible learning model allowed me to manage both commitments effectively. The programme was well-structured, with accessible, relevant digital resources that met my academic and professional needs. A standout aspect was the unwavering support from my Programme Mentor, whose guidance kept me motivated throughout. This qualification has deepened my understanding of pedagogy and strengthened my confidence as an educator. I’m truly grateful for the experience and highly recommend Botho University.",
     imgs: ["/icon/Icon.png"],
-    studentname: "Josephine Tshepho - Segotsi",
+    studentname: "Josephine Tshepho Segotsi",
     year: "2083",
   },
   {
     studentsdata:
       "Enrolling in the online MBA programme at Botho University has been one of the most empowering decisions I’ve made. The flexibility allowed me to balance full-time work and study, making the experience both manageable and fulfilling. Each module delivered practical business skills - strategic planning, financial analysis, leadership, and decision-making - ready for real-world application. The mentorship support was a standout, offering insights and career guidance from an experienced industry expert. This not only boosted my confidence but also helped bridge theory and practice. The programme enhanced my skills, expanded my network, and opened new career doors. I highly recommend it to working professionals.",
     imgs: ["/icon/Icon.png"],
-    studentname: "Lephepelo Pitikoe  - Lesotho",
+    studentname: "Lephepelo Pitikoe",
     year: "2083",
   },
   {
     studentsdata:
       "Pursuing my MBA online with Botho University has been a truly rewarding journey. As a full-time professional, I needed a programme that accommodated my busy schedule and Botho delivered. The flexibility of the online model, combined with the dedication of the lecturers, allowed me to balance work and study effectively. Lecturers used platforms like WhatsApp and email to keep us engaged and informed. This consistent support created a motivating learning environment that kept me focused. I’ve grown both academically and professionally, gaining skills in strategic thinking and communication that are already impacting my career. I’m proud to be part of Botho.",
     imgs: ["/icon/Icon.png"],
-    studentname: "Edward Magawe (MBA)",
+    studentname: "Edward Magawe",
     year: "2083",
   },
   {
@@ -188,11 +188,11 @@ const FeedBackSection = () => {
           {/* </div> */}
         </div>
         <div className="second-main">
-          <p className="secondary-paragraph black padding-zero">
+          {/* <p className="secondary-paragraph black padding-zero">
             Our expert teachers make learning simple, flexible, and practical.
             Students love the support they get and how easy it is to study from
             anywhere.
-          </p>
+          </p> */}
         </div>
         {/* <div className="arrow-button-feedback-mobile"> */}
         {/* <button className="next-button-mobile">

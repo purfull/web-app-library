@@ -91,7 +91,9 @@ const Footer = () => {
                     <img className="logo-botho-footer" src="/logo/BothoLogo-hd.png" alt="Logo" />
 
                     <div className="span-first-con">
-                        <span className='first-conatiner-texts'>Botho University is a leading multi-disciplinary institution founded in Botswana in 1997, now operating across 4 African countries and online.</span>
+                        <span className='first-conatiner-texts'>Botho University is a leading African institution committed to excellence.
+Our flexible online programmes are designed for real-world success.
+With physical campuses across the region in 4 countries and a strong digital presence, we empower learners to thrive in a fast-changing world.</span>
                     </div>
 
                     {/* <div className="footer-first-logo-session ">
@@ -123,23 +125,25 @@ const Footer = () => {
                     <span className='heading-footer'>Contact Us</span>
                     <div className='third-logo-and-content'>
                         <img src="/logo/location.png" alt="" />
-                        <a className='color-black-footer' href="">Botho Education Park, Kgale, Gaborone, Botswana</a>
+                        <a className='color-black-footer' >Botho Education Park, Kgale, Gaborone, Botswana</a>
                     </div>
 
                     <div className='third-logo-and-content'>
                         <img src="/logo/message.png" alt="" />
-                        <a className='color-black-footer'   href="mailto:onlineadmissions@bothouniversity.ac.bw">onlineadmissions@bothouniversity.ac.bw</a>
-
-                    </div>
-                    <div className='third-logo-and-content'>
-                        <img src="/logo/whatsapp.png" alt="" />
-                        <a className='color-black-footer' href="https://wa.me/26777017160" target='_blank'>+267 77 017 160</a>
+                        <a className='color-black-footer'   
+                        // href="mailto:onlineadmissions@bothouniversity.ac.bw"
+                        >onlineadmissions@bothouniversity.ac.bw</a>
 
                     </div>
 
                     <div className='third-logo-and-content'>
                         <img src="/logo/phone.png" alt="" />
-                        <a className='color-black-footer' href="">+267 363 5455 / 363 5471</a>
+                        <a className='color-black-footer' >+267 363 5455 / 363 5471</a>
+
+                    </div>
+                    <div className='third-logo-and-content'>
+                        <img src="/logo/whatsapp.png" alt="" />
+                        <a className='color-black-footer' href="https://wa.me/26777017160" target='_blank'>+267 77 017 160</a>
 
                     </div>
 
@@ -180,8 +184,8 @@ const Footer = () => {
 
                 <div className='terms-cond'>
 
-                    <a className='color-black-footer black' href='' style={{ color: "#000" }} onClick={handleTerms}>Terms & Conditions</a>
-                    <a className='color-black-footer black' style={{ color: "#000" }} href=''>Privacy Policy</a>
+                    <a className='color-black-footer black' href='' target='_blank' style={{ color: "#000" }} onClick={handleTerms}>Terms & Conditions</a>
+                    {/* <a className='color-black-footer black' style={{ color: "#000" }} href=''>Privacy Policy</a> */}
 
                 </div>
             </div>
