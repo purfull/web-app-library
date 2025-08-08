@@ -31,18 +31,38 @@ const iconData = [
   },
 ];
 
-const staticHome = () => {
+const staticHome = ({
+  backgroundColor,
+  textColor,
+  backgroundImage,
+  title,
+  description,
+}) => {
   return (
-    <div className="home-container" >
+    <div
+      className="home-container"
+      style={{ backgroundImage: backgroundImage && `url(${backgroundImage})` }}
+    >
       <div className="top-sections-main">
-        <div className="top-sections">
+        <div className="top-sections" style={{ color: textColor }}>
           <div className="portion-1">
-            <div className="primary-heading" style={{padding: "0"}}>
-              Discover Online Learning at{" "}
-              <br />
-              <span style={{ backgroundColor: "#ffffff", color: "#841d2e" }}>
-                Botho University
-              </span>
+            <div
+              className="primary-heading"
+              style={{ padding: "0", color: textColor ? textColor : "#fff" }}
+              
+            >
+            {title && <p dangerouslySetInnerHTML={{__html: title}}></p>}
+              {!title && "Discover Online Learning at"} <br />
+              {!title && (
+                <span
+                  style={{
+                    backgroundColor: textColor ? "#841d2e" : "#ffffff",
+                    color: textColor ? "#fff" : "#841d2e",
+                  }}
+                >
+                  Botho University
+                </span>
+              )}
             </div>
             <div className="bottom-portion">
               <div className="dynamic-img-main">
@@ -62,14 +82,18 @@ const staticHome = () => {
             </div>
           </div>
           <div className="portion-2">
-            <div className="bold-text">Your Ambition. Our Platform.</div>
-            <div className="secondary-paragraph no-padding" >
-              Shape your future with flexible, career-driven programmes designed
-              for modern life. Study fully online with the freedom to learn on
-              your schedule - without putting your life on hold. With multiple
-              intakes per year, dedicated support, practical learning tools, and
-              industry-relevant qualifications, Botho University gives you the
-              edge to grow, lead, and succeed - from wherever you are.
+            {!title && (
+              <div className={`bold-text ${textColor ? "black" : ""}`}>
+                Your Ambition. Our Platform.
+              </div>
+            )}
+            <div
+              className={`secondary-paragraph no-padding ${
+                textColor ? "black" : ""
+              }`}
+              style={{ color: textColor ? "#000 !important" : "#fff" }}
+            >
+              {description || "Shape your future with flexible, career-driven programmes designed for modern life. Study fully online with the freedom to learn on your schedule - without putting your life on hold. With multiple intakes per year, dedicated support, practical learning tools, and industry-relevant qualifications, Botho University gives you the edge to grow, lead, and succeed - from wherever you are."}
             </div>
           </div>
         </div>
