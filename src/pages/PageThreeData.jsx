@@ -3260,42 +3260,73 @@ export const bedinprimaryeducation = {
           subanswer:
             "Code: D5-CAS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
           answer:
-            "This module develops foundational literacy skills—listening, speaking, reading, and writing—essential for academic success and future employment. Learners gain phonemic awareness, vocabulary, spelling, and comprehension. The aim is to enable effective communication in formal settings, empowering learners to engage meaningfully in their studies and broader professional contexts.",
+            "This module equips student teachers with the knowledge, skills, and competences to develop learners’ foundational literacy - listening, speaking, reading, and writing - critical for academic success and future careers. It includes phonemic awareness, vocabulary, spelling, and comprehension, fostering effective communication and enabling learners to participate meaningfully in studies and professional contexts.",
         },
         {
           question: "Computer Skills Fundamentals",
           subanswer:
             "Code: D5-CSF-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
           answer:
-            "This module introduces basic computer concepts essential for everyday life. Learners will explore key terminology, work with Microsoft Windows, and learn to manage files and folders. The module also covers fundamental features of MS Office applications, including Word, Excel, Outlook, PowerPoint, and Access.",
+            "This module introduces basic computer concepts essential for primary school teaching, learning, and everyday life. Learners explore key terminologies, use Microsoft Windows, and manage files and folders. It also covers fundamental features of MS Office applications – Word, Excel, Outlook, PowerPoint, and Access – equipping learners with practical digital skills.",
         },
         {
           question: "Introduction to Educational Psychology",
           subanswer:
             "Code: D5-IEP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
           answer:
-            "This module explores key issues in education and how they impact both teachers and learners. It emphasises understanding learners’ developmental stages and how to support their learning effectively. Through the lens of educational psychology, topics such as human behaviour, growth, learning processes, and experiences are examined to deepen learner understanding.",
+            "This module explores key issues in education and their impact on teachers and learners. It emphasises understanding learners’ developmental stages and supporting learning effectively. Using educational psychology, it examines human behaviour, growth, learning processes, and experiences, deepening understanding and enhancing the ability to address diverse educational needs.",
         },
         {
-          question: "Introduction to Curriculum and Instruction",
+          question: "Historical, Philosophical and Sociological Foundations of Education",
           subanswer:
             "Code: D5-ICI-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
           answer:
-            "This module provides learners with a critical understanding of the drivers, processes, and models of curriculum design and development. It equips them with the skills to evaluate, critique, and create quality-based curricula suited to diverse educational contexts.",
+            "This module examines the historical, philosophical, and sociological foundations of education. It explores the history of education in various countries, the role of different stakeholders in shaping educational goals, and the origins of philosophy and sociology, highlighting contributions of key thinkers to educational thought and development.",
+        },
+        {
+          question: "Introduction to Numeracy and Science for Teachers",
+          subanswer:
+            "Code: D5-ICI-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+          answer:
+            "This module introduces and examines essential knowledge and skills in numeracy, science, and technology, providing a cross-curricular foundation vital for effectively teaching these subjects in primary schools.",
         },
       ],
     },
     {
       semester: "Semester 2",
       courses: [
+        
+        {
+          question: "Writing in English",
+          subanswer:
+            "Code: D6-WEG-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+          answer:
+            "This module develops learners’ English writing skills for academic tasks such as essays and assignments, and prepares them for professional communication, including emails, reports, and formal documents. Primary school teachers must be well equipped with strong English writing skills for effective communication and lesson facilitation.",
+        },
+        {
+          question: "Introduction to Chemistry and Physics",
+          subanswer:
+            "Code: D6-ICP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+          answer:
+            "This module introduces student teachers to fundamental concepts in chemistry and physics, covering the structure of matter, key quantitative and qualitative aspects of chemistry, and core principles of physics, including light, electricity, and sound.",
+        },
+        {
+          question: "Indigenous People and their Environment",
+          subanswer:
+            "Code: D6-ICP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+          answer:
+            "This module examines indigenous peoples, their origins, and their environments. It explores their social, cultural, economic, and political lives, highlighting the importance for student teachers to understand these communities’ past and contemporary socio-economic activities and social structures.",
+        },
         {
           question:
             "Introductory Biology and Earth Science For Primary Teachers",
           subanswer:
-            "Code: D6-IBE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
+            "Code: D6-IBE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 10",
           answer:
-            "This module aims to develop theoretical knowledge, skills, and abilities to understand and apply principles of biology and earth sciences in primary science teaching. It prepares learners to effectively integrate these concepts into classroom practice.",
+            "This module equips student teachers with the theoretical knowledge, skills, and abilities to understand and apply principles of biology and earth sciences, preparing them to integrate these concepts effectively into primary science teaching.",
         },
+
+        // cut
         {
           question: "Introduction to Numeracy and Science for Teachers",
           subanswer:
@@ -3303,39 +3334,77 @@ export const bedinprimaryeducation = {
           answer:
             "This module aims to develop essential integrated knowledge and skills in numeracy, science, and technology. This cross-curricular foundation is crucial for effectively teaching primary science in primary schools.",
         },
+      ],
+    },
+    {
+      semester: "Semester 2 (English Specialisation)",
+      courses: [
         {
           question: "The Pronunciation of English",
           subanswer:
             "Code: D6-TPE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
           answer:
-            "This module develops an understanding of how words and sentences interact to form speech, focusing on pronunciation and grammatical foundations essential for effective communication. Learners will explore key linguistic rules and structures. Assessment includes both informal and formal tasks such as essays, debates, presentations, discussion forums, and a project.",
+            "This module focuses on understanding how words and sentences interact to form speech, alongside pronunciation and grammatical foundations essential for communication. Learners explore key linguistic rules and structures necessary for effective teaching and learning in primary schools.",
         },
         {
           question: "English Linguistics",
           subanswer:
-            "Code: D6-ELG-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
+            "Code: D6-ELG-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
           answer:
-            "The study of English Linguistics is essential for college learners as it provides a systematic understanding of how language functions, evolves, and influences communication. This course equips students with analytical skills to examine the structure of the English language—covering phonetics, morphology, syntax, semantics, and pragmatics—enhancing both written and spoken communication abilities.",
+            "The study of English linguistics provides student teachers with a systematic understanding of how language functions, evolves, and influences communication. This module develops analytical skills to examine English structure – phonetics, morphology, syntax, semantics, and pragmatics – enhancing written and spoken communication in primary schools.",
         },
-      ],
+      ]
+
+    },
+    {
+      semester: "Semester 2 (Mathematics Specialisation)",
+      courses: [
+        
+        {
+          question: "Introductory Mathematics",
+          subanswer:
+            "Code: D6-ITM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits:20",
+          answer:
+            "This module provides a solid foundation in core mathematical concepts, essential for applying mathematics across subjects. It develops basic mathematical skills and introduces their practical application in diverse problem-solving contexts.",
+        },
+      ]
+
     },
     {
       semester: "Semester 3",
       courses: [
         {
-          question: "Introduction to Reading Process",
-          subanswer:
-            "Code: D6-IRP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
-          answer:
-            "This module aims to develop learners into independent readers. It focuses on using context, dictionaries, and tables of contents, and encourages thoughtful responses to texts. Learners will enhance their creative and critical thinking skills while reading with clear understanding and purpose.",
-        },
-        {
           question: "Introduction to Educational Research",
           subanswer:
-            "Code: D6-IER-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
+            "Code: D6-IER-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
           answer:
-            "This module equips learners with an understanding of research principles and the ability to reflect on various research methods. It explores how the selection and application of theories, methods, and approaches influence the entire research process.",
+            "This module equips learners with an understanding of research principles and the ability to evaluate different research methods. It examines how chosen theories, methods, and approaches shape the research process, ensuring student teachers are well grounded in basic research skills essential for effective primary school teaching and learning.",
         },
+        {
+          question: "Foundations of Mathematics",
+          subanswer:
+            "Code: D7-FOM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
+          answer:
+            "This module explores the logical and philosophical foundations of mathematics, examining key concepts, principles, and methodologies in mathematical reasoning.",
+        },
+        
+        {
+          question: "Project-Based Learning and Teaching",
+          subanswer:
+            "Code: D7-PLT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+          answer:
+            "This module develops active learning, collaboration, and critical thinking skills. Students work on projects addressing real-world problems, creating solutions and presenting findings to an academic audience. Through this experiential approach, student teachers acquire 21st-century skills essential for effectively teaching and engaging modern learners.",
+        },
+        {
+          question: "Strategies for Teaching Numeracy and Science in Schools",
+          subanswer:
+            "Code: D7-STN-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
+          answer:
+            "This module prepares Primary Education Science student teachers to select suitable teaching approaches, methods, techniques, and strategies for science instruction. It also equips them with the skills to develop schemes of work, lesson plans, and engage in microteaching and teaching practice effectively.",
+        },
+
+        // cut
+        
         {
           question: "Introduction to Chemistry and Physics",
           subanswer:
@@ -3353,15 +3422,46 @@ export const bedinprimaryeducation = {
       ],
     },
     {
-      semester: "Semester 4",
+      semester: "Semester 3 (English Specialisation)",
       courses: [
         {
-          question: "Strategies for Teaching Numeracy and Science in Schools",
+          question: "Introduction to Reading Process",
           subanswer:
-            "Code: D7-STN-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
+            "Code: D6-IRP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
           answer:
-            "This module prepares Primary Education Science student teachers to select suitable teaching approaches, methods, techniques, and strategies for science instruction. It also equips them with the skills to develop schemes of work, lesson plans, and engage in microteaching and teaching practice effectively.",
+            "This module develops learners into independent readers, emphasising the use of context, dictionaries, and tables of contents. It fosters thoughtful responses to texts, enhancing creative and critical thinking while promoting clear, purposeful reading and comprehension.",
         },
+
+        // cut
+        {
+          question: "English Linguistics",
+          subanswer:
+            "Code: D6-ELG-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+          answer:
+            "The study of English linguistics provides student teachers with a systematic understanding of how language functions, evolves, and influences communication. This module develops analytical skills to examine English structure – phonetics, morphology, syntax, semantics, and pragmatics – enhancing written and spoken communication in primary schools.",
+        },
+      ]
+
+    },
+
+    // start from this
+    {
+      semester: "Semester 3 (Mathematics Specialisation)",
+      courses: [
+        
+        {
+          question: "Introductory Mathematics",
+          subanswer:
+            "Code: D6-ITM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits:20",
+          answer:
+            "This module provides a solid foundation in core mathematical concepts, essential for applying mathematics across subjects. It develops basic mathematical skills and introduces their practical application in diverse problem-solving contexts.",
+        },
+      ]
+
+    },
+    {
+      semester: "Semester 4",
+      courses: [
         {
           question: "Strategies for Teaching Literacy in Schools",
           subanswer:
@@ -3394,13 +3494,6 @@ export const bedinprimaryeducation = {
             "Code: D7-TMM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
           answer:
             "This module introduces effective teaching strategies and techniques for primary mathematics. It explores appropriate pedagogies, purposes, scope, sequence, materials, and methodologies used in teaching the subject. The module also supports students in meeting Graduate Teaching Standards through the development of practical, evidence-based teaching skills.",
-        },
-        {
-          question: "Introductory Mathematics",
-          subanswer:
-            "Code: D6-ITM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits:20",
-          answer:
-            "This module provides learners with a solid foundation in core mathematical concepts, essential for applying mathematics across other subjects. It focuses on developing basic mathematical skills and introduces learners to their practical use in problem-solving contexts.",
         },
         {
           question: "Modern English Grammar",
@@ -3540,8 +3633,10 @@ export const bedinprimaryeducation = {
     {
       question: "Technical Requirements",
       answer: `<div class="technical-requirements">
+
+
   <p>
-  "To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:"
+  To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
   </p></br>
   <p><strong>Device Requirements:</strong></p></br> 
   <ul>
