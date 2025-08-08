@@ -1,4 +1,5 @@
-export const baseUrl = "https://di00ymfrmfyeb.cloudfront.net/ProgrammeInformation-";
+export const baseUrl =
+  "https://di00ymfrmfyeb.cloudfront.net/ProgrammeInformation-";
 
 export const bscindatascience = {
   heroContent: {
@@ -409,12 +410,12 @@ export const bscindatascience = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements"></br>
+      answer: `<div class="technical-requirements">
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
   </p></br>
 
-  <p>Device Requirements:</p>
+  <p><strong>Device Requirements:</strong></p></br>
   <ul>
     <li>
       <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
@@ -425,7 +426,7 @@ export const bscindatascience = {
     </li>
   </ul></br>
 
-  <p>Internet Requirements:</p>
+  <p><strong>Internet Requirements:</strong></p>
   <ul>
     <li>
       Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
@@ -435,21 +436,21 @@ export const bscindatascience = {
     </li>
   </ul></br>
 
-  <p>Software and Platforms:</p>
+  <p><strong>Software and Platforms: </strong></p>
   <ul>
     <li>
       <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
   </ul></br>
 
-  <p>Browser Requirements:</p>
+  <p><strong>Browser Requirements: </strong></p>
   <ul>
     <li>
       Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
   </ul></br>
 
-  <p>Additional Tools: (Optional but Recommended)</p>
+  <p><strong>Additional Tools: </strong>(Optional but Recommended)</p>
   <ul>
     <li>Headset: For clear audio during virtual classes.</li>
     <li>External storage (USB/Cloud): For backups of important coursework.</li>
@@ -856,11 +857,11 @@ export const bbainbusinessmanagement = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements"></br>
+      answer: `<div class="technical-requirements">
   <p>
   "To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:"
   </p></br>
-  <p>Device Requirements:</p>
+  <p><strong>Device Requirements:</strong></p></br>
   <ul>
     <li>
       <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
@@ -871,7 +872,7 @@ export const bbainbusinessmanagement = {
     </li></br>
   </ul>
   </br>
-  <p>Internet Requirements:</p>
+  <p><strong>Internet Requirements: </strong></p>
   <ul>
     <li>
       Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
@@ -881,21 +882,21 @@ export const bbainbusinessmanagement = {
     </li>
   </ul></br>
 
-  <p>Software and Platforms:</p>
+  <p><strong>Software and Platforms: </strong></p>
   <ul>
     <li>
       <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
   </ul></br>
 
-  <p>Browser Requirements:</p>
+  <p><strong>Browser Requirements: </strong></p>
   <ul>
     <li>
       Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
   </ul></br>
 
-  <p>Additional Tools: (Optional but Recommended)</p>
+  <p><strong>Additional Tools: </strong>(Optional but Recommended)</p>
   <ul>
     <li>Headset: For clear audio during virtual classes.</li>
     <li>External storage (USB/Cloud): For backups of important coursework.</li>
@@ -1258,12 +1259,12 @@ export const bcominhospitalitymanagement = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements"></br>
+      answer: `<div class="technical-requirements">
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
   </p></br>
 
-  <p>Device Requirements:</p>
+  <p><strong>Device Requirements:</strong></p></br>
   <ul>
     <li>
       <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
@@ -1274,7 +1275,7 @@ export const bcominhospitalitymanagement = {
     </li>
   </ul></br>
 
-  <p>Internet Requirements:</p>
+  <p><strong>Internet Requirements: </strong></p>
   <ul>
     <li>
       Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
@@ -1284,21 +1285,21 @@ export const bcominhospitalitymanagement = {
     </li>
   </ul></br>
 
-  <p>Software and Platforms:</p>
+  <p><strong>Software and Platforms: </strong></p>
   <ul>
     <li>
       <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
   </ul></br>
 
-  <p>Browser Requirements:</p>
+  <p><strong>Browser Requirements: </strong></p>
   <ul>
     <li>
       Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
   </ul></br>
 
-  <p>Additional Tools: (Optional but Recommended)</p>
+  <p><strong>Additional Tools: </strong>(Optional but Recommended)</p>
   <ul>
     <li>Headset: For clear audio during virtual classes.</li>
     <li>External storage (USB/Cloud): For backups of important coursework.</li>
@@ -1478,7 +1479,7 @@ export const mcominhumanresourcemanagement = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements"></br>
+      answer: `<div class="technical-requirements">
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
   </p></br>
@@ -1724,12 +1725,12 @@ export const masterofbusinessadministration = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements"></br>
+      answer: `<div class="technical-requirements">
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
   </p></br>
 
-  <p>Device Requirements:</p>
+  <p><strong>Device Requirements:</strong></p></br>
   <ul>
     <li>
       <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
@@ -1740,7 +1741,7 @@ export const masterofbusinessadministration = {
     </li>
   </ul></br>
 
-  <p>Internet Requirements:</p>
+  <p><strong>Internet Requirements: </strong></p>
   <ul>
     <li>
       Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
@@ -1750,21 +1751,21 @@ export const masterofbusinessadministration = {
     </li>
   </ul></br>
 
-  <p>Software and Platforms:</p>
+  <p><strong>Software and Platforms: </strong></p>
   <ul>
     <li>
       <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
   </ul></br>
 
-  <p>Browser Requirements:</p>
+  <p><strong>Browser Requirements: </strong></p>
   <ul>
     <li>
       Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
   </ul></br>
 
-  <p>Additional Tools: (Optional but Recommended)</p>
+  <p><strong>Additional Tools: </strong>(Optional but Recommended)</p>
   <ul>
     <li>Headset: For clear audio during virtual classes.</li>
     <li>External storage (USB/Cloud): For backups of important coursework.</li>
@@ -1959,23 +1960,23 @@ export const diplomainoccupationalhealthsafety = {
     },
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements"></br>
+      answer: `<div class="technical-requirements">
 <p>To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:</p></br>
-<p>Device Requirements:</p>
+<p><strong>Device Requirements:</strong></p></br>
 <ul>
   <li><p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space; Camera & Microphone: Required.</li></br>
   <li><p>Tablet/Smartphone:</p> For content access (limited assignment functionality).</li>
 </ul></br>
-<p>Internet Requirements:</p>
+<p><strong>Internet Requirements: </strong></p>
 <ul>
   <li>Minimum 5 Mbps download / 2 Mbps upload (10 Mbps recommended).</li>
   <li>Stable connection recommended for Zoom live sessions.</li>
 </ul></br>
-<p>Software and Platforms:</p>
+<p><strong>Software and Platforms: </strong></p>
 <ul>
   <li>Zoom for live classes.</br>MS Office or Google Docs for assignments.</li>
 </ul></br>
-<p>Browser Requirements:</p>
+<p><strong>Browser Requirements: </strong></p>
 <ul>
   <li>Chrome (latest) or Safari: JavaScript and cookies enabled.</li>
 </ul>
@@ -2331,12 +2332,12 @@ export const bscinhealthinformationmanagement = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements"></br>
+      answer: `<div class="technical-requirements">
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
   </p></br>
 
-  <p>Device Requirements:</p>
+  <p><strong>Device Requirements:</strong></p></br>
   <ul>
     <li>
       <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
@@ -2347,7 +2348,7 @@ export const bscinhealthinformationmanagement = {
     </li>
   </ul></br>
 
-  <p>Internet Requirements:</p>
+  <p><strong>Internet Requirements: </strong></p>
   <ul>
     <li>
       Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
@@ -2357,21 +2358,21 @@ export const bscinhealthinformationmanagement = {
     </li>
   </ul></br>
 
-  <p>Software and Platforms:</p>
+  <p><strong>Software and Platforms: </strong></p>
   <ul>
     <li>
       <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
   </ul></br>
 
-  <p>Browser Requirements:</p>
+  <p><strong>Browser Requirements: </strong></p>
   <ul>
     <li>
       Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
   </ul></br>
 
-  <p>Additional Tools: (Optional but Recommended)</p>
+  <p><strong>Additional Tools: </strong>(Optional but Recommended)</p>
   <ul>
     <li>Headset: For clear audio during virtual classes.</li>
     <li>External storage (USB/Cloud): For backups of important coursework.</li>
@@ -2733,12 +2734,12 @@ export const bscinhospitaladministration = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements"></br>
+      answer: `<div class="technical-requirements">
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
   </p></br>
 
-  <p>Device Requirements:</p>
+  <p><strong>Device Requirements:</strong></p></br>
   <ul>
     <li>
       <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
@@ -2749,7 +2750,7 @@ export const bscinhospitaladministration = {
     </li>
   </ul></br>
 
-  <p>Internet Requirements:</p>
+  <p><strong>Internet Requirements: </strong></p>
   <ul>
     <li>
       Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
@@ -2759,21 +2760,21 @@ export const bscinhospitaladministration = {
     </li>
   </ul></br>
 
-  <p>Software and Platforms:</p>
+  <p><strong>Software and Platforms: </strong></p>
   <ul>
     <li>
       <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
   </ul></br>
 
-  <p>Browser Requirements:</p>
+  <p><strong>Browser Requirements: </strong></p>
   <ul>
     <li>
       Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
   </ul></br>
 
-  <p>Additional Tools: (Optional but Recommended)</p>
+  <p><strong>Additional Tools: </strong>(Optional but Recommended)</p>
   <ul>
     <li>Headset: For clear audio during virtual classes.</li>
     <li>External storage (USB/Cloud): For backups of important coursework.</li>
@@ -3155,11 +3156,11 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements"></br>
+      answer: `<div class="technical-requirements">
   <p>
   "To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:"
   </p></br>
-  <p>Device Requirements:</p> 
+  <p><strong>Device Requirements:</strong></p></br> 
   <ul>
     <li>
       <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
@@ -3170,7 +3171,7 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
     </li>
   </ul></br>
 
-  <p>Internet Requirements:</p>
+  <p><strong>Internet Requirements: </strong></p>
   <ul>
     <li>
       Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
@@ -3180,21 +3181,21 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
     </li>
   </ul></br>
 
-  <p>Software and Platforms:</p>
+  <p><strong>Software and Platforms: </strong></p>
   <ul>
     <li>
       <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
   </ul></br>
 
-  <p>Browser Requirements:</p>
+  <p><strong>Browser Requirements: </strong></p>
   <ul>
     <li>
       Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
   </ul></br>
 
-  <p>Additional Tools: (Optional but Recommended)</p>
+  <p><strong>Additional Tools: </strong>(Optional but Recommended)</p>
   <ul>
     <li>Headset: For clear audio during virtual classes.</li>
     <li>External storage (USB/Cloud): For backups of important coursework.</li>
@@ -3510,11 +3511,11 @@ export const bedinprimaryeducation = {
     },
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements"></br>
+      answer: `<div class="technical-requirements">
   <p>
   "To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:"
   </p></br>
-  <p>Device Requirements:</p> 
+  <p><strong>Device Requirements:</strong></p></br> 
   <ul>
     <li>
       <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
@@ -3525,7 +3526,7 @@ export const bedinprimaryeducation = {
     </li>
   </ul></br>
 
-  <p>Internet Requirements:</p>
+  <p><strong>Internet Requirements: </strong></p>
   <ul>
     <li>
       Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
@@ -3535,21 +3536,21 @@ export const bedinprimaryeducation = {
     </li>
   </ul></br>
 
-  <p>Software and Platforms:</p>
+  <p><strong>Software and Platforms: </strong></p>
   <ul>
     <li>
       <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
   </ul></br>
 
-  <p>Browser Requirements:</p>
+  <p><strong>Browser Requirements: </strong></p>
   <ul>
     <li>
       Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
   </ul></br>
 
-  <p>Additional Tools: (Optional but Recommended)</p>
+  <p><strong>Additional Tools: </strong>(Optional but Recommended)</p>
   <ul>
     <li>Headset: For clear audio during virtual classes.</li>
     <li>External storage (USB/Cloud): For backups of important coursework.</li>
@@ -3672,11 +3673,11 @@ export const postgraduatediplomainhighereducation = {
     },
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements"></br>
+      answer: `<div class="technical-requirements">
   <p>
   "To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:"
   </p></br>
-  <p>Device Requirements:</p> 
+  <p><strong>Device Requirements:</strong></p></br> 
   <ul>
     <li>
       <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
@@ -3687,7 +3688,7 @@ export const postgraduatediplomainhighereducation = {
     </li>
   </ul></br>
 
-  <p>Internet Requirements:</p>
+  <p><strong>Internet Requirements: </strong></p>
   <ul>
     <li>
       Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
@@ -3697,21 +3698,21 @@ export const postgraduatediplomainhighereducation = {
     </li>
   </ul></br>
 
-  <p>Software and Platforms:</p>
+  <p><strong>Software and Platforms: </strong></p>
   <ul>
     <li>
       <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
   </ul></br>
 
-  <p>Browser Requirements:</p>
+  <p><strong>Browser Requirements: </strong></p>
   <ul>
     <li>
       Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
   </ul></br>
 
-  <p>Additional Tools: (Optional but Recommended)</p>
+  <p><strong>Additional Tools: </strong>(Optional but Recommended)</p>
   <ul>
     <li>Headset: For clear audio during virtual classes.</li>
     <li>External storage (USB/Cloud): For backups of important coursework.</li>
@@ -3887,12 +3888,12 @@ export const medinleadershipandmanagement = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements"></br>
+      answer: `<div class="technical-requirements">
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
   </p></br>
 
-  <p>Device Requirements:</p>
+  <p><strong>Device Requirements:</strong></p></br>
   <ul>
     <li>
       <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
@@ -3903,7 +3904,7 @@ export const medinleadershipandmanagement = {
     </li>
   </ul>
 
-  <p>Internet Requirements:</p>
+  <p><strong>Internet Requirements: </strong></p>
   <ul>
     <li>
       Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
@@ -3913,21 +3914,21 @@ export const medinleadershipandmanagement = {
     </li>
   </ul></br>
 
-  <p>Software and Platforms:</p>
+  <p><strong>Software and Platforms: </strong></p>
   <ul>
     <li>
       <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
   </ul></br>
 
-  <p>Browser Requirements:</p>
+  <p><strong>Browser Requirements: </strong></p>
   <ul>
     <li>
       Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
   </ul></br>
 
-  <p>Additional Tools: (Optional but Recommended)</p>
+  <p><strong>Additional Tools: </strong>(Optional but Recommended)</p>
   <ul>
     <li>Headset: For clear audio during virtual classes.</li>
     <li>External storage (USB/Cloud): For backups of important coursework.</li>
@@ -4122,12 +4123,12 @@ export const medincurriculumdesignandinstruction = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements"></br>
+      answer: `<div class="technical-requirements">
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
   </p></br>
 
-  <p>Device Requirements:</p>
+  <p><strong>Device Requirements:</strong></p></br>
   <ul>
     <li>
       <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
@@ -4138,7 +4139,7 @@ export const medincurriculumdesignandinstruction = {
     </li>
   </ul></br>
 
-  <p>Internet Requirements:</p>
+  <p><strong>Internet Requirements: </strong></p>
   <ul>
     <li>
       Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
@@ -4148,21 +4149,21 @@ export const medincurriculumdesignandinstruction = {
     </li>
   </ul></br>
 
-  <p>Software and Platforms:</p>
+  <p><strong>Software and Platforms: </strong></p>
   <ul>
     <li>
       <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
   </ul></br>
 
-  <p>Browser Requirements:</p>
+  <p><strong>Browser Requirements: </strong></p>
   <ul>
     <li>
       Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
   </ul></br>
 
-  <p>Additional Tools: (Optional but Recommended)</p>
+  <p><strong>Additional Tools: </strong>(Optional but Recommended)</p>
   <ul>
     <li>Headset: For clear audio during virtual classes.</li>
     <li>External storage (USB/Cloud): For backups of important coursework.</li>
@@ -4539,11 +4540,11 @@ export const bscinnetworksecurityandcomputerforensics = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements"></br>
+      answer: `<div class="technical-requirements">
   <p>
   "To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:"
   </p></br>
-  <p>Device Requirements:</p> 
+  <p><strong>Device Requirements:</strong></p></br> 
   <ul>
     <li>
       <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
@@ -4554,7 +4555,7 @@ export const bscinnetworksecurityandcomputerforensics = {
     </li>
   </ul></br>
 
-  <p>Internet Requirements:</p>
+  <p><strong>Internet Requirements: </strong></p>
   <ul>
     <li>
       Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
@@ -4564,21 +4565,21 @@ export const bscinnetworksecurityandcomputerforensics = {
     </li>
   </ul></br>
 
-  <p>Software and Platforms:</p>
+  <p><strong>Software and Platforms: </strong></p>
   <ul>
     <li>
       <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
   </ul></br>
 
-  <p>Browser Requirements:</p>
+  <p><strong>Browser Requirements: </strong></p>
   <ul>
     <li>
       Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
   </ul></br>
 
-  <p>Additional Tools: (Optional but Recommended)</p>
+  <p><strong>Additional Tools: </strong>(Optional but Recommended)</p>
   <ul>
     <li>Headset: For clear audio during virtual classes.</li>
     <li>External storage (USB/Cloud): For backups of important coursework.</li>
@@ -4606,157 +4607,157 @@ export const medinhighereducation = {
     overview: false,
   },
   courseStruture: [
-   {
-    semester: "Semester 1",
-    courses: [
-      {
-        question: "Learning, Teaching and Assessment",
-        subanswer:
-          "Code: D9-LTA-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
-        answer:
-          "This module develops learners’ competence in effective teaching and assessment practices. It builds a strong foundation in educational theories and principles, guiding their application to various learning environments. Learners explore classroom practice and align assessment methods to outcomes, ensuring meaningful, constructive feedback.",
-      },
-      {
-        question: "Intergrated Foundations of Education",
-        subanswer:
-          "Code: D9-IFE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
-        answer:
-          "This module enables learners to appreciate the value of educational foundations and their role in the education process. It explores ideological, philosophical, psychological, sociological, and historical perspectives, examining their influence on teaching methods and aims. Learners also analyse the reciprocal relationship between education, culture, society, and psychology.",
-      },
-      {
-        question: "Research in Higher Education",
-        subanswer:
-          "Code: D9-RHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
-        answer:
-          "This module equips a learner with lifelong research skills that will empower them to continually seek and apply new knowledge throughout their career.",
-      },
-      {
-        question: "Academic Writing",
-        subanswer:
-          "Code: D9-ACW-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
-        answer:
-          "This module equips a learner with the knowledge, skills and competences in practicing and improving their writing and reading in English. The students must be able to absorb and producing academic work for practical usage.",
-      },
-    ],
-  },
-  {
-    semester: "Semester 2",
-    courses: [
-      {
-        question: "Educational Technology and e-Learning",
-        subanswer:
-          "Code: D9-ETE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
-        answer:
-          "This module enables a learner to make effective use of technology in designing, developing, planning and evaluating e-learning activities in their teaching and to understand the concepts of open, distant and mobile learning using educational technology.",
-      },
-      {
-        question: "Curriculum Design and Development",
-        subanswer:
-          "Code: D9-CDD-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
-        answer:
-          "This module equips a learner with critical understanding of the drivers and processes of curriculum/course design and development and a critical understanding of curriculum development models. Learners will be equipped with the competency to critique, evaluate, design and develop a quality based curricula.",
-      },
-      {
-        question: "Professional Academic in Action 1",
-        subanswer:
-          "Code: D9-PPA1-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
-        answer:
-          "This module enables a learner to enhance learning, teaching and assessment practice through the theory and practice of quality teaching, and learning principles. The module will equip the learners with theoretical and practical skills to enable them reflect on their professional practice as teachers.",
-      },
-    ],
-  },
-  {
-    semester: "Semester 2 Elective Group One (Choose One)",
-    courses: [
-      {
-        question: "Quality Framework in Higher Education",
-        subanswer:
-          "Code: D9-QHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
-        answer:
-          "This module aims to give tutors a critical understanding of international quality assurance methodologies, and the ability to place the Quality Frameworks in Botswana and Partner Institutions within this context; to enable tutors to understand the implications for curriculum design and delivery.",
-      },
-      {
-        question: "Globalisation in Higher Education",
-        subanswer:
-          "Code: D9-GHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
-        answer:
-          "This module will expose the learner to issues of globalization in higher education and the strategies used by higher education institutions to respond to these. Students will study conceptual frameworks linking higher education institutions to economic competitiveness in a global economy and critically analyse recent national and international reports on this topic.",
-      },
-      {
-        question: "Contemporary Issues in Higher Education",
-        subanswer:
-          "Code: D9-CHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
-        answer:
-          "The module will enable learners to explore the current issues affecting Higher Education and strategies of addressing the challenges. It is essential that learners will be equipped with salient professional knowledge of contemporary educational issues. In addition, analyse and critically reflect on the challenges and potentialities at institutional and individual levels.",
-      },
-    ],
-  },
-  {
-    semester: "Semester 3",
-    courses: [
-      {
-        question: "Professional Academic in Action 2",
-        subanswer:
-          "Code: D9-PPA2-24<br/>Prerequisite: D9-PPA1-24<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
-        answer:
-          "This module is designed to enable student teachers put into practice the theory attained in D8- PPA 1- 15 and reflect on their professional practice. Teaching is a profession. It is therefore, very crucial for student teachers to engage in teaching practice exercise to effectively prepare them for the teaching career.",
-      },
-      {
-        question: "Dissertation (Year module)",
-        subanswer:
-          "Code: D9-DI1-24<br/>Prerequisite: D9-RHE-24<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
-        answer:
-          "The module will enable learners gain a deeper understanding of research by exposing them to both the theoretical and practical aspects of educational research. The learners are expected to explore the findings of these researches in a manner that improves teaching, research and other aspects of HE.",
-      },
-      {
-        question: "Assessment and Moderation in Outcomes-based Education",
-        subanswer:
-          "Code: D9-ABE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
-        answer:
-          "This module equips learners with theoretical and practical skills for conducting assessment and moderation based on Outcomes-Based Education (OBE). It emphasises learner-centred approaches, enabling educators to apply OBE principles effectively in teaching, learning, assessment, and moderation within educational institutions.",
-      },
-    ],
-  },
-  {
-    semester: "Semester 3 Elective One (Choose Two)",
-    courses: [
-      {
-        question: "Governance and Management in Higher Education",
-        subanswer:
-          "Code: D9-GMH-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
-        answer:
-          "The module will familiarize learners with governance, leadership and management structures in HE institutions that can ensure effective attainment of institutional goals and objectives. It is essential to enhance the learners’ understanding of the processes and the structures through which higher education institutions are managed.",
-      },
-      {
-        question: "Organisational Development",
-        subanswer:
-          "Code: D9-ODE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
-        answer:
-          "The aim of this module is to allow students gain knowledge on contemporary issues that affect organisations such as the Evolution of Organisational Behaviour, Individual Dimensions , Group Dynamics, Conflict Management and Negotiation, Stress Management, Change Leadership and Decision Making, Dynamics Organisations, Management of Change and Culture and ethics",
-      },
-      {
-        question: "Special Education",
-        subanswer:
-          "Code: D9-SNE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
-        answer:
-          "This module equips learners with the knowledge, skills, and competencies to support students with special needs in higher education. It focuses on inclusive education principles, emphasising the importance of recognising individual differences and fostering unity, equity, and democratic practice in diverse classroom settings.",
-      },
-    ],
-  },
-  {
-    semester: "Semester 4",
-    courses: [
-      {
-        question: "Dissertation (Year module)",
-        subanswer:
-          "Code: D9-DI2-24<br/>Prerequisite: D9-DI1-24<br/>Co-requisite: None<br/>Module Fees: $1170<br/>Module Credits: 60",
-        answer:
-          "The module will enable learners gain a deeper understanding of research by exposing them to both the theoretical and practical aspects of educational research. The learners are expected to explore the findings of these researches in a manner that improves teaching, research and other aspects of Higher Education.",
-      },
-    ],
-  },
-    ],
-  
+    {
+      semester: "Semester 1",
+      courses: [
+        {
+          question: "Learning, Teaching and Assessment",
+          subanswer:
+            "Code: D9-LTA-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+          answer:
+            "This module develops learners’ competence in effective teaching and assessment practices. It builds a strong foundation in educational theories and principles, guiding their application to various learning environments. Learners explore classroom practice and align assessment methods to outcomes, ensuring meaningful, constructive feedback.",
+        },
+        {
+          question: "Intergrated Foundations of Education",
+          subanswer:
+            "Code: D9-IFE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
+          answer:
+            "This module enables learners to appreciate the value of educational foundations and their role in the education process. It explores ideological, philosophical, psychological, sociological, and historical perspectives, examining their influence on teaching methods and aims. Learners also analyse the reciprocal relationship between education, culture, society, and psychology.",
+        },
+        {
+          question: "Research in Higher Education",
+          subanswer:
+            "Code: D9-RHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
+          answer:
+            "This module equips a learner with lifelong research skills that will empower them to continually seek and apply new knowledge throughout their career.",
+        },
+        {
+          question: "Academic Writing",
+          subanswer:
+            "Code: D9-ACW-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+          answer:
+            "This module equips a learner with the knowledge, skills and competences in practicing and improving their writing and reading in English. The students must be able to absorb and producing academic work for practical usage.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 2",
+      courses: [
+        {
+          question: "Educational Technology and e-Learning",
+          subanswer:
+            "Code: D9-ETE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
+          answer:
+            "This module enables a learner to make effective use of technology in designing, developing, planning and evaluating e-learning activities in their teaching and to understand the concepts of open, distant and mobile learning using educational technology.",
+        },
+        {
+          question: "Curriculum Design and Development",
+          subanswer:
+            "Code: D9-CDD-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
+          answer:
+            "This module equips a learner with critical understanding of the drivers and processes of curriculum/course design and development and a critical understanding of curriculum development models. Learners will be equipped with the competency to critique, evaluate, design and develop a quality based curricula.",
+        },
+        {
+          question: "Professional Academic in Action 1",
+          subanswer:
+            "Code: D9-PPA1-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+          answer:
+            "This module enables a learner to enhance learning, teaching and assessment practice through the theory and practice of quality teaching, and learning principles. The module will equip the learners with theoretical and practical skills to enable them reflect on their professional practice as teachers.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 2 Elective Group One (Choose One)",
+      courses: [
+        {
+          question: "Quality Framework in Higher Education",
+          subanswer:
+            "Code: D9-QHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+          answer:
+            "This module aims to give tutors a critical understanding of international quality assurance methodologies, and the ability to place the Quality Frameworks in Botswana and Partner Institutions within this context; to enable tutors to understand the implications for curriculum design and delivery.",
+        },
+        {
+          question: "Globalisation in Higher Education",
+          subanswer:
+            "Code: D9-GHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+          answer:
+            "This module will expose the learner to issues of globalization in higher education and the strategies used by higher education institutions to respond to these. Students will study conceptual frameworks linking higher education institutions to economic competitiveness in a global economy and critically analyse recent national and international reports on this topic.",
+        },
+        {
+          question: "Contemporary Issues in Higher Education",
+          subanswer:
+            "Code: D9-CHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+          answer:
+            "The module will enable learners to explore the current issues affecting Higher Education and strategies of addressing the challenges. It is essential that learners will be equipped with salient professional knowledge of contemporary educational issues. In addition, analyse and critically reflect on the challenges and potentialities at institutional and individual levels.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 3",
+      courses: [
+        {
+          question: "Professional Academic in Action 2",
+          subanswer:
+            "Code: D9-PPA2-24<br/>Prerequisite: D9-PPA1-24<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+          answer:
+            "This module is designed to enable student teachers put into practice the theory attained in D8- PPA 1- 15 and reflect on their professional practice. Teaching is a profession. It is therefore, very crucial for student teachers to engage in teaching practice exercise to effectively prepare them for the teaching career.",
+        },
+        {
+          question: "Dissertation (Year module)",
+          subanswer:
+            "Code: D9-DI1-24<br/>Prerequisite: D9-RHE-24<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
+          answer:
+            "The module will enable learners gain a deeper understanding of research by exposing them to both the theoretical and practical aspects of educational research. The learners are expected to explore the findings of these researches in a manner that improves teaching, research and other aspects of HE.",
+        },
+        {
+          question: "Assessment and Moderation in Outcomes-based Education",
+          subanswer:
+            "Code: D9-ABE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+          answer:
+            "This module equips learners with theoretical and practical skills for conducting assessment and moderation based on Outcomes-Based Education (OBE). It emphasises learner-centred approaches, enabling educators to apply OBE principles effectively in teaching, learning, assessment, and moderation within educational institutions.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 3 Elective One (Choose Two)",
+      courses: [
+        {
+          question: "Governance and Management in Higher Education",
+          subanswer:
+            "Code: D9-GMH-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+          answer:
+            "The module will familiarize learners with governance, leadership and management structures in HE institutions that can ensure effective attainment of institutional goals and objectives. It is essential to enhance the learners’ understanding of the processes and the structures through which higher education institutions are managed.",
+        },
+        {
+          question: "Organisational Development",
+          subanswer:
+            "Code: D9-ODE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+          answer:
+            "The aim of this module is to allow students gain knowledge on contemporary issues that affect organisations such as the Evolution of Organisational Behaviour, Individual Dimensions , Group Dynamics, Conflict Management and Negotiation, Stress Management, Change Leadership and Decision Making, Dynamics Organisations, Management of Change and Culture and ethics",
+        },
+        {
+          question: "Special Education",
+          subanswer:
+            "Code: D9-SNE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+          answer:
+            "This module equips learners with the knowledge, skills, and competencies to support students with special needs in higher education. It focuses on inclusive education principles, emphasising the importance of recognising individual differences and fostering unity, equity, and democratic practice in diverse classroom settings.",
+        },
+      ],
+    },
+    {
+      semester: "Semester 4",
+      courses: [
+        {
+          question: "Dissertation (Year module)",
+          subanswer:
+            "Code: D9-DI2-24<br/>Prerequisite: D9-DI1-24<br/>Co-requisite: None<br/>Module Fees: $1170<br/>Module Credits: 60",
+          answer:
+            "The module will enable learners gain a deeper understanding of research by exposing them to both the theoretical and practical aspects of educational research. The learners are expected to explore the findings of these researches in a manner that improves teaching, research and other aspects of Higher Education.",
+        },
+      ],
+    },
+  ],
+
   requirements: [
     {
       question: "Admission Requirements",
@@ -4766,12 +4767,12 @@ export const medinhighereducation = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements"></br>
+      answer: `<div class="technical-requirements">
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
   </p></br>
 
-  <p>Device Requirements:</p>
+  <p><strong>Device Requirements:</strong></p></br>
   <ul>
     <li>
       <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
@@ -4782,7 +4783,7 @@ export const medinhighereducation = {
     </li>
   </ul></br>
 
-  <p>Internet Requirements:</p>
+  <p><strong>Internet Requirements: </strong></p>
   <ul>
     <li>
       Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
@@ -4792,21 +4793,21 @@ export const medinhighereducation = {
     </li>
   </ul></br>
 
-  <p>Software and Platforms:</p>
+  <p><strong>Software and Platforms: </strong></p>
   <ul>
     <li>
       <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
   </ul></br>
 
-  <p>Browser Requirements:</p>
+  <p><strong>Browser Requirements: </strong></p>
   <ul>
     <li>
       Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
   </ul></br>
 
-  <p>Additional Tools: (Optional but Recommended)</p>
+  <p><strong>Additional Tools: </strong>(Optional but Recommended)</p>
   <ul>
     <li>Headset: For clear audio during virtual classes.</li>
     <li>External storage (USB/Cloud): For backups of important coursework.</li>
@@ -4959,12 +4960,12 @@ export const mscininformationsystemsmanagement = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements"></br>
+      answer: `<div class="technical-requirements">
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
   </p></br>
 
-  <p>Device Requirements:</p>
+  <p><strong>Device Requirements:</strong></p></br>
   <ul>
     <li>
       <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
@@ -4975,7 +4976,7 @@ export const mscininformationsystemsmanagement = {
     </li>
   </ul></br>
 
-  <p>Internet Requirements:</p>
+  <p><strong>Internet Requirements: </strong></p>
   <ul>
     <li>
       Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
@@ -4985,21 +4986,21 @@ export const mscininformationsystemsmanagement = {
     </li>
   </ul></br>
 
-  <p>Software and Platforms:</p>
+  <p><strong>Software and Platforms: </strong></p>
   <ul>
     <li>
       <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
   </ul></br>
 
-  <p>Browser Requirements:</p>
+  <p><strong>Browser Requirements: </strong></p>
   <ul>
     <li>
       Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
   </ul></br>
 
-  <p>Additional Tools: (Optional but Recommended)</p>
+  <p><strong>Additional Tools: </strong>(Optional but Recommended)</p>
   <ul>
     <li>Headset: For clear audio during virtual classes.</li>
     <li>External storage (USB/Cloud): For backups of important coursework.</li>
@@ -5145,12 +5146,12 @@ export const mscincomputerscience = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements"></br>
+      answer: `<div class="technical-requirements">
   <p>
     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
   </p></br>
 
-  <p>Device Requirements:</p>
+  <p><strong>Device Requirements:</strong></p></br>
   <ul>
     <li>
       <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
@@ -5161,7 +5162,7 @@ export const mscincomputerscience = {
     </li>
   </ul></br>
 
-  <p>Internet Requirements:</p>
+  <p><strong>Internet Requirements: </strong></p>
   <ul>
     <li>
       Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
@@ -5171,21 +5172,21 @@ export const mscincomputerscience = {
     </li>
   </ul></br>
 
-  <p>Software and Platforms:</p>
+  <p><strong>Software and Platforms: </strong></p>
   <ul>
     <li>
       <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
   </ul></br>
 
-  <p>Browser Requirements:</p>
+  <p><strong>Browser Requirements: </strong></p>
   <ul>
     <li>
       Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
   </ul></br>
 
-  <p>Additional Tools: (Optional but Recommended)</p>
+  <p><strong>Additional Tools: </strong>(Optional but Recommended)</p>
   <ul>
     <li>Headset: For clear audio during virtual classes.</li>
     <li>External storage (USB/Cloud): For backups of important coursework.</li>
@@ -5583,11 +5584,11 @@ export const bcominaccounting = {
 
     {
       question: "Technical Requirements",
-      answer: `<div class="technical-requirements"></br>
+      answer: `<div class="technical-requirements">
   <p>
   "To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:"
   </p></br>
-  <p>Device Requirements:</p>
+  <p><strong>Device Requirements:</strong></p></br>
   <ul>
     <li>
       <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
@@ -5598,7 +5599,7 @@ export const bcominaccounting = {
     </li>
   </ul></br>
 
-  <p>Internet Requirements:</p>
+  <p><strong>Internet Requirements: </strong></p>
   <ul>
     <li>
       Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
@@ -5608,21 +5609,21 @@ export const bcominaccounting = {
     </li>
   </ul></br>
 
-  <p>Software and Platforms:</p>
+  <p><strong>Software and Platforms: </strong></p>
   <ul>
     <li>
       <p>Virtual Live Sessions:</p> Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).
     </li>
   </ul></br>
 
-  <p>Browser Requirements:</p>
+  <p><strong>Browser Requirements: </strong></p>
   <ul>
     <li>
       Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
     </li>
   </ul></br>
 
-  <p>Additional Tools: (Optional but Recommended)</p>
+  <p><strong>Additional Tools: </strong>(Optional but Recommended)</p>
   <ul>
     <li>Headset: For clear audio during virtual classes.</li>
     <li>External storage (USB/Cloud): For backups of important coursework.</li>

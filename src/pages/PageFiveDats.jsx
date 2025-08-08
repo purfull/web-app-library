@@ -2,7 +2,7 @@ import { baseUrl } from "./PageThreeData";
 
 export const bcominaccounting = {
   heroContent: {
-    question: "B.Com in Accounting",
+    question: "BCom in Accounting",
     image: "/images/courses-images/Bcom in accounting.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
@@ -781,7 +781,7 @@ export const bbainbusinessmanagement = {
 };
 export const bcominhospitalitymanagement = {
   heroContent: {
-    question: "B.Com in Hospitality Management",
+    question: "BCom in Hospitality Management",
     image: "/images/courses-images/Bcom in Hospitality.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
@@ -1128,7 +1128,7 @@ export const bcominhospitalitymanagement = {
   ],
 };
 
-export const dipinoccupationalhealthsafety = {
+export const diplomainoccupationalhealthsafety = {
   heroContent: {
     question: "Diploma in Occupational Health Safety",
     image: "/images/courses-images/Diploma in Occup.jpeg",
@@ -1491,7 +1491,7 @@ export const masterofbusinessadministration = {
 
 export const mcominhumanresourcemanagement = {
   heroContent: {
-    question: "M.Com in Human Resource Management",
+    question: "MCom in Human Resource Management",
     image: "/images/courses-images/MCom in Human resource.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
@@ -1657,7 +1657,7 @@ export const mcominhumanresourcemanagement = {
 
 export const bscinhealthinformationmanagement = {
   heroContent: {
-    question: "Bachelor of Science in Health Information Management",
+    question: "BSc in Health Information Management",
     image: "/images/courses-images/BSc in health info.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
@@ -1666,7 +1666,7 @@ export const bscinhealthinformationmanagement = {
     noOfModules: "35 (32 core + 3 elective)",
     totalFee: "$6,240",
     downloadurl: `${baseUrl}/botho-univercity-Online-Programmes-Fee-BComAcc.pdf`,
-    cta: false,
+    cta: true,
     timer: false,
     overview: false,
   },
@@ -1991,7 +1991,7 @@ export const bscinhealthinformationmanagement = {
 
 export const bscinhospitaladministration = {
   heroContent: {
-    question: "Bsc in Hospital Administration",
+    question: "BSc in Hospital Administration",
     image: "/images/courses-images/BSc in Hospitality.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
@@ -2332,7 +2332,7 @@ export const bscinhospitaladministration = {
 
 export const bscinsafetyhealthandenvironmentalmanagement = {
   heroContent: {
-    question: "Bsc in Safety, Health and Environmental Management",
+    question: "BSc in Safety, Health and Environmental Management",
     image: "/images/courses-images/BSc in Safety..png",
     minPeriod: 4,
     maxPeriod: 6,
@@ -2341,7 +2341,7 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
     noOfModules: "39 (36 core + 3 elective)",
     totalFee: "$6,604",
     downloadurl: `${baseUrl}/botho-univercity-Online-Programmes-Fee-BComAcc.pdf`,
-    cta: false,
+    cta: true,
     timer: false,
     overview: false,
   },
@@ -2694,7 +2694,7 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
 
 export const bedinprimaryeducation = {
   heroContent: {
-    question: "BED in Primary Education (English Language and Mathematics)",
+    question: "BEd in Primary Education (English Language and Mathematics)",
     image: "/images/courses-images/Bed in Primary.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
@@ -2703,7 +2703,7 @@ export const bedinprimaryeducation = {
     noOfModules: "30 (29 core + 1 elective)",
     totalFee: "$6,240",
     downloadurl: `${baseUrl}/botho-univercity-Online-Programmes-Fee-BComAcc.pdf`,
-    cta: false,
+    cta: true,
     timer: false,
     overview: false,
   },
@@ -2998,9 +2998,9 @@ export const bedinprimaryeducation = {
   ],
 };
 
-export const bachelorofscienceindatascience = {
+export const bscindatascience = {
   heroContent: {
-    question: "Bachelor of Science in Data Science",
+    question: "BSc in Data Science",
     image: "/images/courses-images/Bsc in data science.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
@@ -3009,7 +3009,7 @@ export const bachelorofscienceindatascience = {
     noOfModules: "35 (27 core + 8 elective)",
     totalFee: "$6,435",
     downloadurl: `${baseUrl}/botho-univercity-Online-Programmes-Fee-BComAcc.pdf`,
-    cta: false,
+    cta: true,
     timer: false,
     overview: false,
   },
@@ -3376,7 +3376,7 @@ export const bachelorofscienceindatascience = {
 
 export const bscinnetworksecurityandcomputerforensics = {
   heroContent: {
-    question: "Bsc in Network Security and Computer Forensics",
+    question: "BSc in Network Security and Computer Forensics",
     image: "/images/courses-images/BSc in network security.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
@@ -3385,7 +3385,7 @@ export const bscinnetworksecurityandcomputerforensics = {
     noOfModules: "37 (35 core + 2 elective)",
     totalFee: "$6,240",
     downloadurl: `${baseUrl}/botho-univercity-Online-Programmes-Fee-BComAcc.pdf`,
-    cta: false,
+    cta: true,
     timer: false,
     overview: false,
   },
@@ -3712,7 +3712,7 @@ export const bscinnetworksecurityandcomputerforensics = {
 
 export const postgraduatediplomainhighereducation = {
   heroContent: {
-    question: "Post Graduate Diploma in Higher Education",
+    question: "Post Graduate Diploma in Higher Education (PGDHE)",
     image: "/images/courses-images/PGDHE.jpeg",
     minPeriod: 1,
     maxPeriod: 2,
@@ -3721,7 +3721,7 @@ export const postgraduatediplomainhighereducation = {
     noOfModules: "8 core",
     totalFee: "$2,340.00",
     downloadurl: `${baseUrl}/botho-univercity-Online-Programmes-Fee-BComAcc.pdf`,
-    cta: false,
+    cta: true,
     timer: false,
     overview: false,
   },
@@ -3799,9 +3799,9 @@ export const postgraduatediplomainhighereducation = {
   ],
 };
 
-export const medleadershipandmanagement = {
+export const medinleadershipandmanagement = {
   heroContent: {
-    question: "MED - Leadership and Management",
+    question: "MEd in Leadership and Management",
     image: "/images/courses-images/Med in educational leadership and mgmt.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
@@ -3810,7 +3810,7 @@ export const medleadershipandmanagement = {
     noOfModules: "14 (13 core + 1 elective)",
     totalFee: "$4,680",
     downloadurl: `${baseUrl}/botho-univercity-Online-Programmes-Fee-BComAcc.pdf`,
-    cta: false,
+    cta: true,
     timer: false,
     overview: false,
   },
@@ -3946,7 +3946,7 @@ export const medleadershipandmanagement = {
 
 export const medincurriculumdesignandinstruction = {
   heroContent: {
-    question: "MED in Curriculum Design and Instruction",
+    question: "MEd in Curriculum Design and Instruction",
     image: "/images/courses-images/Med in curriculum.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
@@ -3955,7 +3955,7 @@ export const medincurriculumdesignandinstruction = {
     noOfModules: "13 (11 core + 2 electives)",
     totalFee: "$4,680",
     downloadurl: `${baseUrl}/botho-univercity-Online-Programmes-Fee-BComAcc.pdf`,
-    cta: false,
+    cta: true,
     timer: false,
     overview: false,
   },
@@ -4091,7 +4091,7 @@ export const medincurriculumdesignandinstruction = {
 
 export const medinhighereducation = {
   heroContent: {
-    question: "MED in Higher Education",
+    question: "MEd in Higher Education",
     image: "/images/courses-images/Med in higher education.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
@@ -4100,7 +4100,7 @@ export const medinhighereducation = {
     noOfModules: "14 (11 core + 3 elective)",
     totalFee: "$4,680",
     downloadurl: `${baseUrl}/botho-univercity-Online-Programmes-Fee-BComAcc.pdf`,
-    cta: false,
+    cta: true,
     timer: false,
     overview: false,
   },
@@ -4230,7 +4230,7 @@ export const medinhighereducation = {
 
 export const mscininformationsystemsmanagement = {
   heroContent: {
-    question: "Msc in Information Systems Management",
+    question: "MSc in Information Systems Management",
     image: "/images/courses-images/Msc in Information Systems management.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
@@ -4239,7 +4239,7 @@ export const mscininformationsystemsmanagement = {
     noOfModules: "10 (8 core + 2 elective)",
     totalFee: "$4,680",
     downloadurl: `${baseUrl}/botho-univercity-Online-Programmes-Fee-BComAcc.pdf`,
-    cta: false,
+    cta: true,
     timer: false,
     overview: false,
   },
@@ -4348,7 +4348,7 @@ export const mscininformationsystemsmanagement = {
 
 export const mscincomputerscience = {
   heroContent: {
-    question: "Msc in Computer Science",
+    question: "MSc in Computer Science",
     image: "/images/courses-images/Msc in computer science.jpeg",
     minPeriod: 2,
     maxPeriod: 4,
@@ -4357,7 +4357,7 @@ export const mscincomputerscience = {
     noOfModules: "9 (7 core + 2 elective)",
     totalFee: "$4,680",
     downloadurl: `${baseUrl}/botho-univercity-Online-Programmes-Fee-BComAcc.pdf`,
-    cta: false,
+    cta: true,
     timer: false,
     overview: false,
   },
