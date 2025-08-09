@@ -78,24 +78,22 @@ Applying to Botho University is a straightforward and free process, designed to 
 If you wish to connect with us first and speak to a counsellor before applying, please feel free to complete this simple enquiry form:</br>
 👉 <a href="https://bothouniversity.academiaerp.com/enquire/" target="_blank" rel="noopener noreferrer">Enquire Here</a>
 </br></br>
-Required Documents</br></br>
 To help you prepare for the application, here's what you'll typically need:
 </br></br>
-For Undergraduate Programmes:</br></br>
+<strong>For Undergraduate Programmes:</strong></br></br>
 - Certified copy of your ID/Passport
 
 - Certified copies of your High School Certificate
 
 - Professional passport-size photo
 </br></br>
-Mature Entry Applicants:</br></br>
-If you're applying through mature entry, please be ready to provide additional documents such as:
-</br></br>
+<strong>Mature Entry Applicants:</strong></br></br>
+
 - Other qualification certificates with transcripts
 </br>
 - Letter(s) from your employer(s)
 </br></br>
-For Postgraduate Programmes:</br></br>
+<strong>For Postgraduate Programmes:</strong></br></br>
 - Certified copies of your degree certificate and official transcript
 </br>
 - Certified copy of your ID/Passport

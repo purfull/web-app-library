@@ -238,7 +238,7 @@ const NavBar = () => {
           alt="logo"
           className="nav-logo"
           onClick={handleHomeClick}
-          style={{ cursor: "pointer" }}
+          style={{ cursor: "pointer", maxWidth: "70px" }}
         />
 
         <div className="">

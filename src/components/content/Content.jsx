@@ -38,7 +38,7 @@ const Content = () => {
     ScrollTrigger.create({
       trigger: contentPart2Ref.current,
       start: "top-=60vh top",
-      end: "bottom 40%",
+      end: "bottom 45%",
       // markers: true,
       scrub: true,
       pin: titleElement,

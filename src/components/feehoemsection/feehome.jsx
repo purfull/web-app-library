@@ -25,7 +25,7 @@ const herobanner = [
       "/images/Ellipse 24.png",
     ],
   },
-  {
+  { 
     Primarytittle: "Affordable. Flexible. Build",
     highlightedText: "Around You",
     PrimaryTitleEnd: "",

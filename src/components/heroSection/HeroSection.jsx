@@ -25,12 +25,12 @@ const herobanner = [
   // },
   {
     Primarytittle:
-      "Empower Your Future with <span style='background-color: #841D2E'>Botho University </span> Online",
+      "Empower Your Future with <span style='background-color: #841D2E'>Botho University Online</span>",
     subtittle:
       "Pursue accredited, globally recognized qualifications designed for flexibility, affordability, and career advancement - anytime, anywhere.",
     button: "Explore Programmes",
     arrowIcon: "/icon/arrow_forward.png",
-    backgroundImg: "/images/herobanner-2.png",
+    backgroundImg: "/images/herobanner-2.jpg",
     calledtoAction:
       "98% of our graduates will recommend us to others <span class='desktop-br'><br /></span>  (Source: 2025 Graduate Tracer Study)",
 

@@ -14,6 +14,7 @@ import FeeHome from "../components/feehoemsection/feehome";
 import EnquireSection from "../components/EnquireSection/EnquireSection";
 
 const PageFour = () => {
+ 
   const faqData = [
     {
       question:
@@ -26,24 +27,22 @@ Applying to Botho University is a straightforward and free process, designed to 
 If you wish to connect with us first and speak to a counsellor before applying, please feel free to complete this simple enquiry form:</br>
 👉 <a href="https://bothouniversity.academiaerp.com/enquire/" target="_blank" rel="noopener noreferrer">Enquire Here</a>
 </br></br>
-Required Documents</br></br>
 To help you prepare for the application, here's what you'll typically need:
 </br></br>
-For Undergraduate Programmes:</br></br>
+<strong>For Undergraduate Programmes:</strong></br></br>
 - Certified copy of your ID/Passport
 
 - Certified copies of your High School Certificate
 
 - Professional passport-size photo
 </br></br>
-Mature Entry Applicants:</br></br>
-If you're applying through mature entry, please be ready to provide additional documents such as:
-</br></br>
+<strong>Mature Entry Applicants:</strong></br></br>
+
 - Other qualification certificates with transcripts
 </br>
 - Letter(s) from your employer(s)
 </br></br>
-For Postgraduate Programmes:</br></br>
+<strong>For Postgraduate Programmes:</strong></br></br>
 - Certified copies of your degree certificate and official transcript
 </br>
 - Certified copy of your ID/Passport
@@ -420,8 +419,8 @@ It's very important to us at Botho University that students receive timely assis
     <div className="">
       <RednavBar />
       <NavBar />
-      <FeeHome />
-      {/* <StaticHome /> */}
+      {/* <FeeHome /> */}
+      <StaticHome backgroundColor="#F3E8EA" textColor="#000" backgroundImage="/images/FeeHome.png" title="Affordable. Flexible. Build <span style='background-color: #841D2E; color: #fff'>Around You </span>" description="At Botho University, our online learning fees are designed to give you full control. You only pay for the modules you register for—each one priced according to its credit load. This pay-as-you-go model ensures you’re only investing in what you study, with no hidden costs." />
 
       <EnquireSection
         cardData={pgCardData}
