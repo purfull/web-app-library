@@ -3244,9 +3244,9 @@ export const bedinprimaryeducation = {
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
-    totalProgrammeCredit: 480,
-    noOfModules: "30 (29 core + 1 elective)",
-    totalFee: "$6,240",
+    totalProgrammeCredit: 520,
+    noOfModules: "English specialisation 44 (39 core + 5 elective); Mathematics specialisation 42 (37 core + 5 elective)",
+    totalFee: "$6,760",
     cta: true,
     timer: true,
     overview: true,
@@ -3295,7 +3295,7 @@ export const bedinprimaryeducation = {
     {
       semester: "Semester 2",
       courses: [
-        
+
         {
           question: "Writing in English",
           subanswer:
@@ -3326,14 +3326,7 @@ export const bedinprimaryeducation = {
             "This module equips student teachers with the theoretical knowledge, skills, and abilities to understand and apply principles of biology and earth sciences, preparing them to integrate these concepts effectively into primary science teaching.",
         },
 
-        // cut
-        {
-          question: "Introduction to Numeracy and Science for Teachers",
-          subanswer:
-            "Code: D6-INS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
-          answer:
-            "This module aims to develop essential integrated knowledge and skills in numeracy, science, and technology. This cross-curricular foundation is crucial for effectively teaching primary science in primary schools.",
-        },
+  
       ],
     },
     {
@@ -3359,7 +3352,7 @@ export const bedinprimaryeducation = {
     {
       semester: "Semester 2 (Mathematics Specialisation)",
       courses: [
-        
+
         {
           question: "Introductory Mathematics",
           subanswer:
@@ -3387,7 +3380,7 @@ export const bedinprimaryeducation = {
           answer:
             "This module explores the logical and philosophical foundations of mathematics, examining key concepts, principles, and methodologies in mathematical reasoning.",
         },
-        
+
         {
           question: "Project-Based Learning and Teaching",
           subanswer:
@@ -3404,21 +3397,7 @@ export const bedinprimaryeducation = {
         },
 
         // cut
-        
-        {
-          question: "Introduction to Chemistry and Physics",
-          subanswer:
-            "Code: D6-ICP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
-          answer:
-            "This module introduces learners to fundamental concepts in chemistry and physics. It covers the structure of matter, basic quantitative and qualitative aspects of chemistry, and key principles of physics, including light, electricity, and sound.",
-        },
-        {
-          question: "Writing in English",
-          subanswer:
-            "Code: D6-WEG-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
-          answer:
-            "This module helps learners improve their English writing skills for academic tasks such as essays and assignments. It also prepares them for professional communication after tertiary education, including writing emails, reports, and other formal documents.",
-        },
+
       ],
     },
     {
@@ -3433,13 +3412,7 @@ export const bedinprimaryeducation = {
         },
 
         // cut
-        {
-          question: "English Linguistics",
-          subanswer:
-            "Code: D6-ELG-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
-          answer:
-            "The study of English linguistics provides student teachers with a systematic understanding of how language functions, evolves, and influences communication. This module develops analytical skills to examine English structure – phonetics, morphology, syntax, semantics, and pragmatics – enhancing written and spoken communication in primary schools.",
-        },
+     
       ]
 
     },
@@ -3448,168 +3421,357 @@ export const bedinprimaryeducation = {
     {
       semester: "Semester 3 (Mathematics Specialisation)",
       courses: [
-        
         {
-          question: "Introductory Mathematics",
+          question: "Introductory Set and Number Theory",
           subanswer:
-            "Code: D6-ITM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits:20",
+            "Code: D6-ISN-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module provides a solid foundation in core mathematical concepts, essential for applying mathematics across subjects. It develops basic mathematical skills and introduces their practical application in diverse problem-solving contexts.",
-        },
+            "This module helps student teachers understand fundamental branches of mathematics, including sets and their relationships, and the properties and relationships of numbers such as integers. It provides a foundation for modern mathematics and its core concepts."
+        }
       ]
-
+    },
+    {
+      semester: "Semester 3 - Elective Group One (Choose One)",
+      courses: [
+        {
+          question: "Counselling over a Life Span",
+          subanswer: "Code: D6-COL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module equips student teachers with the knowledge and skills to provide counselling services to clients. It covers key aspects, including attachment, school adjustment, social skills, identity formation, peer relationships, emotional regulation, and risk behaviours, preparing teachers to support learners’ personal and social development effectively."
+        },
+        {
+          question: "Foundations of Early Childhood Education",
+          subanswer: "Code: D6-FEC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module introduces student teachers to essential principles, knowledge, and practices for effective teaching and learning of young children from birth to age eight. It covers child development, learning theories, supportive environments, curriculum design, and pedagogy to enhance early childhood education."
+        },
+        {
+          question: "Foundations of Environmental Education",
+          subanswer: "Code: D6-FEE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module enables student teachers to explore environmental issues and create awareness to address related problems. It examines human interaction with the environment, covering topics such as climate change, pollution, sustainability, environmental health, and waste management to promote informed and responsible practices."
+        }
+      ]
     },
     {
       semester: "Semester 4",
       courses: [
         {
-          question: "Strategies for Teaching Literacy in Schools",
-          subanswer:
-            "Code: D6-STL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
-          answer:
-            "This module equips future teachers with strategies to teach literacy across the curriculum using thematic and pedagogical approaches. Learners develop skills to embed literacy in daily classroom activities and design instruction using informative, narrative, and persuasive texts, underpinned by key theories of literacy acquisition and contextual understanding.",
+          question: "Practitioner Research",
+          subanswer: "Code: D7-PRE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module introduces student teachers to practice-based research aimed at enhancing teaching and learning. It equips them with the knowledge, skills, and competences necessary to improve their professional practice as primary school educators."
         },
         {
-          question: "Managing Education for Sustainable Development",
-          subanswer:
-            "Code: D6-MES-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
-          answer:
-            "This module aims to foster in learners an appreciation and respect for nature, raise awareness of environmental issues affecting their communities and the world, and promote understanding of the relationship between individuals, society, and the environment. It equips learners with knowledge and skills for sustainable, harmonious human-environment interaction.",
+          question: "Human Growth and Development",
+          subanswer: "Code: D7-HGD-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module examines aspects of human growth and development, including physical, cognitive, emotional, social, and moral changes across the lifespan, and their educational implications. Stages covered include infancy, childhood, adolescence, and adulthood."
         },
         {
           question: "Assessment in Primary Schools",
-          subanswer:
-            "Code: D7-APS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
-          answer:
-            "This module aims to develop learners’ theoretical knowledge and skills in understanding and applying assessment principles. It focuses on effectively using these principles to assess learning in primary science, ensuring meaningful evaluation of student progress and achievement.",
+          subanswer: "Code: D7-APS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module develops learners’ theoretical knowledge and skills in understanding and applying assessment principles. It focuses on using these principles effectively to assess primary science learning, ensuring meaningful evaluation of student progress and achievement."
         },
-      ],
+        {
+          question: "Information and Communication Technology Application in Schools",
+          subanswer: "Code: D7-ICT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module equips student teachers with the skills and competences to apply information technologies in teaching 21st-century learners."
+        },
+        {
+          question: "Strategies for Teaching Literacy in Schools",
+          subanswer: "Code: D6-STL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module equips student teachers with strategies for teaching literacy across the curriculum using thematic and pedagogical approaches. Learners develop skills to integrate literacy into daily activities and design instruction with informative, narrative, and persuasive texts, supported by key theories of literacy acquisition and contextual understanding."
+        }
+      ]
+    },
+    {
+      semester: "Semester 4 (English Specialisation)",
+      courses: [
+        {
+          question: "Poetry of Southern Africa",
+          subanswer: "Code: D7-PSA-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module explores the role of poetry in fostering language, creativity, emotional intelligence, and critical thinking. Student teachers learn how poetry enhances teaching and learning, particularly at the primary school level, and master its benefits as an educational tool."
+        }
+      ]
+    },
+    {
+      semester: "Semester 4 (Mathematics Specialisation)",
+      courses: [
+        {
+          question: "Teaching Methods for Mathematics in Primary Schools",
+          subanswer: "Code: D7-TMM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module introduces effective teaching strategies and techniques for primary school mathematics, exploring appropriate pedagogies, purposes, scope, sequence, materials, and methodologies. It supports students in meeting essential requirements for primary teaching through the development of practical, evidence-based skills for effective mathematics instruction and learning."
+        }
+      ]
+    },
+    {
+      semester: "Semester 4 Elective Group Two (Choose One)",
+      courses: [
+        {
+          question: "Listening, Composing and Performing",
+          subanswer: "Code: D6-LCP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module explores the core processes of music engagement – listening, composing, and performing. Student teachers examine how these activities are interconnected and the role of music education in enhancing learning at the primary school level."
+        },
+        {
+          question: "Organisation and Administration of Physical Education and Sports",
+          subanswer: "Code: D6-AOP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module equips student teachers with the knowledge, skills, and competences for effective organisation and management of physical education and sports. It covers leadership qualities and key functions – planning, organising, staffing, directing, coordinating, controlling, evaluating, and innovating – to deliver efficient, high-quality physical activity programmes."
+        },
+        {
+          question: "Practical Art, Craft and Design Methods and Materials for Schools",
+          subanswer: "Code: D6-PAC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module introduces primary education student teachers to the importance of arts, crafts, and design methods for effective teaching and learning. Topics include drawing, painting, sculpture, printmaking, product design, and clay modelling, with opportunities to apply theoretical knowledge through practical activities."
+        }
+      ]
     },
     {
       semester: "Semester 5",
       courses: [
         {
-          question: "Teaching Methods for Mathematics in Primary Schools",
-          subanswer:
-            "Code: D7-TMM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
-          answer:
-            "This module introduces effective teaching strategies and techniques for primary mathematics. It explores appropriate pedagogies, purposes, scope, sequence, materials, and methodologies used in teaching the subject. The module also supports students in meeting Graduate Teaching Standards through the development of practical, evidence-based teaching skills.",
+          question: "Instructional Materials",
+          subanswer: "Code: D7-IMP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module equips learners with the knowledge and skills to design, develop, evaluate, and use instructional materials that enhance teaching and learning experiences."
         },
         {
-          question: "Modern English Grammar",
-          subanswer:
-            "Code: D7-MEG-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits:20",
-          answer:
-            "This module explores the theories and applications of English grammar from the Early Modern English period to the present. It focuses on analysing spoken and written texts using traditional, structural, and modern linguistic theories. Learners will develop the ability to describe, analyse, and construct language at word, phrase, clause, and discourse levels.",
+          question: "Education for Children with Attention Deficit Hyper Disorder",
+          subanswer: "Code: D7-ECD-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module equips student teachers with the knowledge, skills, and competences to effectively support and facilitate learning for children with Attention Deficit Hyperactivity Disorder (ADHD)."
         },
         {
-          question: "Academic Writing Skills",
-          subanswer:
-            "Code: D7-AWS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
-          answer:
-            "This module strengthens students’ confidence and critical thinking in engaging with academic texts. It develops essential referencing skills—summarising, paraphrasing, quoting, and citing—while reinforcing academic integrity. Learners will improve their ability to write clearly and accurately in English and think analytically within their field of study.",
+          question: "Infusing Environmental Education in the Curriculum",
+          subanswer: "Code: D7-IEE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module enables learners to understand how their decisions and actions affect the environment. It builds skills to address complex environmental issues and explores practical ways to promote a healthy, sustainable future."
         },
-      ],
+        {
+          question: "Characteristics of Human Language",
+          subanswer: "Code: D7-CHL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module equips student teachers with the skills and competences to understand and express the characteristics of human language. It analyses topics such as arbitrariness, productivity, creativity, duality of patterning, cultural transmission, and interchangeability."
+        },
+        {
+          question: "Conducting Remedial Teaching in Schools",
+          subanswer: "Code: D7-CRT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module develops theoretical knowledge in selecting suitable teaching approaches, methods, techniques, and strategies for effectively planning and delivering remedial classes in primary schools."
+        }
+      ]
+    },
+    {
+      semester: "Semester 5 (English Specialisation)",
+      courses: [
+        {
+          question: "Theory and Practice of Second Language Teaching",
+          subanswer: "Code: D7-TPS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module introduces key theories of second language acquisition, enabling learners to apply effective classroom teaching strategies. It also examines challenges in second language learning and guides learners in designing interventions to support student progress."
+        }
+      ]
+    },
+    {
+      semester: "Semester 5 (Mathematics Specialisation)",
+      courses: [
+        {
+          question: "Geometry for Primary School Teachers",
+          subanswer: "Code: D7-GPT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module explores the combinatorial properties of geometric objects – point sets, subspace arrangements, convex polytopes, and geometric graphs – introducing fundamental concepts, key structures, and selected results in the field."
+        }
+      ]
+    },
+    {
+      semester: "Semester 5 Elective Group Three (Choose One)",
+      courses: [
+        {
+          question: "Multicultural Counselling",
+          subanswer: "Code: D7-MCC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module introduces student teachers to multicultural counselling, focusing on how culture influences mental health and well-being. Using a therapeutic approach, it covers cultural awareness, cultural sensitivity, gender, race, socio-economic background, cultural competence, and strategies for addressing systemic issues."
+        },
+        {
+          question: "Appropriate Art, Craft and Design Methods and Materials for School",
+          subanswer: "Code: D7-ACD-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module introduces primary school student teachers to appropriate art, craft, and design methods and materials for effective teaching and learning. It covers drawing, painting, collage, simple sculpture, and textile work, fostering creativity in the classroom."
+        },
+        {
+          question: "Motor Learning and Human Performance",
+          subanswer: "Code: D7-MLH-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module equips student teachers with the knowledge and skills to master motor skills essential for physical activity, development, and well-being. Topics include motor skill acquisition, practice methods, feedback, cognitive factors, and individual differences."
+        }
+      ]
     },
     {
       semester: "Semester 6",
       courses: [
         {
-          question: "Infusing Environmental Education in the Curriculum",
+          question: "Organising and Implementing Remedial Programmes in Schools",
           subanswer:
-            "Code: D7-IEE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
+            "Code: D7-OIR-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module helps learners understand how their decisions and actions impact the environment. It builds the knowledge and skills needed to address complex environmental issues and explores practical ways to promote a healthy, sustainable environment for the future.",
+            "This module equips student teachers with the knowledge and skills to organise and implement remedial programmes in schools. It covers planning, approaches, and strategies for the successful delivery of such programmes to support learners’ academic progress."
         },
         {
-          question: "Conducting Remedial Teaching in Schools",
+          question: "Managing Education for Sustainable Development",
           subanswer:
-            "Code: D7-CRT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
+            "Code: D6-MES-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module aims to develop theoretical knowledge in selecting appropriate teaching approaches, methods, techniques, and strategies for effectively planning and delivering science lessons.",
+            "This module fosters appreciation and respect for nature, raising awareness of environmental issues affecting communities and the world. It promotes understanding of the relationship between individuals, society, and the environment, equipping learners with knowledge and skills for sustainable and harmonious human–environment interaction."
         },
         {
-          question: "Instructional Materials",
+          question: "Literacy across the Curriculum",
           subanswer:
-            "Code: D7-IMP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
+            "Code: D7-LAC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module aims to equip learners with the knowledge and skills to design, develop, evaluate, and effectively use instructional materials that enhance teaching and learning experiences.",
-        },
-        {
-          question:
-            "Education for Children with Attention Deficit Hyper Disorder",
-          subanswer:
-            "Code: D7-ECD-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits:20",
-          answer:
-            "The module aims to equip student teachers with the knowledge, skills and competences needed to effectively support and facilitate learning for children with Attention Deficit Hyperactivity Disorder (ADHD).",
-        },
-      ],
+            "This module highlights the importance of integrating literacy across all curriculum areas. Student teachers learn to develop reading, writing, speaking, and listening skills in subjects such as mathematics, science, and social studies, not solely within English language arts."
+        }
+      ]
     },
     {
-      semester: "Semester 6 Elective Group One (Choose One)",
+      semester: "Semester 6 (English Specialisation)",
       courses: [
         {
-          question: "Calculus",
+          question: "The Structure of the Sentence",
           subanswer:
-            "Code: D8-CLS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
+            "Code: D7-TSS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module introduces learners to differential calculus and its applications, assuming no prior knowledge. Topics include functions and graphs, powers and roots, limits, rates of change, and derivatives. Learners will apply differentiation rules, explore exponential and logarithmic functions, and use derivatives for graph sketching and solving optimisation problems.",
+            "This module teaches sentence structure, focusing on declarative, interrogative, imperative, and exclamative forms. Learners identify, construct, and explain each type, understanding their purpose. Mastery of sentence structure is essential for academic success and effective communication, particularly in primary school teaching and learning."
+        },
+        {
+          question: "Teaching Reading in the Primary School",
+          subanswer:
+            "Code: D7-TRP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module equips student teachers with the knowledge and skills for effective teaching of the reading process in primary schools. It covers strategies to make reading enjoyable, relevant, and suited to children’s interests and comprehension within a supportive, well-structured learning environment."
+        }
+      ]
+    },
+    {
+      semester: "Semester 6 (Mathematics Specialisation)",
+      courses: [
+        {
+          question: "Teaching Number System in the Primary Schools",
+          subanswer:
+            "Code: D7-TNS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module equips student teachers with the knowledge, skills, and competences for effective teaching of the number system in primary schools. It emphasises hands-on, engaging learning, guiding learners from the known to the unknown through real-world examples to enhance understanding and application."
         },
         {
           question: "Teaching Algebra in Schools",
           subanswer:
-            "Code: D7-TAS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
+            "Code: D7-TAS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module aims to prepare primary school teachers to plan and deliver algebra lessons suited to the developmental level of primary learners. It focuses on building the knowledge and skills needed to teach algebra effectively and confidently in the primary classroom.",
-        },
-        {
-          question: "The Structure of the Sentence",
-          subanswer:
-            "Code: D7-TSS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
-          answer:
-            "This module teaches sentence structure, focusing on declarative, interrogative, imperative, and exclamative sentences. Learners will identify, construct, and explain each type, understanding their purpose. Mastery of sentence structure is essential for academic success and effective communication throughout university and beyond.",
-        },
-        {
-          question: "Breakthrough to Literacy",
-          subanswer:
-            "Code: D7-BTL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
-          answer:
-            "This module equips future teachers with diverse strategies for teaching literacy across the curriculum. Learners explore thematic and pedagogical approaches, integrate literacy into daily lessons, and design instruction using informative, narrative, and persuasive texts, underpinned by theories of literacy acquisition and relevant contextual frameworks.",
-        },
-      ],
+            "This module prepares primary school teachers to plan and deliver algebra lessons suited to learners’ developmental levels. It builds the knowledge and skills needed to teach algebra effectively and confidently in primary schools."
+        }
+      ]
     },
     {
-      semester: "Semester 7",
+      semester: "Semester 6 Elective Group Four (Choose One)",
       courses: [
         {
-          question: "Mathematical Applications for Teachers",
+          question: "Curriculum Development in Early Childhood Education",
           subanswer:
-            "Code: D7-MAT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits:20",
+            "Code: D7-CDE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module prepares students for life, work, and further study in a world of continuous learning. It strengthens mathematical knowledge, skills, and concepts through practical, analytical, and problem-solving tasks, while encouraging integration with other modules.",
+            "This module prepares student teachers for effective curriculum design, planning, and the development of instructional design models in early childhood education."
         },
         {
-          question: "Geometry for Primary School Teachers",
+          question: "Substance Abuse Counselling",
           subanswer:
-            "Code: D7-GPT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
+            "Code: D7-SAC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module explores the combinatorial properties of geometric objects, including point sets, subspace arrangements, convex polytopes, and geometric graphs. It introduces the fundamental concepts of the field and examines key structures and selected results.",
+            "This module equips student teachers with the knowledge and skills to effectively address cases of alcoholism, addiction, and depression among students."
         },
         {
-          question: "Theory and Practice of Second Language Teaching",
+          question: "Environmental Conservation Strategies",
           subanswer:
-            "Code: D7-TPS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits:20",
+            "Code: D7-ECS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module introduces key theories of second language acquisition, enabling learners to apply effective teaching strategies in the classroom. It also explores challenges in second language learning and guides learners in designing meaningful interventions to support their students' progress.",
+            "This module introduces student teachers to environmental conservation and strategies for protecting the environment. Topics include waste management, energy conservation, tree planting, and promoting sustainable transportation to support ecological balance and long-term sustainability."
+        }
+      ]
+    },
+    {
+      semester: "Semester 7 (English Specialisation)",
+      courses: [
+        {
+          question: "Modern English Grammar",
+          subanswer:
+            "Code: D7-MEG-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module examines English grammar theories and applications from the Early Modern English period to the present. It focuses on analysing spoken and written texts using traditional, structural, and modern linguistic theories, enabling learners to describe, analyse, and construct language at word, phrase, clause, and discourse levels."
+        },
+        {
+          question: "Usage in English",
+          subanswer:
+            "Code: D7-UIE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module teaches student teachers the principles and practice of English language usage, focusing on how words and phrases are used. It emphasises appropriate and effective usage within sentences, a skill essential for teaching at the primary school level."
         },
         {
           question: "Literature in Primary Schools",
           subanswer:
-            "Code: D7-LIP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits:10",
+            "Code: D7-LIP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module introduces students to various forms of prose, both fiction and non-fiction, including essays, autobiographies, short stories, and novels. It also offers a brief overview of other literary genres such as poetry and drama.",
+            "This module introduces student teachers to various forms of prose, both fiction and non-fiction, including essays, autobiographies, short stories, and novels, and provides a brief overview of other literary genres such as poetry and drama."
         },
-      ],
+        {
+          question: "Breakthrough to Literacy",
+          subanswer:
+            "Code: D7-BTL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module equips future teachers with strategies for teaching literacy across the curriculum. Learners explore thematic and pedagogical approaches, integrate literacy into daily lessons, and design instruction using informative, narrative, and persuasive texts, supported by theories of literacy acquisition and relevant contextual frameworks."
+        },
+        {
+          question: "Strategies in Teaching Literacy in Schools",
+          subanswer:
+            "Code: D7-STL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module focuses on strategies for teaching literacy in primary schools, emphasising phonics, fluency, vocabulary, and comprehension. Student teachers gain the knowledge and skills to incorporate engaging activities, making literacy teaching and learning enjoyable and effective in primary classrooms."
+        }
+      ]
+    },
+    {
+      semester: "Semester 7 (Mathematics Specialisation)",
+      courses: [
+        {
+          question: "Mathematical Applications for Teachers",
+          subanswer:
+            "Code: D7-MAT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module prepares students for life, work, and further study in a world of continuous learning. It strengthens mathematical knowledge, skills, and concepts through practical, analytical, and problem-solving tasks, encouraging integration with other modules."
+        },
+        {
+          question: "Teaching School Mathematics",
+          subanswer:
+            "Code: D7-TSM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module prepares student teachers for effective mathematics teaching at the primary school level. It emphasises creating a positive learning environment through concrete materials and real-world applications, enabling teachers to build learners’ strong foundation in number sense, place value, and problem-solving skills."
+        },
+        {
+          question: "The Use of Technology in Teaching Primary Mathematics",
+          subanswer:
+            "Code: D7-UTM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module helps student teachers enhance the teaching and learning of primary school mathematics through technology, making concepts more engaging, visual, and interactive. It emphasises the need for 21st-century teachers to integrate technology for improved student engagement and teaching effectiveness."
+        },
+        {
+          question: "Calculus",
+          subanswer:
+            "Code: D8-CLS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "This module introduces learners to differential calculus and its applications, with no prior knowledge required. Topics include functions and graphs, powers and roots, limits, rates of change, and derivatives. Learners apply differentiation rules, explore exponential and logarithmic functions, and use derivatives for graph sketching and optimisation."
+        }
+      ]
+    },
+    {
+      semester: " SEMESTER 7 ELECTIVE GROUP FIVE (CHOOSE ONE)	",
+      courses: [
+        {
+          question: "Consultations in Schools and Community Settings",
+          subanswer: "Code: D7-CSC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module highlights the importance of school–community relations. It examines how counsellors or psychologists work with teachers and parents to address learner issues. Topics include consultation, consultative services, collaboration, and building partnerships between schools and communities to support student development and well-being."
+        },
+        {
+          question: "Theory of Moral Education",
+          subanswer: "Code: D7-TME-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This module examines the role of moral education in shaping learners’ character at the primary school level. Topics include morality in educational settings, moral formation, moral inquiries, moral education theories, and the overall importance of moral education."
+        },
+        {
+          question: "Scientific Basis of Coaching and Officiating",
+          subanswer: "Code: D7-SBC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer: "This physical education module introduces student teachers to the theory and practice of physical activities and athletic performance. Topics include coaching, kinesiology, physiology, motor learning, sports psychology, cognitive science, psychology of officiating, ethics and integrity, communication, integration, and mental skills training."
+        }
+      ]
     },
     {
       semester: "Semester 8",
@@ -3617,12 +3779,12 @@ export const bedinprimaryeducation = {
         {
           question: "Teaching Practice",
           subanswer:
-            "Code: D7-TPC-23<br/>Prerequisite: 240 credits<br/>Co-requisite: None<br/>Module Fees: $780<br/>Module Credits:60",
+            "Code: D7-TPC-23<br/>Prerequisite: 240 credits<br/>Co-requisite: None<br/>Module Fees: $780<br/>Module Credits: 60",
           answer:
-            "This module provides future teachers with practical classroom experience, bridging the gap between theory and practice. It prepares student-teachers for the realities of teaching by developing their skills, confidence, and adaptability in real educational settings.",
-        },
-      ],
-    },
+            "This module provides student teachers with practical classroom experience, bridging theory and practice. It prepares them for the realities of teaching by building skills, confidence, and adaptability in real educational settings."
+        }
+      ]
+    }
   ],
   requirements: [
     {
