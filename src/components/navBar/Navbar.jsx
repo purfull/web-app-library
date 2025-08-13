@@ -170,7 +170,7 @@ const NavBar = () => {
   };
   const handleWhyClick = () => {
     navigate("/");
-    window.scrollTo(0, window.innerHeight);
+    window.scrollTo(0, window.innerHeight * 1.35);
   };
 
   const handleFeeClick = () => {
@@ -234,11 +234,11 @@ const NavBar = () => {
     <div className="nav-head">
       <div className="nav-bar">
         <img
-          src="../logo/BothoLogo-hd.png"
+          src="../logo/BothoLogo-hd.jpg"
           alt="logo"
           className="nav-logo"
           onClick={handleHomeClick}
-          style={{ cursor: "pointer", maxWidth: "70px" }}
+          style={{ cursor: "pointer", maxWidth: "90px" }}
         />
 
         <div className="">

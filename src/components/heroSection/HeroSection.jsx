@@ -31,6 +31,7 @@ const herobanner = [
     button: "Explore Programmes",
     arrowIcon: "/icon/arrow_forward.png",
     backgroundImg: "/images/herobanner-2.jpg",
+    mobileBackgroundImg: "/images/mobile-herobanner-2.jpg",
     calledtoAction:
       "98% of our graduates will recommend us to others <span class='desktop-br'><br /></span>  (Source: 2025 Graduate Tracer Study)",
 
@@ -68,6 +69,8 @@ const HeroSection = () => {
   
   const navigate = useNavigate();
 
+  const isMobile = window.innerWidth <= 600;
+
   const handleAllCourse = () => {
       navigate('/all-courses');
   window.scrollTo(0, 0);
@@ -77,6 +80,7 @@ const HeroSection = () => {
       <Carousel
         className="carosal-inner"
         autoplay
+        slidesToScroll={false}
         // pauseOnHover= {false}
         // dotPosition="bottom"
         dots={false}
@@ -86,7 +90,7 @@ const HeroSection = () => {
             <div
               key={index}
               className="hero-slide"
-              style={{ backgroundImage: `url(${item.backgroundImg})` }}
+              style={{ backgroundImage: `url(${isMobile ? item.mobileBackgroundImg : item.backgroundImg})` }}
             >
               <div className="hero-silde-content-session ">
                 <h1

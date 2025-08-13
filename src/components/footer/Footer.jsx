@@ -88,7 +88,7 @@ const Footer = () => {
 
                 <div className="first-con">
 
-                    <img className="logo-botho-footer" src="/logo/BothoLogo-hd.png" alt="Logo" />
+                    <img className="logo-botho-footer" src="/logo/BothoLogo-hd.jpg" alt="Logo" />
 
                     <div className="span-first-con">
                         <span className='first-conatiner-texts'>Botho University is a leading African institution committed to excellence.

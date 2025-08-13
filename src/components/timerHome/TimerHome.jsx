@@ -450,7 +450,7 @@ import downloadIcon from "/icon/Frame (1).png";
 
 const imageList = [img1, img2, img3, img4];
 
-const TimerHome = ({ data, programOverview }) => {
+const TimerHome = ({ data, programOverview, feePage }) => {
   const [timeLeft, setTimeLeft] = useState({});
   const [nearestStartDate, setNearestStartDate] = useState(null);
 
@@ -578,7 +578,7 @@ const TimerHome = ({ data, programOverview }) => {
                 style={{ paddingLeft: "12px", paddingRight: "12px" }}
                 onClick={() => download(data?.downloadurl)}
               >
-                <span className="button-text">Download Programme Module</span>
+                <span className="button-text">{feePage ? "Download Fee Structure" : "Download Programme Modules"}</span>
                 <img src={downloadIcon} alt="download" />
               </button>
             </div>
