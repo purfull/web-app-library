@@ -1,388 +1,6 @@
 // import { baseUrl } from "./PageThreeData";
 
-const baseUrl =  `https://di00ymfrmfyeb.cloudfront.net`
-export const bcominaccounting = {
-  heroContent: {
-    question: "BCom in Accounting",
-    image: "/images/courses-images/Bcom in accounting.jpeg",
-    minPeriod: 4,
-    maxPeriod: 6,
-    programmeCredit: "$13",
-    totalProgrammeCredit: 480,
-    noOfModules: "38 (36 Core and 2 Elective)",
-    totalFee: "$6,240",
-    downloadurl: `${baseUrl}/BachelorofCommerceinAccounting.pdf`,
-    cta: true,
-    timer: false,
-    overview: false,
-  },
-  tableContent: [
-    {
-      title: "Semester 1",
-      totalCredit: 60,
-      totalFee: "$780.00",
-      modules: [
-        {
-          type: "Core",
-          code: "C5-IMO-20",
-          name: "Introduction to MS Office",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "D5-AWB-20",
-          name: "Academic Writing for Business",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "B5-BS1-17",
-          name: "Business Mathematics and Statistics",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "B5-LAB-13",
-          name: "Legal Aspects of Business",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "A5-FBF-20",
-          name: "Fundamental Of Business and Finance",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "B5-BM1-20",
-          name: "Business Management 1",
-          credit: 10,
-          fee: "$130.00",
-        },
-      ],
-    },
-    {
-      title: "Semester 2",
-      totalCredit: 60,
-      totalFee: "$780.00",
-      modules: [
-        {
-          type: "Core",
-          code: "B5-PMK-17",
-          name: "Principles of Marketing",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "B6-BS2-17",
-          name: "Business Mathematics and Statistics 2",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "A5-IFA-20",
-          name: "Introduction to Financial Accounting",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "B6-BEA-20",
-          name: "Business Ethics and Assurance",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "B5-BM2-20",
-          name: "Business Management 2",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "A6-CP1-20",
-          name: "Computerized Accounting 1",
-          credit: 10,
-          fee: "$130.00",
-        },
-      ],
-    },
-    {
-      title: "Semester 3",
-      totalCredit: 60,
-      totalFee: "$780.00",
-      modules: [
-        {
-          type: "Core",
-          code: "A6-TA1-20",
-          name: "Taxation 1",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "B5-MIE-17",
-          name: "Microeconomics",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "A6-COA-20",
-          name: "Cost Accounting",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "A6-CP2-20",
-          name: "Computerized Accounting 2",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "A6-CA1-20",
-          name: "Corporate Administration 1",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "A6-FA1-17",
-          name: "Financial Accounting 1",
-          credit: 10,
-          fee: "$130.00",
-        },
-      ],
-    },
-    {
-      title: "Semester 4",
-      totalCredit: 60,
-      totalFee: "$780.00",
-      modules: [
-        {
-          type: "Core",
-          code: "B6-MAE-17",
-          name: "Macroeconomics",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "A6-ASS-20",
-          name: "Audit and Assurance",
-          credit: 20,
-          fee: "$260.00",
-        },
-        {
-          type: "Core",
-          code: "A6-FM1-20",
-          name: "Financial Management 1",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "A6-CSC-20",
-          name: "Corporate Secretaryship",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "A7-FA2-20",
-          name: "Financial Accounting 2",
-          credit: 10,
-          fee: "$130.00",
-        },
-      ],
-    },
-    {
-      title: "Semester 5",
-      totalCredit: 60,
-      totalFee: "$780.00",
-      modules: [
-        {
-          type: "Core",
-          code: "A7-TA2-20",
-          name: "Taxation 2",
-          credit: 20,
-          fee: "$260.00",
-        },
-        {
-          type: "Core",
-          code: "A7-MAC-20",
-          name: "Management Accounting",
-          credit: 20,
-          fee: "$260.00",
-        },
-        {
-          type: "Core",
-          code: "A7-FIR-20",
-          name: "Financial Reporting",
-          credit: 20,
-          fee: "$260.00",
-        },
-      ],
-    },
-    {
-      title: "Semester 6",
-      totalCredit: 60,
-      totalFee: "$780.00",
-      modules: [
-        {
-          type: "Core",
-          code: "A7-FM2-20",
-          name: "Financial Management 2",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "B7-RMB-20",
-          name: "Research Methods in Business",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "A7-COL-20",
-          name: "Company Law",
-          credit: 20,
-          fee: "$260.00",
-        },
-        {
-          type: "Core",
-          code: "A7-BAV-20",
-          name: "Business Analysis and Valuation Using Financial Statements",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "A7-CUA-20",
-          name: "Computerized Auditing",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Elective (Choose One)",
-          code: "A7-TA3-20",
-          name: "Taxation 3",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Elective (Choose One)",
-          code: "A7-CS2-20",
-          name: "Corporate Secretaryship 2",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Elective (Choose One)",
-          code: "A7-AS2-20",
-          name: "Audit and Assurance 2",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Elective (Choose One)",
-          code: "A7-RMI-20",
-          name: "Risk Management and Insurance",
-          credit: 10,
-          fee: "$130.00",
-        },
-      ],
-    },
-    {
-      title: "Semester 7",
-      totalCredit: 60,
-      totalFee: "$780.00",
-      modules: [
-        {
-          type: "Core",
-          code: "A7-PSR-20",
-          name: "Public Sector Financial Reporting",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "B7-RP1-20",
-          name: "Research Project 1: Proposal Writing",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "B7-CGV-20",
-          name: "Corporate Governance",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Core",
-          code: "A7-CA2-20",
-          name: "Corporate Administration 2",
-          credit: 10,
-          fee: "$130.00",
-        },
-        {
-          type: "Elective (Choose One)",
-          code: "B8-ENI-20",
-          name: "Entrepreneurship and Innovation",
-          credit: 20,
-          fee: "$260.00",
-        },
-        {
-          type: "Elective (Choose One)",
-          code: "B8-SOE-21",
-          name: "Social Entrepreneurship",
-          credit: 20,
-          fee: "$260.00",
-        },
-        {
-          type: "Elective (Choose One)",
-          code: "E8-ISD-17",
-          name: "Innovation for Sustainable Development",
-          credit: 20,
-          fee: "$260.00",
-        },
-      ],
-    },
-    {
-      title: "Semester 8",
-      totalCredit: 60,
-      totalFee: "$780.00",
-      modules: [
-        {
-          type: "Core",
-          code: "A7-PRA-20",
-          name: "Professional Practice In Accounting",
-          credit: 40,
-          fee: "$520.00",
-        },
-        {
-          type: "Core",
-          code: "B7-RP2-20",
-          name: "Research Project 2: Dissertation",
-          credit: 20,
-          fee: "$260.00",
-        },
-      ],
-    },
-  ],
-};
+const baseUrl = `https://di00ymfrmfyeb.cloudfront.net`;
 
 export const bbainbusinessmanagement = {
   heroContent: {
@@ -766,6 +384,388 @@ export const bbainbusinessmanagement = {
           type: "Core",
           code: "B7-PPB-20",
           name: "Professional Practice in Business",
+          credit: 40,
+          fee: "$520.00",
+        },
+        {
+          type: "Core",
+          code: "B7-RP2-20",
+          name: "Research Project 2: Dissertation",
+          credit: 20,
+          fee: "$260.00",
+        },
+      ],
+    },
+  ],
+};
+export const bcominaccounting = {
+  heroContent: {
+    question: "BCom in Accounting",
+    image: "/images/courses-images/Bcom in accounting.jpeg",
+    minPeriod: 4,
+    maxPeriod: 6,
+    programmeCredit: "$13",
+    totalProgrammeCredit: 480,
+    noOfModules: "38 (36 Core and 2 Elective)",
+    totalFee: "$6,240",
+    downloadurl: `${baseUrl}/BachelorofCommerceinAccounting.pdf`,
+    cta: true,
+    timer: false,
+    overview: false,
+  },
+  tableContent: [
+    {
+      title: "Semester 1",
+      totalCredit: 60,
+      totalFee: "$780.00",
+      modules: [
+        {
+          type: "Core",
+          code: "C5-IMO-20",
+          name: "Introduction to MS Office",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "D5-AWB-20",
+          name: "Academic Writing for Business",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "B5-BS1-17",
+          name: "Business Mathematics and Statistics",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "B5-LAB-13",
+          name: "Legal Aspects of Business",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "A5-FBF-20",
+          name: "Fundamental Of Business and Finance",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "B5-BM1-20",
+          name: "Business Management 1",
+          credit: 10,
+          fee: "$130.00",
+        },
+      ],
+    },
+    {
+      title: "Semester 2",
+      totalCredit: 60,
+      totalFee: "$780.00",
+      modules: [
+        {
+          type: "Core",
+          code: "B5-PMK-17",
+          name: "Principles of Marketing",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "B6-BS2-17",
+          name: "Business Mathematics and Statistics 2",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "A5-IFA-20",
+          name: "Introduction to Financial Accounting",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "B6-BEA-20",
+          name: "Business Ethics and Assurance",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "B5-BM2-20",
+          name: "Business Management 2",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "A6-CP1-20",
+          name: "Computerized Accounting 1",
+          credit: 10,
+          fee: "$130.00",
+        },
+      ],
+    },
+    {
+      title: "Semester 3",
+      totalCredit: 60,
+      totalFee: "$780.00",
+      modules: [
+        {
+          type: "Core",
+          code: "A6-TA1-20",
+          name: "Taxation 1",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "B5-MIE-17",
+          name: "Microeconomics",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "A6-COA-20",
+          name: "Cost Accounting",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "A6-CP2-20",
+          name: "Computerized Accounting 2",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "A6-CA1-20",
+          name: "Corporate Administration 1",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "A6-FA1-17",
+          name: "Financial Accounting 1",
+          credit: 10,
+          fee: "$130.00",
+        },
+      ],
+    },
+    {
+      title: "Semester 4",
+      totalCredit: 60,
+      totalFee: "$780.00",
+      modules: [
+        {
+          type: "Core",
+          code: "B6-MAE-17",
+          name: "Macroeconomics",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "A6-ASS-20",
+          name: "Audit and Assurance",
+          credit: 20,
+          fee: "$260.00",
+        },
+        {
+          type: "Core",
+          code: "A6-FM1-20",
+          name: "Financial Management 1",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "A6-CSC-20",
+          name: "Corporate Secretaryship",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "A7-FA2-20",
+          name: "Financial Accounting 2",
+          credit: 10,
+          fee: "$130.00",
+        },
+      ],
+    },
+    {
+      title: "Semester 5",
+      totalCredit: 60,
+      totalFee: "$780.00",
+      modules: [
+        {
+          type: "Core",
+          code: "A7-TA2-20",
+          name: "Taxation 2",
+          credit: 20,
+          fee: "$260.00",
+        },
+        {
+          type: "Core",
+          code: "A7-MAC-20",
+          name: "Management Accounting",
+          credit: 20,
+          fee: "$260.00",
+        },
+        {
+          type: "Core",
+          code: "A7-FIR-20",
+          name: "Financial Reporting",
+          credit: 20,
+          fee: "$260.00",
+        },
+      ],
+    },
+    {
+      title: "Semester 6",
+      totalCredit: 60,
+      totalFee: "$780.00",
+      modules: [
+        {
+          type: "Core",
+          code: "A7-FM2-20",
+          name: "Financial Management 2",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "B7-RMB-20",
+          name: "Research Methods in Business",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "A7-COL-20",
+          name: "Company Law",
+          credit: 20,
+          fee: "$260.00",
+        },
+        {
+          type: "Core",
+          code: "A7-BAV-20",
+          name: "Business Analysis and Valuation Using Financial Statements",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "A7-CUA-20",
+          name: "Computerized Auditing",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Elective (Choose One)",
+          code: "A7-TA3-20",
+          name: "Taxation 3",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Elective (Choose One)",
+          code: "A7-CS2-20",
+          name: "Corporate Secretaryship 2",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Elective (Choose One)",
+          code: "A7-AS2-20",
+          name: "Audit and Assurance 2",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Elective (Choose One)",
+          code: "A7-RMI-20",
+          name: "Risk Management and Insurance",
+          credit: 10,
+          fee: "$130.00",
+        },
+      ],
+    },
+    {
+      title: "Semester 7",
+      totalCredit: 60,
+      totalFee: "$780.00",
+      modules: [
+        {
+          type: "Core",
+          code: "A7-PSR-20",
+          name: "Public Sector Financial Reporting",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "B7-RP1-20",
+          name: "Research Project 1: Proposal Writing",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "B7-CGV-20",
+          name: "Corporate Governance",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "A7-CA2-20",
+          name: "Corporate Administration 2",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Elective (Choose One)",
+          code: "B8-ENI-20",
+          name: "Entrepreneurship and Innovation",
+          credit: 20,
+          fee: "$260.00",
+        },
+        {
+          type: "Elective (Choose One)",
+          code: "B8-SOE-21",
+          name: "Social Entrepreneurship",
+          credit: 20,
+          fee: "$260.00",
+        },
+        {
+          type: "Elective (Choose One)",
+          code: "E8-ISD-17",
+          name: "Innovation for Sustainable Development",
+          credit: 20,
+          fee: "$260.00",
+        },
+      ],
+    },
+    {
+      title: "Semester 8",
+      totalCredit: 60,
+      totalFee: "$780.00",
+      modules: [
+        {
+          type: "Core",
+          code: "A7-PRA-20",
+          name: "Professional Practice In Accounting",
           credit: 40,
           fee: "$520.00",
         },
@@ -2694,15 +2694,16 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
 };
 
 export const bedinprimaryeducation = {
-
   heroContent: {
-    question: "Bachelor of Education in Primary Education (English Language and Mathematics)",
+    question:
+      "Bachelor of Education in Primary Education (English Language and Mathematics)",
     image: "/images/courses-images/Bed in Primary.jpeg",
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
     totalProgrammeCredit: 520,
-    noOfModules: "English specialisation 44 (39 core + 5 elective); Mathematics specialisation 42 (37 core + 5 elective)",
+    noOfModules:
+      "English specialisation 44 (39 core + 5 elective); Mathematics specialisation 42 (37 core + 5 elective)",
     totalFee: "$6,760",
     downloadurl: `${baseUrl}/BachelorofEducationinPrimaryEducation(EnglishLanguageandMathematics).pdf`,
     cta: true,
@@ -2710,7 +2711,6 @@ export const bedinprimaryeducation = {
     overview: false,
   },
   tableContent: [
-
     {
       title: "Semester 1",
       totalCredit: 70,
@@ -2721,37 +2721,37 @@ export const bedinprimaryeducation = {
           code: "D5-CAS-23",
           name: "Communication and Academic Literacy Skills",
           credit: 20,
-          fee: "$260.00"
+          fee: "$260.00",
         },
         {
           type: "Core",
           code: "D5-CSF-23",
           name: "Computer Skills Fundamentals",
           credit: 20,
-          fee: "$260.00"
+          fee: "$260.00",
         },
         {
           type: "Core",
           code: "D5-IEP-23",
           name: "Introduction to Educational Psychology",
           credit: 10,
-          fee: "$130.00"
+          fee: "$130.00",
         },
         {
           type: "Core",
           code: "D6-HPS-23",
           name: "Historical, Philosophical and Sociological Foundations of Education",
           credit: 10,
-          fee: "$130.00"
+          fee: "$130.00",
         },
         {
           type: "Core",
           code: "D6-INS-23",
           name: "Introduction to Numeracy and Science for Teachers",
           credit: 10,
-          fee: "$130.00"
-        }
-      ]
+          fee: "$130.00",
+        },
+      ],
     },
 
     {
@@ -2764,51 +2764,51 @@ export const bedinprimaryeducation = {
           code: "D6-WEG-23",
           name: "Writing in English",
           credit: 10,
-          fee: "$130.00"
+          fee: "$130.00",
         },
         {
           type: "Core",
           code: "D6-ICP-23",
           name: "Introduction to Chemistry and Physics",
           credit: 10,
-          fee: "$130.00"
+          fee: "$130.00",
         },
         {
           type: "Core",
           code: "D6-IPE-23",
           name: "Indigenous People and their Environment",
           credit: 10,
-          fee: "$130.00"
+          fee: "$130.00",
         },
         {
           type: "Core",
           code: "D6-IBE-23",
           name: "Introductory Biology and Earth Science for Primary Teachers",
           credit: 10,
-          fee: "$130.00"
+          fee: "$130.00",
         },
         {
           type: "English Specialisation",
           code: "D6-TPE-23",
           name: "The Pronunciation of English",
           credit: 10,
-          fee: "$130.00"
+          fee: "$130.00",
         },
         {
           type: "English Specialisation",
           code: "D6-ELG-23",
           name: "English Linguistics",
           credit: 10,
-          fee: "$130.00"
+          fee: "$130.00",
         },
         {
           type: "Mathematics Specialisation",
           code: "D6-ITM-23",
           name: "Introductory Mathematics",
           credit: 20,
-          fee: "$260.00"
-        }
-      ]
+          fee: "$260.00",
+        },
+      ],
     },
     {
       title: "Semester 3",
@@ -2820,65 +2820,65 @@ export const bedinprimaryeducation = {
           code: "D6-IER-23",
           name: "Introduction to Educational Research",
           credit: 10,
-          fee: "$130.00"
+          fee: "$130.00",
         },
         {
           type: "Core",
           code: "D7-FOM-23",
           name: "Foundations of Mathematics",
           credit: 20,
-          fee: "$260.00"
+          fee: "$260.00",
         },
         {
           type: "Core",
           code: "D7-PLT-23",
           name: "Project-Based Learning and Teaching",
           credit: 10,
-          fee: "$130.00"
+          fee: "$130.00",
         },
         {
           type: "Core",
           code: "D7-STN-23",
           name: "Strategies for Teaching Numeracy and Science in Schools",
           credit: 10,
-          fee: "$130.00"
+          fee: "$130.00",
         },
         {
           type: "English Specialisation",
           code: "D6-IRP-23",
           name: "Introduction to Reading Process",
           credit: 10,
-          fee: "$130.00"
+          fee: "$130.00",
         },
         {
           type: "Mathematics Specialisation",
           code: "D6-ISN-23",
           name: "Introductory Set and Number Theory",
           credit: 10,
-          fee: "$130.00"
+          fee: "$130.00",
         },
         {
           type: "Elective (Choose One)",
           code: "D6-COL-23",
           name: "Counselling over a Life Span",
           credit: 10,
-          fee: "$130.00"
+          fee: "$130.00",
         },
         {
           type: "Elective (Choose One)",
           code: "D6-FEC-23",
           name: "Foundations of Early Childhood Education",
           credit: 10,
-          fee: "$130.00"
+          fee: "$130.00",
         },
         {
           type: "Elective (Choose One)",
           code: "D6-FEE-23",
           name: "Foundations of Environmental Education",
           credit: 10,
-          fee: "$130.00"
-        }
-      ]
+          fee: "$130.00",
+        },
+      ],
     },
 
     {
@@ -2886,69 +2886,231 @@ export const bedinprimaryeducation = {
       totalCredit: 70,
       totalFee: "$910.00",
       modules: [
-        { type: "Core", code: "D7-PRE-23", name: "Practitioner Research", credit: 10, fee: "$130.00" },
-        { type: "Core", code: "D7-HGD-23", name: "Human Growth and Development", credit: 10, fee: "$130.00" },
-        { type: "Core", code: "D7-APS-23", name: "Assessment in Primary Schools", credit: 10, fee: "$130.00" },
-        { type: "Core", code: "D7-ICT-23", name: "Information and Communication Technology Application in Schools", credit: 10, fee: "$130.00" },
-        { type: "Core", code: "D6-STL-23", name: "Strategies for Teaching Literacy in Schools", credit: 10, fee: "$130.00" },
-        { type: "English Specialisation", code: "D7-PSA-23", name: "Poetry of Southern Africa", credit: 10, fee: "$130.00" },
-        { type: "Mathematics Specialisation", code: "D7-TMM-23", name: "Teaching Methods for Mathematics in Primary Schools", credit: 10, fee: "$130.00" },
-        { type: "Elective (Choose One)", code: "D6-LCP-23", name: "Listening, Composing and Performing", credit: 10, fee: "$130.00" },
-        { type: "Elective (Choose One)", code: "D6-AOP-23", name: "Organisation and Administration of Physical Education and Sports", credit: 10, fee: "$130.00" },
-        { type: "Elective (Choose One)", code: "D6-PAC-23", name: "Practical Art, Craft and Design Methods and Materials for Schools", credit: 10, fee: "$130.00" }
-      ]
+        {
+          type: "Core",
+          code: "D7-PRE-23",
+          name: "Practitioner Research",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "D7-HGD-23",
+          name: "Human Growth and Development",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "D7-APS-23",
+          name: "Assessment in Primary Schools",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "D7-ICT-23",
+          name: "Information and Communication Technology Application in Schools",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "D6-STL-23",
+          name: "Strategies for Teaching Literacy in Schools",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "English Specialisation",
+          code: "D7-PSA-23",
+          name: "Poetry of Southern Africa",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Mathematics Specialisation",
+          code: "D7-TMM-23",
+          name: "Teaching Methods for Mathematics in Primary Schools",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Elective (Choose One)",
+          code: "D6-LCP-23",
+          name: "Listening, Composing and Performing",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Elective (Choose One)",
+          code: "D6-AOP-23",
+          name: "Organisation and Administration of Physical Education and Sports",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Elective (Choose One)",
+          code: "D6-PAC-23",
+          name: "Practical Art, Craft and Design Methods and Materials for Schools",
+          credit: 10,
+          fee: "$130.00",
+        },
+      ],
     },
     {
       title: "Semester 5",
       totalCredit: 70,
       totalFee: "$910.00",
       modules: [
-        { type: "Core", code: "D7-IMP-23", name: "Instructional Materials", credit: 10, fee: "$130.00" },
-        { type: "Core", code: "D7-ECD-23", name: "Education for Children with Attention Deficit Hyper Disorder", credit: 10, fee: "$130.00" },
-        { type: "Core", code: "D7-IEE-23", name: "Infusing Environmental Education in the Curriculum", credit: 10, fee: "$130.00" },
-        { type: "Core", code: "D7-CHL-23", name: "Characteristics of Human Language", credit: 10, fee: "$130.00" },
-        { type: "Core", code: "D7-CRT-23", name: "Conducting Remedial Teaching in Schools", credit: 10, fee: "$130.00" },
-        { type: "English Specialisation", code: "D7-TPS-23", name: "Theory and Practice of Second Language Teaching", credit: 10, fee: "$130.00" },
-        { type: "Mathematics Specialisation", code: "D7-GPT-23", name: "Geometry for Primary School Teachers", credit: 10, fee: "$130.00" },
         {
-          type: "Elective (Choose One)",
-          code: "D7-MCC-23", name: "Multicultural Counselling", credit: 10, fee: "$130.00"
+          type: "Core",
+          code: "D7-IMP-23",
+          name: "Instructional Materials",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "D7-ECD-23",
+          name: "Education for Children with Attention Deficit Hyper Disorder",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "D7-IEE-23",
+          name: "Infusing Environmental Education in the Curriculum",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "D7-CHL-23",
+          name: "Characteristics of Human Language",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "D7-CRT-23",
+          name: "Conducting Remedial Teaching in Schools",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "English Specialisation",
+          code: "D7-TPS-23",
+          name: "Theory and Practice of Second Language Teaching",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Mathematics Specialisation",
+          code: "D7-GPT-23",
+          name: "Geometry for Primary School Teachers",
+          credit: 10,
+          fee: "$130.00",
         },
         {
           type: "Elective (Choose One)",
-          code: "D7-ACD-23", name: "Appropriate Art, Craft and Design Methods and Materials for School", credit: 10, fee: "$130.00"
+          code: "D7-MCC-23",
+          name: "Multicultural Counselling",
+          credit: 10,
+          fee: "$130.00",
         },
         {
           type: "Elective (Choose One)",
-          code: "D7-MLH-23", name: "Motor Learning and Human Performance", credit: 10, fee: "$130.00"
-        }
-      ]
+          code: "D7-ACD-23",
+          name: "Appropriate Art, Craft and Design Methods and Materials for School",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Elective (Choose One)",
+          code: "D7-MLH-23",
+          name: "Motor Learning and Human Performance",
+          credit: 10,
+          fee: "$130.00",
+        },
+      ],
     },
     {
       title: "Semester 6",
       totalCredit: 60,
       totalFee: "$780.00",
       modules: [
-        { type: "Core", code: "D7-OIR-23", name: "Organising and Implementing Remedial Programmes in Schools", credit: 10, fee: "$130.00" },
-        { type: "Core", code: "D6-MES-23", name: "Managing Education for Sustainable Development", credit: 10, fee: "$130.00" },
-        { type: "Core", code: "D7-LAC-23", name: "Literacy across the Curriculum", credit: 10, fee: "$130.00" },
-        { type: "English Specialisation", code: "D7-TSS-23", name: "The Structure of the Sentence", credit: 10, fee: "$130.00" },
-        { type: "English Specialisation", code: "D7-TRP-23", name: "Teaching Reading in the Primary School", credit: 10, fee: "$130.00" },
-        { type: "Mathematics Specialisation", code: "D7-TNS-23", name: "Teaching Number System in the Primary Schools", credit: 10, fee: "$130.00" },
-        { type: "Mathematics Specialisation", code: "D7-TAS-23", name: "Teaching Algebra in Schools", credit: 10, fee: "$130.00" },
         {
-          type: "Elective (Choose One)",
-          code: "D7-CDE-23", name: "Curriculum Development in Early Childhood Education", credit: 10, fee: "$130.00"
+          type: "Core",
+          code: "D7-OIR-23",
+          name: "Organising and Implementing Remedial Programmes in Schools",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "D6-MES-23",
+          name: "Managing Education for Sustainable Development",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Core",
+          code: "D7-LAC-23",
+          name: "Literacy across the Curriculum",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "English Specialisation",
+          code: "D7-TSS-23",
+          name: "The Structure of the Sentence",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "English Specialisation",
+          code: "D7-TRP-23",
+          name: "Teaching Reading in the Primary School",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Mathematics Specialisation",
+          code: "D7-TNS-23",
+          name: "Teaching Number System in the Primary Schools",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Mathematics Specialisation",
+          code: "D7-TAS-23",
+          name: "Teaching Algebra in Schools",
+          credit: 10,
+          fee: "$130.00",
         },
         {
           type: "Elective (Choose One)",
-          code: "D7-SAC-23", name: "Substance Abuse Counselling", credit: 10, fee: "$130.00"
+          code: "D7-CDE-23",
+          name: "Curriculum Development in Early Childhood Education",
+          credit: 10,
+          fee: "$130.00",
         },
         {
           type: "Elective (Choose One)",
-          code: "D7-ECS-23", name: "Environmental Conservation Strategies", credit: 10, fee: "$130.00"
-        }
-      ]
+          code: "D7-SAC-23",
+          name: "Substance Abuse Counselling",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Elective (Choose One)",
+          code: "D7-ECS-23",
+          name: "Environmental Conservation Strategies",
+          credit: 10,
+          fee: "$130.00",
+        },
+      ],
     },
     {
       title: "Semester 7",
@@ -2957,32 +3119,104 @@ export const bedinprimaryeducation = {
       modules: [
         {
           type: "English Specialisation",
-          code: "D7-MEG-23", name: "Modern English Grammar", credit: 10, fee: "$130.00"
+          code: "D7-MEG-23",
+          name: "Modern English Grammar",
+          credit: 10,
+          fee: "$130.00",
         },
-        { type: "English Specialisation", code: "D7-UIE-23", name: "Usage in English", credit: 10, fee: "$130.00" },
-        { type: "English Specialisation", code: "D7-LIP-23", name: "Literature in Primary Schools", credit: 10, fee: "$130.00" },
-        { type: "English Specialisation", code: "D7-BTL-23", name: "Breakthrough to Literacy", credit: 10, fee: "$130.00" },
-        { type: "English Specialisation", code: "D7-STL-23", name: "Strategies in Teaching Literacy in Schools", credit: 10, fee: "$130.00" },
-        { type: "Mathematics Specialisation", code: "D7-MAT-23", name: "Mathematical Applications for Teachers", credit: 10, fee: "$130.00" },
-        { type: "Mathematics Specialisation", code: "D7-TSM-23", name: "Teaching School Mathematics", credit: 10, fee: "$130.00" },
-        { type: "Mathematics Specialisation", code: "D7-UTM-23", name: "The Use of Technology in Teaching Primary Mathematics", credit: 10, fee: "$130.00" },
-        { type: "Mathematics Specialisation", code: "D8-CLS-23", name: "Calculus", credit: 20, fee: "$260.00" },
-        {          type: "Elective (Choose One)",
- code: "D7-CSC-23", name: "Consultations in Schools and Community Settings", credit: 10, fee: "$130.00" },
-        {          type: "Elective (Choose One)",
- code: "D7-TME-23", name: "Theory of Moral Education", credit: 10, fee: "$130.00" },
-        {          type: "Elective (Choose One)",
- code: "D7-SBC-23", name: "Scientific Basis of Coaching and Officiating", credit: 10, fee: "$130.00" }
-      ]
+        {
+          type: "English Specialisation",
+          code: "D7-UIE-23",
+          name: "Usage in English",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "English Specialisation",
+          code: "D7-LIP-23",
+          name: "Literature in Primary Schools",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "English Specialisation",
+          code: "D7-BTL-23",
+          name: "Breakthrough to Literacy",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "English Specialisation",
+          code: "D7-STL-23",
+          name: "Strategies in Teaching Literacy in Schools",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Mathematics Specialisation",
+          code: "D7-MAT-23",
+          name: "Mathematical Applications for Teachers",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Mathematics Specialisation",
+          code: "D7-TSM-23",
+          name: "Teaching School Mathematics",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Mathematics Specialisation",
+          code: "D7-UTM-23",
+          name: "The Use of Technology in Teaching Primary Mathematics",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Mathematics Specialisation",
+          code: "D8-CLS-23",
+          name: "Calculus",
+          credit: 20,
+          fee: "$260.00",
+        },
+        {
+          type: "Elective (Choose One)",
+          code: "D7-CSC-23",
+          name: "Consultations in Schools and Community Settings",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Elective (Choose One)",
+          code: "D7-TME-23",
+          name: "Theory of Moral Education",
+          credit: 10,
+          fee: "$130.00",
+        },
+        {
+          type: "Elective (Choose One)",
+          code: "D7-SBC-23",
+          name: "Scientific Basis of Coaching and Officiating",
+          credit: 10,
+          fee: "$130.00",
+        },
+      ],
     },
     {
       title: "Semester 8",
       totalCredit: 60,
       totalFee: "$780.00",
       modules: [
-        { type: "Core", code: "D7-TPC-23", name: "Teaching Practice", credit: 60, fee: "$780.00" }
-      ]
-    }
+        {
+          type: "Core",
+          code: "D7-TPC-23",
+          name: "Teaching Practice",
+          credit: 60,
+          fee: "$780.00",
+        },
+      ],
+    },
   ],
 };
 
