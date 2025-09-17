@@ -11,7 +11,7 @@ import { FaWhatsapp } from "react-icons/fa";
 // import { FaXTwitter } from "react-icons/fa6";
 
 // import { SiTiktok } from "react-icons/si";
-
+import FloaterIcon from "../../../public/icon/floater-icon.png";
 const Floater = () => {
   const [open, setOpen] = useState(false);
 
@@ -62,7 +62,7 @@ const Floater = () => {
       </div>
 
       <button className="toggle-btn" onClick={toggleIcons}>
-        {/* <img src="icon/social-media-main-icon.png" alt="" /> */}@
+        <img src={FloaterIcon} alt="floater-icon" />
       </button>
     </div>
   );
