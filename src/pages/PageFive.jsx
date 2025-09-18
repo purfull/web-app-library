@@ -43,7 +43,6 @@ const PageFive = () => {
     bbainbusinessmanagement,
     bcominaccounting,
     bcominhospitalitymanagement,
-
     bscindatascience,
     mcominhumanresourcemanagement,
     masterofbusinessadministration,

@@ -157,8 +157,8 @@ const Courses = ({
         >
           {secondaryParagraph || (
             <>
-              Advance your career with flexible, accredited online degrees from
-              Botho University.
+              Advance your career with flexible, accredited online degree
+              programmes from Botho University.
             </>
           )}
         </div>
