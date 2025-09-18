@@ -180,7 +180,6 @@
 
 // export default TimerHome;
 
-
 //suthan code start
 // import React, { useState, useEffect } from "react";
 // import "./TimerHome.css";
@@ -226,7 +225,6 @@
 //       const minutes = Math.floor((diff / (1000 * 60)) % 60);
 //       const seconds = Math.floor((diff / 1000) % 60);
 
-
 //       setTimeLeft({ days, hours, minutes, seconds });
 //       setNearestStartDate(new Date(nearestDate));
 
@@ -253,7 +251,6 @@
 
 //     window.open(fullUrl, "_blank", "noopener,noreferrer");
 //   };
-
 
 //   return (
 //     <>
@@ -455,7 +452,8 @@ const TimerHome = ({ data, programOverview, feePage }) => {
   const [nearestStartDate, setNearestStartDate] = useState(null);
 
   // const launchDate = new Date(data?.launchDate).getTime();
-  const launchDate = ["10-07{", "13-11", "13-01", "10-04"];
+  // const launchDate = ["10-07{", "16-10", "13-01", "10-04"];
+  const launchDate = ["13-01", "10-04", "10-07", "16-10"]; // DD-MM
 
   useEffect(() => {
     const updateTime = () => {
@@ -464,14 +462,14 @@ const TimerHome = ({ data, programOverview, feePage }) => {
       // Convert "DD-MM" strings into valid Date objects for current year
 
       const launchDatesTimestamps = launchDate
-        .map(dateStr => {
+        .map((dateStr) => {
           const [day, month] = dateStr.split("-");
           const thisYear = new Date().getFullYear();
           const fullDate = new Date(`${thisYear}-${month}-${day}T00:00:00`);
           return fullDate.getTime();
         })
-        .filter(timestamp => timestamp > now) // future only
-        .sort((a, b) => a - b);               // nearest first
+        .filter((timestamp) => timestamp > now) // future only
+        .sort((a, b) => a - b); // nearest first
 
       const nearestDate = launchDatesTimestamps[0];
       if (!nearestDate) return;
@@ -485,7 +483,6 @@ const TimerHome = ({ data, programOverview, feePage }) => {
 
       setTimeLeft({ days, hours, minutes, seconds });
       setNearestStartDate(new Date(nearestDate));
-
     };
 
     updateTime(); // Run once immediately
@@ -578,7 +575,11 @@ const TimerHome = ({ data, programOverview, feePage }) => {
                 style={{ paddingLeft: "12px", paddingRight: "12px" }}
                 onClick={() => download(data?.downloadurl)}
               >
+<<<<<<< HEAD
                 <span className="button-text">{feePage ? "Download Fee Structure" : "Download Programme Modules"}</span>
+=======
+                <span className="button-text">Download Programme Details</span>
+>>>>>>> 1a06d91bc4cad13579253e5154895e7b69f5e506
                 <img src={downloadIcon} alt="download" />
               </button>
             </div>
@@ -624,10 +625,10 @@ const TimerHome = ({ data, programOverview, feePage }) => {
                     <i className="fa fa-info-circle" /> Start By: {""}
                     {nearestStartDate
                       ? nearestStartDate.toLocaleDateString("en-GB", {
-                        day: "2-digit",
-                        month: "long",
-                        year: "numeric",
-                      })
+                          day: "2-digit",
+                          month: "long",
+                          year: "numeric",
+                        })
                       : ""}
                   </div>
                 </div>
@@ -673,12 +674,12 @@ const TimerHome = ({ data, programOverview, feePage }) => {
                 <div className="start-date">
                   <i className="fa fa-info-circle" /> Start By: {""}
                   {nearestStartDate
-                      ? nearestStartDate.toLocaleDateString("en-GB", {
+                    ? nearestStartDate.toLocaleDateString("en-GB", {
                         day: "2-digit",
                         month: "long",
                         year: "numeric",
                       })
-                      : ""}
+                    : ""}
                 </div>
               </div>
             </div>
@@ -703,4 +704,4 @@ const TimerHome = ({ data, programOverview, feePage }) => {
 
 export default TimerHome;
 
-//suthan code end 
+//suthan code end
