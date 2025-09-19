@@ -1,5 +1,5 @@
 export const baseUrl =
-  "https://di00ymfrmfyeb.cloudfront.net/ProgrammeInformation-";
+  "https://di00ymfrmfyeb.cloudfront.net/BothoUniversityOnline-";
 
 export const bscindatascience = {
   heroContent: {
@@ -941,7 +941,7 @@ export const bcominhospitalitymanagement = {
   heroContent: {
     question: "BCom in Hospitality Management",
     image: "/images/courses-images/Bcom in Hospitality.jpeg",
-    downloadurl: `${baseUrl}BCominHospitalityMgmt.pdf`,
+    downloadurl: `${baseUrl}BCominHospitalityManagement.pdf`,
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -1344,7 +1344,7 @@ export const mcominhumanresourcemanagement = {
   heroContent: {
     question: "MCom in Human Resource Management",
     image: "/images/courses-images/MCom in Human resource.jpeg",
-    downloadurl: `${baseUrl}MCom-HumanResourceMgmt.pdf`,
+    downloadurl: `${baseUrl}MCom-HumanResourceManagement.pdf`,
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -2819,7 +2819,7 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
   heroContent: {
     question: "BSc in Safety, Health and Environmental Management",
     image: "/images/courses-images/BSc in Safety..png",
-    downloadurl: `${baseUrl}BScInSafetyHealthandEnviroMgmt.pdf`,
+    downloadurl: `${baseUrl}BScInSafetyHealthandEnviroManagement.pdf`,
     minPeriod: 4,
     maxPeriod: 6,
     programmeCredit: "$13",
@@ -4065,7 +4065,7 @@ export const medinleadershipandmanagement = {
   heroContent: {
     question: "MEd in Leadership and Management",
     image: "/images/courses-images/Med in educational leadership and mgmt.jpeg",
-    downloadurl: `${baseUrl}MasterOfEduLeadershipMgmt.pdf`,
+    downloadurl: `${baseUrl}MasterOfEduLeadershipManagement.pdf`,
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",
@@ -5160,7 +5160,7 @@ export const mscininformationsystemsmanagement = {
   heroContent: {
     question: "MSc in Information Systems Management",
     image: "/images/courses-images/Msc in Information Systems management.jpeg",
-    downloadurl: `${baseUrl}MScInInformationSysMgmt.pdf`,
+    downloadurl: `${baseUrl}MScInInformationSysManagement.pdf`,
     minPeriod: 2,
     maxPeriod: 4,
     programmeCredit: "$19.50",

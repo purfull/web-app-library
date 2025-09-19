@@ -417,6 +417,7 @@ It's very important to us at Botho University that students receive timely assis
       <RednavBar />
       <NavBar />
       {/* <FeeHome /> */}
+
       <StaticHome
         backgroundColor="#F3E8EA"
         textColor="#000"
