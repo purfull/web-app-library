@@ -536,13 +536,13 @@ const TimerHome = ({ data, programOverview }) => {
           <div className="col-grid">
             <div className="grid-1">
               <div>
-                <h3>{data?.minPeriod} years</h3>
-                <p>Minimum Period</p>
+                <h3>{data?.typicalfulltimestudyperiod} years</h3>
+                <p>Typical Full-Time Study Period</p>
               </div>
-              <div>
+              {/* <div>
                 <h3>{data?.maxPeriod} years</h3>
                 <p>Maximum Period</p>
-              </div>
+              </div> */}
               <div>
                 <h3>{data?.programmeCredit} </h3>
                 <p>Fees per Programme Credit</p>
