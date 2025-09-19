@@ -89,7 +89,7 @@ const PageTwo = () => {
     {
       cover: "/images/courses-images/Bed in Primary.jpeg",
       courseName: "Undergraduate Programme",
-      title: "BEd in Primary Education (English Language and Mathematics)",
+      title: "BEd in Primary Education",
       description:
         "Ready to shape the future of education? Botho University's Bachelor of Education (Primary Education) programme is designed for aspiring and current educators, equipping you with essential skills and knowledge to excel.",
     },
@@ -135,13 +135,13 @@ const PageTwo = () => {
       description:
         "Fascinated by creating safer workplaces? Our Diploma in Occupational Health and Safety is for you! This comprehensive programme blends occupational health, safety management, risk assessment, and environmental sustainability. You'll gain practical skills to identify, evaluate, and control workplace hazards, ensuring compliance with regulations, and fostering a strong safety culture.",
     },
-    {
-      cover: "/images/courses-images/Bcom in Hospitality.jpeg",
-      courseName: "Undergraduate Programme",
-      title: "BCom in Hospitality Management",
-      description:
-        "Aspiring to a leadership role in the vibrant hospitality sector? Our Bachelor of Commerce in Hospitality Management provides a strong foundation in business principles alongside specialised hospitality skills. You'll cover core areas like accounting and marketing, combined with modules in hotel operations, food and beverage management, and tourism development.",
-    },
+    // {
+    //   cover: "/images/courses-images/Bcom in Hospitality.jpeg",
+    //   courseName: "Undergraduate Programme",
+    //   title: "BCom in Hospitality Management",
+    //   description:
+    //     "Aspiring to a leadership role in the vibrant hospitality sector? Our Bachelor of Commerce in Hospitality Management provides a strong foundation in business principles alongside specialised hospitality skills. You'll cover core areas like accounting and marketing, combined with modules in hotel operations, food and beverage management, and tourism development.",
+    // },
   ];
 
   const faqData = [

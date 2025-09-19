@@ -34,17 +34,17 @@ const NavBar = () => {
         "Business Management 1,Fundamental Of Business and Finance,Legal Aspects of Business,Business Mathematics and Statistics,Academic Writing for Business,Introduction to MS Office,Computerized Accounting 1,Business Management 2,Business Ethics and Assurance,Introduction to Financial Accounting,Business Mathametics and Statistics 2,Principles of Marketing,Financial Accounting 1,Corporate Administration 1,Computerized Accounting 2,Cost Accounting,Micreconomics,Taxation 1",
     },
 
-    {
-      cover: "/images/courses-images/Bcom in Hospitality.png",
-      courseName: "Undergraduate Programme",
-      title: "BCom in Hospitality Management",
-      description:
-        "Aspiring to a leadership role in the vibrant hospitality sector? Our Bachelor of Commerce in Hospitality Management provides a strong foundation in business principles alongside specialised hospitality skills. You'll cover core areas like accounting and marketing, combined with modules in hotel operations, food and beverage management, and tourism development.",
-    },
+    // {
+    //   cover: "/images/courses-images/Bcom in Hospitality.png",
+    //   courseName: "Undergraduate Programme",
+    //   title: "BCom in Hospitality Management",
+    //   description:
+    //     "Aspiring to a leadership role in the vibrant hospitality sector? Our Bachelor of Commerce in Hospitality Management provides a strong foundation in business principles alongside specialised hospitality skills. You'll cover core areas like accounting and marketing, combined with modules in hotel operations, food and beverage management, and tourism development.",
+    // },
     {
       cover: "/images/courses-images/Bed in Primary.png",
       courseName: "Undergraduate Programme",
-      title: "BEd in Primary Education (English Language and Mathematics)",
+      title: "BEd in Primary Education",
       description:
         "Ready to shape the future of education? Botho University's Bachelor of Education (Primary Education) programme is designed for aspiring and current educators, equipping you with essential skills and knowledge to excel.",
     },

@@ -281,7 +281,7 @@ It's very important to us at Botho University that students receive timely assis
       },
     },
     {
-      title: "BEd in Primary Education (English Language and Mathematics)",
+      title: "BEd in Primary Education",
       image: "/images/courses-images/Square/Bed in Primary.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
@@ -395,22 +395,22 @@ It's very important to us at Botho University that students receive timely assis
         module: "13",
       },
     },
-    {
-      title: "BCom in Hospitality Management",
-      image: "/images/courses-images/Square/Bcom in Hospitality.png",
-      description: {
-        one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
-        two: "2 .Introduction to Financial Markets 1",
-        three: "3. Introduction to Financial Markets 2",
-        four: "4. Client Service and Financial Advice 1",
-        five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
-      },
-      amountdetails: {
-        fees: "6,695",
-        credits: "515",
-        module: "13",
-      },
-    },
+    // {
+    //   title: "BCom in Hospitality Management",
+    //   image: "/images/courses-images/Square/Bcom in Hospitality.png",
+    //   description: {
+    //     one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
+    //     two: "2 .Introduction to Financial Markets 1",
+    //     three: "3. Introduction to Financial Markets 2",
+    //     four: "4. Client Service and Financial Advice 1",
+    //     five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
+    //   },
+    //   amountdetails: {
+    //     fees: "6,695",
+    //     credits: "515",
+    //     module: "13",
+    //   },
+    // },
   ];
   return (
     <div className="">
