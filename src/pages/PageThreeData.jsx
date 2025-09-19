@@ -937,408 +937,408 @@ export const bbainbusinessmanagement = {
   programOverview: `Aiming for a leadership role in the global business environment? Our Bachelor of Business Administration in Business Management provides the strategic mindset and skills you need. This programme covers key areas like management, finance, marketing, entrepreneurship, operations, and digital transformation, with a strong focus on innovation, sustainability, and ethical leadership.<br></br>Through practical case studies, collaborative projects, and industry-driven learning, you'll gain real-world experience, developing crucial critical thinking and problem-solving abilities. Whether you're planning an entrepreneurial venture or a corporate career, this degree will equip you to drive business innovation and achieve success.`,
 };
 
-export const bcominhospitalitymanagement = {
-  heroContent: {
-    question: "BCom in Hospitality Management",
-    image: "/images/courses-images/Bcom in Hospitality.jpeg",
-    downloadurl: `${baseUrl}BCominHospitalityManagement.pdf`,
-    minPeriod: 4,
-    maxPeriod: 6,
-    programmeCredit: "$13",
-    totalProgrammeCredit: 515,
-    noOfModules: "36 (35 Core + 1 Elective)",
-    totalFee: "$6,695",
-    cta: true,
-    timer: true,
-    overview: true,
-  },
-  courseStruture: [
-    {
-      semester: "Semester 1",
-      courses: [
-        {
-          question: "Principles of Hospitality and Tourism",
-          subanswer:
-            "Code: H6-PHT-22<br/>Prerequisite: None<br/>Corequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer:
-            "Principles of Hospitality and Tourism is a module that introduces students to the hospitality and tourism industry, covering lodging, travel, recreation, attractions, and food services. It develops communication, time management, and customer service skills while exploring industry history and key success traits, preparing learners to meet professional standards in a dynamic global sector.",
-        },
-        {
-          question: "Computers and its Essentials",
-          subanswer:
-            "Code: C5-CE1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer:
-            "This module provides a foundational understanding of computers and their essentials, covering basic functions, hardware and software components, and how they operate. It explores the history and evolution of computers and data processing. Students will learn about Microsoft Office, with an emphasis on Microsoft Word and PowerPoint. Through hands-on activities and assessments, learners will develop a comprehensive understanding of computer essentials.",
-        },
-        {
-          question: "Academic Writing for Business",
-          subanswer:
-            "Code: D5-AWB-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer:
-            "The Academic Writing for Business module develops students' ability to communicate effectively in a professional and academic business context. It enhances critical thinking, research, and writing skills, focusing on clarity, coherence, and proper structure. Students learn to present arguments, analyze data, and produce well-structured business reports and documents.",
-        },
-        {
-          question: "Professional Cookery 1",
-          subanswer:
-            "Code: H5-PC1-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer:
-            "Professional Cookery module equips students with essential culinary skills, food preparation techniques, and kitchen management principles. It emphasizes hygiene, nutrition, and presentation while fostering creativity and efficiency in a professional kitchen. Students gain hands-on experience to meet industry standards and excel in various culinary and hospitality settings.",
-        },
-        {
-          question: "Introduction to Hotel Operations",
-          subanswer:
-            "Code: H5-IHO-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer:
-            "Introduction to Hotel Operations module provides students with a foundational understanding of hotel management, including front office, housekeeping, food and beverage, and guest services. It emphasizes industry standards, operational efficiency, and customer satisfaction, preparing students for roles in hospitality by developing practical skills and knowledge of hotel functions.",
-        },
-        {
-          question: "Introduction to Financial Accounting",
-          subanswer:
-            "Code:A5-IFA-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer:
-            "Financial Accounting module equips students with fundamental accounting principles, including recording, analyzing, and interpreting financial transactions. It covers financial statements, bookkeeping, and regulatory standards, enabling students to understand business finances, make informed decisions, and ensure transparency in financial reporting within the hospitality and business sectors.",
-        },
-      ],
-    },
-    {
-      semester: "Semester 2",
-      courses: [
-        {
-          question: "Professional Cookery 2",
-          subanswer:
-            "Code: H7-PC2-22<br/>Prerequisite: H5-PC1-22<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            "Professional Cookery 2 module provides intensive training in professional cookery, equipping learners with essential skills, techniques, and culinary knowledge. Students gain expertise in cooking methods, menu planning, and recipe development while understanding ingredient costs, quality, and usage. It prepares them to create diverse dishes and excel in the culinary industry.",
-        },
-        {
-          question: "Business Communication",
-          subanswer:
-            "Code: D7-BUC-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            "Business Communication module develops students' ability to communicate effectively in professional settings. It covers written, verbal, and non-verbal communication, focusing on clarity, persuasion, and etiquette. Students learn to create business reports, emails, and presentations, enhancing their interpersonal and organizational communication skills for successful business interactions.",
-        },
-        {
-          question: "Microeconomics",
-          subanswer:
-            "Code: B5-MIE-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer:
-            "Microeconomics module introduces students to fundamental economic principles, focusing on how individuals and businesses make decisions regarding resource allocation, pricing, and production. It covers supply and demand, market structures, consumer behaviour, and cost analysis, equipping students with analytical skills to understand and apply economic concepts in business environments.",
-        },
-        {
-          question: "Principles of Hospitality Franchise",
-          subanswer:
-            "Code: H7-PHT-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            " Principles of Hospitality Franchise module introduces students to the fundamentals of franchising in the hospitality industry. It covers franchise models, operations, legal aspects, and financial considerations. Students gain insights into franchise management, brand consistency, and growth strategies, preparing them for entrepreneurial or managerial roles in hospitality franchising.",
-        },
-        {
-          question: "Front Office Operations",
-          subanswer:
-            "Code: H7-FRO-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            "Front Office Operations module provides students with essential knowledge and skills in hotel front desk management. It covers guest relations, reservations, check-in/check-out procedures, billing, and communication. Emphasizing customer service and operational efficiency, the module prepares students for roles in hospitality reception, concierge services, and front office management.",
-        },
-      ],
-    },
+// export const bcominhospitalitymanagement = {
+//   heroContent: {
+//     question: "BCom in Hospitality Management",
+//     image: "/images/courses-images/Bcom in Hospitality.jpeg",
+//     downloadurl: `${baseUrl}BCominHospitalityManagement.pdf`,
+//     minPeriod: 4,
+//     maxPeriod: 6,
+//     programmeCredit: "$13",
+//     totalProgrammeCredit: 515,
+//     noOfModules: "36 (35 Core + 1 Elective)",
+//     totalFee: "$6,695",
+//     cta: true,
+//     timer: true,
+//     overview: true,
+//   },
+//   courseStruture: [
+//     {
+//       semester: "Semester 1",
+//       courses: [
+//         {
+//           question: "Principles of Hospitality and Tourism",
+//           subanswer:
+//             "Code: H6-PHT-22<br/>Prerequisite: None<br/>Corequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//           answer:
+//             "Principles of Hospitality and Tourism is a module that introduces students to the hospitality and tourism industry, covering lodging, travel, recreation, attractions, and food services. It develops communication, time management, and customer service skills while exploring industry history and key success traits, preparing learners to meet professional standards in a dynamic global sector.",
+//         },
+//         {
+//           question: "Computers and its Essentials",
+//           subanswer:
+//             "Code: C5-CE1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//           answer:
+//             "This module provides a foundational understanding of computers and their essentials, covering basic functions, hardware and software components, and how they operate. It explores the history and evolution of computers and data processing. Students will learn about Microsoft Office, with an emphasis on Microsoft Word and PowerPoint. Through hands-on activities and assessments, learners will develop a comprehensive understanding of computer essentials.",
+//         },
+//         {
+//           question: "Academic Writing for Business",
+//           subanswer:
+//             "Code: D5-AWB-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//           answer:
+//             "The Academic Writing for Business module develops students' ability to communicate effectively in a professional and academic business context. It enhances critical thinking, research, and writing skills, focusing on clarity, coherence, and proper structure. Students learn to present arguments, analyze data, and produce well-structured business reports and documents.",
+//         },
+//         {
+//           question: "Professional Cookery 1",
+//           subanswer:
+//             "Code: H5-PC1-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//           answer:
+//             "Professional Cookery module equips students with essential culinary skills, food preparation techniques, and kitchen management principles. It emphasizes hygiene, nutrition, and presentation while fostering creativity and efficiency in a professional kitchen. Students gain hands-on experience to meet industry standards and excel in various culinary and hospitality settings.",
+//         },
+//         {
+//           question: "Introduction to Hotel Operations",
+//           subanswer:
+//             "Code: H5-IHO-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//           answer:
+//             "Introduction to Hotel Operations module provides students with a foundational understanding of hotel management, including front office, housekeeping, food and beverage, and guest services. It emphasizes industry standards, operational efficiency, and customer satisfaction, preparing students for roles in hospitality by developing practical skills and knowledge of hotel functions.",
+//         },
+//         {
+//           question: "Introduction to Financial Accounting",
+//           subanswer:
+//             "Code:A5-IFA-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//           answer:
+//             "Financial Accounting module equips students with fundamental accounting principles, including recording, analyzing, and interpreting financial transactions. It covers financial statements, bookkeeping, and regulatory standards, enabling students to understand business finances, make informed decisions, and ensure transparency in financial reporting within the hospitality and business sectors.",
+//         },
+//       ],
+//     },
+//     {
+//       semester: "Semester 2",
+//       courses: [
+//         {
+//           question: "Professional Cookery 2",
+//           subanswer:
+//             "Code: H7-PC2-22<br/>Prerequisite: H5-PC1-22<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             "Professional Cookery 2 module provides intensive training in professional cookery, equipping learners with essential skills, techniques, and culinary knowledge. Students gain expertise in cooking methods, menu planning, and recipe development while understanding ingredient costs, quality, and usage. It prepares them to create diverse dishes and excel in the culinary industry.",
+//         },
+//         {
+//           question: "Business Communication",
+//           subanswer:
+//             "Code: D7-BUC-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             "Business Communication module develops students' ability to communicate effectively in professional settings. It covers written, verbal, and non-verbal communication, focusing on clarity, persuasion, and etiquette. Students learn to create business reports, emails, and presentations, enhancing their interpersonal and organizational communication skills for successful business interactions.",
+//         },
+//         {
+//           question: "Microeconomics",
+//           subanswer:
+//             "Code: B5-MIE-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//           answer:
+//             "Microeconomics module introduces students to fundamental economic principles, focusing on how individuals and businesses make decisions regarding resource allocation, pricing, and production. It covers supply and demand, market structures, consumer behaviour, and cost analysis, equipping students with analytical skills to understand and apply economic concepts in business environments.",
+//         },
+//         {
+//           question: "Principles of Hospitality Franchise",
+//           subanswer:
+//             "Code: H7-PHT-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             " Principles of Hospitality Franchise module introduces students to the fundamentals of franchising in the hospitality industry. It covers franchise models, operations, legal aspects, and financial considerations. Students gain insights into franchise management, brand consistency, and growth strategies, preparing them for entrepreneurial or managerial roles in hospitality franchising.",
+//         },
+//         {
+//           question: "Front Office Operations",
+//           subanswer:
+//             "Code: H7-FRO-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             "Front Office Operations module provides students with essential knowledge and skills in hotel front desk management. It covers guest relations, reservations, check-in/check-out procedures, billing, and communication. Emphasizing customer service and operational efficiency, the module prepares students for roles in hospitality reception, concierge services, and front office management.",
+//         },
+//       ],
+//     },
 
-    {
-      semester: "Semester 3",
-      courses: [
-        {
-          question: "Business Mathematics",
-          subanswer:
-            "Code: B6-BMA-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer:
-            "Business Mathematics module equips students with essential mathematical concepts and analytical skills for business decision-making. It covers topics like percentages, ratios, financial calculations, algebra, and statistical analysis. This module helps students apply mathematical techniques in finance, accounting, and economics, enhancing problem-solving abilities in business and hospitality management.",
-        },
+//     {
+//       semester: "Semester 3",
+//       courses: [
+//         {
+//           question: "Business Mathematics",
+//           subanswer:
+//             "Code: B6-BMA-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//           answer:
+//             "Business Mathematics module equips students with essential mathematical concepts and analytical skills for business decision-making. It covers topics like percentages, ratios, financial calculations, algebra, and statistical analysis. This module helps students apply mathematical techniques in finance, accounting, and economics, enhancing problem-solving abilities in business and hospitality management.",
+//         },
 
-        {
-          question: "Clinary Studies and Nutrition 1",
-          subanswer:
-            "Code: H7-CS1-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer:
-            "Culinary and Nutrition Studies module explores the relationship between food preparation and nutrition. It equips students with essential cooking techniques, menu planning skills, and knowledge of balanced diets. Emphasizing health, sustainability, and dietary needs, the module prepares students to create nutritious, high-quality meals in the hospitality and food industries.",
-        },
-        {
-          question: "HouseKeeping Management",
-          subanswer:
-            "Code: H7-HKP-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer:
-            "The Housekeeping Management module focuses on the leadership and organizational skills required to manage a hotel’s housekeeping department. It covers staffing, training, budgeting, inventory control, and quality assurance. Students learn to optimize operations, maintain cleanliness and safety standards, and ensure exceptional guest satisfaction through effective housekeeping management practices.",
-        },
-        {
-          question: "Customer Service Management",
-          subanswer:
-            "Code: H7-CSM-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            "Customer Service Management module equips students with essential skills to deliver exceptional guest experiences. It covers communication, problem-solving, service etiquette, and handling customer feedback. Emphasizing professionalism and customer satisfaction, the module prepares students to enhance guest loyalty and service excellence in hotels, restaurants, and tourism businesses.",
-        },
-        {
-          question: "Hospitality Health and Safety",
-          subanswer:
-            "Code: H6-HHS-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer:
-            "Hospitality Health and Safety module equips students with essential knowledge of workplace safety, hygiene, and risk management in the hospitality industry. It covers food safety, fire prevention, hazard control, and legal compliance. Students learn to create safe environments for guests and staff while adhering to industry health regulations.",
-        },
-        {
-          question: "Food Service Operations",
-          subanswer:
-            "Code: H5-FSE-14<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer:
-            "Food Service Operations module equips students with essential skills in managing food and beverage services in hospitality settings. It covers service styles, customer interaction, order management, hygiene, and operational efficiency. Students learn to enhance guest experiences, maintain quality standards, and oversee restaurant or catering service operations effectively.",
-        },
-      ],
-    },
+//         {
+//           question: "Clinary Studies and Nutrition 1",
+//           subanswer:
+//             "Code: H7-CS1-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//           answer:
+//             "Culinary and Nutrition Studies module explores the relationship between food preparation and nutrition. It equips students with essential cooking techniques, menu planning skills, and knowledge of balanced diets. Emphasizing health, sustainability, and dietary needs, the module prepares students to create nutritious, high-quality meals in the hospitality and food industries.",
+//         },
+//         {
+//           question: "HouseKeeping Management",
+//           subanswer:
+//             "Code: H7-HKP-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//           answer:
+//             "The Housekeeping Management module focuses on the leadership and organizational skills required to manage a hotel’s housekeeping department. It covers staffing, training, budgeting, inventory control, and quality assurance. Students learn to optimize operations, maintain cleanliness and safety standards, and ensure exceptional guest satisfaction through effective housekeeping management practices.",
+//         },
+//         {
+//           question: "Customer Service Management",
+//           subanswer:
+//             "Code: H7-CSM-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             "Customer Service Management module equips students with essential skills to deliver exceptional guest experiences. It covers communication, problem-solving, service etiquette, and handling customer feedback. Emphasizing professionalism and customer satisfaction, the module prepares students to enhance guest loyalty and service excellence in hotels, restaurants, and tourism businesses.",
+//         },
+//         {
+//           question: "Hospitality Health and Safety",
+//           subanswer:
+//             "Code: H6-HHS-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//           answer:
+//             "Hospitality Health and Safety module equips students with essential knowledge of workplace safety, hygiene, and risk management in the hospitality industry. It covers food safety, fire prevention, hazard control, and legal compliance. Students learn to create safe environments for guests and staff while adhering to industry health regulations.",
+//         },
+//         {
+//           question: "Food Service Operations",
+//           subanswer:
+//             "Code: H5-FSE-14<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//           answer:
+//             "Food Service Operations module equips students with essential skills in managing food and beverage services in hospitality settings. It covers service styles, customer interaction, order management, hygiene, and operational efficiency. Students learn to enhance guest experiences, maintain quality standards, and oversee restaurant or catering service operations effectively.",
+//         },
+//       ],
+//     },
 
-    {
-      semester: "Semester 4",
-      courses: [
-        {
-          question: "Business Statistics",
-          subanswer:
-            "Code: B7-BST-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            "Food Service Operations module equips students with essential skills in managing food and beverage services in hospitality settings. It covers service styles, customer interaction, order management, hygiene, and operational efficiency. Students learn to enhance guest experiences, maintain quality standards, and oversee restaurant or catering service operations effectively.",
-        },
+//     {
+//       semester: "Semester 4",
+//       courses: [
+//         {
+//           question: "Business Statistics",
+//           subanswer:
+//             "Code: B7-BST-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             "Food Service Operations module equips students with essential skills in managing food and beverage services in hospitality settings. It covers service styles, customer interaction, order management, hygiene, and operational efficiency. Students learn to enhance guest experiences, maintain quality standards, and oversee restaurant or catering service operations effectively.",
+//         },
 
-        {
-          question: "Culinary Studies and Nutrition  2",
-          subanswer:
-            "Code: H7-CS2-22<br/>Prerequisite: H7-CS1-22<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            "Culinary and Nutrition Studies 2 module builds on foundational culinary skills, focusing on advanced cooking techniques and specialized dietary needs. It emphasizes creating nutritious meals for specific populations, such as those with allergies, intolerances, or medical conditions. Students gain expertise in menu design, food preparation, and nutritional analysis.",
-        },
-        {
-          question: "Food and Beverages Studies",
-          subanswer:
-            "Code: H7-FBS-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            "Food and Beverage Studies module provides students with a comprehensive understanding of food and drink management in the hospitality industry. It covers menu planning, service techniques, cost control, hygiene, and customer service. Students gain practical knowledge to enhance dining experiences and manage food and beverage operations efficiently.",
-        },
-        {
-          question: "Tourism and Hospitality laws and Ethics",
-          subanswer:
-            "Code: H7-THL-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            "Tourism and Hospitality Law and Ethics module introduces students to legal and ethical principles governing the hospitality and tourism industry. It covers contracts, liability, consumer rights, employment laws, and ethical decision-making. Students learn to navigate legal frameworks, uphold industry standards, and ensure responsible business practices.",
-        },
-        {
-          question: "Accomodation and Management",
-          subanswer:
-            "Code: H7-ACM-22<br/>Prerequisite: H7-HKP-22<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            "Accommodation Management module equips students with the skills to oversee lodging operations in hotels, resorts, and other hospitality establishments. It covers front office coordination, housekeeping, guest relations, and revenue management. Students learn to optimize occupancy, maintain service quality, and ensure efficient, customer-focused accommodation services.",
-        },
-      ],
-    },
+//         {
+//           question: "Culinary Studies and Nutrition  2",
+//           subanswer:
+//             "Code: H7-CS2-22<br/>Prerequisite: H7-CS1-22<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             "Culinary and Nutrition Studies 2 module builds on foundational culinary skills, focusing on advanced cooking techniques and specialized dietary needs. It emphasizes creating nutritious meals for specific populations, such as those with allergies, intolerances, or medical conditions. Students gain expertise in menu design, food preparation, and nutritional analysis.",
+//         },
+//         {
+//           question: "Food and Beverages Studies",
+//           subanswer:
+//             "Code: H7-FBS-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             "Food and Beverage Studies module provides students with a comprehensive understanding of food and drink management in the hospitality industry. It covers menu planning, service techniques, cost control, hygiene, and customer service. Students gain practical knowledge to enhance dining experiences and manage food and beverage operations efficiently.",
+//         },
+//         {
+//           question: "Tourism and Hospitality laws and Ethics",
+//           subanswer:
+//             "Code: H7-THL-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             "Tourism and Hospitality Law and Ethics module introduces students to legal and ethical principles governing the hospitality and tourism industry. It covers contracts, liability, consumer rights, employment laws, and ethical decision-making. Students learn to navigate legal frameworks, uphold industry standards, and ensure responsible business practices.",
+//         },
+//         {
+//           question: "Accomodation and Management",
+//           subanswer:
+//             "Code: H7-ACM-22<br/>Prerequisite: H7-HKP-22<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             "Accommodation Management module equips students with the skills to oversee lodging operations in hotels, resorts, and other hospitality establishments. It covers front office coordination, housekeeping, guest relations, and revenue management. Students learn to optimize occupancy, maintain service quality, and ensure efficient, customer-focused accommodation services.",
+//         },
+//       ],
+//     },
 
-    {
-      semester: "Semester 5",
-      courses: [
-        {
-          question: "Financial Accounting",
-          subanswer:
-            "Code: A7-FAC-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            "Financial Accounting module equips students with essential accounting principles for recording, analysing, and reporting financial transactions. It covers financial statements, bookkeeping, budgeting, and regulatory compliance. Students develop the skills to interpret financial data, support decision-making, and ensure transparency in financial management within the hospitality and business sectors.",
-        },
-        {
-          question: "Hospility Operations and Supply Chain",
-          subanswer:
-            "Code: H7-HOS-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            "Hospitality Operations and Supply Chain module explores the management of hospitality services and the efficient flow of goods and resources. It covers procurement, inventory control, logistics, and service delivery. Students learn to optimize operations, reduce costs, and enhance service quality while ensuring smooth supply chain management in hospitality businesses.",
-        },
-        {
-          question: "Marketing for Hospitality and Tourism ",
-          subanswer:
-            "Code: H7-MHT-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            "Marketing for Hospitality and Tourism module equips students with essential marketing strategies tailored to the hospitality and tourism industry. It covers market research, consumer behavior, branding, digital marketing, and service promotion. Students learn to develop effective marketing campaigns to attract and retain customers in a competitive global market.",
-        },
-        {
-          question: "Hospitality and Tourism Information",
-          subanswer:
-            "Code: H7-HTI-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            "Hospitality Tourism Information module provides students with essential knowledge on information management systems used in the hospitality and tourism industry. It covers reservation systems, data analysis, customer relationship management, and digital tools. Students learn to utilize technology to enhance guest experiences, streamline operations, and support decision-making processes.",
-        },
-        {
-          question: "Events Management",
-          subanswer:
-            "Code: H7-EVM-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            "Events Management module equips students with the skills to plan, organize, and execute events in the hospitality and tourism industry. It covers event planning, budgeting, marketing, logistics, and risk management. Students learn to manage conferences, weddings, and corporate events while ensuring seamless execution and exceptional guest experiences.",
-        },
-      ],
-    },
-    {
-      semester: "Semester 6",
-      courses: [
-        {
-          question: "Research Proposal Writing",
-          subanswer:
-            "Code: H8-PRI-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer:
-            "Project 1 is a Research Proposal module that equip students with the skills to develop a structured research plan. It covers problem identification, literature review, research design, and methodology. Students learn to formulate clear objectives, justify their study, and outline data collection methods, preparing them for successful research project execution.",
-        },
-        {
-          question: "Strategic Management",
-          subanswer:
-            "Code:B7-STM-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
-          answer:
-            "Strategic Management module equips students with the skills to analyze, formulate, and implement business strategies in the business management landscape. It focuses on competitive analysis, decision-making, resource management, and sustainability. Students learn to develop strategic plans that enhance organizational performance and long-term success in a dynamic business environment.",
-        },
-        {
-          question: "Quality Systems for the Hospitality Industry",
-          subanswer:
-            "Code: H7-QSH-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            "Quality Systems for Hospitality Industry module focuses on implementing and managing quality assurance frameworks to enhance service excellence. It covers industry standards, customer satisfaction, continuous improvement, and regulatory compliance. The module equips learners with skills to maintain high operational standards, ensuring efficiency, guest satisfaction, and business success in hospitality.",
-        },
-        {
-          question: "Destination Management",
-          subanswer:
-            "Code: H7-DTM-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            "The Destination Management module explores strategies for developing, marketing, and sustaining tourist destinations. It covers stakeholder collaboration, tourism planning, visitor experience enhancement, and sustainability practices. Learners gain insights into managing destinations effectively, balancing economic growth with environmental and cultural preservation to create competitive, appealing, and sustainable tourism experiences.",
-        },
-        {
-          question: "French",
-          subanswer:
-            "Code: D7-FRE-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            "The French module aims to develop essential language skills for communication in hospitality and tourism. It covers basic vocabulary, grammar, and conversational phrases relevant to customer service. Learners gain cultural awareness and practical language proficiency, enabling them to interact effectively with French-speaking guests and enhance their professional opportunities.",
-        },
-      ],
-    },
+//     {
+//       semester: "Semester 5",
+//       courses: [
+//         {
+//           question: "Financial Accounting",
+//           subanswer:
+//             "Code: A7-FAC-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             "Financial Accounting module equips students with essential accounting principles for recording, analysing, and reporting financial transactions. It covers financial statements, bookkeeping, budgeting, and regulatory compliance. Students develop the skills to interpret financial data, support decision-making, and ensure transparency in financial management within the hospitality and business sectors.",
+//         },
+//         {
+//           question: "Hospility Operations and Supply Chain",
+//           subanswer:
+//             "Code: H7-HOS-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             "Hospitality Operations and Supply Chain module explores the management of hospitality services and the efficient flow of goods and resources. It covers procurement, inventory control, logistics, and service delivery. Students learn to optimize operations, reduce costs, and enhance service quality while ensuring smooth supply chain management in hospitality businesses.",
+//         },
+//         {
+//           question: "Marketing for Hospitality and Tourism ",
+//           subanswer:
+//             "Code: H7-MHT-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             "Marketing for Hospitality and Tourism module equips students with essential marketing strategies tailored to the hospitality and tourism industry. It covers market research, consumer behavior, branding, digital marketing, and service promotion. Students learn to develop effective marketing campaigns to attract and retain customers in a competitive global market.",
+//         },
+//         {
+//           question: "Hospitality and Tourism Information",
+//           subanswer:
+//             "Code: H7-HTI-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             "Hospitality Tourism Information module provides students with essential knowledge on information management systems used in the hospitality and tourism industry. It covers reservation systems, data analysis, customer relationship management, and digital tools. Students learn to utilize technology to enhance guest experiences, streamline operations, and support decision-making processes.",
+//         },
+//         {
+//           question: "Events Management",
+//           subanswer:
+//             "Code: H7-EVM-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             "Events Management module equips students with the skills to plan, organize, and execute events in the hospitality and tourism industry. It covers event planning, budgeting, marketing, logistics, and risk management. Students learn to manage conferences, weddings, and corporate events while ensuring seamless execution and exceptional guest experiences.",
+//         },
+//       ],
+//     },
+//     {
+//       semester: "Semester 6",
+//       courses: [
+//         {
+//           question: "Research Proposal Writing",
+//           subanswer:
+//             "Code: H8-PRI-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//           answer:
+//             "Project 1 is a Research Proposal module that equip students with the skills to develop a structured research plan. It covers problem identification, literature review, research design, and methodology. Students learn to formulate clear objectives, justify their study, and outline data collection methods, preparing them for successful research project execution.",
+//         },
+//         {
+//           question: "Strategic Management",
+//           subanswer:
+//             "Code:B7-STM-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+//           answer:
+//             "Strategic Management module equips students with the skills to analyze, formulate, and implement business strategies in the business management landscape. It focuses on competitive analysis, decision-making, resource management, and sustainability. Students learn to develop strategic plans that enhance organizational performance and long-term success in a dynamic business environment.",
+//         },
+//         {
+//           question: "Quality Systems for the Hospitality Industry",
+//           subanswer:
+//             "Code: H7-QSH-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             "Quality Systems for Hospitality Industry module focuses on implementing and managing quality assurance frameworks to enhance service excellence. It covers industry standards, customer satisfaction, continuous improvement, and regulatory compliance. The module equips learners with skills to maintain high operational standards, ensuring efficiency, guest satisfaction, and business success in hospitality.",
+//         },
+//         {
+//           question: "Destination Management",
+//           subanswer:
+//             "Code: H7-DTM-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             "The Destination Management module explores strategies for developing, marketing, and sustaining tourist destinations. It covers stakeholder collaboration, tourism planning, visitor experience enhancement, and sustainability practices. Learners gain insights into managing destinations effectively, balancing economic growth with environmental and cultural preservation to create competitive, appealing, and sustainable tourism experiences.",
+//         },
+//         {
+//           question: "French",
+//           subanswer:
+//             "Code: D7-FRE-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             "The French module aims to develop essential language skills for communication in hospitality and tourism. It covers basic vocabulary, grammar, and conversational phrases relevant to customer service. Learners gain cultural awareness and practical language proficiency, enabling them to interact effectively with French-speaking guests and enhance their professional opportunities.",
+//         },
+//       ],
+//     },
 
-    {
-      semester: "Semester 7",
-      courses: [
-        {
-          question: "Project 2 - Dissertation",
-          subanswer:
-            "Code: H8-PR2-17<br/>Prerequisite: H8-PR1-17<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
-          answer:
-            "Research Project 2 module enables students to apply research methodologies to investigate a hospitality or tourism-related topic. It develops critical thinking, analytical, and problem-solving skills through data collection, analysis, and report writing. Students gain hands-on experience in conducting independent research, preparing them for academic and professional pursuits.",
-        },
-        {
-          question: "Entrepreneurship and Innovation",
-          subanswer:
-            "Code: B8-ENI-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
-          answer:
-            "This module equips students with the skills to generate innovative ideas, identify business opportunities, and manage new ventures. It covers entrepreneurship, idea generation, innovation management, intellectual property rights, and creativity in business. Students will learn to build an entrepreneurial culture that fosters innovation and drives sustainable business growth.",
-        },
-      ],
-    },
-    {
-      semester: "Semester 7 Elective Group One (Choose One)",
-      courses: [
-        {
-          question: "Cultural Tourism",
-          subanswer:
-            "Code: H7-CLT-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            "Cultural Tourism module explores the role of culture in tourism, focusing on heritage, traditions, and local experiences. It covers cultural site management, community involvement, and sustainable tourism practices. Students learn to promote and preserve cultural assets while creating enriching tourism experiences that benefit both visitors and host communities.",
-        },
-        {
-          question: "Risk,Cris and Disaster Management",
-          subanswer:
-            "Code: H7-RCD-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            "Risk, Crisis, and Disaster Management module equips students with skills to identify, assess, and manage risks in the hospitality and tourism industry. It covers crisis preparedness, emergency response, and business continuity planning. Students learn to develop strategies for minimizing disruptions and ensuring safety in unpredictable situations.",
-        },
-        {
-          question: "Hospitality and Tourism Distribution",
-          subanswer:
-            "Code: H7-HTD-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            "Hospitality and Tourism Distribution module explores the channels and systems used to deliver tourism and hospitality products to consumers. It covers travel agencies, online booking platforms, global distribution systems, and supply chain management. Students learn to optimize distribution strategies, enhance market reach, and improve customer accessibility to services.",
-        },
-        {
-          question: "Ethics and Sustainability",
-          subanswer:
-            "Code: H7-EST-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
-          answer:
-            "Ethics and Sustainability module equips students with knowledge of ethical decision-making and sustainable practices in hospitality and tourism. It covers corporate social responsibility, environmental conservation, and ethical business operations. Students learn to implement responsible strategies that balance profitability with social and environmental well-being for long-term industry sustainability.",
-        },
-      ],
-    },
-    {
-      semester: "Semester 8 ",
-      courses: [
-        {
-          question: "Professional Practice in Business",
-          subanswer:
-            "Code: B7-PPB-20<br/>Prerequisite: 240 Credits<br/>Co-requisite: None<br/>Module Fees: $520<br/>Module Credits: 40",
-          answer:
-            "The Professional Practice / Hospitality Internship module provides hands-on industry experience, allowing learners to apply theoretical knowledge in real-world hospitality settings. It enhances practical skills, professionalism, and problem-solving abilities while fostering industry connections. The module prepares students for career readiness, boosting confidence and employability in the hospitality sector.",
-        },
-      ],
-    },
-  ],
-  requirements: [
-    {
-      question: "Admission Requirements",
-      answer:
-        "IGCSE/equivalent with 5 Passes. Applicants in possession of a Diploma or Higher Diploma in related fields may be given exemptions based on the credit point equivalency. ",
-    },
+//     {
+//       semester: "Semester 7",
+//       courses: [
+//         {
+//           question: "Project 2 - Dissertation",
+//           subanswer:
+//             "Code: H8-PR2-17<br/>Prerequisite: H8-PR1-17<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+//           answer:
+//             "Research Project 2 module enables students to apply research methodologies to investigate a hospitality or tourism-related topic. It develops critical thinking, analytical, and problem-solving skills through data collection, analysis, and report writing. Students gain hands-on experience in conducting independent research, preparing them for academic and professional pursuits.",
+//         },
+//         {
+//           question: "Entrepreneurship and Innovation",
+//           subanswer:
+//             "Code: B8-ENI-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+//           answer:
+//             "This module equips students with the skills to generate innovative ideas, identify business opportunities, and manage new ventures. It covers entrepreneurship, idea generation, innovation management, intellectual property rights, and creativity in business. Students will learn to build an entrepreneurial culture that fosters innovation and drives sustainable business growth.",
+//         },
+//       ],
+//     },
+//     {
+//       semester: "Semester 7 Elective Group One (Choose One)",
+//       courses: [
+//         {
+//           question: "Cultural Tourism",
+//           subanswer:
+//             "Code: H7-CLT-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             "Cultural Tourism module explores the role of culture in tourism, focusing on heritage, traditions, and local experiences. It covers cultural site management, community involvement, and sustainable tourism practices. Students learn to promote and preserve cultural assets while creating enriching tourism experiences that benefit both visitors and host communities.",
+//         },
+//         {
+//           question: "Risk,Cris and Disaster Management",
+//           subanswer:
+//             "Code: H7-RCD-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             "Risk, Crisis, and Disaster Management module equips students with skills to identify, assess, and manage risks in the hospitality and tourism industry. It covers crisis preparedness, emergency response, and business continuity planning. Students learn to develop strategies for minimizing disruptions and ensuring safety in unpredictable situations.",
+//         },
+//         {
+//           question: "Hospitality and Tourism Distribution",
+//           subanswer:
+//             "Code: H7-HTD-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             "Hospitality and Tourism Distribution module explores the channels and systems used to deliver tourism and hospitality products to consumers. It covers travel agencies, online booking platforms, global distribution systems, and supply chain management. Students learn to optimize distribution strategies, enhance market reach, and improve customer accessibility to services.",
+//         },
+//         {
+//           question: "Ethics and Sustainability",
+//           subanswer:
+//             "Code: H7-EST-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//           answer:
+//             "Ethics and Sustainability module equips students with knowledge of ethical decision-making and sustainable practices in hospitality and tourism. It covers corporate social responsibility, environmental conservation, and ethical business operations. Students learn to implement responsible strategies that balance profitability with social and environmental well-being for long-term industry sustainability.",
+//         },
+//       ],
+//     },
+//     {
+//       semester: "Semester 8 ",
+//       courses: [
+//         {
+//           question: "Professional Practice in Business",
+//           subanswer:
+//             "Code: B7-PPB-20<br/>Prerequisite: 240 Credits<br/>Co-requisite: None<br/>Module Fees: $520<br/>Module Credits: 40",
+//           answer:
+//             "The Professional Practice / Hospitality Internship module provides hands-on industry experience, allowing learners to apply theoretical knowledge in real-world hospitality settings. It enhances practical skills, professionalism, and problem-solving abilities while fostering industry connections. The module prepares students for career readiness, boosting confidence and employability in the hospitality sector.",
+//         },
+//       ],
+//     },
+//   ],
+//   requirements: [
+//     {
+//       question: "Admission Requirements",
+//       answer:
+//         "IGCSE/equivalent with 5 Passes. Applicants in possession of a Diploma or Higher Diploma in related fields may be given exemptions based on the credit point equivalency. ",
+//     },
 
-    {
-      question: "Technical Requirements",
-      answer: `<div class="technical-requirements">
-  <p>
-    To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
-  </p></br>
+//     {
+//       question: "Technical Requirements",
+//       answer: `<div class="technical-requirements">
+//   <p>
+//     To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
+//   </p></br>
 
-  <p><strong>Device Requirements:</strong></p>
-  <ul>
-    <li>
-      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
-    </li></br>
-    <li><p>OR</p></li></br>
-    <li>
-      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
-    </li>
-  </ul></br>
+//   <p><strong>Device Requirements:</strong></p>
+//   <ul>
+//     <li>
+//       <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
+//     </li></br>
+//     <li><p>OR</p></li></br>
+//     <li>
+//       <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
+//     </li>
+//   </ul></br>
 
-  <p><strong>Internet Requirements: </strong></p>
-  <ul>
-    <li>
-      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
-    </li>
-    <li>
-      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions.
-    </li>
-  </ul></br>
+//   <p><strong>Internet Requirements: </strong></p>
+//   <ul>
+//     <li>
+//       Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
+//     </li>
+//     <li>
+//       Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions.
+//     </li>
+//   </ul></br>
 
-  <p><strong>Software and Platforms: </strong></p>
-  <ul>
-    <li>
-      <p>Virtual Live Sessions: Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).</p>
-    </li>
-  </ul></br>
+//   <p><strong>Software and Platforms: </strong></p>
+//   <ul>
+//     <li>
+//       <p>Virtual Live Sessions: Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).</p>
+//     </li>
+//   </ul></br>
 
-  <p><strong>Browser Requirements: </strong></p>
-  <ul>
-    <li>
-      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
-    </li>
-  </ul></br>
+//   <p><strong>Browser Requirements: </strong></p>
+//   <ul>
+//     <li>
+//       Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
+//     </li>
+//   </ul></br>
 
-  <p><strong>Additional Tools: </strong>(Optional but Recommended)</p>
-  <ul>
-    <li>Headset: For clear audio during virtual classes.</li>
-    <li>External storage (USB/Cloud): For backups of important coursework.</li>
-    <li>Antivirus software: To protect against malware or data loss.</li>
-  </ul></br>
-</div>
-`,
-    },
-  ],
-  programOverview: `Aspiring to a leadership role in the vibrant hospitality sector? Our Bachelor of Commerce in Hospitality Management provides a strong foundation in business principles alongside specialised hospitality skills. You'll cover core areas like accounting and marketing, combined with modules in hotel operations, food and beverage management, and tourism development.<br></br>This programme emphasises practical experience through internships and case studies, nurturing your problem-solving, customer service, and managerial abilities. We'll equip you with entrepreneurial thinking, sustainability awareness, and digital proficiency, preparing you for diverse leadership roles in hotels, restaurants, tourism, and event management globally.`,
-};
+//   <p><strong>Additional Tools: </strong>(Optional but Recommended)</p>
+//   <ul>
+//     <li>Headset: For clear audio during virtual classes.</li>
+//     <li>External storage (USB/Cloud): For backups of important coursework.</li>
+//     <li>Antivirus software: To protect against malware or data loss.</li>
+//   </ul></br>
+// </div>
+// `,
+//     },
+//   ],
+//   programOverview: `Aspiring to a leadership role in the vibrant hospitality sector? Our Bachelor of Commerce in Hospitality Management provides a strong foundation in business principles alongside specialised hospitality skills. You'll cover core areas like accounting and marketing, combined with modules in hotel operations, food and beverage management, and tourism development.<br></br>This programme emphasises practical experience through internships and case studies, nurturing your problem-solving, customer service, and managerial abilities. We'll equip you with entrepreneurial thinking, sustainability awareness, and digital proficiency, preparing you for diverse leadership roles in hotels, restaurants, tourism, and event management globally.`,
+// };
 
 export const mcominhumanresourcemanagement = {
   heroContent: {

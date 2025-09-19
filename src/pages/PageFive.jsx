@@ -16,7 +16,7 @@ import FeeTable from "../components/feeTable/feeTable";
 import {
   bbainbusinessmanagement,
   bcominaccounting,
-  bcominhospitalitymanagement,
+  // bcominhospitalitymanagement,
   diplomainoccupationalhealthsafety,
   bscinhospitaladministration,
   bscindatascience,
@@ -42,7 +42,7 @@ const PageFive = () => {
   const courseMap = {
     bbainbusinessmanagement,
     bcominaccounting,
-    bcominhospitalitymanagement,
+    // bcominhospitalitymanagement,
     bscindatascience,
     mcominhumanresourcemanagement,
     masterofbusinessadministration,
