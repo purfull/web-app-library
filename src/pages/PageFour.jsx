@@ -417,9 +417,7 @@ It's very important to us at Botho University that students receive timely assis
       <RednavBar />
       <NavBar />
       {/* <FeeHome /> */}
-<<<<<<< HEAD
-      <StaticHome backgroundColor="#F3E8EA" textColor="#000" backgroundImage="/images/FeeHome.png" title="Affordable. Flexible. Built <span style='background-color: #841D2E; color: #fff'>Around You </span>" description="At Botho University, our online learning fees are designed to give you full control. You only pay for the modules you register for—each one priced according to its credit load. This pay-as-you-go model ensures you’re only investing in what you study, with no hidden costs." />
-=======
+
       <StaticHome
         backgroundColor="#F3E8EA"
         textColor="#000"
@@ -427,7 +425,6 @@ It's very important to us at Botho University that students receive timely assis
         title="Affordable. Flexible. Build <span style='background-color: #841D2E; color: #fff'>Around You </span>"
         description="At Botho University, our online learning fees are designed to give you full control. You only pay for the modules you register for-each one priced according to its credit load. This pay-as-you-go model ensures you’re only investing in what you study, with no hidden costs."
       />
->>>>>>> 1a06d91bc4cad13579253e5154895e7b69f5e506
 
       <EnquireSection
         cardData={pgCardData}

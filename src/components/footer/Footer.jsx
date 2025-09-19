@@ -104,23 +104,7 @@ const Footer = () => {
             </span>
           </div>
 
-<<<<<<< HEAD
-            <div className="footer-inside-con ">
-
-                <div className="first-con">
-
-                    <img className="logo-botho-footer" src="/logo/BothoLogo-hd.jpg" alt="Logo" />
-
-                    <div className="span-first-con">
-                        <span className='first-conatiner-texts'>Botho University is a leading African institution committed to excellence.
-Our flexible online programmes are designed for real-world success.
-With physical campuses across the region in 4 countries and a strong digital presence, we empower learners to thrive in a fast-changing world.</span>
-                    </div>
-
-                    {/* <div className="footer-first-logo-session ">
-=======
           {/* <div className="footer-first-logo-session ">
->>>>>>> 1a06d91bc4cad13579253e5154895e7b69f5e506
 
                         <FaFacebookF className="social-icon" />
                         <FaTwitter className="social-icon" />

@@ -575,11 +575,7 @@ const TimerHome = ({ data, programOverview, feePage }) => {
                 style={{ paddingLeft: "12px", paddingRight: "12px" }}
                 onClick={() => download(data?.downloadurl)}
               >
-<<<<<<< HEAD
-                <span className="button-text">{feePage ? "Download Fee Structure" : "Download Programme Modules"}</span>
-=======
-                <span className="button-text">Download Programme Details</span>
->>>>>>> 1a06d91bc4cad13579253e5154895e7b69f5e506
+                <span className="button-text">{feePage ? "Download Fee Structure" : "Download Programme Details"}</span>
                 <img src={downloadIcon} alt="download" />
               </button>
             </div>
