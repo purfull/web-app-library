@@ -3,11 +3,11 @@ export const baseUrl =
 
 export const bscindatascience = {
   heroContent: {
-    question: "BSc in Data Science",
+    question: "Bachelor of Science in Data Science",
     image: "/images/courses-images/Bsc in data science.jpeg",
     downloadurl: `${baseUrl}BSCinDataScience.pdf`,
-    minPeriod: 4,
-    maxPeriod: 6,
+    typicalfulltimestudyperiod: 4,
+    // maxPeriod: 6,
     programmeCredit: "$13",
     totalProgrammeCredit: 495,
     noOfModules: "35 (27 Core + 8 Elective)",
@@ -23,30 +23,31 @@ export const bscindatascience = {
         {
           question: "Physics",
           subanswer:
-            "Code: E5-PHY-20<br/>Prerequisite: None<br/>Corequisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code: E5-PHY-22<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module introduces key concepts in physical mechanics, including motion, momentum, energy conservation, and rotational dynamics. Students will explore vibrations, wave motion, and physical optics. Through exams, coursework, and discussions, they will develop a strong understanding of physical laws and their applications in solving numerical and conceptual problems.",
         },
         {
           question: "Pre-Calculus",
           subanswer:
-            "Code: : E5-PCA-20 <br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $312<br/>Module Credits: 24",
+            "Code: : E5-PCA-22<br/>Module Fees: $312<br/>Module Credits: 24",
           answer:
-            "This Pre-Calculus module reviews key algebraic concepts, including exponents, polynomials, and complex numbers, before progressing to trigonometry, matrices, and graphing. Students will explore logarithms, conic sections, sequences, and probability. Through video lectures and practice exercises, they will develop problem-solving skills and prepare for advanced mathematical topics such as calculus.",
+            "This module reviews key algebraic concepts, including exponents, polynomials, and complex numbers, before progressing to trigonometry, matrices, and graphing. Students will explore logarithms, conic sections, sequences, and probability. Through lectures and practice exercises, they will develop problem-solving skills and prepare for advanced mathematical topics such as calculus.",
+        },
+
+        {
+          question: "Writing and Communication",
+          subanswer:
+            "Code: D5-WCO-20<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "This module enhances students' academic communication skills, enabling them to confidently express ideas, synthesise perspectives, and engage critically with texts. Emphasising referencing, grammar, and plagiarism-free writing, students will develop structured, coherent, and professional work while mastering research tools and communication theories relevant to their academic and professional fields.",
         },
         {
           question: "Computer Architecture",
           subanswer:
-            "Code: C6-CSA-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code: C6-CSA-20<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module introduces the fundamentals of computer system architecture, covering digital logic, Boolean functions, processor organisation, memory, and peripheral devices. Students will learn about combinational and sequential circuits, CPU functionality, instruction sets, pipeline processing, and parallel computing. By completion, they will understand how digital systems are designed and operate.",
-        },
-        {
-          question: "Writing and Communication",
-          subanswer:
-            "Code:  D5-WCO-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
-          answer:
-            "This module enhances students' academic communication skills, enabling them to confidently express ideas, synthesise perspectives, and engage critically with texts. Emphasising referencing, grammar, and plagiarism-free writing, students will develop structured, coherent, and professional work while mastering research tools and communication theories relevant to their academic and professional fields.",
         },
       ],
     },
@@ -56,40 +57,40 @@ export const bscindatascience = {
         {
           question: "Programming Skill 1",
           subanswer:
-            "Code:  C5-PS1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $78<br/>Module Credits: 6",
+            "Code:  C5-PS1-22<br/>Module Fees: $78<br/>Module Credits: 6",
           answer:
             "This module introduces students to programming in C++, covering structured development techniques, data types, arrays, functions, and object-oriented programming (OOP). Students will learn to design algorithms, write efficient code, and apply programming concepts to solve problems, building a strong foundation for further studies in software development.",
         },
         {
           question: "Business and Entrepreneurship",
           subanswer:
-            "Code: B5-BEN-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 30",
+            "Code: B5-BEN-22<br/>Module Fees: $390<br/>Module Credits: 30",
           answer:
             "This module equips learners with essential entrepreneurial and business management skills. Students will critically understand entrepreneurship, idea generation, opportunity exploitation, and new venture creation. Emphasising creativity, problem-solving, and entrepreneurial culture, the module prepares students to identify business opportunities and apply innovative strategies for successful business management and growth.",
         },
         {
           question: "Operating Systems",
           subanswer:
-            "Code: C6-OPS-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code: C6-OPS-22<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module explores fundamental operating system concepts and algorithms, covering OS components, structures, memory management, processes, threads, CPU scheduling, and security. Students will learn about deadlocks, process synchronisation, and file management. By completion, they will understand OS functionality and its role in managing hardware and software resources efficiently.",
         },
       ],
     },
     {
-      semester: "Semester 2 Elective Group One (Choose One)",
+      semester: "Semester 2 Elective Group (Choose One)",
       courses: [
         {
           question: "Biology 1",
           subanswer:
-            "Code: D5-BIO-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code: D5-BIO-22<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module furnishes non-biological science students with fundamental knowledge of anatomy, physiology, pathology, and pharmacology. It enables effective collaboration with health professionals on interdisciplinary projects, such as developing healthcare software. Students will gain insights into key body systems, common diseases, and their treatment or management approaches.",
         },
         {
           question: "Chemistry 1",
           subanswer:
-            "Code: E5-CHE-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code: E5-CHE-22<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module introduces fundamental chemistry concepts, including the periodic table, atomic structure, and periodic trends. Students will explore ionisation energy, metallic character, stoichiometry, aqueous reactions, and gas laws. By completion, they will understand chemical formulae, equations, and the principles governing the behaviour of elements and compounds.",
         },
@@ -101,7 +102,7 @@ export const bscindatascience = {
         {
           question: "Calculus",
           subanswer:
-            "Code: E6-CAL-22<br/>Prerequisite: E5-PCA-22<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code: E6-CAL-22<br/>Prerequisite: E5-PCA-22<br/Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module introduces key calculus concepts, including differentiation, integration, and their relationship in the Fundamental Theorem of Calculus. Students will learn to differentiate and integrate basic functions, apply calculus to graphing, optimisation, and real-world problems, and use integration to calculate area, volume, and work values.",
         },
@@ -109,154 +110,171 @@ export const bscindatascience = {
         {
           question: "Programming Skill 2",
           subanswer:
-            "Code:  C6-PS2-22<br/>Prerequisite: C5-PS1-22<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code:  C6-PS2-22<br/>Prerequisite: C5-PS1-22<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module introduces students to data analysis using R, covering data import, manipulation, visualisation, and reporting. Students will learn to create dynamic reports with R Markdown, clean data with tidyr, visualise data using ggplot2, write functions with loops and conditionals, and handle special data types like dates, times, and strings.",
         },
         {
           question: "Computer Networks",
           subanswer:
-            "Code:  C6-COM-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code:  C6-COM-22<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module provides a solid foundation in network communication, covering network models, signal types, transmission media, and switching techniques. Students will learn about error detection, data link control, network layer protocols, wireless LANs, and backbone networks. They will also explore high-speed digital access technologies like DSL, cable modems, and SONET.",
         },
         {
+          question: "Data Structures and Algorithms",
+          subanswer:
+            "Code: C6-DSA-22<br/>Prerequisite: C5-PS1-22<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "This module covers fundamental data structures and algorithms, emphasising practical C++ implementation. Students will master linear (linked lists, stacks, queues) and non-linear (graphs, trees) structures, along with sorting, searching, hashing, and file access. Proficiency in pointers, recursion, and threads will be developed, enabling effective data management.",
+        },
+        {
           question: "Databases",
           subanswer:
-            "Code: C7-DBS-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code: C7-DBS-22<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module explores the database approach, contrasting it with file-oriented systems. Topics include the relational model, relational algebra, SQL, database design, normalisation, security, and administration. Students will analyse RDBMS design, apply SQL for data manipulation, and understand advanced database concepts, bridging theory and practice in modern database systems.",
         },
       ],
     },
-    {
-      semester: "Semester 3 Elective Group One (Choose One)",
-      courses: [
-        {
-          question: "Cloud Computing",
-          subanswer:
-            "Code: C6-CLC-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $117<br/>Module Credits: 9",
-          answer:
-            "This module provides a hands-on study of Cloud computing, covering service models like IaaS, PaaS, SaaS, and BPaaS. Students will explore cloud security, risk management, cryptographic key management, and access control. They will also analyse cloud computing essentials, security baselines, and architectural concepts whilst implementing cloud security measures.",
-        },
-        {
-          question: "Emerging Technologies 1",
-          subanswer:
-            "Code: C6-EM1-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $117<br/>Module Credits: 9",
-          answer:
-            "This course explores the integration of educational technology into curriculum design, emphasising best practices, national standards, and emerging technologies.Students will research and apply IoT concepts, including its functionalities, applications, enabling technologies, and interoperability. They will also analyse challenges affecting IoT adoption across various industries and domains.",
-        },
-      ],
-    },
+    // {
+    //   semester: "Semester 3 Elective Group One (Choose One)",
+    //   courses: [
+    //     {
+    //       question: "Cloud Computing",
+    //       subanswer:
+    //         "Code: C6-CLC-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $117<br/>Module Credits: 9",
+    //       answer:
+    //         "This module provides a hands-on study of Cloud computing, covering service models like IaaS, PaaS, SaaS, and BPaaS. Students will explore cloud security, risk management, cryptographic key management, and access control. They will also analyse cloud computing essentials, security baselines, and architectural concepts whilst implementing cloud security measures.",
+    //     },
+    //     {
+    //       question: "Emerging Technologies 1",
+    //       subanswer:
+    //         "Code: C6-EM1-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $117<br/>Module Credits: 9",
+    //       answer:
+    //         "This course explores the integration of educational technology into curriculum design, emphasising best practices, national standards, and emerging technologies.Students will research and apply IoT concepts, including its functionalities, applications, enabling technologies, and interoperability. They will also analyse challenges affecting IoT adoption across various industries and domains.",
+    //     },
+    //   ],
+    // },
     {
       semester: "Semester 4",
       courses: [
         {
           question: "Discrete Mathematics for Computer Science",
           subanswer:
-            "Code: E6-DMC-22<br/>Prerequisite: E5-PCA-22<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code: E6-DMC-22<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module introduces discrete mathematics, crucial for computing. Students will learn its relevance, understand mathematical statements, and grasp concepts like trees, graphs, and numeric functions. The module emphasises applying these principles to logical and mathematical exercises, building a foundation for computational problem-solving.",
-        },
-
-        {
-          question: "Data Structures and Algorithms",
-          subanswer:
-            "Code: C6-DSA-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
-          answer:
-            "This module covers fundamental data structures and algorithms, emphasising practical C++ implementation. Students will master linear (linked lists, stacks, queues) and non-linear (graphs, trees) structures, along with sorting, searching, hashing, and file access. Proficiency in pointers, recursion, and threads will be developed, enabling effective data management.",
         },
         {
           question: "Data Mining",
           subanswer:
-            "Code: C7-DMI-22<br/>Prerequisite: C5-PS1-22<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code: C7-DMI-22<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module explores core Data Mining and Machine Learning principles. Students will learn to analyse, implement, and evaluate techniques using real datasets and toolkits. They'll compare methods, interpret results, and demonstrate awareness of current research, enabling them to adapt solutions for practical problems.",
         },
         {
           question: "Research Methodology",
           subanswer:
-            "Code: C7-REM-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code: C7-REM-22<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module introduces students to standard research methodologies, theories, and processes. Students will learn to define research topics, set objectives, review academic literature, and apply appropriate data collection and analysis methods. Emphasis is placed on ethical considerations, research planning, proposal writing, and effective presentation of findings.",
+        },
+        {
+          question: "Project Management",
+          subanswer:
+            "Code: C7-PMA-22<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "This module focuses on IT project management, teaching learners to organise, plan, and control projects. Students will learn project scheduling, risk management, resource allocation, and software estimation. They'll explore quality standards, build reliable software, and create cost estimations. Teamwork, interpersonal skills, and applying standard methodologies are emphasised.",
         },
       ],
     },
     {
-      semester: "Semester 4 Elective Group One (Select One)",
+      semester: "Semester 4 Elective Group (Choose Two)",
       courses: [
+        {
+          question: "Cloud Computing",
+          subanswer:
+            "Code: C6-CLC-22<br/>Module Fees: $117<br/>Module Credits: 9",
+          answer:
+            "This module provides a hands-on study of Cloud computing, covering service models like IaaS, PaaS, SaaS, and BPaaS. Students will explore cloud security, risk management, cryptographic key management, and access control. They will also analyse cloud computing essentials, security baselines, and architectural concepts whilst implementing cloud security measures.",
+        },
+        {
+          question: "Emerging Technologies 1",
+          subanswer:
+            "Code: C6-EM1-22<br/>Module Fees: $117<br/>Module Credits: 9",
+          answer:
+            "This course explores the integration of educational technology into curriculum design, emphasising best practices, national standards, and emerging technologies.Students will research and apply IoT concepts, including its functionalities, applications, enabling technologies, and interoperability. They will also analyse challenges affecting IoT adoption across various industries and domains.",
+        },
         {
           question: "Cryptography",
           subanswer:
-            "Code: C6-CRG-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $117<br/>Module Credits: 9",
+            "Code: C6-CRG-22<br/>Module Fees: $117<br/>Module Credits: 9",
           answer:
             "This course explores cryptosystem principles and design, covering traditional, block, and stream ciphers, public/private key systems, hash functions, and network security. Students will analyse cryptographic goals, design principles, and attack vectors. They'll understand key management, security notions, and apply mathematical foundations like discrete logarithms and factorising.",
         },
         {
           question: "Mobile Operating Systems",
           subanswer:
-            "Code: C6-MOS-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $117<br/>Module Credits: 9",
+            "Code: C6-MOS-22<br/>Module Fees: $117<br/>Module Credits: 9",
           answer:
             "This module explores mobile operating systems, focusing on Android architecture. Students will learn about processes, threads, scheduling, concurrency, and synchronisation. Memory management, file systems, storage, and input/output mechanisms are also covered, providing a comprehensive understanding of mobile OS functionality and enhancement.",
         },
-      ],
-    },
-    {
-      semester: "Semester 4 Elective Group Two (Select One)",
-      courses: [
         {
           question: "Advanced Computer Networks",
           subanswer:
-            "Code: C6-ACN-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $117<br/>Module Credits: 9",
+            "Code: C6-ACN-22<br/>Prerequisite: C6-COM-22<br/>Module Fees: $117<br/>Module Credits: 9",
           answer:
             "This module advances networking knowledge, covering network architecture, protocols, and applications. Students will analyse packet-switched networks, implement web services, and explore wireless technologies. Topics include routing, security, multimedia networking, and network management, providing a comprehensive understanding of modern network infrastructure.",
         },
         {
-          question: "Optimization",
+          question: "Optimisation",
           subanswer:
-            "Code: C6-OPT-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $117<br/>Module Credits: 9",
+            "Code: E6-OPT-22<br/>Module Fees: $117<br/>Module Credits: 9",
           answer:
             "This module introduces Mathematical Optimisation, covering theory and algorithms for solving optimisation problems. Students will learn combinatorial algorithms and their underlying mathematics. They'll apply algorithms, interpret outputs, prove propositions, and determine optimisation problem geometries using linear algebra. Practical computations are emphasised, building a strong foundation in optimisation techniques.",
         },
       ],
     },
+
     {
       semester: "Semester 5",
       courses: [
         {
           question: "Probability and Statistics",
           subanswer:
-            "Code: E7-PAS-22<br/>Prerequisite: E6-DMC-22<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code: E7-PAS-22<br/>Prerequisite: E6-DMC-22<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module introduces statistical concepts for engineering, covering probability, random variables, and data analysis. Students will learn to describe data, compute probabilities,construct probability distributions, and apply binomial and normal distributions. Emphasis is on practical application, enabling students to critically evaluate data and draw reliable conclusions.",
         },
         {
           question: "Programming Skill 3",
           subanswer:
-            "Code: C7-PS3-22<br/>Prerequisite: C6-PS2-22<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code: C7-PS3-22<br/>Prerequisite: C6-PS2-22<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module introduces Data Science techniques using Python. Students will learn Python basics, loops, and control flows. Using NumPy and Pandas, they'll manipulate data structures like Series and DataFrames, performing data wrangling on numeric, string, and datetime data.The focus is on practical application for data analysis.",
         },
         {
-          question: "Data Visualization",
+          question: "Data Visualisation",
           subanswer:
-            "Code: C7-DVI-22<br/>Prerequisite: C6-DSA-22<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code: C7-DVI-22<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module explores data visualisation, covering theoretical foundations and practical skills.Students will learn design principles, analyse data-informed decisions, and apply concepts to projects. Using tools like Tableau, they'll create effective visualisations, connecting to data sources and ensuring data quality. Emphasis is on translating raw data into actionable insights.",
         },
-        {
-          question: "Project Management",
-          subanswer:
-            "Code: C7- PMA-22<br/>Prerequisite: C7-REM-22<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
-          answer:
-            "This module focuses on IT project management, teaching learners to organise, plan, and control projects. Students will learn project scheduling, risk management, resource allocation, and software estimation. They'll explore quality standards, build reliable software, and create cost estimations. Teamwork, interpersonal skills, and applying standard methodologies are emphasised.",
-        },
+
         {
           question: "Linear Algebra",
           subanswer:
-            "Code: E7-LAL-22 <br/>Prerequisite: E6-CAL-22<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code: E7-LAL-22 <br/>Prerequisite: E6-CAL-22<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module advances linear algebra, progressing from linear systems to abstract concepts.Students will solve diverse problems, understand theoretical mathematics, and explore topics like vector spaces, matrices, diagonalisation, inner product spaces, and groups. The module emphasises a transition from coordinate-based to abstract linear algebra.",
+        },
+        {
+          question: "Data Analytics",
+          subanswer:
+            "Code: C7-DAN-22<br/>Prerequisite: C7-DBS-22<br/>Module Fees: $156<br/>Module Credits: 12",
+          answer:
+            "This module builds foundational data analytics skills, focusing on data preparation, modelling, and statistical tools. Students will apply and interpret descriptive and inferential statistics, analyse computer output, and critically evaluate statistical applications in various contexts. The emphasis is on practical application and responsible data interpretation.",
         },
       ],
     },
@@ -266,78 +284,67 @@ export const bscindatascience = {
         {
           question: "Machine Learning",
           subanswer:
-            "Code: C7-MLE-22<br/>Prerequisite: C6-DSA-22<br/>Co-requisite: None<br/>Module Fees: $312<br/>Module Credits: 24",
+            "Code: C7-MLE-22<br/>Module Fees: $312<br/>Module Credits: 24",
           answer:
             "This module teaches effective machine learning techniques, combining theory with practical implementation. Students will solve tasks independently using tools like Jupyter Notebook, Anaconda, and Python. They'll derive principles, apply them to new problems, and understand best practices. Students will select appropriate tools for diverse applications, particularly in Human-Computer Interaction.",
         },
         {
           question: "Artificial Intelligence",
           subanswer:
-            "Code: C7-ARI-22<br/>Prerequisite: E6-DMC-22<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code: C7-ARI-22<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module introduces AI's core principles, techniques, and applications. Students will explore AI history, apply problem-solving and learning principles, and understand intelligent agents, neural networks, and expert systems. They'll discuss AI's scope, limitations, and societal impact, fostering a foundational understanding of the field.",
-        },
-        {
-          question: "Data Analytics",
-          subanswer:
-            "Code: C7-DAN-22<br/>Prerequisite: C7-DBS-22<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
-          answer:
-            "This module builds foundational data analytics skills, focusing on data preparation, modelling, and statistical tools. Students will apply and interpret descriptive and inferential statistics, analyse computer output, and critically evaluate statistical applications in various contexts. The emphasis is on practical application and responsible data interpretation.",
         },
       ],
     },
     {
-      semester: "Semester 6 Elective Group One (Select One)",
+      semester: "Semester 6 Elective Group(Choose Three)",
       courses: [
         {
-          question: "Emerging Technologies",
+          question: "Emerging Technologies 2",
           subanswer:
-            "Code: C7-EM2-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $117<br/>Module Credits: 9",
+            "Code: C7-EM2-22<br/>Module Fees: $117<br/>Module Credits: 9",
           answer:
             "This module explores emerging technologies, focusing on practical application and future trends. Students will design applications, develop algorithms, and critically evaluate technology's impact. They'll address ethical, legal, and social implications, assess intelligent devices, and analyse customer experience through data analytics. Emphasis is on developing critical thinking, communication, and problem-solving skills.",
         },
         {
-          question: "Nature Language Processing",
+          question: "Nature Language Engineering",
           subanswer:
-            "Code: C7-NLP-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $117<br/>Module Credits: 9",
+            "Code: C7-NLE-25<br/>Module Fees: $117<br/>Module Credits: 9",
           answer:
             "This module introduces Natural Language Processing (NLP), covering automated linguistic data processing from diverse sources. Students will learn core NLP principles, algorithms, and challenges, including language models, parsing, and text classification. Practical skills involve using state-of-the-art tools, creating NLP pipelines, and adapting existing models.",
         },
-      ],
-    },
-    {
-      semester: "Semester 6 Elective Group Two (Select One)",
-      courses: [
         {
           question: "Computational Biology",
           subanswer:
-            "Code: C7-CBI-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $117<br/>Module Credits: 9",
+            "Code: D7-CBI-22<br/>Module Fees: $117<br/>Module Credits: 9",
           answer:
             "This module introduces non-biological science students to key concepts in anatomy, physiology, pathology, and pharmacology, fostering interdisciplinary collaboration in health-related projects. Students will explore computational biology, bioinformatics, and data analytics whilst developing essential IT and statistical skills to solve biological problems, generate reports, and create professional presentations.",
         },
         {
           question: "Computational Finance",
           subanswer:
-            "Code: B7-CFI-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $117<br/>Module Credits: 9",
+            "Code: B7-CFI-22<br/>Module Fees: $117<br/>Module Credits: 9",
           answer:
             "This module equips students with programming skills to solve financial models using VBA and Python. They'll compute security values, price various options (American, European, Asian, barrier), and apply calibration techniques like Black-Scholes. Monte Carlo simulation for option pricing and Greek estimates is also covered, fostering practical financial modelling expertise.",
         },
         {
           question: "Computational Statistics",
           subanswer:
-            "Code: E7-COS-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $117<br/>Module Credits: 9",
+            "Code: E7-COS-22<br/>Module Fees: $117<br/>Module Credits: 9",
           answer:
             "This module focuses on computational statistics using R, enhancing data manipulation and visualisation skills. Students will learn computationally intensive techniques, applying them to real-world data. They'll master R programming, data management, and graphical representation. The module emphasises result interpretation, teamwork, and research skills, fostering practical statistical problem-solving abilities.",
         },
       ],
     },
+
     {
       semester: "Semester 7",
       courses: [
         {
           question: "Industrial Attachment",
           subanswer:
-            "Code: C7-PPR-22<br/>Prerequisite: 240 credits<br/>Co-requisite: None<br/>Module Fees: $780<br/>Module Credits: 60",
+            "Code: C7-PPR-22<br/>Prerequisite: 240 credits<br/>Module Fees: $780<br/>Module Credits: 60",
           answer:
             "This module bridges academic study with real-world work experience. Students will apply learned skills, reflect on their programme's relevance, and understand the importance of graduate profile traits. The focus is on practical application, professional development, and adapting to the work environment.",
         },
@@ -349,59 +356,54 @@ export const bscindatascience = {
         {
           question: "Multivariate Statistics",
           subanswer:
-            "Code: E7-MUS-22<br/>Prerequisite: E7-PAS-22<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code: E7-MUS-22<br/>Prerequisite: E7-PAS-22<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module explores multivariate data analysis, addressing high-dimensional data challenges. Students will learn geometric and algebraic foundations of techniques, applying them using R. The module covers models and methods for multivariate data, fostering familiarity with key techniques and the ability to analyse real-world datasets.",
         },
         {
           question: "Individual Project in Data Science",
           subanswer:
-            "Code: C7-PPR-22<br/>Prerequisite: C7-PMA-22<br/>Co-requisite: None<br/>Module Fees: $312<br/>Module Credits: 24",
+            "Code: C7-IPD-22<br/>Prerequisite: C7-REM-22<br/>Module Fees: $312<br/>Module Credits: 24",
           answer:
             "This module fosters independent problem-solving through student-selected projects. Students apply learned knowledge to complex issues, demonstrating practical understanding. The module emphasises lifelong learning, encouraging reflection on the skills and knowledge required for successful project completion.",
         },
         {
           question: "Professional Issues and Ethics",
           subanswer:
-            "Code: C7-PIE-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code: C7-PIE-22<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module explores ethical challenges in computing, covering topics like privacy, security, and intellectual property. Students will analyse computer crimes, software development ethics, and data protection. They'll apply ethical decision-making, understand IT professional responsibilities, and evaluate approaches to protect privacy and freedom of speech in the digital age.",
         },
       ],
     },
     {
-      semester: "Semester 8 Elective Group One (Choose One)",
+      semester: "Semester 8 Elective Group (Choose Two)",
       courses: [
         {
           question: "Big Data Databases",
           subanswer:
-            "Code: C7-BDD-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $117<br/>Module Credits: 9",
+            "Code: C7-BDD-22<br/>Module Fees: $117<br/>Module Credits: 9",
           answer:
             "This module explores big data's challenges in modelling, storage, and access. Students will learn to recognise big data characteristics, identify organisational benefits, distinguish data sources, apply security best practices, and understand the data lifecycle.",
         },
         {
           question: "Algorithm Analysis",
           subanswer:
-            "Code: C7-AAN-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $117<br/>Module Credits: 9",
+            "Code: C7-AAN-22<br/>Module Fees: $117<br/>Module Credits: 9",
           answer:
             "This module introduces students to algorithm analysis, covering step-by-step problem-solving procedures. By module end, students will: understand algorithm and data structure design techniques, apply data structures in algorithm implementation, design efficient algorithms, prove correctness, analyse efficiency, and understand fundamental algorithmic problems and solutions.",
         },
-      ],
-    },
-    {
-      semester: "Semester 8 Elective Group Two (Choose One)",
-      courses: [
         {
           question: "Big Data Technologies",
           subanswer:
-            "Code: C7-BDT-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $117<br/>Module Credits: 9",
+            "Code: C7-BDT-22<br/>Module Fees: $117<br/>Module Credits: 9",
           answer:
             "This module introduces the intersection of data engineering and data science for extracting knowledge from Big Data. Students will learn to use Big Data infrastructure, solve integration and storage challenges, perform data analytics, derive strategies for privacy and policy, and conduct original research on Big Data problems.",
         },
         {
           question: "Advanced Artificial Intelligence",
           subanswer:
-            "Code: C7-AAI-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $117<br/>Module Credits: 9",
+            "Code: C7-AAI-22<br/>Prerequisite: C7-ARI-22<br/>Module Fees: $117<br/>Module Credits: 9",
           answer:
             "This module teaches modern AI through coding and training machine learning algorithms. Students learn supervised and unsupervised methods, deep learning concepts, mathematical foundations, data preprocessing, and model evaluation. Practical examples cover reasoning, language, and image recognition.",
         },
@@ -3238,11 +3240,11 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
 
 export const bedinprimaryeducation = {
   heroContent: {
-    question: "BEd in Primary Education(English Language and Mathematics)",
+    question: "Bachelor of Education in Primary Education",
     image: "/images/courses-images/Bed in Primary.jpeg",
     downloadurl: `${baseUrl}BEdInPrimaryEducation.pdf`,
-    minPeriod: 4,
-    maxPeriod: 6,
+    typicalfulltimestudyperiod: 4,
+    // maxPeriod: 6,
     programmeCredit: "$13",
     totalProgrammeCredit: 520,
     noOfModules:
@@ -3257,23 +3259,23 @@ export const bedinprimaryeducation = {
       semester: "Semester 1",
       courses: [
         {
-          question: "Communication and Academic literacy Skills",
+          question: "Communication and Academic Literacy Skills",
           subanswer:
-            "Code: D5-CAS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
+            "Code: D5-CAS-23<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "This module equips student teachers with the knowledge, skills, and competences to develop learners’ foundational literacy - listening, speaking, reading, and writing - critical for academic success and future careers. It includes phonemic awareness, vocabulary, spelling, and comprehension, fostering effective communication and enabling learners to participate meaningfully in studies and professional contexts.",
         },
         {
           question: "Computer Skills Fundamentals",
           subanswer:
-            "Code: D5-CSF-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
+            "Code: D5-CSF-23<br/Module Fees: $260<br/>Module Credits: 20",
           answer:
             "This module introduces basic computer concepts essential for primary school teaching, learning, and everyday life. Learners explore key terminologies, use Microsoft Windows, and manage files and folders. It also covers fundamental features of MS Office applications – Word, Excel, Outlook, PowerPoint, and Access – equipping learners with practical digital skills.",
         },
         {
           question: "Introduction to Educational Psychology",
           subanswer:
-            "Code: D5-IEP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+            "Code: D5-IEP-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores key issues in education and their impact on teachers and learners. It emphasises understanding learners’ developmental stages and supporting learning effectively. Using educational psychology, it examines human behaviour, growth, learning processes, and experiences, deepening understanding and enhancing the ability to address diverse educational needs.",
         },
@@ -3281,14 +3283,14 @@ export const bedinprimaryeducation = {
           question:
             "Historical, Philosophical and Sociological Foundations of Education",
           subanswer:
-            "Code: D5-ICI-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+            "Code: D6-HPF-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module examines the historical, philosophical, and sociological foundations of education. It explores the history of education in various countries, the role of different stakeholders in shaping educational goals, and the origins of philosophy and sociology, highlighting contributions of key thinkers to educational thought and development.",
         },
         {
           question: "Introduction to Numeracy and Science for Teachers",
           subanswer:
-            "Code: D5-ICI-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+            "Code: D6-INS-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces and examines essential knowledge and skills in numeracy, science, and technology, providing a cross-curricular foundation vital for effectively teaching these subjects in primary schools.",
         },
@@ -3300,21 +3302,21 @@ export const bedinprimaryeducation = {
         {
           question: "Writing in English",
           subanswer:
-            "Code: D6-WEG-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+            "Code: D6-WIE-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module develops learners’ English writing skills for academic tasks such as essays and assignments, and prepares them for professional communication, including emails, reports, and formal documents. Primary school teachers must be well equipped with strong English writing skills for effective communication and lesson facilitation.",
         },
         {
           question: "Introduction to Chemistry and Physics",
           subanswer:
-            "Code: D6-ICP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+            "Code: D6-ICP-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces student teachers to fundamental concepts in chemistry and physics, covering the structure of matter, key quantitative and qualitative aspects of chemistry, and core principles of physics, including light, electricity, and sound.",
         },
         {
           question: "Indigenous People and their Environment",
           subanswer:
-            "Code: D6-ICP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+            "Code: D6-IPE-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module examines indigenous peoples, their origins, and their environments. It explores their social, cultural, economic, and political lives, highlighting the importance for student teachers to understand these communities’ past and contemporary socio-economic activities and social structures.",
         },
@@ -3322,7 +3324,7 @@ export const bedinprimaryeducation = {
           question:
             "Introductory Biology and Earth Science For Primary Teachers",
           subanswer:
-            "Code: D6-IBE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 10",
+            "Code: D6-IBE-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with the theoretical knowledge, skills, and abilities to understand and apply principles of biology and earth sciences, preparing them to integrate these concepts effectively into primary science teaching.",
         },
@@ -3334,14 +3336,14 @@ export const bedinprimaryeducation = {
         {
           question: "The Pronunciation of English",
           subanswer:
-            "Code: D6-TPE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+            "Code: D6-TPE-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module focuses on understanding how words and sentences interact to form speech, alongside pronunciation and grammatical foundations essential for communication. Learners explore key linguistic rules and structures necessary for effective teaching and learning in primary schools.",
         },
         {
           question: "English Linguistics",
           subanswer:
-            "Code: D6-ELG-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+            "Code: D6-ELG-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The study of English linguistics provides student teachers with a systematic understanding of how language functions, evolves, and influences communication. This module develops analytical skills to examine English structure – phonetics, morphology, syntax, semantics, and pragmatics – enhancing written and spoken communication in primary schools.",
         },
@@ -3353,7 +3355,7 @@ export const bedinprimaryeducation = {
         {
           question: "Introductory Mathematics",
           subanswer:
-            "Code: D6-ITM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits:20",
+            "Code: D6-ITM-23<br/>Module Fees: $260<br/>Module Credits:20",
           answer:
             "This module provides a solid foundation in core mathematical concepts, essential for applying mathematics across subjects. It develops basic mathematical skills and introduces their practical application in diverse problem-solving contexts.",
         },
@@ -3365,14 +3367,14 @@ export const bedinprimaryeducation = {
         {
           question: "Introduction to Educational Research",
           subanswer:
-            "Code: D6-IER-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+            "Code: D6-IER-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips learners with an understanding of research principles and the ability to evaluate different research methods. It examines how chosen theories, methods, and approaches shape the research process, ensuring student teachers are well grounded in basic research skills essential for effective primary school teaching and learning.",
         },
         {
           question: "Foundations of Mathematics",
           subanswer:
-            "Code: D7-FOM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
+            "Code: D7-FDM-25<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "This module explores the logical and philosophical foundations of mathematics, examining key concepts, principles, and methodologies in mathematical reasoning.",
         },
@@ -3380,16 +3382,16 @@ export const bedinprimaryeducation = {
         {
           question: "Project-Based Learning and Teaching",
           subanswer:
-            "Code: D7-PLT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+            "Code: D7-PLT-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module develops active learning, collaboration, and critical thinking skills. Students work on projects addressing real-world problems, creating solutions and presenting findings to an academic audience. Through this experiential approach, student teachers acquire 21st-century skills essential for effectively teaching and engaging modern learners.",
         },
         {
           question: "Strategies for Teaching Numeracy and Science in Schools",
           subanswer:
-            "Code: D7-STN-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
+            "Code: D7-STN-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module prepares Primary Education Science student teachers to select suitable teaching approaches, methods, techniques, and strategies for science instruction. It also equips them with the skills to develop schemes of work, lesson plans, and engage in microteaching and teaching practice effectively.",
+            "This module equips student teachers with the knowledge and skills to select appropriate approaches, methods, techniques, and strategies for effectively teaching numeracy and science in schools.",
         },
 
         // cut
@@ -3401,7 +3403,7 @@ export const bedinprimaryeducation = {
         {
           question: "Introduction to Reading Process",
           subanswer:
-            "Code: D6-IRP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130.00<br/>Module Credits: 10",
+            "Code: D6-IRP-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module develops learners into independent readers, emphasising the use of context, dictionaries, and tables of contents. It fosters thoughtful responses to texts, enhancing creative and critical thinking while promoting clear, purposeful reading and comprehension.",
         },
@@ -3417,33 +3419,33 @@ export const bedinprimaryeducation = {
         {
           question: "Introductory Set and Number Theory",
           subanswer:
-            "Code: D6-ISN-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-ISN-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module helps student teachers understand fundamental branches of mathematics, including sets and their relationships, and the properties and relationships of numbers such as integers. It provides a foundation for modern mathematics and its core concepts.",
         },
       ],
     },
     {
-      semester: "Semester 3 - Elective Group One (Choose One)",
+      semester: "Semester 3 - Elective Group (Choose One)",
       courses: [
         {
           question: "Counselling over a Life Span",
           subanswer:
-            "Code: D6-COL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-COL-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with the knowledge and skills to provide counselling services to clients. It covers key aspects, including attachment, school adjustment, social skills, identity formation, peer relationships, emotional regulation, and risk behaviours, preparing teachers to support learners’ personal and social development effectively.",
         },
         {
           question: "Foundations of Early Childhood Education",
           subanswer:
-            "Code: D6-FEC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-FEC-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces student teachers to essential principles, knowledge, and practices for effective teaching and learning of young children from birth to age eight. It covers child development, learning theories, supportive environments, curriculum design, and pedagogy to enhance early childhood education.",
         },
         {
           question: "Foundations of Environmental Education",
           subanswer:
-            "Code: D6-FEE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-FEE-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module enables student teachers to explore environmental issues and create awareness to address related problems. It examines human interaction with the environment, covering topics such as climate change, pollution, sustainability, environmental health, and waste management to promote informed and responsible practices.",
         },
@@ -3455,21 +3457,21 @@ export const bedinprimaryeducation = {
         {
           question: "Practitioner Research",
           subanswer:
-            "Code: D7-PRE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-PRE-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces student teachers to practice-based research aimed at enhancing teaching and learning. It equips them with the knowledge, skills, and competences necessary to improve their professional practice as primary school educators.",
         },
         {
           question: "Human Growth and Development",
           subanswer:
-            "Code: D7-HGD-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-HGD-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module examines aspects of human growth and development, including physical, cognitive, emotional, social, and moral changes across the lifespan, and their educational implications. Stages covered include infancy, childhood, adolescence, and adulthood.",
         },
         {
           question: "Assessment in Primary Schools",
           subanswer:
-            "Code: D7-APS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-APS-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module develops learners’ theoretical knowledge and skills in understanding and applying assessment principles. It focuses on using these principles effectively to assess primary science learning, ensuring meaningful evaluation of student progress and achievement.",
         },
@@ -3477,14 +3479,14 @@ export const bedinprimaryeducation = {
           question:
             "Information and Communication Technology Application in Schools",
           subanswer:
-            "Code: D7-ICT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-ICT-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with the skills and competences to apply information technologies in teaching 21st-century learners.",
         },
         {
           question: "Strategies for Teaching Literacy in Schools",
           subanswer:
-            "Code: D6-STL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-STL-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with strategies for teaching literacy across the curriculum using thematic and pedagogical approaches. Learners develop skills to integrate literacy into daily activities and design instruction with informative, narrative, and persuasive texts, supported by key theories of literacy acquisition and contextual understanding.",
         },
@@ -3496,7 +3498,7 @@ export const bedinprimaryeducation = {
         {
           question: "Poetry of Southern Africa",
           subanswer:
-            "Code: D7-PSA-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-PSA-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores the role of poetry in fostering language, creativity, emotional intelligence, and critical thinking. Student teachers learn how poetry enhances teaching and learning, particularly at the primary school level, and master its benefits as an educational tool.",
         },
@@ -3508,19 +3510,19 @@ export const bedinprimaryeducation = {
         {
           question: "Teaching Methods for Mathematics in Primary Schools",
           subanswer:
-            "Code: D7-TMM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-TMM-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces effective teaching strategies and techniques for primary school mathematics, exploring appropriate pedagogies, purposes, scope, sequence, materials, and methodologies. It supports students in meeting essential requirements for primary teaching through the development of practical, evidence-based skills for effective mathematics instruction and learning.",
         },
       ],
     },
     {
-      semester: "Semester 4 Elective Group Two (Choose One)",
+      semester: "Semester 4 Elective Group (Choose One)",
       courses: [
         {
           question: "Listening, Composing and Performing",
           subanswer:
-            "Code: D6-LCP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-LCP-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores the core processes of music engagement – listening, composing, and performing. Student teachers examine how these activities are interconnected and the role of music education in enhancing learning at the primary school level.",
         },
@@ -3528,15 +3530,16 @@ export const bedinprimaryeducation = {
           question:
             "Organisation and Administration of Physical Education and Sports",
           subanswer:
-            "Code: D6-AOP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-AOP-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with the knowledge, skills, and competences for effective organisation and management of physical education and sports. It covers leadership qualities and key functions – planning, organising, staffing, directing, coordinating, controlling, evaluating, and innovating – to deliver efficient, high-quality physical activity programmes.",
         },
         {
           question:
-            "Practical Art, Craft and Design Methods and Materials for Schools",
+            "Practical Art, Craft and Design Skills for the Classroom Teacher",
+
           subanswer:
-            "Code: D6-PAC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-PAC-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces primary education student teachers to the importance of arts, crafts, and design methods for effective teaching and learning. Topics include drawing, painting, sculpture, printmaking, product design, and clay modelling, with opportunities to apply theoretical knowledge through practical activities.",
         },
@@ -3548,36 +3551,36 @@ export const bedinprimaryeducation = {
         {
           question: "Instructional Materials",
           subanswer:
-            "Code: D7-IMP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-IMP-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips learners with the knowledge and skills to design, develop, evaluate, and use instructional materials that enhance teaching and learning experiences.",
         },
         {
           question:
-            "Education for Children with Attention Deficit Hyper Disorder",
+            " Education for Children with Attention Deficit Hyperactivity Disorder",
           subanswer:
-            "Code: D7-ECD-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-ECD-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with the knowledge, skills, and competences to effectively support and facilitate learning for children with Attention Deficit Hyperactivity Disorder (ADHD).",
         },
         {
           question: "Infusing Environmental Education in the Curriculum",
           subanswer:
-            "Code: D7-IEE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-IEE-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module enables learners to understand how their decisions and actions affect the environment. It builds skills to address complex environmental issues and explores practical ways to promote a healthy, sustainable future.",
         },
         {
           question: "Characteristics of Human Language",
           subanswer:
-            "Code: D7-CHL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-CHL-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with the skills and competences to understand and express the characteristics of human language. It analyses topics such as arbitrariness, productivity, creativity, duality of patterning, cultural transmission, and interchangeability.",
         },
         {
           question: "Conducting Remedial Teaching in Schools",
           subanswer:
-            "Code: D7-CRT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-CRT-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module develops theoretical knowledge in selecting suitable teaching approaches, methods, techniques, and strategies for effectively planning and delivering remedial classes in primary schools.",
         },
@@ -3589,7 +3592,7 @@ export const bedinprimaryeducation = {
         {
           question: "Theory and Practice of Second Language Teaching",
           subanswer:
-            "Code: D7-TPS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-TPS-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces key theories of second language acquisition, enabling learners to apply effective classroom teaching strategies. It also examines challenges in second language learning and guides learners in designing interventions to support student progress.",
         },
@@ -3601,19 +3604,19 @@ export const bedinprimaryeducation = {
         {
           question: "Geometry for Primary School Teachers",
           subanswer:
-            "Code: D7-GPT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-GPT-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores the combinatorial properties of geometric objects – point sets, subspace arrangements, convex polytopes, and geometric graphs – introducing fundamental concepts, key structures, and selected results in the field.",
         },
       ],
     },
     {
-      semester: "Semester 5 Elective Group Three (Choose One)",
+      semester: "Semester 5 Elective Group (Choose One)",
       courses: [
         {
           question: "Multicultural Counselling",
           subanswer:
-            "Code: D7-MCC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-MCC-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces student teachers to multicultural counselling, focusing on how culture influences mental health and well-being. Using a therapeutic approach, it covers cultural awareness, cultural sensitivity, gender, race, socio-economic background, cultural competence, and strategies for addressing systemic issues.",
         },
@@ -3621,14 +3624,14 @@ export const bedinprimaryeducation = {
           question:
             "Appropriate Art, Craft and Design Methods and Materials for School",
           subanswer:
-            "Code: D7-ACD-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-ACD-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces primary school student teachers to appropriate art, craft, and design methods and materials for effective teaching and learning. It covers drawing, painting, collage, simple sculpture, and textile work, fostering creativity in the classroom.",
         },
         {
           question: "Motor Learning and Human Performance",
           subanswer:
-            "Code: D7-MLH-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-MLH-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with the knowledge and skills to master motor skills essential for physical activity, development, and well-being. Topics include motor skill acquisition, practice methods, feedback, cognitive factors, and individual differences.",
         },
@@ -3641,21 +3644,21 @@ export const bedinprimaryeducation = {
           question:
             "Organising and Implementing Remedial Programmes in Schools",
           subanswer:
-            "Code: D7-OIR-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-OIR-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with the knowledge and skills to organise and implement remedial programmes in schools. It covers planning, approaches, and strategies for the successful delivery of such programmes to support learners’ academic progress.",
         },
         {
           question: "Managing Education for Sustainable Development",
           subanswer:
-            "Code: D6-MES-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-MES-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module fosters appreciation and respect for nature, raising awareness of environmental issues affecting communities and the world. It promotes understanding of the relationship between individuals, society, and the environment, equipping learners with knowledge and skills for sustainable and harmonious human–environment interaction.",
         },
         {
           question: "Literacy across the Curriculum",
           subanswer:
-            "Code: D7-LAC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-LAC-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module highlights the importance of integrating literacy across all curriculum areas. Student teachers learn to develop reading, writing, speaking, and listening skills in subjects such as mathematics, science, and social studies, not solely within English language arts.",
         },
@@ -3667,14 +3670,14 @@ export const bedinprimaryeducation = {
         {
           question: "The Structure of the Sentence",
           subanswer:
-            "Code: D7-TSS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-TSS-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module teaches sentence structure, focusing on declarative, interrogative, imperative, and exclamative forms. Learners identify, construct, and explain each type, understanding their purpose. Mastery of sentence structure is essential for academic success and effective communication, particularly in primary school teaching and learning.",
         },
         {
           question: "Teaching Reading in the Primary School",
           subanswer:
-            "Code: D7-TRP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-TRP-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with the knowledge and skills for effective teaching of the reading process in primary schools. It covers strategies to make reading enjoyable, relevant, and suited to children’s interests and comprehension within a supportive, well-structured learning environment.",
         },
@@ -3686,40 +3689,40 @@ export const bedinprimaryeducation = {
         {
           question: "Teaching Number System in the Primary Schools",
           subanswer:
-            "Code: D7-TNS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-TNS-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with the knowledge, skills, and competences for effective teaching of the number system in primary schools. It emphasises hands-on, engaging learning, guiding learners from the known to the unknown through real-world examples to enhance understanding and application.",
         },
         {
           question: "Teaching Algebra in Schools",
           subanswer:
-            "Code: D7-TAS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-TAS-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module prepares primary school teachers to plan and deliver algebra lessons suited to learners’ developmental levels. It builds the knowledge and skills needed to teach algebra effectively and confidently in primary schools.",
         },
       ],
     },
     {
-      semester: "Semester 6 Elective Group Four (Choose One)",
+      semester: "Semester 6 Elective Group(Choose One)",
       courses: [
         {
           question: "Curriculum Development in Early Childhood Education",
           subanswer:
-            "Code: D7-CDE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-CDE-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module prepares student teachers for effective curriculum design, planning, and the development of instructional design models in early childhood education.",
         },
         {
           question: "Substance Abuse Counselling",
           subanswer:
-            "Code: D7-SAC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-SAC-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with the knowledge and skills to effectively address cases of alcoholism, addiction, and depression among students.",
         },
         {
-          question: "Environmental Conservation Strategies",
+          question: "Environmental Conservation Strategies I",
           subanswer:
-            "Code: D7-ECS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-ECS-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces student teachers to environmental conservation and strategies for protecting the environment. Topics include waste management, energy conservation, tree planting, and promoting sustainable transportation to support ecological balance and long-term sustainability.",
         },
@@ -3731,35 +3734,35 @@ export const bedinprimaryeducation = {
         {
           question: "Modern English Grammar",
           subanswer:
-            "Code: D7-MEG-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-MEG-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module examines English grammar theories and applications from the Early Modern English period to the present. It focuses on analysing spoken and written texts using traditional, structural, and modern linguistic theories, enabling learners to describe, analyse, and construct language at word, phrase, clause, and discourse levels.",
         },
         {
           question: "Usage in English",
           subanswer:
-            "Code: D7-UIE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-UIE-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module teaches student teachers the principles and practice of English language usage, focusing on how words and phrases are used. It emphasises appropriate and effective usage within sentences, a skill essential for teaching at the primary school level.",
         },
         {
           question: "Literature in Primary Schools",
           subanswer:
-            "Code: D7-LIP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-LIP-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces student teachers to various forms of prose, both fiction and non-fiction, including essays, autobiographies, short stories, and novels, and provides a brief overview of other literary genres such as poetry and drama.",
         },
         {
           question: "Breakthrough to Literacy",
           subanswer:
-            "Code: D7-BTL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-BTL-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips future teachers with strategies for teaching literacy across the curriculum. Learners explore thematic and pedagogical approaches, integrate literacy into daily lessons, and design instruction using informative, narrative, and persuasive texts, supported by theories of literacy acquisition and relevant contextual frameworks.",
         },
         {
           question: "Strategies in Teaching Literacy in Schools",
           subanswer:
-            "Code: D7-STL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-SIN-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module focuses on strategies for teaching literacy in primary schools, emphasising phonics, fluency, vocabulary, and comprehension. Student teachers gain the knowledge and skills to incorporate engaging activities, making literacy teaching and learning enjoyable and effective in primary classrooms.",
         },
@@ -3771,54 +3774,54 @@ export const bedinprimaryeducation = {
         {
           question: "Mathematical Applications for Teachers",
           subanswer:
-            "Code: D7-MAT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-MAT-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module prepares students for life, work, and further study in a world of continuous learning. It strengthens mathematical knowledge, skills, and concepts through practical, analytical, and problem-solving tasks, encouraging integration with other modules.",
         },
         {
           question: "Teaching School Mathematics",
           subanswer:
-            "Code: D7-TSM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-TSM-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module prepares student teachers for effective mathematics teaching at the primary school level. It emphasises creating a positive learning environment through concrete materials and real-world applications, enabling teachers to build learners’ strong foundation in number sense, place value, and problem-solving skills.",
         },
         {
           question: "The Use of Technology in Teaching Primary Mathematics",
           subanswer:
-            "Code: D7-UTM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-UTM-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module helps student teachers enhance the teaching and learning of primary school mathematics through technology, making concepts more engaging, visual, and interactive. It emphasises the need for 21st-century teachers to integrate technology for improved student engagement and teaching effectiveness.",
         },
         {
           question: "Calculus",
           subanswer:
-            "Code: D8-CLS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: D8-CLS-25<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "This module introduces learners to differential calculus and its applications, with no prior knowledge required. Topics include functions and graphs, powers and roots, limits, rates of change, and derivatives. Learners apply differentiation rules, explore exponential and logarithmic functions, and use derivatives for graph sketching and optimisation.",
         },
       ],
     },
     {
-      semester: " SEMESTER 7 ELECTIVE GROUP FIVE (CHOOSE ONE)	",
+      semester: " SEMESTER 7 ELECTIVE GROUP (CHOOSE ONE)	",
       courses: [
         {
           question: "Consultations in Schools and Community Settings",
           subanswer:
-            "Code: D7-CSC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-CSC-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module highlights the importance of school–community relations. It examines how counsellors or psychologists work with teachers and parents to address learner issues. Topics include consultation, consultative services, collaboration, and building partnerships between schools and communities to support student development and well-being.",
         },
         {
           question: "Theory of Moral Education",
           subanswer:
-            "Code: D7-TME-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-TME-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module examines the role of moral education in shaping learners’ character at the primary school level. Topics include morality in educational settings, moral formation, moral inquiries, moral education theories, and the overall importance of moral education.",
         },
         {
           question: "Scientific Basis of Coaching and Officiating",
           subanswer:
-            "Code: D7-SBC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-SBC-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This physical education module introduces student teachers to the theory and practice of physical activities and athletic performance. Topics include coaching, kinesiology, physiology, motor learning, sports psychology, cognitive science, psychology of officiating, ethics and integrity, communication, integration, and mental skills training.",
         },
@@ -3830,7 +3833,7 @@ export const bedinprimaryeducation = {
         {
           question: "Teaching Practice",
           subanswer:
-            "Code: D7-TPC-23<br/>Prerequisite: 240 credits<br/>Co-requisite: None<br/>Module Fees: $780<br/>Module Credits: 60",
+            "Code: D7-TPC-23<br/>Prerequisite: 240 credits<br/>Module Fees: $780<br/>Module Credits: 60",
           answer:
             "This module provides student teachers with practical classroom experience, bridging theory and practice. It prepares them for the realities of teaching by building skills, confidence, and adaptability in real educational settings.",
         },
@@ -4063,15 +4066,15 @@ export const postgraduatediplomainhighereducation = {
 
 export const medinleadershipandmanagement = {
   heroContent: {
-    question: "MEd in Leadership and Management",
+    question: "Master of Educational Leadership and Management",
     image: "/images/courses-images/Med in educational leadership and mgmt.jpeg",
     downloadurl: `${baseUrl}MasterOfEduLeadershipManagement.pdf`,
-    minPeriod: 2,
-    maxPeriod: 4,
+    typicalfulltimestudyperiod: 2,
+    // maxPeriod: 4,
     programmeCredit: "$19.50",
-    totalProgrammeCredit: 240,
+    totalProgrammeCredit: 248,
     noOfModules: "14 (13 core + 1 elective)",
-    totalFee: "$4680",
+    totalFee: "$4836",
     cta: true,
     timer: true,
     overview: true,
@@ -4083,37 +4086,37 @@ export const medinleadershipandmanagement = {
         {
           question: "Educational Leadership and Curriculum Development",
           subanswer:
-            "Code: D9-ELC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+            "Code: D8-ELC-25<br/>Module Fees: $234<br/>Module Credits: 12",
           answer:
-            "This module will equip a learner with a comprehensive overview of the development of educational leadership and curriculum, taking into account the relationship between educational leadership and curriculum development.",
+            "This module provides an overview of educational leadership and curriculum development, examining their interrelationship. It equips learners with knowledge of leadership principles, curriculum design, and the ways in which effective leadership influences curriculum development and implementation to enhance educational practice and outcomes.",
         },
         {
           question: "Advanced Educational Technology",
           subanswer:
-            "Code: D9-AET-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+            "Code: D9-AET-25<br/>Module Fees: $234<br/>Module Credits: 12",
           answer:
-            "The module enables a learner to make effective use of technology in designing, developing, planning and evaluating e-learning activities in their teaching and to understand the concepts of open, distant and mobile learning using educational technology.",
+            "This module equips learners to use technology effectively in designing, developing, planning, and evaluating e-learning activities. It also introduces the concepts of open, distance, and mobile learning, enabling learners to integrate educational technology into teaching practice and enhance the delivery of modern learning environments.",
         },
         {
           question: "Strategic Management in Education",
           subanswer:
-            "Code: D9-SME-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+            "Code: D8-SME-25<br/>Module Fees: $234<br/>Module Credits: 12",
           answer:
-            "This module will equip a learner with the knowledge, skills and competencies needed to enable them undertake an in-depth strategic analysis and management of an educational setting and organisation.",
+            "This module develops the knowledge, skills, and competencies required for strategic management in education. Learners will undertake in-depth strategic analysis of educational settings and organisations, applying management principles to enhance decision-making, leadership, and organisational performance within the educational context.",
         },
         {
           question: "Education Policy and Law",
           subanswer:
-            "Code: D9-EPL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+            "Code: D7-EPL-25<br/>Module Fees: $234<br/>Module Credits: 12",
           answer:
-            "This module will provide a learner with a conceptual and operational guide for understanding the critical linkages in the policy - planning and legal processes for education.",
+            "This module provides a conceptual and practical understanding of the linkages between education policy, planning, and legal processes. Learners will examine how policies are developed and implemented within legal frameworks, and how these processes shape decision-making, governance, and accountability in educational contexts.",
         },
         {
           question: "Educational Research",
           subanswer:
-            "Code: D9-EDR-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $234.00<br/>Module Credits: 12",
+            "Code: D8-EDR-25<br/>Module Fees: $234<br/>Module Credits: 12",
           answer:
-            "The module will enable a learner to establish the connection between theory and practice of educational leadership and management through research activities, and also evaluate policy changes.",
+            "This module enables learners to connect theory and practice in educational leadership and management through research activities. It develops skills in designing and conducting research, analysing findings, and evaluating policy changes, fostering evidence-based decision-making within educational contexts.",
         },
       ],
     },
@@ -4123,30 +4126,30 @@ export const medinleadershipandmanagement = {
         {
           question: "School Administration, Supervision, and Instruction",
           subanswer:
-            "Code: D9-ASI-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $234.00<br/>Module Credits: 12",
+            "Code: D8-ASI-25<br/>Module Fees: $234<br/>Module Credits: 12",
           answer:
-            "The module will equip a learner with the knowledge, skills and competencies to enable them foster effective school administration, supervision and instructional processes in schools.",
+            "This module equips learners with the knowledge, skills, and competencies to promote effective school administration, supervision, and instructional practices. It focuses on leadership, management, and instructional support processes that strengthen accountability, efficiency, and quality teaching and learning within school environments.",
         },
         {
           question: "Educational Cost and Financial Analysis",
           subanswer:
-            "Code: D9-ECF-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $234.00<br/>Module Credits: 12",
+            "Code: D8-ECF-25<br/>Module Fees: $234<br/>Module Credits: 12",
           answer:
-            "The module will equip a learner with the knowledge, skills and competencies to enable them become more proficient in their financial management roles, and understand the complex financial underpinnings of educational organisations.",
+            "This module equips learners with the knowledge, skills, and competencies required for financial management in education. It develops proficiency in analysing costs, budgets, and resource allocation, while fostering an understanding of the complex financial structures and dynamics that underpin effective management of educational organisations.",
         },
         {
           question: "Human Resources Administration in Education",
           subanswer:
-            "Code: D9-HRA-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $234.00<br/>Module Credits: 12",
+            "Code: D9-HRA-23<br/>Module Fees: $234<br/>Module Credits: 12",
           answer:
-            "This module will provide a learner with theoretical and practical knowledge about the process of recruitment, establishing good relationships with employees, staff training, development and retention and compensating them for the services being rendered to the educational system.",
+            "This module provides learners with theoretical and practical knowledge of human resource administration in education. It covers recruitment, employee relations, staff training, development, retention, and compensation, equipping learners with the skills to manage personnel effectively and support the growth and sustainability of educational institutions.",
         },
         {
           question: "Research Proposal",
           subanswer:
-            "Code: D9-RPL-23<br/>Prerequisite: D9-EDR-23<br/>Co-requisite: None<br/>Module Fees: $702<br/>Module Credits: 36",
+            "Code: D9-RPL-25<br/>Prerequisite: D9-EDR-25<br/>Module Fees: $702<br/>Module Credits: 36",
           answer:
-            "The module will enable learners gain a deeper understanding of research by exposing them to both the theoretical and practical aspects of educational research. The learners are expected to write research proposals in a manner that improves teaching, research and other aspects of Education.",
+            "This module deepens learners’ understanding of educational research by integrating theoretical and practical perspectives. Learners are required to design and present a research proposal that demonstrates the application of research skills to improve teaching, learning, and wider educational practice, fostering professional growth and institutional development.",
         },
       ],
     },
@@ -4156,49 +4159,49 @@ export const medinleadershipandmanagement = {
         {
           question: "Education Society and Community Relations",
           subanswer:
-            "Code: D9-ESC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $234.00<br/>Module Credits: 12",
+            "Code: D9-ESC-23<br/>Module Fees: $234<br/>Module Credits: 12",
           answer:
-            "The module will equip a learner with the knowledge, skills and competencies to enable them connect and establish good relationships with the society and community that they belong to. The module will highlight that the school and the community are inseparable and that good relationships between the school and the community will help improve the quality of education given to the pupils and students.",
+            "This module equips learners with the knowledge, skills, and competencies to build effective relationships between schools and communities. It emphasises the interdependence of education and society, demonstrating how strong school-community partnerships enhance educational quality and contribute to the holistic development of pupils, students, and the wider community.",
         },
         {
           question: "Quality Management in Education",
           subanswer:
-            "Code: D9-QME-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $234.00<br/>Module Credits: 12",
+            "Code: D9-QME-23<br/>Module Fees: $234<br/>Module Credits: 12",
           answer:
-            "This module aims to equip the learners with the knowledge, skills and competences that will help them to master the art of quality management in education. The learners will learn about the principles and techniques of developing, improving and maintaining the quality of educational processes, services, and products.",
+            "This module equips learners with the knowledge, skills, and competencies required for quality management in education. It explores principles and techniques for developing, improving, and maintaining the quality of educational processes, services, and products, enabling learners to apply quality assurance frameworks to enhance institutional effectiveness and performance.",
         },
         {
-          question: "Dissertation 1 (Year module)",
+          question: "Dissertation 1",
           subanswer:
-            "Code: D9-DI1-23<br/>Prerequisite: D9-RPL-23<br/>Co-requisite: None<br/>Module Fees: $468<br/>Module Credits: 24",
+            "Code: D9-DI1-23<br/>Prerequisite: D9-RPL-25<br/>Module Fees: $468<br/>Module Credits: 24",
           answer:
-            "The module will enable a learner gain a deeper understanding of research by exposing them to both the theoretical and practical aspects of educational research. The learners are expected to explore the findings of these researches in a manner that improves teaching, research and other aspects of Education.",
+            "This module builds on the research proposal, deepening learners’ understanding of educational research through theoretical and practical perspectives. Learners are required to review and analyse research findings, applying insights to improve teaching, learning, and wider educational practice, while strengthening their ability to engage critically with evidence.",
         },
       ],
     },
     {
-      semester: "Semester 3 Elective Group One (Choose One)",
+      semester: "Semester 3 Elective Group (Choose One)",
       courses: [
         {
           question: "Decision Making in Secondary and Tertiary Institutions",
           subanswer:
-            "Code: D9-DST-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $234.00<br/>Module Credits: 12",
+            "Code: D9-DST-23<br/>Module Fees: $234<br/>Module Credits: 12",
           answer:
-            "The module will equip a learner with the knowledge, competences and skills needed to facilitate informed decision making in schools and institutions and enable educational decision makers engage in a more ethical and professional judgement.",
+            "This module equips learners with the knowledge, skills, and competencies required for informed decision-making in secondary and tertiary institutions. It emphasises ethical and professional judgement, enabling educational leaders and decision-makers to apply structured approaches to problem-solving and policy implementation within diverse educational contexts.",
         },
         {
           question: "Education Reforms and Curriculum Development",
           subanswer:
-            "Code: D9-ERC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $234.00<br/>Module Credits: 12",
+            "Code: D9-ERC-23<br/>Module Fees: $234<br/>Module Credits: 12",
           answer:
-            "The module aims to equip a learner with the knowledge and skills necessary to analyze, design, and implement effective curriculum changes and education policies.",
+            "This module equips learners with the knowledge and skills to analyse, design, and implement curriculum reforms and education policies. It examines the drivers of educational change, the processes of curriculum development, and the implications of reform, enabling learners to contribute to effective and sustainable improvements in education.",
         },
         {
           question: "Leadership and Management in Education",
           subanswer:
-            "Code: D9-LME-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $234.00<br/>Module Credits: 12",
+            "Code: D9-LME-23<br/>Module Fees: $234<br/>Module Credits: 12",
           answer:
-            "This module will equip the learner with the knowledge, skills and competencies needed for effective educational leadership and management in schools and institutions.",
+            "This module equips learners with the knowledge, skills, and competencies required for effective leadership and management in education. It focuses on principles and practices that support sound decision-making, organisational improvement, and professional effectiveness in schools and educational institutions",
         },
       ],
     },
@@ -4206,11 +4209,11 @@ export const medinleadershipandmanagement = {
       semester: "Semester 4",
       courses: [
         {
-          question: "Dissertation II (Year module)",
+          question: "Dissertation 2",
           subanswer:
-            "Code: D9-DI2-23<br/>Prerequisite: D9-DI1-23<br/>Co-requisite: None<br/>Module Fees: $1092<br/>Module Credits: 56",
+            "Code: D9-DI2-23<br/>Prerequisite: D9-DI1-23<br/>Module Fees: $1092<br/>Module Credits: 56",
           answer:
-            "The module will enable a learner gain a deeper understanding of research by exposing them to both the theoretical and practical aspects of educational research. The learners are expected to explore the findings of these researches in a manner that improves teaching, research and other aspects of Education.",
+            "This module advances the work undertaken in Dissertation 1, enabling learners to apply theoretical and practical aspects of educational research. Learners are required to analyse research findings in depth and present a dissertation that contributes to improving teaching, learning, and wider educational practice.",
         },
       ],
     },
@@ -4279,14 +4282,14 @@ export const medinleadershipandmanagement = {
 
 export const medincurriculumdesignandinstruction = {
   heroContent: {
-    question: "MEd in Curriculum Design and Instruction",
+    question: "Master of Education in Curriculum Design and Instruction",
     image: "/images/courses-images/Med in curriculum.jpeg",
     downloadurl: `${baseUrl}MasterOfCurriculumDesignDevp.pdf`,
-    minPeriod: 2,
-    maxPeriod: 4,
+    typicalfulltimestudyperiod: 2,
+    // maxPeriod: 4,
     programmeCredit: "$19.50",
     totalProgrammeCredit: 240,
-    noOfModules: "13 (11 core + 2 electives)",
+    noOfModules: "15 (12 core + 3 electives)",
     totalFee: "$4680",
     cta: true,
     timer: true,
@@ -4299,30 +4302,37 @@ export const medincurriculumdesignandinstruction = {
         {
           question: "Learning, Teaching and Assessment",
           subanswer:
-            "Code: D9-LTA-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+            "Code: D8-LTA-25<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "This module enables a learner to develop the competency, knowledge and skills to enhance the effectiveness of teaching and assessment practice and be able to apply this to the curriculum development and instruction process.",
+            "This module enables learners to develop the knowledge, skills, and competencies required to enhance teaching and assessment practices. It emphasises the application of effective approaches to curriculum development and instructional processes, supporting improved learning outcomes and professional practice in educational contexts.",
         },
         {
           question: "Theories of Curriculum Development",
           subanswer:
-            "Code: D9-TCD-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+            "Code: D8-TCD-25<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "The module will enable a learner to familarise themselves with different theories of Curriculum development and instruction and be able to apply those theories in the learning and teaching processes.",
+            "This module enables learners to familiarise themselves with key theories of curriculum development and instruction. It emphasises the application of these theories to learning and teaching processes, fostering an understanding of how theoretical perspectives inform curriculum design, implementation, and evaluation in educational practice.",
         },
         {
           question: "Computer Applications in Education",
           subanswer:
-            "Code: D9-CAE-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+            "Code: D9-CAE-25<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
-            "The module aims at introducing fundamental concepts of information technology to the learner which they will apply in their teaching and learning, collaboration with stakeholders and research in education.",
+            "This module introduces fundamental concepts of information technology and their application in education. Learners will apply digital tools to support teaching and learning, collaborate effectively with stakeholders, and enhance research practices, thereby strengthening technological integration in educational contexts.",
         },
         {
           question: "Foundations of Curriculum Design and Development",
           subanswer:
-            "Code: D9-FCD-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+            "Code: D8-FCD-25<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "The aim of this module is to introduce a learner to the theoretical and practical aspects of the foundations of curriculum design and development. Curriculum Development is one of the foundation courses of education. It is imperative that learners master the foundations of curriculum design and development to guide them in curriculum development and instruction",
+            "This module introduces learners to the theoretical and practical foundations of curriculum design and development. As a core element of education, it emphasises the principles that guide curriculum construction and instruction, ensuring learners acquire the knowledge and skills necessary to engage effectively in curriculum planning and implementation.",
+        },
+        {
+          question: "Instructional Strategies Using Internet",
+          subanswer:
+            "Code: D9-ISI-22<br/>Module Fees: $195<br/>Module Credits: 10",
+          answer:
+            "This module introduces instructional strategies for online learning, highlighting the flexibility it provides for learners to study at their own pace and in varied settings. It contrasts online learning with traditional face-to-face approaches, emphasising the opportunities for adaptable teaching and learning beyond rigid schedules.",
         },
       ],
     },
@@ -4330,51 +4340,51 @@ export const medincurriculumdesignandinstruction = {
       semester: "Semester 2",
       courses: [
         {
-          question: "Instructional Strategies Using Internet",
-          subanswer:
-            "Code: D9-ISI-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
-          answer:
-            "Online learning gives learners the opportunity to study at their own pace in their own convenient settings, be it in the office or at home. The learners are thus not subject to the rigours of face to face learning that takes place in accordance to strict teaching and learning schedule.",
-        },
-        {
           question: "Curriculum Design and Development",
           subanswer:
-            "Code: D9-CDD-22<br/>Prerequisite: D9-FCD-22<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+            "Code: D9-CDD-22<br/>Prerequisite: D9-FCD-25<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
-            "The module gives a learner a critical understanding of the drivers and processes of curriculum/course design and development and a critical understanding of curriculum development models. Learners will be equipped with the competency to critique, evaluate, design and develop a quality based curricula.",
+            "This module provides a critical understanding of the drivers, processes, and models of curriculum design and development. Learners will develop the competencies to critique, evaluate, design, and implement quality curricula, enabling them to apply curriculum development principles effectively in educational contexts.",
         },
         {
           question: "Research Methods",
           subanswer:
-            "Code: D9-REM-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+            "Code: D9-REM-22<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
-            "The module enables a learner to establish the connection between theory and practice of curriculum development and instruction through research activities, and also evaluate policy changes as they affect curriculum in education .",
+            "This module develops learners’ ability to connect theory and practice in curriculum development and instruction through research activities. It also equips them to evaluate policy changes affecting education, fostering the skills required to design, conduct, and analyse research that informs curriculum practice and educational decision-making.",
+        },
+        {
+          question: "Assessment and Moderation in Outcomes-Based Education",
+          subanswer:
+            "Code: D8-ABE-22<br/>Module Fees: $195<br/>Module Credits: 10",
+          answer:
+            "This module develops a critical understanding of assessment and moderation within Outcomes-Based Education (OBE). Learners will apply OBE principles to teaching, learning, and evaluation, gaining the knowledge and competencies required to implement effective assessment strategies and ensure quality assurance in contemporary educational practice.",
         },
       ],
     },
     {
-      semester: "Semester 2 Elective Group One (Choose One)",
+      semester: "Semester 2 Elective Group (Choose One)",
       courses: [
         {
           question: "Learning Theories",
           subanswer:
-            "Code: D9-LTH-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+            "Code: D9-LTH-22<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "The rationale for this module is that learning theories provide a framework for the entire teaching and learning. Teachers can make informed decisions based on the learning needs of the learners by applying sound educational psychological principles derived from the framework and follow appropriate instructional practices.",
+            "This module introduces learning theories as frameworks that underpin teaching and learning. It enables learners to apply educational psychology principles to identify learning needs and adopt appropriate instructional practices. By engaging with major theoretical perspectives, learners develop informed approaches to enhance teaching effectiveness and student outcomes.",
         },
-        {
-          question: "Virtual Learning in Instruction",
-          subanswer:
-            "Code: D9-VLI-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
-          answer:
-            "This module provides a critical understanding of digital teaching and learning. It explores how to redesign content for virtual delivery and highlights the flexibility of online education. Learners examine the use of synchronous and asynchronous methods to support effective, accessible, and engaging learning for both educators and students.",
-        },
+        // {
+        //   question: "Virtual Learning in Instruction",
+        //   subanswer:
+        //     "Code: D9-VLI-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+        //   answer:
+        //     "This module provides a critical understanding of digital teaching and learning. It explores how to redesign content for virtual delivery and highlights the flexibility of online education. Learners examine the use of synchronous and asynchronous methods to support effective, accessible, and engaging learning for both educators and students.",
+        // },
         {
           question: "Comparative Education",
           subanswer:
-            "Code: D9-CED-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+            "Code: D9-CED-22<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "The rationale for this module is to equip learners with an understanding of the general educational concepts, education systems in various countries and implementation of international standards. It emphasises problem solving and making education more practical thereby improving economic aspects of education.",
+            "This module equips learners with an understanding of educational concepts, systems in different countries, and the implementation of international standards. It emphasises comparative analysis, problem-solving, and the practical application of education to address global challenges, while highlighting its role in improving economic and social development.",
         },
       ],
     },
@@ -4384,30 +4394,30 @@ export const medincurriculumdesignandinstruction = {
         {
           question: "Designing and Maintaining E-Learning",
           subanswer:
-            "Code: D9-DME-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+            "Code: D9-DME-25<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
-            "The modules enables a learner to make effective use of technology in designing, developing, planning and evaluating e-learning activities in their teaching and to understand the concepts of open, distance and mobile learning using educational technology.",
+            "This module enables learners to apply technology effectively in designing, developing, planning, and evaluating e-learning activities. It introduces the concepts of open, distance, and mobile learning, equipping learners with the skills to integrate educational technology into teaching practice and enhance the delivery of flexible, technology-supported learning.",
         },
         {
           question: "Curriculum Evaluation",
           subanswer:
-            "Code: D9-CEV-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+            "Code: D9-CEV-22<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
-            "The module empowers a learner with the knowledge, skills and competencies needed to demonstrate their understanding of curriculum evaluation and to see whether curriculum objectives are being met.",
+            "This module equips learners with the knowledge, skills, and competencies to evaluate curricula effectively. It focuses on assessing whether curriculum objectives are being achieved, fostering the ability to apply evaluation frameworks and methods that support continuous improvement in curriculum design, implementation, and educational outcomes.",
         },
+        // {
+        //   question: "Assessment and Moderation in Outcomes-based Education",
+        //   subanswer:
+        //     "Code: D9-ABE-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+        //   answer:
+        //     "This module enables learners to demonstrate a critical understanding of assessment and moderation within Outcomes Based Education (OBE). It equips them to apply OBE principles in teaching, learning, and evaluation, fostering competence in contemporary educational practice.",
+        // },
         {
-          question: "Assessment and Moderation in Outcomes-based Education",
+          question: "Dissertation 1",
           subanswer:
-            "Code: D9-ABE-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+            "Code: D9-DI1-25<br/>Prerequisite: D9-REM-22<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
-            "This module enables learners to demonstrate a critical understanding of assessment and moderation within Outcomes Based Education (OBE). It equips them to apply OBE principles in teaching, learning, and evaluation, fostering competence in contemporary educational practice.",
-        },
-        {
-          question: "Research Proposal",
-          subanswer:
-            "Code: D9-RSP-25<br/>Prerequisite: D9-REM-22<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
-          answer:
-            "To equip learners with the knowledge, skills and competency to be able to write an impactful research proposal in education.",
+            "This module equips learners with the knowledge, skills, and competencies required to design and present a research proposal in education. It develops the ability to frame research questions, apply appropriate methodologies, and produce proposals that demonstrate academic rigour and potential impact on educational practice.",
         },
       ],
     },
@@ -4415,37 +4425,37 @@ export const medincurriculumdesignandinstruction = {
       semester: "Semester 4",
       courses: [
         {
-          question: "Dissertation",
+          question: "Dissertation 2",
           subanswer:
-            "Code: D9-DIS-25<br/>Prerequisite: D9-RSP-25<br/>Co-requisite: None<br/>Module Fees: $780<br/>Module Credits: 40",
+            "Code: D9-DI2-25<br/>Prerequisite:D9-DI1-25<br/>Module Fees: $780<br/>Module Credits: 40",
           answer:
-            "The module will enable a learner to gain a deeper understanding of research by exposing them to both the theoretical and practical aspects of educational research. The learners are expected to explore the findings of these researches in a manner that improves teaching, research and other aspects of Higher Education.",
+            "This module builds on Dissertation 1 by deepening learners’ understanding of educational research through both theoretical and practical engagement. Learners are required to analyse research findings and present a dissertation that demonstrates academic rigour while contributing to the improvement of teaching, research, and wider practices in education.",
         },
       ],
     },
     {
-      semester: "Semester 4 Elective Group One (Choose One)",
+      semester: "Semester 4 Elective Group (Choose Two)",
       courses: [
         {
           question: "Contemporary Issues in Curriculum Development",
           subanswer:
-            "Code: D9-CCD-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+            "Code: D9-CHD-25<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "The module will enable a learner to explore the current issues affecting Higher Education and strategies of addressing the challenges. It is essential that learners be equipped with salient professional knowledge of contemporary educational issues. In addition, be able to critically analyse and reflect on the challenges and potentialities at institutional and individual levels.",
+            "This module enables learners to examine contemporary issues in higher education and strategies for addressing emerging challenges. It equips them with relevant professional knowledge while fostering the capacity to critically analyse and reflect on challenges and opportunities at both institutional and individual levels, promoting informed and responsive practice.",
         },
         {
           question: "Quality Frameworks in Education",
           subanswer:
-            "Code: D9-QFE-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+            "Code: D9-QHE-25<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "This module aims to give a learner critical understanding of international quality assurance methodologies, and the ability to place the Quality Frameworks in Botswana and Partner Institutions within this context.",
+            "This module provides a critical understanding of international quality assurance methodologies and their application in higher education. Learners will examine quality frameworks with particular reference to Botswana, developing the ability to contextualise local practices within broader international standards of quality assurance.",
         },
         {
           question: "Curriculum Analysis",
           subanswer:
-            "Code: D9-CUA-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+            "Code: D9-CUA-25<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "The module will enable a learner to master the art of curriculum analysis by being able to unpack the curriculum into different components. It is essential that learners be equipped with the knowledge, skills and competences needed for a thorough analysis of all the components of an already developed curriculum.",
+            "This module equips learners with the knowledge, skills, and competencies required for effective curriculum analysis. It develops the ability to deconstruct curricula into their component parts, fostering a critical understanding of how each element contributes to overall design, implementation, and evaluation within educational contexts.",
         },
       ],
     },
@@ -4517,8 +4527,8 @@ export const bscinnetworksecurityandcomputerforensics = {
     question: "BSc in Network Security and Computer Forensics",
     image: "/images/courses-images/BSc in network security.jpeg",
     downloadurl: `${baseUrl}BScInNetworkSecurityComputerForensics.pdf`,
-    minPeriod: 4,
-    maxPeriod: 6,
+    typicalfulltimestudyperiod: 4,
+    // maxPeriod: 6,
     programmeCredit: "$13",
     totalProgrammeCredit: 480,
     noOfModules: "37 (35 core + 2 elective)",
@@ -4532,37 +4542,37 @@ export const bscinnetworksecurityandcomputerforensics = {
       semester: "Semester 1",
       courses: [
         {
-          question: "Computer and Its Essentials 1",
+          question: "Computer and its Essentials 1",
           subanswer:
-            "Code: C5-CE1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C5-CE1-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module provides a foundational understanding of computers and their essentials, covering basic functions, hardware and software components, and how they operate. It explores the history and evolution of computers and data processing. Students will learn about Microsoft Office, with an emphasis on Microsoft Word and PowerPoint. Through hands-on activities and assessments, learners will develop a comprehensive understanding of computer essentials.",
         },
         {
           question: "Programming Logic and Design",
           subanswer:
-            "Code: C5-PLD-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C5-PLD-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module provides a foundation in programming principles, focusing on algorithm design, logical structures, and flowchart development. Students will learn problem-solving techniques essential for software development and cybersecurity applications. It covers key concepts such as variables, data types, control structures, and debugging, ensuring a solid understanding of programming fundamentals.",
         },
         {
           question: "Mathematics",
           subanswer:
-            "Code: C5-MAT-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C5-MAT-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module covers essential mathematical concepts used in computing, including Boolean algebra, logic gates, number systems, and probability theory. Students will develop analytical skills necessary for network security, encryption, and algorithm design. The module also explores set theory, discrete mathematics, and binary arithmetic, providing a strong mathematical foundation for computing applications.",
         },
         {
           question: "Operating Systems and Hardware",
           subanswer:
-            "Code: C5-OSH-11<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: C5-OSH-11<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "Students will explore the fundamentals of operating systems, hardware configurations, and system management. The module covers key concepts such as process management, memory allocation, file systems, and security protocols. Through hands-on experience in managing system resources, virtualisation, and troubleshooting, students will develop practical skills essential for IT administration and cybersecurity.",
         },
         {
           question: "Professional Issues and Ethics",
           subanswer:
-            "Code: C6-PIE-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C6-PIE-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module examines the ethical and legal issues in cybersecurity and computing, exploring topics such as data privacy, intellectual property rights, cybercrime laws, and professional responsibilities. Students will study cybersecurity policies, compliance regulations, and responsible digital practices, ensuring they develop ethical decision-making skills essential for technology and security professions.",
         },
@@ -4574,35 +4584,35 @@ export const bscinnetworksecurityandcomputerforensics = {
         {
           question: "Networking Fundamentals",
           subanswer:
-            "Code: C6-NEF-20<br/>Prerequisite: C5-CE1-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: C6-NEF-20<br/>Prerequisite: C5-CE1-20<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "This module provides an introduction to networking principles, covering network topology, protocols, IP addressing, and troubleshooting techniques. Students will explore key concepts such as LAN and WAN technologies, subnetting, routing, and network security fundamentals. This foundation prepares them for more advanced studies in networking, cybersecurity, and infrastructure management.",
         },
         {
           question: "Database Concepts",
           subanswer:
-            "Code: C6-DBC-20<br/>Prerequisite: C6-CE2-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C6-DBC-20<br/>Prerequisite: C6-CE2-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores the principles of database design, management, and security, covering data modelling, normalisation, and relational database concepts. Students will learn SQL for querying and managing data, as well as techniques for ensuring data integrity, access control, and protection against cyber threats, preparing them for database administration and security roles.",
         },
         {
           question: "Academic Writing for STEM",
           subanswer:
-            "Code: D6-AWS-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-AWS-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This specialised module enhances research and technical writing skills, focusing on academic documentation, citation techniques, and effective communication in STEM disciplines. Students will develop proficiency in structuring research papers, analysing scientific literature, and presenting technical information clearly and concisely, preparing them for academic and professional writing in technology fields.",
         },
         {
-          question: "Computer and Its Essentials 2",
+          question: "Computer and its Essentials 2",
           subanswer:
-            "Code: C6-CE2-20<br/>Prerequisite: C5-CE1-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C6-CE2-20<br/>Prerequisite: C5-CE1-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module builds on foundational computing skills, equipping students with advanced capabilities in Microsoft Excel and Google collaboration tools. It covers key spreadsheet functionalities, including data organisation, advanced formulas, chart creation, and data analysis using pivot tables. Additionally, students will explore Google Docs, Spreadsheets, Forms, and Drive to enhance online collaboration and information sharing.",
         },
         {
           question: "Essentials of Linux",
           subanswer:
-            "Code: C6-EOL-20<br/>Prerequisite: C5-OSH-11<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C6-EOL-20<br/>Prerequisite: C5-OSH-11<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces Linux operating systems, focusing on essential command-line operations, system security, and user management. Students will explore file system structure, permissions, and process management while gaining hands-on experience with open-source networking tools. The module also covers system administration tasks, preparing students for careers in Linux-based environments and security.",
         },
@@ -4619,19 +4629,20 @@ export const bscinnetworksecurityandcomputerforensics = {
             "Students will learn forensic investigation techniques, data recovery methods, and evidence collection strategies essential for cybercrime investigations. The module covers digital evidence handling, forensic imaging, malware analysis, and incident response procedures. Through practical exercises, students will develop the skills needed to analyse cyber incidents and support legal proceedings in cybersecurity.",
         },
         {
-          question: "Programming Using C++",
-          subanswer:
-            "Code: C6-IPC-11<br/>Prerequisite: C5-PLD-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
-          answer:
-            "This module introduces students to C++ programming, covering programming logic, object-oriented principles, and software development methodologies for cybersecurity applications. Students will learn about data structures, memory management, and algorithm design while developing secure and efficient code. Hands-on projects reinforce problem-solving skills essential for software development and cybersecurity solutions.",
-        },
-        {
           question: "Computer Forensics Lab",
           subanswer:
             "Code: C6-CFL-23<br/>Prerequisite: C5-OSH-11<br/>Co-requisite: C6-CFO-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This hands-on lab module provides practical experience in forensic investigation techniques, including disk imaging, data recovery, and malware analysis. Students will use industry-approved and standardised tools to examine digital evidence, detect security breaches, and analyse cyber threats. The module enhances critical thinking and technical skills essential for cybersecurity and forensic professionals.",
         },
+        {
+          question: "Programming Using C++",
+          subanswer:
+            "Code: C6-IPC-11<br/>Prerequisite: C5-PLD-20<br/>Module Fees: $260<br/>Module Credits: 20",
+          answer:
+            "This module introduces students to C++ programming, covering programming logic, object-oriented principles, and software development methodologies for cybersecurity applications. Students will learn about data structures, memory management, and algorithm design while developing secure and efficient code. Hands-on projects reinforce problem-solving skills essential for software development and cybersecurity solutions.",
+        },
+
         {
           question: "Routing and Switching",
           subanswer:
@@ -4655,35 +4666,35 @@ export const bscinnetworksecurityandcomputerforensics = {
         {
           question: "Scripting for Cyber Security",
           subanswer:
-            "Code: C7-SCS-23<br/>Prerequisite: C6-IPC-11<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: C7-SCS-25<br/>Prerequisite: C6-IPC-11<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "Students will learn scripting techniques using Python, PowerShell, and Bash to automate security tasks such as threat detection, incident response, and vulnerability assessments. The module covers scripting fundamentals, regular expressions, and automation frameworks, equipping students with the skills to develop efficient security scripts and streamline cybersecurity operations.",
         },
         {
           question: "Principles of Cyber Security",
           subanswer:
-            "Code: C6-PCS-23<br/>Prerequisite: C6-NEF-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C6-PCS-25<br/>Prerequisite: C6-NEF-20<br/><br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "An introduction to core cybersecurity principles, including risk assessment, threat modelling, and security frameworks used to protect digital assets. Students will explore attack vectors, defensive strategies, and ethical considerations in cybersecurity. This module builds foundational knowledge essential for understanding cybersecurity threats, vulnerabilities, and best practices in securing systems.",
         },
         {
           question: "Operating System Forensics",
           subanswer:
-            "Code: C6-OSF-23<br/>Prerequisite: C6-CFO-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C6-OSF-23<br/>Prerequisite: C6-CFO-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module focuses on forensic techniques used to analyse and investigate security breaches within operating systems. Students will study file system analysis, memory forensics, log analysis, and malware detection. Practical exercises using forensic tools will enhance their ability to extract, preserve, and interpret digital evidence in cybercrime investigations.",
         },
         {
           question: "Network Security",
           subanswer:
-            "Code: C6-NSE-20<br/>Prerequisite: C6-NEF-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C6-NSE-20<br/>Prerequisite: C6-NEF-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "Students will explore network defence strategies, including firewall configurations, intrusion detection systems, and encryption protocols. The module covers key topics such as VPNs, security policies, and secure network design. Practical labs ensure students develop hands-on skills in detecting and mitigating network-based cyber threats and vulnerabilities.",
         },
         {
           question: "Wireless and Mobile Security",
           subanswer:
-            "Code: C6-WMS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C6-WMS-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module examines the security risks in wireless networks, mobile devices, and IoT environments. Topics include wireless encryption, authentication protocols, access control mechanisms, and mobile application security. Students will gain hands-on experience in securing wireless infrastructures, detecting vulnerabilities, and implementing security policies for mobile and IoT devices.",
         },
@@ -4695,35 +4706,35 @@ export const bscinnetworksecurityandcomputerforensics = {
         {
           question: "Information and Data Security",
           subanswer:
-            "Code: C7-IDS-23<br/>Prerequisite: C6-CFO-23, C6-CFL-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C7-IDS-23<br/>Prerequisite: C6-CFO-23, C6-CFL-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "Students will study data protection strategies, including access control models, cryptographic methods, and compliance with security standards. The module covers data classification, secure storage solutions, and identity management. Students will learn how to safeguard sensitive data against breaches, unauthorised access, and cyber threats in various computing environments.",
         },
         {
           question: "Ethical Hacking",
           subanswer:
-            "Code: C7-EHK-13<br/>Prerequisite: C6-PCS-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: C7-EHK-13<br/>Prerequisite: C6-PCS-23<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "A hands-on module covering penetration testing techniques, vulnerability assessments, and ethical hacking methodologies to identify and mitigate security threats. Students will explore network scanning, exploitation techniques, and countermeasures. The module emphasises ethical considerations, legal implications, and responsible disclosure in conducting cybersecurity assessments and penetration testing engagements.",
         },
         {
           question: "Software Defined Network Engineering",
           subanswer:
-            "Code: C7-SDN-20<br/>Prerequisite: C6-RSW-20, C6-RSL-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C7-SDN-20<br/>Prerequisite: C6-RSW-20, C6-RSL-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces software-defined networking (SDN) concepts, exploring network automation, virtualisation, and programmable network infrastructure. Students will learn about SDN controllers, network function virtualisation (NFV), and security challenges in SDN environments. Hands-on labs provide experience in deploying, managing, and securing SDN architectures in modern networks.",
         },
         {
           question: "Forensic Investigation Techniques",
           subanswer:
-            "Code: C7-FIT-23<br/>Prerequisite: C6-OSF-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C7-FIT-23<br/>Prerequisite: C6-OSF-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "Students will gain expertise in forensic methodologies, digital evidence handling, and cybercrime investigation frameworks. The module covers forensic imaging, log analysis, data recovery, and malware forensics. Practical exercises using industry-standard tools will enhance students’ ability to conduct forensic investigations and support legal proceedings in cybersecurity incidents.",
         },
         {
           question: "Cryptographic Techniques",
           subanswer:
-            "Code: C7-CGT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C7-CGT-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module covers encryption algorithms, key management, and secure communication techniques essential for cybersecurity professionals. Topics include symmetric and asymmetric encryption, digital signatures, and hashing techniques. Students will learn cryptographic protocols, secure data transmission methods, and cryptanalysis techniques used to protect and verify digital information.",
         },
@@ -4735,56 +4746,56 @@ export const bscinnetworksecurityandcomputerforensics = {
         {
           question: "Research Methods for STEM",
           subanswer:
-            "Code: C7-RMS-20<br/>Prerequisite: C5-MAT-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C7-RMS-20<br/>Prerequisite: C5-MAT-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "An introduction to research methodologies, focusing on data analysis, hypothesis testing, and experimental design in computing and cybersecurity. Students will learn literature review techniques, research proposal development, and ethical considerations in research. This module prepares students for conducting independent studies and technical research in STEM fields.",
         },
         {
           question: "Malware Analysis",
           subanswer:
-            "Code: C7-MAN-13<br/>Prerequisite: C6-NSE<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: C7-MAN-25<br/>Prerequisite: C6-NSE-20<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "Students will study malware behaviour, reverse engineering techniques, and threat intelligence analysis to combat cyber threats. The module covers static and dynamic malware analysis, sandboxing, and exploit detection. Practical labs provide experience in analysing real-world malware samples and developing strategies to mitigate and defend against cyberattacks.",
         },
         {
           question: "Advanced Ethical Hacking",
           subanswer:
-            "Code: C7-AEH-23<br/>Prerequisite: C7-EHK-13<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C7-AEH-23<br/>Prerequisite: C7-EHK-13<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "An advanced module that delves deeper into penetration testing, exploit development, and security bypass techniques. Students will explore buffer overflow attacks, privilege escalation, advanced reconnaissance, and post-exploitation tactics. Ethical and legal considerations are emphasised, ensuring students develop responsible hacking skills for cybersecurity defence.",
         },
         {
           question: "Mobile Forensics",
           subanswer:
-            "Code: C7-MFO-20<br/>Prerequisite: C6-CFO-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C7-MFO-20<br/>Prerequisite: C6-CFO-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module focuses on mobile device security, data extraction techniques, and forensic investigation of smartphones and tablets. Students will analyse mobile operating systems, encrypted communications, and deleted data recovery. Hands-on labs provide experience in using forensic tools to investigate mobile security incidents and cybercrime cases.",
         },
       ],
     },
     {
-      semester: "Semester 6 Elective Group One (Choose One)	",
+      semester: "Semester 6 Elective Group (Choose One)	",
       courses: [
         {
           question: "Internet of Things",
           subanswer:
-            "Code: C7-IOT-23<br/>Prerequisite: C6-NEF-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C7-IOT-23<br/>Prerequisite: C6-NEF-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores IoT security challenges, device vulnerabilities, and secure implementation strategies in interconnected environments. Students will study IoT architectures, network protocols, and attack surfaces in smart devices. Hands-on labs will provide experience in securing IoT ecosystems, detecting threats, and implementing best practices to mitigate cyber risks in IoT networks.",
         },
         {
           question: "Cloud Computing and Security",
           subanswer:
-            "Code: C7-CCS-20<br/>Prerequisite: C6-NEF-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C7-CCS-20<br/>Prerequisite: C6-NEF-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores the principles of cloud computing and its associated security challenges. Students will learn about cloud architectures, virtualisation, data protection strategies, and compliance with cloud security frameworks. The course also covers risk management, identity and access control, and best practices for securing cloud environments from cyber threats.",
         },
         {
           question: "Security by Design",
           subanswer:
-            "Code: C7-SDE-20<br/>Prerequisite: C6-NSE-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C7-SDE-20<br/>Prerequisite: C6-NSE-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "Security by Design focuses on integrating security measures at the core of software and system development. Students will study secure coding principles, threat modelling, and vulnerability mitigation techniques. The module emphasises proactive security strategies, ensuring that applications and networks are resilient against cyber threats from the early stages of development.",
+            "This module focuses on integrating security measures at the core of software and system development. Students will study secure coding principles, threat modelling, and vulnerability mitigation techniques. The module emphasises proactive security strategies, ensuring that applications and networks are resilient against cyber threats from the early stages of development.",
         },
       ],
     },
@@ -4794,54 +4805,54 @@ export const bscinnetworksecurityandcomputerforensics = {
         {
           question: "Cyber Crime Investigation",
           subanswer:
-            "Code: C8-CCI-23<br/>Prerequisite: C7-FIT-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C7-CCI-25<br/>Prerequisite: C7-FIT-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "Students will explore legal and investigative approaches to cybercrime, including fraud, identity theft, and digital evidence collection. The module covers case analysis, cyber laws, forensic reporting, and courtroom procedures. Practical exercises will enhance students’ ability to conduct cybercrime investigations and support law enforcement efforts.",
         },
         {
           question: "Research Project 1: Proposal Writing",
           subanswer:
-            "Code: C7-RP1-20<br/>Prerequisite: C7-RMS-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C7-RP1-20<br/>Prerequisite: C7-RMS-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "A preparatory module for research projects, where students develop research proposals and methodologies for cybersecurity topics. Students will learn academic writing, literature review techniques, and research design principles. This module ensures they are equipped to plan and justify their research effectively before conducting their studies.",
         },
         {
           question: "Cyber Law",
           subanswer:
-            "Code: C7-CYL-23<br/>Prerequisite: C6-PCS-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C7-CYL-23<br/>Prerequisite: C6-PCS-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module examines legal frameworks, data protection laws, and regulatory compliance in cybersecurity. Topics include intellectual property rights, cybercrime legislation, and digital privacy laws. Students will analyse case studies and learn how cybersecurity policies align with national and international legal standards.",
         },
         {
           question: "Entrepreneurship and Innovation",
           subanswer:
-            "Code: B8-ENI-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: B8-ENI-20<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
-            "An entrepreneurial module that encourages students to develop business strategies, cybersecurity start-ups, and innovation-driven solutions. Topics include business planning, financial management, market analysis, and risk assessment. Students will explore emerging technologies and learn how to turn cybersecurity innovations into viable business ventures.",
+            "The purpose of this module is to equip students with the knowledge and skills necessary to understand entrepreneurial processes and behaviours. It explores the fundamentals of entrepreneurship, including the creation and development of business ideas, and the essential steps in crafting a comprehensive business plan for successful ventures.",
         },
       ],
     },
     {
-      semester: "Semester 7 Elective Group One (Choose One)",
+      semester: "Semester 7 Elective Group (Choose One)",
       courses: [
         {
           question: "Media and Storage",
           subanswer:
-            "Code: C8-MAS-20<br/>Prerequisite: C6-CFO-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C8-MAS-20<br/>Prerequisite: C6-CFO-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module covers digital media storage technologies, data retention policies, and storage security. Students will explore topics such as file systems, disk encryption, cloud storage solutions, and secure data backup methodologies. Practical exercises will help students understand how to manage, protect, and recover digital assets efficiently and securely.",
         },
         {
           question: "Media Forensics",
           subanswer:
-            "Code: C8-MEF-23<br/>Prerequisite: C6-CFO-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C8-MEF-23<br/>Prerequisite: C6-CFO-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "Media Forensics focuses on the investigation and analysis of digital media, including images, videos, and audio files. Students will learn forensic techniques for detecting tampering, recovering deleted media, and verifying the authenticity of digital evidence. The module prepares students for forensic analysis roles in cybercrime investigations.",
+            "This module focuses on the investigation and analysis of digital media, including images, videos, and audio files. Students will learn forensic techniques for detecting tampering, recovering deleted media, and verifying the authenticity of digital evidence. The module prepares students for forensic analysis roles in cybercrime investigations.",
         },
         {
           question: "Information Security Management and Governance",
           subanswer:
-            "Code: C8-ISG-23<br/>Prerequisite: C6-PIE-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C8-ISG-23<br/>Prerequisite: C6-PIE-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module provides a comprehensive understanding of information security policies, risk management, and compliance with cybersecurity regulations. Students will explore governance frameworks such as ISO 27001 and NIST, learning how to develop and implement security policies that align with organisational and legal requirements.",
         },
@@ -4853,14 +4864,14 @@ export const bscinnetworksecurityandcomputerforensics = {
         {
           question: "Research Project 2: Dissertation",
           subanswer:
-            "Code: C8-RP2-20<br/>Prerequisite: C7-RP1-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: C8-RP2-20<br/>Prerequisite: C7-RP1-20<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "A capstone project requiring students to conduct independent research, analyse cybersecurity challenges, and present findings. Students will apply research methodologies, collect data, and produce a well-structured dissertation. This module develops their analytical and problem-solving skills in addressing real-world cybersecurity issues.",
         },
         {
           question: "Professional Practice in Computing",
           subanswer:
-            "Code: C7-PPC-20<br/>Prerequisite: 240 credits<br/>Co-requisite: None<br/>Module Fees: $520<br/>Module Credits: 40",
+            "Code: C7-PPC-20<br/>Prerequisite: 240 credits<br/>Module Fees: $520<br/>Module Credits: 40",
           answer:
             "A work-integrated learning module that provides students with industry exposure, project management skills, and hands-on cybersecurity experience. Students will work on real-world projects, collaborate with industry professionals, and develop technical and professional competencies essential for their careers in cybersecurity and computing.",
         },
@@ -4929,14 +4940,14 @@ export const bscinnetworksecurityandcomputerforensics = {
 };
 export const medinhighereducation = {
   heroContent: {
-    question: "MEd in Higher Education",
+    question: "Masters of Education in Higher Education",
     image: "/images/courses-images/Med in higher education.jpeg",
     downloadurl: `${baseUrl}MedInHigherEducation.pdf`,
-    minPeriod: 2,
-    maxPeriod: 4,
+    typicalfulltimestudyperiod: 2,
+    // maxPeriod: 4,
     programmeCredit: "$19.50",
     totalProgrammeCredit: 240,
-    noOfModules: "14 (11 core + 3 elective)",
+    noOfModules: "12 (9 core + 3 elective)",
     totalFee: "$4,680",
     cta: true,
     timer: true,
@@ -4949,30 +4960,30 @@ export const medinhighereducation = {
         {
           question: "Learning, Teaching and Assessment",
           subanswer:
-            "Code: D9-LTA-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+            "Code: D9-LTA-22<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
-            "This module develops learners’ competence in effective teaching and assessment practices. It builds a strong foundation in educational theories and principles, guiding their application to various learning environments. Learners explore classroom practice and align assessment methods to outcomes, ensuring meaningful, constructive feedback.",
+            "This module develops learners’ competence in effective teaching and assessment practices. It establishes a foundation in educational theories and principles, supporting their application across diverse learning environments. Learners examine classroom practice and align assessment methods with intended outcomes, ensuring constructive feedback that enhances teaching quality and student learning.",
         },
         {
           question: "Intergrated Foundations of Education",
           subanswer:
-            "Code: D9-IFE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
+            "Code: D9-IFE-25<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
-            "This module enables learners to appreciate the value of educational foundations and their role in the education process. It explores ideological, philosophical, psychological, sociological, and historical perspectives, examining their influence on teaching methods and aims. Learners also analyse the reciprocal relationship between education, culture, society, and psychology.",
+            "This module enables learners to appreciate the importance of educational foundations and their role in the teaching and learning process. It examines ideological, philosophical, psychological, sociological, and historical perspectives, highlighting their influence on educational aims and methods. Learners also analyse the interrelationship between education, culture, society, and psychology.",
         },
-        {
-          question: "Research in Higher Education",
-          subanswer:
-            "Code: D9-RHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
-          answer:
-            "This module equips a learner with lifelong research skills that will empower them to continually seek and apply new knowledge throughout their career.",
-        },
+        // {
+        //   question: "Research in Higher Education",
+        //   subanswer:
+        //     "Code: D9-RHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
+        //   answer:
+        //     "This module equips a learner with lifelong research skills that will empower them to continually seek and apply new knowledge throughout their career.",
+        // },
         {
           question: "Academic Writing",
           subanswer:
-            "Code: D9-ACW-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+            "Code: D9-ACW-25<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
-            "This module equips a learner with the knowledge, skills and competences in practicing and improving their writing and reading in English. The students must be able to absorb and producing academic work for practical usage.",
+            "This module equips learners with the knowledge, skills, and competencies required for effective academic reading and writing in English. It develops the ability to interpret, structure, and produce academic work with clarity and precision, supporting learners in applying these skills for practical and scholarly purposes.",
         },
       ],
     },
@@ -4982,101 +4993,122 @@ export const medinhighereducation = {
         {
           question: "Educational Technology and e-Learning",
           subanswer:
-            "Code: D9-ETE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
+            "Code: D9-ETE-25<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
-            "This module enables a learner to make effective use of technology in designing, developing, planning and evaluating e-learning activities in their teaching and to understand the concepts of open, distant and mobile learning using educational technology.",
+            "This module enables learners to use technology effectively in designing, developing, planning, and evaluating e-learning activities. It introduces the concepts of open, distance, and mobile learning, equipping learners with the skills to integrate educational technology into teaching and learning for enhanced accessibility and instructional effectiveness.",
         },
         {
           question: "Curriculum Design and Development",
           subanswer:
-            "Code: D9-CDD-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
+            "Code: D9-CDD-22<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
-            "This module equips a learner with critical understanding of the drivers and processes of curriculum/course design and development and a critical understanding of curriculum development models. Learners will be equipped with the competency to critique, evaluate, design and develop a quality based curricula.",
+            "This module equips learners with a critical understanding of the drivers, processes, and models of curriculum design and development. It develops the competencies to critique, evaluate, and design curricula, enabling learners to apply principles of quality curriculum development effectively in educational contexts.",
         },
         {
-          question: "Professional Academic in Action 1",
+          question: "Professional Academic in Action",
           subanswer:
-            "Code: D9-PPA1-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+            "Code: D9-PPA-24<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
-            "This module enables a learner to enhance learning, teaching and assessment practice through the theory and practice of quality teaching, and learning principles. The module will equip the learners with theoretical and practical skills to enable them reflect on their professional practice as teachers.",
+            "This teaching practice module enables student teachers to apply learning, teaching, and assessment in real classroom settings. It provides opportunities to put theory into practice, reflect on professional experiences, and develop the skills and confidence necessary to prepare for a successful career in teaching.",
         },
       ],
     },
-    {
-      semester: "Semester 2 Elective Group One (Choose One)",
-      courses: [
-        {
-          question: "Quality Framework in Higher Education",
-          subanswer:
-            "Code: D9-QHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
-          answer:
-            "This module aims to give tutors a critical understanding of international quality assurance methodologies, and the ability to place the Quality Frameworks in Botswana and Partner Institutions within this context; to enable tutors to understand the implications for curriculum design and delivery.",
-        },
-        {
-          question: "Globalisation in Higher Education",
-          subanswer:
-            "Code: D9-GHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
-          answer:
-            "This module will expose the learner to issues of globalization in higher education and the strategies used by higher education institutions to respond to these. Students will study conceptual frameworks linking higher education institutions to economic competitiveness in a global economy and critically analyse recent national and international reports on this topic.",
-        },
-        {
-          question: "Contemporary Issues in Higher Education",
-          subanswer:
-            "Code: D9-CHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
-          answer:
-            "The module will enable learners to explore the current issues affecting Higher Education and strategies of addressing the challenges. It is essential that learners will be equipped with salient professional knowledge of contemporary educational issues. In addition, analyse and critically reflect on the challenges and potentialities at institutional and individual levels.",
-        },
-      ],
-    },
+    // {
+    //   semester: "Semester 2 Elective Group One (Choose One)",
+    //   courses: [
+    //     {
+    //       question: "Quality Framework in Higher Education",
+    //       subanswer:
+    //         "Code: D9-QHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+    //       answer:
+    //         "This module aims to give tutors a critical understanding of international quality assurance methodologies, and the ability to place the Quality Frameworks in Botswana and Partner Institutions within this context; to enable tutors to understand the implications for curriculum design and delivery.",
+    //     },
+    //     {
+    //       question: "Globalisation in Higher Education",
+    //       subanswer:
+    //         "Code: D9-GHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+    //       answer:
+    //         "This module will expose the learner to issues of globalization in higher education and the strategies used by higher education institutions to respond to these. Students will study conceptual frameworks linking higher education institutions to economic competitiveness in a global economy and critically analyse recent national and international reports on this topic.",
+    //     },
+    //     {
+    //       question: "Contemporary Issues in Higher Education",
+    //       subanswer:
+    //         "Code: D9-CHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+    //       answer:
+    //         "The module will enable learners to explore the current issues affecting Higher Education and strategies of addressing the challenges. It is essential that learners will be equipped with salient professional knowledge of contemporary educational issues. In addition, analyse and critically reflect on the challenges and potentialities at institutional and individual levels.",
+    //     },
+    //   ],
+    // },
     {
       semester: "Semester 3",
       courses: [
         {
-          question: "Professional Academic in Action 2",
+          question: "Research in Higher Education",
           subanswer:
-            "Code: D9-PPA2-24<br/>Prerequisite: D9-PPA1-24<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+            "Code: D9-RHE-25<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
-            "This module is designed to enable student teachers put into practice the theory attained in D8- PPA 1- 15 and reflect on their professional practice. Teaching is a profession. It is therefore, very crucial for student teachers to engage in teaching practice exercise to effectively prepare them for the teaching career.",
+            "This module equips learners with lifelong research skills, enabling them to seek and apply new knowledge throughout their careers. As part of the module, learners are required to develop a research proposal that will form the foundation of their dissertation in the final semester.",
         },
         {
-          question: "Dissertation (Year module)",
+          question: "Assessment and Moderation in Outcomes-Based Education",
           subanswer:
-            "Code: D9-DI1-24<br/>Prerequisite: D9-RHE-24<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
+            "Code:D9-ABE-25<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "The module will enable learners gain a deeper understanding of research by exposing them to both the theoretical and practical aspects of educational research. The learners are expected to explore the findings of these researches in a manner that improves teaching, research and other aspects of HE.",
+            "This module develops a critical understanding of assessment and moderation within Outcomes-Based Education (OBE). Learners will apply OBE principles to teaching, learning, and evaluation, gaining the knowledge and competencies required to implement effective assessment strategies and ensure quality assurance in contemporary educational practice.",
         },
-        {
-          question: "Assessment and Moderation in Outcomes-based Education",
-          subanswer:
-            "Code: D9-ABE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
-          answer:
-            "This module equips learners with theoretical and practical skills for conducting assessment and moderation based on Outcomes-Based Education (OBE). It emphasises learner-centred approaches, enabling educators to apply OBE principles effectively in teaching, learning, assessment, and moderation within educational institutions.",
-        },
+        // {
+        //   question: "Assessment and Moderation in Outcomes-based Education",
+        //   subanswer:
+        //     "Code: D9-ABE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+        //   answer:
+        //     "This module equips learners with theoretical and practical skills for conducting assessment and moderation based on Outcomes-Based Education (OBE). It emphasises learner-centred approaches, enabling educators to apply OBE principles effectively in teaching, learning, assessment, and moderation within educational institutions.",
+        // },
       ],
     },
     {
-      semester: "Semester 3 Elective One (Choose Two)",
+      semester: "Semester 3 Elective Group (Choose Three)",
       courses: [
+        {
+          question: "Quality Framework in Higher Education",
+          subanswer:
+            "Code: D9-QHE-25<br/>Module Fees: $195<br/>Module Credits: 10",
+          answer:
+            "This module provides a critical understanding of international quality assurance methodologies and their application in higher education. Learners will examine quality frameworks with particular reference to Botswana, developing the ability to contextualise local practices within broader international standards of quality assurance.",
+        },
+        {
+          question: "Globalisation in Higher Education",
+          subanswer:
+            "Code: D9-GHE-25<br/>Module Fees: $195<br/>Module Credits: 10",
+          answer:
+            "This module introduces learners to issues of globalisation in higher education and the strategies institutions adopt in response. It examines conceptual frameworks linking higher education to economic competitiveness in the global economy and requires learners to critically analyse recent national and international reports on the subject.",
+        },
+        {
+          question: "Contemporary Issues in Higher Education",
+          subanswer:
+            "Code: D9-CHE-25<br/>Module Fees: $195<br/>Module Credits: 10",
+          answer:
+            "This module enables learners to examine contemporary issues in higher education and strategies for addressing emerging challenges. It equips them with relevant professional knowledge while fostering the capacity to critically analyse and reflect on challenges and opportunities at both institutional and individual levels, promoting informed and responsive practice.",
+        },
         {
           question: "Governance and Management in Higher Education",
           subanswer:
-            "Code: D9-GMH-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+            "Code: D9-GMH-25<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "The module will familiarize learners with governance, leadership and management structures in HE institutions that can ensure effective attainment of institutional goals and objectives. It is essential to enhance the learners’ understanding of the processes and the structures through which higher education institutions are managed.",
+            "This module familiarises learners with governance, leadership, and management structures in higher education institutions. It enhances understanding of the processes and systems through which such institutions are managed, equipping learners with the knowledge to support effective attainment of organisational goals and objectives.",
         },
         {
           question: "Organisational Development",
           subanswer:
-            "Code: D9-ODE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+            "Code: D9-ODE-25<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "The aim of this module is to allow students gain knowledge on contemporary issues that affect organisations such as the Evolution of Organisational Behaviour, Individual Dimensions , Group Dynamics, Conflict Management and Negotiation, Stress Management, Change Leadership and Decision Making, Dynamics Organisations, Management of Change and Culture and ethics",
+            "This module introduces contemporary issues in organisational development, including organisational behaviour, individual dimensions, group dynamics, conflict resolution, negotiation, stress management, change leadership, decision-making, culture, and ethics. Learners develop the knowledge and skills to analyse and address these critical aspects, fostering effective practice in modern organisational contexts.",
         },
         {
-          question: "Special Education",
+          question: "Special Needs Education",
           subanswer:
-            "Code: D9-SNE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+            "Code: D9-SNE-25<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "This module equips learners with the knowledge, skills, and competencies to support students with special needs in higher education. It focuses on inclusive education principles, emphasising the importance of recognising individual differences and fostering unity, equity, and democratic practice in diverse classroom settings.",
+            "This module equips learners with the knowledge, skills, and competencies to support students with special needs in higher education. It emphasises inclusive education principles, recognising individual differences, and promoting unity, equity, and democratic practice, thereby fostering effective teaching and learning in diverse educational settings.",
         },
       ],
     },
@@ -5084,11 +5116,11 @@ export const medinhighereducation = {
       semester: "Semester 4",
       courses: [
         {
-          question: "Dissertation (Year module)",
+          question: "Dissertation",
           subanswer:
-            "Code: D9-DI2-24<br/>Prerequisite: D9-DI1-24<br/>Co-requisite: None<br/>Module Fees: $1170<br/>Module Credits: 60",
+            "Code: D9-DIS-14<br/>Prerequisite: D9-RHE-25<br/>Module Fees: $1170<br/>Module Credits: 60",
           answer:
-            "The module will enable learners gain a deeper understanding of research by exposing them to both the theoretical and practical aspects of educational research. The learners are expected to explore the findings of these researches in a manner that improves teaching, research and other aspects of Higher Education.",
+            "This module consolidates learners’ knowledge of educational research through theoretical and practical engagement. Learners are required to produce and present a full dissertation, demonstrating the ability to analyse research findings critically and apply them to improve teaching, learning, and wider practices in higher education.",
         },
       ],
     },
@@ -5351,11 +5383,11 @@ export const mscininformationsystemsmanagement = {
 
 export const mscincomputerscience = {
   heroContent: {
-    question: "MSc in Computer Science",
+    question: "Master of Science in Computer Science",
     image: "/images/courses-images/Msc in computer science.jpeg",
     downloadurl: `${baseUrl}MScInComputerScience.pdf`,
-    minPeriod: 2,
-    maxPeriod: 4,
+    typicalfulltimestudyperiod: 2,
+    // maxPeriod: 4,
     programmeCredit: "$19.50",
     totalProgrammeCredit: 240,
     noOfModules: "9 (7 core + 2 elective)",
@@ -5371,33 +5403,40 @@ export const mscincomputerscience = {
         {
           question: "Algorithms and Data Structures",
           subanswer:
-            "Code: C9-ADS-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+            "Code: C9-ADS-25<br/>Module Fees: $312<br/>Module Credits: 16",
           answer:
-            "This module enhances students' problem-solving abilities by introducing key algorithms and data structures. It empowers students to solve simple problems, apply advanced techniques, and improve their programming skills. Students will evaluate algorithms, analyze time and space complexities, and select appropriate data structures to design solutions for various problems.",
+            "This module enhances students' problem-solving abilities by introducing key algorithms and data structures. It empowers students to solve simple problems, apply advanced techniques, and improve their programming skills. Students will evaluate algorithms, analyse time and space complexities, and select appropriate data structures to design solutions for various problems.",
         },
         {
           question: "Object Oriented Software Engineering",
           subanswer:
-            "Code: C9-OSE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+            "Code: C9-OSE-25<br/>Module Fees: $312<br/>Module Credits: 16",
           answer:
             "This module equips students with the skills to manage software projects and develop systems using object-oriented methods. Students will learn key concepts and techniques for system design and program implementation using rapid application development tools and designing graphical user interfaces to create, test, and implement software solutions.",
+        },
+        {
+          question: "Operating Systems",
+          subanswer:
+            "Code: C9-OPS-25<br/>Module Fees: $312<br/>Module Credits: 16",
+          answer:
+            "This module reviews the design, implementation, and functioning of operating systems. It explores the principles behind centralised and distributed systems, focusing on real-world applications. Students will understand the structure and functions of operating systems, analysing requirements for specific scenarios and relating system functions to machine architecture",
         },
       ],
     },
     {
-      semester: "Semester 1 Elective Group One (Choose One)",
+      semester: "Semester 1 Elective Group (Choose One)",
       courses: [
         {
           question: "Machine Learning",
           subanswer:
-            "Code: C9-MLE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+            "Code: C9-MLE-25<<br/>Module Fees: $234<br/>Module Credits: 12",
           answer:
             "This module provides an in-depth introduction to supervised and unsupervised machine learning, covering key models and algorithms for regression, classification, clustering, and probabilistic classification. Students will critically evaluate approaches, understand applications, design machine learning systems, apply problem-solving techniques, and develop skills for further research in the field.",
         },
         {
           question: "Web Engineering",
           subanswer:
-            "Code: C9-WEN-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+            "Code: C9-WEN-25<br/>Module Fees: $234<br/>Module Credits: 12",
           answer:
             "This module provides hands-on experience in designing and developing internet-based applications. Students will learn internet architecture, HTML, CSS, JavaScript, server-side development, XML concepts, and web services. By completion, they will gain practical skills in building web applications and writing programs for front-end and back-end development.",
         },
@@ -5407,68 +5446,57 @@ export const mscincomputerscience = {
       semester: "Semester 2",
       courses: [
         {
-          question: "Operating System",
+          question: "Data Warehousing",
           subanswer:
-            "Code: C9-OPS-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+            "Code:C9-DWH-25<br/>Module Fees: $312<br/>Module Credits: 16",
           answer:
-            "This module reviews the design, implementation, and functioning of operating systems. It explores the principles behind centralized and distributed systems, focusing on real-world applications. Students will understand the structure and functions of operating systems, analyzing requirements for specific scenarios and relating system functions to machine architecture.",
+            "This module covers key concepts and components of data warehousing techniques and applications. Students will gain in-depth knowledge of data warehousing, including design methodologies, OLAP techniques, and development. They will design, implement, and evaluate data warehousing applications, analysing and applying core concepts for effective data management and analysis.",
         },
         {
-          question: "Computer Networking and Communication",
+          question: "Computing Research Methods",
           subanswer:
-            "Code: C9-CNC-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+            "Code: C9-CRM-25<br/>Module Fees: $312<br/>Module Credits: 16",
+          answer:
+            "Computing Research Methods explore systematic approaches to investigating computational problems, developing algorithms, and evaluating systems. It includes qualitative and quantitative techniques, experimental design, data analysis, and simulation. These methods ensure rigour in software engineering, AI, cybersecurity, and more, driving innovation and advancing knowledge in computer science and information technology.",
+        },
+        {
+          question: "Computer Networking and Communications",
+          subanswer:
+            "Code: C9-CNC-25<br/>Module Fees: $312<br/>Module Credits: 16",
           answer:
             "This module introduces the principles of structured networks and future challenges for network designers. It covers network protocols, internet technologies, and data communications. Students will explore familiar concepts like the web and email before studying more complex networking aspects, including LAN, WAN, MAN, and network security.",
         },
       ],
     },
     {
-      semester: "Semester 2 Elective Group One (Choose One)",
+      semester: "Semester 2 Elective Group (Choose One)",
       courses: [
         {
           question: "Grid Computing Systems",
           subanswer:
-            "Code: C9-GCS-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+            "Code: C9-GCS-25<br/>Module Fees: $234<br/>Module Credits: 12",
           answer:
             "This course explores advanced distributed computing, focusing on service-oriented systems like Grid Computing. Students will learn technologies, architectures, and applications, including cluster and data grids. It covers IT infrastructure, business value, middleware, and grid-enabled services, equipping students to design, develop, and implement grid computing models and applications.",
         },
         {
           question: "Information Retrieval",
           subanswer:
-            "Code: C9-INR-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+            "Code: C9-INR-25<br/>Module Fees: $234<br/>Module Credits: 12",
           answer:
             "This module introduces students to information retrieval systems, focusing on retrieving the best possible information for user queries. It covers key algorithms, evaluation methods, probabilistic retrieval, ranking principles, and real-world applications in web search and recommendation systems, along with emerging topics like MapReduce, portfolio retrieval, and online advertising.",
         },
       ],
     },
+
     {
-      semester: "Semester 3",
-      courses: [
-        {
-          question: "Data Warehousing",
-          subanswer:
-            "Code: C9-DWH-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
-          answer:
-            "This module covers key concepts and components of data warehousing techniques and applications. Students will gain in-depth knowledge of data warehousing, including design methodologies, OLAP techniques, and development. They will design, implement, and evaluate data warehousing applications, analyzing and applying core concepts for effective data management and analysis.",
-        },
-        {
-          question: "Computing Research Methods",
-          subanswer:
-            "Code: C9-CRM-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
-          answer:
-            "Computing Research Methods explore systematic approaches to investigating computational problems, developing algorithms, and evaluating systems. It includes qualitative and quantitative techniques, experimental design, data analysis, and simulation. These methods ensure rigor in software engineering, AI, cybersecurity, and more, driving innovation and advancing knowledge in computer science and information technology.",
-        },
-      ],
-    },
-    {
-      semester: "Semester 4",
+      semester: "Semester 3 (One Year)",
       courses: [
         {
           question: "Supervised Research and Dissertation",
           subanswer:
-            "Code: C9-SRD-24<br/>Prerequisite: C9-CRM-24<br/>Co-requisite: None<br/>Module Fees: $1560<br/>Module Credits: 80",
+            "Code: C9-SRD-25<br/>Prerequisite: C9-CRM-25<br/>Module Fees: $2340<br/>Module Credits: 120",
           answer:
-            "Supervised Research and Dissertation involve independent, in-depth study under expert guidance, culminating in a scholarly thesis. It includes topic selection, literature review, methodology development, data analysis, and findings presentation. This process hones critical thinking, research skills, and subject expertise, contributing original knowledge to the academic and professional fields.",
+            "This module involves independent, in-depth study under expert guidance, culminating in a scholarly thesis. It includes topic selection, literature review, methodology development, data analysis, and findings presentation. This process hones critical thinking, research skills, and subject expertise, contributing original knowledge to the academic and professional fields.",
         },
       ],
     },
@@ -5540,11 +5568,11 @@ export const bcominaccounting = {
     question: "BCom in Accounting",
     image: "/images/courses-images/Bcom in accounting.jpeg",
     downloadurl: `${baseUrl}BComAccounting.pdf`,
-    minPeriod: 4,
-    maxPeriod: 6,
+    typicalfulltimestudyperiod: 4,
+    // maxPeriod: 6,
     programmeCredit: "$13",
     totalProgrammeCredit: 480,
-    noOfModules: "38 (36 Core and 2 Elective)",
+    noOfModules: "38 (37 Core and 1 Elective)",
     totalFee: "$6,240",
     cta: true,
     timer: true,
@@ -5557,44 +5585,44 @@ export const bcominaccounting = {
         {
           question: "Introduction to MS Office",
           subanswer:
-            "Code: C5-IMO-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C5-IMO-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "The Introduction to MS Office module is designed to equip students with essential digital skills required for academic, professional, and personal productivity. This foundational course provides hands-on experience with key Microsoft Office applications, ensuring students develop proficiency in word processing, spreadsheets, presentations, database management, and email communication.",
+            "This module equips students with essential digital skills for academic, professional, and personal productivity. It provides practical experience with Microsoft Office applications, fostering proficiency in word processing, spreadsheets, presentations, database management, and email communication to build a strong foundation for effective digital engagement.",
         },
         {
           question: "Academic Writing for Business",
           subanswer:
-            "Code: D5-AWB-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D5-AWB-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module introduces students to essential academic writing skills, focusing on paragraph structure, thesis statements, and argument development. It explores plagiarism, its consequences, and prevention strategies. Additionally, students will develop referencing skills, including citation techniques, resource evaluation, and the use of referencing tools like Mendeley to ensure academic integrity.",
+            "This module develops essential academic writing skills, emphasising paragraph structure, thesis statements, and coherent argumentation. It addresses plagiarism, its implications, and strategies for avoidance. Students also gain competence in referencing, citation techniques, resource evaluation, and the use of tools such as Mendeley to uphold academic integrity.",
         },
         {
-          question: "Business Mathematics and Statistics",
+          question: "Business Mathematics and Statistics 1 ",
           subanswer:
-            "Code: B5-BS1-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B5-BS1-17<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module focuses on fundamental mathematical concepts, including fractions, percentages, algebra, and their business applications. It introduces basic statistics, focusing on data organization, central tendency, dispersion, and spreadsheet analysis. Probability concepts, including axioms, discrete and continuous distributions, and standardized normal distributions, are explored to enhance quantitative decision-making skills.",
+            "This module introduces fundamental mathematical concepts such as fractions, percentages, algebra, and their applications in business. It covers basic statistics, including data organisation, measures of central tendency, dispersion, and spreadsheet analysis. Probability concepts, including axioms, distributions, and the standard normal curve, are examined to strengthen quantitative decision-making skills.",
         },
         {
           question: "Legal Aspects of Business",
           subanswer:
-            "Code: B5-LAB-13<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B5-LAB-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module provides an introduction to law, its origins, and the Botswana legal system, including criminal and civil law. It explores key areas such as contract law, sales, leases, credit agreements, insurance, agency, employment contracts, intellectual property, negotiable instruments, and business enterprises, equipping students with essential legal knowledge.",
+            "This module introduces the origins of law and the structure of legal systems, with particular reference to Botswana. It examines both criminal and civil law and explores key areas such as contracts, sales, leases, credit agreements, insurance, agency, employment, intellectual property, negotiable instruments, and business enterprises, providing essential legal foundations.",
         },
         {
-          question: "Fundamental Of Business and Finance",
+          question: "Fundamentals of Business and Finance",
           subanswer:
-            "Code: A5-FBF-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: A5-FBF-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "The Fundamentals of Business and Finance module provides a comprehensive introduction to key business concepts, including management, organizational structures, strategy, risk management, financial information, and corporate governance. The students will gain essential insights into business and personal finance, the role of professional accountants, and how economic factors impact business operations and finance.",
+            "This module introduces fundamental concepts in business and finance, covering management, organisational structures, strategy, risk management, corporate governance, and financial information. It also explores personal finance, the role of professional accountants, and the influence of economic factors on business operations, equipping students with essential knowledge for informed decision-making.",
         },
         {
           question: "Business Management 1",
           subanswer:
-            "Code: B5-BM1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B5-BM1-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module introduces business management as a science, covering business concepts, economic systems, and stakeholder roles. It explores the business environment, management tasks, and functional areas such as operations, finance, HR, and marketing. Leadership principles, traits, and theories are examined, providing a foundation for effective business decision-making and strategy.",
+            "This module introduces business management as a discipline, addressing core concepts, economic systems, and stakeholder roles. It examines the business environment, management functions, and key areas including operations, finance, human resources, and marketing. Leadership principles and theories are explored to build a foundation for sound business strategy and decision-making.",
         },
       ],
     },
@@ -5604,44 +5632,44 @@ export const bcominaccounting = {
         {
           question: "Principles of Marketing",
           subanswer:
-            "Code: B5-PMK-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B5-PMK-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module introduces the fundamentals of marketing, including the 7 P’s, consumer behavior, and decision-making processes. It explores marketing research, segmentation, and targeting strategies. Key aspects of product development, pricing strategies, and promotional techniques are examined, equipping students with essential skills for effective marketing in a competitive global environment.",
+            "This module introduces the fundamentals of marketing, covering the 7 P’s, consumer behaviour, and decision-making processes. It examines market research, segmentation, and targeting strategies, alongside product development, pricing, and promotion. Students gain essential skills to apply marketing principles effectively in dynamic and competitive business environments.",
         },
         {
           question: "Business Mathametics and Statistics 2",
           subanswer:
-            "Code: B6-BS2-17<br/>Prerequisite: B5-BS1-17<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B6-BS2-21<br/>Prerequisite: B5-BS1-17<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module focuses on essential mathematical concepts, including quadratic equations, functions, differentiation, and integration. Statistical topics include sampling distributions, confidence intervals, hypothesis testing, and chi-square tests. It also explores regression analysis, decision theory, time series analysis, and forecasting, equipping students with analytical tools for data-driven decision-making in business and research.",
+            "This module develops essential mathematical skills through topics such as quadratic equations, functions, differentiation, and integration. It introduces statistical concepts including sampling distributions, confidence intervals, hypothesis testing, and chi-square tests, while also covering regression analysis, decision theory, and time series forecasting to support data-driven decision-making in business and research.",
         },
         {
           question: "Introduction to Financial Accounting",
           subanswer:
-            "Code: A5-IFA-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: A6-IFA-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module introduces the principles of accounting, including its conceptual and regulatory framework. It covers accounting systems, ledger maintenance, trial balances, bank reconciliations, and control accounts. Students will learn to prepare financial statements for sole traders, partnerships, limited companies, and unincorporated organizations, including manufacturing accounts and cash flow statements.",
+            "This module introduces the principles of accounting within its conceptual and regulatory framework. It covers accounting systems, ledger maintenance, trial balances, bank reconciliations, and control accounts. Students will develop the ability to prepare financial statements for various entities, including sole traders, partnerships, companies, and unincorporated organisations, alongside manufacturing accounts and cash flow statements.",
         },
         {
           question: "Business Ethics and Assurance",
           subanswer:
-            "Code: B6-BEA-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: A6-BEA-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module explores the role of external auditing, focusing on its regulatory framework, fraud detection, and reporting responsibilities. It covers pre-audit investigations, audit planning, risk assessment, materiality, and auditors’ legal liability. Additionally, it examines the differences between financial statement audits and the assurance of sustainability reports.",
+            "TThis module examines the role of external auditing within its regulatory framework, emphasising fraud detection and reporting responsibilities. It covers pre-audit investigations, audit planning, risk assessment, materiality, and auditors’ legal liability. The module also distinguishes financial statement audits from the assurance of sustainability reports, highlighting emerging professional responsibilities.",
         },
         {
           question: "Business Management 2",
           subanswer:
-            "Code: B5-BM2-20<br/>Prerequisite: B5-BS1-17<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B6-BM2-20<br/>Prerequisite: B5-BM1-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module provides a comprehensive foundation in management principles, covering managerial roles, strategic planning, decision-making, and organizational structures. It explores human resource management, change management, diversity, and logistics. Emphasis is placed on adapting to environmental changes, leveraging information systems, and developing skills for sustainable competitive advantage in modern business organizations.",
+            "This module provides a foundation in management principles, addressing managerial roles, strategic planning, decision-making, and organisational structures. It explores human resource management, change management, diversity, and logistics. Emphasis is placed on adapting to environmental shifts, utilising information systems, and developing skills for sustainable competitive advantage in contemporary business contexts.",
         },
         {
-          question: "Computerized Accounting 1",
+          question: "Computerised Accounting 1",
           subanswer:
-            "Code: A6-CP1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: A6-CP1-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module introduces computerized accounting systems, covering transaction processing, enterprise resource planning (ERP), and accounting software like Pastel and QuickBooks. It explores cybercrime, fraud prevention, security controls, and auditing of computer-based systems. Additionally, it examines revenue and expenditure cycles, as well as system development, analysis, design, and implementation.",
+            "This module introduces computerised accounting systems, focusing on transaction processing and enterprise resource planning (ERP). It addresses cybercrime, fraud prevention, security controls, and auditing of technology-based systems. Revenue and expenditure cycles, together with system development, analysis, design, and implementation, are also examined.",
         },
       ],
     },
@@ -5651,44 +5679,44 @@ export const bcominaccounting = {
         {
           question: "Taxation 1",
           subanswer:
-            "Code: A6-TA1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: A6-TA1-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module provides an understanding of the Botswana tax system, covering different types of taxes, principal tax laws, and taxpayer obligations. It explores tax procedures, including objections and appeals, withholding taxes, gross income, deductions, employment income, capital allowances, and taxable income for individuals, sole traders, and partnerships.",
+            "This module provides an understanding of taxation systems with particular reference to Botswana. It examines different types of taxes, principal tax laws, and taxpayer obligations. Key areas include tax procedures, objections and appeals, withholding taxes, gross income, deductions, employment income, capital allowances, and taxable income for individuals, sole traders, and partnerships.",
         },
         {
           question: "Micreconomics",
           subanswer:
-            "Code: B5-MIE-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B6-MIE-17<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module introduces fundamental economic concepts, including scarcity, choice, and economic systems. It explores demand and supply dynamics, market equilibrium, and elasticity. Students will analyze firm behavior, production costs, and market structures. Additionally, the module covers externalities, public goods, and income distribution, providing insights into economic decision-making and policy implications.",
+            "This module introduces key economic principles, including scarcity, choice, and the functioning of economic systems. It examines demand and supply, market equilibrium, and elasticity, alongside firm behaviour, production costs, and market structures. Externalities, public goods, and income distribution are also addressed, offering insights into economic decision-making and policy development.",
         },
         {
           question: "Cost Accounting",
           subanswer:
-            "Code: A6-COA-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: A6-COA-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module introduces key costing concepts, including cost behavior, classification, and accounting for materials and labor. It covers inventory valuation methods, overhead allocation, marginal and absorption costing, and various costing methods like job, batch, and process costing. Additionally, it explores cost-volume-profit analysis, standard costing, variance analysis, and budgeting for effective cost control.",
+            "This module introduces key costing principles, including cost behaviour, classification, and the accounting of materials and labour. It covers inventory valuation, overhead allocation, marginal and absorption costing, as well as job, batch, and process costing. Cost-volume-profit analysis, standard costing, variance analysis, and budgeting are also examined to support effective cost control.",
         },
         {
-          question: "Computerized Accounting 2",
+          question: "Computerised Accounting 2",
           subanswer:
-            "Code: A6-CP2-20<br/>Prerequisite: A6-CP1-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: A7-CP2-25<br/>Prerequisite: A6-CP1-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module provides hands-on training in Sage Pastel, covering company setup, navigation, and key functionalities. It explores customer and supplier account management, inventory and general ledger setup, and processing financial transactions. Additionally, it focuses on error correction, scheduled invoicing, financial reporting, and bank reconciliations to enhance accounting efficiency and accuracy.",
+            "This module provides practical training in computerised accounting systems, focusing on company setup, system navigation, and core functionalities. It covers customer and supplier account management, inventory and general ledger configuration, and financial transaction processing. Emphasis is placed on error correction, automated invoicing, financial reporting, and bank reconciliations to improve efficiency and accuracy.",
         },
         {
           question: "Corporate Administration 1",
           subanswer:
-            "Code: A6-CA1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: A6-CA1-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module explores strategic and functional administration, emphasizing corporate governance, role players in the corporate hierarchy, and best practices. It covers information management, confidentiality under relevant legal frameworks, technological advancements, and their impact. Additionally, it examines human resource functions, employer-employee relationships, and contractual rights within a corporate environment.",
+            "This module examines strategic and functional administration with an emphasis on corporate governance, organisational hierarchies, and best practices. It explores information management, confidentiality within legal frameworks, and the influence of technological advancements. Human resource functions, employer–employee relations, and contractual rights within corporate contexts are also critically analysed.",
         },
         {
           question: "Financial Accounting 1",
           subanswer:
-            "Code: A6-FA1-17<br/>Prerequisite: A6-IFA-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: A6-FA1-17<br/>Prerequisite: A6-IFA-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module introduces accounting principles, financial reporting, and corporate structures. It explores company formation, financial statement preparation, and adjustments per IFRS and IAS standards. Topics include limited liability companies, partnerships, ratio analysis, and asset management. Emphasis is placed on financial information, reporting frameworks, and key accounting concepts for decision-making",
+            "This module introduces accounting principles, financial reporting, and corporate structures. It examines company formation, financial statement preparation, and adjustments in line with IFRS and IAS standards. Key areas include limited liability companies, partnerships, ratio analysis, and asset management, with emphasis on reporting frameworks and financial information for effective decision-making.",
         },
       ],
     },
@@ -5698,35 +5726,35 @@ export const bcominaccounting = {
         {
           question: "Macroeconomics",
           subanswer:
-            "Code: B6-MAE-17<br/>Prerequisite: B5-MIE-17<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B6-MAE-17<br/>Prerequisite: B6-MIE-17<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces macroeconomic principles, covering economic perspectives, national income measurement, and business cycles. It explores aggregate demand and supply, fiscal and monetary policies, and the role of central banks. Additionally, it examines inflation, unemployment, and international trade, highlighting the impact of economic policies on national and global markets.",
         },
         {
           question: "Audit and Assurance",
           subanswer:
-            "Code: A6-ASS-20<br/>Prerequisite: B6-BEA-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: A6-ASS-20<br/>Prerequisite: A6-BEA-20<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
-            "This module explores key auditing principles, emphasizing responsibilities, risk assessment, and response strategies. It covers gathering audit evidence, utilizing the work of others, and forming audit conclusions. The module also examines audit reporting, ensuring compliance with standards and enhancing the reliability of financial information for stakeholders.",
+            "This module explores key auditing principles, emphasising responsibilities, risk assessment, and response strategies. It covers gathering audit evidence, utilising the work of others, and forming audit conclusions. The module also examines audit reporting, ensuring compliance with standards and enhancing the reliability of financial information for stakeholders.",
         },
         {
           question: "Financial Management 1",
           subanswer:
-            "Code: A6-FM1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: A6-FM1-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores financial management principles, focusing on investment, financing, and dividend decisions. It examines the roles of financial managers, working capital management, credit risk, and short-term financing. Additionally, it covers capital budgeting, the time value of money, and the risk-return relationship, equipping learners with essential financial decision-making skills.",
         },
         {
           question: "Corporate Secretaryship",
           subanswer:
-            "Code: A6-CSC-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: A6-CSC-20<br/Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module examines the formation, administration, and management of companies, covering types, incorporation, and regulatory provisions. It explores share capital, capital maintenance, and financial reporting. Additionally, it highlights the roles and responsibilities of members, directors, and company officers, ensuring compliance with legal and governance frameworks for corporate operations.",
         },
         {
           question: "Financial Accounting 2",
           subanswer:
-            "Code: A7-FA2-20<br/>Prerequisite: A7-FA1-17<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: A7-FA2-25<br/>Prerequisite: A7-FA1-17<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module focuses on key financial reporting standards, including IAS 38 for intangible assets, IAS 17 for leases, IAS 2 for inventories, and IFRS cash flow preparation. It explores revenue recognition, financial instruments, and their measurement, ensuring compliance with IFRS principles for accurate financial reporting and decision-making.",
         },
@@ -5738,21 +5766,21 @@ export const bcominaccounting = {
         {
           question: "Taxation 2",
           subanswer:
-            "Code: A7-TA2-20<br/>Prerequisite: A6-TA1-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: A7-TA2-20<br/>Prerequisite: A6-TA1-20<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
-            "This module provides an overview of the Botswana/Lesetho tax system, covering different types of taxes, key tax laws, and taxpayer obligations. It examines income and company tax liabilities, chargeable gains, withholding taxes, and VAT. Additionally, it explores tax dispute resolution, including objections and appeals, ensuring compliance with regulatory requirements.",
+            "This module provides an overview of tax systems, with particular reference to Botswana and Lesotho. It covers key taxes, legislation, and taxpayer obligations, including individual and corporate liabilities, chargeable gains, withholding taxes, and VAT. It also examines dispute resolution processes, such as objections and appeals, within a broader regulatory context.",
         },
         {
           question: "Management Accounting",
           subanswer:
-            "Code: A7-MAC-20<br/>Prerequisite: A6-COA-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: A7-MAC-17<br/>Prerequisite: A6-COA-20<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "This module introduces management accounting concepts, focusing on cost analysis, budgeting, and decision-making. It explores marginal vs. absorption costing, activity-based costing, and cost-volume-profit analysis. Additionally, it covers budgeting, variance analysis, and short-run decision-making, equipping learners with techniques for effective cost control and financial planning in business operations.",
         },
         {
           question: "Financial Reporting",
           subanswer:
-            "Code: A7-FIR-20<br/>Prerequisite: A7-FA2-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: A7-FIR-13<br/>Prerequisite: A7-FA2-25<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "This module explores key accounting standards, including IAS 8 for accounting policies, IAS 23 for borrowing costs, and IAS 20 for government grants. It covers income tax accounting (IAS 12), earnings per share (IAS 33), and group financial statements, including consolidation (IAS 27) and accounting for associates (IAS 28).",
         },
@@ -5764,37 +5792,51 @@ export const bcominaccounting = {
         {
           question: "Financial Management 2",
           subanswer:
-            "Code: A7-FM2-20<br/>Prerequisite: A7-FM1-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: A7-FM2-20<br/>Prerequisite: A6-FM1-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores business financing options, cost of capital, and valuation principles. It examines factors affecting capital costs, asset and business valuation methods, and risk management techniques. Learners will develop skills to evaluate financing alternatives, optimize capital structures, and apply risk mitigation strategies for effective financial decision-making.",
         },
         {
           question: "Research Methods in Business",
           subanswer:
-            "Code: B7-RMB-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B7-RMB-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores business and management research, covering epistemology, research strategies, ethics, and proposal development. It examines literature review, research design, data collection methods, and SPSS for analysis. Additionally, it addresses time and resource management, data presentation, and report writing, equipping learners with essential research skills for academic and professional inquiry.",
         },
         {
           question: "Company Law",
           subanswer:
-            "Code: A7-COL-20<br/>Prerequisite: B5-LAB-13<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: A7-COL-20<br/>Prerequisite: B5-LAB-20<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
-            "This module provides an overview of Botswana’s legal system, covering court structures, legal sources, and statutory interpretation. It explores contract and employment law, company formation, agency, partnership law, and corporate governance. Additionally, it examines capital financing, insolvency, and legal implications of fraudulent and criminal behavior in business operations.",
+            "This module provides an overview of legal systems, with particular reference to Botswana. It examines court structures, sources of law, and statutory interpretation. Key areas include contract and employment law, company formation, agency, partnerships, and corporate governance. The module also explores capital financing, insolvency, and the legal implications of fraud and criminal conduct in business operations.",
         },
         {
           question:
             "Business Analysis and Valuation Using Financial Statements",
           subanswer:
-            "Code: A7-BAV-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: A7-BAV-20<br/>Prerequisite: A7-FA2-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores business analysis and valuation using financial statements. It covers financial reporting’s role in capital markets, strategy and accounting analysis, financial and prospective analysis, and valuation techniques. Learners will apply forecasting, ratio analysis, and discounted cash flow models, with insights into mergers, acquisitions, and corporate financial decision-making.",
         },
       ],
     },
     {
-      semester: "Semester 6 Elective Group 1 (Choose One)",
+      semester: "Semester 6 Elective Group (Choose One)",
       courses: [
+        {
+          question: "Advanced Taxation",
+          subanswer:
+            "Code: A7-TA3-25<br/>Prerequisite: A7-TA2-20<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module focuses on the scope of income tax, including employment, self-employment, property, investment, and trust income. It explores tax on gains, losses, and inheritance, along with computing taxable income and liabilities. Students will learn to apply exemptions, minimize tax liabilities, and assess taxation's impact on financial decisions.",
+        },
+        {
+          question: "Advanced Audit and Assurance",
+          subanswer:
+            "Code: A7-AS2-20<br/>Prerequisite: A6-ASS-20<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module focuses on the audit engagement process, including pre-audit investigations, planning, risk assessment, and materiality. It examines audit procedures, evidence gathering, and financial statement reporting responsibilities. Students will explore auditors' legal liabilities, fraud detection, and differences between auditing financial statements and providing assurance on sustainability reports.",
+        },
         {
           question: "Computerized Auditing",
           subanswer:
@@ -5802,31 +5844,19 @@ export const bcominaccounting = {
           answer:
             "This module introduces students to computer auditing, covering key aspects such as tests of control and substantive procedures in computerized information systems. It explores computer-assisted audit techniques, special control considerations, and the use of computers in audit practices. Students will also learn about computerized working paper programs to enhance audit efficiency.",
         },
-        {
-          question: "Taxation 3",
-          subanswer:
-            "Code: A7-TA3-20<br/>Prerequisite: A7-TA2-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer:
-            "This module focuses on the scope of income tax, including employment, self-employment, property, investment, and trust income. It explores tax on gains, losses, and inheritance, along with computing taxable income and liabilities. Students will learn to apply exemptions, minimize tax liabilities, and assess taxation's impact on financial decisions.",
-        },
-        {
-          question: "Corporate Secretaryship 2",
-          subanswer:
-            "Code: A7-CS2-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer:
-            "This module provides a comprehensive understanding of the legal and regulatory framework governing companies. It covers company formation, types, incorporation effects, and statutory compliance. Students will explore share capital, financial reporting, corporate governance, and directors' responsibilities. Emphasis is placed on legal provisions, corporate structure, and effective company administration.",
-        },
-        {
-          question: "Audit and Assurance 2",
-          subanswer:
-            "Code: A7-AS2-20<br/>Prerequisite: A6-ASS-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer:
-            "This module focuses on the audit engagement process, including pre-audit investigations, planning, risk assessment, and materiality. It examines audit procedures, evidence gathering, and financial statement reporting responsibilities. Students will explore auditors' legal liabilities, fraud detection, and differences between auditing financial statements and providing assurance on sustainability reports.",
-        },
+
+        // {
+        //   question: "Corporate Secretaryship 2",
+        //   subanswer:
+        //     "Code: A7-CS2-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+        //   answer:
+        //     "This module provides a comprehensive understanding of the legal and regulatory framework governing companies. It covers company formation, types, incorporation effects, and statutory compliance. Students will explore share capital, financial reporting, corporate governance, and directors' responsibilities. Emphasis is placed on legal provisions, corporate structure, and effective company administration.",
+        // },
+
         {
           question: "Risk Management and Insurance",
           subanswer:
-            "Code: A7-RMI-20<br/>Prerequisite: B6-BS2-17<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: A7-RMI-20<br/>Prerequisite: B6-BS2-21<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces risk and insurance, covering risk types, classification, and management principles. It explores risk identification, measurement, and planning, along with legal principles in insurance contracts. Students will learn life and non-life insurance techniques, insurance company management, government regulations, and risk management practices within the insurance industry.",
         },
@@ -5838,76 +5868,84 @@ export const bcominaccounting = {
         {
           question: "Public Sector Financial Reporting",
           subanswer:
-            "Code: A7-PSR-20<br/>Prerequisite: A7-FA2-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: A7-PSR-20<br/>Prerequisite: A7-FA2-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module focuses on public sector financial reporting standards, including cash and accrual basis accounting under IPSAS. It explores financial statement presentation, cash flow reporting, accounting policies, and asset management. Students will learn about consolidation, intangible assets, revenue from non-exchange transactions, leases, and first-time adoption of accrual-based IPSAS standards.",
         },
         {
           question: "Research Project 1: Proposal Writing",
           subanswer:
-            "Code: B7-RP1-20<br/>Prerequisite: B7-RMB-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: A7-RP1-20<br/>Prerequisite: B7-RMB-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module guides students in developing a research proposal, covering problem identification, background, and objective formulation. It includes literature review, methodology selection, research instrument design, ethical considerations, data analysis methods, budgeting, and timeline construction. Students will gain essential skills for structuring and planning a scientific research project effectively.",
         },
         {
           question: "Corporate Governance",
           subanswer:
-            "Code: B7-CGV-20<br/>Prerequisite: A7-COL-20, A6-ASS-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B7-CGV-20<br/><br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores corporate governance, its principles, stakeholders, and global trends. It covers the benefits of good governance, warning signs of inefficiency, and governance in family-owned enterprises. Students will examine shareholder rights, board responsibilities, audit committees, financial reporting governance, and the OECD principles, fostering ethical and effective corporate leadership.",
         },
         {
           question: "Corporate Administration 2",
           subanswer:
-            "Code: A7-CA2-20<br/>Prerequisite: A6-CA1-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: A7-CA2-20<br/>Prerequisite: A6-CA1-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module focuses on employment law, workplace compliance, and health and safety regulations. It explores company wellness policies, retirement funding, and pension scheme administration. Students will also examine risk management principles, asset management, acquisition, protection, and facilities management, emphasizing their role in achieving organizational objectives and operational efficiency.",
         },
-      ],
-    },
-    {
-      semester: "Semester 7 Elective Group 1 (Select Any One)",
-      courses: [
         {
           question: "Entrepreneurship and Innovation",
           subanswer:
-            "Code: B8-ENI-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: B8-ENI-20<br/Module Fees: $260<br/>Module Credits: 20",
           answer:
             "This module explores entrepreneurship and innovation, covering enterprise development, opportunity discovery, and business planning. It examines innovation principles, feasibility assessment, business modelling, and disruptive technologies. Students will learn to validate risks, market size, and pricing while developing entrepreneurial teams, fostering creativity, and building sustainable, innovative ventures.",
         },
-        {
-          question: "Social Entrepreneurship",
-          subanswer:
-            "Code: B8-SOE-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
-          answer:
-            "This module explores how social entrepreneurs develop innovative solutions to address global challenges. Students will gain practical skills in managing small enterprises, leveraging disruptive technologies, and applying entrepreneurial thinking to foster sustainability. Areas of focus include scaling social businesses, impact measurement, and integrating sustainable development goals for lasting change.",
-        },
-        {
-          question: "Innovation for Sustainable Development",
-          subanswer:
-            "Code: E8-ISD-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
-          answer:
-            "This module focuses on group dynamics, enhancing efficiency, participation, and satisfaction. It equips students with facilitation, research, and analytical skills while fostering multidisciplinary collaboration through design thinking. Students will define and analyze real societal problems, applying self-competencies and teamwork to develop and implement practical solutions.",
-        },
       ],
     },
+    // {
+    //   semester: "Semester 7 Elective Group 1 (Select Any One)",
+    //   courses: [
+        
+    //     {
+    //       question: "Social Entrepreneurship",
+    //       subanswer:
+    //         "Code: B8-SOE-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+    //       answer:
+    //         "This module explores how social entrepreneurs develop innovative solutions to address global challenges. Students will gain practical skills in managing small enterprises, leveraging disruptive technologies, and applying entrepreneurial thinking to foster sustainability. Areas of focus include scaling social businesses, impact measurement, and integrating sustainable development goals for lasting change.",
+    //     },
+    //     {
+    //       question: "Innovation for Sustainable Development",
+    //       subanswer:
+    //         "Code: E8-ISD-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+    //       answer:
+    //         "This module focuses on group dynamics, enhancing efficiency, participation, and satisfaction. It equips students with facilitation, research, and analytical skills while fostering multidisciplinary collaboration through design thinking. Students will define and analyze real societal problems, applying self-competencies and teamwork to develop and implement practical solutions.",
+    //     },
+    //   ],
+    // },
     {
       semester: "Semester 8",
       courses: [
         {
           question: "Professional Practice In Accounting",
           subanswer:
-            "Code: A7-PRA-20<br/>Prerequisite: 240 Credits<br/>Co-requisite: None<br/>Module Fees: $520<br/>Module Credits: 40",
+            "Code: A7-PRA-20<br/>Prerequisite: 240 Credits<br/>Module Fees: $520<br/>Module Credits: 40",
           answer:
             "This module provides students with industry attachment for hands-on experience in accounting. Assessment emphasizes supervision, a final paper, and a portfolio of evidence. Students will demonstrate key competencies, balance theory with practice, and engage in academic discourse to enhance their professional skills in real-world accounting environments.",
         },
         {
-          question: "Research Project 2: Dissertation",
+          question: "Professional Practice (Internship)",
           subanswer:
-            "Code: B7-RP2-20<br/>Prerequisite: B7-RP1-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: A7-PPR-25<br/>Prerequisite: A7-RP1-20<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
-            "This module guides students in conducting independent research at the honours level. It covers problem identification, literature review, research design, data collection, analysis, and interpretation. Students will develop a well-structured dissertation, drawing conclusions and making recommendations, demonstrating their ability to apply research skills to real-world issues.",
+            "This module guides students in conducting independent research at honours level. It covers problem identification, literature review, research design, data collection, analysis, and interpretation. Students will develop a well-structured dissertation, drawing conclusions and making recommendations, demonstrating their ability to apply research skills to real-world issues.",
         },
+        // {
+        //   question: "Research Project 2: Dissertation",
+        //   subanswer:
+        //     "Code: B7-RP2-20<br/>Prerequisite: B7-RP1-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+        //   answer:
+        //     "This module guides students in conducting independent research at the honours level. It covers problem identification, literature review, research design, data collection, analysis, and interpretation. Students will develop a well-structured dissertation, drawing conclusions and making recommendations, demonstrating their ability to apply research skills to real-world issues.",
+        // },
       ],
     },
   ],
