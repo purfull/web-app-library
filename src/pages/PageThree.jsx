@@ -13,7 +13,7 @@ import CourseStruture from "../components/coursestrutureSection/coursestrutureSe
 import {
   bbainbusinessmanagement,
   bscindatascience,
-  bcominhospitalitymanagement,
+  // bcominhospitalitymanagement,
   mcominhumanresourcemanagement,
   masterofbusinessadministration,
   diplomainoccupationalhealthsafety,
@@ -41,7 +41,7 @@ const PageThree = () => {
   const courseMap = {
     bbainbusinessmanagement,
     bscindatascience,
-    bcominhospitalitymanagement,
+    // bcominhospitalitymanagement,
     mcominhumanresourcemanagement,
     masterofbusinessadministration,
     diplomainoccupationalhealthsafety,
@@ -65,7 +65,6 @@ const PageThree = () => {
     console.log("Resolved course:", course?.heroContent);
   }, [name]);
 
-  
   const faqData = [
     {
       question:

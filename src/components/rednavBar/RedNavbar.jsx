@@ -60,7 +60,7 @@ const RedNavbar = () => {
         <span className="welcome"
             onClick={handleWhyClick}
             style={{ cursor: "pointer" }}>
-          Our Courses
+          Our Programmes
         </span>
         <span style={{color:"gray"}}>|</span>
         <span className="welcome" 

@@ -9,30 +9,31 @@ const EnquireSection = ({ cardData, cardTitle }) => {
   const navigate = useNavigate();
 
   const handleFeePage = (course) => {
-  const cleaned = course
-    .trim()
-    .replace(/\(.*?\)/g, '')   // remove anything in brackets
-    .replace(/,/g, '')         // remove commas
-    .replace(/\.$/, '')        // remove trailing period
-    .replace(/\./g, '')        // remove all dots
-    .replace(/\s+/g, '')      // remove all whitespace
-    .replace(/-/g, '');
-    
-  const slug = cleaned.toLowerCase();
-  navigate(`/fee/${slug}`);
-  window.scrollTo(0, 0);
-};
- const handleEnq = () => {
+    const cleaned = course
+      .trim()
+      .replace(/\(.*?\)/g, "") // remove anything in brackets
+      .replace(/,/g, "") // remove commas
+      .replace(/\.$/, "") // remove trailing period
+      .replace(/\./g, "") // remove all dots
+      .replace(/\s+/g, "") // remove all whitespace
+      .replace(/-/g, "");
 
-  window.open('https://bothouniversity.academiaerp.com/enquire/', '_blank', 'noopener,noreferrer');
-
-  }
-  return ( 
-    <div className="course-container page-gap" >
-      
-                <span className="secondary-heading" >
-                  {cardTitle}
-  {/* {cardTitle?.split(" ").slice(0, 2).join(" ")}<br />
+    const slug = cleaned.toLowerCase();
+    navigate(`/fee/${slug}`);
+    window.scrollTo(0, 0);
+  };
+  const handleEnq = () => {
+    window.open(
+      "https://bothouniversity.academiaerp.com/enquire/",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
+  return (
+    <div className="course-container page-gap">
+      <span className="secondary-heading">
+        {cardTitle}
+        {/* {cardTitle?.split(" ").slice(0, 2).join(" ")}<br />
 
   {cardTitle?.split(" ").slice(2).join(" ")} */}
       </span>
@@ -48,7 +49,7 @@ const EnquireSection = ({ cardData, cardTitle }) => {
             {/* <p className="course-tag">{item.courseName}</p> */}
 
             <div className="title-logo-main">
-              <img src={item.image} className="course-icon-image" /> 
+              <img src={item.image} className="course-icon-image" />
               <p className="course-title ">{item.title}</p>
 
               {/* <p>logo</p> */}
@@ -61,8 +62,8 @@ const EnquireSection = ({ cardData, cardTitle }) => {
                 <p className="enquire-heading">${item.amountdetails?.fees}</p>
               </div>
               <div className="sub-amount-deatils">
-                <p>Programme Credit</p>
-                <p className="enquire-heading">{item.amountdetails?.module}</p>
+                <p>Per Credit Fee</p>
+                <p className="enquire-heading">${item.amountdetails?.module}</p>
               </div>
               <div className="sub-amount-deatils">
                 <p>Total Credits</p>
@@ -79,9 +80,17 @@ const EnquireSection = ({ cardData, cardTitle }) => {
               <p>{item.description.four}</p>
             </div> */}
             <div className="view-enquire-button">
-              <button className="search-button view-more" style={{marginTop: "0"}} onClick={() => handleFeePage(item.title)}>View More </button>
-              <button className="fourth-button enq-button" onClick={handleEnq}>Enquire Now</button></div>
-
+              <button
+                className="search-button view-more"
+                style={{ marginTop: "0" }}
+                onClick={() => handleFeePage(item.title)}
+              >
+                View More{" "}
+              </button>
+              <button className="fourth-button enq-button" onClick={handleEnq}>
+                Enquire Now
+              </button>
+            </div>
           </Card>
         ))}
       </div>

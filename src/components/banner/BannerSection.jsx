@@ -7,11 +7,13 @@ gsap.registerPlugin(ScrollTrigger);
 
 const BannerSection = () => {
   const handleEnq = () => {
+    window.open(
+      "https://bothouniversity.academiaerp.com/enquire/",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
 
-  window.open('https://bothouniversity.academiaerp.com/enquire/', '_blank', 'noopener,noreferrer');
-
-  }
-  
   return (
     <div className="main page-gap ">
       <div className="banner-container">
@@ -35,10 +37,13 @@ const BannerSection = () => {
             </span>
 
             <p className="secondary-paragraph white sub-secondary">
-              Join thousands of students building their future with Botho
-              University Online. Flexible. Affordable. Recognized.
+              Join thousands of students shaping their future with Botho
+              University Online. Flexible. Affordable. Recognised.
             </p>
-            <button className="primary-button enquire-now-button" onClick={handleEnq}>
+            <button
+              className="primary-button enquire-now-button"
+              onClick={handleEnq}
+            >
               Enquire Now{" "}
               <img
                 src="/icon/arrow_forward.png"
@@ -46,6 +51,7 @@ const BannerSection = () => {
                 className="arrow-icon-banner"
               />
             </button>
+            
           </div>
 
           <div className="right-banner">

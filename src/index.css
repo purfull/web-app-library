@@ -25,6 +25,20 @@
   scroll-behavior: smooth;
 }
 
+button {
+  -webkit-appearance: none; /* remove iOS default styling */
+}
+
+a, button {
+  text-decoration: none;
+  -webkit-text-fill-color: inherit; /* override Safari's link color */
+}
+
+html {
+  -webkit-touch-callout: none; /* prevent link styling on tap */
+}
+
+
 .page-gap {
   padding-top: 0;
   padding-bottom: 0;

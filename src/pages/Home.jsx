@@ -19,25 +19,26 @@ import Terms from "../components/terms/terms";
 const HomePage = () => {
   const cardData = [
     {
-      cover: "/images/courses-images/Bcom in Hospitality.jpeg",
-      courseName: "Undergraduate Programme",
-      title: "BCom in Hospitality Management",
-      description:
-        "Aspiring to a leadership role in the vibrant hospitality sector? Our Bachelor of Commerce in Hospitality Management provides a strong foundation in business principles alongside specialised hospitality skills. You'll cover core areas like accounting and marketing, combined with modules in hotel operations, food and beverage management, and tourism development.",
-    },
-    {
       cover: "/images/courses-images/MBA.jpeg",
       courseName: "Postgraduate Programme",
       title: "Master of Business Administration (MBA)",
       description:
-        "Aiming to become a top executive in the global business arena? Our MBA programme is designed for ambitious professionals. It equips you with the skills to tackle complex challenges, focusing on critical thinking, entrepreneurship, financial resilience, and innovative problem-solving.",
+        "Ready to excel in information systems management? Our Master of Science in Information Systems Management is a professionally oriented online programme, perfect if you need flexible learning. You'll develop advanced critical thinking and technical skills in key areas like systems analysis and design, project management, data management, cybersecurity, and business intelligence, all with an emphasis on global best practices.",
     },
     {
-      cover: "/images/courses-images/Diploma in Occup.jpeg",
-      courseName: "Undergraduate Programme",
-      title: "Diploma in Occupational Health Safety",
+      cover:
+        "/images/courses-images/Msc in Information Systems management.jpeg",
+      courseName: "Postgraduate Programme",
+      title: "Master of Science in Information Systems Management",
       description:
-        "Fascinated by creating safer workplaces? Our Diploma in Occupational Health and Safety is for you! This comprehensive programme blends occupational health, safety management, risk assessment, and environmental sustainability. You'll gain practical skills to identify, evaluate, and control workplace hazards, ensuring compliance with regulations, and fostering a strong safety culture.",
+        "Aspiring to a leadership role in the vibrant hospitality sector? Our Bachelor of Commerce in Hospitality Management provides a strong foundation in business principles alongside specialised hospitality skills. You'll cover core areas like accounting and marketing, combined with modules in hotel operations, food and beverage management, and tourism development.",
+    },
+    {
+      cover: "/images/courses-images/PGDHE.jpeg",
+      courseName: "Postgraduate Programme",
+      title: "Post Graduate Diploma in Higher Education",
+      description:
+        "Ready to advance your teaching career? Our Postgraduate Diploma in Higher Education (PGDHE) is a transformative one-year programme designed to equip you with advanced teaching skills, curriculum design expertise, and effective assessment strategies. You'll gain a deep understanding of pedagogy, assessment, moderation, and learner diversity.",
     },
     {
       // /images/courses-images/BBA in bus mgmt.jpg
@@ -46,21 +47,21 @@ const HomePage = () => {
       title: "BCom in Accounting",
       description:
         "Your Future in Accounting Starts Here! Our Bachelor of Commerce in Accounting programme offers a practical, industry-focused approach to a rewarding career in accounting and finance. You'll gain essential expertise in financial reporting, auditing, taxation, and management accounting. What sets this degree apart is its blend of theory and hands-on experience, including a compulsory semester-long internship for invaluable real-world exposure.",
-      subjects: "",
+    },
+
+    {
+      cover: "/images/courses-images/BSc in network security.jpeg",
+      courseName: "Undergraduate Programme",
+      title: "BSc in Network Security and Computer Forensics",
+      description:
+        "Ready to become a cybersecurity expert? Our BSc in Network Security and Computer Forensics is a specialised degree equipping you to protect digital assets and investigate cyber threats. You'll gain hands-on experience in penetration testing, digital forensics, and network defence strategies, integrating core computing principles with advanced security techniques.",
     },
     {
-      cover: "/images/courses-images/Msc in computer science.jpeg",
-      courseName: "Postgraduate Programme",
-      title: "MSc in Computer Science",
+      cover: "/images/courses-images/Diploma in Occup.jpeg",
+      courseName: "Undergraduate Programme",
+      title: "Diploma in Occupational Health and Safety",
       description:
-        "Aspiring to excel in the tech industry? Our Master of Science in Computer Science is an advanced, flexible online programme. You'll gain technical expertise and analytical skills, focusing on core computing principles and specialised areas like software development, data analysis, artificial intelligence, and cybersecurity.",
-    },
-    {
-      cover: "/images/courses-images/Med in higher education.jpeg",
-      courseName: "Postgraduate Programme",
-      title: "MEd in Higher Education",
-      description:
-        "Elevate your expertise with our Master of Education in Higher Education. This specialised two-year online programme equips you with advanced pedagogical skills, covering Learning, Teaching and Assessment, Curriculum Design and Development, and Academic Writing.",
+        "Fascinated by creating safer workplaces? Our Diploma in Occupational Health and Safety is for you! This comprehensive programme blends occupational health, safety management, risk assessment, and environmental sustainability. You'll gain practical skills to identify, evaluate, and control workplace hazards, ensuring compliance with regulations, and fostering a strong safety culture.",
     },
   ];
   const faqData = [
@@ -83,12 +84,8 @@ To help you prepare for the application, here's what you'll typically need:
 - Certified copies of your High School Certificate
 
 - Professional passport-size photo
-</br></br>
-<strong>Mature Entry Applicants:</strong></br></br>
 
-- Other qualification certificates with transcripts
-</br>
-- Letter(s) from your employer(s)
+- Mature Entry Applicants: Other qualification certificates with transcripts and letter(s) from your employer(s)
 </br></br>
 <strong>For Postgraduate Programmes:</strong></br></br>
 - Certified copies of your degree certificate and official transcript
@@ -191,7 +188,7 @@ It's very important to us at Botho University that students receive timely assis
         buttonTextColor="#000000"
         arrows="/icon/arrow_forward.png"
       />
-      <Footer/>
+      <Footer />
       {/* <StaticHome />
       <TimerHome />
       <CourseStruture /> */}

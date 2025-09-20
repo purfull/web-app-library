@@ -16,7 +16,7 @@ import FeeTable from "../components/feeTable/feeTable";
 import {
   bbainbusinessmanagement,
   bcominaccounting,
-  bcominhospitalitymanagement,
+  // bcominhospitalitymanagement,
   diplomainoccupationalhealthsafety,
   bscinhospitaladministration,
   bscindatascience,
@@ -42,8 +42,7 @@ const PageFive = () => {
   const courseMap = {
     bbainbusinessmanagement,
     bcominaccounting,
-    bcominhospitalitymanagement,
-
+    // bcominhospitalitymanagement,
     bscindatascience,
     mcominhumanresourcemanagement,
     masterofbusinessadministration,
@@ -549,7 +548,7 @@ It's very important to us at Botho University that students receive timely assis
     <div className="">
       <RednavBar />
       <NavBar />
-      <TimerHome data={course?.heroContent} />
+      <TimerHome data={course?.heroContent} feePage={true} />
       <FeeTable tableData={course?.tableContent} />
       {/* <EnquireSection /> */}
       <FeedBackSection />

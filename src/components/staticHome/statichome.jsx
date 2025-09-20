@@ -108,7 +108,7 @@ const staticHome = ({
         <div
           className="image-banner"
           style={{
-            backgroundImage: ` linear-gradient(rgba(152, 29, 46, 0.5), rgba(0, 0, 0, 0.2)) ,url(${backgroundImg})`,
+            backgroundImage: ` linear-gradient(rgba(0,0,0 , 0.30), rgba(0, 0, 0, 0.30)) ,url(${backgroundImg})`,
             backgroundSize: "cover", // ensures the image covers the whole div
             backgroundPosition: "center", // centers the image
             backgroundRepeat: "no-repeat", // prevents tiling
