@@ -2,7 +2,7 @@ import "./heroSetcion.css";
 import { Carousel } from "antd";
 
 import React from "react";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 const herobanner = [
   // {
@@ -27,12 +27,14 @@ const herobanner = [
     Primarytittle:
       "Empower Your Future with <span style='background-color: #841D2E'>Botho University Online</span>",
     subtittle:
-      "Pursue accredited, globally recognized qualifications designed for flexibility, affordability, and career advancement - anytime, anywhere.",
+      "Pursue accredited, globally recognised qualifications designed for flexibility, affordability and career progression – anytime, anywhere.",
     button: "Explore Programmes",
+    buttontwo: "Get a Call Back",
     arrowIcon: "/icon/arrow_forward.png",
     backgroundImg: "/images/herobanner-2.jpg",
+    mobileBackgroundImg: "/images/mobile-herobanner-2.jpg",
     calledtoAction:
-      "98% of our graduates will recommend us to others <span class='desktop-br'><br /></span>  (Source: 2025 Graduate Tracer Study)",
+      "98% of our graduates would recommend us to others <span class='desktop-br'><br /></span>  (Source: 2025 Graduate Tracer Study)",
 
     dynamicimg: [
       "/images/Ellipse 21.png",
@@ -53,7 +55,6 @@ const herobanner = [
 
   //     "98% of our graduates will recommend us to others  (Source: Based on number of respondents to the 2025 Graduate Tracer Survey)",
 
-
   //   dynamicimg: [
   //     "/images/Ellipse 21.png",
   //     "/images/Ellipse 22.png",
@@ -63,20 +64,29 @@ const herobanner = [
   // },
 ];
 
-
 const HeroSection = () => {
-  
   const navigate = useNavigate();
 
+  const isMobile = window.innerWidth <= 600;
+
   const handleAllCourse = () => {
-      navigate('/all-courses');
-  window.scrollTo(0, 0);
-  }
+    navigate("/all-courses");
+    window.scrollTo(0, 0);
+  };
+
+  const handleEnq = () => {
+    window.open(
+      "https://bothouniversity.academiaerp.com/enquire/",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
   return (
     <>
       <Carousel
         className="carosal-inner"
         autoplay
+        slidesToScroll={false}
         // pauseOnHover= {false}
         // dotPosition="bottom"
         dots={false}
@@ -86,17 +96,23 @@ const HeroSection = () => {
             <div
               key={index}
               className="hero-slide"
-              style={{ backgroundImage: `url(${item.backgroundImg})` }}
+              style={{ backgroundImage: `url(${isMobile ? item.mobileBackgroundImg : item.backgroundImg})` }}
             >
               <div className="hero-silde-content-session ">
                 <h1
                   className="primary-heading"
                   dangerouslySetInnerHTML={{ __html: item.Primarytittle }}
                 ></h1>
-                <p className="secondary-paragraph subtitle-white">{item.subtittle}</p>
+                <p className="secondary-paragraph subtitle-white">
+                  {item.subtittle}
+                </p>
 
-                <div className="">
-                  <button className="primary-button" onClick={handleAllCourse} style={{cursor: "pointer"}}>
+                <div className="buttons-corner">
+                  <button
+                    className="primary-button"
+                    onClick={handleAllCourse}
+                    style={{ cursor: "pointer" }}
+                  >
                     {item.button}{" "}
                     <img
                       className="arrow-icon-img"
@@ -104,6 +120,14 @@ const HeroSection = () => {
                       alt=""
                       srcset=""
                     />{" "}
+                  </button>
+                  <button className="secondary-button" onClick={handleEnq}>
+                    <span>Get a Call Back</span>
+                    <img
+                      className="secondary-arrow-styles"
+                      src="/icon/maroon-arrow.png"
+                      alt="arrow-forward"
+                    />
                   </button>
                 </div>
                 <div className="sub-heading-main">
@@ -122,7 +146,6 @@ const HeroSection = () => {
                     className="secondary-paragraph-pec"
                     dangerouslySetInnerHTML={{ __html: item?.calledtoAction }}
                   ></div>
-
                 </div>
               </div>
             </div>
