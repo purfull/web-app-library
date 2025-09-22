@@ -544,12 +544,13 @@ const TimerHome = ({ data, programOverview, feePage }) => {
                 <h3>{data?.programmeCredit} </h3>
                 <p>Fees per Programme Credit</p>
               </div>
-            </div>
-            <div className="grid-2">
-              <div>
+                  <div>
                 <h3>{data?.totalProgrammeCredit} </h3>
                 <p>Total Programme Credits</p>
               </div>
+            </div>
+            <div className="grid-2">
+              
               <div>
                 <h3>{data?.noOfModules} </h3>
                 <p>Number of Modules</p>

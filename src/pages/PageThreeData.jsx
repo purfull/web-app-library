@@ -469,8 +469,7 @@ export const bscindatascience = {
 `,
     },
   ],
-  programOverview: `Want to become a data expert? Our four-year BSc in Data Science equips you to extract meaningful insights from vast datasets. This programme integrates statistics, machine learning, computer science, and data analytics. You'll develop expertise in Data Processing, Analytics, and Visualisation, mastering Machine Learning, Data Mining, and Big Data Technologies.<br></br>With hands-on experience in AI and cloud computing, plus a Capstone Project and industrial attachment, you'll gain practical, industry-relevant skills. Graduates are well-prepared for dynamic careers as Data Scientists, Business Analysts, or AI Engineers in finance, healthcare, and technology.
-`,
+programOverview: `Want to become a data expert? Our BSc in Data Science equips you to transform raw data into meaningful insights. This forward-looking programme integrates statistics, machine learning, computer science, and data analytics, preparing students to master data processing, analytics, and visualisation alongside advanced techniques in machine learning, data mining, and big data technologies.<br></br>Through hands-on experience with AI, cloud computing, a capstone project, and an industrial attachment, students develop practical, industry-ready skills. Graduates are prepared for exciting careers as data scientists, business analysts, or AI engineers across finance, healthcare, technology, and beyond.`,
 };
 
 export const bbainbusinessmanagement = {
@@ -482,7 +481,7 @@ export const bbainbusinessmanagement = {
     // maxPeriod: 6,
     programmeCredit: "$13",
     totalProgrammeCredit: 480,
-    noOfModules: "42 (37 core + 5 elective)",
+    noOfModules: "42 (38 core + 4 elective)",
     totalFee: "$6,240",
     cta: true,
     timer: true,
@@ -920,7 +919,7 @@ export const bbainbusinessmanagement = {
 `,
     },
   ],
-  programOverview: `Aiming for a leadership role in the global business environment? Our Bachelor of Business Administration in Business Management provides the strategic mindset and skills you need. This programme covers key areas like management, finance, marketing, entrepreneurship, operations, and digital transformation, with a strong focus on innovation, sustainability, and ethical leadership.<br></br>Through practical case studies, collaborative projects, and industry-driven learning, you'll gain real-world experience, developing crucial critical thinking and problem-solving abilities. Whether you're planning an entrepreneurial venture or a corporate career, this degree will equip you to drive business innovation and achieve success.`,
+  programOverview: `Aiming for a leadership role in the global business environment? Our Bachelor of Business Administration in Business Management provides the strategic mindset and skills you need. This programme covers key areas like management, finance, marketing, entrepreneurship, operations, and digital transformation, with a strong focus on innovation, sustainability, and ethical leadership.<br></br>Through case studies, collaborative projects, and industry-driven learning, you will gain real-world experience while sharpening critical thinking and problem-solving abilities. Whether your ambition is to launch an entrepreneurial venture or advance in a corporate career, this degree equips you to drive innovation and achieve lasting success.`,
 };
 
 // export const bcominhospitalitymanagement = {
@@ -1334,9 +1333,9 @@ export const mcominhumanresourcemanagement = {
     typicalfulltimestudyperiod: 2,
     // maxPeriod: 4,
     programmeCredit: "$19.50",
-    totalProgrammeCredit: 240,
-    noOfModules: "13 (11 Core + 2 Elective)",
-    totalFee: "$4,680",
+    totalProgrammeCredit: 260,
+    noOfModules: "12 (11 core + 1 elective)",
+    totalFee: "$5,070",
     cta: true,
     timer: true,
     overview: true,
@@ -1551,7 +1550,8 @@ export const mcominhumanresourcemanagement = {
 `,
     },
   ],
-  programOverview: `Looking to become a leader in talent management? Our Master of Commerce in Human Resource Management (MCom in HRM) is a transformative qualification designed for the modern business landscape. You'll gain a robust foundation in strategic HR planning, recruitment, performance assessment, and more.<br></br>This programme empowers you with the skills to drive sustainable talent development, reducing reliance on external talent and fostering economic growth, especially in emerging economies. Ideal for those looking to advance their career and contribute meaningfully to national and corporate growth, the MCom in HRM cultivates leadership, innovation, and strategic decision-making, unlocking unparalleled opportunities for professional success.`,
+  programOverview: `Looking to become a leader in talent management? The Master of Commerce in Human Resource Management (MCom HRM) is a transformative qualification designed for today’s business landscape. It provides a strong foundation in strategic HR planning, recruitment, performance assessment, and related areas.
+<br></br>The programme equips learners to drive sustainable talent development, reduce dependence on external skills, and support economic growth, particularly in emerging economies. Ideal for professionals seeking career advancement and meaningful impact, the MCom HRM develops leadership, innovation, and strategic decision-making, opening exceptional opportunities for professional success and national contribution.`,
 };
 
 export const masterofbusinessadministration = {
@@ -1562,9 +1562,9 @@ export const masterofbusinessadministration = {
     typicalfulltimestudyperiod: 2,
     // maxPeriod: 4,
     programmeCredit: "$19.50",
-    totalProgrammeCredit: 240,
-    noOfModules: "13 (11 Core + 2 Elective)",
-    totalFee: "$4,680",
+    totalProgrammeCredit: 250,
+    noOfModules: "14 (12 core + 2 elective)",
+    totalFee: "$4,875",
     cta: true,
     timer: true,
     overview: true,
@@ -1793,7 +1793,7 @@ export const masterofbusinessadministration = {
 `,
     },
   ],
-  programOverview: `Aiming to become a top executive in the global business arena? Our MBA programme is designed for ambitious professionals. It equips you with the skills to tackle complex challenges, focusing on critical thinking, entrepreneurship, financial resilience, and innovative problem-solving.<br></br>This programme allows you to balance work, life, and study while gaining expertise in international business, leadership, accounting, risk management, technology, and marketing. Our MBA provides a strong foundation in business, empowering you to develop executive acumen and thrive in competitive environments. Join us and gain a recognised qualification for long-term success.`,
+  programOverview: `Aiming to become a top executive in the global business arena? Our MBA programme is designed for ambitious professionals. It equips you with the skills to tackle complex challenges, focusing on critical thinking, entrepreneurship, financial resilience, and innovative problem-solving.<br></br>The programme offers flexibility to balance work, life, and study while developing expertise in international business, leadership, accounting, risk management, technology, and marketing. With a strong foundation in business and executive acumen, the MBA prepares graduates to thrive in competitive environments and achieve long-term professional success.`,
 };
 
 export const diplomainoccupationalhealthsafety = {
@@ -2005,10 +2005,19 @@ export const diplomainoccupationalhealthsafety = {
 <ul>
   <li>Headset, External storage, Antivirus software.</li>
 </ul>
+<p><strong>Additional Tools (Optional but Recommended)
+</strong></p>
+<p>Headset: For clear audio during virtual classes; External storage (USB/Cloud): For backups of important coursework; Antivirus software: To protect against malware or data loss</p>
+
+
+
+
 </div>`,
     },
   ],
-  programOverview: `Fascinated by creating safer workplaces? Our Diploma in Occupational Health and Safety is for you! This comprehensive programme blends occupational health, safety management, risk assessment, and environmental sustainability. You'll gain practical skills to identify, evaluate, and control workplace hazards, ensuring compliance with regulations, and fostering a strong safety culture.<br></br>Graduates are prepared to make a significant impact in manufacturing, construction, healthcare, and more. With a focus on both theory and hands-on experience, you'll be well-equipped to prevent injuries, illnesses, and accidents, becoming a vital advocate for employee well-being and a robust safety culture.`,
+  programOverview: `Fascinated by creating safer workplaces? The Diploma in Occupational Health and Safety is designed for those passionate about protecting people and organisations. The programme combines occupational health, safety management, risk assessment, and environmental sustainability, equipping learners with practical skills to identify, evaluate, and control workplace hazards while ensuring regulatory compliance.<br></br/>
+
+Graduates are prepared for impactful careers across manufacturing, construction, healthcare, and beyond. With its balance of theory and hands-on learning, the diploma develops professionals ready to prevent injuries, illnesses, and accidents, while fostering a strong culture of safety and employee well-being.`,
 };
 
 export const bscinhealthinformationmanagement = {
@@ -2402,7 +2411,8 @@ export const bscinhealthinformationmanagement = {
 `,
     },
   ],
-  programOverview: `Fascinated by the intersection of healthcare and technology? Our BSc in Health Information Management equips you to manage health data, information systems, and technology solutions. This comprehensive programme integrates health sciences, IT, and management principles, preparing you for dynamic careers in healthcare data management and analytics.<br></br>You'll learn to maintain data integrity, privacy, and compliance with healthcare regulations, while developing vital analytical, technical, and managerial skills. Graduates are ready for diverse roles such as Health Information Managers or Clinical Data Analysts, making a real impact on modern healthcare information management.`,
+  programOverview: `Fascinated by the intersection of healthcare and technology? The BSc in Health Information Management equips learners to manage health data, information systems, and technology solutions. This interdisciplinary programme combines health sciences, IT, and management principles, preparing graduates for careers in healthcare data management and analytics.<br></br>
+Students develop expertise in maintaining data integrity, privacy, and compliance with healthcare regulations, alongside analytical, technical, and managerial skills. Graduates are well-prepared for roles such as Health Information Managers or Clinical Data Analysts, making a meaningful contribution to the future of healthcare information management.`,
 };
 
 export const bscinhospitaladministration = {
@@ -2817,11 +2827,11 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
     question: "BSc in Safety, Health and Environmental Management",
     image: "/images/courses-images/BSc in Safety..png",
     downloadurl: `${baseUrl}BScInSafetyHealthandEnviroMgmt.pdf`,
-    minPeriod: 4,
-    maxPeriod: 6,
+    typicalfulltimestudyperiod: 4,
+    // maxPeriod: 6,
     programmeCredit: "$13",
     totalProgrammeCredit: 508,
-    noOfModules: "39 (36 core + 3 elective)",
+    noOfModules: "38 (36 core + 2 elective)",
     totalFee: "$6,604",
     cta: true,
     timer: true,
@@ -3234,7 +3244,8 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
 `,
     },
   ],
-  programOverview: `Ready to champion workplace safety and environmental well-being? Our BSc in Safety, Health, and Environment (SHE) Management is an interdisciplinary programme designed to equip you with essential knowledge. It seamlessly integrates occupational health, environmental science, and risk management principles.<br></br>You'll delve into identifying and assessing workplace hazards, developing effective control mechanisms, and adhering to crucial safety and environmental regulations. This programme also emphasises sustainable practices. Graduates are well-prepared to meet the growing demand for professionals adept at addressing SHE issues across diverse industries like manufacturing, construction, and healthcare, making meaningful contributions to workers and the environment.`,
+  programOverview: `Ready to champion workplace safety and environmental well-being? The BSc in Safety, Health, and Environment (SHE) Management is an interdisciplinary programme that integrates occupational health, environmental science, and risk management principles.<br></br>
+Learners study how to identify and assess workplace hazards, design effective control measures, and ensure compliance with safety and environmental regulations. The programme also places emphasis on sustainable practices. Graduates are prepared to meet the rising demand for SHE professionals across industries such as manufacturing, construction, and healthcare, making a meaningful contribution to both worker welfare and environmental stewardship.`,
 };
 
 export const bedinprimaryeducation = {
@@ -4242,7 +4253,9 @@ export const medinleadershipandmanagement = {
 `,
     },
   ],
-  programOverview: `Aspiring to lead in education? Our Master of Educational Leadership and Management is a prestigious, two-year programme designed to elevate your career. You'll gain cutting-edge leadership, management, and strategic decision-making skills through twelve core modules and elective options.<br></br>With a strong emphasis on research and innovation, you'll complete 240 credits, including a Research Methodology module, before your dissertation. Delivered through flexible Online Learning, this programme is ideal for both national and international students, allowing you to advance your expertise and shape the future of learning.`,
+  programOverview: ` Aspiring to lead in education? Our Master of Educational Leadership and Management is a prestigious programme designed to advance your career. You will develop advanced leadership, management, and strategic decision-making skills through a blend of core and elective modules.
+<br><br/>
+With a strong emphasis on research and innovation, the programme includes advanced training in research methodology and culminates in a dissertation. It is ideal for both national and international students seeking to enhance their expertise and make a lasting impact on the future of education`,
 };
 
 export const medincurriculumdesignandinstruction = {
@@ -4484,7 +4497,8 @@ export const medincurriculumdesignandinstruction = {
 `,
     },
   ],
-  programOverview: `Ready to lead in education and curriculum development? Our Master of Education in Curriculum Design and Instruction is your pathway to becoming an expert. You'll master Learning, Teaching and Assessment, Theories of Curriculum Development, and practical Curriculum Design and Development.<br></br>This cutting-edge programme integrates Computer Applications in Education and Instructional Strategies Using Internet, ensuring you stay ahead in modern practices. You'll also delve into Research Methods and complete a Dissertation. Delivered flexibly, this programme will equip you to innovate curricula, evaluate learning, and become a leader in education.`,
+  programOverview: `Ready to lead in education and curriculum development? Our Master of Education in Curriculum Design and Instruction is your pathway to becoming an expert in shaping effective learning experiences. You will gain mastery in learning, teaching and assessment, curriculum theories, and practical approaches to curriculum design and development.<br></br>
+This forward-looking programme also integrates technology through computer applications in education and internet-based instructional strategies, ensuring you are equipped for modern educational challenges. With research training and a dissertation, the programme prepares you to innovate, evaluate, and transform curricula, positioning you as a leader in education.`,
 };
 
 export const bscinnetworksecurityandcomputerforensics = {
@@ -4901,7 +4915,9 @@ export const bscinnetworksecurityandcomputerforensics = {
 `,
     },
   ],
-  programOverview: `Ready to become a cybersecurity expert? Our BSc in Network Security and Computer Forensics is a specialised degree equipping you to protect digital assets and investigate cyber threats. You'll gain hands-on experience in penetration testing, digital forensics, and network defence strategies, integrating core computing principles with advanced security techniques.<br></br>The programme covers essential topics like ethical hacking, cybercrime investigation, and malware analysis, providing comprehensive knowledge of modern threats and countermeasures. Beyond technical skills, you'll learn ethical and legal considerations, preparing you for careers as a cybersecurity analyst or digital forensic investigator in government, corporations, or law enforcement, addressing critical security challenges.`,
+  programOverview: `Interested in safeguarding digital systems and uncovering cybercrime? Our BSc in Network Security and Computer Forensics is a specialised degree designed to prepare students to protect information assets and investigate cyber incidents. The programme offers practical training in penetration testing, digital forensics, and network defence, combining fundamental computing with advanced security practices. <br></br>
+
+Students will engage with key topics such as ethical hacking, cybercrime investigation, and malware analysis, while also developing a strong grounding in ethical and legal considerations. Graduates emerge ready for careers as network security specialists or digital forensic investigators in government, corporations, and law enforcement, addressing critical challenges in today’s digital world.`,
 };
 export const medinhighereducation = {
   heroContent: {
@@ -5150,7 +5166,8 @@ export const medinhighereducation = {
 `,
     },
   ],
-  programOverview: `Elevate your expertise with our Master of Education in Higher Education. This specialised two-year online programme equips you with advanced pedagogical skills, covering Learning, Teaching and Assessment, Curriculum Design and Development, and Academic Writing. You'll gain a deep understanding of Quality Frameworks in Higher Education and integrate Educational Technology and e-Learning.<br></br>With a strong emphasis on research, including Research in Higher Education and a Dissertation, alongside practical experience, this flexible programme prepares you for leadership roles in universities and colleges, shaping the future of higher education.`,
+  programOverview: `Elevate your expertise with our Master of Education in Higher Education. This specialised programme equips you with advanced pedagogical skills, covering learning, teaching and assessment, curriculum design, and academic writing. You will gain a deep understanding of quality frameworks in higher education while integrating educational technology and e-learning.<br></br>With a strong emphasis on research and practical experience, including modules on higher education research and a dissertation, the programme prepares you for leadership roles in universities and colleges, empowering you to shape the future of higher education.`,
+
 };
 
 export const mscininformationsystemsmanagement = {
@@ -5158,11 +5175,11 @@ export const mscininformationsystemsmanagement = {
     question: "MSc in Information Systems Management",
     image: "/images/courses-images/Msc in Information Systems management.jpeg",
     downloadurl: `${baseUrl}MScInInformationSysMgmt.pdf`,
-    minPeriod: 2,
-    maxPeriod: 4,
+    typicalfulltimestudyperiod: 2,
+    // maxPeriod: 4,
     programmeCredit: "$19.50",
     totalProgrammeCredit: 240,
-    noOfModules: "14 (11 core + 3 elective)",
+    noOfModules: "10 (8 core + 2 elective)",
     totalFee: "$4,680",
     cta: true,
     timer: true,
@@ -5344,7 +5361,7 @@ export const mscininformationsystemsmanagement = {
 `,
     },
   ],
-  programOverview: `Ready to excel in information systems management? Our Master of Science in Information Systems Management is a professionally oriented online programme, perfect if you need flexible learning. You'll develop advanced critical thinking and technical skills in key areas like systems analysis and design, project management, data management, cybersecurity, and business intelligence, all with an emphasis on global best practices.<br></br>This programme prepares you for leadership roles, enabling you to apply technical expertise and strategic thinking to drive organisational success. You'll be ready to work autonomously or in multidisciplinary teams, tackling the complexities of modern information systems with integrity and professionalism.`,
+programOverview: `Interested in safeguarding digital systems and uncovering cybercrime? Our BSc in Network Security and Computer Forensics is a specialised degree designed to prepare students to protect information assets and investigate cyber incidents. The programme offers practical training in penetration testing, digital forensics, and network defence, combining fundamental computing with advanced security practices.<br></br> Students will engage with key topics such as ethical hacking, cybercrime investigation, and malware analysis, while also developing a strong grounding in ethical and legal considerations. Graduates emerge ready for careers as network security specialists or digital forensic investigators in government, corporations, and law enforcement, addressing critical challenges in today’s digital world.`,
 };
 
 export const mscincomputerscience = {
@@ -5526,7 +5543,7 @@ export const mscincomputerscience = {
 `,
     },
   ],
-  programOverview: `Aspiring to excel in the tech industry? Our Master of Science in Computer Science is an advanced, flexible online programme. You'll gain technical expertise and analytical skills, focusing on core computing principles and specialised areas like software development, data analysis, artificial intelligence, and cybersecurity.<br></br>The programme provides hands-on experience with industry tools, mastering algorithms and software engineering. You'll develop critical thinking, problem-solving, and secure software design skills, preparing you to create scalable solutions and address ethical challenges. Graduates are ready for careers in software engineering, data science, or cybersecurity, driving innovation in the digital world.`,
+programOverview: `Aspiring to excel in the tech industry? Our Master of Science in Computer Science is an advanced, flexible programme designed to strengthen both technical expertise and analytical capability. It covers core computing principles alongside advanced topics such as software development, data analysis, artificial intelligence, and cybersecurity.<br><br/> Students gain practical experience with industry-standard tools, mastering algorithms, software engineering, and secure system design. The programme builds strong critical thinking and problem-solving skills, preparing graduates to create scalable solutions and address ethical challenges. Career opportunities include roles in software engineering, data science, and cybersecurity, with the potential to drive innovation in the digital era.`,
 };
 
 export const bcominaccounting = {
