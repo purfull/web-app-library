@@ -144,6 +144,7 @@ const PageTwo = () => {
     // },
   ];
 
+
   const faqData = [
     {
       question:
@@ -164,12 +165,8 @@ To help you prepare for the application, here's what you'll typically need:
 - Certified copies of your High School Certificate
 
 - Professional passport-size photo
-</br></br>
-<strong>Mature Entry Applicants:</strong></br></br>
 
-- Other qualification certificates with transcripts
-</br>
-- Letter(s) from your employer(s)
+- Mature Entry Applicants: Other qualification certificates with transcripts and letter(s) from your employer(s)
 </br></br>
 <strong>For Postgraduate Programmes:</strong></br></br>
 - Certified copies of your degree certificate and official transcript
