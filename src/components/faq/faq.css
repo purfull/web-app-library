@@ -38,7 +38,7 @@
     padding: 10px 10px 0px 0px !important;
     font-size: 14px;
     font-weight: 400;
-    text-align: justify;
+    /* text-align: justify; */
     line-height: 150%;
   }
 }
@@ -188,7 +188,7 @@
     padding: 10px 44px 0px 0px !important;
     font-size: 20px;
     font-weight: 400;
-    text-align: justify;
+    /* text-align: justify; */
     line-height: 150%;
   }
 }
