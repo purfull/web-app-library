@@ -1594,7 +1594,7 @@ export const bscindatascience = {
   heroContent: {
     question: "BSc in Data Science",
     image: "/images/courses-images/Bsc in data science.jpeg",
-    minPeriod: 4,
+    typicalfulltimestudyperiod: 4,
     // maxPeriod: 6,
     programmeCredit: "$13.00",
     totalProgrammeCredit: 495,
@@ -1994,7 +1994,7 @@ export const bscinnetworksecurityandcomputerforensics = {
   heroContent: {
     question: "BSc in Network Security and Computer Forensics",
     image: "/images/courses-images/BSc in network security.jpeg",
-    minPeriod: 4,
+    typicalfulltimestudyperiod: 4,
     // maxPeriod: 6,
     programmeCredit: "$13",
     totalProgrammeCredit: 480,
@@ -2466,7 +2466,7 @@ export const medincurriculumdesignandinstruction = {
   heroContent: {
     question: "Master of Education in Curriculum Design and Instruction",
     image: "/images/courses-images/Med in curriculum.jpeg",
-    minPeriod: 2,
+    typicalfulltimestudyperiod: 2,
     // maxPeriod: 4,
     programmeCredit: "$19.50",
     totalProgrammeCredit: 240,
@@ -2633,7 +2633,7 @@ export const medinhighereducation = {
   heroContent: {
     question: "Mater of Education in Higher Education",
     image: "/images/courses-images/Med in higher education.jpeg",
-    minPeriod: 2,
+    typicalfulltimestudyperiod: 2,
     // maxPeriod: 4,
     programmeCredit: "$19.50",
     totalProgrammeCredit: 240,
@@ -2821,7 +2821,7 @@ export const mscininformationsystemsmanagement = {
   heroContent: {
     question: "MSc in Information Systems Management",
     image: "/images/courses-images/Msc in Information Systems management.jpeg",
-    minPeriod: 2,
+    typicalfulltimestudyperiod: 2,
     // maxPeriod: 4,
     programmeCredit: "$19.50",
     totalProgrammeCredit: 240,
@@ -2953,7 +2953,7 @@ export const mscincomputerscience = {
   heroContent: {
     question: "MSc in Computer Science",
     image: "/images/courses-images/Msc in computer science.jpeg",
-    minPeriod: 2,
+    typicalfulltimestudyperiod: 2,
     // maxPeriod: 4,
     programmeCredit: "$19.50",
     totalProgrammeCredit: 240,
