@@ -90,7 +90,7 @@ const Footer = () => {
         <div className="first-con">
           <img
             className="logo-botho-footer"
-            src="/logo/BothoLogo-hd.png"
+            src="/logo/BothoLogo-hd.jpg"
             alt="Logo"
           />
 
