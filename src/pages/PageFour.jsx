@@ -126,8 +126,8 @@ It's very important to us at Botho University that students receive timely assis
         five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
-        fees: "4,680",
-        credits: "240",
+        fees: "4,875",
+        credits: "250",
         module: "19.50",
       },
     },
@@ -142,8 +142,8 @@ It's very important to us at Botho University that students receive timely assis
         five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
-        fees: "4,680",
-        credits: "240",
+        fees: "5,070",
+        credits: "260",
         module: "19.50",
       },
     },
@@ -191,9 +191,9 @@ It's very important to us at Botho University that students receive timely assis
         five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
-        credits: "240",
+        credits: "248",
         module: "19.50",
-        fees: "4,680",
+        fees: "4,836",
       },
     },
     {
@@ -240,9 +240,9 @@ It's very important to us at Botho University that students receive timely assis
         five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
-        credits: "120",
+        credits: "130",
         module: "19.50",
-        fees: "2,340",
+        fees: "2,535",
       },
     },
   ];
@@ -291,8 +291,8 @@ It's very important to us at Botho University that students receive timely assis
         five: "5 . Applied Financial Mathematics (Includes Exemption Exam)",
       },
       amountdetails: {
-        fees: "6,240",
-        credits: "480",
+        fees: "6,760",
+        credits: "520",
         module: "13",
       },
     },
@@ -375,7 +375,7 @@ It's very important to us at Botho University that students receive timely assis
       },
       amountdetails: {
         fees: "6,604",
-        credits: "508",
+        credits: "496",
         module: "13",
       },
     },
