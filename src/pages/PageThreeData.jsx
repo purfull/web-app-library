@@ -469,7 +469,7 @@ export const bscindatascience = {
 `,
     },
   ],
-programOverview: `Want to become a data expert? Our BSc in Data Science equips you to transform raw data into meaningful insights. This forward-looking programme integrates statistics, machine learning, computer science, and data analytics, preparing students to master data processing, analytics, and visualisation alongside advanced techniques in machine learning, data mining, and big data technologies.<br></br>Through hands-on experience with AI, cloud computing, a capstone project, and an industrial attachment, students develop practical, industry-ready skills. Graduates are prepared for exciting careers as data scientists, business analysts, or AI engineers across finance, healthcare, technology, and beyond.`,
+  programOverview: `Want to become a data expert? Our BSc in Data Science equips you to transform raw data into meaningful insights. This forward-looking programme integrates statistics, machine learning, computer science, and data analytics, preparing students to master data processing, analytics, and visualisation alongside advanced techniques in machine learning, data mining, and big data technologies.<br></br>Through hands-on experience with AI, cloud computing, a capstone project, and an industrial attachment, students develop practical, industry-ready skills. Graduates are prepared for exciting careers as data scientists, business analysts, or AI engineers across finance, healthcare, technology, and beyond.`,
 };
 
 export const bbainbusinessmanagement = {
@@ -488,7 +488,6 @@ export const bbainbusinessmanagement = {
     overview: true,
   },
   courseStruture: [
-
     {
       semester: "Semester 1",
       courses: [
@@ -497,44 +496,44 @@ export const bbainbusinessmanagement = {
           subanswer:
             "Code: C5-IMO-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module equips students with essential digital skills for academic, professional, and personal productivity. It provides practical experience with Microsoft Office applications, fostering proficiency in word processing, spreadsheets, presentations, database management, and email communication to build a strong foundation for effective digital engagement."
+            "This module equips students with essential digital skills for academic, professional, and personal productivity. It provides practical experience with Microsoft Office applications, fostering proficiency in word processing, spreadsheets, presentations, database management, and email communication to build a strong foundation for effective digital engagement.",
         },
         {
           question: "Academic Writing for Business",
           subanswer:
             "Code: D5-AWB-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module develops essential academic writing skills, emphasising paragraph structure, thesis statements, and coherent argumentation. It addresses plagiarism, its implications, and strategies for avoidance. Students also gain competence in referencing, citation techniques, resource evaluation, and the use of tools such as Mendeley to uphold academic integrity."
+            "This module develops essential academic writing skills, emphasising paragraph structure, thesis statements, and coherent argumentation. It addresses plagiarism, its implications, and strategies for avoidance. Students also gain competence in referencing, citation techniques, resource evaluation, and the use of tools such as Mendeley to uphold academic integrity.",
         },
         {
           question: "Business Mathematics and Statistics 1",
           subanswer:
             "Code: B5-BS1-17<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module introduces fundamental mathematical concepts such as fractions, percentages, algebra, and their applications in business. It covers basic statistics, including data organisation, measures of central tendency, dispersion, and spreadsheet analysis. Probability concepts, including axioms, distributions, and the standard normal curve, are examined to strengthen quantitative decision-making skills."
+            "This module introduces fundamental mathematical concepts such as fractions, percentages, algebra, and their applications in business. It covers basic statistics, including data organisation, measures of central tendency, dispersion, and spreadsheet analysis. Probability concepts, including axioms, distributions, and the standard normal curve, are examined to strengthen quantitative decision-making skills.",
         },
         {
           question: "Legal Aspects of Business",
           subanswer:
             "Code: B5-LAB-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module introduces the origins of law and the structure of legal systems, with particular reference to Botswana. It examines both criminal and civil law and explores key areas such as contracts, sales, leases, credit agreements, insurance, agency, employment, intellectual property, negotiable instruments, and business enterprises, providing essential legal foundations."
+            "This module introduces the origins of law and the structure of legal systems, with particular reference to Botswana. It examines both criminal and civil law and explores key areas such as contracts, sales, leases, credit agreements, insurance, agency, employment, intellectual property, negotiable instruments, and business enterprises, providing essential legal foundations.",
         },
         {
           question: "Introduction to Financial Accounting",
           subanswer:
             "Code: A5-IFA-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module provides a foundational understanding of financial accounting principles and techniques. Students will be introduced to accounting, financial record preparation, and adjustments aligned with international accounting standards. Emphasising error analysis and financial reporting, the module equips students with essential skills to manage financial records and support informed business decision-making."
+            "This module provides a foundational understanding of financial accounting principles and techniques. Students will be introduced to accounting, financial record preparation, and adjustments aligned with international accounting standards. Emphasising error analysis and financial reporting, the module equips students with essential skills to manage financial records and support informed business decision-making.",
         },
         {
           question: "Business Management 1",
           subanswer:
             "Code: B5-BM1-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module introduces business management as a discipline, addressing core concepts, economic systems, and stakeholder roles. It examines the business environment, management functions, and key areas including operations, finance, human resources, and marketing. Leadership principles and theories are explored to build a foundation for sound business strategy and decision-making."
-        }
-      ]
+            "This module introduces business management as a discipline, addressing core concepts, economic systems, and stakeholder roles. It examines the business environment, management functions, and key areas including operations, finance, human resources, and marketing. Leadership principles and theories are explored to build a foundation for sound business strategy and decision-making.",
+        },
+      ],
     },
     {
       semester: "Semester 2",
@@ -544,44 +543,44 @@ export const bbainbusinessmanagement = {
           subanswer:
             "Code: B5-PMK-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module introduces the fundamentals of marketing, covering the 7 P’s, consumer behaviour, and decision-making processes. It examines market research, segmentation, and targeting strategies, alongside product development, pricing, and promotion. Students gain essential skills to apply marketing principles effectively in dynamic and competitive business environments."
+            "This module introduces the fundamentals of marketing, covering the 7 P’s, consumer behaviour, and decision-making processes. It examines market research, segmentation, and targeting strategies, alongside product development, pricing, and promotion. Students gain essential skills to apply marketing principles effectively in dynamic and competitive business environments.",
         },
         {
           question: "Business Mathematics and Statistics 2",
           subanswer:
             "Code: B6-BS2-21<br/>Prerequisite: B5-BS1-17<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module develops essential mathematical skills through topics such as quadratic equations, functions, differentiation, and integration. It introduces statistical concepts including sampling distributions, confidence intervals, hypothesis testing, and chi-square tests, while also covering regression analysis, decision theory, and time series forecasting to support data-driven decision-making in business and research."
+            "This module develops essential mathematical skills through topics such as quadratic equations, functions, differentiation, and integration. It introduces statistical concepts including sampling distributions, confidence intervals, hypothesis testing, and chi-square tests, while also covering regression analysis, decision theory, and time series forecasting to support data-driven decision-making in business and research.",
         },
         {
           question: "Microeconomics",
           subanswer:
             "Code: B6-MIE-17<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module introduces key economic principles, including scarcity, choice, and the functioning of economic systems. It examines demand and supply, market equilibrium, and elasticity, alongside firm behaviour, production costs, and market structures. Externalities, public goods, and income distribution are also addressed, offering insights into economic decision-making and policy development."
+            "This module introduces key economic principles, including scarcity, choice, and the functioning of economic systems. It examines demand and supply, market equilibrium, and elasticity, alongside firm behaviour, production costs, and market structures. Externalities, public goods, and income distribution are also addressed, offering insights into economic decision-making and policy development.",
         },
         {
           question: "Financial Accounting 1",
           subanswer:
             "Code: A6-FA1-17<br/>Prerequisite: A5-IFA-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module introduces accounting principles, financial reporting, and corporate structures. It examines company formation, financial statement preparation, and adjustments in line with IFRS and IAS standards. Key areas include limited liability companies, partnerships, ratio analysis, and asset management, with emphasis on reporting frameworks and financial information for effective decision-making."
+            "This module introduces accounting principles, financial reporting, and corporate structures. It examines company formation, financial statement preparation, and adjustments in line with IFRS and IAS standards. Key areas include limited liability companies, partnerships, ratio analysis, and asset management, with emphasis on reporting frameworks and financial information for effective decision-making.",
         },
         {
           question: "Business Management 2",
           subanswer:
             "Code: B6-BM2-20<br/>Prerequisite: B5-BM1-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module provides a foundation in management principles, addressing managerial roles, strategic planning, decision-making, and organisational structures. It explores human resource management, change management, diversity, and logistics. Emphasis is placed on adapting to environmental shifts, utilising information systems, and developing skills for sustainable competitive advantage in contemporary business contexts."
+            "This module provides a foundation in management principles, addressing managerial roles, strategic planning, decision-making, and organisational structures. It explores human resource management, change management, diversity, and logistics. Emphasis is placed on adapting to environmental shifts, utilising information systems, and developing skills for sustainable competitive advantage in contemporary business contexts.",
         },
         {
           question: "Customer Relationship Management",
           subanswer:
             "Code: B7-CRM-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module explores the management of marketing with a focus on Customer Relationship Management (CRM). Students will critically understand CRM principles, their role in business strategy, and the importance of customer service. Through real-world examples, they will apply CRM strategies to acquire, coordinate, and maximize customer relationships effectively."
-        }
-      ]
+            "This module explores the management of marketing with a focus on Customer Relationship Management (CRM). Students will critically understand CRM principles, their role in business strategy, and the importance of customer service. Through real-world examples, they will apply CRM strategies to acquire, coordinate, and maximize customer relationships effectively.",
+        },
+      ],
     },
 
     {
@@ -628,8 +627,8 @@ export const bbainbusinessmanagement = {
             "Code: B6-BIS-20<br/>Prerequisite: C5-IMO-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces Business Information Systems (BIS), focusing on how information technology enhances organisational performance and decision-making. Students will learn to manage IT systems, analyse business intelligence, and model information flow. Topics include regulatory issues, system quality, cybercrime, and security, preparing students to manage and apply information systems effectively in business.",
-        }
-      ]
+        },
+      ],
     },
     {
       semester: "Semester 4",
@@ -675,8 +674,8 @@ export const bbainbusinessmanagement = {
             "Code: B6-PMT-21<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips students with principles and techniques for efficient procurement, focusing on minimising waste. Students will gain insight on purchase operations, payment processes, inventory management, supplier evaluation, and quality control. Students will learn to apply strategic sourcing, manage supplier relationships, and use negotiation skills to optimise procurement processes and achieve organisational goals.",
-        }
-      ]
+        },
+      ],
     },
 
     {
@@ -709,8 +708,8 @@ export const bbainbusinessmanagement = {
             "Code: B7-IEM-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips students with the skills to manage the import and export process, covering procedures, documentation, and regulations in international trade. Students will learn key principles of global trade, payment methods, financing, risk management, logistics, and containerisation. The module also emphasises the use of technology to improve efficiency in import-export operations.",
-        }
-      ]
+        },
+      ],
     },
     {
       semester: "Semester 5 Elective Group (Choose Two)",
@@ -735,8 +734,8 @@ export const bbainbusinessmanagement = {
             "Code: B7-FBM-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module provides an understanding of the dynamics and challenges in managing a family-owned business. Students will learn about family business structures, the advantages and disadvantages of such setups, decision-making processes, and succession planning. It also covers themes like leadership, governance, and managing family relationships for sustainable growth.",
-        }
-      ]
+        },
+      ],
     },
 
     ///6
@@ -771,8 +770,8 @@ export const bbainbusinessmanagement = {
             "Code: B7-TLM-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module teaches students the principles and techniques of packaging, distributing goods, and optimising logistics. Topics include transportation and logistics management, integrating logistics with customer care, addressing supply chain challenges, creating competitive advantages, resource management, teamwork, and planning with freight transportation to enhance efficiency and minimise costs.",
-        }
-      ]
+        },
+      ],
     },
     {
       semester: "Semester 6 Elective Group (Choose Two)",
@@ -804,8 +803,8 @@ export const bbainbusinessmanagement = {
             "Code: B7-BMT-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips students with the essential skills for effective brand management. It covers the principles of branding, brand positioning, and equity, along with strategies for designing and implementing brand marketing programmes. Students will also explore brand management in local and international markets and the growing importance of digital branding.",
-        }
-      ]
+        },
+      ],
     },
     {
       semester: "Semester 7",
@@ -859,7 +858,6 @@ export const bbainbusinessmanagement = {
         },
       ],
     },
-
   ],
   requirements: [
     {
@@ -1445,7 +1443,7 @@ export const mcominhumanresourcemanagement = {
           subanswer:
             "Code: B9-CCW-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "This module develops skills in workplace counselling and coaching to strengthen relationships and address challenges. Learners gain strategies to support employees, resolve issues, and improve behaviours, fostering an engaged, productive, and motivated workforce while avoiding common coaching pitfalls."
+            "This module develops skills in workplace counselling and coaching to strengthen relationships and address challenges. Learners gain strategies to support employees, resolve issues, and improve behaviours, fostering an engaged, productive, and motivated workforce while avoiding common coaching pitfalls.",
         },
         // {
         //   question: "Managing Equality and Diversity",
@@ -1460,14 +1458,14 @@ export const mcominhumanresourcemanagement = {
           subanswer:
             "Code: B9-MSH-22<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "This module covers health and safety regulations, risk assessment, and hazard prevention. Learners develop skills in accident prevention, workplace wellness, and compliance management to foster a safety culture, protect employees, and enhance organisational productivity and well-being."
+            "This module covers health and safety regulations, risk assessment, and hazard prevention. Learners develop skills in accident prevention, workplace wellness, and compliance management to foster a safety culture, protect employees, and enhance organisational productivity and well-being.",
         },
         {
           question: "Managing Organisations",
           subanswer:
             "Code: B9-MNO-22<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "This module examines organisational structure, culture, and change management. Learners develop strategies to enhance performance, improve decision-making, and drive innovation, while gaining insight into leadership styles, team dynamics, and effective communication for optimising organisational success."
+            "This module examines organisational structure, culture, and change management. Learners develop strategies to enhance performance, improve decision-making, and drive innovation, while gaining insight into leadership styles, team dynamics, and effective communication for optimising organisational success.",
         },
         // {
         //   question: "Climate Changes and Sustainability",
@@ -1486,7 +1484,7 @@ export const mcominhumanresourcemanagement = {
           subanswer:
             "Code: B9-DIS-17<br/>Prerequisite: B9-BRM-17<br/>Module Fees: $1170.00<br/>Module Credits: 60",
           answer:
-            "This module develops skills to produce impactful research, including crafting an overview, writing a compelling introduction, conducting an in-depth literature review, designing a robust methodology, analysing findings, and presenting clear conclusions and recommendations."
+            "This module develops skills to produce impactful research, including crafting an overview, writing a compelling introduction, conducting an in-depth literature review, designing a robust methodology, analysing findings, and presenting clear conclusions and recommendations.",
         },
       ],
     },
@@ -1820,37 +1818,37 @@ export const diplomainoccupationalhealthsafety = {
           subanswer:
             "Code: D5-CSS-21<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "The purpose of this module is to enhance students' academic and professional communication abilities, including writing, presentation, and critical thinking. It also focuses on effective study techniques, time management, and research skills to improve learning efficiency and success in academic and workplace settings."
+            "The purpose of this module is to enhance students' academic and professional communication abilities, including writing, presentation, and critical thinking. It also focuses on effective study techniques, time management, and research skills to improve learning efficiency and success in academic and workplace settings.",
         },
         {
           question: "Information Communication Technology",
           subanswer:
             "Code: C5-ICT-21<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "The purpose of this module is to provide students with a solid understanding of the fundamentals of computers, including essential hardware and software concepts. The module also covers practical skills in using word processing software and presentation tools, preparing students for effective digital communication."
+            "The purpose of this module is to provide students with a solid understanding of the fundamentals of computers, including essential hardware and software concepts. The module also covers practical skills in using word processing software and presentation tools, preparing students for effective digital communication.",
         },
         {
           question: "Introduction to Occupational Health and Safety Management",
           subanswer:
             "Code: D6-OHS-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "The purpose of this module is to provide students with the knowledge and skills to identify, assess, and mitigate workplace hazards. It aims to promote a culture of safety, ensure regulatory compliance, and protect the well-being of employees in various occupational settings."
+            "The purpose of this module is to provide students with the knowledge and skills to identify, assess, and mitigate workplace hazards. It aims to promote a culture of safety, ensure regulatory compliance, and protect the well-being of employees in various occupational settings.",
         },
         {
           question: "Introduction to Occupational Hygiene and Toxicology",
           subanswer:
             "Code: D6-OHT-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "The purpose of this module is to study the effects of harmful substances on living organisms and the environment. It aims to provide students with the knowledge and tools to assess risks, prevent exposure, and develop strategies for managing and mitigating the impact of toxins in occupation."
+            "The purpose of this module is to study the effects of harmful substances on living organisms and the environment. It aims to provide students with the knowledge and tools to assess risks, prevent exposure, and develop strategies for managing and mitigating the impact of toxins in occupation.",
         },
         {
           question: "Occupational Health and Safety Law I",
           subanswer:
             "Code: D6-OHL-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "The purpose of this module is to familiarise students with the legal frameworks and regulations governing workplace safety and health standards. It aims to promote compliance, protect employee rights, and ensure safe working environments through an understanding of legal responsibilities and obligations."
-        }
-      ]
+            "The purpose of this module is to familiarise students with the legal frameworks and regulations governing workplace safety and health standards. It aims to promote compliance, protect employee rights, and ensure safe working environments through an understanding of legal responsibilities and obligations.",
+        },
+      ],
     },
     {
       semester: "SEMESTER 2",
@@ -1860,37 +1858,37 @@ export const diplomainoccupationalhealthsafety = {
           subanswer:
             "Code: D6-SMB-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "The purpose of this module is to explore the principles and practices of ensuring safety in the design, construction, and maintenance of built structures. It aims to promote risk assessment, hazard control, and compliance with safety standards to create secure and sustainable environments for occupants and users."
+            "The purpose of this module is to explore the principles and practices of ensuring safety in the design, construction, and maintenance of built structures. It aims to promote risk assessment, hazard control, and compliance with safety standards to create secure and sustainable environments for occupants and users.",
         },
         {
           question: "Environmental Management",
           subanswer:
             "Code: D6-ENM-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "The purpose of this module is to introduce principles of environmental sustainability, resource management, and policies to mitigate environmental degradation."
+            "The purpose of this module is to introduce principles of environmental sustainability, resource management, and policies to mitigate environmental degradation.",
         },
         {
           question: "Risk Management",
           subanswer:
             "Code: D6-RMN-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "The purpose of this module is to equip students with the skills and strategies to identify, assess, and mitigate risks in various organisational contexts. It aims to promote proactive decision-making and resilience by minimising potential threats and maximising opportunities for success."
+            "The purpose of this module is to equip students with the skills and strategies to identify, assess, and mitigate risks in various organisational contexts. It aims to promote proactive decision-making and resilience by minimising potential threats and maximising opportunities for success.",
         },
         {
           question: "Occupational Health and Safety Law II",
           subanswer:
             "Code: D6-OS2-21<br/>Prerequisite: D6-OHL-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "The purpose of this module is to deepen students' understanding of advanced legal principles and case studies related to workplace safety and health regulations. It aims to enhance skills in interpreting and applying complex legal requirements to ensure organisational compliance and foster a culture of safety."
+            "The purpose of this module is to deepen students' understanding of advanced legal principles and case studies related to workplace safety and health regulations. It aims to enhance skills in interpreting and applying complex legal requirements to ensure organisational compliance and foster a culture of safety.",
         },
         {
           question: "Quality Management",
           subanswer:
             "Code: D6-QUM-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "The purpose of this module is to equip students with the knowledge and tools necessary to design, implement, and maintain effective quality assurance systems within organisations. It aims to promote continuous improvement, customer satisfaction, and operational excellence through the application of quality standards and methodologies."
-        }
-      ]
+            "The purpose of this module is to equip students with the knowledge and tools necessary to design, implement, and maintain effective quality assurance systems within organisations. It aims to promote continuous improvement, customer satisfaction, and operational excellence through the application of quality standards and methodologies.",
+        },
+      ],
     },
     {
       semester: "Semester 3",
@@ -1900,38 +1898,37 @@ export const diplomainoccupationalhealthsafety = {
           subanswer:
             "Code: D7-LBL-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "The purpose of this module is to provide an understanding of legal frameworks governing employment relationships, including workers' rights, employer obligations, and dispute resolution. It covers labour standards, workplace safety regulations, and collective bargaining to ensure fair and lawful practices in the workplace."
+            "The purpose of this module is to provide an understanding of legal frameworks governing employment relationships, including workers' rights, employer obligations, and dispute resolution. It covers labour standards, workplace safety regulations, and collective bargaining to ensure fair and lawful practices in the workplace.",
         },
         {
           question: "Biostatistics",
           subanswer:
             "Code: D7-BST-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "The purpose of this module is to provide students with the foundational knowledge and skills in statistical methods used in the field. It covers data analysis, probability, statistical inference, and the application of statistical tools to interpret biological and medical research effectively."
+            "The purpose of this module is to provide students with the foundational knowledge and skills in statistical methods used in the field. It covers data analysis, probability, statistical inference, and the application of statistical tools to interpret biological and medical research effectively.",
         },
         {
           question: "Ergonomics",
           subanswer:
             "Code: D7-ERG-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "The purpose of this module Ergonomics is to study the interaction between humans and their working environments to optimise safety, comfort, and productivity. It aims to apply principles of design and engineering to reduce physical strain, prevent injuries, and enhance overall efficiency in various tasks and workplaces."
+            "The purpose of this module Ergonomics is to study the interaction between humans and their working environments to optimise safety, comfort, and productivity. It aims to apply principles of design and engineering to reduce physical strain, prevent injuries, and enhance overall efficiency in various tasks and workplaces.",
         },
         {
           question: "Emergency Preparedness and Disaster Management",
           subanswer:
             "Code: D7-EPM-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "The purpose of this module is to equip students with skills to plan, respond to, and manage emergencies and disasters. It focuses on risk assessment, crisis communication, resource coordination, and recovery strategies to minimise impacts and ensure safety in various settings."
+            "The purpose of this module is to equip students with skills to plan, respond to, and manage emergencies and disasters. It focuses on risk assessment, crisis communication, resource coordination, and recovery strategies to minimise impacts and ensure safety in various settings.",
         },
         {
           question: "Occupational Diseases",
           subanswer:
             "Code: D7-OPD-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "The purpose of this module is to study diseases caused by workplace exposures, their prevention, and management. It covers identification of occupational hazards, diagnostic methods, legal frameworks, and strategies to mitigate risks, ensuring healthier and safer work environments."
+            "The purpose of this module is to study diseases caused by workplace exposures, their prevention, and management. It covers identification of occupational hazards, diagnostic methods, legal frameworks, and strategies to mitigate risks, ensuring healthier and safer work environments.",
         },
-
-      ]
+      ],
     },
     {
       semester: "SEMESTER 3 ELECTIVE GROUP (CHOOSE ONE)",
@@ -1941,24 +1938,23 @@ export const diplomainoccupationalhealthsafety = {
           subanswer:
             "Code: D7-ERT-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "The purpose of this module is to explore strategies for managing workplace relationships, resolving conflicts, and fostering a positive work environment. It emphasises effective communication, employee engagement, and compliance with labour laws to enhance organisational productivity and employee satisfaction."
+            "The purpose of this module is to explore strategies for managing workplace relationships, resolving conflicts, and fostering a positive work environment. It emphasises effective communication, employee engagement, and compliance with labour laws to enhance organisational productivity and employee satisfaction.",
         },
         {
           question: "Health and Safety in Transport (Elective)",
           subanswer:
             "Code: D7-HST-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "The purpose of this module is to explore safety protocols, risk management, and regulatory compliance in transportation systems. It focuses on identifying hazards, implementing preventive measures, and ensuring the health and safety of passengers, workers, and the public in various transport environments, including road, rail, air, and maritime sectors."
+            "The purpose of this module is to explore safety protocols, risk management, and regulatory compliance in transportation systems. It focuses on identifying hazards, implementing preventive measures, and ensuring the health and safety of passengers, workers, and the public in various transport environments, including road, rail, air, and maritime sectors.",
         },
         {
           question: "Building Maintenance (Elective)",
           subanswer:
             "Code: D7-BDM-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "The purpose of this module is to provide knowledge and skills for maintaining safe, functional, and efficient building operations. It covers preventive maintenance strategies, repair techniques, and safety protocols to ensure compliance with health, safety, and environmental standards, while extending the lifespan of building infrastructure."
-        }
-
-      ]
+            "The purpose of this module is to provide knowledge and skills for maintaining safe, functional, and efficient building operations. It covers preventive maintenance strategies, repair techniques, and safety protocols to ensure compliance with health, safety, and environmental standards, while extending the lifespan of building infrastructure.",
+        },
+      ],
     },
     {
       semester: "Semester 4",
@@ -1968,11 +1964,10 @@ export const diplomainoccupationalhealthsafety = {
           subanswer:
             "Code: D6-INA-21<br/>Prerequisite: 120 credits<br/>Module Fees: $780<br/>Module Credits: 60",
           answer:
-            "The purpose of this module is to provide students with practical, hands-on experience in a real-world work environment. It aims to bridge the gap between academic learning and professional practice, enhancing skills, knowledge, and employability in their chosen field."
-        }
-      ]
-    }
-
+            "The purpose of this module is to provide students with practical, hands-on experience in a real-world work environment. It aims to bridge the gap between academic learning and professional practice, enhancing skills, knowledge, and employability in their chosen field.",
+        },
+      ],
+    },
   ],
   requirements: [
     {
@@ -2650,7 +2645,6 @@ export const bscinhospitaladministration = {
       ],
     },
 
-
     ///6
     {
       semester: "Semester 6",
@@ -2734,8 +2728,8 @@ export const bscinhospitaladministration = {
             "Code: D7-RMN-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The purpose of this module is to teach strategies to identify, assess, and mitigate risks in healthcare settings. It focuses on patient safety, legal compliance, and organisational resilience.",
-        }
-      ]
+        },
+      ],
     },
     {
       semester: "Semester 8",
@@ -2753,12 +2747,9 @@ export const bscinhospitaladministration = {
             "Code: D8-RP2-23<br/>Prerequisite: D7-RPR-23<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "The purpose of this module is to conduct an advanced research project in healthcare. It builds on Research Project 1, emphasizing in-depth analysis and practical application.",
-        }
-      ]
-    }
-
-
-
+        },
+      ],
+    },
   ],
   requirements: [
     {
@@ -2863,7 +2854,8 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
             "The purpose of the module is to equip students with essential skills in academic writing, focusing on clear and structured communication in the Business fields. The module covers citation and referencing techniques, as well as research writing skills, enabling students to effectively present and support their academic work.",
         },
         {
-          question: "Mathematics for Safety, Health and Environmental Management",
+          question:
+            "Mathematics for Safety, Health and Environmental Management",
           subanswer:
             "Code: C5-MSH-25<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
@@ -2875,8 +2867,8 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
             "Code: C5-AIS-23<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module explores the interdisciplinary nature of advanced integrated science by combining biological, chemical, and physical concepts. Students will study principles across disciplines, analyse energy, forces, motion, and reactions within systems, and develop practical skills in designing experiments, data analysis, interpretation, and scientific reasoning for holistic scientific understanding.",
-        }
-      ]
+        },
+      ],
     },
     //2
     {
@@ -2916,11 +2908,9 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
             "Code: D7-SPW-25<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module equips students with knowledge and skills to implement safety procedures in the workplace. It covers hazard identification, risk assessment, emergency response, use of personal protective equipment, and adherence to health and safety regulations. Students will develop the competence to maintain safe, compliant, and efficient work environments.",
-        }
-      ]
+        },
+      ],
     },
-
-
 
     //3
     {
@@ -2931,37 +2921,37 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
           subanswer:
             "Code: D6-HIV-23<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module provides comprehensive knowledge of HIV and AIDS management. Students will explore surveillance, prevention strategies, social determinants of care, and the role of the private sector. It covers antenatal screening, mother-to-child transmission, innovative treatments, gene-expression strategies, and challenges such as drug interactions, equipping students for effective HIV/AIDS intervention."
+            "This module provides comprehensive knowledge of HIV and AIDS management. Students will explore surveillance, prevention strategies, social determinants of care, and the role of the private sector. It covers antenatal screening, mother-to-child transmission, innovative treatments, gene-expression strategies, and challenges such as drug interactions, equipping students for effective HIV/AIDS intervention.",
         },
         {
           question: "Occupational Epidemiology",
           subanswer:
             "Code: D7-OEP-25<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module introduces students to epidemiological principles and methods within occupational health. It covers epidemiological approaches, data sources, measurement techniques, and disease spread analysis, including mortality and morbidity rates. Students will learn research designs, data collection tools, and software applications for disease screening and classification in workplace contexts."
+            "This module introduces students to epidemiological principles and methods within occupational health. It covers epidemiological approaches, data sources, measurement techniques, and disease spread analysis, including mortality and morbidity rates. Students will learn research designs, data collection tools, and software applications for disease screening and classification in workplace contexts.",
         },
         {
           question: "Ergonomics",
           subanswer:
             "Code: D6-ERG-25<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module studies the interaction between humans and their working environments to optimise safety, comfort, and productivity. It aims to apply principles of design and engineering to reduce physical strain, prevent injuries, and enhance overall efficiency in various tasks and workplaces."
+            "This module studies the interaction between humans and their working environments to optimise safety, comfort, and productivity. It aims to apply principles of design and engineering to reduce physical strain, prevent injuries, and enhance overall efficiency in various tasks and workplaces.",
         },
         {
           question: "Biostatistics",
           subanswer:
             "Code: D7-BST-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module provides students with foundational knowledge and skills in statistical methods used in the field. It covers data analysis, probability, statistical inference, and the application of statistical tools to interpret biological and medical research effectively."
+            "This module provides students with foundational knowledge and skills in statistical methods used in the field. It covers data analysis, probability, statistical inference, and the application of statistical tools to interpret biological and medical research effectively.",
         },
         {
           question: "Emergency Preparedness and Disaster Management",
           subanswer:
             "Code: D7-EPM-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module equips students with skills to plan, respond to, and manage emergencies and disasters. It focuses on risk assessment, crisis communication, resource coordination, and recovery strategies to minimise impacts and ensure safety in various settings."
-        }
-      ]
+            "This module equips students with skills to plan, respond to, and manage emergencies and disasters. It focuses on risk assessment, crisis communication, resource coordination, and recovery strategies to minimise impacts and ensure safety in various settings.",
+        },
+      ],
     },
 
     {
@@ -2972,37 +2962,37 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
           subanswer:
             "Code: B6-ORB-25<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module explores the dynamics of individual and group behaviour within organisational settings. It aims to enhance students' understanding of how effective leadership, communication, and motivation contribute to achieving organisational goals and improving workplace performance."
+            "This module explores the dynamics of individual and group behaviour within organisational settings. It aims to enhance students' understanding of how effective leadership, communication, and motivation contribute to achieving organisational goals and improving workplace performance.",
         },
         {
           question: "Occupational Health and Safety Law II",
           subanswer:
             "Code: D7-OS2-25<br/>Prerequisite: D6-OHL-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module deepens students' understanding of advanced legal principles through case studies related to workplace safety and health regulations. It aims to enhance skills in interpreting and applying complex legal requirements to ensure organisational compliance and foster a culture of safety."
+            "This module deepens students' understanding of advanced legal principles through case studies related to workplace safety and health regulations. It aims to enhance skills in interpreting and applying complex legal requirements to ensure organisational compliance and foster a culture of safety.",
         },
         {
           question: "Occupational Toxicology",
           subanswer:
             "Code: D7-OTX-25<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module introduces students to modern occupational toxicology, emphasising underlying mechanisms of toxicity. It covers the identification of toxicants, their effects on the body, cellular injury mechanisms, and the body’s adaptive responses to exposure. Students will gain essential knowledge for assessing, managing, and preventing toxic hazards in the workplace."
+            "This module introduces students to modern occupational toxicology, emphasising underlying mechanisms of toxicity. It covers the identification of toxicants, their effects on the body, cellular injury mechanisms, and the body’s adaptive responses to exposure. Students will gain essential knowledge for assessing, managing, and preventing toxic hazards in the workplace.",
         },
         {
           question: "Fire Ecology and Management",
           subanswer:
             "Code: D7-FEM-25<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module provides students with knowledge of fire chemistry, fire ecology, and management principles. It covers the importance of fire safety, risk assessment, and the development of strategies to minimise fire incidents. Students will also learn to ensure compliance with legal and regulatory requirements in workplace and community settings."
+            "This module provides students with knowledge of fire chemistry, fire ecology, and management principles. It covers the importance of fire safety, risk assessment, and the development of strategies to minimise fire incidents. Students will also learn to ensure compliance with legal and regulatory requirements in workplace and community settings.",
         },
         {
           question: "Environmental Impact Assessment",
           subanswer:
             "Code: D7-EIA-23<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module provides students with the tools and methodologies to evaluate the potential environmental consequences of projects and policies. It aims to promote sustainable development by identifying mitigation measures and ensuring informed decision-making that balances economic growth with environmental protection."
-        }
-      ]
+            "This module provides students with the tools and methodologies to evaluate the potential environmental consequences of projects and policies. It aims to promote sustainable development by identifying mitigation measures and ensuring informed decision-making that balances economic growth with environmental protection.",
+        },
+      ],
     },
     {
       semester: "Semester 5",
@@ -3012,37 +3002,37 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
           subanswer:
             "Code: D7-IAI-25<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module equips students with the knowledge and skills to identify, analyse, and prevent workplace accidents effectively. It promotes a culture of safety by teaching systematic investigation techniques and implementing preventive measures to reduce risks and enhance organisational safety standards."
+            "This module equips students with the knowledge and skills to identify, analyse, and prevent workplace accidents effectively. It promotes a culture of safety by teaching systematic investigation techniques and implementing preventive measures to reduce risks and enhance organisational safety standards.",
         },
         {
           question: "Concepts and Principles of Climate Change",
           subanswer:
             "Code: D7-PCC-25<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module introduces students to the fundamental concepts and principles of climate change. It covers the impacts of climate change, the relationship between fossil fuels, greenhouse gases, and global warming, relevant legal frameworks and international agreements, and strategies for reducing carbon footprints and enhancing carbon sinks for sustainable environmental management."
+            "This module introduces students to the fundamental concepts and principles of climate change. It covers the impacts of climate change, the relationship between fossil fuels, greenhouse gases, and global warming, relevant legal frameworks and international agreements, and strategies for reducing carbon footprints and enhancing carbon sinks for sustainable environmental management.",
         },
         {
           question: "Global Health Dynamics",
           subanswer:
             "Code: D7-GHD-23<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module examines the complex factors influencing health outcomes and systems across different regions and populations worldwide. It explores strategies for addressing global health challenges, such as infectious diseases, health inequities, and cross-border health threats, through collaborative and innovative approaches."
+            "This module examines the complex factors influencing health outcomes and systems across different regions and populations worldwide. It explores strategies for addressing global health challenges, such as infectious diseases, health inequities, and cross-border health threats, through collaborative and innovative approaches.",
         },
         {
           question: "Waste Management and Pollution Control",
           subanswer:
             "Code: D7-WMN-25<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module provides students with knowledge of waste types and their impacts on the environment and public health. It covers relevant legal requirements and explores practical strategies for waste management and pollution control. Students develop skills to implement effective, sustainable solutions for environmental protection and health safety."
+            "This module provides students with knowledge of waste types and their impacts on the environment and public health. It covers relevant legal requirements and explores practical strategies for waste management and pollution control. Students develop skills to implement effective, sustainable solutions for environmental protection and health safety.",
         },
         {
           question: "Safety Management and the Built Environment",
           subanswer:
             "Code: D6-SMB-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module introduces principles of safety management within the built environment. Students explore risk assessment, hazard identification, and strategies to ensure health and safety in construction and building operations. Emphasis is placed on regulatory compliance, safety planning, and practical measures to create secure and sustainable built environments."
-        }
-      ]
+            "This module introduces principles of safety management within the built environment. Students explore risk assessment, hazard identification, and strategies to ensure health and safety in construction and building operations. Emphasis is placed on regulatory compliance, safety planning, and practical measures to create secure and sustainable built environments.",
+        },
+      ],
     },
     {
       semester: "Semester 6",
@@ -3052,37 +3042,37 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
           subanswer:
             "Code: D7-RSM-23<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module equips students with a comprehensive understanding of quantitative, qualitative, and systematic review methodologies. Students learn to critically read and analyse health sciences literature, gaining skills to evaluate research studies and apply appropriate methodologies."
+            "This module equips students with a comprehensive understanding of quantitative, qualitative, and systematic review methodologies. Students learn to critically read and analyse health sciences literature, gaining skills to evaluate research studies and apply appropriate methodologies.",
         },
         {
           question: "Security Management",
           subanswer:
             "Code: D7-SMN-23<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module introduces students to the principles of security management within organisations. It covers the roles and responsibilities of security managers, types of security management, skills of competent personnel, relevant legislation, site evaluations, and incident reporting. Students develop practical and analytical skills for effective organisational security management."
+            "This module introduces students to the principles of security management within organisations. It covers the roles and responsibilities of security managers, types of security management, skills of competent personnel, relevant legislation, site evaluations, and incident reporting. Students develop practical and analytical skills for effective organisational security management.",
         },
         {
           question: "Occupational Hygiene",
           subanswer:
             "Code: D7-OCH-25<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module educates students on identifying, evaluating, and controlling workplace hazards that may affect worker health and well-being. It promotes safe and healthy work environments through the application of scientific principles and preventive measures."
+            "This module educates students on identifying, evaluating, and controlling workplace hazards that may affect worker health and well-being. It promotes safe and healthy work environments through the application of scientific principles and preventive measures.",
         },
         {
           question: "First Aid Procedures",
           subanswer:
             "Code: D7-FAP-25<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module equips students with essential knowledge and skills to provide immediate and effective care in emergency situations. It promotes confidence and competence in administering first aid to preserve life, prevent further injury, and support recovery until professional medical help arrives."
+            "This module equips students with essential knowledge and skills to provide immediate and effective care in emergency situations. It promotes confidence and competence in administering first aid to preserve life, prevent further injury, and support recovery until professional medical help arrives.",
         },
         {
           question: "Counselling at the Workplace",
           subanswer:
             "Code: D7-COW-25<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module equips students with knowledge and skills for effective workplace counselling. It covers the importance of counselling, multicultural competencies, ethics, psychoanalytic and behavioural approaches, self-awareness, and counsellor self-care. Students learn key counselling processes and gain practical experience in conducting brief, professional counselling sessions within organisational settings."
-        }
-      ]
+            "This module equips students with knowledge and skills for effective workplace counselling. It covers the importance of counselling, multicultural competencies, ethics, psychoanalytic and behavioural approaches, self-awareness, and counsellor self-care. Students learn key counselling processes and gain practical experience in conducting brief, professional counselling sessions within organisational settings.",
+        },
+      ],
     },
     {
       semester: "Semester 6 Elective Group (Choose One)",
@@ -3092,23 +3082,23 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
           subanswer:
             "Code: D7-HST-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module educates students on the principles and practices of ensuring safety and well-being in transportation systems and operations. It addresses risks, promotes regulatory compliance, and implements strategies to protect passengers, workers, and the public in various transport environments."
+            "This module educates students on the principles and practices of ensuring safety and well-being in transportation systems and operations. It addresses risks, promotes regulatory compliance, and implements strategies to protect passengers, workers, and the public in various transport environments.",
         },
         {
           question: "Building Maintenance",
           subanswer:
             "Code: D7-BDM-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module provides students with the knowledge and skills necessary to ensure the proper upkeep and functionality of buildings and infrastructure. It promotes efficient maintenance practices, prolongs the lifespan of structures, and ensures safe and comfortable environments for occupants."
+            "This module provides students with the knowledge and skills necessary to ensure the proper upkeep and functionality of buildings and infrastructure. It promotes efficient maintenance practices, prolongs the lifespan of structures, and ensures safe and comfortable environments for occupants.",
         },
         {
           question: "Employee Relations",
           subanswer:
             "Code: D7-ERT-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module explores the dynamics and strategies for fostering positive relationships between employers and employees within an organisation. It promotes effective communication, conflict resolution, and fair practices to enhance workplace harmony, productivity, and employee satisfaction."
-        }
-      ]
+            "This module explores the dynamics and strategies for fostering positive relationships between employers and employees within an organisation. It promotes effective communication, conflict resolution, and fair practices to enhance workplace harmony, productivity, and employee satisfaction.",
+        },
+      ],
     },
     {
       semester: "Semester 7",
@@ -3118,30 +3108,30 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
           subanswer:
             "Code: D8-SHE-25<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module introduces students to the principles and practices of safety, health, and environmental management systems. It covers risk assessment, regulatory compliance, and the design and implementation of management frameworks. Students develop skills to monitor, evaluate, and improve organisational systems, ensuring workplace safety, environmental protection, and sustainable operations."
+            "This module introduces students to the principles and practices of safety, health, and environmental management systems. It covers risk assessment, regulatory compliance, and the design and implementation of management frameworks. Students develop skills to monitor, evaluate, and improve organisational systems, ensuring workplace safety, environmental protection, and sustainable operations.",
         },
         {
           question: "Research Project 1 (Proposal Writing)",
           subanswer:
             "Code: D7-RP1-23<br/>Prerequisite: D7-OEP-25<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module equips students with skills to design and develop a comprehensive research proposal. It covers critical analysis, evaluation, and synthesis of academic materials, identification of research gaps, justification of methodology and tools, and formulation of a primary research project proposal. Students develop a proposal under a supervisor's guidance and present their work."
+            "This module equips students with skills to design and develop a comprehensive research proposal. It covers critical analysis, evaluation, and synthesis of academic materials, identification of research gaps, justification of methodology and tools, and formulation of a primary research project proposal. Students develop a proposal under a supervisor's guidance and present their work.",
         },
         {
           question: "Records Management in the Workplace",
           subanswer:
             "Code: D7-RMW-25<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module introduces students to effective records management in workplace settings. It covers the documentation of incidents and accidents, including details of injuries, witnesses, and preventive measures. Students develop skills to accurately record, report, and maintain workplace records, ensuring compliance, accountability, and informed decision-making for health and safety management."
+            "This module introduces students to effective records management in workplace settings. It covers the documentation of incidents and accidents, including details of injuries, witnesses, and preventive measures. Students develop skills to accurately record, report, and maintain workplace records, ensuring compliance, accountability, and informed decision-making for health and safety management.",
         },
         {
           question: "Environmental Sustainability",
           subanswer:
             "Code: D8-ENS-25<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module explores principles of ecology and human-environment interactions to promote sustainable practices. Students examine self-sustaining ecosystems, population stabilisation strategies, and conservation of biological diversity, water, and land resources. It also addresses the relationship between economics and the environment, equipping students to develop solutions for sustainable environmental management."
-        }
-      ]
+            "This module explores principles of ecology and human-environment interactions to promote sustainable practices. Students examine self-sustaining ecosystems, population stabilisation strategies, and conservation of biological diversity, water, and land resources. It also addresses the relationship between economics and the environment, equipping students to develop solutions for sustainable environmental management.",
+        },
+      ],
     },
     {
       semester: "Semester 7 Elective Group (Choose One)",
@@ -3151,16 +3141,16 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
           subanswer:
             "Code: D8-FSH-23<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module educates students on the principles and practices of handling, preparing, and storing food safely to prevent contamination and foodborne illnesses. It promotes compliance with health standards and ensures the delivery of safe, high-quality food to consumers."
+            "This module educates students on the principles and practices of handling, preparing, and storing food safely to prevent contamination and foodborne illnesses. It promotes compliance with health standards and ensures the delivery of safe, high-quality food to consumers.",
         },
         {
           question: "Introduction to Mine Safety",
           subanswer:
             "Code: D8-MNS-25<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
-            "This module provides students with the knowledge and skills to identify, assess, and mitigate hazards in mining operations. It promotes a culture of safety, ensures regulatory compliance, and protects the health and well-being of workers in the mining industry."
-        }
-      ]
+            "This module provides students with the knowledge and skills to identify, assess, and mitigate hazards in mining operations. It promotes a culture of safety, ensures regulatory compliance, and protects the health and well-being of workers in the mining industry.",
+        },
+      ],
     },
     {
       semester: "Semester 8",
@@ -3170,21 +3160,17 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
           subanswer:
             "Code: D7-RP2-25<br/>Prerequisite: D7-RP1-25<br/>Module Fees: $208<br/>Module Credits: 16",
           answer:
-            "This module guides students in continuing and completing their research proposals through a structured dissertation. Students conduct in-depth research on environmental sustainability topics, apply appropriate methodologies, analyse data, and critically interpret findings. It develops independent research, problem-solving, and academic writing skills for contributing to sustainable environmental practices."
+            "This module guides students in continuing and completing their research proposals through a structured dissertation. Students conduct in-depth research on environmental sustainability topics, apply appropriate methodologies, analyse data, and critically interpret findings. It develops independent research, problem-solving, and academic writing skills for contributing to sustainable environmental practices.",
         },
         {
           question: "Industrial Attachment",
           subanswer:
             "Code: D7-INA-25<br/>Prerequisite: 240 credits<br/>Module Fees: $780<br/>Module Credits: 60",
           answer:
-            "This module develops students’ specialist knowledge and professional competencies in Safety, Health, and Environmental Management (SHEM). It emphasises lifelong learning, multidisciplinary problem-solving, informed decision-making, research, and effective communication. Students explore entrepreneurship, practical application of knowledge, and reflect on how their programme studies contribute to workplace performance and professional growth."
-        }
-      ]
-    }
-
-
-
-
+            "This module develops students’ specialist knowledge and professional competencies in Safety, Health, and Environmental Management (SHEM). It emphasises lifelong learning, multidisciplinary problem-solving, informed decision-making, research, and effective communication. Students explore entrepreneurship, practical application of knowledge, and reflect on how their programme studies contribute to workplace performance and professional growth.",
+        },
+      ],
+    },
   ],
   requirements: [
     {
@@ -3273,21 +3259,21 @@ export const bedinprimaryeducation = {
           subanswer:
             "Code: D5-CAS-23<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
-            "This module equips student teachers with the knowledge, skills, and competences to develop learners’ foundational literacy - listening, speaking, reading, and writing - critical for academic success and future careers. It includes phonemic awareness, vocabulary, spelling, and comprehension, fostering effective communication and enabling learners to participate meaningfully in studies and professional contexts."
+            "This module equips student teachers with the knowledge, skills, and competences to develop learners’ foundational literacy - listening, speaking, reading, and writing - critical for academic success and future careers. It includes phonemic awareness, vocabulary, spelling, and comprehension, fostering effective communication and enabling learners to participate meaningfully in studies and professional contexts.",
         },
         {
           question: "Computer Skills Fundamentals",
           subanswer:
             "Code: D5-CSF-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
           answer:
-            "This module introduces basic computer concepts essential for primary school teaching, learning, and everyday life. Learners explore key terminology, use Microsoft Windows, and manage files and folders. It also covers fundamental features of MS Office applications – Word, Excel, Outlook, PowerPoint, and Access – equipping learners with practical digital skills."
+            "This module introduces basic computer concepts essential for primary school teaching, learning, and everyday life. Learners explore key terminology, use Microsoft Windows, and manage files and folders. It also covers fundamental features of MS Office applications – Word, Excel, Outlook, PowerPoint, and Access – equipping learners with practical digital skills.",
         },
         {
           question: "Introduction to Educational Psychology",
           subanswer:
             "Code: D5-IEP-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module explores key issues in education and their impact on teachers and learners. It emphasises understanding learners’ developmental stages and supporting learning effectively. Using educational psychology, it examines human behaviour, growth, learning processes, and experiences, deepening understanding and enhancing the ability to address diverse educational needs."
+            "This module explores key issues in education and their impact on teachers and learners. It emphasises understanding learners’ developmental stages and supporting learning effectively. Using educational psychology, it examines human behaviour, growth, learning processes, and experiences, deepening understanding and enhancing the ability to address diverse educational needs.",
         },
         {
           question:
@@ -3295,16 +3281,16 @@ export const bedinprimaryeducation = {
           subanswer:
             "Code: D6-HPF-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module examines the historical, philosophical, and sociological foundations of education. It explores the history of education in various countries, the role of different stakeholders in shaping educational goals, and the origins of philosophy and sociology, highlighting contributions of key thinkers to educational thought and development."
+            "This module examines the historical, philosophical, and sociological foundations of education. It explores the history of education in various countries, the role of different stakeholders in shaping educational goals, and the origins of philosophy and sociology, highlighting contributions of key thinkers to educational thought and development.",
         },
         {
           question: "Introduction to Numeracy and Science for Teachers",
           subanswer:
             "Code: D6-INS-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module introduces and examines essential knowledge and skills in numeracy, science, and technology, providing a cross-curricular foundation vital for effectively teaching these subjects in primary schools."
-        }
-      ]
+            "This module introduces and examines essential knowledge and skills in numeracy, science, and technology, providing a cross-curricular foundation vital for effectively teaching these subjects in primary schools.",
+        },
+      ],
     },
     {
       semester: "Semester 2",
@@ -3314,31 +3300,30 @@ export const bedinprimaryeducation = {
           subanswer:
             "Code: D6-WIE-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module develops learners’ English writing skills for academic tasks such as essays and assignments, and prepares them for professional communication, including emails, reports, and formal documents. Primary school teachers must be well equipped with strong English writing skills for effective communication and lesson facilitation."
+            "This module develops learners’ English writing skills for academic tasks such as essays and assignments, and prepares them for professional communication, including emails, reports, and formal documents. Primary school teachers must be well equipped with strong English writing skills for effective communication and lesson facilitation.",
         },
         {
           question: "Introduction to Chemistry and Physics",
           subanswer:
             "Code: D6-ICP-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module introduces student teachers to fundamental concepts in chemistry and physics, covering the structure of matter, key quantitative and qualitative aspects of chemistry, and core principles of physics, including light, electricity, and sound."
+            "This module introduces student teachers to fundamental concepts in chemistry and physics, covering the structure of matter, key quantitative and qualitative aspects of chemistry, and core principles of physics, including light, electricity, and sound.",
         },
         {
           question: "Indigenous People and their Environment",
           subanswer:
             "Code: D6-IPE-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module examines indigenous peoples, their origins, and their environments. It explores their social, cultural, economic, and political lives, highlighting the importance for student teachers to understand these communities’ past and contemporary socio-economic activities and social structures."
+            "This module examines indigenous peoples, their origins, and their environments. It explores their social, cultural, economic, and political lives, highlighting the importance for student teachers to understand these communities’ past and contemporary socio-economic activities and social structures.",
         },
         {
-          question: "Introductory Biology and Earth Science for Primary Teachers",
+          question:
+            "Introductory Biology and Earth Science for Primary Teachers",
           subanswer:
             "Code: D6-IBE-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with the theoretical knowledge, skills, and abilities to understand and apply principles of biology and earth sciences, preparing them to integrate these concepts effectively into primary science teaching.",
         },
-
-  
       ],
     },
     {
@@ -3349,7 +3334,7 @@ export const bedinprimaryeducation = {
           subanswer:
             "Code: D6-TPE-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module focuses on understanding how words and sentences interact to form speech, alongside pronunciation and grammatical foundations essential for communication. Learners explore key linguistic rules and structures necessary for effective teaching and learning in primary schools."
+            "This module focuses on understanding how words and sentences interact to form speech, alongside pronunciation and grammatical foundations essential for communication. Learners explore key linguistic rules and structures necessary for effective teaching and learning in primary schools.",
         },
         {
           question: "English Linguistics",
@@ -3358,8 +3343,7 @@ export const bedinprimaryeducation = {
           answer:
             "The study of English linguistics provides student teachers with a systematic understanding of how language functions, evolves, and influences communication. This module develops analytical skills to examine English structure – phonetics, morphology, syntax, semantics, and pragmatics – enhancing written and spoken communication in primary schools.",
         },
-      ]
-
+      ],
     },
     {
       semester: "Semester 2 (Mathematics Specialisation)",
@@ -3371,8 +3355,7 @@ export const bedinprimaryeducation = {
           answer:
             "This module provides a solid foundation in core mathematical concepts, essential for applying mathematics across subjects. It develops basic mathematical skills and introduces their practical application in diverse problem-solving contexts.",
         },
-      ]
-
+      ],
     },
 
     //sub
@@ -3385,21 +3368,21 @@ export const bedinprimaryeducation = {
           subanswer:
             "Code: D6-IER-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module equips learners with an understanding of research principles and the ability to evaluate different research methods. It examines how chosen theories, methods, and approaches shape the research process, ensuring student teachers are well grounded in basic research skills essential for effective primary school teaching and learning."
+            "This module equips learners with an understanding of research principles and the ability to evaluate different research methods. It examines how chosen theories, methods, and approaches shape the research process, ensuring student teachers are well grounded in basic research skills essential for effective primary school teaching and learning.",
         },
         {
           question: "Foundations of Mathematics",
           subanswer:
             "Code: D7-FDM-25<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
-            "This module explores the logical and philosophical foundations of mathematics, examining key concepts, principles, and methodologies in mathematical reasoning."
+            "This module explores the logical and philosophical foundations of mathematics, examining key concepts, principles, and methodologies in mathematical reasoning.",
         },
         {
           question: "Project-Based Learning and Teaching",
           subanswer:
             "Code: D7-PLT-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module develops active learning, collaboration, and critical thinking skills. Students work on projects addressing real-world problems, creating solutions and presenting findings to an academic audience. Through this experiential approach, student teachers acquire 21st-century skills essential for effectively teaching and engaging modern learners."
+            "This module develops active learning, collaboration, and critical thinking skills. Students work on projects addressing real-world problems, creating solutions and presenting findings to an academic audience. Through this experiential approach, student teachers acquire 21st-century skills essential for effectively teaching and engaging modern learners.",
         },
         {
           question: "Strategies for Teaching Numeracy and Science in Schools",
@@ -3410,7 +3393,6 @@ export const bedinprimaryeducation = {
         },
 
         // cut
-
       ],
     },
     {
@@ -3425,9 +3407,7 @@ export const bedinprimaryeducation = {
         },
 
         // cut
-     
-      ]
-
+      ],
     },
     {
       semester: "Semester 3 (Mathematics Specialisation)",
@@ -3446,20 +3426,26 @@ export const bedinprimaryeducation = {
       courses: [
         {
           question: "Counselling over a Life Span",
-          subanswer: "Code: D6-COL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module equips student teachers with the knowledge and skills to provide counselling services to clients. It covers key aspects, including attachment, school adjustment, social skills, identity formation, peer relationships, emotional regulation, and risk behaviours, preparing teachers to support learners’ personal and social development effectively."
+          subanswer:
+            "Code: D6-COL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module equips student teachers with the knowledge and skills to provide counselling services to clients. It covers key aspects, including attachment, school adjustment, social skills, identity formation, peer relationships, emotional regulation, and risk behaviours, preparing teachers to support learners’ personal and social development effectively.",
         },
         {
           question: "Foundations of Early Childhood Education",
-          subanswer: "Code: D6-FEC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module introduces student teachers to essential principles, knowledge, and practices for effective teaching and learning of young children from birth to age eight. It covers child development, learning theories, supportive environments, curriculum design, and pedagogy to enhance early childhood education."
+          subanswer:
+            "Code: D6-FEC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module introduces student teachers to essential principles, knowledge, and practices for effective teaching and learning of young children from birth to age eight. It covers child development, learning theories, supportive environments, curriculum design, and pedagogy to enhance early childhood education.",
         },
         {
           question: "Foundations of Environmental Education",
-          subanswer: "Code: D6-FEE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module enables student teachers to explore environmental issues and create awareness to address related problems. It examines human interaction with the environment, covering topics such as climate change, pollution, sustainability, environmental health, and waste management to promote informed and responsible practices."
-        }
-      ]
+          subanswer:
+            "Code: D6-FEE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module enables student teachers to explore environmental issues and create awareness to address related problems. It examines human interaction with the environment, covering topics such as climate change, pollution, sustainability, environmental health, and waste management to promote informed and responsible practices.",
+        },
+      ],
     },
 
     ///suhb
@@ -3468,70 +3454,93 @@ export const bedinprimaryeducation = {
       courses: [
         {
           question: "Practitioner Research",
-          subanswer: "Code: D7-PRE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module introduces student teachers to practice-based research aimed at enhancing teaching and learning. It equips them with the knowledge, skills, and competences necessary to improve their professional practice as primary school educators."
+          subanswer:
+            "Code: D7-PRE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module introduces student teachers to practice-based research aimed at enhancing teaching and learning. It equips them with the knowledge, skills, and competences necessary to improve their professional practice as primary school educators.",
         },
         {
           question: "Human Growth and Development",
-          subanswer: "Code: D7-HGD-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module examines aspects of human growth and development, including physical, cognitive, emotional, social, and moral changes across the lifespan, and their educational implications. Stages covered include infancy, childhood, adolescence, and adulthood."
+          subanswer:
+            "Code: D7-HGD-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module examines aspects of human growth and development, including physical, cognitive, emotional, social, and moral changes across the lifespan, and their educational implications. Stages covered include infancy, childhood, adolescence, and adulthood.",
         },
         {
           question: "Assessment in Primary Schools",
-          subanswer: "Code: D7-APS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module develops learners’ theoretical knowledge and skills in understanding and applying assessment principles. It focuses on using these principles effectively to assess primary science learning, ensuring meaningful evaluation of student progress and achievement."
+          subanswer:
+            "Code: D7-APS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module develops learners’ theoretical knowledge and skills in understanding and applying assessment principles. It focuses on using these principles effectively to assess primary science learning, ensuring meaningful evaluation of student progress and achievement.",
         },
         {
-          question: "Information and Communication Technology Application in Schools",
-          subanswer: "Code: D7-ICT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module equips student teachers with the skills and competences to apply information technologies in teaching 21st-century learners."
+          question:
+            "Information and Communication Technology Application in Schools",
+          subanswer:
+            "Code: D7-ICT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module equips student teachers with the skills and competences to apply information technologies in teaching 21st-century learners.",
         },
         {
           question: "Strategies for Teaching Literacy in Schools",
-          subanswer: "Code: D6-STL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module equips student teachers with strategies for teaching literacy across the curriculum using thematic and pedagogical approaches. Learners develop skills to integrate literacy into daily activities and design instruction with informative, narrative, and persuasive texts, supported by key theories of literacy acquisition and contextual understanding."
-        }
-      ]
+          subanswer:
+            "Code: D6-STL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module equips student teachers with strategies for teaching literacy across the curriculum using thematic and pedagogical approaches. Learners develop skills to integrate literacy into daily activities and design instruction with informative, narrative, and persuasive texts, supported by key theories of literacy acquisition and contextual understanding.",
+        },
+      ],
     },
     {
       semester: "Semester 4 (English Specialisation)",
       courses: [
         {
           question: "Poetry of Southern Africa",
-          subanswer: "Code: D7-PSA-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module explores the role of poetry in fostering language, creativity, emotional intelligence, and critical thinking. Student teachers learn how poetry enhances teaching and learning, particularly at the primary school level, and master its benefits as an educational tool."
-        }
-      ]
+          subanswer:
+            "Code: D7-PSA-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module explores the role of poetry in fostering language, creativity, emotional intelligence, and critical thinking. Student teachers learn how poetry enhances teaching and learning, particularly at the primary school level, and master its benefits as an educational tool.",
+        },
+      ],
     },
     {
       semester: "Semester 4 (Mathematics Specialisation)",
       courses: [
         {
           question: "Teaching Methods for Mathematics in Primary Schools",
-          subanswer: "Code: D7-TMM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module introduces effective teaching strategies and techniques for primary school mathematics, exploring appropriate pedagogies, purposes, scope, sequence, materials, and methodologies. It supports students in meeting essential requirements for primary teaching through the development of practical, evidence-based skills for effective mathematics instruction and learning."
-        }
-      ]
+          subanswer:
+            "Code: D7-TMM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module introduces effective teaching strategies and techniques for primary school mathematics, exploring appropriate pedagogies, purposes, scope, sequence, materials, and methodologies. It supports students in meeting essential requirements for primary teaching through the development of practical, evidence-based skills for effective mathematics instruction and learning.",
+        },
+      ],
     },
     {
       semester: "Semester 4 Elective Group (Choose One)",
       courses: [
         {
           question: "Listening, Composing and Performing",
-          subanswer: "Code: D6-LCP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module explores the core processes of music engagement – listening, composing, and performing. Student teachers examine how these activities are interconnected and the role of music education in enhancing learning at the primary school level."
+          subanswer:
+            "Code: D6-LCP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module explores the core processes of music engagement – listening, composing, and performing. Student teachers examine how these activities are interconnected and the role of music education in enhancing learning at the primary school level.",
         },
         {
-          question: "Organisation and Administration of Physical Education and Sports",
-          subanswer: "Code: D6-AOP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module equips student teachers with the knowledge, skills, and competences for effective organisation and management of physical education and sports. It covers leadership qualities and key functions – planning, organising, staffing, directing, coordinating, controlling, evaluating, and innovating – to deliver efficient, high-quality physical activity programmes."
+          question:
+            "Organisation and Administration of Physical Education and Sports",
+          subanswer:
+            "Code: D6-AOP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module equips student teachers with the knowledge, skills, and competences for effective organisation and management of physical education and sports. It covers leadership qualities and key functions – planning, organising, staffing, directing, coordinating, controlling, evaluating, and innovating – to deliver efficient, high-quality physical activity programmes.",
         },
         {
-          question: "Practical Art, Craft and Design Methods and Materials for Schools",
-          subanswer: "Code: D6-PAC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module introduces primary education student teachers to the importance of arts, crafts, and design methods for effective teaching and learning. Topics include drawing, painting, sculpture, printmaking, product design, and clay modelling, with opportunities to apply theoretical knowledge through practical activities."
-        }
-      ]
+          question:
+            "Practical Art, Craft and Design Methods and Materials for Schools",
+          subanswer:
+            "Code: D6-PAC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module introduces primary education student teachers to the importance of arts, crafts, and design methods for effective teaching and learning. Topics include drawing, painting, sculpture, printmaking, product design, and clay modelling, with opportunities to apply theoretical knowledge through practical activities.",
+        },
+      ],
     },
 
     ///sub
@@ -3540,70 +3549,92 @@ export const bedinprimaryeducation = {
       courses: [
         {
           question: "Instructional Materials",
-          subanswer: "Code: D7-IMP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module equips learners with the knowledge and skills to design, develop, evaluate, and use instructional materials that enhance teaching and learning experiences."
+          subanswer:
+            "Code: D7-IMP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module equips learners with the knowledge and skills to design, develop, evaluate, and use instructional materials that enhance teaching and learning experiences.",
         },
         {
-          question: "Education for Children with Attention Deficit Hyper Disorder",
-          subanswer: "Code: D7-ECD-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module equips student teachers with the knowledge, skills, and competences to effectively support and facilitate learning for children with Attention Deficit Hyperactivity Disorder (ADHD)."
+          question:
+            "Education for Children with Attention Deficit Hyper Disorder",
+          subanswer:
+            "Code: D7-ECD-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module equips student teachers with the knowledge, skills, and competences to effectively support and facilitate learning for children with Attention Deficit Hyperactivity Disorder (ADHD).",
         },
         {
           question: "Infusing Environmental Education in the Curriculum",
-          subanswer: "Code: D7-IEE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module enables learners to understand how their decisions and actions affect the environment. It builds skills to address complex environmental issues and explores practical ways to promote a healthy, sustainable future."
+          subanswer:
+            "Code: D7-IEE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module enables learners to understand how their decisions and actions affect the environment. It builds skills to address complex environmental issues and explores practical ways to promote a healthy, sustainable future.",
         },
         {
           question: "Characteristics of Human Language",
-          subanswer: "Code: D7-CHL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module equips student teachers with the skills and competences to understand and express the characteristics of human language. It analyses topics such as arbitrariness, productivity, creativity, duality of patterning, cultural transmission, and interchangeability."
+          subanswer:
+            "Code: D7-CHL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module equips student teachers with the skills and competences to understand and express the characteristics of human language. It analyses topics such as arbitrariness, productivity, creativity, duality of patterning, cultural transmission, and interchangeability.",
         },
         {
           question: "Conducting Remedial Teaching in Schools",
-          subanswer: "Code: D7-CRT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module develops theoretical knowledge in selecting suitable teaching approaches, methods, techniques, and strategies for effectively planning and delivering remedial classes in primary schools."
-        }
-      ]
+          subanswer:
+            "Code: D7-CRT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module develops theoretical knowledge in selecting suitable teaching approaches, methods, techniques, and strategies for effectively planning and delivering remedial classes in primary schools.",
+        },
+      ],
     },
     {
       semester: "Semester 5 (English Specialisation)",
       courses: [
         {
           question: "Theory and Practice of Second Language Teaching",
-          subanswer: "Code: D7-TPS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module introduces key theories of second language acquisition, enabling learners to apply effective classroom teaching strategies. It also examines challenges in second language learning and guides learners in designing interventions to support student progress."
-        }
-      ]
+          subanswer:
+            "Code: D7-TPS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module introduces key theories of second language acquisition, enabling learners to apply effective classroom teaching strategies. It also examines challenges in second language learning and guides learners in designing interventions to support student progress.",
+        },
+      ],
     },
     {
       semester: "Semester 5 (Mathematics Specialisation)",
       courses: [
         {
           question: "Geometry for Primary School Teachers",
-          subanswer: "Code: D7-GPT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module explores the combinatorial properties of geometric objects – point sets, subspace arrangements, convex polytopes, and geometric graphs – introducing fundamental concepts, key structures, and selected results in the field."
-        }
-      ]
+          subanswer:
+            "Code: D7-GPT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module explores the combinatorial properties of geometric objects – point sets, subspace arrangements, convex polytopes, and geometric graphs – introducing fundamental concepts, key structures, and selected results in the field.",
+        },
+      ],
     },
     {
       semester: "Semester 5 Elective Group (Choose One)",
       courses: [
         {
           question: "Multicultural Counselling",
-          subanswer: "Code: D7-MCC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module introduces student teachers to multicultural counselling, focusing on how culture influences mental health and well-being. Using a therapeutic approach, it covers cultural awareness, cultural sensitivity, gender, race, socio-economic background, cultural competence, and strategies for addressing systemic issues."
+          subanswer:
+            "Code: D7-MCC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module introduces student teachers to multicultural counselling, focusing on how culture influences mental health and well-being. Using a therapeutic approach, it covers cultural awareness, cultural sensitivity, gender, race, socio-economic background, cultural competence, and strategies for addressing systemic issues.",
         },
         {
-          question: "Appropriate Art, Craft and Design Methods and Materials for School",
-          subanswer: "Code: D7-ACD-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module introduces primary school student teachers to appropriate art, craft, and design methods and materials for effective teaching and learning. It covers drawing, painting, collage, simple sculpture, and textile work, fostering creativity in the classroom."
+          question:
+            "Appropriate Art, Craft and Design Methods and Materials for School",
+          subanswer:
+            "Code: D7-ACD-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module introduces primary school student teachers to appropriate art, craft, and design methods and materials for effective teaching and learning. It covers drawing, painting, collage, simple sculpture, and textile work, fostering creativity in the classroom.",
         },
         {
           question: "Motor Learning and Human Performance",
-          subanswer: "Code: D7-MLH-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module equips student teachers with the knowledge and skills to master motor skills essential for physical activity, development, and well-being. Topics include motor skill acquisition, practice methods, feedback, cognitive factors, and individual differences."
-        }
-      ]
+          subanswer:
+            "Code: D7-MLH-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module equips student teachers with the knowledge and skills to master motor skills essential for physical activity, development, and well-being. Topics include motor skill acquisition, practice methods, feedback, cognitive factors, and individual differences.",
+        },
+      ],
     },
     //sub
     {
@@ -3622,16 +3653,16 @@ export const bedinprimaryeducation = {
           subanswer:
             "Code: D6-MES-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module fosters appreciation and respect for nature, raising awareness of environmental issues affecting communities and the world. It promotes understanding of the relationship between individuals, society, and the environment, equipping learners with knowledge and skills for sustainable and harmonious human–environment interaction."
+            "This module fosters appreciation and respect for nature, raising awareness of environmental issues affecting communities and the world. It promotes understanding of the relationship between individuals, society, and the environment, equipping learners with knowledge and skills for sustainable and harmonious human–environment interaction.",
         },
         {
           question: "Literacy across the Curriculum",
           subanswer:
             "Code: D7-LAC-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module highlights the importance of integrating literacy across all curriculum areas. Student teachers learn to develop reading, writing, speaking, and listening skills in subjects such as mathematics, science, and social studies, not solely within English language arts."
-        }
-      ]
+            "This module highlights the importance of integrating literacy across all curriculum areas. Student teachers learn to develop reading, writing, speaking, and listening skills in subjects such as mathematics, science, and social studies, not solely within English language arts.",
+        },
+      ],
     },
     {
       semester: "Semester 6 (English Specialisation)",
@@ -3776,22 +3807,27 @@ export const bedinprimaryeducation = {
       courses: [
         {
           question: "Consultations in Schools and Community Settings",
-          subanswer: "Code: D7-CSC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module highlights the importance of school–community relations. It examines how counsellors or psychologists work with teachers and parents to address learner issues. Topics include consultation, consultative services, collaboration, and building partnerships between schools and communities to support student development and well-being."
+          subanswer:
+            "Code: D7-CSC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module highlights the importance of school–community relations. It examines how counsellors or psychologists work with teachers and parents to address learner issues. Topics include consultation, consultative services, collaboration, and building partnerships between schools and communities to support student development and well-being.",
         },
         {
           question: "Theory of Moral Education",
-          subanswer: "Code: D7-TME-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This module examines the role of moral education in shaping learners’ character at the primary school level. Topics include morality in educational settings, moral formation, moral inquiries, moral education theories, and the overall importance of moral education."
+          subanswer:
+            "Code: D7-TME-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This module examines the role of moral education in shaping learners’ character at the primary school level. Topics include morality in educational settings, moral formation, moral inquiries, moral education theories, and the overall importance of moral education.",
         },
         {
           question: "Scientific Basis of Coaching and Officiating",
-          subanswer: "Code: D7-SBC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
-          answer: "This physical education module introduces student teachers to the theory and practice of physical activities and athletic performance. Topics include coaching, kinesiology, physiology, motor learning, sports psychology, cognitive science, psychology of officiating, ethics and integrity, communication, integration, and mental skills training."
-        }
-      ]
+          subanswer:
+            "Code: D7-SBC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+          answer:
+            "This physical education module introduces student teachers to the theory and practice of physical activities and athletic performance. Topics include coaching, kinesiology, physiology, motor learning, sports psychology, cognitive science, psychology of officiating, ethics and integrity, communication, integration, and mental skills training.",
+        },
+      ],
     },
-
 
     //sub
 
@@ -3894,37 +3930,37 @@ export const postgraduatediplomainhighereducation = {
           subanswer:
             "Code: D8-FED-24<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
-            "This module introduces the foundational areas of education—philosophy, psychology, sociology, and history—helping learners understand the key components that form the field of education."
+            "This module introduces the foundational areas of education—philosophy, psychology, sociology, and history—helping learners understand the key components that form the field of education.",
         },
         {
           question: "Pedagogics and Andragogics in Education",
           subanswer:
             "Code: D8-PAE-24<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
-            "This module enables learners to identify student needs and integrate them into teaching, learning, and assessment. It offers general strategies relevant to supporting learners in higher education."
+            "This module enables learners to identify student needs and integrate them into teaching, learning, and assessment. It offers general strategies relevant to supporting learners in higher education.",
         },
         {
           question: "Outcome-Based Assessment",
           subanswer:
             "Code: D9-OBA-25<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "This module teaches learners to plan, design, and administer outcome-based assessments using competency-based methods. It focuses on aligning assessments with programme learning outcomes to effectively measure student learning."
+            "This module teaches learners to plan, design, and administer outcome-based assessments using competency-based methods. It focuses on aligning assessments with programme learning outcomes to effectively measure student learning.",
         },
         {
           question: "Curriculum Design, Development and Review",
           subanswer:
             "Code: D8-CDR-24<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "This module explores historical, philosophical, economic, political, and sociological perspectives on curriculum design, development, implementation, and review. Learners will also apply contemporary and real-world educational issues across various themes."
+            "This module explores historical, philosophical, economic, political, and sociological perspectives on curriculum design, development, implementation, and review. Learners will also apply contemporary and real-world educational issues across various themes.",
         },
         {
           question: "Introduction to Psychology of Education",
           subanswer:
             "Code: D8-PSE-25<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "This module equips learners with knowledge and skills in the psychology of education, child development, and learning psychology. It addresses diverse learning needs, focusing on how learners learn, effective instructional methods, learning environments, and the cognitive, emotional, and social influences on learning."
-        }
-      ]
+            "This module equips learners with knowledge and skills in the psychology of education, child development, and learning psychology. It addresses diverse learning needs, focusing on how learners learn, effective instructional methods, learning environments, and the cognitive, emotional, and social influences on learning.",
+        },
+      ],
     },
     {
       semester: "SEMESTER 2",
@@ -3934,51 +3970,51 @@ export const postgraduatediplomainhighereducation = {
           subanswer:
             "Code: D7-ITC-25<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "This module equips learners with the knowledge and skills to use technology effectively in teaching, learning, and assessment. It supports curriculum planning, delivery, and evaluation across face-to-face and online modes, enabling educators to develop e-learning content, provide learner support, assess progress, and manage academic tasks efficiently."
+            "This module equips learners with the knowledge and skills to use technology effectively in teaching, learning, and assessment. It supports curriculum planning, delivery, and evaluation across face-to-face and online modes, enabling educators to develop e-learning content, provide learner support, assess progress, and manage academic tasks efficiently.",
         },
         {
           question: "Research Methods",
           subanswer:
             "Code: D8-REM-25<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
-            "This module equips learners with lifelong research skills, fostering a commitment to continuous learning. It develops understanding of research principles, methods, and theories, and their impact on the research process, enabling learners to critically apply appropriate approaches throughout their academic and professional careers."
+            "This module equips learners with lifelong research skills, fostering a commitment to continuous learning. It develops understanding of research principles, methods, and theories, and their impact on the research process, enabling learners to critically apply appropriate approaches throughout their academic and professional careers.",
         },
         {
           question: "Teaching Practicum",
           subanswer:
             "Code: D8-TPT-24<br/>Prerequisite: D8-PAE-24<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
-            "This module offers learners the opportunity to apply principles of teaching, learning, and assessment in higher education. It provides hands-on experience to develop professional skills and create effective learning environments, fostering awareness of the roles and responsibilities involved in becoming a reflective and impactful educator."
-        }
-      ]
+            "This module offers learners the opportunity to apply principles of teaching, learning, and assessment in higher education. It provides hands-on experience to develop professional skills and create effective learning environments, fostering awareness of the roles and responsibilities involved in becoming a reflective and impactful educator.",
+        },
+      ],
     },
     {
       semester: "SEMESTER 2 ELECTIVE GROUP (CHOOSE ONE)",
       courses: [
         {
-          question: "Understanding Student Diversity in Higher Education (Elective)",
+          question:
+            "Understanding Student Diversity in Higher Education (Elective)",
           subanswer:
             "Code: D8-USD-24<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "This module promotes tolerance and a sense of security in diverse learning environments. It fosters intercultural sensitivity, helping learners navigate differences in culture, religion, race, gender, and more. Students gain improved cultural awareness, creativity, performance, and the ability to challenge prejudice and embrace diversity in educational and social settings."
+            "This module promotes tolerance and a sense of security in diverse learning environments. It fosters intercultural sensitivity, helping learners navigate differences in culture, religion, race, gender, and more. Students gain improved cultural awareness, creativity, performance, and the ability to challenge prejudice and embrace diversity in educational and social settings.",
         },
         {
           question: "Leadership and Management in Higher Education (Elective)",
           subanswer:
             "Code: D8-LMH-24<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "This module provides learners with comprehensive knowledge of leadership and management in education. Aimed at aspiring leaders, it covers key areas such as innovation, educational technology, communication, conflict resolution, organisational culture, policy, inspection systems, and leadership philosophy, equipping learners for effective administration in academic settings."
+            "This module provides learners with comprehensive knowledge of leadership and management in education. Aimed at aspiring leaders, it covers key areas such as innovation, educational technology, communication, conflict resolution, organisational culture, policy, inspection systems, and leadership philosophy, equipping learners for effective administration in academic settings.",
         },
         {
           question: "Context and Policy in Higher Education (Elective)",
           subanswer:
             "Code: D8-CPH-24<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
-            "This module explores key education policy issues through historical, philosophical, economic, political, and sociological lenses. Students will analyse the development of education systems and debate education's role in society, enhancing their critical thinking and analytical skills in relation to education and policy."
-        }
-      ]
-    }
-
+            "This module explores key education policy issues through historical, philosophical, economic, political, and sociological lenses. Students will analyse the development of education systems and debate education's role in society, enhancing their critical thinking and analytical skills in relation to education and policy.",
+        },
+      ],
+    },
   ],
   requirements: [
     {
@@ -5167,7 +5203,6 @@ export const medinhighereducation = {
     },
   ],
   programOverview: `Elevate your expertise with our Master of Education in Higher Education. This specialised programme equips you with advanced pedagogical skills, covering learning, teaching and assessment, curriculum design, and academic writing. You will gain a deep understanding of quality frameworks in higher education while integrating educational technology and e-learning.<br></br>With a strong emphasis on research and practical experience, including modules on higher education research and a dissertation, the programme prepares you for leadership roles in universities and colleges, empowering you to shape the future of higher education.`,
-
 };
 
 export const mscininformationsystemsmanagement = {
@@ -5300,7 +5335,6 @@ export const mscininformationsystemsmanagement = {
         },
       ],
     },
-
   ],
   requirements: [
     {
@@ -5361,7 +5395,7 @@ export const mscininformationsystemsmanagement = {
 `,
     },
   ],
-programOverview: `Interested in safeguarding digital systems and uncovering cybercrime? Our BSc in Network Security and Computer Forensics is a specialised degree designed to prepare students to protect information assets and investigate cyber incidents. The programme offers practical training in penetration testing, digital forensics, and network defence, combining fundamental computing with advanced security practices.<br></br> Students will engage with key topics such as ethical hacking, cybercrime investigation, and malware analysis, while also developing a strong grounding in ethical and legal considerations. Graduates emerge ready for careers as network security specialists or digital forensic investigators in government, corporations, and law enforcement, addressing critical challenges in today’s digital world.`,
+  programOverview: `Interested in safeguarding digital systems and uncovering cybercrime? Our BSc in Network Security and Computer Forensics is a specialised degree designed to prepare students to protect information assets and investigate cyber incidents. The programme offers practical training in penetration testing, digital forensics, and network defence, combining fundamental computing with advanced security practices.<br></br> Students will engage with key topics such as ethical hacking, cybercrime investigation, and malware analysis, while also developing a strong grounding in ethical and legal considerations. Graduates emerge ready for careers as network security specialists or digital forensic investigators in government, corporations, and law enforcement, addressing critical challenges in today’s digital world.`,
 };
 
 export const mscincomputerscience = {
@@ -5412,7 +5446,7 @@ export const mscincomputerscience = {
         {
           question: "Machine Learning",
           subanswer:
-            "Code: C9-MLE-25<<br/>Module Fees: $234<br/>Module Credits: 12",
+            "Code: C9-MLE-25<br/>Module Fees: $234<br/>Module Credits: 12",
           answer:
             "This module provides an in-depth introduction to supervised and unsupervised machine learning, covering key models and algorithms for regression, classification, clustering, and probabilistic classification. Students will critically evaluate approaches, understand applications, design machine learning systems, apply problem-solving techniques, and develop skills for further research in the field.",
         },
@@ -5543,7 +5577,7 @@ export const mscincomputerscience = {
 `,
     },
   ],
-programOverview: `Aspiring to excel in the tech industry? Our Master of Science in Computer Science is an advanced, flexible programme designed to strengthen both technical expertise and analytical capability. It covers core computing principles alongside advanced topics such as software development, data analysis, artificial intelligence, and cybersecurity.<br><br/> Students gain practical experience with industry-standard tools, mastering algorithms, software engineering, and secure system design. The programme builds strong critical thinking and problem-solving skills, preparing graduates to create scalable solutions and address ethical challenges. Career opportunities include roles in software engineering, data science, and cybersecurity, with the potential to drive innovation in the digital era.`,
+  programOverview: `Aspiring to excel in the tech industry? Our Master of Science in Computer Science is an advanced, flexible programme designed to strengthen both technical expertise and analytical capability. It covers core computing principles alongside advanced topics such as software development, data analysis, artificial intelligence, and cybersecurity.<br><br/> Students gain practical experience with industry-standard tools, mastering algorithms, software engineering, and secure system design. The programme builds strong critical thinking and problem-solving skills, preparing graduates to create scalable solutions and address ethical challenges. Career opportunities include roles in software engineering, data science, and cybersecurity, with the potential to drive innovation in the digital era.`,
 };
 
 export const bcominaccounting = {
@@ -5888,7 +5922,7 @@ export const bcominaccounting = {
     // {
     //   semester: "Semester 7 Elective Group 1 (Select Any One)",
     //   courses: [
-        
+
     //     {
     //       question: "Social Entrepreneurship",
     //       subanswer:
