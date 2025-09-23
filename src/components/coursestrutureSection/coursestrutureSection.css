@@ -1,7 +1,7 @@
 /* Extra small devices (phones, 600px and down) */
 
     .semester-answer-paragraph {
-        text-align: justify;
+        /* text-align: justify; */
     }
 @media only screen and (max-width: 600px) {
     .semester-content-container {
