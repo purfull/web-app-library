@@ -418,9 +418,9 @@ It's very important to us at Botho University that students receive timely assis
         backgroundColor="#F3E8EA"
         textColor="#000"
         backgroundImage="/images/FeeHome.png"
-        height="150vh"
-        title="Affordable. Flexible. <span style='background-color: #841D2E; color: #fff'>Build Around You </span>"
-        description="At Botho University, our online learning fees are designed to give you full control. You only pay for the modules you register for-each one priced according to its credit load. This pay-as-you-go model ensures you’re only investing in what you study, with no hidden costs. </br></br>To support your budgeting, we offer a structured instalment payment plan that makes it easier to manage your fees. All fees for the current semester must be settled before you progress to the next, so staying on track with payments is key to uninterrupted learning.</br></br>Paying is simple and convenient. Use our secure online payment gateway, or choose from other flexible options including campus payments, bank transfers, and – within Botswana – Orange Money."
+        height="110vh"
+        title="Affordable. Flexible. <span style='background-color: #841D2E; color: #fff'>Built Around You. </span>"
+        description="At Botho University, our online learning fees give you full control-you only pay for the modules you register for, based on their credit load, with no hidden costs. This flexible pay-as-you-go model is supported by a structured instalment plan to make budgeting easier, though all semester fees must be cleared before moving to the next stage. Payments are simple and convenient through our secure online gateway, campus payments, bank transfers, or Orange Money (within Botswana)."
       />
 
       <EnquireSection
