@@ -178,7 +178,7 @@ It's very important to us at Botho University that students receive timely assis
         headingText="Are You Ready To Take The"
         highlightedText="Next Step?"
         trailingText=""
-        paragraphText="Join thousands of students building their future with Botho University Online. Flexible. Affordable. Recognized."
+        paragraphText="Join thousands of students building their future with Botho University Online. Flexible. Affordable. Recognised."
         backgroundColor="#841d2e"
         headingColor="white"
         paragraphColor="white"

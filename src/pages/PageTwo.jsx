@@ -267,7 +267,7 @@ It's very important to us at Botho University that students receive timely assis
         headingText="Begin Your"
         highlightedText="Online Degree"
         trailingText="With Confidence"
-        paragraphText="Join thousands of students building their future with Botho University Online. Flexible. Affordable. Recognized."
+        paragraphText="Join thousands of students building their future with Botho University Online. Flexible. Affordable. Recognised."
         backgroundColor="#F3E8EA"
         headingColor="#000000"
         paragraphColor="#000000"
