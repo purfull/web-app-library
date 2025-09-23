@@ -882,7 +882,6 @@ export const bbainbusinessmanagement = {
       <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
     </li></br>
   </ul>
-  </br>
   <p><strong>Internet Requirements: </strong></p>
   <ul>
     <li>

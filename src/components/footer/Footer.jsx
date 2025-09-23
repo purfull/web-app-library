@@ -64,7 +64,7 @@ const Footer = () => {
     // navigate("/terms");
     // window.scrollTo(0, window.innerHeight);
     window.open(
-      `${window.location.href}terms`,
+      `${window.location.origin}/terms`,
       "_blank",
       "noopener,noreferrer"
     );

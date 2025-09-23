@@ -14,6 +14,7 @@ import FeeHome from "../components/feehoemsection/feehome";
 import EnquireSection from "../components/EnquireSection/EnquireSection";
 
 const PageFour = () => {
+ 
   const faqData = [
     {
       question:
@@ -34,12 +35,8 @@ To help you prepare for the application, here's what you'll typically need:
 - Certified copies of your High School Certificate
 
 - Professional passport-size photo
-</br></br>
-<strong>Mature Entry Applicants:</strong></br></br>
 
-- Other qualification certificates with transcripts
-</br>
-- Letter(s) from your employer(s)
+- Mature Entry Applicants: Other qualification certificates with transcripts and letter(s) from your employer(s)
 </br></br>
 <strong>For Postgraduate Programmes:</strong></br></br>
 - Certified copies of your degree certificate and official transcript
@@ -113,7 +110,6 @@ While you are, of course, welcome to contact your lecturers directly when you ha
 It's very important to us at Botho University that students receive timely assistance. That is precisely why we have a dedicated team of Programme Mentors committed to supporting you as you progress through your academic journey. You're never alone when you study with Botho University!</p>`,
     },
   ];
-
   const pgCardData = [
     {
       title: "Master of Business Administration (MBA)",
