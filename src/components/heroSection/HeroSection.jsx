@@ -111,9 +111,9 @@ const HeroSection = () => {
                   <button className="secondary-button" onClick={handleEnq}>
                     <span>Get a Call Back</span>
                     <img
-                      className="secondary-arrow-styles"
-                      src="/icon/maroon-arrow.png"
-                      alt="arrow-forward"
+                      className="arrow-icon-img"
+                      src="/icon/call-icon.png"
+                      // alt="arrow-forward"
                     />
                   </button>
                   <button

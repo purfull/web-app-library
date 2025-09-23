@@ -53,7 +53,7 @@ const staticHome = ({
               
             >
             {title && <p dangerouslySetInnerHTML={{__html: title}}></p>}
-              {!title && "Discover Online Learning at"} <br />
+              {!title && "Discover Online Learning at"}{" "}
               {!title && (
                 <span
                   style={{

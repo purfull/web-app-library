@@ -63,8 +63,13 @@ const Footer = () => {
   const handleTerms = () => {
     // navigate("/terms");
     // window.scrollTo(0, window.innerHeight);
+    // window.open(
+    //   `${window.location.origin}/terms`,
+    //   "_blank",
+    //   "noopener,noreferrer"
+    // );
     window.open(
-      `${window.location.origin}/terms`,
+      `https://di00ymfrmfyeb.cloudfront.net/3-PY-BOT-004 Data Protection Policy.pdf`,
       "_blank",
       "noopener,noreferrer"
     );
@@ -90,7 +95,7 @@ const Footer = () => {
         <div className="first-con">
           <img
             className="logo-botho-footer"
-            src="/logo/BothoLogo-hd.jpg"
+            src="/logo/BothoLogo-hd.png"
             alt="Logo"
           />
 
@@ -148,7 +153,7 @@ const Footer = () => {
 
           <div className="third-logo-and-content">
             <img src="/logo/phone.png" alt="" />
-            <a className="color-black-footer">+267 363 5455 / 363 5471</a>
+            <a className="color-black-footer">+267 3635407 / 3635451 / 3635477</a>
           </div>
           <div className="third-logo-and-content">
             <img src="/logo/whatsapp.png" alt="" />
@@ -157,7 +162,7 @@ const Footer = () => {
               href="https://wa.me/26777017160"
               target="_blank"
             >
-              +267 3635407 / 3635451 / 3635477
+              +267 77 017 160
             </a>
           </div>
         </div>
@@ -193,7 +198,7 @@ const Footer = () => {
       <div className="footer-copy-rights-section">
         <div>
           <p className=" black" style={{ color: "#000" }}>
-            © Copyright 2025, All Rights Reserved by Botho University
+            © Copyright 2025, All Rights Reserved by <a href="https://bothouniversity.com/" target="_blank">Botho University</a>
           </p>
         </div>
 
@@ -205,7 +210,7 @@ const Footer = () => {
             style={{ color: "#000" }}
             onClick={handleTerms}
           >
-            Terms & Conditions
+            Data Protection Policy
           </a>
           {/* <a className='color-black-footer black' style={{ color: "#000" }} href=''>Privacy Policy</a> */}
         </div>
