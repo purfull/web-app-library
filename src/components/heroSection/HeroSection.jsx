@@ -108,6 +108,14 @@ const HeroSection = () => {
                 </p>
 
                 <div className="buttons-corner">
+                  <button className="secondary-button" onClick={handleEnq}>
+                    <span>Get a Call Back</span>
+                    <img
+                      className="secondary-arrow-styles"
+                      src="/icon/maroon-arrow.png"
+                      alt="arrow-forward"
+                    />
+                  </button>
                   <button
                     className="primary-button"
                     onClick={handleAllCourse}
@@ -120,14 +128,6 @@ const HeroSection = () => {
                       alt=""
                       srcset=""
                     />{" "}
-                  </button>
-                  <button className="secondary-button" onClick={handleEnq}>
-                    <span>Get a Call Back</span>
-                    <img
-                      className="secondary-arrow-styles"
-                      src="/icon/maroon-arrow.png"
-                      alt="arrow-forward"
-                    />
                   </button>
                 </div>
                 <div className="sub-heading-main">

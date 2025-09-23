@@ -453,7 +453,7 @@ const TimerHome = ({ data, programOverview, feePage }) => {
 
   // const launchDate = new Date(data?.launchDate).getTime();
   // const launchDate = ["10-07{", "16-10", "13-01", "10-04"];
-  const launchDate = ["13-01", "10-04", "10-07", "16-10"]; // DD-MM
+  const launchDate = ["13-01", "10-04", "10-07", "13-10"]; // DD-MM
 
   useEffect(() => {
     const updateTime = () => {
@@ -531,7 +531,12 @@ const TimerHome = ({ data, programOverview, feePage }) => {
             </div>
           </div>
           <div className="col-grid">
-            <div className="grid-1">
+            {/* <div className="grid-2"> */}
+            
+              {data?.admissionFee && <div>
+                <h3>{data?.admissionFee} </h3>
+                <p>Registration Fee</p>
+              </div>}
               <div>
                 <h3>{data?.typicalfulltimestudyperiod} years</h3>
                 <p>Typical Full-Time Study Period</p>
@@ -548,18 +553,18 @@ const TimerHome = ({ data, programOverview, feePage }) => {
                 <h3>{data?.totalProgrammeCredit} </h3>
                 <p>Total Programme Credits</p>
               </div>
-            </div>
-            <div className="grid-2">
-              
-              <div>
-                <h3>{data?.noOfModules} </h3>
-                <p>Number of Modules</p>
-              </div>
               <div>
                 <h3>{data?.totalFee} </h3>
                 <p>Total Tuition Fee</p>
               </div>
-            </div>
+              <div>
+                <h3>{data?.noOfModules} </h3>
+                <p>Number of Modules</p>
+              </div>
+            {/* </div> */}
+            {/* <div className="grid-2">
+              
+            </div> */}
           </div>
           {data?.cta && (
             <div className="forButton">

@@ -13,7 +13,7 @@ import FeedBackSection from "../components/feedback/FeedBackSection";
 const PageTwo = () => {
   const cardDataPg = [
     {
-      cover: "/images/courses-images/MBA.jpeg",
+      cover: "/images/courses-images/MBA.png",
       courseName: "Postgraduate Programme",
       title: "Master of Business Administration (MBA)",
       description:
@@ -34,7 +34,7 @@ const PageTwo = () => {
         "Ready to lead in education and curriculum development? Our Master of Education in Curriculum Design and Instruction is your pathway to becoming an expert.",
     },
     {
-      cover: "/images/courses-images/PGDHE.jpeg",
+      cover: "/images/courses-images/PGDHE.png",
       courseName: "Postgraduate Programme",
       title: "Post Graduate Diploma in Higher Education (PGDHE)",
       description:
@@ -87,7 +87,7 @@ const PageTwo = () => {
         "Your Future in Accounting Starts Here! Our Bachelor of Commerce in Accounting programme offers a practical, industry-focused approach to a rewarding career in accounting and finance. You'll gain essential expertise in financial reporting, auditing, taxation, and management accounting. What sets this degree apart is its blend of theory and hands-on experience, including a compulsory semester-long internship for invaluable real-world exposure.",
     },
     {
-      cover: "/images/courses-images/Bed in Primary.jpeg",
+      cover: "/images/courses-images/Bed in Primary.png",
       courseName: "Undergraduate Programme",
       title: "BEd in Primary Education",
       description:
@@ -247,7 +247,7 @@ It's very important to us at Botho University that students receive timely assis
     <div className="">
       <RednavBar />
       <NavBar />
-      <StaticHome />
+      <StaticHome height="auto" />
       <Course
         cardData={cardDataPg}
         moreButton={false}

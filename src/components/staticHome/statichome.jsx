@@ -34,6 +34,7 @@ const iconData = [
 const staticHome = ({
   backgroundColor,
   textColor,
+  height,
   backgroundImage,
   title,
   description,
@@ -41,7 +42,7 @@ const staticHome = ({
   return (
     <div
       className="home-container"
-      style={{ backgroundImage: backgroundImage && `url(${backgroundImage})` }}
+      style={{ backgroundImage: backgroundImage && `url(${backgroundImage})`, height: `${height ? height : 'auto'}` }}
     >
       <div className="top-sections-main">
         <div className="top-sections" style={{ color: textColor }}>
@@ -92,8 +93,8 @@ const staticHome = ({
                 textColor ? "black" : ""
               }`}
               style={{ color: textColor ? "#000 !important" : "#fff" }}
+              dangerouslySetInnerHTML={{__html: description || "Shape your future with flexible, career-driven programmes designed for modern life. Study fully online with the freedom to learn on your schedule - without putting your life on hold. With multiple intakes per year, dedicated support, practical learning tools, and industry-relevant qualifications, Botho University gives you the edge to grow, lead, and succeed - from wherever you are."}}
             >
-              {description || "Shape your future with flexible, career-driven programmes designed for modern life. Study fully online with the freedom to learn on your schedule - without putting your life on hold. With multiple intakes per year, dedicated support, practical learning tools, and industry-relevant qualifications, Botho University gives you the edge to grow, lead, and succeed - from wherever you are."}
             </div>
           </div>
         </div>

@@ -19,7 +19,7 @@ import Terms from "../components/terms/terms";
 const HomePage = () => {
   const cardData = [
     {
-      cover: "/images/courses-images/MBA.jpeg",
+      cover: "/images/courses-images/MBA.png",
       courseName: "Postgraduate Programme",
       title: "Master of Business Administration (MBA)",
       description:
@@ -34,7 +34,7 @@ const HomePage = () => {
         "Aspiring to a leadership role in the vibrant hospitality sector? Our Bachelor of Commerce in Hospitality Management provides a strong foundation in business principles alongside specialised hospitality skills. You'll cover core areas like accounting and marketing, combined with modules in hotel operations, food and beverage management, and tourism development.",
     },
     {
-      cover: "/images/courses-images/PGDHE.jpeg",
+      cover: "/images/courses-images/PGDHE.png",
       courseName: "Postgraduate Programme",
       title: "Post Graduate Diploma in Higher Education",
       description:

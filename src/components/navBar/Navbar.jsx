@@ -91,7 +91,7 @@ const NavBar = () => {
         "Fascinated by creating safer workplaces? Our Diploma in Occupational Health and Safety is for you! This comprehensive programme blends occupational health, safety management, risk assessment, and environmental sustainability. You'll gain practical skills to identify, evaluate, and control workplace hazards, ensuring compliance with regulations, and fostering a strong safety culture.",
     },
     {
-      cover: "/images/courses-images/MBA.png",
+      cover: "/images/courses-images/MBA.jpeg",
       courseName: "Postgraduate Programme",
       title: "Master of Business Administration (MBA).",
       description:
