@@ -1555,7 +1555,7 @@ export const mcominhumanresourcemanagement = {
 export const masterofbusinessadministration = {
   heroContent: {
     question: "Master of Business Administration (MBA)",
-    image: "/images/courses-images/MBA.jpeg",
+    image: "/images/courses-images/MBA.png",
     downloadurl: `${baseUrl}MBA.pdf`,
     typicalfulltimestudyperiod: 2,
     // maxPeriod: 4,
@@ -3237,7 +3237,7 @@ Learners study how to identify and assess workplace hazards, design effective co
 export const bedinprimaryeducation = {
   heroContent: {
     question: "Bachelor of Education in Primary Education",
-    image: "/images/courses-images/Bed in Primary.jpeg",
+    image: "/images/courses-images/Bed in Primary.png",
     downloadurl: `${baseUrl}BEdInPrimaryEducation.pdf`,
     typicalfulltimestudyperiod: 4,
     // maxPeriod: 6,
@@ -3909,7 +3909,7 @@ export const bedinprimaryeducation = {
 export const postgraduatediplomainhighereducation = {
   heroContent: {
     question: "Post Graduate Diploma in Higher Education (PGDHE)",
-    image: "/images/courses-images/PGDHE.jpeg",
+    image: "/images/courses-images/PGDHE.png",
     downloadurl: `${baseUrl}PGDHE.pdf`,
     typicalfulltimestudyperiod: 1,
     // maxPeriod :2,
@@ -5205,7 +5205,7 @@ export const medinhighereducation = {
   programOverview: `Elevate your expertise with our Master of Education in Higher Education. This specialised programme equips you with advanced pedagogical skills, covering learning, teaching and assessment, curriculum design, and academic writing. You will gain a deep understanding of quality frameworks in higher education while integrating educational technology and e-learning.<br></br>With a strong emphasis on research and practical experience, including modules on higher education research and a dissertation, the programme prepares you for leadership roles in universities and colleges, empowering you to shape the future of higher education.`,
 };
 
-export const mscininformationsystemsmanagement = {
+export const masterofscienceininformationsystemsmanagement = {
   heroContent: {
     question: "MSc in Information Systems Management",
     image: "/images/courses-images/Msc in Information Systems management.jpeg",

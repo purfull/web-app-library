@@ -770,13 +770,14 @@ export const diplomainoccupationalhealthsafety = {
 export const masterofbusinessadministration = {
   heroContent: {
     question: "Master of Business Administration (MBA)",
-    image: "/images/courses-images/MBA.jpeg",
+    image: "/images/courses-images/MBA.png",
     typicalfulltimestudyperiod: 2,
     // maxPeriod: 4,
     programmeCredit: "$19.50",
     totalProgrammeCredit: 250,
     noOfModules: "13 (11 core + 2 elective)",
     totalFee: "$4,875.00",
+    admissionFee: "$50",
     downloadurl: `${baseUrl}/MasterofBusinessAdministration(MBA).pdf`,
     cta: true,
     timer: false,
@@ -1447,7 +1448,7 @@ export const bedinprimaryeducation = {
   heroContent: {
     question:
       "Bachelor of Education in Primary Education (English Language and Mathematics)",
-    image: "/images/courses-images/Bed in Primary.jpeg",
+    image: "/images/courses-images/Bed in Primary.png",
     typicalfulltimestudyperiod: 4,
     // maxPeriod: 6,
     programmeCredit: "$13",
@@ -2358,7 +2359,7 @@ export const bscinnetworksecurityandcomputerforensics = {
 export const postgraduatediplomainhighereducation = {
   heroContent: {
     question: "Post Graduate Diploma in Higher Education (PGDHE)",
-    image: "/images/courses-images/PGDHE.jpeg",
+    image: "/images/courses-images/PGDHE.png",
     typicalfulltimestudyperiod: 1,
     // maxPeriod: 2,
     programmeCredit: "$19.50",

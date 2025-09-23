@@ -74,12 +74,12 @@ const Content = () => {
     {
       question: "Comprehensive E-Library Access",
       answer:
-        "Online learners at Botho University enjoy unlimited access to an extensive e-library, featuring leading journal databases such as Emerald, ProQuest, and JSTOR. This vast repository of academic resources supports research and learning, ensuring that students have the necessary tools to excel in their studies.",
+        "Online learners at Botho University enjoy unlimited access to an extensive e-library, featuring an institutional repository and leading journal and e-book databases such as EBSCOhost, Emerald, ProQuest, JSTOR, PressReader, and VLeBooks. This vast repository of academic resources supports research and learning, ensuring that students have the necessary tools to excel in their studies.",
     },
     {
       question: "Commitment to Innovation and Impact",
       answer:
-        "Botho University's core values of vibrance, innovation, and impact drive its mission to produce well-rounded, entrepreneurial, and globally employable graduates. The university's innovative teaching approaches integrate academic learning with real-world experience, preparing students to meet the demands of the modern workforce.",
+        "Botho University's core values of vibrance, innovation, and impact drive its mission to produce well-rounded, entrepreneurial, and globally employable graduates. The university's innovative teaching approaches integrate academic learning with real-world experience, preparing students to meet the demands of the modern workforce. Embark on a transformative educational journey with Botho University, where technology meets personalised support, and academic excellence paves the way for global opportunities. Experience online learning redefined.",
     },
   ];
 
