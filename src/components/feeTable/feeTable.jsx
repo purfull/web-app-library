@@ -19,6 +19,7 @@ const FeeTable = ({ tableData = [] }) => {
                 <th>Module Name</th>
                 <th>Credit Load</th>
                 <th>Module Fee</th>
+                {/* <th>preq</th> */}
               </tr>
             </thead>
             <tbody>
