@@ -42,7 +42,7 @@ const staticHome = ({
   return (
     <div
       className="home-container"
-      style={{ backgroundImage: backgroundImage && `url(${backgroundImage})`, height: `${height ? height : 'auto'}` }}
+      style={{ backgroundImage: backgroundImage && `url(${backgroundImage})`}}
     >
       <div className="top-sections-main">
         <div className="top-sections" style={{ color: textColor }}>

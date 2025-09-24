@@ -39,6 +39,14 @@ const RedNavbar = () => {
   return () => ScrollTrigger.getAll().forEach(trigger => trigger.kill());
 }, []);
 
+const handleWhatsappClick = () => {
+  
+    window.open(
+      `https://wa.me/26777017160`,
+      "_blank",
+      "noopener,noreferrer"
+    );
+}
 
   return (
     <div className="red-container">
@@ -52,7 +60,7 @@ const RedNavbar = () => {
           <div className="" style={{display: "flex", alignItems: "center"}}>
             
           <img src="/icon/whatsapp-coloured-logo.png" alt="whatsapp" style={{marginRight: '4px'}} />
-          <span>+267 77 017 160</span>
+          <span onClick={handleWhatsappClick} style={{cursor: "pointer"}}>+267 77 017 160</span>
           </div>
         </div>
       </div>
