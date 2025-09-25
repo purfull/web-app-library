@@ -4957,7 +4957,7 @@ Students will engage with key topics such as ethical hacking, cybercrime investi
 export const medinhighereducation = {
   heroContent: {
     question: "Masters of Education in Higher Education",
-    image: "/images/courses-images/Med in higher education.jpeg",
+    image: "/images/courses-images/Med in higher education.jpg",
     downloadurl: `${baseUrl}MedInHigherEducation.pdf`,
     typicalfulltimestudyperiod: 2,
     // maxPeriod: 4,

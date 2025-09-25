@@ -777,7 +777,6 @@ export const masterofbusinessadministration = {
     totalProgrammeCredit: 250,
     noOfModules: "13 (11 core + 2 elective)",
     totalFee: "$4,875.00",
-    admissionFee: "$50",
     downloadurl: `${baseUrl}/MasterofBusinessAdministration(MBA).pdf`,
     cta: true,
     timer: false,
@@ -2632,8 +2631,8 @@ export const medincurriculumdesignandinstruction = {
 
 export const medinhighereducation = {
   heroContent: {
-    question: "Mater of Education in Higher Education",
-    image: "/images/courses-images/Med in higher education.jpeg",
+    question: "Masters of Education in Higher Education",
+    image: "/images/courses-images/Med in higher education.jpg",
     typicalfulltimestudyperiod: 2,
     // maxPeriod: 4,
     programmeCredit: "$19.50",

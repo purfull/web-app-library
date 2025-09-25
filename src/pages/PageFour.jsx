@@ -15,6 +15,7 @@ import EnquireSection from "../components/EnquireSection/EnquireSection";
 
 const PageFour = () => {
  
+ 
   const faqData = [
     {
       question:
@@ -83,11 +84,11 @@ We believe in making quality education accessible. There is no application fee! 
 If you opt for a full-time load of 60 credits in a semester for an undergraduate programme, your total fee for that semester would be (60 credits x $13 per credit) $780. To further support your financial planning, we offer a highly flexible payment structure, allowing you to pay undergraduate fees in six convenient monthly instalments of $130.
 </br></br>
 If you opt for a full-time load of 60 credits in a semester for a postgraduate programme, your total fee for that semester would be (60 credits x $19.50 per credit) $1170. Here too, we offer a highly flexible payment structure, allowing you to pay postgraduate fees in six convenient monthly instalments of $195.
-</br></br>
-You can review our complete Fee Structure at your convenience <a href= "https://online.bothouniversity.com/downloads/fees/" target="_blank" rel="noopener noreferrer">here</a>
 
 </p>
       `,
+      // 
+// You can review our complete Fee Structure at your convenience <a href= "/all-fee" target="_blank" rel="noopener noreferrer">here</a>
     },
     {
       question: "When are the intakes for Botho University Online?",
@@ -161,7 +162,7 @@ It's very important to us at Botho University that students receive timely assis
     },
     {
       title: "MEd in Higher Education",
-      image: "/images/courses-images/Square/Med in higher education.png",
+      image: "/images/courses-images/Square/Med in higher education.jpg",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",

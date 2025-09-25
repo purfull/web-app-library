@@ -15,7 +15,65 @@ const NavBar = () => {
     console.log(searchText);
   }, [searchText]);
   const cardData = [
+  
     {
+      cover: "/images/courses-images/MBA.jpeg",
+      courseName: "Postgraduate Programme",
+      title: "Master of Business Administration (MBA).",
+      description:
+        "Aiming to become a top executive in the global business arena? Our MBA programme is designed for ambitious professionals. It equips you with the skills to tackle complex challenges, focusing on critical thinking, entrepreneurship, financial resilience, and innovative problem-solving.",
+    },
+    {
+      cover: "/images/courses-images/MCom in Human resource.png",
+      courseName: "Postgraduate Programme",
+      title: "MCom in Human Resource Management.",
+      description:
+        "Looking to become a leader in talent management? Our Master of Commerce in Human Resource Management (MCom in HRM) is a transformative qualification designed for the modern business landscape. You'll gain a robust foundation in strategic HR planning, recruitment, performance assessment, and more.",
+    },
+    {
+      cover: "/images/courses-images/Med in curriculum.png",
+      courseName: "Postgraduate Programme",
+      title: "MEd in Curriculum Design and Instruction",
+      description:
+        "Ready to lead in education and curriculum development? Our Master of Education in Curriculum Design and Instruction is your pathway to becoming an expert.",
+    },
+    {
+      cover: "/images/courses-images/Med in higher education.jpg",
+      courseName: "Postgraduate Programme",
+      title: "MEd in Higher Education",
+      description:
+        "Elevate your expertise with our Master of Education in Higher Education. This specialised two-year online programme equips you with advanced pedagogical skills, covering Learning, Teaching and Assessment, Curriculum Design and Development, and Academic Writing.",
+    },
+    {
+      cover:
+        "/images/courses-images/Med in educational leadership and mgmt.png",
+      courseName: "Postgraduate Programme",
+      title: "MEd in Leadership and Management",
+      description:
+        "Aspiring to lead in education? Our Master of Educational Leadership and Management is a prestigious, two-year programme designed to elevate your career.",
+    },
+    {
+      cover: "/images/courses-images/Msc in computer science.png",
+      courseName: "Postgraduate Programme",
+      title: "MSc in Computer Science",
+      description:
+        "Aspiring to excel in the tech industry? Our Master of Science in Computer Science is an advanced, flexible online programme.",
+    },
+    {
+      cover: "/images/courses-images/Msc in Information Systems management.png",
+      courseName: "Postgraduate Programme",
+      title: "MSc in Information Systems Management",
+      description:
+        "Ready to excel in information systems management? Our Master of Science in Information Systems Management is a professionally oriented online programme, perfect if you need flexible learning.",
+    },
+    {
+      cover: "/images/courses-images/PGDHE.png",
+      courseName: "Postgraduate Programme",
+      title: "Post Graduate Diploma in Higher Education(PGDHE)",
+      description:
+        "Ready to advance your teaching career? Our Postgraduate Diploma in Higher Education (PGDHE) is a transformative one-year programme designed to equip you with advanced teaching skills, curriculum design expertise, and effective assessment strategies.",
+    },
+      {
       cover: "/images/courses-images/BBA in bus mgmt.png",
       courseName: "Undergraduate Programme",
       title: "BBA in Business Management",
@@ -89,63 +147,6 @@ const NavBar = () => {
       title: "Diploma in Occupational Health Safety",
       description:
         "Fascinated by creating safer workplaces? Our Diploma in Occupational Health and Safety is for you! This comprehensive programme blends occupational health, safety management, risk assessment, and environmental sustainability. You'll gain practical skills to identify, evaluate, and control workplace hazards, ensuring compliance with regulations, and fostering a strong safety culture.",
-    },
-    {
-      cover: "/images/courses-images/MBA.jpeg",
-      courseName: "Postgraduate Programme",
-      title: "Master of Business Administration (MBA).",
-      description:
-        "Aiming to become a top executive in the global business arena? Our MBA programme is designed for ambitious professionals. It equips you with the skills to tackle complex challenges, focusing on critical thinking, entrepreneurship, financial resilience, and innovative problem-solving.",
-    },
-    {
-      cover: "/images/courses-images/MCom in Human resource.png",
-      courseName: "Postgraduate Programme",
-      title: "MCom in Human Resource Management.",
-      description:
-        "Looking to become a leader in talent management? Our Master of Commerce in Human Resource Management (MCom in HRM) is a transformative qualification designed for the modern business landscape. You'll gain a robust foundation in strategic HR planning, recruitment, performance assessment, and more.",
-    },
-    {
-      cover: "/images/courses-images/Med in curriculum.png",
-      courseName: "Postgraduate Programme",
-      title: "MEd in Curriculum Design and Instruction",
-      description:
-        "Ready to lead in education and curriculum development? Our Master of Education in Curriculum Design and Instruction is your pathway to becoming an expert.",
-    },
-    {
-      cover: "/images/courses-images/Med in higher education.png",
-      courseName: "Postgraduate Programme",
-      title: "MEd in Higher Education",
-      description:
-        "Elevate your expertise with our Master of Education in Higher Education. This specialised two-year online programme equips you with advanced pedagogical skills, covering Learning, Teaching and Assessment, Curriculum Design and Development, and Academic Writing.",
-    },
-    {
-      cover:
-        "/images/courses-images/Med in educational leadership and mgmt.png",
-      courseName: "Postgraduate Programme",
-      title: "MEd in Leadership and Management",
-      description:
-        "Aspiring to lead in education? Our Master of Educational Leadership and Management is a prestigious, two-year programme designed to elevate your career.",
-    },
-    {
-      cover: "/images/courses-images/Msc in computer science.png",
-      courseName: "Postgraduate Programme",
-      title: "MSc in Computer Science",
-      description:
-        "Aspiring to excel in the tech industry? Our Master of Science in Computer Science is an advanced, flexible online programme.",
-    },
-    {
-      cover: "/images/courses-images/Msc in Information Systems management.png",
-      courseName: "Postgraduate Programme",
-      title: "MSc in Information Systems Management",
-      description:
-        "Ready to excel in information systems management? Our Master of Science in Information Systems Management is a professionally oriented online programme, perfect if you need flexible learning.",
-    },
-    {
-      cover: "/images/courses-images/PGDHE.png",
-      courseName: "Postgraduate Programme",
-      title: "Post Graduate Diploma in Higher Education(PGDHE)",
-      description:
-        "Ready to advance your teaching career? Our Postgraduate Diploma in Higher Education (PGDHE) is a transformative one-year programme designed to equip you with advanced teaching skills, curriculum design expertise, and effective assessment strategies.",
     },
   ];
   const handleSearchClick = () => {
@@ -261,7 +262,7 @@ const NavBar = () => {
             <div className="search-icon-text" onClick={handleSearchClick}>
               <CiSearch className="clickable-icon" />
               <span className="nav-text">
-                Botho University Online Programmes
+                Online Programmes
                 <RiArrowDropDownLine />
               </span>
             </div>
@@ -303,14 +304,14 @@ const NavBar = () => {
             onClick={handleWhyClick}
             style={{ cursor: "pointer" }}
           >
-            Why Botho University Online?
+            Why Choose Us?
           </div>
           <p
             className="fee-text"
             onClick={handleFeeClick}
             style={{ cursor: "pointer" }}
           >
-            Fees
+           Our Programme Fees
           </p>
 
           {/* {!showSearchInput && ( */}
