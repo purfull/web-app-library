@@ -533,10 +533,10 @@ const TimerHome = ({ data, programOverview, feePage }) => {
           <div className="col-grid">
             {/* <div className="grid-2"> */}
             
-              {data?.admissionFee && <div>
+              {/* {data?.admissionFee && <div>
                 <h3>{data?.admissionFee} </h3>
                 <p>Registration Fee</p>
-              </div>}
+              </div>} */}
               <div>
                 <h3>{data?.typicalfulltimestudyperiod} years</h3>
                 <p>Typical Full-Time Study Period</p>
@@ -586,6 +586,10 @@ const TimerHome = ({ data, programOverview, feePage }) => {
               </button>
             </div>
           )}
+          {/* <div className="col-grid" style={{marginTop: "22px" , fontStyle: "italic"}}>
+            
+                <p>Click Fees tab for details.</p>
+          </div> */}
         </div>
 
         {/* Desktop Timer */}

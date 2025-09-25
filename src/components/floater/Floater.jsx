@@ -23,7 +23,7 @@ const Floater = () => {
     <div className="floater-wrapper">
       <div className={`icon-list ${open ? "open" : ""}`}>
         <a
-          href="https://www.facebook.com/BothoBU/"
+          href="https://www.facebook.com/BothoUniversityOnlineBUO"
           target="_blank"
           className="icon facebook"
         >
