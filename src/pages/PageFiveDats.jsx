@@ -1333,7 +1333,7 @@ export const bscinhospitaladministration = {
 export const bscinsafetyhealthandenvironmentalmanagement = {
   heroContent: {
     question: "BSc in Safety, Health and Environmental Management",
-    image: "/images/courses-images/BSc in Safety..png",
+    image: "/images/courses-images/BSc in Safety..jpg",
     typicalfulltimestudyperiod: 4,
     // maxPeriod: 6,
     programmeCredit: "$13",
@@ -1993,7 +1993,7 @@ export const bscindatascience = {
 export const bscinnetworksecurityandcomputerforensics = {
   heroContent: {
     question: "BSc in Network Security and Computer Forensics",
-    image: "/images/courses-images/BSc in network security.jpeg",
+    image: "/images/courses-images/BSc in network security.jpg",
     typicalfulltimestudyperiod: 4,
     // maxPeriod: 6,
     programmeCredit: "$13",
@@ -2952,7 +2952,7 @@ export const mscininformationsystemsmanagement = {
 export const mscincomputerscience = {
   heroContent: {
     question: "MSc in Computer Science",
-    image: "/images/courses-images/Msc in computer science.jpeg",
+    image: "/images/courses-images/Msc in computer science.jpg",
     typicalfulltimestudyperiod: 2,
     // maxPeriod: 4,
     programmeCredit: "$19.50",

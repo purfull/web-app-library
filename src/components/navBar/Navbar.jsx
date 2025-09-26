@@ -53,7 +53,7 @@ const NavBar = () => {
         "Aspiring to lead in education? Our Master of Educational Leadership and Management is a prestigious, two-year programme designed to elevate your career.",
     },
     {
-      cover: "/images/courses-images/Msc in computer science.png",
+      cover: "/images/courses-images/Msc in computer science.jpg",
       courseName: "Postgraduate Programme",
       title: "MSc in Computer Science",
       description:
@@ -128,14 +128,14 @@ const NavBar = () => {
         "Aspiring to a leadership position in healthcare? Our BSc in Hospital Administration is a specialised programme designed to equip you with essential knowledge and skills.",
     },
     {
-      cover: "/images/courses-images/BSc in network security.png",
+      cover: "/images/courses-images/BSc in network security.jpg",
       courseName: "Undergraduate Programme",
       title: "BSc in Network Security and Computer Forensics",
       description:
         "Ready to become a cybersecurity expert? Our BSc in Network Security and Computer Forensics is a specialised degree equipping you to protect digital assets and investigate cyber threats.",
     },
     {
-      cover: "/images/courses-images/BSc in Safety..png",
+      cover: "/images/courses-images/BSc in Safety..jpg",
       courseName: "Undergraduate Programme",
       title: "BSc in Safety, Health and Environmental Management",
       description:
@@ -236,7 +236,7 @@ const NavBar = () => {
     <div className="nav-head">
       <div className="nav-bar">
         <img
-          src="../logo/BothoLogo-hd.jpg"
+          src="../logo/BothoLogo-hd-1.png"
           alt="logo"
           className="nav-logo"
           onClick={handleHomeClick}

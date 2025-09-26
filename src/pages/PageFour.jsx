@@ -162,7 +162,7 @@ It's very important to us at Botho University that students receive timely assis
     },
     {
       title: "MEd in Higher Education",
-      image: "/images/courses-images/Square/Med in higher education.jpg",
+      image: "/images/courses-images/Square/Med in higher education.png",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
