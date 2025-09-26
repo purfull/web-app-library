@@ -4609,7 +4609,7 @@ export const bscinnetworksecurityandcomputerforensics = {
         {
           question: "Database Concepts",
           subanswer:
-            "Code: C6-DBC-20<br/>Prerequisite: C6-CE2-20<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C6-DBC-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores the principles of database design, management, and security, covering data modelling, normalisation, and relational database concepts. Students will learn SQL for querying and managing data, as well as techniques for ensuring data integrity, access control, and protection against cyber threats, preparing them for database administration and security roles.",
         },
