@@ -120,13 +120,13 @@ const Footer = () => {
         </div>
 
         <div className="footer-second-con">
-          <span className="heading-footer">Quick links</span>
+          <span className="heading-footer">Quick Links</span>
           <a className="color-black-footer" href="" onClick={handleCourseClick}>
-            Botho University Online Programmes
+            Online Programmes
           </a>
-          <a className="color-black-footer" href="" onClick={handleWhyClick}>
+          {/* <a className="color-black-footer" href="" onClick={handleWhyClick}>
             Why Botho University Online?
-          </a>
+          </a> */}
           <a className="color-black-footer" href="" onClick={handleFeeClick}>
             Fees
           </a>
@@ -136,24 +136,25 @@ const Footer = () => {
           <span className="heading-footer">Contact Us</span>
           <div className="third-logo-and-content">
             <img src="/logo/location.png" alt="" />
-            <a className="color-black-footer">
+            <a href="https://maps.app.goo.gl/BpYRfDRJMabRZath7" target="_blank" className="color-black-footer">
               Botho Education Park, Kgale, Gaborone, Botswana
             </a>
           </div>
 
           <div className="third-logo-and-content">
             <img src="/logo/message.png" alt="" />
-            <a
+            <span
               className="color-black-footer"
               // href="mailto:onlineadmissions@bothouniversity.ac.bw"
+              style={{textDecoration: "none"}}
             >
               onlineadmissions@bothouniversity.ac.bw
-            </a>
+            </span>
           </div>
 
           <div className="third-logo-and-content">
             <img src="/logo/phone.png" alt="" />
-            <a className="color-black-footer">+267 3635407 / 3635451 / 3635477</a>
+            <a className="color-black-footer" style={{textDecoration: "none"}}>+267 3635407 / 3635451 / 3635477</a>
           </div>
           <div className="third-logo-and-content">
             <img src="/logo/whatsapp.png" alt="" />

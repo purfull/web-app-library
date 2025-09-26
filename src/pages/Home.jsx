@@ -168,7 +168,7 @@ It's very important to us at Botho University that students receive timely assis
       <Course
         cardData={cardData}
         moreButton={true}
-        secondaryHeading="Explore Our Online Programme"
+        secondaryHeading="Explore Our Online Programmes"
       />
       <FeedBackSection />
       <Faq faqData={faqData} animation={true} />
