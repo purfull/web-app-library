@@ -493,8 +493,7 @@ const TimerHome = ({ data, programOverview, feePage }) => {
 
   const handleEnq = () => {
     window.open(
-      "https://bothouniversity.academiaerp.com/applicant-portal/#/auth/login",
-      "_blank",
+      "https://bothouniversity.academiaerp.com/onlineEnquire",
       "noopener,noreferrer"
     );
   };
@@ -569,10 +568,10 @@ const TimerHome = ({ data, programOverview, feePage }) => {
           {data?.cta && (
             <div className="forButton">
               <button className="secondary-button" onClick={handleEnq}>
-                <span>Apply Now</span>
+                <span>Get a Call Back</span>
                 <img
                   className="secondary-arrow-styles"
-                  src="/icon/maroon-arrow.png"
+                  src="/icon/call-icon.png"
                   alt="arrow-forward"
                 />
               </button>
