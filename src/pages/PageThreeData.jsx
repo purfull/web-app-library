@@ -1659,8 +1659,12 @@ export const masterofbusinessadministration = {
             "This module explores climate economics, policies, and governance for sustainable development. Learners study responsible leadership, environmental management, and climate risk planning, developing strategies for climate justice, resilience, and effective communication in promoting sustainable and adaptable environments.",
         },
       ],
-      electives: [
-        {
+     
+    },
+     {
+      semester: "Semester 3 Electives (choose Two)",
+      courses: [
+       {
           question: "International Investment Analysis",
           subanswer:
             "Code: A9-IIA-17<br/>Module Fees: $195<br/>Module Credits: 10",
@@ -5204,7 +5208,7 @@ export const medinhighereducation = {
   programOverview: `Elevate your expertise with our Master of Education in Higher Education. This specialised programme equips you with advanced pedagogical skills, covering learning, teaching and assessment, curriculum design, and academic writing. You will gain a deep understanding of quality frameworks in higher education while integrating educational technology and e-learning.<br></br>With a strong emphasis on research and practical experience, including modules on higher education research and a dissertation, the programme prepares you for leadership roles in universities and colleges, empowering you to shape the future of higher education.`,
 };
 
-export const masterofscienceininformationsystemsmanagement = {
+export const mscininformationsystemsmanagement = {
   heroContent: {
     question: "MSc in Information Systems Management",
     image: "/images/courses-images/Msc in Information Systems management.jpeg",
