@@ -1797,7 +1797,7 @@ export const masterofbusinessadministration = {
   programOverview: `Aiming to become a top executive in the global business arena? Our MBA programme is designed for ambitious professionals. It equips you with the skills to tackle complex challenges, focusing on critical thinking, entrepreneurship, financial resilience, and innovative problem-solving.<br></br>The programme offers flexibility to balance work, life, and study while developing expertise in international business, leadership, accounting, risk management, technology, and marketing. With a strong foundation in business and executive acumen, the MBA prepares graduates to thrive in competitive environments and achieve long-term professional success.`,
 };
 
-export const diplomainoccupationalhealthsafety = {
+export const diplomainoccupationalhealthandsafety = {
   heroContent: {
     question: "Diploma in Occupational Health Safety",
     image: "/images/courses-images/Diploma in Occup.jpeg",
