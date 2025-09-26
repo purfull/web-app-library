@@ -107,7 +107,7 @@ const Courses = ({
           </span>
 
           <div className="search-wrapper">
-            <div className="search-button">
+            {/* <div className="search-button">
               <input
                 type="text"
                 placeholder="Search Programmes..."
@@ -117,7 +117,7 @@ const Courses = ({
                   setSearchText(e.target.value);
                   setShowSuggestions(true);
                 }}
-                onBlur={() => setTimeout(() => setShowSuggestions(false), 150)} // Allow time to click
+                onBlur={() => setTimeout(() => setShowSuggestions(false), 150)}
                 onFocus={() => setShowSuggestions(true)}
               />
               <img
@@ -129,7 +129,7 @@ const Courses = ({
                   backgroundColor: "#841d26",
                 }}
               />
-            </div>
+            </div> */}
 
             {/* 🔽 Auto Suggestions Dropdown */}
             {showSuggestions && searchText && (
@@ -164,7 +164,7 @@ const Courses = ({
         </div>
       </div>
       <div className="mobile-wrapper">
-        <div className="search-button">
+        {/* <div className="search-button">
           <input
             type="text"
             placeholder="Search Programmes..."
@@ -186,7 +186,7 @@ const Courses = ({
               backgroundColor: "#841d26",
             }}
           />
-        </div>
+        </div> */}
 
         {/* 🔽 Auto Suggestions Dropdown */}
         {showSuggestions && searchText && (

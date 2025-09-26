@@ -106,12 +106,12 @@
     }
 
     .semester-content-part1 {
-        padding: 20px;
+        padding: 20px 0;
         position: relative;
     }
 
     .semester-content-part2 {
-        padding: 20px;
+        padding: 20px 0;
         /* overflow-y: auto; */
         /* max-height: 100vh; */
     }
@@ -200,12 +200,12 @@
     }
 
     .semester-content-part1 {
-        padding: 20px;
+        padding: 20px 0;
         position: relative;
     }
 
     .semester-content-part2 {
-        padding: 20px;
+        padding: 20px 0;
         /* overflow-y: auto; */
         /* max-height: 100vh; */
     }
@@ -294,12 +294,12 @@
     }
 
     .semester-content-part1 {
-        padding: 20px;
+        padding: 20px 0;
         position: relative;
     }
 
     .semester-content-part2 {
-        padding: 20px;
+        padding: 20px 0;
         /* overflow-y: auto; */
         /* max-height: 100vh; */
     }
@@ -389,12 +389,12 @@
     }
 
     .semester-content-part1 {
-        padding: 20px;
+        padding: 20px 0;
         position: relative;
     }
 
     .semester-content-part2 {
-        padding: 20px;
+        padding: 20px 0;
         /* overflow-y: auto; */
         /* max-height: 100vh; */
     }

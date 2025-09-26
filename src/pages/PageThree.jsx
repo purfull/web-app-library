@@ -16,7 +16,7 @@ import {
   // bcominhospitalitymanagement,
   mcominhumanresourcemanagement,
   masterofbusinessadministration,
-  diplomainoccupationalhealthsafety,
+  diplomainoccupationalhealthandsafety,
   bscinhealthinformationmanagement,
   bscinhospitaladministration,
   bscinsafetyhealthandenvironmentalmanagement,
@@ -44,7 +44,7 @@ const PageThree = () => {
     // bcominhospitalitymanagement,
     mcominhumanresourcemanagement,
     masterofbusinessadministration,
-    diplomainoccupationalhealthsafety,
+    diplomainoccupationalhealthandsafety,
     bscinhealthinformationmanagement,
     bscinhospitaladministration,
     bscinsafetyhealthandenvironmentalmanagement,
@@ -66,7 +66,6 @@ const PageThree = () => {
   }, [name]);
 
  
-
   const faqData = [
     {
       question:
@@ -95,15 +94,7 @@ To help you prepare for the application, here's what you'll typically need:
 </br>
 - Certified copy of your ID/Passport
 </br>
-- Additional documents for MBA and MCom Programmes:
-</br>
-- Comprehensive CV/Resume
-</br>
-- Compelling Motivation Letter
-</br>
-- Professional passport-size photo
-
-
+- Additional documents for MBA and MCom Programmes: your comprehensive CV/Resume, a compelling Motivation Letter, a professional passport-size photo
 </p>
     `,
     },
@@ -115,14 +106,14 @@ To help you prepare for the application, here's what you'll typically need:
      Your academic journey at Botho University is flexible and tailored to your progress! While the exact duration depends on the programme's credit requirements and your chosen pace, our typical full-time course load is at least 60 credits per semester, ensuring a comprehensive and engaging learning experience.
 </br></br>
 Most programmes, when studied full-time, typically take the following durations:
-</br></br>
-Undergraduate Degrees: 4 years
-</br></br>
-Diplomas: 2 to 3 years
-</br></br>
-Master’s Degrees: 2 to 2.5 years
-</br></br>
-Postgraduate Diplomas: 1 year
+</br>
+-Undergraduate Degrees: 4 years
+</br>
+-Diplomas: 2 to 3 years
+</br>
+-Master’s Degrees: 2 to 2.5 years
+</br>
+-Postgraduate Diplomas: 1 year
     </p>
   `,
     },
