@@ -49,7 +49,7 @@ const HomePage = () => {
     },
 
     {
-      cover: "/images/courses-images/BSc in network security.jpeg",
+      cover: "/images/courses-images/BSc in network security.jpg",
       courseName: "Undergraduate Programme",
       title: "BSc in Network Security and Computer Forensics",
       description:
