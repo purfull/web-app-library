@@ -156,7 +156,7 @@ Applying to Botho University is a straightforward and free process, designed to 
 👉 <a href="https://bothouniversity.academiaerp.com/applicant-portal/#/auth/login" target="_blank" rel="noopener noreferrer">Apply Now</a>
 </br></br>
 If you wish to connect with us first and speak to a counsellor before applying, please feel free to complete this simple enquiry form:</br>
-👉 <a href="https://bothouniversity.academiaerp.com/enquire/" target="_blank" rel="noopener noreferrer">Enquire Here</a>
+👉 <a href="https://bothouniversity.academiaerp.com/onlineEnquire/" target="_blank" rel="noopener noreferrer">Enquire Here</a>
 </br></br>
 To help you prepare for the application, here's what you'll typically need:
 </br></br>

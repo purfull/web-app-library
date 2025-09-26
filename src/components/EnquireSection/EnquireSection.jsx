@@ -24,7 +24,7 @@ const EnquireSection = ({ cardData, cardTitle }) => {
   };
   const handleEnq = () => {
     window.open(
-      "https://bothouniversity.academiaerp.com/enquire/",
+      "https://bothouniversity.academiaerp.com/onlineEnquire/",
       "_blank",
       "noopener,noreferrer"
     );
