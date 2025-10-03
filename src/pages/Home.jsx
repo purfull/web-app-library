@@ -29,7 +29,7 @@ const HomePage = () => {
       cover:
         "/images/courses-images/Msc in Information Systems management.jpeg",
       courseName: "Postgraduate Programme",
-      title: "Master of Science in Information Systems Management",
+      title: "MSc in Information Systems Management ",
       description:
         "Ready to excel in managing technology and innovation? Our Master of Science in Information Systems Management is a professionally oriented programme designed for aspiring leaders in the digital era. It develops advanced critical thinking and technical expertise in systems analysis and design, project management, data management, cybersecurity, and business intelligence, with a strong focus on global best practices.",
     },
@@ -58,7 +58,7 @@ const HomePage = () => {
     {
       cover: "/images/courses-images/Diploma in Occup.jpg",
       courseName: "Undergraduate Programme",
-      title: "Diploma in Occupational Health and Safety",
+      title: "Diploma in Occupational Health Safety",
       description:
         "Fascinated by creating safer workplaces? The Diploma in Occupational Health and Safety is designed for those passionate about protecting people and organisations. The programme combines occupational health, safety management, risk assessment, and environmental sustainability, equipping learners with practical skills to identify, evaluate, and control workplace hazards while ensuring regulatory compliance.",
     },

@@ -144,7 +144,7 @@ const NavBar = () => {
     {
       cover: "/images/courses-images/Diploma in Occup.jpg",
       courseName: "Undergraduate Programme",
-      title: "Diploma in Occupational Health And Safety",
+      title: "Diploma in Occupational Health Safety",
       description:
         "Fascinated by creating safer workplaces? Our Diploma in Occupational Health and Safety is for you! This comprehensive programme blends occupational health, safety management, risk assessment, and environmental sustainability. You'll gain practical skills to identify, evaluate, and control workplace hazards, ensuring compliance with regulations, and fostering a strong safety culture.",
     },
