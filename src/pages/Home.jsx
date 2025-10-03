@@ -34,7 +34,7 @@ const HomePage = () => {
         "Ready to excel in managing technology and innovation? Our Master of Science in Information Systems Management is a professionally oriented programme designed for aspiring leaders in the digital era. It develops advanced critical thinking and technical expertise in systems analysis and design, project management, data management, cybersecurity, and business intelligence, with a strong focus on global best practices.",
     },
     {
-      cover: "/images/courses-images/PGDHE.png",
+      cover: "/images/courses-images/PGDHE.jpg",
       courseName: "Postgraduate Programme",
       title: "Post Graduate Diploma in Higher Education",
       description:
@@ -56,7 +56,7 @@ const HomePage = () => {
         "Interested in safeguarding digital systems and uncovering cybercrime? Our BSc in Network Security and Computer Forensics is a specialised degree designed to prepare students to protect information assets and investigate cyber incidents. The programme offers practical training in penetration testing, digital forensics, and network defence, combining fundamental computing with advanced security practices.",
     },
     {
-      cover: "/images/courses-images/Diploma in Occup.jpeg",
+      cover: "/images/courses-images/Diploma in Occup.jpg",
       courseName: "Undergraduate Programme",
       title: "Diploma in Occupational Health and Safety",
       description:
