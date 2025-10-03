@@ -38,14 +38,14 @@ export const bscindatascience = {
         {
           question: "Writing and Communication",
           subanswer:
-            "Code: D5-WCO-20<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code: D5-WCO-22<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module enhances students' academic communication skills, enabling them to confidently express ideas, synthesise perspectives, and engage critically with texts. Emphasising referencing, grammar, and plagiarism-free writing, students will develop structured, coherent, and professional work while mastering research tools and communication theories relevant to their academic and professional fields.",
         },
         {
           question: "Computer Architecture",
           subanswer:
-            "Code: C6-CSA-20<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code: C6-CSA-22<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "This module introduces the fundamentals of computer system architecture, covering digital logic, Boolean functions, processor organisation, memory, and peripheral devices. Students will learn about combinational and sequential circuits, CPU functionality, instruction sets, pipeline processing, and parallel computing. By completion, they will understand how digital systems are designed and operate.",
         },
@@ -207,7 +207,7 @@ export const bscindatascience = {
             "This course explores the integration of educational technology into curriculum design, emphasising best practices, national standards, and emerging technologies.Students will research and apply IoT concepts, including its functionalities, applications, enabling technologies, and interoperability. They will also analyse challenges affecting IoT adoption across various industries and domains.",
         },
         {
-          question: "Cryptography",
+          question: "Cryprography",
           subanswer:
             "Code: C6-CRG-22<br/>Module Fees: $117<br/>Module Credits: 9",
           answer:
@@ -474,7 +474,7 @@ export const bscindatascience = {
 
 export const bbainbusinessmanagement = {
   heroContent: {
-    question: "BBA in Business Management",
+    question: "Bachelor of Business Administration in Business Management",
     image: "/images/courses-images/BBA in bus mgmt.jpeg",
     downloadurl: `${baseUrl}BBABusinessManagement.pdf`,
     typicalfulltimestudyperiod: 4,
@@ -1324,7 +1324,7 @@ export const bbainbusinessmanagement = {
 
 export const mcominhumanresourcemanagement = {
   heroContent: {
-    question: "MCom in Human Resource Management",
+    question: "Master of Commerce in Human Resource Management",
     image: "/images/courses-images/MCom in Human resource.jpeg",
     downloadurl: `${baseUrl}MCom-HumanResourceManagement.pdf`,
     typicalfulltimestudyperiod: 2,
@@ -1383,16 +1383,16 @@ export const mcominhumanresourcemanagement = {
             "This module equips learners to align HR with business strategy, apply best practices, and develop data-driven workforce plans. It covers performance management, employee engagement, and change negotiation, integrating ethical HR practices to achieve sustainable success and competitive advantage in today’s dynamic workplace.",
         },
         {
-          question: "Performance and Resource Management",
+          question: "Performance and Reward Management",
           subanswer:
             "Code: B9-PRM-22<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
             "This module develops understanding of workplace productivity, reward strategies, pay structures, and performance measurement. Learners design competitive compensation systems, implement effective performance management, and align rewards with contributions, gaining strategies to manage team performance and foster employee growth for organisational success.",
         },
         {
-          question: "Employment Law and Employee Relations",
+          question: "Employment Law and Industrial Relations",
           subanswer:
-            "Code: B9-ELR-22<br/>Module Fees: $390<br/>Module Credits: 20",
+            "Code: B9-ELR-25<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
             "This module introduces key legislation, labour laws, employee relations, trade unions, and collective bargaining. Learners gain insight into dispute resolution, occupational risks, and the role of the International Labour Organisation (ILO) in promoting fair and effective workplace policies.",
         },
@@ -1406,9 +1406,9 @@ export const mcominhumanresourcemanagement = {
           question:
             "Contemporary Issues in Work, Employment and People Management",
           subanswer:
-            "Code: B9-CEP-22<br/>Module Fees: $195<br/>Module Credits: 10",
+            "Code: B9-CEP-25<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
-            "Explore evolving landscape of Work and Employment with our cutting-edge module on Contemporary HRM Issues. Understand how internal and external factors, market dynamics, globalization, and government policies shape HR and organizational strategies. Students gain insights into effective approaches for managing modern workforce challenges and driving competitive advantage in a rapidly changing world.",
+            "This module examines contemporary human resource management issues, exploring how internal and external factors, market dynamics, globalisation, and government policies influence human resources and organisational strategies. Learners develop approaches to address modern workforce challenges and create competitive advantage in a rapidly changing environment.",
         },
 
         {
@@ -1481,7 +1481,7 @@ export const mcominhumanresourcemanagement = {
         {
           question: "Dissertation",
           subanswer:
-            "Code: B9-DIS-17<br/>Prerequisite: B9-BRM-17<br/>Module Fees: $1170.00<br/>Module Credits: 60",
+            "Code: B9-DIS-17<br/>Prerequisite: B9-BRM-17<br/>Module Fees: $1170<br/>Module Credits: 60",
           answer:
             "This module develops skills to produce impactful research, including crafting an overview, writing a compelling introduction, conducting an in-depth literature review, designing a robust methodology, analysing findings, and presenting clear conclusions and recommendations.",
         },
@@ -1659,12 +1659,11 @@ export const masterofbusinessadministration = {
             "This module explores climate economics, policies, and governance for sustainable development. Learners study responsible leadership, environmental management, and climate risk planning, developing strategies for climate justice, resilience, and effective communication in promoting sustainable and adaptable environments.",
         },
       ],
-     
     },
-     {
-      semester: "Semester 3 Electives (choose Two)",
+    {
+      semester: "Semester 3 Elective Group (Choose Two)",
       courses: [
-       {
+        {
           question: "International Investment Analysis",
           subanswer:
             "Code: A9-IIA-17<br/>Module Fees: $195<br/>Module Credits: 10",
@@ -1937,21 +1936,21 @@ export const diplomainoccupationalhealthsafety = {
       semester: "SEMESTER 3 ELECTIVE GROUP (CHOOSE ONE)",
       courses: [
         {
-          question: "Employee Relations (Elective)",
+          question: "Employee Relations",
           subanswer:
             "Code: D7-ERT-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "The purpose of this module is to explore strategies for managing workplace relationships, resolving conflicts, and fostering a positive work environment. It emphasises effective communication, employee engagement, and compliance with labour laws to enhance organisational productivity and employee satisfaction.",
         },
         {
-          question: "Health and Safety in Transport (Elective)",
+          question: "Health and Safety in Transport",
           subanswer:
             "Code: D7-HST-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
             "The purpose of this module is to explore safety protocols, risk management, and regulatory compliance in transportation systems. It focuses on identifying hazards, implementing preventive measures, and ensuring the health and safety of passengers, workers, and the public in various transport environments, including road, rail, air, and maritime sectors.",
         },
         {
-          question: "Building Maintenance (Elective)",
+          question: "Building Maintenance ",
           subanswer:
             "Code: D7-BDM-21<br/>Module Fees: $156<br/>Module Credits: 12",
           answer:
@@ -2020,7 +2019,7 @@ Graduates are prepared for impactful careers across manufacturing, construction,
 
 export const bscinhealthinformationmanagement = {
   heroContent: {
-    question: "BSc in Health Information Management",
+    question: "Bachelor of Science in Health Information Management",
     image: "/images/courses-images/BSc in health info.jpeg",
     downloadurl: `${baseUrl}BScInHIM.pdf`,
     typicalfulltimestudyperiod: 4,
@@ -2191,7 +2190,7 @@ export const bscinhealthinformationmanagement = {
       ],
     },
     {
-      semester: "Semester 4 Elective Group One (Select One)",
+      semester: "Semester 4 Elective Group (Choose One)",
       courses: [
         {
           question: "Introduction to Financial Accounting",
@@ -2263,7 +2262,7 @@ export const bscinhealthinformationmanagement = {
         {
           question: "Disease Coding",
           subanswer:
-            "Code: D7-DCO-13<br/>Prerequisite: D6-IPP-21,D6-IMT-21<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: D7-DCO-13<br/>Prerequisite: D6-IMT-21<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "The purpose of the module is to provide students with a comprehensive understanding of ICD-10 diagnostic and procedural coding conventions and guidelines. It covers coding for inpatient, outpatient, and ambulatory care settings, equipping students with the skills needed to accurately assign codes for various medical conditions and procedures.",
         },
@@ -2290,14 +2289,14 @@ export const bscinhealthinformationmanagement = {
         {
           question: "Entrepreneurship and Innovation",
           subanswer:
-            "Code: B8-ENI-20<br/>Prerequisite: B6-OPM-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: B8-ENI-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "The purpose of the Entrepreneurship and Innovation module is to equip students with the knowledge and skills necessary to understand entrepreneurial processes and behaviors. It explores the fundamentals of entrepreneurship, including the creation and development of business ideas, and the essential steps in crafting a comprehensive business plan for successful ventures.",
         },
         {
-          question: "Research Project Proposal",
+          question: "Research Project 1 (Proposal)",
           subanswer:
-            "Code: D7-RPP-23<br/>Prerequisite: D7-RME-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-RPP-25<br/>Prerequisite: D7-RME-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The purpose of the module is to equip students with the essential skills to write comprehensive research proposals. This includes formulating research questions, reviewing literature, developing a methodology, and presenting a clear plan for investigation. The module focuses on structured writing and critical thinking in research proposal development.",
         },
@@ -2415,7 +2414,7 @@ Students develop expertise in maintaining data integrity, privacy, and complianc
 
 export const bscinhospitaladministration = {
   heroContent: {
-    question: "BSc in Hospital Administration",
+    question: "Bachelor of Science in Hospital Administration",
     image: "/images/courses-images/BSc in Hospitality.jpeg",
     downloadurl: `${baseUrl}BScInHospitalAdministration.pdf`,
     typicalfulltimestudyperiod: 4,
@@ -3425,7 +3424,7 @@ export const bedinprimaryeducation = {
       ],
     },
     {
-      semester: "Semester 3 - Elective Group One (Choose One)",
+      semester: "Semester 3 Elective Group One (Choose One)",
       courses: [
         {
           question: "Counselling over a Life Span",
@@ -3561,7 +3560,7 @@ export const bedinprimaryeducation = {
           question:
             "Education for Children with Attention Deficit Hyper Disorder",
           subanswer:
-            "Code: D7-ECD-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-ECD-25<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with the knowledge, skills, and competences to effectively support and facilitate learning for children with Attention Deficit Hyperactivity Disorder (ADHD).",
         },
@@ -3618,7 +3617,7 @@ export const bedinprimaryeducation = {
         {
           question: "Multicultural Counselling",
           subanswer:
-            "Code: D7-MCC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-MCC-25<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces student teachers to multicultural counselling, focusing on how culture influences mental health and well-being. Using a therapeutic approach, it covers cultural awareness, cultural sensitivity, gender, race, socio-economic background, cultural competence, and strategies for addressing systemic issues.",
         },
@@ -3626,14 +3625,14 @@ export const bedinprimaryeducation = {
           question:
             "Appropriate Art, Craft and Design Methods and Materials for School",
           subanswer:
-            "Code: D7-ACD-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-ACD-25<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces primary school student teachers to appropriate art, craft, and design methods and materials for effective teaching and learning. It covers drawing, painting, collage, simple sculpture, and textile work, fostering creativity in the classroom.",
         },
         {
           question: "Motor Learning and Human Performance",
           subanswer:
-            "Code: D7-MLH-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-MLH-25<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with the knowledge and skills to master motor skills essential for physical activity, development, and well-being. Topics include motor skill acquisition, practice methods, feedback, cognitive factors, and individual differences.",
         },
@@ -3811,21 +3810,21 @@ export const bedinprimaryeducation = {
         {
           question: "Consultations in Schools and Community Settings",
           subanswer:
-            "Code: D7-CSC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-CSC-25<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module highlights the importance of school–community relations. It examines how counsellors or psychologists work with teachers and parents to address learner issues. Topics include consultation, consultative services, collaboration, and building partnerships between schools and communities to support student development and well-being.",
         },
         {
           question: "Theory of Moral Education",
           subanswer:
-            "Code: D7-TME-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-TME-25<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module examines the role of moral education in shaping learners’ character at the primary school level. Topics include morality in educational settings, moral formation, moral inquiries, moral education theories, and the overall importance of moral education.",
         },
         {
           question: "Scientific Basis of Coaching and Officiating",
           subanswer:
-            "Code: D7-SBC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-SBC-25<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This physical education module introduces student teachers to the theory and practice of physical activities and athletic performance. Topics include coaching, kinesiology, physiology, motor learning, sports psychology, cognitive science, psychology of officiating, ethics and integrity, communication, integration, and mental skills training.",
         },
@@ -3911,7 +3910,7 @@ export const bedinprimaryeducation = {
 
 export const postgraduatediplomainhighereducation = {
   heroContent: {
-    question: "Post Graduate Diploma in Higher Education (PGDHE)",
+    question: "Post Graduate Diploma in Higher Education",
     image: "/images/courses-images/PGDHE.png",
     downloadurl: `${baseUrl}PGDHE.pdf`,
     typicalfulltimestudyperiod: 1,
@@ -4684,7 +4683,7 @@ export const bscinnetworksecurityandcomputerforensics = {
         {
           question: "Scripting for Cyber Security",
           subanswer:
-            "Code: C7-SCS-25<br/>Prerequisite: C6-IPC-11<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: C6-SCS-25<br/>Prerequisite: C6-IPC-11<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "Students will learn scripting techniques using Python, PowerShell, and Bash to automate security tasks such as threat detection, incident response, and vulnerability assessments. The module covers scripting fundamentals, regular expressions, and automation frameworks, equipping students with the skills to develop efficient security scripts and streamline cybersecurity operations.",
         },
@@ -5027,7 +5026,7 @@ export const medinhighereducation = {
         {
           question: "Professional Academic in Action",
           subanswer:
-            "Code: D9-PPA-24<br/>Module Fees: $390<br/>Module Credits: 20",
+            "Code: D9-PPA-25<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
             "This teaching practice module enables student teachers to apply learning, teaching, and assessment in real classroom settings. It provides opportunities to put theory into practice, reflect on professional experiences, and develop the skills and confidence necessary to prepare for a successful career in teaching.",
         },
@@ -5210,7 +5209,7 @@ export const medinhighereducation = {
 
 export const mscininformationsystemsmanagement = {
   heroContent: {
-    question: "MSc in Information Systems Management",
+    question: "Master of Science in Information Systems Management",
     image: "/images/courses-images/Msc in Information Systems management.jpeg",
     downloadurl: `${baseUrl}MScInInformationSysMgmt.pdf`,
     typicalfulltimestudyperiod: 2,
@@ -5423,7 +5422,7 @@ export const mscincomputerscience = {
         {
           question: "Algorithms and Data Structures",
           subanswer:
-            "Code: C9-ADS-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+            "Code: C9-ADS-25<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
             "This module enhances students' problem-solving abilities by introducing key algorithms and data structures. It empowers students to solve simple problems, apply advanced techniques, and improve their programming skills. Students will evaluate algorithms, analyse time and space complexities, and select appropriate data structures to design solutions for various problems.",
         },
@@ -5585,7 +5584,7 @@ export const mscincomputerscience = {
 
 export const bcominaccounting = {
   heroContent: {
-    question: "BCom in Accounting",
+    question: "Bachelor of Commerce in Accounting",
     image: "/images/courses-images/Bcom in accounting.jpeg",
     downloadurl: `${baseUrl}BComAccounting.pdf`,
     typicalfulltimestudyperiod: 4,
