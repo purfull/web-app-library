@@ -1800,7 +1800,7 @@ export const masterofbusinessadministration = {
 export const diplomainoccupationalhealthandsafety = {
   heroContent: {
     question: "Diploma in Occupational Health Safety",
-    image: "/images/courses-images/Diploma in Occup.jpeg",
+    image: "/images/courses-images/Diploma in Occup.jpg",
     downloadurl: `${baseUrl}DiplomaInOccupationalHealthAndSafety.pdf`,
     typicalfulltimestudyperiod: 2,
     // maxPeriod:1,
@@ -3912,7 +3912,7 @@ export const bedinprimaryeducation = {
 export const postgraduatediplomainhighereducation = {
   heroContent: {
     question: "Post Graduate Diploma in Higher Education (PGDHE)",
-    image: "/images/courses-images/PGDHE.png",
+    image: "/images/courses-images/PGDHE.jpg",
     downloadurl: `${baseUrl}PGDHE.pdf`,
     typicalfulltimestudyperiod: 1,
     // maxPeriod :2,

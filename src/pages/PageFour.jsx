@@ -220,7 +220,7 @@ It's very important to us at Botho University that students receive timely assis
     },
     {
       title: "Post Graduate Diploma in Higher Education(PGDHE)",
-      image: "/images/courses-images/Square/PGDHE.png",
+      image: "/images/courses-images/Square/PGDHE.jpg",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",
@@ -370,7 +370,7 @@ It's very important to us at Botho University that students receive timely assis
     },
     {
       title: "Diploma in Occupational Health Safety",
-      image: "/images/courses-images/Square/Diploma in Occup.png",
+      image: "/images/courses-images/Square/Diploma in Occup.jpg",
       description: {
         one: "1 . Applied Financial Mathematics (Includes Exemption Exam)",
         two: "2 .Introduction to Financial Markets 1",

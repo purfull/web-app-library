@@ -24,11 +24,11 @@ const NavBar = () => {
         "Aiming to become a top executive in the global business arena? Our MBA programme is designed for ambitious professionals. It equips you with the skills to tackle complex challenges, focusing on critical thinking, entrepreneurship, financial resilience, and innovative problem-solving.",
     },
     {
-      cover: "/images/courses-images/MCom in Human resource.png",
+      cover: "/images/courses-images/Msc in computer science.jpg",
       courseName: "Postgraduate Programme",
-      title: "MCom in Human Resource Management.",
+      title: "MSc in Computer Science",
       description:
-        "Looking to become a leader in talent management? Our Master of Commerce in Human Resource Management (MCom in HRM) is a transformative qualification designed for the modern business landscape. You'll gain a robust foundation in strategic HR planning, recruitment, performance assessment, and more.",
+        "Aspiring to excel in the tech industry? Our Master of Science in Computer Science is an advanced, flexible online programme.",
     },
     {
       cover: "/images/courses-images/Med in curriculum.png",
@@ -38,11 +38,25 @@ const NavBar = () => {
         "Ready to lead in education and curriculum development? Our Master of Education in Curriculum Design and Instruction is your pathway to becoming an expert.",
     },
     {
+      cover: "/images/courses-images/MCom in Human resource.png",
+      courseName: "Postgraduate Programme",
+      title: "MCom in Human Resource Management.",
+      description:
+        "Looking to become a leader in talent management? Our Master of Commerce in Human Resource Management (MCom in HRM) is a transformative qualification designed for the modern business landscape. You'll gain a robust foundation in strategic HR planning, recruitment, performance assessment, and more.",
+    },
+    {
       cover: "/images/courses-images/Med in higher education.jpg",
       courseName: "Postgraduate Programme",
       title: "MEd in Higher Education",
       description:
         "Elevate your expertise with our Master of Education in Higher Education. This specialised two-year online programme equips you with advanced pedagogical skills, covering Learning, Teaching and Assessment, Curriculum Design and Development, and Academic Writing.",
+    },
+    {
+      cover: "/images/courses-images/Msc in Information Systems management.png",
+      courseName: "Postgraduate Programme",
+      title: "MSc in Information Systems Management",
+      description:
+        "Ready to excel in information systems management? Our Master of Science in Information Systems Management is a professionally oriented online programme, perfect if you need flexible learning.",
     },
     {
       cover:
@@ -53,21 +67,7 @@ const NavBar = () => {
         "Aspiring to lead in education? Our Master of Educational Leadership and Management is a prestigious, two-year programme designed to elevate your career.",
     },
     {
-      cover: "/images/courses-images/Msc in computer science.jpg",
-      courseName: "Postgraduate Programme",
-      title: "MSc in Computer Science",
-      description:
-        "Aspiring to excel in the tech industry? Our Master of Science in Computer Science is an advanced, flexible online programme.",
-    },
-    {
-      cover: "/images/courses-images/Msc in Information Systems management.png",
-      courseName: "Postgraduate Programme",
-      title: "MSc in Information Systems Management",
-      description:
-        "Ready to excel in information systems management? Our Master of Science in Information Systems Management is a professionally oriented online programme, perfect if you need flexible learning.",
-    },
-    {
-      cover: "/images/courses-images/PGDHE.png",
+      cover: "/images/courses-images/PGDHE.jpg",
       courseName: "Postgraduate Programme",
       title: "Post Graduate Diploma in Higher Education(PGDHE)",
       description:
@@ -142,7 +142,7 @@ const NavBar = () => {
         "Ready to champion workplace safety and environmental well-being? Our BSc in Safety, Health, and Environment (SHE) Management is an interdisciplinary programme designed to equip you with essential knowledge.",
     },
     {
-      cover: "/images/courses-images/Diploma in Occup.png",
+      cover: "/images/courses-images/Diploma in Occup.jpg",
       courseName: "Undergraduate Programme",
       title: "Diploma in Occupational Health And Safety",
       description:

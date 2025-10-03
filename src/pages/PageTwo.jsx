@@ -34,7 +34,7 @@ const PageTwo = () => {
         "Ready to lead in education and curriculum development? Our Master of Education in Curriculum Design and Instruction is your pathway to becoming an expert.",
     },
     {
-      cover: "/images/courses-images/PGDHE.png",
+      cover: "/images/courses-images/PGDHE.jpg",
       courseName: "Postgraduate Programme",
       title: "Post Graduate Diploma in Higher Education (PGDHE)",
       description:
@@ -129,7 +129,7 @@ const PageTwo = () => {
         "Ready to champion workplace safety and environmental well-being? Our BSc in Safety, Health, and Environment (SHE) Management is an interdisciplinary programme designed to equip you with essential knowledge.",
     },
     {
-      cover: "/images/courses-images/Diploma in Occup.jpeg",
+      cover: "/images/courses-images/Diploma in Occup.jpg",
       courseName: "Undergraduate Programme",
       title: "Diploma in Occupational Health Safety",
       description:

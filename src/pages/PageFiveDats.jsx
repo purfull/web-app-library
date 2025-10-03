@@ -1097,7 +1097,7 @@ export const bcominaccounting = {
 export const diplomainoccupationalhealthsafety = {
   heroContent: {
     question: "Diploma in Occupational Health Safety",
-    image: "/images/courses-images/Diploma in Occup.jpeg",
+    image: "/images/courses-images/Diploma in Occup.jpg",
     typicalfulltimestudyperiod: 2,
     // maxPeriod: 4,
     programmeCredit: "$13.00",
@@ -4326,7 +4326,7 @@ export const bscinnetworksecurityandcomputerforensics = {
 export const postgraduatediplomainhighereducation = {
   heroContent: {
     question: "Post Graduate Diploma in Higher Education",
-    image: "/images/courses-images/PGDHE.png",
+    image: "/images/courses-images/PGDHE.jpg",
     typicalfulltimestudyperiod: 1,
     // maxPeriod: 2,
     programmeCredit: "$19.50",
