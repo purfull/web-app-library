@@ -40,18 +40,31 @@
 .table-bold-text {
   font-weight: 600;
 }
-
 @media only screen and (max-width: 600px) {
 
 .semester-title {
   font-weight: 500;
 }
+.scroll-icon {
+  display: flex;
+}
 .fee-page-gap {
-  padding: 2rem 6px;
+  padding: 0px 6px 2rem;
   max-width: 100%;
   overflow: scroll;
 }
 .fee-semester {
     width: 150%
+}
+}
+@media only screen and (min-width: 600px) {
+
+.scroll-icon {
+  display: none;
+}
+.fee-page-gap {
+  padding: 2rem ;
+  max-width: 100%;
+  overflow: scroll;
 }
 }
