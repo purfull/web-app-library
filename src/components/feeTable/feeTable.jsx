@@ -2,11 +2,23 @@ import "./feeTable.css";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useEffect } from "react";
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 const FeeTable = ({ tableData = [] }) => {
 
 
   return (
+    <>
+      
+    <div className="scroll-icon" style={{margin: "0 auto", paddingTop: "2rem", justifyContent: "center", alignItems: "center" }}>
+      <span>Scroll right to view more</span>
+      <DotLottieReact
+      src="https://lottie.host/02c0351a-d422-460b-b1ce-44f7b19b56ff/kcoFMXtrr4.lottie"
+      loop
+      autoplay
+      style={{width: "50px"}}
+    />
+    </div>
     <div className="fee-page-gap">
       {tableData.map((semester, sIndex) => (
         <div key={sIndex} className="fee-semester">
@@ -43,6 +55,7 @@ const FeeTable = ({ tableData = [] }) => {
         </div>
       ))}
     </div>
+    </>
   );
 };
 
