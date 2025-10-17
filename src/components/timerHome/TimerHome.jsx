@@ -453,43 +453,106 @@ const TimerHome = ({ data, programOverview, feePage }) => {
 
   // const launchDate = new Date(data?.launchDate).getTime();
   // const launchDate = ["10-07{", "16-10", "13-01", "10-04"];
-  const launchDate = ["13-01", "10-04", "10-07", "13-10"]; // DD-MM
+  // const launchDate = ["13-01", "10-04", "10-07", "13-10"]; // DD-MM
+  const launchDate = ["13-01", "10-04", "10-07", "13-10"];
+
+// next year cycle logic missing
+
+  // useEffect(() => {
+  //   const updateTime = () => {
+  //     const now = new Date().getTime();
+  //   const thisYear = new Date().getFullYear();
+
+  //     // Convert "DD-MM" strings into valid Date objects for current year
+
+  //     const launchDatesTimestamps = launchDate
+  //       .map((dateStr) => {
+  //         const [day, month] = dateStr.split("-");
+  //         const thisYear = new Date().getFullYear();
+  //         // const fullDate = new Date(`${thisYear}-${month}-${day}T00:00:00`);
+
+  //         const fullDate = new Date(thisYear, month - 1, day, 0, 0, 0);
+
+  //         // console.log("fullDate",fullDate);
+          
+  //         return fullDate.getTime();
+  //       })
+  //       .filter((timestamp) => timestamp > now) // future only
+  //       .sort((a, b) => a - b); // nearest first
+
+  //   if (launchDatesTimestamps.length === 0) {
+  //     const [day, month] = launchDate[0].split("-");
+  //     const nextYear = thisYear + 1;
+  //     const nextDate = new Date(nextYear, month - 1, day, 0, 0, 0).getTime();
+  //     launchDatesTimestamps = [nextDate];
+  //   }
+  //     const nearestDate = launchDatesTimestamps[0];
+  //     console.log("nearestDate",nearestDate);
+      
+  //     if (!nearestDate) return;
+
+  //     const diff = nearestDate - now;
+
+  //     console.log(diff);
+      
+  //     const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  //     const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+  //     const minutes = Math.floor((diff / (1000 * 60)) % 60);
+  //     const seconds = Math.floor((diff / 1000) % 60);
+
+  //     setTimeLeft({ days, hours, minutes, seconds });
+  //     setNearestStartDate(new Date(nearestDate));
+  //   };
+
+  //   updateTime(); // Run once immediately
+  //   const timer = setInterval(updateTime, 1000);
+
+  //   return () => clearInterval(timer);
+  // }, []);
+  
+// next year cycle logic fixed
 
   useEffect(() => {
-    const updateTime = () => {
-      const now = new Date().getTime();
+  const updateTime = () => {
+    const now = new Date().getTime();
+    const thisYear = new Date().getFullYear();
 
-      // Convert "DD-MM" strings into valid Date objects for current year
+    let launchDatesTimestamps = launchDate
+      .map((dateStr) => {
+        const [day, month] = dateStr.split("-");
+        const fullDate = new Date(thisYear, month - 1, day, 0, 0, 0);
+        return fullDate.getTime();
+      })
+      .filter((timestamp) => timestamp > now)
+      .sort((a, b) => a - b);
 
-      const launchDatesTimestamps = launchDate
-        .map((dateStr) => {
-          const [day, month] = dateStr.split("-");
-          const thisYear = new Date().getFullYear();
-          const fullDate = new Date(`${thisYear}-${month}-${day}T00:00:00`);
-          return fullDate.getTime();
-        })
-        .filter((timestamp) => timestamp > now) // future only
-        .sort((a, b) => a - b); // nearest first
+    // 🩵 Handle year rollover
+    if (launchDatesTimestamps.length === 0) {
+      const [day, month] = launchDate[0].split("-");
+      const nextYear = thisYear + 1;
+      const nextDate = new Date(nextYear, month - 1, day, 0, 0, 0).getTime();
+      launchDatesTimestamps = [nextDate];
+    }
 
-      const nearestDate = launchDatesTimestamps[0];
-      if (!nearestDate) return;
+    const nearestDate = launchDatesTimestamps[0];
+    if (!nearestDate) return;
 
-      const diff = nearestDate - now;
+    const diff = nearestDate - now;
 
-      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-      const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
-      const minutes = Math.floor((diff / (1000 * 60)) % 60);
-      const seconds = Math.floor((diff / 1000) % 60);
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+    const minutes = Math.floor((diff / (1000 * 60)) % 60);
+    const seconds = Math.floor((diff / 1000) % 60);
 
-      setTimeLeft({ days, hours, minutes, seconds });
-      setNearestStartDate(new Date(nearestDate));
-    };
+    setTimeLeft({ days, hours, minutes, seconds });
+    setNearestStartDate(new Date(nearestDate));
+  };
 
-    updateTime(); // Run once immediately
-    const timer = setInterval(updateTime, 1000);
+  updateTime();
+  const timer = setInterval(updateTime, 1000);
+  return () => clearInterval(timer);
+}, []);
 
-    return () => clearInterval(timer);
-  }, []);
 
   const handleEnq = () => {
     window.open(
