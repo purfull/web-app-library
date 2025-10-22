@@ -74,7 +74,7 @@ const handleWhatsappClick = () => {
         <span className="welcome" 
             onClick={handleFeeClick}
             style={{ cursor: "pointer" }}>
-          Fee
+          Our Fees
         </span>
       </div>
     </div>
