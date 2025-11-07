@@ -454,7 +454,7 @@ const TimerHome = ({ data, programOverview, feePage }) => {
   // const launchDate = new Date(data?.launchDate).getTime();
   // const launchDate = ["10-07{", "16-10", "13-01", "10-04"];
   // const launchDate = ["13-01", "10-04", "10-07", "13-10"]; // DD-MM
-  const launchDate = ["13-01", "10-04", "10-07", "13-10"];
+  const launchDate = ["15-01", "10-04", "10-07", "13-10"];
 
 // next year cycle logic missing
 
