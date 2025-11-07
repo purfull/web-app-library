@@ -23,7 +23,7 @@ import {
   bedinprimaryeducation,
   postgraduatediplomainhighereducation,
   // medalleadershipandmanagement,
-  medinleadershipandmanagement,
+  medineducationalleadershipandmanagement as medinleadershipandmanagement,
   medincurriculumdesignandinstruction,
   mscininformationsystemsmanagement,
   mscincomputerscience,

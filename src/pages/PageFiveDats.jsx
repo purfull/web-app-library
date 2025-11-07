@@ -4480,7 +4480,7 @@ export const postgraduatediplomainhighereducation = {
   ],
 };
 
-export const medinleadershipandmanagement = {
+export const medineducationalleadershipandmanagement = {
   heroContent: {
     question: "Master of Educational Leadership and Management",
     image: "/images/courses-images/Med in educational leadership and mgmt.jpeg",

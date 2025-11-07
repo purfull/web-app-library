@@ -4078,7 +4078,7 @@ export const postgraduatediplomainhighereducation = {
   programOverview: `Ready to advance your teaching career? Our Postgraduate Diploma in Higher Education (PGDHE) is a transformative one-year programme designed to equip you with advanced teaching skills, curriculum design expertise, and effective assessment strategies. You'll gain a deep understanding of pedagogy, assessment, moderation, and learner diversity.<br></br>With a mix of core and elective modules, you can tailor your learning. This hands-on qualification includes a practical teaching exercise, offering real-world experience. Delivered via Blended and Distance Learning, it's flexible for both national and international students. Enrol today and become a leader in higher education!`,
 };
 
-export const medinleadershipandmanagement = {
+export const medineducationalleadershipandmanagement = {
   heroContent: {
     question: "Master of Educational Leadership and Management",
     image: "/images/courses-images/Med in educational leadership and mgmt.jpeg",
