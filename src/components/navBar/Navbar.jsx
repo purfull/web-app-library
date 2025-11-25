@@ -15,6 +15,21 @@ const NavBar = () => {
     console.log(searchText);
   }, [searchText]);
   const cardData = [
+    
+    {
+      cover: "/images/courses-images/MBA.jpeg",
+      courseName: "Postgraduate Programme",
+      title: "Doctor of Philosophy in Business Administration",
+      description:
+        "Aiming to become a top executive in the global business arena? Our MBA programme is designed for ambitious professionals. It equips you with the skills to tackle complex challenges, focusing on critical thinking, entrepreneurship, financial resilience, and innovative problem-solving.",
+    },
+    {
+      cover: "/images/courses-images/MBA.jpeg",
+      courseName: "Postgraduate Programme",
+      title: "Doctor of Philosophy in Computer Science",
+      description:
+        "Aiming to become a top executive in the global business arena? Our MBA programme is designed for ambitious professionals. It equips you with the skills to tackle complex challenges, focusing on critical thinking, entrepreneurship, financial resilience, and innovative problem-solving.",
+    },
   
     {
       cover: "/images/courses-images/MBA.jpeg",

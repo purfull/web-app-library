@@ -886,7 +886,7 @@
   .card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     gap: 30px;
     column-gap: 32px;
     margin-top: 30px;

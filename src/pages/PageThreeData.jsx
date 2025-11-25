@@ -1,6 +1,221 @@
 export const baseUrl =
   "https://di00ymfrmfyeb.cloudfront.net/BothoUniversityOnline-";
 
+
+
+export const doctorofphilosophyinbusinessadministration = {
+  heroContent: {
+    question: "Doctor of Philosophy (PhD) in Business Administration",
+    image: "/images/courses-images/PHD in Business Administration.jpg",
+    downloadurl: `${baseUrl}Phd in Business Administration.pdf`,
+    typicalfulltimestudyperiod: "3 - 6",
+    // maxPeriod: 4,
+    // programmeCredit: "$19.50",
+    totalProgrammeCredit: 360,
+    noOfModules: "3 (2 taught modules + 1 Dissertation)",
+    // totalFee: "$5,070",
+    tuitionFeePerSemester: "$600",
+    cta: true,
+    timer: true,
+    overview: true,
+    launchDate: "2025-08-02T00:00:00", // <<< unique per course
+  },
+  courseStruture: [
+    {
+      semester: "",
+      courses: [
+        {
+          question: "Lectures, Seminars and Workshops",
+          subanswer:
+            "Code: B10-LSW-25<br/>Module Credits: 20",
+          answer:
+            "This module introduces the candidates to advanced lectures, seminars and workshops providing intensive training in research philosophy, ethics, methodology, data management and academic writing. It equips scholars with rigorous analytical and scholarly capabilities essential for producing high impact research and achieving professional excellence in contemporary business environments and practice.",
+        },
+        {
+          question: "Research Proposal Writing and Colloquium",
+          subanswer:
+            "Code: B10-RPC-25<br/>Module Credits: 20",
+          answer:
+            "This module equips the candidates with the skills to identify research gaps, formulate a viable problem, and design a rigorous and business management relevant research proposal. The module also prepares candidates for the colloquium, where they will present and defend their proposal before an expert panel for constructive evaluation, refinement and enhancement of the proposal's overall quality.",
+        },
+        {
+          question: "Dissertation",
+          subanswer:
+            "Code: B10-DIS-25<br/>Module Credits: 320",
+          answer:
+            "This module focuses on developing an original, high impact research study that advances both theory and practice. Candidates engage in research idea development, literature review, methodological design, data analysis and the formulation of conclusions and recommendations. Continuous supervision, scholarly dialogue, periodic colloquia and a final Viva Voce examination ensure methodological rigour, academic quality, and practical relevance of the completed dissertation.",
+        },
+      ],
+    }
+  ],
+  requirements: [
+    {
+      question: "Admission Requirements",
+      answer:
+        "A Master’s Degree in Computer Science or a cognate field of study is required for admission. Entry through Recognition of Prior Learning (RPL) and Credit Accumulation and Transfer (CAT) is permitted in accordance with the institution's policies.",
+    },
+
+    {
+      question: "Technical Requirements",
+      answer: `<div class="technical-requirements">
+  <p>
+    To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
+  </p></br>
+
+  <p><strong>Device Requirements:</strong></p>
+  <ul>
+    <li>
+      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
+    </li></br>
+    <li><p>OR</p></li></br>
+    <li>
+      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
+    </li>
+  </ul></br>
+
+  <p><strong>Internet Requirements:</strong></p>
+  <ul>
+    <li>
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
+    </li>
+    <li>
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions.
+    </li>
+  </ul></br>
+
+  <p><strong>Software and Platforms:</strong></p>
+  <ul>
+    <li>
+      <p>Virtual Live Sessions: Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).</p>
+    </li>
+  </ul></br>
+
+  <p><strong>Browser Requirements:</strong></p>
+  <ul>
+    <li>
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
+    </li>
+  </ul></br>
+
+  <p><strong>Additional Tools:</strong> (Optional but Recommended)</p>
+  <ul>
+    <li>Headset: For clear audio during virtual classes.</li>
+    <li>External storage (USB/Cloud): For backups of important coursework.</li>
+    <li>Antivirus software: To protect against malware or data loss.</li>
+  </ul>
+</div>
+`,
+    },
+  ],
+  programOverview: `The PhD in Business Administration is a rigorous, research intensive programme
+designed to develop expert researchers, academicians, and industry leaders.
+Candidates gain international scholarly exposure and are nurtured to become thought
+leaders in their fields. The programme equips them with strong analytical and research
+competencies, critical thinking skills, and advanced methodological expertise.
+Graduates of the PhD in Business Administration produce cutting-edge theses that
+contribute to the body of knowledge, advance research excellence, drive innovation,
+and shape policy across academia, industry, and the public sector.`,
+};
+
+export const doctorofphilosophyincomputerscience = {
+  heroContent: {
+    question: "Doctor of Philosophy (PhD) in Computer Science",
+    image: "/images/courses-images/PHD in Computer Science.jpg",
+    downloadurl: `${baseUrl}Phd in Computer Science.pdf`,
+    typicalfulltimestudyperiod: "3 - 6",
+    // maxPeriod: 4,
+    // programmeCredit: "$19.50",
+    totalProgrammeCredit: 360,
+    noOfModules: "1 (Thesis)",
+    // totalFee: "$5,070",
+    tuitionFeePerSemester: "$600",
+    cta: true,
+    timer: true,
+    overview: true,
+    launchDate: "2025-08-02T00:00:00", // <<< unique per course
+  },
+  courseStruture: [
+    {
+      semester: "",
+      courses: [
+        {
+          question: "Supervised Research and Thesis in Computer Science",
+          subanswer:
+            "Code: C9-SRT-26<br/>Module Credits: 360",
+          answer:
+            "This module supports candidates in conducting original research that advances the field of Computer Science. With ongoing supervision, students refine their research problem, review relevant literature, design suitable methodologies, and carry out theoretical, computational, or experimental investigations. Regular progress reviews, along with expectations to publish in reputable scholarly journals, ensure academic rigour and research excellence. The module culminates in the submission of a doctoral thesis and a Viva Voce defence demonstrating the quality, originality, and scholarly contribution of the research.",
+        },
+      ],
+    },
+  ],
+  requirements: [
+    {
+      question: "Admission Requirements",
+      answer:
+        "A Master’s Degree in Computer Science or a cognate field of study is required for admission. Entry through Recognition of Prior Learning (RPL) and Credit Accumulation and Transfer (CAT) is permitted in accordance with the institution's policies.",
+    },
+
+    {
+      question: "Technical Requirements",
+      answer: `<div class="technical-requirements">
+  <p>
+    To ensure a smooth and effective learning experience, students enrolling in this programme must meet the following technical requirements:
+  </p></br>
+
+  <p><strong>Device Requirements:</strong></p>
+  <ul>
+    <li>
+      <p>Computer/Laptop:</p> Windows (10 or later) or Mac (macOS 10.15 or later); Processor: Intel i3 (or equivalent) and above; RAM: Minimum 4 GB (8 GB recommended for multitasking); Storage: Minimum 20 GB free space for coursework and downloads; Camera and Microphone: Built-in or external for live sessions and presentations.
+    </li></br>
+    <li><p>OR</p></li></br>
+    <li>
+      <p>Tablet/Smartphone:</p> Suitable for accessing content on the go (limited functionality for assignments/exams).
+    </li>
+  </ul></br>
+
+  <p><strong>Internet Requirements:</strong></p>
+  <ul>
+    <li>
+      Connection speed: Minimum 5 Mbps download and 2 Mbps upload (10 Mbps recommended for seamless video conferencing).
+    </li>
+    <li>
+      Stable Wi-Fi or Ethernet connection recommended for live Zoom sessions.
+    </li>
+  </ul></br>
+
+  <p><strong>Software and Platforms:</strong></p>
+  <ul>
+    <li>
+      <p>Virtual Live Sessions: Zoom (Synchronous learning); Document Processing: Microsoft Office (Word, Excel, PowerPoint) or equivalent (Google Docs).</p>
+    </li>
+  </ul></br>
+
+  <p><strong>Browser Requirements:</strong></p>
+  <ul>
+    <li>
+      Supported browsers: Chrome (latest version), Safari (for Mac users); Cookies and JavaScript: Enabled for full Blackboard functionality.
+    </li>
+  </ul></br>
+
+  <p><strong>Additional Tools:</strong> (Optional but Recommended)</p>
+  <ul>
+    <li>Headset: For clear audio during virtual classes.</li>
+    <li>External storage (USB/Cloud): For backups of important coursework.</li>
+    <li>Antivirus software: To protect against malware or data loss.</li>
+  </ul>
+</div>
+`,
+    },
+  ],
+  programOverview: `This programme develops highly skilled researchers and innovators with
+advanced expertise in computer science and its applications. It equips
+candidates with the capability to conduct independent scholarly research, design
+advanced computing systems, and create innovative solutions to complex realworld challenges. Graduates are prepared to contribute meaningfully to the
+global knowledge economy and drive digital transformation through impactful
+research, technological innovation, and professional excellence.
+`,
+};
+
 export const bscindatascience = {
   heroContent: {
     question: "Bachelor of Science in Data Science",
@@ -6028,3 +6243,4 @@ export const bcominaccounting = {
   ],
   programOverview: `Your Future in Accounting Starts Here! Our Bachelor of Commerce in Accounting programme offers a practical, industry-focused approach to a rewarding career in accounting and finance. You'll gain essential expertise in financial reporting, auditing, taxation, and management accounting. What sets this degree apart is its blend of theory and hands-on experience, including a compulsory semester-long internship for invaluable real-world exposure.<br></br>Prepare for success in diverse roles across public and private accounting, financial analysis, banking, and government. This programme also provides a strong foundation for professional certifications like ACCA, CPA, and CIMA, opening doors to advanced career development and ensuring you're ready to confidently navigate the financial world.`,
 };
+

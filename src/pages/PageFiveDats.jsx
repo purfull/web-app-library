@@ -2,6 +2,88 @@
 
 const baseUrl = `https://di00ymfrmfyeb.cloudfront.net`;
 
+
+export const doctorofphilosophyinbusinessadministration = {
+  heroContent: {
+      question: "Doctor of Philosophy (PhD) in Business Administration",
+      image: "/images/courses-images/PHD in Business Administration.jpg",
+      downloadurl: `${baseUrl}/Doctor of Philosophy in Business Administration.pdf`,
+      typicalfulltimestudyperiod: "3 - 6",
+      // maxPeriod: 4,
+      // programmeCredit: "$19.50",
+      totalProgrammeCredit: 360,
+      noOfModules: "3 (2 taught modules + 1 Dissertation)",
+      // totalFee: "$5,070",
+      tuitionFeePerSemester: "$600",
+      cta: true,
+      timer: false,
+      overview: true,
+      launchDate: "2025-08-02T00:00:00", // <<< unique per course
+    },
+  tableContent: [
+    {
+      title: "",
+      totalCredit: 360,
+      // totalFee: "$728.00",
+      modules: [
+        {
+          type: "Core",
+          code: "B10-LSW-25",
+          name: "Lectures, Seminars and Workshops",
+          credit: 20,
+        },
+        {
+          type: "Core",
+          code: "B10-RPC-25",
+          name: "Research Proposal Writing and Colloquium",
+          credit: 20,
+        },
+        {
+          type: "Core",
+          code: "B10-DIS-25",
+          name: "Dissertation",
+          credit: 320,
+        },
+      ],
+    },
+  ],
+}
+
+export const doctorofphilosophyincomputerscience = {
+  heroContent: {
+    question: "Doctor of Philosophy (PhD) in Computer Science",
+    image: "/images/courses-images/PHD in Computer Science.jpg",
+    downloadurl: `${baseUrl}/Doctor of Philosophy in Computer Science.pdf`,
+    typicalfulltimestudyperiod: "3 - 6",
+    // maxPeriod: 4,
+    // programmeCredit: "$19.50",
+    totalProgrammeCredit: 360,
+    noOfModules: "1 (Thesis)",
+    // totalFee: "$5,070",
+    tuitionFeePerSemester: "$600",
+    cta: true,
+    timer: false,
+    overview: true,
+    launchDate: "2025-08-02T00:00:00", // <<< unique per course
+  },
+  tableContent: [
+    {
+      title: "",
+      totalCredit: 360,
+      // totalFee: "$728.00",
+      modules: [
+        {
+          type: "Core",
+          code: "C9-SRT-26",
+          name: "Supervised Research and Thesis in Computer Science",
+          credit: 360,
+          // fee: "$130.00",
+        },
+      ],
+    },
+  ],
+};
+
 export const bbainbusinessmanagement = {
   heroContent: {
     question: "Bachelor of Business Administration in Business Management",

@@ -456,7 +456,7 @@ const TimerHome = ({ data, programOverview, feePage }) => {
   // const launchDate = ["13-01", "10-04", "10-07", "13-10"]; // DD-MM
   const launchDate = ["15-01", "10-04", "10-07", "13-10"];
 
-// next year cycle logic missing
+  // next year cycle logic missing
 
   // useEffect(() => {
   //   const updateTime = () => {
@@ -474,7 +474,7 @@ const TimerHome = ({ data, programOverview, feePage }) => {
   //         const fullDate = new Date(thisYear, month - 1, day, 0, 0, 0);
 
   //         // console.log("fullDate",fullDate);
-          
+
   //         return fullDate.getTime();
   //       })
   //       .filter((timestamp) => timestamp > now) // future only
@@ -488,13 +488,13 @@ const TimerHome = ({ data, programOverview, feePage }) => {
   //   }
   //     const nearestDate = launchDatesTimestamps[0];
   //     console.log("nearestDate",nearestDate);
-      
+
   //     if (!nearestDate) return;
 
   //     const diff = nearestDate - now;
 
   //     console.log(diff);
-      
+
   //     const days = Math.floor(diff / (1000 * 60 * 60 * 24));
   //     const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
   //     const minutes = Math.floor((diff / (1000 * 60)) % 60);
@@ -509,50 +509,49 @@ const TimerHome = ({ data, programOverview, feePage }) => {
 
   //   return () => clearInterval(timer);
   // }, []);
-  
-// next year cycle logic fixed
+
+  // next year cycle logic fixed
 
   useEffect(() => {
-  const updateTime = () => {
-    const now = new Date().getTime();
-    const thisYear = new Date().getFullYear();
+    const updateTime = () => {
+      const now = new Date().getTime();
+      const thisYear = new Date().getFullYear();
 
-    let launchDatesTimestamps = launchDate
-      .map((dateStr) => {
-        const [day, month] = dateStr.split("-");
-        const fullDate = new Date(thisYear, month - 1, day, 0, 0, 0);
-        return fullDate.getTime();
-      })
-      .filter((timestamp) => timestamp > now)
-      .sort((a, b) => a - b);
+      let launchDatesTimestamps = launchDate
+        .map((dateStr) => {
+          const [day, month] = dateStr.split("-");
+          const fullDate = new Date(thisYear, month - 1, day, 0, 0, 0);
+          return fullDate.getTime();
+        })
+        .filter((timestamp) => timestamp > now)
+        .sort((a, b) => a - b);
 
-    // 🩵 Handle year rollover
-    if (launchDatesTimestamps.length === 0) {
-      const [day, month] = launchDate[0].split("-");
-      const nextYear = thisYear + 1;
-      const nextDate = new Date(nextYear, month - 1, day, 0, 0, 0).getTime();
-      launchDatesTimestamps = [nextDate];
-    }
+      // 🩵 Handle year rollover
+      if (launchDatesTimestamps.length === 0) {
+        const [day, month] = launchDate[0].split("-");
+        const nextYear = thisYear + 1;
+        const nextDate = new Date(nextYear, month - 1, day, 0, 0, 0).getTime();
+        launchDatesTimestamps = [nextDate];
+      }
 
-    const nearestDate = launchDatesTimestamps[0];
-    if (!nearestDate) return;
+      const nearestDate = launchDatesTimestamps[0];
+      if (!nearestDate) return;
 
-    const diff = nearestDate - now;
+      const diff = nearestDate - now;
 
-    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
-    const minutes = Math.floor((diff / (1000 * 60)) % 60);
-    const seconds = Math.floor((diff / 1000) % 60);
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+      const minutes = Math.floor((diff / (1000 * 60)) % 60);
+      const seconds = Math.floor((diff / 1000) % 60);
 
-    setTimeLeft({ days, hours, minutes, seconds });
-    setNearestStartDate(new Date(nearestDate));
-  };
+      setTimeLeft({ days, hours, minutes, seconds });
+      setNearestStartDate(new Date(nearestDate));
+    };
 
-  updateTime();
-  const timer = setInterval(updateTime, 1000);
-  return () => clearInterval(timer);
-}, []);
-
+    updateTime();
+    const timer = setInterval(updateTime, 1000);
+    return () => clearInterval(timer);
+  }, []);
 
   const handleEnq = () => {
     window.open(
@@ -594,35 +593,40 @@ const TimerHome = ({ data, programOverview, feePage }) => {
           </div>
           <div className="col-grid">
             {/* <div className="grid-2"> */}
-            
-              {/* {data?.admissionFee && <div>
+
+            {/* {data?.admissionFee && <div>
                 <h3>{data?.admissionFee} </h3>
                 <p>Registration Fee</p>
               </div>} */}
-              <div>
-                <h3>{data?.typicalfulltimestudyperiod} years</h3>
-                <p>Typical Full-Time Study Period</p>
-              </div>
-              {/* <div>
+            <div>
+              <h3>{data?.typicalfulltimestudyperiod} years</h3>
+              <p>Typical Full-Time Study Period</p>
+            </div>
+            {/* <div>
                 <h3>{data?.maxPeriod} years</h3>
                 <p>Maximum Period</p>
               </div> */}
-              <div>
-                <h3>{data?.programmeCredit} </h3>
-                <p>Fees per Programme Credit</p>
-              </div>
-                  <div>
-                <h3>{data?.totalProgrammeCredit} </h3>
-                <p>Total Programme Credits</p>
-              </div>
-              <div>
-                <h3>{data?.totalFee} </h3>
-                <p>Total Tuition Fee</p>
-              </div>
-              <div>
-                <h3>{data?.noOfModules} </h3>
-                <p>Number of Modules</p>
-              </div>
+            {data?.programmeCredit && <div>
+              <h3>{data?.programmeCredit} </h3>
+              <p>Fees per Programme Credit</p>
+            </div>}
+            <div>
+              <h3>{data?.totalProgrammeCredit} </h3>
+              <p>Total Programme Credits</p>
+            </div>
+            {data?.totalFee && <div>
+              <h3>{data?.totalFee} </h3>
+              <p>Total Tuition Fee</p>
+            </div>}
+            <div>
+              <h3>{data?.noOfModules} </h3>
+              <p>Number of Modules</p>
+            </div>
+            
+              {data?.tuitionFeePerSemester && <div>
+                <h3>{data?.tuitionFeePerSemester} </h3>
+                <p>Tuition Fee Per Semester</p>
+              </div>}
             {/* </div> */}
             {/* <div className="grid-2">
               
@@ -643,7 +647,11 @@ const TimerHome = ({ data, programOverview, feePage }) => {
                 style={{ paddingLeft: "12px", paddingRight: "12px" }}
                 onClick={() => download(data?.downloadurl)}
               >
-                <span className="button-text">{feePage ? "Download Fee Structure" : "Download Programme Details"}</span>
+                <span className="button-text">
+                  {feePage
+                    ? "Download Fee Structure"
+                    : "Download Programme Details"}
+                </span>
                 <img src={downloadIcon} alt="download" />
               </button>
             </div>

@@ -11,6 +11,21 @@ import Footer from "../components/footer/Footer";
 import FeedBackSection from "../components/feedback/FeedBackSection";
 
 const PageTwo = () => {
+  const cardDataPhd = [
+    {
+      cover: "/images/courses-images/PHD in Computer Science.jpg",
+      courseName: "Doctoral Programme",
+      title: "Doctor of Philosophy (PhD) in Computer Science",
+      description:
+        "This programme develops highly skilled researchers and innovators with advanced expertise in computer science and its applications. It equips candidates with the capability to conduct independent scholarly research,",
+    },
+    {
+      cover: "/images/courses-images/PHD in Business Administration.jpg",
+      courseName: "Doctoral Programme",
+      title: "Doctor of Philosophy (PhD) in Business Administration",
+      description:
+        "The PhD in Business Administration is a rigorous, research intensive programme designed to develop expert researchers, academicians, and industry leaders.",
+    }]
   const cardDataPg = [
     {
       cover: "/images/courses-images/MBA.png",
@@ -237,6 +252,13 @@ It's very important to us at Botho University that students receive timely assis
       <RednavBar />
       <NavBar />
       <StaticHome height="auto" />
+      <Course
+        cardData={cardDataPhd}
+        moreButton={false}
+        secondaryHeading="Doctoral Programmes"
+        secondaryParagraph="Transform your expertise into influence with doctoral studies engineered for high-level research, leadership, and real-world impact."
+        courseName="Doctoral Programmes"
+      />
       <Course
         cardData={cardDataPg}
         moreButton={false}

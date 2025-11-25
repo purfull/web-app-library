@@ -103,6 +103,24 @@ While you are, of course, welcome to contact your lecturers directly when you ha
 It's very important to us at Botho University that students receive timely assistance. That is precisely why we have a dedicated team of Programme Mentors committed to supporting you as you progress through your academic journey. You're never alone when you study with Botho University!</p>`,
     },
   ];
+  const phdCardData = [
+    {
+      title: "Doctor of Philosophy (PhD) in Computer Science",
+      image: "/images/courses-images/Square/PHD in Computer Science.jpg",
+      amountdetails: {
+        tuitionFeePerSemester: "$600",
+        credits: "360",
+      },
+    },
+    {
+      title: "Doctor of Philosophy (PhD) in Business Administration",
+      image: "/images/courses-images/Square/PHD in Business Administration.jpg",
+      amountdetails: {
+        tuitionFeePerSemester: "$600",
+        credits: "360",
+      },
+    },
+  ];
   const pgCardData = [
     {
       title: "Master of Business Administration (MBA)",
@@ -414,6 +432,11 @@ It's very important to us at Botho University that students receive timely assis
         height="110vh"
         title="Affordable. Flexible. <span style='background-color: #841D2E; color: #fff'>Built Around You. </span>"
         description="At Botho University, our online learning fees give you full control-you only pay for the modules you register for, based on their credit load, with no hidden costs. This flexible pay-as-you-go model is supported by a structured instalment plan to make budgeting easier, though all semester fees must be cleared before moving to the next stage. Payments are simple and convenient through our secure online gateway, campus payments, bank transfers, or Orange Money (within Botswana)."
+      />
+
+      <EnquireSection
+        cardData={phdCardData}
+        cardTitle="Doctoral Programme Fees"
       />
 
       <EnquireSection

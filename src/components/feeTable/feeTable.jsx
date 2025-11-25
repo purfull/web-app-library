@@ -30,7 +30,7 @@ const FeeTable = ({ tableData = [] }) => {
                 <th>Module Code</th>
                 <th>Module Name</th>
                 <th>Credit Load</th>
-                <th>Module Fee</th>
+                {semester.totalFee && <th>Module Fee</th>}
                 {/* <th>preq</th> */}
               </tr>
             </thead>
@@ -41,14 +41,14 @@ const FeeTable = ({ tableData = [] }) => {
                   <td>{item.code}</td>
                   <td>{item.name}</td>
                   <td>{item.credit}</td>
-                  <td>{item.fee}</td>
+                  {item.fee && <td>{item.fee}</td>}
                 </tr>
               ))}
               {/* Summary row */}
               <tr className="summary-row">
-                <td colSpan={3} className="table-bold-text">{semester.title}</td>
+                <td colSpan={3} className="table-bold-text">{semester.title || "Total Programmes Credits"}</td>
                 <td className="table-bold-text">{semester.totalCredit}</td>
-                <td className="table-bold-text">{semester.totalFee}</td>
+                {semester.totalFee && <td className="table-bold-text">{semester.totalFee}</td>}
               </tr>
             </tbody>
           </table>

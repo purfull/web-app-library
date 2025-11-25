@@ -30,6 +30,8 @@ import {
   bscinnetworksecurityandcomputerforensics,
   medinhighereducation,
   bcominaccounting,
+  doctorofphilosophyincomputerscience,
+  doctorofphilosophyinbusinessadministration
 } from "./PageThreeData";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
@@ -58,6 +60,8 @@ const PageThree = () => {
     bscinnetworksecurityandcomputerforensics,
     medinhighereducation,
     bcominaccounting,
+    doctorofphilosophyincomputerscience,
+    doctorofphilosophyinbusinessadministration
   };
   useEffect(() => {
     const courseData = courseMap[name];

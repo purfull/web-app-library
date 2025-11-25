@@ -57,14 +57,19 @@ const EnquireSection = ({ cardData, cardTitle }) => {
             </div>
 
             <div className="main-fee-deatils">
-              <div className="sub-amount-deatils">
+              {item.amountdetails?.fees && <div className="sub-amount-deatils">
                 <p>Total Fees</p>
                 <p className="enquire-heading">${item.amountdetails?.fees}</p>
-              </div>
-              <div className="sub-amount-deatils">
+              </div>}
+              
+              {item.amountdetails?.tuitionFeePerSemester && <div>
+                <p>Tuition Fee Per Semester</p>
+                <p className="enquire-heading">{item.amountdetails?.tuitionFeePerSemester} </p>
+              </div>}
+              {item.amountdetails?.module && <div className="sub-amount-deatils">
                 <p>Per Credit Fee</p>
                 <p className="enquire-heading">${item.amountdetails?.module}</p>
-              </div>
+              </div>}
               <div className="sub-amount-deatils">
                 <p>Total Credits</p>
                 <p className="enquire-heading">{item.amountdetails?.credits}</p>

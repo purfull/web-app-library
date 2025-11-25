@@ -32,6 +32,8 @@ import {
   mscincomputerscience,
   bscinnetworksecurityandcomputerforensics,
   medinhighereducation,
+  doctorofphilosophyincomputerscience,
+  doctorofphilosophyinbusinessadministration
 } from "./PageFiveDats";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
@@ -58,6 +60,8 @@ const PageFive = () => {
     mscincomputerscience,
     bscinnetworksecurityandcomputerforensics,
     medinhighereducation,
+    doctorofphilosophyincomputerscience,
+    doctorofphilosophyinbusinessadministration
   };
   useEffect(() => {
     const courseData = courseMap[name];
