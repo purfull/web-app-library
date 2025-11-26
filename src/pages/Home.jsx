@@ -18,6 +18,21 @@ import Terms from "../components/terms/terms";
 
 const HomePage = () => {
   const cardData = [
+    
+    {
+      cover: "/images/courses-images/PHD in Computer Science.jpg",
+      courseName: "Doctoral Programme",
+      title: "Doctor of Philosophy (PhD) in Computer Science",
+      description:
+        "This programme develops highly skilled researchers and innovators with advanced expertise in computer science and its applications. It equips candidates with the capability to conduct independent scholarly research,",
+    },
+    {
+      cover: "/images/courses-images/PHD in Business Administration.jpg",
+      courseName: "Doctoral Programme",
+      title: "Doctor of Philosophy (PhD) in Business Administration",
+      description:
+        "The PhD in Business Administration is a rigorous, research intensive programme designed to develop expert researchers, academicians, and industry leaders.",
+    },
     {
       cover: "/images/courses-images/MBA.png",
       courseName: "Postgraduate Programme",
@@ -40,13 +55,13 @@ const HomePage = () => {
       description:
         "Ready to advance your teaching career? Our Postgraduate Diploma in Higher Education is a transformative one-year programme that equips you with advanced teaching skills, curriculum design expertise, and effective assessment strategies. You will gain a strong understanding of pedagogy, assessment, moderation, and learner diversity."
     },
-    {
-      // /images/courses-images/BBA in bus mgmt.jpg
-      cover: "/images/courses-images/Bcom in accounting.jpeg",
-      courseName: "Undergraduate Programme",
-      title: "BCom in Accounting",
-      description: "Your future in accounting starts here. The Bachelor of Commerce in Accounting offers a practical, industry-focused pathway to a rewarding career in accounting and finance. You will build expertise in financial reporting, auditing, taxation, and management accounting. What makes this degree distinctive is its strong balance of theory and practice, including a compulsory semester-long internship that provides invaluable real-world experience."
-    },
+    // {
+    //   // /images/courses-images/BBA in bus mgmt.jpg
+    //   cover: "/images/courses-images/Bcom in accounting.jpeg",
+    //   courseName: "Undergraduate Programme",
+    //   title: "BCom in Accounting",
+    //   description: "Your future in accounting starts here. The Bachelor of Commerce in Accounting offers a practical, industry-focused pathway to a rewarding career in accounting and finance. You will build expertise in financial reporting, auditing, taxation, and management accounting. What makes this degree distinctive is its strong balance of theory and practice, including a compulsory semester-long internship that provides invaluable real-world experience."
+    // },
 
     {
       cover: "/images/courses-images/BSc in network security.jpg",
@@ -55,13 +70,13 @@ const HomePage = () => {
       description:
         "Interested in safeguarding digital systems and uncovering cybercrime? Our BSc in Network Security and Computer Forensics is a specialised degree designed to prepare students to protect information assets and investigate cyber incidents. The programme offers practical training in penetration testing, digital forensics, and network defence, combining fundamental computing with advanced security practices.",
     },
-    {
-      cover: "/images/courses-images/Diploma in Occup.jpg",
-      courseName: "Undergraduate Programme",
-      title: "Diploma in Occupational Health Safety",
-      description:
-        "Fascinated by creating safer workplaces? The Diploma in Occupational Health and Safety is designed for those passionate about protecting people and organisations. The programme combines occupational health, safety management, risk assessment, and environmental sustainability, equipping learners with practical skills to identify, evaluate, and control workplace hazards while ensuring regulatory compliance.",
-    },
+    // {
+    //   cover: "/images/courses-images/Diploma in Occup.jpg",
+    //   courseName: "Undergraduate Programme",
+    //   title: "Diploma in Occupational Health Safety",
+    //   description:
+    //     "Fascinated by creating safer workplaces? The Diploma in Occupational Health and Safety is designed for those passionate about protecting people and organisations. The programme combines occupational health, safety management, risk assessment, and environmental sustainability, equipping learners with practical skills to identify, evaluate, and control workplace hazards while ensuring regulatory compliance.",
+    // },
   ];
   const faqData = [
     {

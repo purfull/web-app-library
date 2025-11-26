@@ -108,7 +108,7 @@ It's very important to us at Botho University that students receive timely assis
       title: "Doctor of Philosophy (PhD) in Computer Science",
       image: "/images/courses-images/Square/PHD in Computer Science.jpg",
       amountdetails: {
-        tuitionFeePerSemester: "$600",
+        tuitionFeePerSemester: "$600**",
         credits: "360",
       },
     },
@@ -116,7 +116,7 @@ It's very important to us at Botho University that students receive timely assis
       title: "Doctor of Philosophy (PhD) in Business Administration",
       image: "/images/courses-images/Square/PHD in Business Administration.jpg",
       amountdetails: {
-        tuitionFeePerSemester: "$600",
+        tuitionFeePerSemester: "$600**",
         credits: "360",
       },
     },

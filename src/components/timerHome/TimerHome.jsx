@@ -625,13 +625,17 @@ const TimerHome = ({ data, programOverview, feePage }) => {
             
               {data?.tuitionFeePerSemester && <div>
                 <h3>{data?.tuitionFeePerSemester} </h3>
-                <p>Tuition Fee Per Semester</p>
+                <p>**Tuition Fee Per Semester</p>
               </div>}
             {/* </div> */}
             {/* <div className="grid-2">
               
             </div> */}
+
           </div>
+          {data?.tuitionFeePerSemester && <div className="">
+            <p className="sub-heading" style={{paddingLeft: "0", marginBottom: "24px"}}>**Programme fees vary based on the number of semesters required to complete</p>
+          </div>}
           {data?.cta && (
             <div className="forButton">
               <button className="secondary-button" onClick={handleEnq}>
