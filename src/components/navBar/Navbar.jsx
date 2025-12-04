@@ -77,7 +77,7 @@ const NavBar = () => {
       cover:
         "/images/courses-images/Med in educational leadership and mgmt.png",
       courseName: "Postgraduate Programme",
-      title: "MEd in Leadership and Management",
+      title: "MEd in Educational Leadership and Management",
       description:
         "Aspiring to lead in education? Our Master of Educational Leadership and Management is a prestigious, two-year programme designed to elevate your career.",
     },
