@@ -1,6 +1,6 @@
 // import { baseUrl } from "./PageThreeData";
 
-const baseUrl = `https://di00ymfrmfyeb.cloudfront.net`;
+const baseUrl = `https://online.bothouniversity.com/pdf`;
 
 
 export const doctorofphilosophyinbusinessadministration = {

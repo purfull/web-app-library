@@ -1,5 +1,5 @@
 export const baseUrl =
-  "https://di00ymfrmfyeb.cloudfront.net/BothoUniversityOnline-";
+  "https://online.bothouniversity.com/pdf/BothoUniversityOnline-";
 
 
 
@@ -358,14 +358,14 @@ export const bscindatascience = {
     //     {
     //       question: "Cloud Computing",
     //       subanswer:
-    //         "Code: C6-CLC-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $117<br/>Module Credits: 9",
+    //         "Code: C6-CLC-22<br/>Module Fees: $117<br/>Module Credits: 9",
     //       answer:
     //         "This module provides a hands-on study of Cloud computing, covering service models like IaaS, PaaS, SaaS, and BPaaS. Students will explore cloud security, risk management, cryptographic key management, and access control. They will also analyse cloud computing essentials, security baselines, and architectural concepts whilst implementing cloud security measures.",
     //     },
     //     {
     //       question: "Emerging Technologies 1",
     //       subanswer:
-    //         "Code: C6-EM1-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $117<br/>Module Credits: 9",
+    //         "Code: C6-EM1-22<br/>Module Fees: $117<br/>Module Credits: 9",
     //       answer:
     //         "This course explores the integration of educational technology into curriculum design, emphasising best practices, national standards, and emerging technologies.Students will research and apply IoT concepts, including its functionalities, applications, enabling technologies, and interoperability. They will also analyse challenges affecting IoT adoption across various industries and domains.",
     //     },
@@ -709,42 +709,42 @@ export const bbainbusinessmanagement = {
         {
           question: "Introduction to MS Office",
           subanswer:
-            "Code: C5-IMO-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C5-IMO-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips students with essential digital skills for academic, professional, and personal productivity. It provides practical experience with Microsoft Office applications, fostering proficiency in word processing, spreadsheets, presentations, database management, and email communication to build a strong foundation for effective digital engagement.",
         },
         {
           question: "Academic Writing for Business",
           subanswer:
-            "Code: D5-AWB-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D5-AWB-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module develops essential academic writing skills, emphasising paragraph structure, thesis statements, and coherent argumentation. It addresses plagiarism, its implications, and strategies for avoidance. Students also gain competence in referencing, citation techniques, resource evaluation, and the use of tools such as Mendeley to uphold academic integrity.",
         },
         {
           question: "Business Mathematics and Statistics 1",
           subanswer:
-            "Code: B5-BS1-17<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B5-BS1-17<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces fundamental mathematical concepts such as fractions, percentages, algebra, and their applications in business. It covers basic statistics, including data organisation, measures of central tendency, dispersion, and spreadsheet analysis. Probability concepts, including axioms, distributions, and the standard normal curve, are examined to strengthen quantitative decision-making skills.",
         },
         {
           question: "Legal Aspects of Business",
           subanswer:
-            "Code: B5-LAB-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B5-LAB-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces the origins of law and the structure of legal systems, with particular reference to Botswana. It examines both criminal and civil law and explores key areas such as contracts, sales, leases, credit agreements, insurance, agency, employment, intellectual property, negotiable instruments, and business enterprises, providing essential legal foundations.",
         },
         {
           question: "Introduction to Financial Accounting",
           subanswer:
-            "Code: A5-IFA-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: A5-IFA-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module provides a foundational understanding of financial accounting principles and techniques. Students will be introduced to accounting, financial record preparation, and adjustments aligned with international accounting standards. Emphasising error analysis and financial reporting, the module equips students with essential skills to manage financial records and support informed business decision-making.",
         },
         {
           question: "Business Management 1",
           subanswer:
-            "Code: B5-BM1-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B5-BM1-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces business management as a discipline, addressing core concepts, economic systems, and stakeholder roles. It examines the business environment, management functions, and key areas including operations, finance, human resources, and marketing. Leadership principles and theories are explored to build a foundation for sound business strategy and decision-making.",
         },
@@ -756,7 +756,7 @@ export const bbainbusinessmanagement = {
         {
           question: "Principles of Marketing",
           subanswer:
-            "Code: B5-PMK-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B5-PMK-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces the fundamentals of marketing, covering the 7 P’s, consumer behaviour, and decision-making processes. It examines market research, segmentation, and targeting strategies, alongside product development, pricing, and promotion. Students gain essential skills to apply marketing principles effectively in dynamic and competitive business environments.",
         },
@@ -770,7 +770,7 @@ export const bbainbusinessmanagement = {
         {
           question: "Microeconomics",
           subanswer:
-            "Code: B6-MIE-17<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B6-MIE-17<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces key economic principles, including scarcity, choice, and the functioning of economic systems. It examines demand and supply, market equilibrium, and elasticity, alongside firm behaviour, production costs, and market structures. Externalities, public goods, and income distribution are also addressed, offering insights into economic decision-making and policy development.",
         },
@@ -791,7 +791,7 @@ export const bbainbusinessmanagement = {
         {
           question: "Customer Relationship Management",
           subanswer:
-            "Code: B7-CRM-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B7-CRM-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores the management of marketing with a focus on Customer Relationship Management (CRM). Students will critically understand CRM principles, their role in business strategy, and the importance of customer service. Through real-world examples, they will apply CRM strategies to acquire, coordinate, and maximize customer relationships effectively.",
         },
@@ -811,14 +811,14 @@ export const bbainbusinessmanagement = {
         {
           question: "Small Business Management",
           subanswer:
-            "Code: B6-SBM-21<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B6-SBM-21<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores the role of small enterprises in economic growth, job creation, and poverty reduction. Students will learn about small business management, funding access, market opportunities, and government incentives. It covers business lifecycles, challenges, and leadership strategies, preparing students to drive small business success and economic development.",
         },
         {
           question: "Fundamentals of Financial Management",
           subanswer:
-            "Code: B6-FFM-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B6-FFM-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces financial management principles, emphasising financial analysis, decision-making, and resource management. Students will explore financial markets, investment risks, capital budgeting, and corporate valuation. Key topics include firm financing, mergers, dividend policy, and international finance. The course equips students with quantitative skills for risk management and working capital optimisation.",
         },
@@ -832,7 +832,7 @@ export const bbainbusinessmanagement = {
         {
           question: "Organisational Behaviour",
           subanswer:
-            "Code: B6-OBE-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B6-OBE-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores organisational behavior, focusing on group dynamics, leadership, motivation, structure, and change management. Students will learn team building, conflict resolution, and labor management while analysing human and organisational interactions. Key topics include stress management, industrial relations, and the systems approach, preparing students to navigate evolving organisational environments effectively.",
         },
@@ -851,7 +851,7 @@ export const bbainbusinessmanagement = {
         {
           question: "Operations Management",
           subanswer:
-            "Code: B6-OPM-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B6-OPM-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module teaches principles and techniques for efficient production and distribution of goods and services, focusing on minimising waste. Students will explore operations management, including inventory, quality control, logistics, and process optimisation. Key topics include forecasting, scheduling, project management, and quality methods. Students will develop skills in project management, teamwork, and communication.",
         },
@@ -865,7 +865,7 @@ export const bbainbusinessmanagement = {
         {
           question: "Consumer Behaviour",
           subanswer:
-            "Code: B6-COB-21<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B6-COB-21<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module provides an interdisciplinary understanding of consumer behavior, integrating psychological and sociological theories to inform business strategies. Students will explore key theories and models, applying them to real-world consumer contexts. They will analyse how marketing and promotional activities influence purchasing decisions, equipping them to shape effective business strategies.",
         },
@@ -879,14 +879,14 @@ export const bbainbusinessmanagement = {
         {
           question: "Cost Accounting",
           subanswer:
-            "Code: A6-COA-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: A6-COA-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces key costing principles, including cost behaviour, classification, and the accounting of materials and labour. It covers inventory valuation, overhead allocation, marginal and absorption costing, as well as job, batch, and process costing. Cost-volume-profit analysis, standard costing, variance analysis, and budgeting are also examined to support effective cost control.",
         },
         {
           question: "Purchasing Management",
           subanswer:
-            "Code: B6-PMT-21<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B6-PMT-21<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips students with principles and techniques for efficient procurement, focusing on minimising waste. Students will gain insight on purchase operations, payment processes, inventory management, supplier evaluation, and quality control. Students will learn to apply strategic sourcing, manage supplier relationships, and use negotiation skills to optimise procurement processes and achieve organisational goals.",
         },
@@ -899,7 +899,7 @@ export const bbainbusinessmanagement = {
         {
           question: "Quality Management",
           subanswer:
-            "Code: B7-QUM-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B7-QUM-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module provides tutors with a critical understanding of quality management and the skills to implement quality initiatives accurately, ensuring compliance with standards. There is coverage of quality systems, ISO 9000, TQM, and Six Sigma, enabling students to assess and improve quality practices in both product and service environments while addressing regulatory and environmental issues.",
         },
@@ -913,14 +913,14 @@ export const bbainbusinessmanagement = {
         {
           question: "Project Management",
           subanswer:
-            "Code: B7-PRM-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B7-PRM-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module teaches students essential project management skills, focusing on timelines, deliverables, and key issues like team dynamics, communication, quality control, and risk management. Students will learn core principles, evaluate Project Life Cycle models, apply methodologies, use project management software, and conduct project appraisals using capital budgeting techniques to assess viability and outcomes.",
         },
         {
           question: "Import and Export Management",
           subanswer:
-            "Code: B7-IEM-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B7-IEM-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips students with the skills to manage the import and export process, covering procedures, documentation, and regulations in international trade. Students will learn key principles of global trade, payment methods, financing, risk management, logistics, and containerisation. The module also emphasises the use of technology to improve efficiency in import-export operations.",
         },
@@ -932,21 +932,21 @@ export const bbainbusinessmanagement = {
         {
           question: "Managing Consulting",
           subanswer:
-            "Code: B7-MNC-21<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B7-MNC-21<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module offers an interdisciplinary approach to managing consulting in business, equipping students with a deep understanding of consulting practices and strategic implications. Students will learn to manage consultancy processes, navigate the consulting life cycle, balance creativity and methodology, address trust and risk, and apply ethical principles, while exploring consulting career opportunities.",
         },
         {
           question: "International Business Management",
           subanswer:
-            "Code: B7-IBM-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B7-IBM-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces students to managing businesses in an international context, focusing on key concepts and practices. Students will learn to navigate international management systems, develop global business intelligence, formulate and implement international strategies, understand regulatory and cultural challenges, and appreciate the complexities of cross-border operations in global environments.",
         },
         {
           question: "Family Business Management",
           subanswer:
-            "Code: B7-FBM-20<br/>Prerequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B7-FBM-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module provides an understanding of the dynamics and challenges in managing a family-owned business. Students will learn about family business structures, the advantages and disadvantages of such setups, decision-making processes, and succession planning. It also covers themes like leadership, governance, and managing family relationships for sustainable growth.",
         },
@@ -961,28 +961,28 @@ export const bbainbusinessmanagement = {
         {
           question: "E-Business",
           subanswer:
-            "Code: B7-EBS-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B7-EBS-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores the relationship between technology and business, focusing on the impact of technological changes like the Internet and eCommerce on business practices. Students will learn e-business models, risks, opportunities, and strategies, including supply chain management, e-marketing, and CRM. The module also covers the design, implementation, and monitoring of e-business systems, ensuring students can effectively manage digital business operations.",
         },
         {
           question: "Human Resource Management",
           subanswer:
-            "Code: B7-HRM-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B7-HRM-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces Human Resource Management (HRM) in organisations, focusing on managing human capital strategically. Students will learn HR practices like recruitment, development, employee relations, and health and safety. They will also explore union roles, human capital development, and HR policies to drive organisational success and maintain a safe, productive workplace.",
         },
         {
           question: "Research Methods in Business",
           subanswer:
-            "Code: B7-RMB-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B7-RMB-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores business and management research, covering epistemology, research strategies, ethics, and proposal development. It examines literature review, research design, data collection methods, and SPSS for analysis. Additionally, it addresses time and resource management, data presentation, and report writing, equipping learners with essential research skills for academic and professional inquiry.",
         },
         {
           question: "Transport and Logistics Management",
           subanswer:
-            "Code: B7-TLM-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B7-TLM-21<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module teaches students the principles and techniques of packaging, distributing goods, and optimising logistics. Topics include transportation and logistics management, integrating logistics with customer care, addressing supply chain challenges, creating competitive advantages, resource management, teamwork, and planning with freight transportation to enhance efficiency and minimise costs.",
         },
@@ -994,28 +994,28 @@ export const bbainbusinessmanagement = {
         {
           question: "Business Ethics and Corporate Social Responsibility",
           subanswer:
-            "Code: B7-BEC-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B7-BEC-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores the ethical dimensions of business, focusing on governance, corporate social responsibility (CSR), and sustainability. Students will understand the importance of ethics in decision-making, evaluate CSR trends, assess the role of corporate culture and leadership, and address ethical challenges in areas like marketing, governance, and stakeholder relations for long-term success.",
         },
         {
           question: "Change Management",
           subanswer:
-            "Code: B7-CHM-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B7-CHM-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips students with the skills to manage and navigate organisational change effectively. Students will learn about the stages of change, levels at which it occurs, strategies to manage resistance, assess change readiness, and implement sustainable change management strategies to foster long-term adaptability and organisational success.",
         },
         {
           question: "Corporate Governance",
           subanswer:
-            "Code: B7-CGV-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B7-CGV-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module provides students with a comprehensive understanding of corporate governance, focusing on its role in effective organisational management. Students will explore governance principles, global trends, and the OECD guidelines, evaluate the impact of good governance on performance, identify signs of ineffective governance, and address governance challenges in family-owned businesses and board responsibilities.",
         },
         {
           question: "Brand Management",
           subanswer:
-            "Code: B7-BMT-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B7-BMT-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips students with the essential skills for effective brand management. It covers the principles of branding, brand positioning, and equity, along with strategies for designing and implementing brand marketing programmes. Students will also explore brand management in local and international markets and the growing importance of digital branding.",
         },
@@ -1027,28 +1027,28 @@ export const bbainbusinessmanagement = {
         {
           question: "Knowledge Management",
           subanswer:
-            "Code: B7-KNM-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B7-KNM-21<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module provides an interdisciplinary understanding of knowledge management and its strategic implications for business managers. Students will critically evaluate knowledge management concepts and applications, design effective strategies to foster organisational learning, and learn to manage the implementation of knowledge management processes to enhance organisational success and development.",
         },
         {
           question: "Strategic Management",
           subanswer:
-            "Code: B7-STM-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: B7-STM-20<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "This module equips students with the skills to analyse, formulate, and implement business strategies in the business management landscape. It focuses on competitive analysis, decision-making, resource management, and sustainability. Students learn to develop strategic plans that enhance organisational performance and long-term success in a dynamic business environment.",
         },
         {
           question: "Research Project 1: Proposal Writing",
           subanswer:
-            "Code: B7-RP1-20<br/>Prerequisite: B7-RMB-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B7-RP1-20<br/>Prerequisite: B7-RMB-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces students to business and management research, focusing on proposal writing for their final-year project. Students will learn to design data collection tools, understand research strategies (qualitative and quantitative), ensure ethical practices, use SPSS for data analysis, and analyse and present data effectively. The module also covers writing structured, well-reasoned business research reports.",
         },
         {
           question: "Entrepreneurship and Innovation",
           subanswer:
-            "Code: B8-ENI-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: B8-ENI-20<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "This module explores entrepreneurship and innovation, covering enterprise development, opportunity discovery, and business planning. It examines innovation principles, feasibility assessment, business modelling, and disruptive technologies. Students will learn to validate risks, market size, and pricing while developing entrepreneurial teams, fostering creativity, and building sustainable, innovative ventures.",
         },
@@ -1060,14 +1060,14 @@ export const bbainbusinessmanagement = {
         {
           question: "Professional Practice in Business",
           subanswer:
-            "Code: B7-PPB-20<br/>Prerequisite: 240 Credits<br/>Co-requisite: None<br/>Module Fees: $520<br/>Module Credits: 40",
+            "Code: B7-PPB-20<br/>Prerequisite: 240 Credits<br/>Module Fees: $520<br/>Module Credits: 40",
           answer:
             "This internship module bridges the gap between academic learning and real-world application. Students will gain practical experience, develop specialist knowledge, and improve decision-making, research, and communication skills. They will also learn to identify entrepreneurial opportunities and foster a commitment to lifelong learning, aligning with the Botho Graduate Profile.",
         },
         {
           question: "Research Project 2: Dissertation",
           subanswer:
-            "Code: B7-RP2-20<br/>Prerequisite: B7-RP1-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: B7-RP2-20<br/>Prerequisite: B7-RP1-20<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "This module helps students identify, research, and address real-world industry problems by developing a holistic project. Students will define a specific problem, provide background context, conduct literature reviews, design research methodologies, collect and analyse data, draw conclusions, and write a final report. It enhances research skills and applies theoretical knowledge to business challenges.",
         },
@@ -1156,42 +1156,42 @@ export const bbainbusinessmanagement = {
 //         {
 //           question: "Principles of Hospitality and Tourism",
 //           subanswer:
-//             "Code: H6-PHT-22<br/>Prerequisite: None<br/>Corequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//             "Code: H6-PHT-22<br/>Corequisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
 //           answer:
 //             "Principles of Hospitality and Tourism is a module that introduces students to the hospitality and tourism industry, covering lodging, travel, recreation, attractions, and food services. It develops communication, time management, and customer service skills while exploring industry history and key success traits, preparing learners to meet professional standards in a dynamic global sector.",
 //         },
 //         {
 //           question: "Computers and its Essentials",
 //           subanswer:
-//             "Code: C5-CE1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//             "Code: C5-CE1-20<br/>Module Fees: $130<br/>Module Credits: 10",
 //           answer:
 //             "This module provides a foundational understanding of computers and their essentials, covering basic functions, hardware and software components, and how they operate. It explores the history and evolution of computers and data processing. Students will learn about Microsoft Office, with an emphasis on Microsoft Word and PowerPoint. Through hands-on activities and assessments, learners will develop a comprehensive understanding of computer essentials.",
 //         },
 //         {
 //           question: "Academic Writing for Business",
 //           subanswer:
-//             "Code: D5-AWB-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//             "Code: D5-AWB-20<br/>Module Fees: $130<br/>Module Credits: 10",
 //           answer:
 //             "The Academic Writing for Business module develops students' ability to communicate effectively in a professional and academic business context. It enhances critical thinking, research, and writing skills, focusing on clarity, coherence, and proper structure. Students learn to present arguments, analyze data, and produce well-structured business reports and documents.",
 //         },
 //         {
 //           question: "Professional Cookery 1",
 //           subanswer:
-//             "Code: H5-PC1-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//             "Code: H5-PC1-22<br/>Module Fees: $130<br/>Module Credits: 10",
 //           answer:
 //             "Professional Cookery module equips students with essential culinary skills, food preparation techniques, and kitchen management principles. It emphasizes hygiene, nutrition, and presentation while fostering creativity and efficiency in a professional kitchen. Students gain hands-on experience to meet industry standards and excel in various culinary and hospitality settings.",
 //         },
 //         {
 //           question: "Introduction to Hotel Operations",
 //           subanswer:
-//             "Code: H5-IHO-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//             "Code: H5-IHO-17<br/>Module Fees: $130<br/>Module Credits: 10",
 //           answer:
 //             "Introduction to Hotel Operations module provides students with a foundational understanding of hotel management, including front office, housekeeping, food and beverage, and guest services. It emphasizes industry standards, operational efficiency, and customer satisfaction, preparing students for roles in hospitality by developing practical skills and knowledge of hotel functions.",
 //         },
 //         {
 //           question: "Introduction to Financial Accounting",
 //           subanswer:
-//             "Code:A5-IFA-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//             "Code:A5-IFA-20<br/>Module Fees: $130<br/>Module Credits: 10",
 //           answer:
 //             "Financial Accounting module equips students with fundamental accounting principles, including recording, analyzing, and interpreting financial transactions. It covers financial statements, bookkeeping, and regulatory standards, enabling students to understand business finances, make informed decisions, and ensure transparency in financial reporting within the hospitality and business sectors.",
 //         },
@@ -1203,35 +1203,35 @@ export const bbainbusinessmanagement = {
 //         {
 //           question: "Professional Cookery 2",
 //           subanswer:
-//             "Code: H7-PC2-22<br/>Prerequisite: H5-PC1-22<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: H7-PC2-22<br/>Prerequisite: H5-PC1-22<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             "Professional Cookery 2 module provides intensive training in professional cookery, equipping learners with essential skills, techniques, and culinary knowledge. Students gain expertise in cooking methods, menu planning, and recipe development while understanding ingredient costs, quality, and usage. It prepares them to create diverse dishes and excel in the culinary industry.",
 //         },
 //         {
 //           question: "Business Communication",
 //           subanswer:
-//             "Code: D7-BUC-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: D7-BUC-22<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             "Business Communication module develops students' ability to communicate effectively in professional settings. It covers written, verbal, and non-verbal communication, focusing on clarity, persuasion, and etiquette. Students learn to create business reports, emails, and presentations, enhancing their interpersonal and organizational communication skills for successful business interactions.",
 //         },
 //         {
 //           question: "Microeconomics",
 //           subanswer:
-//             "Code: B5-MIE-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//             "Code: B5-MIE-17<br/>Module Fees: $130<br/>Module Credits: 10",
 //           answer:
 //             "Microeconomics module introduces students to fundamental economic principles, focusing on how individuals and businesses make decisions regarding resource allocation, pricing, and production. It covers supply and demand, market structures, consumer behaviour, and cost analysis, equipping students with analytical skills to understand and apply economic concepts in business environments.",
 //         },
 //         {
 //           question: "Principles of Hospitality Franchise",
 //           subanswer:
-//             "Code: H7-PHT-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: H7-PHT-22<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             " Principles of Hospitality Franchise module introduces students to the fundamentals of franchising in the hospitality industry. It covers franchise models, operations, legal aspects, and financial considerations. Students gain insights into franchise management, brand consistency, and growth strategies, preparing them for entrepreneurial or managerial roles in hospitality franchising.",
 //         },
 //         {
 //           question: "Front Office Operations",
 //           subanswer:
-//             "Code: H7-FRO-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: H7-FRO-17<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             "Front Office Operations module provides students with essential knowledge and skills in hotel front desk management. It covers guest relations, reservations, check-in/check-out procedures, billing, and communication. Emphasizing customer service and operational efficiency, the module prepares students for roles in hospitality reception, concierge services, and front office management.",
 //         },
@@ -1244,7 +1244,7 @@ export const bbainbusinessmanagement = {
 //         {
 //           question: "Business Mathematics",
 //           subanswer:
-//             "Code: B6-BMA-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//             "Code: B6-BMA-22<br/>Module Fees: $130<br/>Module Credits: 10",
 //           answer:
 //             "Business Mathematics module equips students with essential mathematical concepts and analytical skills for business decision-making. It covers topics like percentages, ratios, financial calculations, algebra, and statistical analysis. This module helps students apply mathematical techniques in finance, accounting, and economics, enhancing problem-solving abilities in business and hospitality management.",
 //         },
@@ -1252,35 +1252,35 @@ export const bbainbusinessmanagement = {
 //         {
 //           question: "Clinary Studies and Nutrition 1",
 //           subanswer:
-//             "Code: H7-CS1-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//             "Code: H7-CS1-22<br/>Module Fees: $130<br/>Module Credits: 10",
 //           answer:
 //             "Culinary and Nutrition Studies module explores the relationship between food preparation and nutrition. It equips students with essential cooking techniques, menu planning skills, and knowledge of balanced diets. Emphasizing health, sustainability, and dietary needs, the module prepares students to create nutritious, high-quality meals in the hospitality and food industries.",
 //         },
 //         {
 //           question: "HouseKeeping Management",
 //           subanswer:
-//             "Code: H7-HKP-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//             "Code: H7-HKP-22<br/>Module Fees: $130<br/>Module Credits: 10",
 //           answer:
 //             "The Housekeeping Management module focuses on the leadership and organizational skills required to manage a hotel’s housekeeping department. It covers staffing, training, budgeting, inventory control, and quality assurance. Students learn to optimize operations, maintain cleanliness and safety standards, and ensure exceptional guest satisfaction through effective housekeeping management practices.",
 //         },
 //         {
 //           question: "Customer Service Management",
 //           subanswer:
-//             "Code: H7-CSM-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: H7-CSM-22<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             "Customer Service Management module equips students with essential skills to deliver exceptional guest experiences. It covers communication, problem-solving, service etiquette, and handling customer feedback. Emphasizing professionalism and customer satisfaction, the module prepares students to enhance guest loyalty and service excellence in hotels, restaurants, and tourism businesses.",
 //         },
 //         {
 //           question: "Hospitality Health and Safety",
 //           subanswer:
-//             "Code: H6-HHS-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//             "Code: H6-HHS-22<br/>Module Fees: $130<br/>Module Credits: 10",
 //           answer:
 //             "Hospitality Health and Safety module equips students with essential knowledge of workplace safety, hygiene, and risk management in the hospitality industry. It covers food safety, fire prevention, hazard control, and legal compliance. Students learn to create safe environments for guests and staff while adhering to industry health regulations.",
 //         },
 //         {
 //           question: "Food Service Operations",
 //           subanswer:
-//             "Code: H5-FSE-14<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//             "Code: H5-FSE-14<br/>Module Fees: $130<br/>Module Credits: 10",
 //           answer:
 //             "Food Service Operations module equips students with essential skills in managing food and beverage services in hospitality settings. It covers service styles, customer interaction, order management, hygiene, and operational efficiency. Students learn to enhance guest experiences, maintain quality standards, and oversee restaurant or catering service operations effectively.",
 //         },
@@ -1293,7 +1293,7 @@ export const bbainbusinessmanagement = {
 //         {
 //           question: "Business Statistics",
 //           subanswer:
-//             "Code: B7-BST-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: B7-BST-22<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             "Food Service Operations module equips students with essential skills in managing food and beverage services in hospitality settings. It covers service styles, customer interaction, order management, hygiene, and operational efficiency. Students learn to enhance guest experiences, maintain quality standards, and oversee restaurant or catering service operations effectively.",
 //         },
@@ -1301,28 +1301,28 @@ export const bbainbusinessmanagement = {
 //         {
 //           question: "Culinary Studies and Nutrition  2",
 //           subanswer:
-//             "Code: H7-CS2-22<br/>Prerequisite: H7-CS1-22<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: H7-CS2-22<br/>Prerequisite: H7-CS1-22<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             "Culinary and Nutrition Studies 2 module builds on foundational culinary skills, focusing on advanced cooking techniques and specialized dietary needs. It emphasizes creating nutritious meals for specific populations, such as those with allergies, intolerances, or medical conditions. Students gain expertise in menu design, food preparation, and nutritional analysis.",
 //         },
 //         {
 //           question: "Food and Beverages Studies",
 //           subanswer:
-//             "Code: H7-FBS-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: H7-FBS-22<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             "Food and Beverage Studies module provides students with a comprehensive understanding of food and drink management in the hospitality industry. It covers menu planning, service techniques, cost control, hygiene, and customer service. Students gain practical knowledge to enhance dining experiences and manage food and beverage operations efficiently.",
 //         },
 //         {
 //           question: "Tourism and Hospitality laws and Ethics",
 //           subanswer:
-//             "Code: H7-THL-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: H7-THL-22<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             "Tourism and Hospitality Law and Ethics module introduces students to legal and ethical principles governing the hospitality and tourism industry. It covers contracts, liability, consumer rights, employment laws, and ethical decision-making. Students learn to navigate legal frameworks, uphold industry standards, and ensure responsible business practices.",
 //         },
 //         {
 //           question: "Accomodation and Management",
 //           subanswer:
-//             "Code: H7-ACM-22<br/>Prerequisite: H7-HKP-22<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: H7-ACM-22<br/>Prerequisite: H7-HKP-22<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             "Accommodation Management module equips students with the skills to oversee lodging operations in hotels, resorts, and other hospitality establishments. It covers front office coordination, housekeeping, guest relations, and revenue management. Students learn to optimize occupancy, maintain service quality, and ensure efficient, customer-focused accommodation services.",
 //         },
@@ -1335,35 +1335,35 @@ export const bbainbusinessmanagement = {
 //         {
 //           question: "Financial Accounting",
 //           subanswer:
-//             "Code: A7-FAC-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: A7-FAC-22<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             "Financial Accounting module equips students with essential accounting principles for recording, analysing, and reporting financial transactions. It covers financial statements, bookkeeping, budgeting, and regulatory compliance. Students develop the skills to interpret financial data, support decision-making, and ensure transparency in financial management within the hospitality and business sectors.",
 //         },
 //         {
 //           question: "Hospility Operations and Supply Chain",
 //           subanswer:
-//             "Code: H7-HOS-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: H7-HOS-22<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             "Hospitality Operations and Supply Chain module explores the management of hospitality services and the efficient flow of goods and resources. It covers procurement, inventory control, logistics, and service delivery. Students learn to optimize operations, reduce costs, and enhance service quality while ensuring smooth supply chain management in hospitality businesses.",
 //         },
 //         {
 //           question: "Marketing for Hospitality and Tourism ",
 //           subanswer:
-//             "Code: H7-MHT-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: H7-MHT-22<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             "Marketing for Hospitality and Tourism module equips students with essential marketing strategies tailored to the hospitality and tourism industry. It covers market research, consumer behavior, branding, digital marketing, and service promotion. Students learn to develop effective marketing campaigns to attract and retain customers in a competitive global market.",
 //         },
 //         {
 //           question: "Hospitality and Tourism Information",
 //           subanswer:
-//             "Code: H7-HTI-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: H7-HTI-22<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             "Hospitality Tourism Information module provides students with essential knowledge on information management systems used in the hospitality and tourism industry. It covers reservation systems, data analysis, customer relationship management, and digital tools. Students learn to utilize technology to enhance guest experiences, streamline operations, and support decision-making processes.",
 //         },
 //         {
 //           question: "Events Management",
 //           subanswer:
-//             "Code: H7-EVM-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: H7-EVM-22<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             "Events Management module equips students with the skills to plan, organize, and execute events in the hospitality and tourism industry. It covers event planning, budgeting, marketing, logistics, and risk management. Students learn to manage conferences, weddings, and corporate events while ensuring seamless execution and exceptional guest experiences.",
 //         },
@@ -1375,35 +1375,35 @@ export const bbainbusinessmanagement = {
 //         {
 //           question: "Research Proposal Writing",
 //           subanswer:
-//             "Code: H8-PRI-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+//             "Code: H8-PRI-22<br/>Module Fees: $130<br/>Module Credits: 10",
 //           answer:
 //             "Project 1 is a Research Proposal module that equip students with the skills to develop a structured research plan. It covers problem identification, literature review, research design, and methodology. Students learn to formulate clear objectives, justify their study, and outline data collection methods, preparing them for successful research project execution.",
 //         },
 //         {
 //           question: "Strategic Management",
 //           subanswer:
-//             "Code:B7-STM-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+//             "Code:B7-STM-20<br/>Module Fees: $260<br/>Module Credits: 20",
 //           answer:
 //             "Strategic Management module equips students with the skills to analyze, formulate, and implement business strategies in the business management landscape. It focuses on competitive analysis, decision-making, resource management, and sustainability. Students learn to develop strategic plans that enhance organizational performance and long-term success in a dynamic business environment.",
 //         },
 //         {
 //           question: "Quality Systems for the Hospitality Industry",
 //           subanswer:
-//             "Code: H7-QSH-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: H7-QSH-22<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             "Quality Systems for Hospitality Industry module focuses on implementing and managing quality assurance frameworks to enhance service excellence. It covers industry standards, customer satisfaction, continuous improvement, and regulatory compliance. The module equips learners with skills to maintain high operational standards, ensuring efficiency, guest satisfaction, and business success in hospitality.",
 //         },
 //         {
 //           question: "Destination Management",
 //           subanswer:
-//             "Code: H7-DTM-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: H7-DTM-22<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             "The Destination Management module explores strategies for developing, marketing, and sustaining tourist destinations. It covers stakeholder collaboration, tourism planning, visitor experience enhancement, and sustainability practices. Learners gain insights into managing destinations effectively, balancing economic growth with environmental and cultural preservation to create competitive, appealing, and sustainable tourism experiences.",
 //         },
 //         {
 //           question: "French",
 //           subanswer:
-//             "Code: D7-FRE-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: D7-FRE-22<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             "The French module aims to develop essential language skills for communication in hospitality and tourism. It covers basic vocabulary, grammar, and conversational phrases relevant to customer service. Learners gain cultural awareness and practical language proficiency, enabling them to interact effectively with French-speaking guests and enhance their professional opportunities.",
 //         },
@@ -1416,14 +1416,14 @@ export const bbainbusinessmanagement = {
 //         {
 //           question: "Project 2 - Dissertation",
 //           subanswer:
-//             "Code: H8-PR2-17<br/>Prerequisite: H8-PR1-17<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+//             "Code: H8-PR2-17<br/>Prerequisite: H8-PR1-17<br/>Module Fees: $260<br/>Module Credits: 20",
 //           answer:
 //             "Research Project 2 module enables students to apply research methodologies to investigate a hospitality or tourism-related topic. It develops critical thinking, analytical, and problem-solving skills through data collection, analysis, and report writing. Students gain hands-on experience in conducting independent research, preparing them for academic and professional pursuits.",
 //         },
 //         {
 //           question: "Entrepreneurship and Innovation",
 //           subanswer:
-//             "Code: B8-ENI-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+//             "Code: B8-ENI-20<br/>Module Fees: $260<br/>Module Credits: 20",
 //           answer:
 //             "This module equips students with the skills to generate innovative ideas, identify business opportunities, and manage new ventures. It covers entrepreneurship, idea generation, innovation management, intellectual property rights, and creativity in business. Students will learn to build an entrepreneurial culture that fosters innovation and drives sustainable business growth.",
 //         },
@@ -1435,28 +1435,28 @@ export const bbainbusinessmanagement = {
 //         {
 //           question: "Cultural Tourism",
 //           subanswer:
-//             "Code: H7-CLT-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: H7-CLT-22<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             "Cultural Tourism module explores the role of culture in tourism, focusing on heritage, traditions, and local experiences. It covers cultural site management, community involvement, and sustainable tourism practices. Students learn to promote and preserve cultural assets while creating enriching tourism experiences that benefit both visitors and host communities.",
 //         },
 //         {
 //           question: "Risk,Cris and Disaster Management",
 //           subanswer:
-//             "Code: H7-RCD-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: H7-RCD-22<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             "Risk, Crisis, and Disaster Management module equips students with skills to identify, assess, and manage risks in the hospitality and tourism industry. It covers crisis preparedness, emergency response, and business continuity planning. Students learn to develop strategies for minimizing disruptions and ensuring safety in unpredictable situations.",
 //         },
 //         {
 //           question: "Hospitality and Tourism Distribution",
 //           subanswer:
-//             "Code: H7-HTD-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: H7-HTD-22<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             "Hospitality and Tourism Distribution module explores the channels and systems used to deliver tourism and hospitality products to consumers. It covers travel agencies, online booking platforms, global distribution systems, and supply chain management. Students learn to optimize distribution strategies, enhance market reach, and improve customer accessibility to services.",
 //         },
 //         {
 //           question: "Ethics and Sustainability",
 //           subanswer:
-//             "Code: H7-EST-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 15",
+//             "Code: H7-EST-22<br/>Module Fees: $195<br/>Module Credits: 15",
 //           answer:
 //             "Ethics and Sustainability module equips students with knowledge of ethical decision-making and sustainable practices in hospitality and tourism. It covers corporate social responsibility, environmental conservation, and ethical business operations. Students learn to implement responsible strategies that balance profitability with social and environmental well-being for long-term industry sustainability.",
 //         },
@@ -1468,7 +1468,7 @@ export const bbainbusinessmanagement = {
 //         {
 //           question: "Professional Practice in Business",
 //           subanswer:
-//             "Code: B7-PPB-20<br/>Prerequisite: 240 Credits<br/>Co-requisite: None<br/>Module Fees: $520<br/>Module Credits: 40",
+//             "Code: B7-PPB-20<br/>Prerequisite: 240 Credits<br/>Module Fees: $520<br/>Module Credits: 40",
 //           answer:
 //             "The Professional Practice / Hospitality Internship module provides hands-on industry experience, allowing learners to apply theoretical knowledge in real-world hospitality settings. It enhances practical skills, professionalism, and problem-solving abilities while fostering industry connections. The module prepares students for career readiness, boosting confidence and employability in the hospitality sector.",
 //         },
@@ -1636,7 +1636,7 @@ export const mcominhumanresourcemanagement = {
         // {
         //   question: "Cross Cultural Management",
         //   subanswer:
-        //     "Code: B9-CCM-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+        //     "Code: B9-CCM-22<br/>Module Fees: $195<br/>Module Credits: 10",
         //   answer:
         //     "Cross-Cultural Management module assists students to explore cultural diversity, global business practices, and leadership across cultures. The module equips students effective communication, conflict resolution, and team collaboration in multicultural environments. The module seeks to develop strategies to navigate cultural differences and drive success in today’s interconnected and international business landscape.",
         // },
@@ -1655,14 +1655,14 @@ export const mcominhumanresourcemanagement = {
         {
           question: "Counselling and Coaching at the Workplace",
           subanswer:
-            "Code: B9-CCW-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+            "Code: B9-CCW-22<br/>Module Fees: $195<br/>Module Credits: 10",
           answer:
             "This module develops skills in workplace counselling and coaching to strengthen relationships and address challenges. Learners gain strategies to support employees, resolve issues, and improve behaviours, fostering an engaged, productive, and motivated workforce while avoiding common coaching pitfalls.",
         },
         // {
         //   question: "Managing Equality and Diversity",
         //   subanswer:
-        //     "Code: B9-MED-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+        //     "Code: B9-MED-22<br/>Module Fees: $195<br/>Module Credits: 10",
         //   answer:
         //     "Foster an inclusive workplace with our Managing Equality and Diversity module. Explore key concepts of equality, diversity, and inclusion, learn to identify and challenge inappropriate behaviors, and understand individual needs. The module assists students in formulating legal frameworks and implement effective strategies to create a respectful, fair, and diverse work environment that drives innovation and success.",
         // },
@@ -1684,7 +1684,7 @@ export const mcominhumanresourcemanagement = {
         // {
         //   question: "Climate Changes and Sustainability",
         //   subanswer:
-        //     "Code: B9-CCS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+        //     "Code: B9-CCS-23<br/>Module Fees: $195<br/>Module Credits: 10",
         //   answer:
         //     "Climate Change and Sustainability module expose students to by climate economics, policies, and governance for sustainable development. Students are further exposed to responsible leadership, environmental management, and climate risk planning. Students expected to discover strategies for climate justice, resilience, and effective communication in dynamic and sustainable environments.",
         // },
@@ -2254,35 +2254,35 @@ export const bscinhealthinformationmanagement = {
         {
           question: "Computer and its Essentials 1",
           subanswer:
-            "Code: C5-CE1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C5-CE1-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module provides a foundational understanding of computers and their essentials, covering basic functions, hardware and software components, and how they operate. It explores the history and evolution of computers and data processing. Students will learn about Microsoft Office, with an emphasis on Microsoft Word and PowerPoint. Through hands-on activities and assessments, learners will develop a comprehensive understanding of computer essentials.",
         },
         {
           question: "Academic Writing for STEM",
           subanswer:
-            "Code: D6-AWS-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-AWS-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The purpose of this module is to equip students with essential skills in academic writing, focusing on clear and structured communication in the STEM fields. The module covers citation and referencing techniques, as well as research writing skills, enabling students to effectively present and support their academic work.",
         },
         {
           question: "Introduction to Anatomy and Physiology",
           subanswer:
-            "Code: D6-IAP-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: D6-IAP-21<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "The purpose of this module is to equip students with a foundational understanding of human anatomy and physiology. It focuses on system-wide concepts, enabling students to connect these concepts with terminology used in disease coding and transcription, thus providing essential knowledge for healthcare-related fields.",
         },
         {
           question: "Business Management 1",
           subanswer:
-            "Code: B5-BM1-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B5-BM1-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces business management as a discipline, addressing core concepts, economic systems, and stakeholder roles. It examines the business environment, management functions, and key areas including operations, finance, human resources, and marketing. Leadership principles and theories are explored to build a foundation for sound business strategy and decision-making.",
         },
         {
           question: "Law and HIM Practice",
           subanswer:
-            "Code: D6-LHP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-LHP-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The purpose of this module is to provide students with a comprehensive understanding of health law, the legal system, and its application in healthcare settings. Topics include the role of health professionals in managing legal risks, ethical issues in the workplace, and resolving medico-legal problems effectively.",
         },
@@ -2294,35 +2294,35 @@ export const bscinhealthinformationmanagement = {
         {
           question: "Computer and its Essentials 2",
           subanswer:
-            "Code: C6-CE2-20<br/>Prerequisite: C5-CE1-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: C6-CE2-20<br/>Prerequisite: C5-CE1-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module builds on foundational computing skills, equipping students with advanced capabilities in Microsoft Excel and Google collaboration tools. It covers key spreadsheet functionalities, including data organisation, advanced formulas, chart creation, and data analysis using pivot tables. Additionally, students will explore Google Docs, Spreadsheets, Forms, and Drive to enhance online collaboration and information sharing.",
         },
         {
           question: "Business Management 2",
           subanswer:
-            "Code: B6-BM2-20<br/>Prerequisite: B5-BM1-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B6-BM2-20<br/>Prerequisite: B5-BM1-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module provides a foundation in management principles, addressing managerial roles, strategic planning, decision-making, and organisational structures. It explores human resource management, change management, diversity, and logistics. Emphasis is placed on adapting to environmental shifts, utilising information systems, and developing skills for sustainable competitive advantage in contemporary business contexts.",
         },
         {
           question: "Introduction to Pathology and Pharmacology",
           subanswer:
-            "Code: D6-IPP-21<br/>Prerequisite: D6-IAP-21<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: D6-IPP-21<br/>Prerequisite: D6-IAP-21<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "The purpose of this module is to provide foundational knowledge on the pharmacology of drugs and the pathology of diseases. It explores the role of drugs in modern medicine, linking this understanding to the essential knowledge needed for accurate coding of drugs and diseases in healthcare.",
         },
         {
           question: "Principles of Marketing",
           subanswer:
-            "Code: B5-PMK-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B5-PMK-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces the fundamentals of marketing, covering the 7 P’s, consumer behaviour, and decision-making processes. It examines market research, segmentation, and targeting strategies, alongside product development, pricing, and promotion. Students gain essential skills to apply marketing principles effectively in dynamic and competitive business environments.",
         },
         {
           question: "Health Ethics",
           subanswer:
-            "Code: D6-HET-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-HET-21<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The purpose of this module is to provide students with an understanding of medical ethics and the legal aspects surrounding healthcare practices. It focuses on promoting good ethical practices, particularly in the handling of patient-related data, ensuring confidentiality, respect, and compliance with legal standards in healthcare settings.",
         },
@@ -2335,35 +2335,35 @@ export const bscinhealthinformationmanagement = {
         {
           question: "Introduction to Medical Terminology",
           subanswer:
-            "Code: D6-IMT-21<br/>Prerequisite: D6-IPP-21<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: D6-IMT-21<br/>Prerequisite: D6-IPP-21<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "The purpose of this module is to provide students with a foundational understanding of medical terms used in healthcare. It covers terminology related to various disease conditions, as well as the musculoskeletal, respiratory, and digestive systems, enabling effective communication in medical and clinical settings.",
         },
         {
           question: "Basic Life Support and Emergency Care",
           subanswer:
-            "Code: D5-BLS-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D5-BLS-21<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The purpose of this module is to equip learners with essential skills to respond effectively in emergency situations. It covers fundamental life-saving techniques, including first aid, and emergency response procedures, ensuring readiness to provide immediate care in critical situations.",
         },
         {
           question: "Introduction to E-Health",
           subanswer:
-            "Code: D5-IEH-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D5-IEH-21<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The purpose of this module is to provide an understanding of key e-health concepts, the integration of healthcare processes with information systems, and e-health implementation. It explores challenges in low-resource settings and examines current research trends, equipping students with essential knowledge for digital transformation in healthcare.",
         },
         {
           question: "Operations Management",
           subanswer:
-            "Code: B6-OPM-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B6-OPM-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The purpose of this module is to equip students with essential principles and techniques for efficient production and distribution of goods and services while minimising waste. It covers key areas such as product and service creation, purchasing, inventory management, quality control, logistics, and process evaluation to enhance operational efficiency.",
         },
         {
           question: "Medical Databases",
           subanswer:
-            "Code: D5-MDB-25<br/>Prerequisite: C6-CE2-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D5-MDB-25<br/>Prerequisite: C6-CE2-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The purpose of this module is to introduce students to medical databases, including SQL and OpenMRS. Students will learn how to design, manage, and analyse healthcare data, ensuring efficient storage and retrieval of patient records. The module emphasises data security, integrity, and compliance with healthcare standards.",
         },
@@ -2377,28 +2377,28 @@ export const bscinhealthinformationmanagement = {
         {
           question: "Introduction to Global Health",
           subanswer:
-            "Code: D5-IGH-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D5-IGH-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The purpose of this module is to explore global health strategies, financing, and implementation in today's world. It examines the socioeconomic and environmental determinants of health, highlighting their impact on communities. Students will gain insights into global health challenges and solutions for improving health outcomes worldwide.",
         },
         {
           question: "Epidemiology",
           subanswer:
-            "Code: D6-EPI-13<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: D6-EPI-13<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "The purpose of this module is to equip students with essential skills to study disease patterns and risks. It covers measures of disease occurrence, study design, clinical test accuracy, epidemiological analysis methods, and research ethics, enabling students to critically evaluate public health data and contribute to disease prevention and control.",
         },
         {
           question: "Medical Transcription",
           subanswer:
-            "Code: D6-ITR-25<br/>Prerequisite: D6-IMT-21<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-ITR-25<br/>Prerequisite: D6-IMT-21<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The purpose of this module is to equip students with the skills to accurately transcribe dictated patient records and edit transcribed files. Emphasis is placed on practical transcribing, ensuring proficiency in medical documentation, terminology, and formatting to maintain accuracy and professionalism in healthcare communication.",
         },
         {
           question: "Computing in Health Administration",
           subanswer:
-            "Code: D6-CHA-25<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-CHA-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The purpose of this module is to equip students with the skills to use technology in managing health-related data. It covers Medical Decision Support Systems, Clinical Decision Support Systems, Natural Language Processing, and Weka for predictive risk analysis using machine learning, concept learning, training, and classification.",
         },
@@ -2410,14 +2410,14 @@ export const bscinhealthinformationmanagement = {
         {
           question: "Introduction to Financial Accounting",
           subanswer:
-            "Code: A5-IFA-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: A5-IFA-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module provides a foundational understanding of financial accounting principles and techniques. Students will be introduced to accounting, financial record preparation, and adjustments aligned with international accounting standards. Emphasising error analysis and financial reporting, the module equips students with essential skills to manage financial records and support informed business decision-making.",
         },
         {
           question: "Fundamentals of Financial Management",
           subanswer:
-            "Code: B5-FFM-25<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B5-FFM-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The purpose of this module is to equip students with the skills to prepare, analyse, and interpret financial information essential for decision-making, planning, and resource management in healthcare organisations. It focuses on understanding financial data to effectively manage and control resources.",
         },
@@ -2430,28 +2430,28 @@ export const bscinhealthinformationmanagement = {
         {
           question: "Biostatistics",
           subanswer:
-            "Code: D7-BIO-23<br/>Prerequisite: D6-EPI-13<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: D7-BIO-23<br/>Prerequisite: D6-EPI-13<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "The purpose of the module is to provide students with the foundational knowledge and skills in statistical methods used in the field. It covers data analysis, probability, statistical inference, and the application of statistical tools to interpret biological and medical research effectively.",
         },
         {
           question: "Procurement and Tender Management",
           subanswer:
-            "Code: B6-PTM-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B6-PTM-21<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The purpose of the module is to develop a deeper understanding and expertise in procurement and tender management. It focuses on the factors influencing the procurement and tender processes and critically assesses their role in improving the performance of small businesses.",
         },
         {
           question: "Data Management and Information Governance",
           subanswer:
-            "Code: D7-DMI-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: D7-DMI-23<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "The purpose of the module to equip students with knowledge of data governance principles, focusing on confidentiality, data protection, subject access requests, and freedom of information. This module aims to ensure students understand the legal and ethical responsibilities related to managing and safeguarding data effectively.",
         },
         {
           question: "Principles of Community Health",
           subanswer:
-            "Code: D6-PCM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-PCM-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The purpose of the module is to provide students with an understanding of the key concepts and strategies in promoting and improving community health. It covers topics such as health promotion, disease prevention, and the role of social determinants in influencing public health outcomes.",
         },
@@ -2463,28 +2463,28 @@ export const bscinhealthinformationmanagement = {
         {
           question: "Health Information Systems",
           subanswer:
-            "Code: D7-HIS-21<br/>Prerequisite: D7-DMI-23<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: D7-HIS-21<br/>Prerequisite: D7-DMI-23<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "The purpose of the module is to equip students with knowledge and skills in collection, storage, retrieval, communication, and use of health-related data. It covers computer literacy, information systems literacy, and defines key terms related to information systems, while also identifying the essential components of health information systems.",
         },
         {
           question: "Fundamentals of Health Insurance",
           subanswer:
-            "Code: D6-FHI-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-FHI-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The purpose of the module is to provide an in-depth understanding of key aspects of health insurance, including its history, major insurance industries, and the coding systems used within the sector. It aims to equip students with foundational knowledge to navigate and analyze the health insurance industry effectively.",
         },
         {
           question: "Disease Coding",
           subanswer:
-            "Code: D7-DCO-13<br/>Prerequisite: D6-IMT-21<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: D7-DCO-13<br/>Prerequisite: D6-IMT-21<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "The purpose of the module is to provide students with a comprehensive understanding of ICD-10 diagnostic and procedural coding conventions and guidelines. It covers coding for inpatient, outpatient, and ambulatory care settings, equipping students with the skills needed to accurately assign codes for various medical conditions and procedures.",
         },
         {
           question: "Research Methods",
           subanswer:
-            "Code: D7-RME-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-RME-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The purpose of the module is to equip students with a comprehensive understanding of quantitative, qualitative, and systematic review methodologies. Students will learn to critically read and analyze health sciences literature, gaining the skills to evaluate research studies and apply appropriate methodologies.",
         },
@@ -2497,21 +2497,21 @@ export const bscinhealthinformationmanagement = {
         {
           question: "Health Information Risk Management",
           subanswer:
-            "Code: D7-HIR-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-HIR-21<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The purpose of the module is to explore key risk management concepts within the healthcare sector. It covers medical malpractice, strategies for reducing liability, and effective approaches to managing potential risks. Additionally, the module examines litigation alternatives to enhance organizational resilience and mitigate legal challenges in healthcare settings.",
         },
         {
           question: "Entrepreneurship and Innovation",
           subanswer:
-            "Code: B8-ENI-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: B8-ENI-20<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "The purpose of the Entrepreneurship and Innovation module is to equip students with the knowledge and skills necessary to understand entrepreneurial processes and behaviors. It explores the fundamentals of entrepreneurship, including the creation and development of business ideas, and the essential steps in crafting a comprehensive business plan for successful ventures.",
         },
         {
           question: "Research Project 1 (Proposal)",
           subanswer:
-            "Code: D7-RPP-25<br/>Prerequisite: D7-RME-23<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-RPP-25<br/>Prerequisite: D7-RME-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The purpose of the module is to equip students with the essential skills to write comprehensive research proposals. This includes formulating research questions, reviewing literature, developing a methodology, and presenting a clear plan for investigation. The module focuses on structured writing and critical thinking in research proposal development.",
         },
@@ -2524,21 +2524,21 @@ export const bscinhealthinformationmanagement = {
         {
           question: "Health Economics",
           subanswer:
-            "Code: D7-HEC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-HEC-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The purpose of this module is to equip students with the fundamental principles and tools used in health economics. It provides a comprehensive understanding of how economic principles can be applied to healthcare systems, including cost-effectiveness analysis, resource allocation, and the economic evaluation of health interventions.",
         },
         {
           question: "Project Management",
           subanswer:
-            "Code: B7-PRM-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B7-PRM-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "The purpose of this module is to equip students with the skills and knowledge necessary for effective project planning and control. It covers various tools and techniques for managing projects efficiently, including the use of Microsoft Project scheduling software.",
         },
         {
           question: "Human Resource Management",
           subanswer:
-            "Code: B7-HRM-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: B7-HRM-20<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces Human Resource Management (HRM) in organisations, focusing on managing human capital strategically. Students will learn HR practices like recruitment, development, employee relations, and health and safety. They will also explore union roles, human capital development, and HR policies to drive organisational success and maintain a safe, productive workplace.",
         },
@@ -2550,14 +2550,14 @@ export const bscinhealthinformationmanagement = {
         {
           question: "Professional Practice in HIM",
           subanswer:
-            "Code: D7-PPR-21<br/>Prerequisite: 240 credits<br/>Co-requisite: None<br/>Module Fees: $520<br/>Module Credits: 40",
+            "Code: D7-PPR-21<br/>Prerequisite: 240 credits<br/>Module Fees: $520<br/>Module Credits: 40",
           answer:
             "The purpose of this module is to provide students with the necessary skills and knowledge to excel in the field of Health Information Management (HIM). It focuses on the ethical, legal, and practical aspects of HIM practice, emphasising professional conduct, data management, and healthcare regulations.",
         },
         {
           question: "Research Project 2 (Dissertation)",
           subanswer:
-            "Code: D8-RPD-25<br/>Prerequisite: D7-BIO-23, D7-RPP-25<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: D8-RPD-25<br/>Prerequisite: D7-BIO-23, D7-RPP-25<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
             "The purpose of this module is to guide students through the process of conducting independent research, building on the knowledge gained from the research proposal. Students will refine their research questions, collect data, analyse results, and present findings, developing critical thinking and research skills essential for academic and professional success.",
         },
@@ -3481,7 +3481,7 @@ export const bedinprimaryeducation = {
         {
           question: "Computer Skills Fundamentals",
           subanswer:
-            "Code: D5-CSF-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits: 20",
+            "Code: D5-CSF-23<br/>Module Fees: $260.00<br/>Module Credits: 20",
           answer:
             "This module introduces basic computer concepts essential for primary school teaching, learning, and everyday life. Learners explore key terminology, use Microsoft Windows, and manage files and folders. It also covers fundamental features of MS Office applications – Word, Excel, Outlook, PowerPoint, and Access – equipping learners with practical digital skills.",
         },
@@ -3568,7 +3568,7 @@ export const bedinprimaryeducation = {
         {
           question: "Introductory Mathematics",
           subanswer:
-            "Code: D6-ITM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260.00<br/>Module Credits:20",
+            "Code: D6-ITM-23<br/>Module Fees: $260.00<br/>Module Credits:20",
           answer:
             "This module provides a solid foundation in core mathematical concepts, essential for applying mathematics across subjects. It develops basic mathematical skills and introduces their practical application in diverse problem-solving contexts.",
         },
@@ -3644,21 +3644,21 @@ export const bedinprimaryeducation = {
         {
           question: "Counselling over a Life Span",
           subanswer:
-            "Code: D6-COL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-COL-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with the knowledge and skills to provide counselling services to clients. It covers key aspects, including attachment, school adjustment, social skills, identity formation, peer relationships, emotional regulation, and risk behaviours, preparing teachers to support learners’ personal and social development effectively.",
         },
         {
           question: "Foundations of Early Childhood Education",
           subanswer:
-            "Code: D6-FEC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-FEC-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces student teachers to essential principles, knowledge, and practices for effective teaching and learning of young children from birth to age eight. It covers child development, learning theories, supportive environments, curriculum design, and pedagogy to enhance early childhood education.",
         },
         {
           question: "Foundations of Environmental Education",
           subanswer:
-            "Code: D6-FEE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-FEE-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module enables student teachers to explore environmental issues and create awareness to address related problems. It examines human interaction with the environment, covering topics such as climate change, pollution, sustainability, environmental health, and waste management to promote informed and responsible practices.",
         },
@@ -3672,21 +3672,21 @@ export const bedinprimaryeducation = {
         {
           question: "Practitioner Research",
           subanswer:
-            "Code: D7-PRE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-PRE-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces student teachers to practice-based research aimed at enhancing teaching and learning. It equips them with the knowledge, skills, and competences necessary to improve their professional practice as primary school educators.",
         },
         {
           question: "Human Growth and Development",
           subanswer:
-            "Code: D7-HGD-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-HGD-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module examines aspects of human growth and development, including physical, cognitive, emotional, social, and moral changes across the lifespan, and their educational implications. Stages covered include infancy, childhood, adolescence, and adulthood.",
         },
         {
           question: "Assessment in Primary Schools",
           subanswer:
-            "Code: D7-APS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-APS-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module develops learners’ theoretical knowledge and skills in understanding and applying assessment principles. It focuses on using these principles effectively to assess primary science learning, ensuring meaningful evaluation of student progress and achievement.",
         },
@@ -3694,14 +3694,14 @@ export const bedinprimaryeducation = {
           question:
             "Information and Communication Technology Application in Schools",
           subanswer:
-            "Code: D7-ICT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-ICT-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with the skills and competences to apply information technologies in teaching 21st-century learners.",
         },
         {
           question: "Strategies for Teaching Literacy in Schools",
           subanswer:
-            "Code: D6-STL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-STL-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with strategies for teaching literacy across the curriculum using thematic and pedagogical approaches. Learners develop skills to integrate literacy into daily activities and design instruction with informative, narrative, and persuasive texts, supported by key theories of literacy acquisition and contextual understanding.",
         },
@@ -3713,7 +3713,7 @@ export const bedinprimaryeducation = {
         {
           question: "Poetry of Southern Africa",
           subanswer:
-            "Code: D7-PSA-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-PSA-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores the role of poetry in fostering language, creativity, emotional intelligence, and critical thinking. Student teachers learn how poetry enhances teaching and learning, particularly at the primary school level, and master its benefits as an educational tool.",
         },
@@ -3725,7 +3725,7 @@ export const bedinprimaryeducation = {
         {
           question: "Teaching Methods for Mathematics in Primary Schools",
           subanswer:
-            "Code: D7-TMM-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-TMM-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces effective teaching strategies and techniques for primary school mathematics, exploring appropriate pedagogies, purposes, scope, sequence, materials, and methodologies. It supports students in meeting essential requirements for primary teaching through the development of practical, evidence-based skills for effective mathematics instruction and learning.",
         },
@@ -3737,7 +3737,7 @@ export const bedinprimaryeducation = {
         {
           question: "Listening, Composing and Performing",
           subanswer:
-            "Code: D6-LCP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-LCP-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores the core processes of music engagement – listening, composing, and performing. Student teachers examine how these activities are interconnected and the role of music education in enhancing learning at the primary school level.",
         },
@@ -3745,7 +3745,7 @@ export const bedinprimaryeducation = {
           question:
             "Organisation and Administration of Physical Education and Sports",
           subanswer:
-            "Code: D6-AOP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-AOP-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with the knowledge, skills, and competences for effective organisation and management of physical education and sports. It covers leadership qualities and key functions – planning, organising, staffing, directing, coordinating, controlling, evaluating, and innovating – to deliver efficient, high-quality physical activity programmes.",
         },
@@ -3753,7 +3753,7 @@ export const bedinprimaryeducation = {
           question:
             "Practical Art, Craft and Design Methods and Materials for Schools",
           subanswer:
-            "Code: D6-PAC-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-PAC-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces primary education student teachers to the importance of arts, crafts, and design methods for effective teaching and learning. Topics include drawing, painting, sculpture, printmaking, product design, and clay modelling, with opportunities to apply theoretical knowledge through practical activities.",
         },
@@ -3767,7 +3767,7 @@ export const bedinprimaryeducation = {
         {
           question: "Instructional Materials",
           subanswer:
-            "Code: D7-IMP-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-IMP-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips learners with the knowledge and skills to design, develop, evaluate, and use instructional materials that enhance teaching and learning experiences.",
         },
@@ -3775,28 +3775,28 @@ export const bedinprimaryeducation = {
           question:
             "Education for Children with Attention Deficit Hyper Disorder",
           subanswer:
-            "Code: D7-ECD-25<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-ECD-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with the knowledge, skills, and competences to effectively support and facilitate learning for children with Attention Deficit Hyperactivity Disorder (ADHD).",
         },
         {
           question: "Infusing Environmental Education in the Curriculum",
           subanswer:
-            "Code: D7-IEE-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-IEE-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module enables learners to understand how their decisions and actions affect the environment. It builds skills to address complex environmental issues and explores practical ways to promote a healthy, sustainable future.",
         },
         {
           question: "Characteristics of Human Language",
           subanswer:
-            "Code: D7-CHL-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-CHL-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with the skills and competences to understand and express the characteristics of human language. It analyses topics such as arbitrariness, productivity, creativity, duality of patterning, cultural transmission, and interchangeability.",
         },
         {
           question: "Conducting Remedial Teaching in Schools",
           subanswer:
-            "Code: D7-CRT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-CRT-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module develops theoretical knowledge in selecting suitable teaching approaches, methods, techniques, and strategies for effectively planning and delivering remedial classes in primary schools.",
         },
@@ -3808,7 +3808,7 @@ export const bedinprimaryeducation = {
         {
           question: "Theory and Practice of Second Language Teaching",
           subanswer:
-            "Code: D7-TPS-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-TPS-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces key theories of second language acquisition, enabling learners to apply effective classroom teaching strategies. It also examines challenges in second language learning and guides learners in designing interventions to support student progress.",
         },
@@ -3820,7 +3820,7 @@ export const bedinprimaryeducation = {
         {
           question: "Geometry for Primary School Teachers",
           subanswer:
-            "Code: D7-GPT-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-GPT-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module explores the combinatorial properties of geometric objects – point sets, subspace arrangements, convex polytopes, and geometric graphs – introducing fundamental concepts, key structures, and selected results in the field.",
         },
@@ -3832,7 +3832,7 @@ export const bedinprimaryeducation = {
         {
           question: "Multicultural Counselling",
           subanswer:
-            "Code: D7-MCC-25<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-MCC-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces student teachers to multicultural counselling, focusing on how culture influences mental health and well-being. Using a therapeutic approach, it covers cultural awareness, cultural sensitivity, gender, race, socio-economic background, cultural competence, and strategies for addressing systemic issues.",
         },
@@ -3840,14 +3840,14 @@ export const bedinprimaryeducation = {
           question:
             "Appropriate Art, Craft and Design Methods and Materials for School",
           subanswer:
-            "Code: D7-ACD-25<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-ACD-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module introduces primary school student teachers to appropriate art, craft, and design methods and materials for effective teaching and learning. It covers drawing, painting, collage, simple sculpture, and textile work, fostering creativity in the classroom.",
         },
         {
           question: "Motor Learning and Human Performance",
           subanswer:
-            "Code: D7-MLH-25<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-MLH-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module equips student teachers with the knowledge and skills to master motor skills essential for physical activity, development, and well-being. Topics include motor skill acquisition, practice methods, feedback, cognitive factors, and individual differences.",
         },
@@ -3868,7 +3868,7 @@ export const bedinprimaryeducation = {
         {
           question: "Managing Education for Sustainable Development",
           subanswer:
-            "Code: D6-MES-23<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D6-MES-23<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module fosters appreciation and respect for nature, raising awareness of environmental issues affecting communities and the world. It promotes understanding of the relationship between individuals, society, and the environment, equipping learners with knowledge and skills for sustainable and harmonious human–environment interaction.",
         },
@@ -4025,21 +4025,21 @@ export const bedinprimaryeducation = {
         {
           question: "Consultations in Schools and Community Settings",
           subanswer:
-            "Code: D7-CSC-25<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-CSC-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module highlights the importance of school–community relations. It examines how counsellors or psychologists work with teachers and parents to address learner issues. Topics include consultation, consultative services, collaboration, and building partnerships between schools and communities to support student development and well-being.",
         },
         {
           question: "Theory of Moral Education",
           subanswer:
-            "Code: D7-TME-25<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-TME-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This module examines the role of moral education in shaping learners’ character at the primary school level. Topics include morality in educational settings, moral formation, moral inquiries, moral education theories, and the overall importance of moral education.",
         },
         {
           question: "Scientific Basis of Coaching and Officiating",
           subanswer:
-            "Code: D7-SBC-25<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+            "Code: D7-SBC-25<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
             "This physical education module introduces student teachers to the theory and practice of physical activities and athletic performance. Topics include coaching, kinesiology, physiology, motor learning, sports psychology, cognitive science, psychology of officiating, ethics and integrity, communication, integration, and mental skills training.",
         },
@@ -4606,7 +4606,7 @@ export const medincurriculumdesignandinstruction = {
         // {
         //   question: "Virtual Learning in Instruction",
         //   subanswer:
-        //     "Code: D9-VLI-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+        //     "Code: D9-VLI-22<br/>Module Fees: $195<br/>Module Credits: 10",
         //   answer:
         //     "This module provides a critical understanding of digital teaching and learning. It explores how to redesign content for virtual delivery and highlights the flexibility of online education. Learners examine the use of synchronous and asynchronous methods to support effective, accessible, and engaging learning for both educators and students.",
         // },
@@ -4639,7 +4639,7 @@ export const medincurriculumdesignandinstruction = {
         // {
         //   question: "Assessment and Moderation in Outcomes-based Education",
         //   subanswer:
-        //     "Code: D9-ABE-22<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+        //     "Code: D9-ABE-22<br/>Module Fees: $195<br/>Module Credits: 10",
         //   answer:
         //     "This module enables learners to demonstrate a critical understanding of assessment and moderation within Outcomes Based Education (OBE). It equips them to apply OBE principles in teaching, learning, and evaluation, fostering competence in contemporary educational practice.",
         // },
@@ -5208,7 +5208,7 @@ export const medinhighereducation = {
         // {
         //   question: "Research in Higher Education",
         //   subanswer:
-        //     "Code: D9-RHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390.00<br/>Module Credits: 20",
+        //     "Code: D9-RHE-24<br/>Module Fees: $390.00<br/>Module Credits: 20",
         //   answer:
         //     "This module equips a learner with lifelong research skills that will empower them to continually seek and apply new knowledge throughout their career.",
         // },
@@ -5253,21 +5253,21 @@ export const medinhighereducation = {
     //     {
     //       question: "Quality Framework in Higher Education",
     //       subanswer:
-    //         "Code: D9-QHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+    //         "Code: D9-QHE-24<br/>Module Fees: $195.00<br/>Module Credits: 10",
     //       answer:
     //         "This module aims to give tutors a critical understanding of international quality assurance methodologies, and the ability to place the Quality Frameworks in Botswana and Partner Institutions within this context; to enable tutors to understand the implications for curriculum design and delivery.",
     //     },
     //     {
     //       question: "Globalisation in Higher Education",
     //       subanswer:
-    //         "Code: D9-GHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+    //         "Code: D9-GHE-24<br/>Module Fees: $195.00<br/>Module Credits: 10",
     //       answer:
     //         "This module will expose the learner to issues of globalization in higher education and the strategies used by higher education institutions to respond to these. Students will study conceptual frameworks linking higher education institutions to economic competitiveness in a global economy and critically analyse recent national and international reports on this topic.",
     //     },
     //     {
     //       question: "Contemporary Issues in Higher Education",
     //       subanswer:
-    //         "Code: D9-CHE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195.00<br/>Module Credits: 10",
+    //         "Code: D9-CHE-24<br/>Module Fees: $195.00<br/>Module Credits: 10",
     //       answer:
     //         "The module will enable learners to explore the current issues affecting Higher Education and strategies of addressing the challenges. It is essential that learners will be equipped with salient professional knowledge of contemporary educational issues. In addition, analyse and critically reflect on the challenges and potentialities at institutional and individual levels.",
     //     },
@@ -5293,7 +5293,7 @@ export const medinhighereducation = {
         // {
         //   question: "Assessment and Moderation in Outcomes-based Education",
         //   subanswer:
-        //     "Code: D9-ABE-24<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $195<br/>Module Credits: 10",
+        //     "Code: D9-ABE-24<br/>Module Fees: $195<br/>Module Credits: 10",
         //   answer:
         //     "This module equips learners with theoretical and practical skills for conducting assessment and moderation based on Outcomes-Based Education (OBE). It emphasises learner-centred approaches, enabling educators to apply OBE principles effectively in teaching, learning, assessment, and moderation within educational institutions.",
         // },
@@ -5637,7 +5637,7 @@ export const mscincomputerscience = {
         {
           question: "Algorithms and Data Structures",
           subanswer:
-            "Code: C9-ADS-25<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $390<br/>Module Credits: 20",
+            "Code: C9-ADS-25<br/>Module Fees: $390<br/>Module Credits: 20",
           answer:
             "This module enhances students' problem-solving abilities by introducing key algorithms and data structures. It empowers students to solve simple problems, apply advanced techniques, and improve their programming skills. Students will evaluate algorithms, analyse time and space complexities, and select appropriate data structures to design solutions for various problems.",
         },
@@ -6074,7 +6074,7 @@ export const bcominaccounting = {
         // {
         //   question: "Computerized Auditing",
         //   subanswer:
-        //     "Code: A7-CUA-20<br/>Prerequisite: A6-ASS-20<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+        //     "Code: A7-CUA-20<br/>Prerequisite: A6-ASS-20<br/>Module Fees: $130<br/>Module Credits: 10",
         //   answer:
         //     "This module introduces students to computer auditing, covering key aspects such as tests of control and substantive procedures in computerized information systems. It explores computer-assisted audit techniques, special control considerations, and the use of computers in audit practices. Students will also learn about computerized working paper programs to enhance audit efficiency.",
         // },
@@ -6082,7 +6082,7 @@ export const bcominaccounting = {
         // {
         //   question: "Corporate Secretaryship 2",
         //   subanswer:
-        //     "Code: A7-CS2-20<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $130<br/>Module Credits: 10",
+        //     "Code: A7-CS2-20<br/>Module Fees: $130<br/>Module Credits: 10",
         //   answer:
         //     "This module provides a comprehensive understanding of the legal and regulatory framework governing companies. It covers company formation, types, incorporation effects, and statutory compliance. Students will explore share capital, financial reporting, corporate governance, and directors' responsibilities. Emphasis is placed on legal provisions, corporate structure, and effective company administration.",
         // },
@@ -6143,14 +6143,14 @@ export const bcominaccounting = {
     //     {
     //       question: "Social Entrepreneurship",
     //       subanswer:
-    //         "Code: B8-SOE-21<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+    //         "Code: B8-SOE-21<br/>Module Fees: $260<br/>Module Credits: 20",
     //       answer:
     //         "This module explores how social entrepreneurs develop innovative solutions to address global challenges. Students will gain practical skills in managing small enterprises, leveraging disruptive technologies, and applying entrepreneurial thinking to foster sustainability. Areas of focus include scaling social businesses, impact measurement, and integrating sustainable development goals for lasting change.",
     //     },
     //     {
     //       question: "Innovation for Sustainable Development",
     //       subanswer:
-    //         "Code: E8-ISD-17<br/>Prerequisite: None<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+    //         "Code: E8-ISD-17<br/>Module Fees: $260<br/>Module Credits: 20",
     //       answer:
     //         "This module focuses on group dynamics, enhancing efficiency, participation, and satisfaction. It equips students with facilitation, research, and analytical skills while fostering multidisciplinary collaboration through design thinking. Students will define and analyze real societal problems, applying self-competencies and teamwork to develop and implement practical solutions.",
     //     },
@@ -6176,7 +6176,7 @@ export const bcominaccounting = {
         // {
         //   question: "Research Project 2: Dissertation",
         //   subanswer:
-        //     "Code: B7-RP2-20<br/>Prerequisite: B7-RP1-20<br/>Co-requisite: None<br/>Module Fees: $260<br/>Module Credits: 20",
+        //     "Code: B7-RP2-20<br/>Prerequisite: B7-RP1-20<br/>Module Fees: $260<br/>Module Credits: 20",
         //   answer:
         //     "This module guides students in conducting independent research at the honours level. It covers problem identification, literature review, research design, data collection, analysis, and interpretation. Students will develop a well-structured dissertation, drawing conclusions and making recommendations, demonstrating their ability to apply research skills to real-world issues.",
         // },
@@ -6244,3 +6244,48 @@ export const bcominaccounting = {
   programOverview: `Your Future in Accounting Starts Here! Our Bachelor of Commerce in Accounting programme offers a practical, industry-focused approach to a rewarding career in accounting and finance. You'll gain essential expertise in financial reporting, auditing, taxation, and management accounting. What sets this degree apart is its blend of theory and hands-on experience, including a compulsory semester-long internship for invaluable real-world exposure.<br></br>Prepare for success in diverse roles across public and private accounting, financial analysis, banking, and government. This programme also provides a strong foundation for professional certifications like ACCA, CPA, and CIMA, opening doors to advanced career development and ensuring you're ready to confidently navigate the financial world.`,
 };
 
+
+
+// server {
+//     server_name online.bothouniversity.com;
+
+//     root /var/www/dummy-site;
+//     index index.html;
+
+//     location /pdf/ {
+//         alias /var/www/dummy-site/programs/;
+//         try_files $uri =404;
+//         gzip off;
+//         add_header Content-Type application/pdf;
+//     }
+
+//     location /assets/ {
+//         try_files $uri =404;
+//         access_log off;
+//         expires 1y;
+//         add_header Cache-Control "public, immutable";
+//     }
+
+//     location / {
+//         try_files $uri $uri/ /index.html;
+//     }
+
+//     listen 443 ssl; # managed by Certbot
+//     ssl_certificate /etc/letsencrypt/live/online.bothouniversity.com/fullchain.pem; # managed by Certbot
+//     ssl_certificate_key /etc/letsencrypt/live/online.bothouniversity.com/privkey.pem; # managed by Certbot
+//     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+//     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+// }
+// server {
+//     if ($host = online.bothouniversity.com) {
+//         return 301 https://$host$request_uri;
+//             } # managed by Certbot
+
+
+//     listen 80;
+//     server_name online.bothouniversity.com;
+//     return 404; # managed by Certbot
+
+
+// }

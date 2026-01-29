@@ -69,7 +69,7 @@ const Footer = () => {
     //   "noopener,noreferrer"
     // );
     window.open(
-      `https://di00ymfrmfyeb.cloudfront.net/3-PY-BOT-004 Data Protection Policy.pdf`,
+      `https://online.bothouniversity.com/pdf/3-PY-BOT-004 Data Protection Policy.pdf`,
       "_blank",
       "noopener,noreferrer"
     );
