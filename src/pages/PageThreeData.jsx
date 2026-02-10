@@ -3038,9 +3038,9 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
     typicalfulltimestudyperiod: 4,
     // maxPeriod: 6,
     programmeCredit: "$13",
-    totalProgrammeCredit: 508,
+    totalProgrammeCredit: 504,
     noOfModules: "38 (36 core + 2 elective)",
-    totalFee: "$6,604",
+    totalFee: "$6,552",
     cta: true,
     timer: true,
     overview: true,
@@ -3330,7 +3330,7 @@ export const bscinsafetyhealthandenvironmentalmanagement = {
         {
           question: "Research Project 1 (Proposal Writing)",
           subanswer:
-            "Code: D7-RP1-23<br/>Prerequisite: D7-OEP-25<br/>Module Fees: $156<br/>Module Credits: 12",
+            "Code: D7-RP1-23<br/>Prerequisite: D7-OEP-25<br/>Module Fees: $104<br/>Module Credits: 8",
           answer:
             "This module equips students with skills to design and develop a comprehensive research proposal. It covers critical analysis, evaluation, and synthesis of academic materials, identification of research gaps, justification of methodology and tools, and formulation of a primary research project proposal. Students develop a proposal under a supervisor's guidance and present their work.",
         },
