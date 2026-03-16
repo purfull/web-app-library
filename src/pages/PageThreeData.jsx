@@ -141,7 +141,7 @@ export const doctorofphilosophyincomputerscience = {
         {
           question: "Supervised Research and Thesis in Computer Science",
           subanswer:
-            "Code: C9-SRT-26<br/>Module Credits: 360",
+            "Code: C10-SRT-26<br/>Module Credits: 360",
           answer:
             "This module supports candidates in conducting original research that advances the field of Computer Science. With ongoing supervision, students refine their research problem, review relevant literature, design suitable methodologies, and carry out theoretical, computational, or experimental investigations. Regular progress reviews, along with expectations to publish in reputable scholarly journals, ensure academic rigour and research excellence. The module culminates in the submission of a doctoral thesis and a Viva Voce defence demonstrating the quality, originality, and scholarly contribution of the research.",
         },
@@ -5990,7 +5990,7 @@ export const bcominaccounting = {
           subanswer:
             "Code: A7-FA2-25<br/>Prerequisite: A7-FA1-17<br/>Module Fees: $130<br/>Module Credits: 10",
           answer:
-            "This module focuses on key financial reporting standards, including IAS 38 for intangible assets, IAS 17 for leases, IAS 2 for inventories, and IFRS cash flow preparation. It explores revenue recognition, financial instruments, and their measurement, ensuring compliance with IFRS principles for accurate financial reporting and decision-making.",
+            "This module focuses on key financial reporting standards, including IAS 38 for intangible assets, IFRS 16 for leases, IAS 2 for inventories, and IFRS cash flow preparation. It explores revenue recognition, financial instruments, and their measurement, ensuring compliance with IFRS principles for accurate financial reporting and decision-making.",
         },
       ],
     },
@@ -6167,11 +6167,11 @@ export const bcominaccounting = {
             "This module provides students with industry attachment for hands-on experience in accounting. Assessment emphasizes supervision, a final paper, and a portfolio of evidence. Students will demonstrate key competencies, balance theory with practice, and engage in academic discourse to enhance their professional skills in real-world accounting environments.",
         },
         {
-          question: "Professional Practice (Internship)",
+          question: "Research Project 2: Dissertation",
           subanswer:
-            "Code: A7-PPR-25<br/>Prerequisite: A7-RP1-20<br/>Module Fees: $260<br/>Module Credits: 20",
+            "Code: B7-RP2-20<br/>Prerequisite: B7-RP1-20<br/>Module Fees: $260<br/>Module Credits: 20",
           answer:
-            "This module guides students in conducting independent research at honours level. It covers problem identification, literature review, research design, data collection, analysis, and interpretation. Students will develop a well-structured dissertation, drawing conclusions and making recommendations, demonstrating their ability to apply research skills to real-world issues.",
+            "This module guides students in conducting independent research at the honours level. It covers problem identification, literature review, research design, data collection, analysis, and interpretation. Students will develop a well-structured dissertation, drawing conclusions and making recommendations, demonstrating their ability to apply research skills to real-world issues.",
         },
         // {
         //   question: "Research Project 2: Dissertation",

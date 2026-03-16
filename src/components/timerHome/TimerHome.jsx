@@ -444,17 +444,18 @@ import img2 from "/images/Ellipse 22.png";
 import img3 from "/images/Ellipse 23.png";
 import img4 from "/images/Ellipse 24.png";
 import downloadIcon from "/icon/Frame (1).png";
+import { useLocation } from "react-router-dom";
 
 const imageList = [img1, img2, img3, img4];
 
-const TimerHome = ({ data, programOverview, feePage }) => {
+const TimerHome = ({ data, programOverview, feePage, launchDate }) => {
   const [timeLeft, setTimeLeft] = useState({});
   const [nearestStartDate, setNearestStartDate] = useState(null);
 
   // const launchDate = new Date(data?.launchDate).getTime();
   // const launchDate = ["10-07{", "16-10", "13-01", "10-04"];
   // const launchDate = ["13-01", "10-04", "10-07", "13-10"]; // DD-MM
-  const launchDate = ["15-01", "10-04", "10-07", "13-10"];
+
 
   // next year cycle logic missing
 
@@ -551,7 +552,7 @@ const TimerHome = ({ data, programOverview, feePage }) => {
     updateTime();
     const timer = setInterval(updateTime, 1000);
     return () => clearInterval(timer);
-  }, []);
+  }, [launchDate]);
 
   const handleEnq = () => {
     window.open(

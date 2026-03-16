@@ -39,6 +39,7 @@ import { useParams } from "react-router-dom";
 const PageThree = () => {
   const { name } = useParams();
   const [course, setCourse] = useState();
+    const [launchDate, setLaunchDate] = useState(["15-01", "10-04", "10-07", "13-10"]);
 
   const courseMap = {
     bbainbusinessmanagement,
@@ -66,7 +67,12 @@ const PageThree = () => {
   useEffect(() => {
     const courseData = courseMap[name];
     setCourse(courseData);
-    console.log("Resolved course:", course?.heroContent);
+     if (name == "bedinprimaryeducation") {
+      setLaunchDate(["10-07", "13-10"]);
+    } else {
+      setLaunchDate(["15-01", "10-04", "10-07", "13-10"]);
+    }
+    console.log("name:", name);
   }, [name]);
 
  
@@ -238,6 +244,7 @@ It's very important to us at Botho University that students receive timely assis
       <TimerHome
         data={course?.heroContent}
         programOverview={course?.programOverview}
+        launchDate={launchDate}
       />
       {/* <Course /> */}
       <Faq

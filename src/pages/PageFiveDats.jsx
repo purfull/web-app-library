@@ -74,7 +74,7 @@ export const doctorofphilosophyincomputerscience = {
       modules: [
         {
           type: "Core",
-          code: "C9-SRT-26",
+          code: "C10-SRT-26",
           name: "Supervised Research and Thesis in Computer Science",
           credit: 360,
           // fee: "$130.00",
@@ -850,7 +850,7 @@ export const bcominaccounting = {
         },
         {
           type: "Core",
-          code: "A7-RP2-20",
+          code: "B7-RP2-20",
           name: "Research Project 2: Dissertation",
           credit: 20,
           fee: "$260.00",
