@@ -456,7 +456,6 @@ const TimerHome = ({ data, programOverview, feePage, launchDate }) => {
   // const launchDate = ["10-07{", "16-10", "13-01", "10-04"];
   // const launchDate = ["13-01", "10-04", "10-07", "13-10"]; // DD-MM
 
-
   // next year cycle logic missing
 
   // useEffect(() => {
@@ -514,12 +513,18 @@ const TimerHome = ({ data, programOverview, feePage, launchDate }) => {
   // next year cycle logic fixed
 
   useEffect(() => {
+    if (!launchDate || launchDate.length === 0) {
+      setTimeLeft({});
+      setNearestStartDate(null);
+      return;
+    }
+
     const updateTime = () => {
       const now = new Date().getTime();
       const thisYear = new Date().getFullYear();
 
       let launchDatesTimestamps = launchDate
-        .map((dateStr) => {
+        ?.map((dateStr) => {
           const [day, month] = dateStr.split("-");
           const fullDate = new Date(thisYear, month - 1, day, 0, 0, 0);
           return fullDate.getTime();
@@ -528,8 +533,8 @@ const TimerHome = ({ data, programOverview, feePage, launchDate }) => {
         .sort((a, b) => a - b);
 
       // 🩵 Handle year rollover
-      if (launchDatesTimestamps.length === 0) {
-        const [day, month] = launchDate[0].split("-");
+      if (launchDatesTimestamps?.length === 0) {
+        const [day, month] = launchDate[0]?.split("-");
         const nextYear = thisYear + 1;
         const nextDate = new Date(nextYear, month - 1, day, 0, 0, 0).getTime();
         launchDatesTimestamps = [nextDate];
@@ -557,7 +562,7 @@ const TimerHome = ({ data, programOverview, feePage, launchDate }) => {
   const handleEnq = () => {
     window.open(
       "https://bothouniversity.academiaerp.com/onlineEnquire",
-      "noopener,noreferrer"
+      "noopener,noreferrer",
     );
   };
   const download = (url) => {
@@ -607,36 +612,49 @@ const TimerHome = ({ data, programOverview, feePage, launchDate }) => {
                 <h3>{data?.maxPeriod} years</h3>
                 <p>Maximum Period</p>
               </div> */}
-            {data?.programmeCredit && <div>
-              <h3>{data?.programmeCredit} </h3>
-              <p>Fees per Programme Credit</p>
-            </div>}
+            {data?.programmeCredit && (
+              <div>
+                <h3>{data?.programmeCredit} </h3>
+                <p>Fees per Programme Credit</p>
+              </div>
+            )}
             <div>
               <h3>{data?.totalProgrammeCredit} </h3>
               <p>Total Programme Credits</p>
             </div>
-            {data?.totalFee && <div>
-              <h3>{data?.totalFee} </h3>
-              <p>Total Tuition Fee</p>
-            </div>}
+            {data?.totalFee && (
+              <div>
+                <h3>{data?.totalFee} </h3>
+                <p>Total Tuition Fee</p>
+              </div>
+            )}
             <div>
               <h3>{data?.noOfModules} </h3>
               <p>Number of Modules</p>
             </div>
-            
-              {data?.tuitionFeePerSemester && <div>
+
+            {data?.tuitionFeePerSemester && (
+              <div>
                 <h3>{data?.tuitionFeePerSemester} </h3>
                 <p>**Tuition Fee Per Semester</p>
-              </div>}
+              </div>
+            )}
             {/* </div> */}
             {/* <div className="grid-2">
               
             </div> */}
-
           </div>
-          {data?.tuitionFeePerSemester && <div className="">
-            <p className="sub-heading" style={{paddingLeft: "0", marginBottom: "24px"}}>**Programme fees vary based on the number of semesters required to complete</p>
-          </div>}
+          {data?.tuitionFeePerSemester && (
+            <div className="">
+              <p
+                className="sub-heading"
+                style={{ paddingLeft: "0", marginBottom: "24px" }}
+              >
+                **Programme fees vary based on the number of semesters required
+                to complete
+              </p>
+            </div>
+          )}
           {data?.cta && (
             <div className="forButton">
               <button className="secondary-button" onClick={handleEnq}>
