@@ -11,7 +11,7 @@ import { FaWhatsapp } from "react-icons/fa";
 // import { FaXTwitter } from "react-icons/fa6";
 
 // import { SiTiktok } from "react-icons/si";
-import FloaterIcon from "../../../public/icon/floater-icon.png";
+import FloaterIcon from "/icon/floater-icon.png";
 const Floater = () => {
   const [open, setOpen] = useState(false);
 
