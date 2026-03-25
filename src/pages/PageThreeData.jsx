@@ -52,7 +52,7 @@ export const doctorofphilosophyinbusinessadministration = {
     {
       question: "Admission Requirements",
       answer:
-        "A Master’s Degree in Computer Science or a cognate field of study is required for admission. Entry through Recognition of Prior Learning (RPL) and Credit Accumulation and Transfer (CAT) is permitted in accordance with the institution's policies.",
+        "A Masters Degree in the same or a cognate field of study is required for admission. Entry through Recognition of Prior Learning (RPL) and Credit Accumulation and Transfer (CAT) is permitted in accordance with the institution's policies.",
     },
 
     {
@@ -152,7 +152,7 @@ export const doctorofphilosophyincomputerscience = {
     {
       question: "Admission Requirements",
       answer:
-        "A Master’s Degree in same or a cognate field of study is required for admission. Entry through Recognition of Prior Learning (RPL) and Credit Accumulation and Transfer (CAT) is permitted in accordance with the institution's policies.",
+        `A Master’s Degree in Computer Science or a cognate field of study is required for admission. Entry through Recognition of Prior Learning (RPL) and Credit Accumulation and Transfer (CAT) is permitted in accordance with the institution's policies.`,
     },
 
     {
