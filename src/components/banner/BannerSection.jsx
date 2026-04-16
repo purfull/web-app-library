@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 const BannerSection = () => {
   const handleEnq = () => {
     window.open(
-      "https://bothouniversity.academiaerp.com/onlineEnquire/",
+      "https://bothouniversity.academiaerp.com/applicant-portal/#/auth/login",
       "_blank",
       "noopener,noreferrer"
     );
@@ -44,7 +44,7 @@ const BannerSection = () => {
               className="primary-button enquire-now-button"
               onClick={handleEnq}
             >
-              Enquire Now{" "}
+              Apply Now{" "}
               <img
                 src="/icon/arrow_forward.png"
                 alt=""

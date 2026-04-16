@@ -18,7 +18,7 @@ import Terms from "../components/terms/terms";
 
 const HomePage = () => {
   const cardData = [
-    
+
     {
       cover: "/images/courses-images/PHD in Computer Science.jpg",
       courseName: "Doctoral Programme",
@@ -142,7 +142,7 @@ If you opt for a full-time load of 60 credits in a semester for a postgraduate p
 </p>
       `,
       // 
-// You can review our complete Fee Structure at your convenience <a href= "/all-fee" target="_blank" rel="noopener noreferrer">here</a>
+      // You can review our complete Fee Structure at your convenience <a href= "/all-fee" target="_blank" rel="noopener noreferrer">here</a>
     },
     {
       question: "When are the intakes for Botho University Online?",

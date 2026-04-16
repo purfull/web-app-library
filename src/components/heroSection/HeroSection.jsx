@@ -76,7 +76,7 @@ const HeroSection = () => {
 
   const handleEnq = () => {
     window.open(
-      "https://bothouniversity.academiaerp.com/onlineEnquire/",
+      "https://bothouniversity.academiaerp.com/applicant-portal/#/auth/login",
       "_blank",
       "noopener,noreferrer"
     );
@@ -109,7 +109,7 @@ const HeroSection = () => {
 
                 <div className="buttons-corner">
                   <button className="secondary-button" onClick={handleEnq}>
-                    <span>Get a Call Back</span>
+                    <span>Apply Now</span>
                     <img
                       className="arrow-icon-img"
                       src="/icon/call-icon.png"

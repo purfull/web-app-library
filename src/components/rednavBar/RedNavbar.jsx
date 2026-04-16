@@ -12,7 +12,7 @@ const RedNavbar = () => {
   const navigate = useNavigate();
   const mobileNavRef = useRef(null);
 
-   const handleWhyClick = () => {
+  const handleWhyClick = () => {
     navigate("/all-Courses");
     window.scrollTo(0, 0);
     // window.scrollTo(0, window.innerHeight);
@@ -23,30 +23,43 @@ const RedNavbar = () => {
     window.scrollTo(0, 0);
   };
 
-   useEffect(() => {
-  const footer = document.querySelector(".footer-main-con");
+  useEffect(() => {
+    const footer = document.querySelector(".footer-main-con");
 
-  if (footer && mobileNavRef.current) {
-    ScrollTrigger.create({
-      trigger: footer,
-      start: "top bottom",
-      end: "bottom bottom",
-      onEnter: () => gsap.to(mobileNavRef.current, { autoAlpha: 0 }), // hides
-      onLeaveBack: () => gsap.to(mobileNavRef.current, { autoAlpha: 1 }) // shows
-    });
-  }
+    if (footer && mobileNavRef.current) {
+      ScrollTrigger.create({
+        trigger: footer,
+        start: "top bottom",
+        end: "bottom bottom",
+        onEnter: () => gsap.to(mobileNavRef.current, { autoAlpha: 0 }), // hides
+        onLeaveBack: () => gsap.to(mobileNavRef.current, { autoAlpha: 1 }) // shows
+      });
+    }
 
-  return () => ScrollTrigger.getAll().forEach(trigger => trigger.kill());
-}, []);
+    return () => ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+  }, []);
 
-const handleWhatsappClick = () => {
-  
+  const handleWhatsappClick = () => {
+
     window.open(
       `https://wa.me/26777017160`,
       "_blank",
       "noopener,noreferrer"
     );
-}
+  }
+  //  const handleEnq = () => {
+  //   window.open(
+  //     "https://bothouniversity.academiaerp.com/onlineEnquire",
+  //     "noopener,noreferrer",
+  //   );
+  // };
+
+  const handleEnq = () => {
+    window.open(
+      "https://bothouniversity.academiaerp.com/applicant-portal/#/auth/login",
+      "noopener,noreferrer",
+    );
+  };
 
   return (
     <div className="red-container">
@@ -57,23 +70,28 @@ const handleWhatsappClick = () => {
         </span>
         <div className="details">
           <span>@ onlineadmissions@bothouniversity.ac.bw</span>
-          <div className="" style={{display: "flex", alignItems: "center"}}>
-            
-          <img src="/icon/whatsapp-coloured-logo.png" alt="whatsapp" style={{marginRight: '4px'}} />
-          <span onClick={handleWhatsappClick} style={{cursor: "pointer"}}>+267 77 017 160</span>
+          <div className="" style={{ display: "flex", alignItems: "center" }}>
+
+            <img src="/icon/whatsapp-coloured-logo.png" alt="whatsapp" style={{ marginRight: '4px' }} />
+            <span onClick={handleWhatsappClick} style={{ cursor: "pointer" }}>+267 77 017 160</span>
+          </div>
+          <div className="" style={{ display: "flex", alignItems: "center" }}>
+
+            <img src="/icon/call-icon.png" alt="whatsapp" style={{ marginRight: '4px' }} />
+            <span onClick={handleEnq} style={{ cursor: "pointer", textDecoration: "underline" }}>Get a Call Back</span>
           </div>
         </div>
       </div>
       <div className="red-head-mobile" ref={mobileNavRef}>
         <span className="welcome"
-            onClick={handleWhyClick}
-            style={{ cursor: "pointer" }}>
+          onClick={handleWhyClick}
+          style={{ cursor: "pointer" }}>
           Our Programmes
         </span>
-        <span style={{color:"gray"}}>|</span>
-        <span className="welcome" 
-            onClick={handleFeeClick}
-            style={{ cursor: "pointer" }}>
+        <span style={{ color: "gray" }}>|</span>
+        <span className="welcome"
+          onClick={handleFeeClick}
+          style={{ cursor: "pointer" }}>
           Our Fees
         </span>
       </div>
